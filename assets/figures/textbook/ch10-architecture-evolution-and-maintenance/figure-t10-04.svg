@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 660" font-family="Liberation Serif, SimSun, 'Noto Serif CJK SC', 'WenQuanYi Zen Hei', 'Droid Sans Fallback', serif" font-size="17">
+  <title>表 10-4 Web 读写系统可维护性度量结果</title>
+  <desc>复原自《系统架构设计师教程（第2版）》印刷页366（物理页375）。表头 FFC/RFC/CBO/LCC/TCC，13 行组件度量结果（LCC/TCC 多为 not applied，仅 ClientApplication 为 3/3），底部汇总块：CCN=8、FFC=46.154、RFC=1.615、CBO=0.219、LCC=3、TCC=3。行名 RcmoteApplication、RcmotcInterface 与 DB、Browser 为印面怪字（原书如此）。</desc>
+  <g fill="none" stroke="#000">
+    <rect x="10" y="10" width="880" height="640" stroke-width="2"/>
+    <line x1="10" y1="50" x2="890" y2="50" stroke-width="0.8"/>
+    <line x1="250" y1="10" x2="250" y2="650" stroke-width="0.8"/>
+    <line x1="390" y1="10" x2="390" y2="650" stroke-width="0.8"/>
+    <line x1="505" y1="10" x2="505" y2="650" stroke-width="0.8"/>
+    <line x1="620" y1="10" x2="620" y2="650" stroke-width="0.8"/>
+    <line x1="735" y1="10" x2="735" y2="650" stroke-width="0.8"/>
+    <line x1="815" y1="570" x2="815" y2="650" stroke-width="0.8"/>
+    <g stroke-width="0.7">
+      <line x1="10" y1="90" x2="890" y2="90"/>
+      <line x1="10" y1="130" x2="890" y2="130"/>
+      <line x1="10" y1="170" x2="890" y2="170"/>
+      <line x1="10" y1="210" x2="890" y2="210"/>
+      <line x1="10" y1="250" x2="890" y2="250"/>
+      <line x1="10" y1="290" x2="890" y2="290"/>
+      <line x1="10" y1="330" x2="890" y2="330"/>
+      <line x1="10" y1="370" x2="890" y2="370"/>
+      <line x1="10" y1="410" x2="890" y2="410"/>
+      <line x1="10" y1="450" x2="890" y2="450"/>
+      <line x1="10" y1="490" x2="890" y2="490"/>
+      <line x1="10" y1="530" x2="890" y2="530"/>
+      <line x1="10" y1="570" x2="890" y2="570" stroke-width="2"/>
+      <line x1="10" y1="610" x2="890" y2="610" stroke-width="0.8"/>
+    </g>
+  </g>
+  <g fill="#000" stroke="none" text-anchor="middle">
+    <text x="320" y="37">FFC</text>
+    <text x="447" y="37">RFC</text>
+    <text x="562" y="37">CBO</text>
+    <text x="677" y="37">LCC</text>
+    <text x="812" y="37">TCC</text>
+    <text x="130" y="77">RSInterface</text>
+    <text x="130" y="117">RcmoteApplication</text>
+    <text x="130" y="157">RcmotcInterface</text>
+    <text x="130" y="197">RemoteDB</text>
+    <text x="130" y="237">LocalDB</text>
+    <text x="130" y="277">RSApplication</text>
+    <text x="130" y="317">ClientApplication</text>
+    <text x="130" y="357">WebApplication</text>
+    <text x="130" y="397">WebInterface</text>
+    <text x="130" y="437">MainInterface</text>
+    <text x="130" y="477">User</text>
+    <text x="130" y="517">DB</text>
+    <text x="130" y="557">Browser</text>
+    <text x="320" y="77">32</text><text x="447" y="77">2</text><text x="562" y="77">0.231</text><text x="677" y="77">not applied</text><text x="812" y="77">not applied</text>
+    <text x="320" y="117">32</text><text x="447" y="117">1</text><text x="562" y="117">0.231</text><text x="677" y="117">not applied</text><text x="812" y="117">not applied</text>
+    <text x="320" y="157">32</text><text x="447" y="157">1</text><text x="562" y="157">0.231</text><text x="677" y="157">not applied</text><text x="812" y="157">not applied</text>
+    <text x="320" y="197">8</text><text x="447" y="197">0</text><text x="562" y="197">0.154</text><text x="677" y="197">not applied</text><text x="812" y="197">not applied</text>
+    <text x="320" y="237">8</text><text x="447" y="237">0</text><text x="562" y="237">0.154</text><text x="677" y="237">not applied</text><text x="812" y="237">not applied</text>
+    <text x="320" y="277">128</text><text x="447" y="277">2</text><text x="562" y="277">0.308</text><text x="677" y="277">not applied</text><text x="812" y="277">not applied</text>
+    <text x="320" y="317">32</text><text x="447" y="317">4</text><text x="562" y="317">0.231</text><text x="677" y="317">3</text><text x="812" y="317">3</text>
+    <text x="320" y="357">128</text><text x="447" y="357">2</text><text x="562" y="357">0.308</text><text x="677" y="357">not applied</text><text x="812" y="357">not applied</text>
+    <text x="320" y="397">32</text><text x="447" y="397">2</text><text x="562" y="397">0.231</text><text x="677" y="397">not applied</text><text x="812" y="397">not applied</text>
+    <text x="320" y="437">128</text><text x="447" y="437">3</text><text x="562" y="437">0.308</text><text x="677" y="437">not applied</text><text x="812" y="437">not applied</text>
+    <text x="320" y="477">0</text><text x="447" y="477">1</text><text x="562" y="477">0.077</text><text x="677" y="477">not applied</text><text x="812" y="477">not applied</text>
+    <text x="320" y="517">8</text><text x="447" y="517">0</text><text x="562" y="517">0.154</text><text x="677" y="517">not applied</text><text x="812" y="517">not applied</text>
+    <text x="320" y="557">32</text><text x="447" y="557">2</text><text x="562" y="557">0.231</text><text x="677" y="557">not applied</text><text x="812" y="557">not applied</text>
+    <text x="320" y="597">CCN</text><text x="447" y="597">FFC</text><text x="562" y="597">RFC</text><text x="677" y="597">CBO</text><text x="775" y="597">LCC</text><text x="852" y="597">TCC</text>
+    <text x="130" y="637">最终结果</text>
+    <text x="320" y="637">8</text><text x="447" y="637">46.154</text><text x="562" y="637">1.615</text><text x="677" y="637">0.219</text><text x="775" y="637">3</text><text x="852" y="637">3</text>
+  </g>
+</svg>

@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" font-family="Liberation Serif, SimSun, 'Noto Serif CJK SC', 'WenQuanYi Zen Hei', 'Droid Sans Fallback', serif" font-size="17">
+  <title>图 10-20 Web 读写程序组件图</title>
+  <desc>复原自《系统架构设计师教程（第2版）》印刷页364（物理页373）。UML组件图：外框左上角切角标签cmp Component；第一行 User—MainInterface—ClientApplication大框（内含sub1、sub2；ClientApplication框内右上角另有其自身的无标签组件图标；框内delegate接口指向sub1，sub2经接口连LocalDB，另有delegate虚线指向LocalDB）；第二行 User—WebInterface→WebApplication→User（虚线依赖+接口实线）；第三行 RemoteInterface→RemoteApplication→RSInterface→RSApplication→RemoteDB（虚线依赖+接口实线）。各组件矩形内的组件图标位于右下角（ClientApplication 的为框内右上角无标签大图标）；组件间连接处为 ball/socket 接口符号。</desc>
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#000"/></marker>
+    <g id="compicon">
+      <rect x="-30" y="-16" width="34" height="24" fill="#fff" stroke="#000" stroke-width="1"/>
+      <rect x="-37" y="-12" width="7" height="6" fill="#fff" stroke="#000" stroke-width="1"/>
+      <rect x="-37" y="-3" width="7" height="6" fill="#fff" stroke="#000" stroke-width="1"/>
+    </g>
+    <g id="ballsocket-h">
+      <circle cx="0" cy="0" r="8" fill="#fff" stroke="#000" stroke-width="1.2"/>
+      <path d="M-6,-10 A12,12 0 0,0 -6,10" fill="none" stroke="#000" stroke-width="1.2"/>
+    </g>
+    <g id="socket-h">
+      <path d="M-6,-10 A12,12 0 0,0 -6,10" fill="none" stroke="#000" stroke-width="1.2"/>
+    </g>
+    <g id="ballsocket-v">
+      <circle cx="0" cy="0" r="8" fill="#fff" stroke="#000" stroke-width="1.2"/>
+      <path d="M-10,-6 A12,12 0 0,0 10,-6" fill="none" stroke="#000" stroke-width="1.2"/>
+    </g>
+  </defs>
+  <g fill="none" stroke="#000" stroke-width="1.2">
+    <!-- 外框与标签 -->
+    <rect x="30" y="40" width="945" height="560"/>
+    <path d="M30,40 L195,40 L215,62 L215,82 L30,82 Z"/>
+    <!-- ClientApplication 大框 -->
+    <rect x="340" y="85" width="430" height="215"/>
+    <!-- 组件框 -->
+    <rect x="170" y="105" width="110" height="65"/>
+    <rect x="140" y="215" width="180" height="70"/>
+    <rect x="440" y="122" width="115" height="100"/>
+    <rect x="590" y="122" width="115" height="100"/>
+    <rect x="810" y="115" width="120" height="60"/>
+    <rect x="170" y="320" width="110" height="65"/>
+    <rect x="300" y="310" width="200" height="90"/>
+    <rect x="560" y="310" width="160" height="90"/>
+    <rect x="780" y="320" width="110" height="65"/>
+    <rect x="60" y="450" width="186" height="85"/>
+    <rect x="270" y="450" width="170" height="85"/>
+    <rect x="480" y="450" width="140" height="85"/>
+    <rect x="660" y="450" width="170" height="85"/>
+    <rect x="865" y="450" width="110" height="85"/>
+    <!-- 第一行连线 -->
+    <line x1="225" y1="170" x2="225" y2="215"/>
+    <use href="#ballsocket-v" x="225" y="192"/>
+    <line x1="320" y1="215" x2="340" y2="172"/>
+    <use href="#ballsocket-h" x="326" y="197"/>
+    <line x1="320" y1="267" x2="430" y2="198" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+    <line x1="340" y1="172" x2="382" y2="172" marker-end="url(#ar)"/>
+    <circle cx="396" cy="172" r="10"/>
+    <line x1="406" y1="172" x2="440" y2="172"/>
+    <line x1="555" y1="165" x2="590" y2="165"/>
+    <use href="#ballsocket-h" x="572" y="165"/>
+    <line x1="705" y1="145" x2="714" y2="145"/>
+    <use href="#socket-h" x="720" y="145"/>
+    <line x1="728" y1="145" x2="781" y2="145" marker-end="url(#ar)"/>
+    <use href="#ballsocket-h" x="794" y="145"/>
+    <line x1="802" y1="145" x2="810" y2="145"/>
+    <line x1="705" y1="216" x2="803" y2="166" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+    <!-- MainInterface 与 User(2) 竖连 -->
+    <line x1="225" y1="285" x2="225" y2="320"/>
+    <use href="#ballsocket-v" x="225" y="302"/>
+    <!-- User(2) 与 RemoteInterface 竖连 -->
+    <line x1="225" y1="385" x2="225" y2="450"/>
+    <use href="#ballsocket-v" x="225" y="417"/>
+    <!-- 第二行连线 -->
+    <line x1="280" y1="345" x2="300" y2="345"/>
+    <use href="#ballsocket-h" x="290" y="345"/>
+    <line x1="500" y1="330" x2="560" y2="330" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+    <line x1="500" y1="375" x2="560" y2="375"/>
+    <use href="#ballsocket-h" x="525" y="375"/>
+    <line x1="720" y1="330" x2="780" y2="330" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+    <line x1="720" y1="375" x2="780" y2="375"/>
+    <use href="#ballsocket-h" x="745" y="375"/>
+    <!-- 第三行连线 -->
+    <line x1="246" y1="480" x2="270" y2="480" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+    <line x1="246" y1="508" x2="270" y2="508"/>
+    <use href="#ballsocket-h" x="258" y="508"/>
+    <line x1="440" y1="480" x2="480" y2="480" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+    <line x1="440" y1="508" x2="480" y2="508"/>
+    <use href="#ballsocket-h" x="460" y="508"/>
+    <line x1="620" y1="480" x2="660" y2="480" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+    <line x1="620" y1="508" x2="660" y2="508"/>
+    <use href="#ballsocket-h" x="640" y="508"/>
+    <line x1="830" y1="480" x2="865" y2="480" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+    <line x1="830" y1="508" x2="865" y2="508"/>
+    <use href="#ballsocket-h" x="847" y="508"/>
+  </g>
+  <!-- 组件图标 -->
+  <use href="#compicon" transform="translate(757,111) scale(1.35)"/>
+  <use href="#compicon" x="268" y="158"/>
+  <use href="#compicon" x="305" y="270"/>
+  <use href="#compicon" x="540" y="200"/>
+  <use href="#compicon" x="690" y="200"/>
+  <use href="#compicon" x="915" y="163"/>
+  <use href="#compicon" x="268" y="373"/>
+  <use href="#compicon" x="485" y="385"/>
+  <use href="#compicon" x="705" y="385"/>
+  <use href="#compicon" x="878" y="373"/>
+  <use href="#compicon" x="231" y="520"/>
+  <use href="#compicon" x="425" y="520"/>
+  <use href="#compicon" x="605" y="520"/>
+  <use href="#compicon" x="815" y="520"/>
+  <use href="#compicon" x="960" y="520"/>
+  <g fill="#000" stroke="none">
+    <text x="115" y="68">cmp Component</text>
+    <text x="590" y="108" text-anchor="middle">ClientApplication</text>
+    <text x="197" y="143">User</text>
+    <text x="152" y="247">MainInterface</text>
+    <text x="472" y="168" font-size="16">sub1</text>
+    <text x="622" y="168" font-size="16">sub2</text>
+    <text x="842" y="150">LocalDB</text>
+    <text x="382" y="150" font-size="16">&lt;&lt;delegate&gt;&gt;</text>
+    <text x="648" y="234" font-size="16">&lt;&lt;delegate&gt;&gt;</text>
+    <text x="177" y="358">User</text>
+    <text x="315" y="348">WebInterface</text>
+    <text x="572" y="348">WebApplication</text>
+    <text x="807" y="358">User</text>
+    <text x="72" y="485">RemoteInterface</text>
+    <text x="282" y="485">RemoteApplication</text>
+    <text x="490" y="485">RSInterface</text>
+    <text x="672" y="485">RSApplication</text>
+    <text x="875" y="485">RemoteDB</text>
+  </g>
+</svg>

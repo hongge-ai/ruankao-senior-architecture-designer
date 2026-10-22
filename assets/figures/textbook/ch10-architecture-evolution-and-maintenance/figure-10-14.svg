@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1360 1200" font-family="Liberation Serif, SimSun, 'Noto Serif CJK SC', 'WenQuanYi Zen Hei', 'Droid Sans Fallback', serif" font-size="18">
+  <title>图 10-14 第五阶段网站架构</title>
+  <desc>复原自《系统架构设计师教程（第2版）》印刷页357（物理页366）。左侧圆角框「负载均衡调度服务器」（文字分两行），其右缘分出三条箭头指向三层错位应用服务器框（「应用服务器n」「应用服务器2」「应用服务器1」）左边缘。最前的「应用服务器1」框内含平行四边形「应用程序」、其下方波浪纸形「本地缓存」、右下方圆角「数据访问模块」（文字分两行）；「应用程序」向下有箭头指向「本地缓存」，其右侧顶点分出三条箭头：一条指向右上方三层错位缓存服务器框（最前框内为「远程分布式缓存」）的前框下边缘、一条指向「文件服务器」左缘（内含错位多张纸「文件」）、一条指向「数据访问模块」上边缘。「数据访问模块」左下角分出两条箭头：标「写操作」者指向「数据库服务器（主）」左缘，标「读操作」者指向「数据库服务器（从）」上边缘；「数据库服务器（主）」的圆柱下方另有一条曲线箭头标「主/从复制」指向「数据库服务器（从）」的圆柱右侧。原图中第三个缓存服务器框文字为「分布式缓存服务器」（无末尾数字），照录。两个数据库服务器框内均为圆柱「数据库」。</desc>
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#000"/></marker>
+  </defs>
+  <g fill="none" stroke="#000" stroke-width="1.4">
+    <rect x="40" y="580" width="230" height="110" rx="14"/>
+    <path d="M438,444 L798,444 L798,824 L438,824 Z"/>
+    <path d="M454,462 L814,462 L814,842 L454,842 Z"/>
+    <path d="M470,480 L830,480 L830,860 L470,860 Z" fill="#fff"/>
+    <path d="M515,540 L730,540 L705,645 L490,645 Z"/>
+    <line x1="597" y1="645" x2="597" y2="683" marker-end="url(#ar)"/>
+    <path d="M500,685 C536,663 572,701 665,679 L665,756 C629,778 593,740 500,762 Z" fill="#fff"/>
+    <rect x="680" y="685" width="130" height="100" rx="12"/>
+    <path d="M798,84 L1198,84 L1198,304 L798,304 Z"/>
+    <path d="M814,102 L1214,102 L1214,322 L814,322 Z"/>
+    <path d="M830,120 L1230,120 L1230,340 L830,340 Z" fill="#fff"/>
+    <path d="M920,220 C956,198 992,236 1100,214 L1100,291 C1064,313 1028,275 920,297 Z" fill="#fff"/>
+    <rect x="830" y="490" width="400" height="190" rx="16"/>
+    <path d="M1058,512 L1228,512 L1228,622 L1058,622 Z" fill="#fff"/>
+    <path d="M1046,524 L1216,524 L1216,634 L1046,634 Z" fill="#fff"/>
+    <path d="M1034,536 L1204,536 L1204,646 C1178,658 1156,632 1126,644 C1094,656 1060,640 1034,630 Z" fill="#fff"/>
+    <rect x="1000" y="780" width="340" height="220" rx="16"/>
+    <ellipse cx="1149" cy="880" rx="85" ry="14" fill="#fff"/>
+    <path d="M1064,880 L1064,975 A85,14 0 0 0 1234,975 L1234,880" fill="#fff"/>
+    <rect x="640" y="910" width="340" height="220" rx="16"/>
+    <ellipse cx="789" cy="1010" rx="85" ry="14" fill="#fff"/>
+    <path d="M704,1010 L704,1105 A85,14 0 0 0 874,1105 L874,1010" fill="#fff"/>
+    <line x1="270" y1="630" x2="438" y2="540" marker-end="url(#ar)"/>
+    <line x1="270" y1="630" x2="454" y2="580" marker-end="url(#ar)"/>
+    <line x1="270" y1="630" x2="470" y2="620" marker-end="url(#ar)"/>
+    <line x1="717" y1="592" x2="970" y2="340" marker-end="url(#ar)"/>
+    <line x1="717" y1="592" x2="830" y2="600" marker-end="url(#ar)"/>
+    <line x1="717" y1="592" x2="750" y2="685" marker-end="url(#ar)"/>
+    <line x1="680" y1="785" x2="1000" y2="875" marker-end="url(#ar)"/>
+    <line x1="680" y1="785" x2="760" y2="910" marker-end="url(#ar)"/>
+    <path d="M1149,975 C1120,1085 980,1080 880,1045" marker-end="url(#ar)"/>
+  </g>
+  <g fill="#000" stroke="none">
+    <text x="155" y="615" text-anchor="middle">负载均衡调度</text>
+    <text x="155" y="645" text-anchor="middle">服务器</text>
+    <text x="456" y="474">应用服务器n</text>
+    <text x="472" y="492">应用服务器2</text>
+    <text x="488" y="510">应用服务器1</text>
+    <text x="607" y="597" text-anchor="middle">应用程序</text>
+    <text x="582" y="733" text-anchor="middle">本地缓存</text>
+    <text x="745" y="722" text-anchor="middle">数据访问</text>
+    <text x="745" y="752" text-anchor="middle">模块</text>
+    <text x="816" y="114">分布式缓存服务器n</text>
+    <text x="832" y="132">分布式缓存服务器2</text>
+    <text x="848" y="150">分布式缓存服务器</text>
+    <text x="1015" y="262" text-anchor="middle">远程分布式缓存</text>
+    <text x="854" y="528">文件服务器</text>
+    <text x="1105" y="605" text-anchor="middle">文件</text>
+    <text x="1024" y="818">数据库服务器</text>
+    <text x="1024" y="848">（主）</text>
+    <text x="1149" y="948" text-anchor="middle">数据库</text>
+    <text x="664" y="948">数据库服务器</text>
+    <text x="664" y="978">（从）</text>
+    <text x="789" y="1078" text-anchor="middle">数据库</text>
+    <text x="880" y="822">写操作</text>
+    <text x="700" y="895" text-anchor="end">读操作</text>
+    <text x="1060" y="1140" text-anchor="middle">主/从复制</text>
+  </g>
+</svg>

@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 740" font-family="Liberation Serif, SimSun, 'Noto Serif CJK SC', 'WenQuanYi Zen Hei', 'Droid Sans Fallback', serif" font-size="19">
+  <title>图 10-16 第七阶段网站架构</title>
+  <desc>复原自《系统架构设计师教程（第2版）》印刷页359（物理页368）。图体与图题同页，无跨页拼接。结构：左侧 CDN服务器1、反向代理服务器1、负载均衡调度服务器1 三组圆角框各3层堆叠；负载均衡调度服务器1 以3支箭头指向中部应用服务器簇的3层框（应用服务器n/应用服务器2/应用服务器1）。应用服务器1 框内含平行四边形「应用程序」、圆角框「统一数据访问模块」、波浪底文件框「本地缓存」；「应用程序」以箭头指向「本地缓存」和「统一数据访问模块」。右侧三组各3层堆叠的圆角框：「分布式缓存服务器r/2/1」（前框内波浪底文件框「远程分布式缓存」，文字一行）、「分布式文件服务器n/2/1」（前框内文件纸页堆叠3层，前页「文件」）、「分布式数据库服务器n/2/1」（前框内「数据库」圆柱）。「统一数据访问模块」右侧发出3支箭头，分别指向分布式缓存簇底边、分布式文件簇左边、分布式数据库簇顶边。原书此图首个缓存标签末字印作「r」（非「n」），照录。原图无「写操作」「读操作」标注，未补。</desc>
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#000"/></marker>
+  </defs>
+  <g fill="#fff" stroke="#000" stroke-width="1.4" stroke-linejoin="round">
+    <rect x="16" y="18" width="165" height="84" rx="11" ry="11"/>
+    <rect x="28" y="44" width="165" height="84" rx="11" ry="11"/>
+    <rect x="40" y="70" width="165" height="84" rx="11" ry="11"/>
+    <rect x="16" y="172" width="165" height="84" rx="11" ry="11"/>
+    <rect x="28" y="198" width="165" height="84" rx="11" ry="11"/>
+    <rect x="40" y="224" width="165" height="84" rx="11" ry="11"/>
+    <rect x="16" y="326" width="175" height="88" rx="11" ry="11"/>
+    <rect x="28" y="352" width="175" height="88" rx="11" ry="11"/>
+    <rect x="40" y="378" width="175" height="88" rx="11" ry="11"/>
+    <rect x="326" y="270" width="340" height="230" rx="12" ry="12"/>
+    <rect x="338" y="296" width="340" height="230" rx="12" ry="12"/>
+    <rect x="350" y="322" width="340" height="230" rx="12" ry="12"/>
+    <rect x="696" y="58" width="265" height="120" rx="12" ry="12"/>
+    <rect x="708" y="84" width="265" height="120" rx="12" ry="12"/>
+    <rect x="720" y="110" width="265" height="120" rx="12" ry="12"/>
+    <rect x="716" y="248" width="330" height="145" rx="12" ry="12"/>
+    <rect x="728" y="274" width="330" height="145" rx="12" ry="12"/>
+    <rect x="740" y="300" width="330" height="145" rx="12" ry="12"/>
+    <rect x="676" y="518" width="300" height="150" rx="12" ry="12"/>
+    <rect x="688" y="544" width="300" height="150" rx="12" ry="12"/>
+    <rect x="700" y="570" width="300" height="150" rx="12" ry="12"/>
+    <path d="M390,382 L512,382 L494,442 L372,442 Z"/>
+    <rect x="525" y="404" width="155" height="70" rx="9" ry="9"/>
+    <path d="M395,458 Q395,450 403,450 L507,450 Q515,450 515,458 L515,492 Q495,502 475,492 Q455,482 435,492 Q415,502 395,494 Z"/>
+    <path d="M878,347 Q878,339 886,339 L996,339 Q1004,339 1004,347 L1004,406 Q982,416 960,406 Q938,396 916,406 Q894,416 878,408 Z"/>
+    <path d="M866,359 Q866,351 874,351 L984,351 Q992,351 992,359 L992,418 Q970,428 948,418 Q926,408 904,418 Q882,428 866,420 Z"/>
+    <path d="M854,371 Q854,363 862,363 L972,363 Q980,363 980,371 L980,430 Q958,440 936,430 Q914,420 892,430 Q870,440 854,432 Z"/>
+    <path d="M745,163 Q745,155 753,155 L942,155 Q950,155 950,163 L950,207 Q922,219 894,207 Q866,195 838,207 Q810,219 782,209 Q762,202 745,209 Z"/>
+    <path d="M780,630 L780,680 A70,11 0 0 0 920,680 L920,630"/>
+    <ellipse cx="850" cy="630" rx="70" ry="11"/>
+    <path d="M780,640 A70,11 0 0 0 920,640" fill="none" stroke-width="1"/>
+  </g>
+  <g fill="none" stroke="#000" stroke-width="1.2">
+    <line x1="122" y1="154" x2="122" y2="172" marker-end="url(#ar)"/>
+    <line x1="122" y1="308" x2="122" y2="326" marker-end="url(#ar)"/>
+    <line x1="215" y1="414" x2="322" y2="386" marker-end="url(#ar)"/>
+    <line x1="215" y1="420" x2="334" y2="412" marker-end="url(#ar)"/>
+    <line x1="215" y1="426" x2="346" y2="438" marker-end="url(#ar)"/>
+    <line x1="442" y1="442" x2="442" y2="448" marker-end="url(#ar)"/>
+    <line x1="512" y1="406" x2="523" y2="412" marker-end="url(#ar)"/>
+    <line x1="680" y1="426" x2="720" y2="232" marker-end="url(#ar)"/>
+    <line x1="680" y1="438" x2="738" y2="430" marker-end="url(#ar)"/>
+    <line x1="680" y1="450" x2="700" y2="516" marker-end="url(#ar)"/>
+  </g>
+  <g fill="#000" stroke="none">
+    <text x="122" y="106" text-anchor="middle">CDN</text>
+    <text x="122" y="134" text-anchor="middle">服务器1</text>
+    <text x="122" y="260" text-anchor="middle">反向代理</text>
+    <text x="122" y="288" text-anchor="middle">服务器1</text>
+    <text x="127" y="416" text-anchor="middle">负载均衡调度</text>
+    <text x="127" y="444" text-anchor="middle">服务器1</text>
+    <text x="338" y="292" text-anchor="start">应用服务器n</text>
+    <text x="350" y="318" text-anchor="start">应用服务器2</text>
+    <text x="362" y="344" text-anchor="start">应用服务器1</text>
+    <text x="442" y="418" text-anchor="middle">应用程序</text>
+    <text x="602" y="430" text-anchor="middle">统一数据</text>
+    <text x="602" y="454" text-anchor="middle">访问模块</text>
+    <text x="455" y="480" text-anchor="middle">本地缓存</text>
+    <text x="708" y="80" text-anchor="start">分布式缓存服务器r</text>
+    <text x="720" y="106" text-anchor="start">分布式缓存服务器2</text>
+    <text x="732" y="132" text-anchor="start">分布式缓存服务器1</text>
+    <text x="847" y="192" text-anchor="middle">远程分布式缓存</text>
+    <text x="728" y="270" text-anchor="start">分布式文件服务器n</text>
+    <text x="740" y="296" text-anchor="start">分布式文件服务器2</text>
+    <text x="752" y="322" text-anchor="start">分布式文件服务器1</text>
+    <text x="925" y="404" text-anchor="middle">文件</text>
+    <text x="688" y="540" text-anchor="start">分布式数据库服务器n</text>
+    <text x="700" y="566" text-anchor="start">分布式数据库服务器2</text>
+    <text x="712" y="592" text-anchor="start">分布式数据库服务器1</text>
+    <text x="850" y="674" text-anchor="middle">数据库</text>
+  </g>
+</svg>

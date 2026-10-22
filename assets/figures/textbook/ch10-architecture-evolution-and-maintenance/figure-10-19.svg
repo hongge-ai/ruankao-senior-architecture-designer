@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1140 820" font-family="Liberation Serif, SimSun, 'Noto Serif CJK SC', 'WenQuanYi Zen Hei', 'Droid Sans Fallback', serif" font-size="19">
+  <title>图 10-19 第十阶段网站架构</title>
+  <desc>复原自《系统架构设计师教程（第2版）》印刷页362（物理页371）。图体与图题同页，无跨页拼接。结构：左侧 CDN服务器1、反向代理服务器（原图此标签无「1」）、负载均衡调度服务器1 各3层堆叠。负载均衡调度服务器1 共发6支箭头：3支向上指向 B应用服务器1 的3层框左边，3支指向 A 应用服务器1 的3层框左边。中部偏上「B应用服务器1」前框右边发3支箭头，分别指向右侧「分布式服务」簇3层框顶边的右端；B应用服务器1 下方「消息队列服务器1」3层堆叠；「A 应用服务器1」簇上方以箭头指向消息队列服务器1 前框底边。「分布式服务」簇（标签为「分布式服务 ii服务器1」「分布式服务1服务器2.」「分布式服务 i 服务器1」，其中末行末尾句点、各行空格按原图照录）前框内含平行四边形「应用程序」、圆角框「统一数据（换行）访问模块)」、波浪底文件框「本地缓存」；「应用程序」以箭头指向「本地缓存」与「访问模块)」。右侧「分布式缓存服务器n/2/1」「分布式文件服务器n/2/1」「分布式数据库服务器n/2/1」及下方「搜索引擎服务器1」「NoSQL服务器1」各3层堆叠；「统一数据访问模块)」发出5支箭头分别指向缓存簇底边、文件簇左边、数据库簇顶边、搜索引擎顶边、NoSQL顶边。原图无「写操作」「读操作」标注，未补。</desc>
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#000"/></marker>
+  </defs>
+  <g fill="#fff" stroke="#000" stroke-width="1.4" stroke-linejoin="round">
+    <rect x="30" y="60" width="165" height="84" rx="11" ry="11"/>
+    <rect x="42" y="86" width="165" height="84" rx="11" ry="11"/>
+    <rect x="54" y="112" width="165" height="84" rx="11" ry="11"/>
+    <rect x="30" y="214" width="165" height="84" rx="11" ry="11"/>
+    <rect x="42" y="240" width="165" height="84" rx="11" ry="11"/>
+    <rect x="54" y="266" width="165" height="84" rx="11" ry="11"/>
+    <rect x="30" y="368" width="175" height="88" rx="11" ry="11"/>
+    <rect x="42" y="394" width="175" height="88" rx="11" ry="11"/>
+    <rect x="54" y="420" width="175" height="88" rx="11" ry="11"/>
+    <rect x="350" y="20" width="150" height="86" rx="11" ry="11"/>
+    <rect x="362" y="46" width="150" height="86" rx="11" ry="11"/>
+    <rect x="374" y="72" width="150" height="86" rx="11" ry="11"/>
+    <rect x="370" y="232" width="160" height="86" rx="11" ry="11"/>
+    <rect x="382" y="258" width="160" height="86" rx="11" ry="11"/>
+    <rect x="394" y="284" width="160" height="86" rx="11" ry="11"/>
+    <rect x="366" y="390" width="160" height="86" rx="11" ry="11"/>
+    <rect x="378" y="416" width="160" height="86" rx="11" ry="11"/>
+    <rect x="390" y="442" width="160" height="86" rx="11" ry="11"/>
+    <rect x="560" y="226" width="220" height="215" rx="12" ry="12"/>
+    <rect x="572" y="252" width="220" height="215" rx="12" ry="12"/>
+    <rect x="584" y="278" width="220" height="215" rx="12" ry="12"/>
+    <rect x="346" y="584" width="155" height="88" rx="11" ry="11"/>
+    <rect x="358" y="610" width="155" height="88" rx="11" ry="11"/>
+    <rect x="370" y="636" width="155" height="88" rx="11" ry="11"/>
+    <rect x="526" y="584" width="145" height="88" rx="11" ry="11"/>
+    <rect x="538" y="610" width="145" height="88" rx="11" ry="11"/>
+    <rect x="550" y="636" width="145" height="88" rx="11" ry="11"/>
+    <rect x="766" y="38" width="250" height="120" rx="12" ry="12"/>
+    <rect x="778" y="64" width="250" height="120" rx="12" ry="12"/>
+    <rect x="790" y="90" width="250" height="120" rx="12" ry="12"/>
+    <rect x="806" y="308" width="280" height="145" rx="12" ry="12"/>
+    <rect x="818" y="334" width="280" height="145" rx="12" ry="12"/>
+    <rect x="830" y="360" width="280" height="145" rx="12" ry="12"/>
+    <rect x="716" y="558" width="300" height="150" rx="12" ry="12"/>
+    <rect x="728" y="584" width="300" height="150" rx="12" ry="12"/>
+    <rect x="740" y="610" width="300" height="150" rx="12" ry="12"/>
+    <path d="M596,322 L696,322 L682,370 L590,370 Z"/>
+    <rect x="706" y="340" width="90" height="66" rx="9" ry="9"/>
+    <path d="M596,390 Q596,382 604,382 L688,382 Q696,382 696,390 L696,422 Q678,432 660,422 Q642,412 624,422 Q606,432 596,424 Z"/>
+    <path d="M944,409 Q944,401 952,401 L1062,401 Q1070,401 1070,409 L1070,468 Q1048,478 1026,468 Q1004,458 982,468 Q960,478 944,470 Z"/>
+    <path d="M932,421 Q932,413 940,413 L1050,413 Q1058,413 1058,421 L1058,480 Q1036,490 1014,480 Q992,470 970,480 Q948,490 932,482 Z"/>
+    <path d="M920,433 Q920,425 928,425 L1038,425 Q1046,425 1046,433 L1046,492 Q1024,502 1002,492 Q980,482 958,492 Q936,502 920,494 Z"/>
+    <path d="M820,143 Q820,135 828,135 L1010,135 Q1018,135 1018,143 L1018,187 Q990,199 962,187 Q934,175 906,187 Q878,199 850,189 Q830,182 820,189 Z"/>
+    <path d="M820,670 L820,720 A70,11 0 0 0 960,720 L960,670"/>
+    <ellipse cx="890" cy="670" rx="70" ry="11"/>
+    <path d="M820,680 A70,11 0 0 0 960,680" fill="none" stroke-width="1"/>
+  </g>
+  <g fill="none" stroke="#000" stroke-width="1.2">
+    <line x1="136" y1="196" x2="136" y2="212" marker-end="url(#ar)"/>
+    <line x1="136" y1="350" x2="136" y2="366" marker-end="url(#ar)"/>
+    <line x1="229" y1="458" x2="348" y2="96" marker-end="url(#ar)"/>
+    <line x1="229" y1="464" x2="360" y2="120" marker-end="url(#ar)"/>
+    <line x1="229" y1="470" x2="372" y2="144" marker-end="url(#ar)"/>
+    <line x1="229" y1="478" x2="364" y2="466" marker-end="url(#ar)"/>
+    <line x1="229" y1="484" x2="376" y2="480" marker-end="url(#ar)"/>
+    <line x1="229" y1="490" x2="388" y2="494" marker-end="url(#ar)"/>
+    <line x1="445" y1="440" x2="478" y2="372" marker-end="url(#ar)"/>
+    <line x1="524" y1="96" x2="776" y2="220" marker-end="url(#ar)"/>
+    <line x1="524" y1="112" x2="788" y2="246" marker-end="url(#ar)"/>
+    <line x1="524" y1="128" x2="800" y2="272" marker-end="url(#ar)"/>
+    <line x1="642" y1="370" x2="642" y2="378" marker-end="url(#ar)"/>
+    <line x1="696" y1="350" x2="704" y2="356" marker-end="url(#ar)"/>
+    <line x1="796" y1="372" x2="840" y2="212" marker-end="url(#ar)"/>
+    <line x1="796" y1="372" x2="804" y2="392" marker-end="url(#ar)"/>
+    <line x1="796" y1="372" x2="786" y2="556" marker-end="url(#ar)"/>
+    <line x1="733" y1="406" x2="480" y2="582" marker-end="url(#ar)"/>
+    <line x1="749" y1="406" x2="622" y2="582" marker-end="url(#ar)"/>
+  </g>
+  <g fill="#000" stroke="none">
+    <text x="136" y="148" text-anchor="middle">CDN</text>
+    <text x="136" y="176" text-anchor="middle">服务器1</text>
+    <text x="136" y="302" text-anchor="middle">反向代理</text>
+    <text x="136" y="330" text-anchor="middle">服务器</text>
+    <text x="141" y="458" text-anchor="middle">负载均衡调度</text>
+    <text x="141" y="486" text-anchor="middle">服务器1</text>
+    <text x="449" y="104" text-anchor="middle">B应用</text>
+    <text x="449" y="132" text-anchor="middle">服务器1</text>
+    <text x="474" y="322" text-anchor="middle">消息队列</text>
+    <text x="474" y="350" text-anchor="middle">服务器1</text>
+    <text x="470" y="482" text-anchor="middle">A 应用</text>
+    <text x="470" y="510" text-anchor="middle">服务器1</text>
+    <text x="572" y="248" text-anchor="start">分布式服务 ii服务器1</text>
+    <text x="586" y="274" text-anchor="start">分布式服务1服务器2.</text>
+    <text x="598" y="300" text-anchor="start">分布式服务 i 服务器1</text>
+    <text x="642" y="352" text-anchor="middle">应用程序</text>
+    <text x="751" y="364" text-anchor="middle">统一数据</text>
+    <text x="751" y="388" text-anchor="middle">访问模块)</text>
+    <text x="646" y="412" text-anchor="middle">本地缓存</text>
+    <text x="447" y="672" text-anchor="middle">搜索引擎</text>
+    <text x="447" y="700" text-anchor="middle">服务器1</text>
+    <text x="622" y="672" text-anchor="middle">NoSQL</text>
+    <text x="622" y="700" text-anchor="middle">服务器1</text>
+    <text x="778" y="60" text-anchor="start">分布式缓存服务器n</text>
+    <text x="790" y="86" text-anchor="start">分布式缓存服务器2</text>
+    <text x="802" y="112" text-anchor="start">分布式缓存服务器1</text>
+    <text x="915" y="176" text-anchor="middle">远程分布式缓存</text>
+    <text x="818" y="330" text-anchor="start">分布式文件服务器n</text>
+    <text x="830" y="356" text-anchor="start">分布式文件服务器2</text>
+    <text x="842" y="382" text-anchor="start">分布式文件服务器1</text>
+    <text x="985" y="466" text-anchor="middle">文件</text>
+    <text x="728" y="580" text-anchor="start">分布式数据库服务器n</text>
+    <text x="740" y="606" text-anchor="start">分布式数据库服务器2</text>
+    <text x="752" y="632" text-anchor="start">分布式数据库服务器1</text>
+    <text x="890" y="714" text-anchor="middle">数据库</text>
+  </g>
+</svg>

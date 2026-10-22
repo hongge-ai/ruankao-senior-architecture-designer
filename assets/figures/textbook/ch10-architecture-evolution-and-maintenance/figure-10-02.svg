@@ -1,0 +1,372 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1560 1500" font-family="Liberation Serif, SimSun, 'Noto Serif CJK SC', 'WenQuanYi Zen Hei', 'Droid Sans Fallback', serif" font-size="17">
+<title>图 10-2 消息演化的自动机表示</title>
+<desc>复原自《系统架构设计师教程（第2版）》印刷页333（物理页342）。8个子图a)-h)按3+3+2排列，虚线分隔。每个子图：演化前与演化后两组对象生命线（obj1/obj2/obj3），圆圈=对象发出的消息（空圆=不发出消息的状态），边上文字=对象接收到的消息，向下箭头=时间推进；组间水平箭头标注演化操作：a)b)c)为AM（上方实线，配下方DM虚线逆向箭头），d)e)f)为SMO，g)为OM，h)为CMM。</desc>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#000"/></marker><marker id="arh" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="none" stroke="#000" stroke-width="1.2"/></marker></defs>
+<g stroke="#000" stroke-width="1.2" fill="none">
+<text x="70" y="124" text-anchor="middle" font-style="italic">obj1</text>
+<circle cx="70" cy="170" r="26"/>
+<text x="70" y="176" text-anchor="middle">m1</text>
+<line x1="70" y1="204" x2="70" y2="226"/>
+<text x="74" y="242" text-anchor="middle">m2</text>
+<line x1="70" y1="248" x2="70" y2="272" marker-end="url(#ar)"/>
+<text x="125" y="124" text-anchor="middle" font-style="italic">obj2</text>
+<line x1="125" y1="140" x2="125" y2="162"/>
+<text x="129" y="178" text-anchor="middle">m1</text>
+<line x1="125" y1="184" x2="125" y2="208" marker-end="url(#ar)"/>
+<circle cx="125" cy="244" r="26"/>
+<text x="125" y="250" text-anchor="middle">m2</text>
+<text x="273" y="124" text-anchor="middle" font-style="italic">obj1</text>
+<circle cx="273" cy="170" r="26"/>
+<text x="273" y="176" text-anchor="middle">m1</text>
+<line x1="273" y1="204" x2="273" y2="228" marker-end="url(#ar)"/>
+<circle cx="273" cy="266" r="30"/>
+<text x="273" y="262" text-anchor="middle">m_</text>
+<text x="273" y="280" text-anchor="middle">new</text>
+<line x1="273" y1="302" x2="273" y2="324"/>
+<text x="277" y="340" text-anchor="middle">m2</text>
+<line x1="273" y1="346" x2="273" y2="370" marker-end="url(#ar)"/>
+<text x="328" y="124" text-anchor="middle" font-style="italic">obj2</text>
+<line x1="328" y1="140" x2="328" y2="162"/>
+<text x="332" y="178" text-anchor="middle">m1</text>
+<line x1="328" y1="184" x2="328" y2="208" marker-end="url(#ar)"/>
+<circle cx="328" cy="244" r="26"/>
+<line x1="328" y1="278" x2="328" y2="300"/>
+<text x="332" y="316" text-anchor="middle">m_new</text>
+<line x1="328" y1="322" x2="328" y2="346" marker-end="url(#ar)"/>
+<circle cx="328" cy="382" r="26"/>
+<text x="328" y="388" text-anchor="middle">m2</text>
+<line x1="147" y1="168" x2="251" y2="168" marker-end="url(#ar)"/>
+<line x1="251" y1="234" x2="147" y2="234" stroke-dasharray="6 4" marker-end="url(#arh)"/>
+</g>
+<g fill="#000" stroke="none" text-anchor="middle">
+<text x="97.5" y="80">演化前</text>
+<text x="300.5" y="80">演化后</text>
+<text x="199" y="159">AM</text>
+<text x="199" y="258">DM</text>
+<text x="170" y="448">a)</text>
+</g>
+<g stroke="#000" stroke-width="1.2" fill="none">
+<text x="470" y="124" text-anchor="middle" font-style="italic">obj1</text>
+<line x1="470" y1="140" x2="470" y2="162"/>
+<text x="474" y="178" text-anchor="middle">m1</text>
+<line x1="470" y1="184" x2="470" y2="208" marker-end="url(#ar)"/>
+<circle cx="470" cy="244" r="26"/>
+<text x="470" y="250" text-anchor="middle">m1</text>
+<line x1="470" y1="278" x2="470" y2="300"/>
+<text x="474" y="316" text-anchor="middle">m2</text>
+<line x1="470" y1="322" x2="470" y2="346" marker-end="url(#ar)"/>
+<text x="525" y="124" text-anchor="middle" font-style="italic">obj2</text>
+<circle cx="525" cy="170" r="26"/>
+<text x="525" y="176" text-anchor="middle">m1</text>
+<line x1="525" y1="204" x2="525" y2="228" marker-end="url(#ar)"/>
+<circle cx="525" cy="264" r="26"/>
+<text x="525" y="270" text-anchor="middle">m2</text>
+<text x="673" y="124" text-anchor="middle" font-style="italic">obj1</text>
+<line x1="673" y1="140" x2="673" y2="162"/>
+<text x="677" y="178" text-anchor="middle">m1</text>
+<line x1="673" y1="184" x2="673" y2="208" marker-end="url(#ar)"/>
+<circle cx="673" cy="246" r="30"/>
+<text x="673" y="242" text-anchor="middle">m_</text>
+<text x="673" y="260" text-anchor="middle">new</text>
+<line x1="673" y1="282" x2="673" y2="304"/>
+<text x="677" y="320" text-anchor="middle">m2</text>
+<line x1="673" y1="326" x2="673" y2="350" marker-end="url(#ar)"/>
+<text x="728" y="124" text-anchor="middle" font-style="italic">obj2</text>
+<circle cx="728" cy="170" r="26"/>
+<text x="728" y="176" text-anchor="middle">m1</text>
+<line x1="728" y1="204" x2="728" y2="226"/>
+<text x="732" y="242" text-anchor="middle">m_new</text>
+<line x1="728" y1="248" x2="728" y2="272" marker-end="url(#ar)"/>
+<circle cx="728" cy="308" r="26"/>
+<text x="728" y="314" text-anchor="middle">m2</text>
+<line x1="547" y1="168" x2="651" y2="168" marker-end="url(#ar)"/>
+<line x1="651" y1="234" x2="547" y2="234" stroke-dasharray="6 4" marker-end="url(#arh)"/>
+</g>
+<g fill="#000" stroke="none" text-anchor="middle">
+<text x="497.5" y="80">演化前</text>
+<text x="700.5" y="80">演化后</text>
+<text x="599" y="159">AM</text>
+<text x="599" y="258">DM</text>
+<text x="570" y="388">b)</text>
+</g>
+<g stroke="#000" stroke-width="1.2" fill="none">
+<text x="870" y="124" text-anchor="middle" font-style="italic">obj1</text>
+<circle cx="870" cy="170" r="26"/>
+<text x="870" y="176" text-anchor="middle">m1</text>
+<line x1="870" y1="204" x2="870" y2="228" marker-end="url(#ar)"/>
+<circle cx="870" cy="264" r="26"/>
+<text x="870" y="270" text-anchor="middle">m2</text>
+<text x="925" y="124" text-anchor="middle" font-style="italic">obj2</text>
+<line x1="925" y1="140" x2="925" y2="162"/>
+<text x="929" y="178" text-anchor="middle">m1</text>
+<line x1="925" y1="184" x2="925" y2="208" marker-end="url(#ar)"/>
+<circle cx="925" cy="244" r="26"/>
+<line x1="925" y1="278" x2="925" y2="300"/>
+<text x="929" y="316" text-anchor="middle">m2</text>
+<line x1="925" y1="322" x2="925" y2="346" marker-end="url(#ar)"/>
+<text x="1073" y="124" text-anchor="middle" font-style="italic">obj1</text>
+<circle cx="1073" cy="170" r="26"/>
+<text x="1073" y="176" text-anchor="middle">m1</text>
+<line x1="1073" y1="204" x2="1073" y2="228" marker-end="url(#ar)"/>
+<circle cx="1073" cy="266" r="30"/>
+<text x="1073" y="262" text-anchor="middle">m_</text>
+<text x="1073" y="280" text-anchor="middle">new</text>
+<line x1="1073" y1="302" x2="1073" y2="326" marker-end="url(#ar)"/>
+<circle cx="1073" cy="362" r="26"/>
+<text x="1073" y="368" text-anchor="middle">m2</text>
+<text x="1128" y="124" text-anchor="middle" font-style="italic">obj2</text>
+<line x1="1128" y1="140" x2="1128" y2="162"/>
+<text x="1132" y="178" text-anchor="middle">m1</text>
+<line x1="1128" y1="184" x2="1128" y2="208" marker-end="url(#ar)"/>
+<circle cx="1128" cy="244" r="26"/>
+<line x1="1128" y1="278" x2="1128" y2="300"/>
+<text x="1132" y="316" text-anchor="middle">m_new</text>
+<line x1="1128" y1="322" x2="1128" y2="346" marker-end="url(#ar)"/>
+<circle cx="1128" cy="382" r="26"/>
+<line x1="1128" y1="416" x2="1128" y2="438"/>
+<text x="1132" y="454" text-anchor="middle">m2</text>
+<line x1="1128" y1="460" x2="1128" y2="484" marker-end="url(#ar)"/>
+<line x1="947" y1="168" x2="1051" y2="168" marker-end="url(#ar)"/>
+<line x1="1051" y1="234" x2="947" y2="234" stroke-dasharray="6 4" marker-end="url(#arh)"/>
+</g>
+<g fill="#000" stroke="none" text-anchor="middle">
+<text x="897.5" y="80">演化前</text>
+<text x="1100.5" y="80">演化后</text>
+<text x="999" y="159">AM</text>
+<text x="999" y="258">DM</text>
+<text x="970" y="522">c)</text>
+</g>
+<g stroke="#000" stroke-width="1.2" fill="none">
+<text x="70" y="654" text-anchor="middle" font-style="italic">obj1</text>
+<line x1="70" y1="670" x2="70" y2="692"/>
+<text x="74" y="708" text-anchor="middle">m4</text>
+<line x1="70" y1="714" x2="70" y2="738" marker-end="url(#ar)"/>
+<circle cx="70" cy="774" r="26"/>
+<text x="70" y="780" text-anchor="middle">m1</text>
+<line x1="70" y1="808" x2="70" y2="830"/>
+<text x="74" y="846" text-anchor="middle">m2</text>
+<line x1="70" y1="852" x2="70" y2="876" marker-end="url(#ar)"/>
+<circle cx="70" cy="912" r="26"/>
+<text x="70" y="918" text-anchor="middle">m3</text>
+<text x="125" y="654" text-anchor="middle" font-style="italic">obj2</text>
+<circle cx="125" cy="700" r="26"/>
+<text x="125" y="706" text-anchor="middle">m4</text>
+<line x1="125" y1="734" x2="125" y2="756"/>
+<text x="129" y="772" text-anchor="middle">m1</text>
+<line x1="125" y1="778" x2="125" y2="802" marker-end="url(#ar)"/>
+<circle cx="125" cy="838" r="26"/>
+<text x="125" y="844" text-anchor="middle">m2</text>
+<line x1="125" y1="872" x2="125" y2="894"/>
+<text x="129" y="910" text-anchor="middle">m3</text>
+<line x1="125" y1="916" x2="125" y2="940" marker-end="url(#ar)"/>
+<text x="273" y="654" text-anchor="middle" font-style="italic">obj1</text>
+<line x1="273" y1="670" x2="273" y2="692"/>
+<text x="277" y="708" text-anchor="middle">m4</text>
+<line x1="273" y1="714" x2="273" y2="738" marker-end="url(#ar)"/>
+<circle cx="273" cy="774" r="26"/>
+<line x1="273" y1="808" x2="273" y2="830"/>
+<text x="277" y="846" text-anchor="middle">m2</text>
+<line x1="273" y1="852" x2="273" y2="876" marker-end="url(#ar)"/>
+<circle cx="273" cy="912" r="26"/>
+<text x="273" y="918" text-anchor="middle">m1</text>
+<line x1="273" y1="946" x2="273" y2="970" marker-end="url(#ar)"/>
+<circle cx="273" cy="1006" r="26"/>
+<text x="273" y="1012" text-anchor="middle">m3</text>
+<text x="328" y="654" text-anchor="middle" font-style="italic">obj2</text>
+<circle cx="328" cy="700" r="26"/>
+<text x="328" y="706" text-anchor="middle">m4</text>
+<line x1="328" y1="734" x2="328" y2="758" marker-end="url(#ar)"/>
+<circle cx="328" cy="794" r="26"/>
+<text x="328" y="800" text-anchor="middle">m2</text>
+<line x1="328" y1="828" x2="328" y2="850"/>
+<text x="332" y="866" text-anchor="middle">m1</text>
+<line x1="328" y1="872" x2="328" y2="896" marker-end="url(#ar)"/>
+<circle cx="328" cy="932" r="26"/>
+<line x1="328" y1="966" x2="328" y2="988"/>
+<text x="332" y="1004" text-anchor="middle">m3</text>
+<line x1="328" y1="1010" x2="328" y2="1034" marker-end="url(#ar)"/>
+<line x1="147" y1="698" x2="251" y2="698" marker-end="url(#ar)"/>
+</g>
+<g fill="#000" stroke="none" text-anchor="middle">
+<text x="97.5" y="610">演化前</text>
+<text x="300.5" y="610">演化后</text>
+<text x="199" y="689">SMO</text>
+<text x="170" y="1072">d)</text>
+</g>
+<g stroke="#000" stroke-width="1.2" fill="none">
+<text x="470" y="654" text-anchor="middle" font-style="italic">obj1</text>
+<line x1="470" y1="670" x2="470" y2="692"/>
+<line x1="470" y1="692" x2="470" y2="716" marker-end="url(#ar)"/>
+<circle cx="470" cy="752" r="26"/>
+<text x="470" y="758" text-anchor="middle">m1</text>
+<line x1="470" y1="786" x2="470" y2="808"/>
+<text x="474" y="824" text-anchor="middle">m2</text>
+<line x1="470" y1="830" x2="470" y2="854" marker-end="url(#ar)"/>
+<circle cx="470" cy="890" r="26"/>
+<text x="470" y="896" text-anchor="middle">m3</text>
+<text x="525" y="654" text-anchor="middle" font-style="italic">obj2</text>
+<circle cx="525" cy="700" r="26"/>
+<line x1="525" y1="734" x2="525" y2="756"/>
+<text x="529" y="772" text-anchor="middle">m1</text>
+<line x1="525" y1="778" x2="525" y2="802" marker-end="url(#ar)"/>
+<circle cx="525" cy="838" r="26"/>
+<text x="525" y="844" text-anchor="middle">m2</text>
+<line x1="525" y1="872" x2="525" y2="894"/>
+<text x="529" y="910" text-anchor="middle">m3</text>
+<line x1="525" y1="916" x2="525" y2="940" marker-end="url(#ar)"/>
+<text x="673" y="654" text-anchor="middle" font-style="italic">obj1</text>
+<line x1="673" y1="670" x2="673" y2="692"/>
+<text x="677" y="708" text-anchor="middle">m2</text>
+<line x1="673" y1="714" x2="673" y2="738" marker-end="url(#ar)"/>
+<circle cx="673" cy="774" r="26"/>
+<text x="673" y="780" text-anchor="middle">m1</text>
+<line x1="673" y1="808" x2="673" y2="830"/>
+<line x1="673" y1="830" x2="673" y2="854" marker-end="url(#ar)"/>
+<circle cx="673" cy="890" r="26"/>
+<text x="673" y="896" text-anchor="middle">m3</text>
+<text x="728" y="654" text-anchor="middle" font-style="italic">obj2</text>
+<circle cx="728" cy="700" r="26"/>
+<text x="728" y="706" text-anchor="middle">m2</text>
+<line x1="728" y1="734" x2="728" y2="756"/>
+<text x="732" y="772" text-anchor="middle">m1</text>
+<line x1="728" y1="778" x2="728" y2="802" marker-end="url(#ar)"/>
+<circle cx="728" cy="838" r="26"/>
+<line x1="728" y1="872" x2="728" y2="894"/>
+<text x="732" y="910" text-anchor="middle">m3</text>
+<line x1="728" y1="916" x2="728" y2="940" marker-end="url(#ar)"/>
+<line x1="547" y1="698" x2="651" y2="698" marker-end="url(#ar)"/>
+</g>
+<g fill="#000" stroke="none" text-anchor="middle">
+<text x="497.5" y="610">演化前</text>
+<text x="700.5" y="610">演化后</text>
+<text x="599" y="689">SMO</text>
+<text x="570" y="978">e)</text>
+</g>
+<g stroke="#000" stroke-width="1.2" fill="none">
+<text x="870" y="654" text-anchor="middle" font-style="italic">obj1</text>
+<line x1="870" y1="670" x2="870" y2="692"/>
+<text x="874" y="708" text-anchor="middle">m1</text>
+<line x1="870" y1="714" x2="870" y2="738" marker-end="url(#ar)"/>
+<circle cx="870" cy="774" r="26"/>
+<line x1="870" y1="808" x2="870" y2="830"/>
+<text x="874" y="846" text-anchor="middle">m2</text>
+<line x1="870" y1="852" x2="870" y2="876" marker-end="url(#ar)"/>
+<text x="925" y="654" text-anchor="middle" font-style="italic">obj2</text>
+<circle cx="925" cy="700" r="26"/>
+<text x="925" y="706" text-anchor="middle">m1</text>
+<line x1="925" y1="734" x2="925" y2="758" marker-end="url(#ar)"/>
+<circle cx="925" cy="794" r="26"/>
+<text x="925" y="800" text-anchor="middle">m2</text>
+<text x="1073" y="654" text-anchor="middle" font-style="italic">obj1</text>
+<line x1="1073" y1="670" x2="1073" y2="692"/>
+<text x="1077" y="708" text-anchor="middle">m2</text>
+<line x1="1073" y1="714" x2="1073" y2="738" marker-end="url(#ar)"/>
+<circle cx="1073" cy="774" r="26"/>
+<line x1="1073" y1="808" x2="1073" y2="830"/>
+<text x="1077" y="846" text-anchor="middle">m1</text>
+<line x1="1073" y1="852" x2="1073" y2="876" marker-end="url(#ar)"/>
+<text x="1128" y="654" text-anchor="middle" font-style="italic">obj2</text>
+<circle cx="1128" cy="700" r="26"/>
+<text x="1128" y="706" text-anchor="middle">m2</text>
+<line x1="1128" y1="734" x2="1128" y2="758" marker-end="url(#ar)"/>
+<circle cx="1128" cy="794" r="26"/>
+<text x="1128" y="800" text-anchor="middle">m1</text>
+<line x1="947" y1="698" x2="1051" y2="698" marker-end="url(#ar)"/>
+</g>
+<g fill="#000" stroke="none" text-anchor="middle">
+<text x="897.5" y="610">演化前</text>
+<text x="1100.5" y="610">演化后</text>
+<text x="999" y="689">SMO</text>
+<text x="970" y="914">f)</text>
+</g>
+<g stroke="#000" stroke-width="1.2" fill="none">
+<text x="70" y="1144" text-anchor="middle" font-style="italic">obj1</text>
+<circle cx="70" cy="1190" r="26"/>
+<text x="70" y="1196" text-anchor="middle">m1</text>
+<line x1="70" y1="1224" x2="70" y2="1246"/>
+<text x="74" y="1262" text-anchor="middle">m2</text>
+<line x1="70" y1="1268" x2="70" y2="1292" marker-end="url(#ar)"/>
+<text x="125" y="1144" text-anchor="middle" font-style="italic">obj2</text>
+<line x1="125" y1="1160" x2="125" y2="1182"/>
+<text x="129" y="1198" text-anchor="middle">m1</text>
+<line x1="125" y1="1204" x2="125" y2="1228" marker-end="url(#ar)"/>
+<circle cx="125" cy="1264" r="26"/>
+<text x="125" y="1270" text-anchor="middle">m2</text>
+<text x="273" y="1144" text-anchor="middle" font-style="italic">obj1</text>
+<line x1="273" y1="1160" x2="273" y2="1182"/>
+<text x="277" y="1198" text-anchor="middle">m1</text>
+<line x1="273" y1="1204" x2="273" y2="1228" marker-end="url(#ar)"/>
+<circle cx="273" cy="1264" r="26"/>
+<line x1="273" y1="1298" x2="273" y2="1320"/>
+<text x="277" y="1336" text-anchor="middle">m2</text>
+<line x1="273" y1="1342" x2="273" y2="1366" marker-end="url(#ar)"/>
+<text x="328" y="1144" text-anchor="middle" font-style="italic">obj2</text>
+<circle cx="328" cy="1190" r="26"/>
+<text x="328" y="1196" text-anchor="middle">m1</text>
+<line x1="328" y1="1224" x2="328" y2="1248" marker-end="url(#ar)"/>
+<circle cx="328" cy="1284" r="26"/>
+<text x="328" y="1290" text-anchor="middle">m2</text>
+<line x1="147" y1="1188" x2="251" y2="1188" marker-end="url(#ar)"/>
+</g>
+<g fill="#000" stroke="none" text-anchor="middle">
+<text x="97.5" y="1100">演化前</text>
+<text x="300.5" y="1100">演化后</text>
+<text x="199" y="1179">OM</text>
+<text x="170" y="1404">g)</text>
+</g>
+<g stroke="#000" stroke-width="1.2" fill="none">
+<text x="470" y="1144" text-anchor="middle" font-style="italic">obj1</text>
+<circle cx="470" cy="1190" r="26"/>
+<text x="470" y="1196" text-anchor="middle">m1</text>
+<line x1="470" y1="1224" x2="470" y2="1246"/>
+<text x="474" y="1262" text-anchor="middle">m2</text>
+<line x1="470" y1="1268" x2="470" y2="1292" marker-end="url(#ar)"/>
+<text x="525" y="1144" text-anchor="middle" font-style="italic">obj2</text>
+<line x1="525" y1="1160" x2="525" y2="1182"/>
+<text x="529" y="1198" text-anchor="middle">m1</text>
+<line x1="525" y1="1204" x2="525" y2="1228" marker-end="url(#ar)"/>
+<circle cx="525" cy="1264" r="26"/>
+<text x="525" y="1270" text-anchor="middle">m2</text>
+<text x="580" y="1144" text-anchor="middle" font-style="italic">obj3</text>
+<line x1="580" y1="1160" x2="580" y2="1182"/>
+<text x="584" y="1198" text-anchor="middle">m3</text>
+<line x1="580" y1="1204" x2="580" y2="1228" marker-end="url(#ar)"/>
+<circle cx="580" cy="1264" r="26"/>
+<text x="580" y="1270" text-anchor="middle">m4</text>
+<text x="728" y="1144" text-anchor="middle" font-style="italic">obj1</text>
+<circle cx="728" cy="1190" r="26"/>
+<text x="728" y="1196" text-anchor="middle">m1</text>
+<line x1="728" y1="1224" x2="728" y2="1246"/>
+<text x="732" y="1262" text-anchor="middle">m2</text>
+<line x1="728" y1="1268" x2="728" y2="1292" marker-end="url(#ar)"/>
+<text x="783" y="1144" text-anchor="middle" font-style="italic">obj2</text>
+<line x1="783" y1="1160" x2="783" y2="1182"/>
+<line x1="783" y1="1182" x2="783" y2="1206" marker-end="url(#ar)"/>
+<circle cx="783" cy="1242" r="26"/>
+<text x="783" y="1248" text-anchor="middle">m2</text>
+<text x="838" y="1144" text-anchor="middle" font-style="italic">obj3</text>
+<line x1="838" y1="1160" x2="838" y2="1182"/>
+<text x="842" y="1198" text-anchor="middle">m3</text>
+<line x1="838" y1="1204" x2="838" y2="1228" marker-end="url(#ar)"/>
+<circle cx="838" cy="1264" r="26"/>
+<line x1="838" y1="1298" x2="838" y2="1320"/>
+<text x="842" y="1336" text-anchor="middle">m1</text>
+<line x1="838" y1="1342" x2="838" y2="1366" marker-end="url(#ar)"/>
+<circle cx="838" cy="1402" r="26"/>
+<text x="838" y="1408" text-anchor="middle">m4</text>
+<line x1="602" y1="1188" x2="706" y2="1188" marker-end="url(#ar)"/>
+</g>
+<g fill="#000" stroke="none" text-anchor="middle">
+<text x="525.0" y="1100">演化前</text>
+<text x="783.0" y="1100">演化后</text>
+<text x="654" y="1179">CMM</text>
+<text x="570" y="1468">h)</text>
+</g>
+<line x1="12" y1="560" x2="1548" y2="560" stroke="#000" stroke-width="1" stroke-dasharray="8 6"/>
+<line x1="12" y1="1040" x2="1548" y2="1040" stroke="#000" stroke-width="1" stroke-dasharray="8 6"/>
+<line x1="418" y1="40" x2="418" y2="560" stroke="#000" stroke-width="1" stroke-dasharray="8 6"/>
+<line x1="818" y1="40" x2="818" y2="560" stroke="#000" stroke-width="1" stroke-dasharray="8 6"/>
+<line x1="418" y1="560" x2="418" y2="1040" stroke="#000" stroke-width="1" stroke-dasharray="8 6"/>
+<line x1="818" y1="560" x2="818" y2="1040" stroke="#000" stroke-width="1" stroke-dasharray="8 6"/>
+<line x1="418" y1="1060" x2="418" y2="1520" stroke="#000" stroke-width="1" stroke-dasharray="8 6"/>
+</svg>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="620" viewBox="0 0 1400 620" font-family="Liberation Serif, SimSun, 'Noto Serif CJK SC', 'WenQuanYi Zen Hei', 'Droid Sans Fallback', serif">
+  <title>图 10-8 演化过程已知的架构演化评估执行过程</title>
+  <desc>复原自入库教材扫描件物理页361（原书印刷页352）。三行：软件架构（A₀、A、A、…、A）、质量（可维护性/可靠性）（Q₀、Q、Q、…、Q）、距离（D(0,1)、D(0.2)、…、D(n-1,n)）。共五列，第 4 列为省略号列；A₀/Q₀ 的 0 为下标。每列由软件架构向下以空心粗箭头指向对应质量值，省略号列不画纵向箭头。相邻两列的质量值以斜向空心粗箭头向内汇聚到两列中点下方的距离值上方：第 1、2、4 对为左右两条，第 3 对（左侧为 Q、右侧为省略号列）在原图上只画左侧一条。距离行的「…」位于第 3、4 列中点。原图 D(0.2) 照录为 0.2（句点），未改为逗号。</desc>
+  <defs>
+    <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#000"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="1400" height="620" fill="#fff"/>
+
+  <!-- row labels -->
+  <g fill="#000" font-size="34" text-anchor="middle">
+    <text x="190" y="120">软件架构</text>
+    <text x="190" y="300">质量</text>
+    <text x="190" y="345">(可维护性/可靠性)</text>
+    <text x="190" y="540">距离</text>
+  </g>
+
+  <!-- software architecture labels -->
+  <g fill="#000" font-size="34" text-anchor="middle">
+    <text x="450" y="95">A<tspan dy="6" font-size="22">0</tspan></text>
+    <text x="690" y="95">A</text>
+    <text x="930" y="95">A</text>
+    <text x="1180" y="95">…</text>
+    <text x="1360" y="95">A</text>
+  </g>
+
+  <!-- vertical block arrows A -> Q -->
+  <g fill="#fff" stroke="#000" stroke-width="2">
+    <path d="M450 115 L450 235 L438 235 L450 270 L462 235 L450 235 Z"/>
+    <path d="M690 115 L690 235 L678 235 L690 270 L702 235 L690 235 Z"/>
+    <path d="M930 115 L930 235 L918 235 L930 270 L942 235 L930 235 Z"/>
+    <path d="M1360 115 L1360 235 L1348 235 L1360 270 L1372 235 L1360 235 Z"/>
+  </g>
+
+  <!-- quality labels -->
+  <g fill="#000" font-size="34" text-anchor="middle">
+    <text x="450" y="320">Q<tspan dy="6" font-size="22">0</tspan></text>
+    <text x="690" y="320">Q</text>
+    <text x="930" y="320">Q</text>
+    <text x="1180" y="320">…</text>
+    <text x="1360" y="320">Q</text>
+  </g>
+
+  <!-- diagonal block arrows Q -> D, converging to the midpoint of each adjacent column pair -->
+  <g fill="#fff" stroke="#000" stroke-width="2">
+    <!-- pair 1: columns 450 | 690, midpoint 570 -->
+    <path d="M481.8 346.9 L522.5 477.7 L512.5 480.8 L540.0 512.0 L544.9 470.7 L534.9 473.8 L494.2 343.1 Z"/>
+    <path d="M645.8 343.1 L605.1 473.8 L595.1 470.7 L600.0 512.0 L627.5 480.8 L617.5 477.7 L658.2 346.9 Z"/>
+    <!-- pair 2: columns 690 | 930, midpoint 810 -->
+    <path d="M721.8 346.9 L762.5 477.7 L752.5 480.8 L780.0 512.0 L784.9 470.7 L774.9 473.8 L734.2 343.1 Z"/>
+    <path d="M885.8 343.1 L845.1 473.8 L835.1 470.7 L840.0 512.0 L867.5 480.8 L857.5 477.7 L898.2 346.9 Z"/>
+    <!-- pair 3: columns 930 | 1180, midpoint 1055; only the left arrow is printed -->
+    <path d="M966.8 346.9 L1007.5 477.7 L997.5 480.8 L1025.0 512.0 L1029.9 470.7 L1019.9 473.8 L979.2 343.1 Z"/>
+    <!-- pair 4: columns 1180 | 1360, midpoint 1270 -->
+    <path d="M1181.8 346.9 L1222.5 477.7 L1212.5 480.8 L1240.0 512.0 L1244.9 470.7 L1234.9 473.8 L1194.2 343.1 Z"/>
+    <path d="M1345.8 343.1 L1305.1 473.8 L1295.1 470.7 L1300.0 512.0 L1327.5 480.8 L1317.5 477.7 L1358.2 346.9 Z"/>
+  </g>
+
+  <!-- distance labels, centered under the midpoint of the adjacent column pair -->
+  <g fill="#000" font-size="34" text-anchor="middle">
+    <text x="570" y="555">D(0,1)</text>
+    <text x="810" y="555">D(0.2)</text>
+    <text x="1055" y="555">…</text>
+    <text x="1270" y="555">D(n-1,n)</text>
+  </g>
+</svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" font-family="Liberation Serif, SimSun, 'Noto Serif CJK SC', 'WenQuanYi Zen Hei', 'Droid Sans Fallback', serif" font-size="18">
+  <title>图 10-4 静态演化过程模型</title>
+  <desc>复原自《系统架构设计师教程（第2版）》印刷页338（物理页347）。6个框的循环流程：顶行 原系统→软件理解→需求变更分析，右侧向下到 演化计划，底行向左 演化计划→系统重构→系统测试，向上到 更新后系统，再以标有「循环迭代」的粗空心箭头指回 原系统。原系统与更新后系统为左上切角矩形，其余为普通矩形。</desc>
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#000"/></marker>
+  </defs>
+  <g fill="none" stroke="#000" stroke-width="1.4">
+    <path d="M140,40 L360,40 L360,100 L120,100 L120,60 Z"/>
+    <rect x="450" y="40" width="200" height="60"/>
+    <rect x="720" y="40" width="170" height="60"/>
+    <path d="M140,230 L360,230 L360,290 L120,290 L120,250 Z"/>
+    <rect x="120" y="340" width="240" height="60"/>
+    <rect x="420" y="340" width="200" height="60"/>
+    <rect x="720" y="340" width="170" height="60"/>
+    <line x1="360" y1="70" x2="450" y2="70" marker-end="url(#ar)"/>
+    <line x1="650" y1="70" x2="720" y2="70" marker-end="url(#ar)"/>
+    <line x1="805" y1="100" x2="805" y2="340" marker-end="url(#ar)"/>
+    <line x1="720" y1="370" x2="620" y2="370" marker-end="url(#ar)"/>
+    <line x1="420" y1="370" x2="360" y2="370" marker-end="url(#ar)"/>
+    <line x1="240" y1="340" x2="240" y2="290" marker-end="url(#ar)"/>
+    <path d="M226,230 L226,140 L210,140 L240,103 L270,140 L254,140 L254,230" fill="#fff"/>
+  </g>
+  <g fill="#000" stroke="none" text-anchor="middle">
+    <text x="240" y="78">原系统</text>
+    <text x="550" y="78">软件理解</text>
+    <text x="805" y="78">需求变更分析</text>
+    <text x="240" y="268">更新后系统</text>
+    <text x="240" y="378">系统测试</text>
+    <text x="520" y="378">系统重构</text>
+    <text x="805" y="378">演化计划</text>
+    <text x="262" y="160" text-anchor="start">循环</text>
+    <text x="262" y="184" text-anchor="start">迭代</text>
+  </g>
+</svg>

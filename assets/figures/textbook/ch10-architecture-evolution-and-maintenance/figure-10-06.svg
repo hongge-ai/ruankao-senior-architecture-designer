@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 280" font-family="Liberation Serif, SimSun, 'Noto Serif CJK SC', 'WenQuanYi Zen Hei', 'Droid Sans Fallback', serif" font-size="19">
+  <title>图 10-6 软件的三级动态性</title>
+  <desc>复原自《系统架构设计师教程（第2版）》印刷页341（物理页350）。三个圆角矩形呈阶梯状自左下向右上排列：交互动态性、结构动态性、架构动态性；每框顶部高度向右引出虚线延长线，右端分别标注级别1、级别2、级别3。</desc>
+  <g fill="none" stroke="#000">
+    <rect x="20" y="162" width="192" height="66" rx="12" stroke-width="1.3"/>
+    <rect x="192" y="98" width="206" height="66" rx="12" stroke-width="1.3"/>
+    <rect x="418" y="35" width="201" height="66" rx="12" stroke-width="1.3"/>
+    <g stroke-width="0.9" stroke-dasharray="7 5">
+      <line x1="212" y1="162" x2="730" y2="162"/>
+      <line x1="398" y1="98" x2="730" y2="98"/>
+      <line x1="619" y1="35" x2="730" y2="35"/>
+      <line x1="212" y1="228" x2="730" y2="228"/>
+    </g>
+  </g>
+  <g fill="#000" stroke="none">
+    <text x="116" y="203" text-anchor="middle">交互动态性</text>
+    <text x="295" y="139" text-anchor="middle">结构动态性</text>
+    <text x="518" y="76" text-anchor="middle">架构动态性</text>
+    <text x="780" y="170" text-anchor="middle">级别1</text>
+    <text x="780" y="106" text-anchor="middle">级别2</text>
+    <text x="780" y="43" text-anchor="middle">级别3</text>
+  </g>
+</svg>
