@@ -28,7 +28,7 @@
 
 | 正文层 | `content/` | 唯一可读正文，网页展示与 RAG 索引的取数根目录 | 是（全部规则） |
 
-| 来源层 | `sources/` | 第三方原始材料与其书目事实；两份已登记源扫描件按 2026-09 治理决定入库 | 是（扫描件字节数与 SHA-256 参与门禁；真题来源目录参与 manifest 一致性） |
+| 来源层 | `sources/` | 第三方原始材料与其书目事实；两份已登记源 PDF 按 2026-09 治理决定入库（大纲为整页扫描件；教材为 OCR 重建文本 PDF，正文页渲染文字即 OCR 文本层，不是扫描图像） | 是（源 PDF 字节数与 SHA-256 参与门禁；真题来源目录参与 manifest 一致性） |
 
 | 清单层 | `catalog/` | 结构与数量的唯一真相，机器可读 | 是 |
 
@@ -48,7 +48,7 @@
 
 | 大纲 | `sources/00-系统架构设计师考试大纲/`（69 页扫描件，无文本层，已入库） | `content/00-…-清洗版/` | 前言 + 卷首文件材料 + 考试说明 + 3 个考试范围科目 + 题型举例 + INDEX |
 
-| 教材 | `sources/01-系统架构设计师教材/`（720 页扫描件，含 OCR 文本层，已入库） | `content/01-…-清洗版/` | 《系统架构设计师教程》2022 第 2 版，前言 + 20 章（每章一个目录，共 119 节）+ INDEX |
+| 教材 | `sources/01-系统架构设计师教材/`（720 页 OCR 重建文本 PDF，含 OCR 文本层，已入库） | `content/01-…-清洗版/` | 《系统架构设计师教程》2022 第 2 版，前言 + 20 章（每章一个目录，共 119 节）+ INDEX |
 
 | 真题 | `sources/02-历年真题/` + `sources/02-历年真题(补充)/` | `content/02-历年真题-清洗版/` | 36 份唯一试卷 + 1 份独立备选 + INDEX |
 
@@ -56,7 +56,7 @@
 
 
 
-大纲与教材的 OCR 提取稿已从版本库移除：**清洗稿是第三方语料的唯一可读正文**，不要重建提取稿目录。两份源扫描件已按 2026-09 治理决定入库（`sources/00-…`、`sources/01-…`，登记见 `catalog/corpora.json`），复核时直接对照它们。
+大纲与教材的 OCR 提取稿已从版本库移除：**清洗稿是第三方语料的唯一可读正文**，不要重建提取稿目录。两份源 PDF 已按 2026-09 治理决定入库（`sources/00-…`、`sources/01-…`，登记见 `catalog/corpora.json`）。大纲是整页扫描件；教材是 OCR 重建文本 PDF，正文页渲染文字即 OCR 文本层，不能当作扫描图像直接对照，详见 [verification/源文件身份核查-教材PDF为OCR重建文本.md](verification/源文件身份核查-教材PDF为OCR重建文本.md)。
 
 
 
@@ -68,11 +68,11 @@
 
 - `content/02-历年真题总索引.md` — 人工/AI 查询真题的统一入口，规定每卷的“首选文件”。
 
-- `catalog/corpora.json`（schema 1）— 语料总清单：层根、各语料的 content_root/source_roots、各 `kind` 的期望文档数、真题不变量（36/17/90/53）、已入库源扫描件的路径、字节数与 SHA-256。教材语料的 `blind_checked_chapters` 登记已完成第二轮独立盲核的章号，校验器对这些章断言同父标题无重号（未核查章不受此门禁约束，随核查进度扩列）。**数量类断言一律从这里读，不再散落在脚本和正文里。**
+- `catalog/corpora.json`（schema 1）— 语料总清单：层根、各语料的 content_root/source_roots、各 `kind` 的期望文档数、真题不变量（36/17/90/53）、已入库源 PDF 的路径、字节数与 SHA-256。教材语料的 `blind_checked_chapters` 登记已完成第二轮独立盲核的章号，校验器对这些章断言同父标题无重号（未核查章不受此门禁约束，随核查进度扩列）。**数量类断言一律从这里读，不再散落在脚本和正文里。**
 
 - `catalog/exams.json`（schema 4）— 真题 manifest：36 份 canonical、90 份 source_versions 路径、来源目录与同名冲突映射。校验器断言 manifest、两份索引、正文与 frontmatter 的 `id` 彼此一致。
 
-- `catalog/errata.json`（schema 1）— 勘误登记簿：正文书**勘误后的正确内容**。逐条登记经扫描件图像证实为原书自身的排印错误或前后不一致之处（原书写法、勘正写法、物理页/印刷页、核查记录链接）；正确写法拿不准的存疑处（`kind: "noted"`）正文保留原书原貌、只登记不勘正。
+- `catalog/errata.json`（schema 1）— 勘误登记簿：正文书**勘误后的正确内容**。逐条登记经真实扫描件图像证实为原书自身的排印错误或前后不一致之处（教材侧：入库 PDF 是 OCR 重建文本，不得据其页面渲染文字登记「原书勘误」）（原书写法、勘正写法、物理页/印刷页、核查记录链接）；正确写法拿不准的存疑处（`kind: "noted"`）正文保留原书原貌、只登记不勘正。
 
 - `catalog/figures.json`（schema 1）— 图表登记簿：核查时对照扫描件渲染图像逐项转录复原的图（图号、标题、表示形式 `svg`、物理页/印刷页、核查记录链接）；校验器断言每条锚点（图题）在正文中恰好出现一次。
 
@@ -202,7 +202,7 @@ uv run --group lint ruff format scripts/          # CI 用 ruff format --check
 
 
 
-- 四层结构：`content/INDEX.md`、`sources/README.md`、`catalog/README.md`、`assets/README.md` 必须存在；`sources/00-…`、`sources/01-…` 各须有 README 说明已入库的源扫描件；`.gitignore` 必须保留 `*.pdf` 默认忽略规则，并通过 `!` 反选放行 `corpora.json` 登记的扫描件。
+- 四层结构：`content/INDEX.md`、`sources/README.md`、`catalog/README.md`、`assets/README.md` 必须存在；`sources/00-…`、`sources/01-…` 各须有 README 说明已入库的源 PDF；`.gitignore` 必须保留 `*.pdf` 默认忽略规则，并通过 `!` 反选放行 `corpora.json` 登记的扫描件。
 
 - `catalog/corpora.json`（schema 1）：`layers` 中每个路径必须是真实目录；`root_index.path` 必须是 `content/INDEX.md`；`corpora` 必须恰好是 `outline`/`textbook`/`exams`/`study`；每个 `sha256` 必须是 64 位小写十六进制**且同时出现在 `DATA_SOURCES.md`**（防两处漂移）；`kind: "pdf"` 的 source 必须标 `committed: true`，其文件必须被 git 跟踪且字节数、SHA-256 与入库文件逐字节一致，`.gitignore` 须有对应 `!` 反选行（校验器双向核对 git 跟踪的 PDF 集合与登记清单）。
 
@@ -286,7 +286,9 @@ uv run --group lint ruff format scripts/          # CI 用 ruff format --check
 
 - **大纲/教材事实核查**：唯一标准是清洗稿忠于扫描件图像；核查不得使用 OCR、PDF 文本层抽取或外部事实判断。逐项比对并由另一 AI 在不看首轮结论的前提下独立验证；证据不足标“无法判定”，不得猜测。**教材首轮按节将正文与对应扫描页中的图表作为同一核查范围：核文字时同时盘点图表并核对已有 SVG，缺失且需保留的 SVG 须在该节首轮闭合前复原、渲染并通过干净上下文盲比；每个图表均须有处置，图表未处置完毕不得宣告该节首轮完成。**文字核查、SVG 绘制和 SVG 盲比可以由隔离的不同任务承担，但必须属于同一节、同一轮，并在核查记录中共同收口。操作与记录要求见 [`verification/README.md`](verification/README.md)；逐章作业规程（轮次组织、盲比口径、图表 SVG 复原流程与工具命令模板）见 [`verification/教材核查与图表复原作业规程.md`](verification/教材核查与图表复原作业规程.md)。
 
-- **图表/公式**：遵循 [图表与公式处理](#图表与公式处理)——**手中没有原图就不要画图**（原图 = 入库扫描件的页面渲染图像）；核查时对照原图逐项转录复原，保留图题、清除图内 OCR 噪声，不得依据 OCR 标签串或领域常识"还原"示意图，逐图登记 `catalog/figures.json`。
+- **教材来源限制（2026-10-23 起）**：入库教材 PDF 是 OCR 重建文本，不是整页扫描图像——正文页渲染文字就是 OCR 文本层（证据见 [verification/源文件身份核查-教材PDF为OCR重建文本.md](verification/源文件身份核查-教材PDF为OCR重建文本.md)）。因此教材不得再以「扫描件核查」名义新增结论或登记新 errata；既往教材核查记录与 `catalog/errata.json` 条目全部转为**待真实扫描件重核**（清单见 [verification/教材errata待重核清单.md](verification/教材errata待重核清单.md)）。取得真实扫描件前，教材只做与入库 OCR 文本的内部一致性维护，不得声称已还原原书。大纲 PDF 是整页扫描件，不受此限。
+
+- **图表/公式**：遵循 [图表与公式处理](#图表与公式处理)——**手中没有原图就不要画图**（原图 = 入库源 PDF 的页面渲染图像；大纲为扫描件，教材为 OCR 重建文本（图内标签为 OCR 文本，只有插图线条来自背景栅格图））；核查时对照原图逐项转录复原，保留图题、清除图内 OCR 噪声，不得依据 OCR 标签串或领域常识"还原"示意图，逐图登记 `catalog/figures.json`。
 
 - **不造假**：无法确认的题面、选项、空号、连线、答案不得凭空补写，也不得写成已经确认；宁可缺失，不可编造。
 
@@ -294,9 +296,9 @@ uv run --group lint ruff format scripts/          # CI 用 ruff format --check
 
 - **数字只有一处真相**：份数、章节数、冲突组数一律写进 `catalog/corpora.json`，正文和 README 只做人类可读的转述；校验器以清单为准。
 
-- **勘误口径**：正文书**勘误后的正确内容**。仅当扫描件图像证实为原书自身的排印错误或前后不一致时才勘正正文，原书写法、证据页码与存疑说明登记进 `catalog/errata.json`；正文不出现任何注记或核查语言；正确写法拿不准的存疑处保持原书原貌、只登记不勘正。
+- **勘误口径**：正文书**勘误后的正确内容**。仅当真实扫描件图像证实为原书自身的排印错误或前后不一致时才勘正正文（教材入库 PDF 是 OCR 重建文本，不能作为该证据），原书写法、证据页码与存疑说明登记进 `catalog/errata.json`；正文不出现任何注记或核查语言；正确写法拿不准的存疑处保持原书原貌、只登记不勘正。
 
-- **权利边界**：教材/大纲/真题/答案及其 OCR/清洗派生文本均为第三方内容，仓库不主张版权；仅 `scripts/` 与 `.github/workflows/` 适用 [LICENSE-CODE](LICENSE-CODE)（MIT）。边界与来源见 [内容与权利政策](#内容与权利政策)、[DATA_SOURCES.md](DATA_SOURCES.md)。两份已登记源扫描件按治理决定入库；除此之外不得提交任何未登记的源 PDF/扫描件、盗版 PDF、下载链接或访问凭据。
+- **权利边界**：教材/大纲/真题/答案及其 OCR/清洗派生文本均为第三方内容，仓库不主张版权；仅 `scripts/` 与 `.github/workflows/` 适用 [LICENSE-CODE](LICENSE-CODE)（MIT）。边界与来源见 [内容与权利政策](#内容与权利政策)、[DATA_SOURCES.md](DATA_SOURCES.md)。两份已登记源 PDF 按治理决定入库；除此之外不得提交任何未登记的源 PDF/扫描件、盗版 PDF、下载链接或访问凭据。
 
 
 
@@ -308,7 +310,7 @@ uv run --group lint ruff format scripts/          # CI 用 ruff format --check
 
 - 换行符：`.md` 用 **CRLF**，`.py`/`.json`/`.yml`/`.yaml`/`.toml`/`uv.lock` 用 **LF**（见 `.gitattributes`、`.editorconfig`）；**所有文本文件统一为标准 UTF-8，不加 BOM**。
 
-- 不入库：未登记的 PDF 与扫描图（`*.pdf` 默认忽略，仅 `catalog/corpora.json` 登记为 `committed: true` 的两份源扫描件通过 `!` 反选入库；`sources/**` 下的图片格式仍一律忽略）、渲染/提取草稿（`tmp/`）、虚拟环境（`.venv/`）、`.claude/`。**`uv.lock` 必须入库。**
+- 不入库：未登记的 PDF 与扫描图（`*.pdf` 默认忽略，仅 `catalog/corpora.json` 登记为 `committed: true` 的两份源 PDF 通过 `!` 反选入库；`sources/**` 下的图片格式仍一律忽略）、渲染/提取草稿（`tmp/`）、虚拟环境（`.venv/`）、`.claude/`。**`uv.lock` 必须入库。**
 
 
 
@@ -338,7 +340,7 @@ uv run --group lint ruff format scripts/          # CI 用 ruff format --check
 
 
 
-两者的源扫描件登记在 `sources/01-系统架构设计师教材`、`sources/00-系统架构设计师考试大纲`。
+两者的源 PDF 登记在 `sources/01-系统架构设计师教材`（OCR 重建文本）、`sources/00-系统架构设计师考试大纲`（整页扫描件）。
 
 
 
@@ -374,7 +376,7 @@ uv run --group lint ruff format scripts/          # CI 用 ruff format --check
 
 
 
-- 以 `sources/` 中登记的源扫描件或原始教材内容为准。
+- 以 `sources/` 中登记的源 PDF（大纲为扫描件；教材为 OCR 重建文本）或原始教材内容为准。
 
 - 允许修正 OCR 错字、断句、粘连、误判标题。
 
@@ -658,7 +660,7 @@ uv run --group lint ruff format scripts/          # CI 用 ruff format --check
 
 1. 阅读清洗版当前文件。
 
-2. 对照 `sources/` 中登记的源扫描件对应页（教材章节的印刷页范围写在该文件的 `source_pages` 标签里）。
+2. 对照 `sources/` 中登记的源 PDF 对应页（教材为 OCR 重建文本页，不是扫描图像）（教材章节的印刷页范围写在该文件的 `source_pages` 标签里）。
 
 3. 先修内容缺失和结构错误。
 
@@ -786,7 +788,7 @@ uv run --group lint ruff format scripts/          # CI 用 ruff format --check
 
 
 
-本仓库以纯文本 Markdown 为主。仓库中只入了库两份**整页扫描 PDF**（见 `sources/00-…`、`sources/01-…`），它们就是原书插图与表格的原始图像来源：核查时对照页面渲染图像，把图和表逐项转录为 SVG 进入正文，并逐项登记进 `catalog/figures.json`；未复原的仅保留图题/表题。**图题存在不代表原图可用，也不代表已复原。**
+本仓库以纯文本 Markdown 为主。仓库中只入了库两份源 PDF（见 `sources/00-…`、`sources/01-…`）。大纲是整页扫描件；教材是 OCR 重建文本 PDF，插图线条仍来自页面背景栅格图，但图内标签文字是 OCR 文本，不能当作原书字迹：核查时对照页面渲染图像，把图和表逐项转录为 SVG 进入正文，并逐项登记进 `catalog/figures.json`；未复原的仅保留图题/表题。**图题存在不代表原图可用，也不代表已复原。**
 
 **教材图表核查属于该节首轮事实核查的一部分，不是文字首轮结束后的独立补做阶段。**核查对应扫描页时，须同时盘点页内图和表：已有 SVG 逐项回到原图核对，缺失且需保留的按本节规则复原；每个图表在该节首轮记录中均须有处置。需要保留的 SVG 必须在首轮记录收口前完成渲染、干净上下文盲比与修订复验，并同步正文引用和 `catalog/figures.json`。某细节不可辨认时按下述规则留空并记录，不得用猜测填补；纯装饰且正文未引用的图形按下述规则删除。绘制和盲比可由不同隔离任务执行，但不改变同一轮的范围和完成门槛。
 
@@ -796,7 +798,7 @@ uv run --group lint ruff format scripts/          # CI 用 ruff format --check
 
 
 
-只有**手中有该图的原始图像并在制作时实际对照**，才能把图和表转成 SVG。本仓库的「原始图像」指入库扫描件的页面渲染图像（整页或局部放大）——核查时图像在手，对照转录即满足此前提。仅凭 OCR 残留的标签串、上下文散文或领域常识"还原"出来的图，是生成内容而非原图，一律禁止。
+只有**手中有该图的原始图像并在制作时实际对照**，才能把图和表转成 SVG。本仓库的「原始图像」：大纲指入库扫描件的页面渲染图像（整页或局部放大）；教材指入库 PDF 中「背景栅格图线条 + OCR 文本标签」的页面渲染图像（标签文字须标注 OCR 不确定性）——核查时图像在手，对照转录即满足此前提。仅凭 OCR 残留的标签串、上下文散文或领域常识"还原"出来的图，是生成内容而非原图，一律禁止。
 
 
 
@@ -1034,7 +1036,7 @@ SVG 必须作为独立文件落盘并以 Markdown 图片语法引用——**GitH
 
 
 
-除 `catalog/corpora.json` 登记的两份已入库源扫描件外，不要提交其他源 PDF/扫描件；不要提交盗版下载链接、访问凭据、付费内容绕过方法，或把 AI 推测内容标成原文、原图、官方题面或官方答案。
+除 `catalog/corpora.json` 登记的两份已入库源 PDF 外，不要提交其他源 PDF/扫描件；不要提交盗版下载链接、访问凭据、付费内容绕过方法，或把 AI 推测内容标成原文、原图、官方题面或官方答案。
 
 
 
@@ -1046,7 +1048,7 @@ SVG 必须作为独立文件落盘并以 Markdown 图片语法引用——**GitH
 
 1. 先读 `content/INDEX.md`，再读目标语料的 `INDEX.md`；真题先读 `content/02-历年真题总索引.md`。
 
-2. 教材清洗应同时对照 `sources/` 登记的源扫描件和依法取得的原资料，优先做最小、可验证的修正。
+2. 教材清洗应同时对照 `sources/` 登记的源 PDF（教材为 OCR 重建文本）和依法取得的原资料，优先做最小、可验证的修正。
 
 3. 在 `DATA_SOURCES.md` 中记录来源、版本和派生关系；历史 URL 不可追溯时，不得猜测。
 

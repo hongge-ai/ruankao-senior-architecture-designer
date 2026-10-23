@@ -13,13 +13,13 @@
 | 目录 | 形态 | 是否入库 |
 |---|---|---|
 | [00-系统架构设计师考试大纲](00-系统架构设计师考试大纲/README.md) | 源 PDF（整页扫描，无文本层） | 是，2026-09 治理决定入库，见该目录 README |
-| [01-系统架构设计师教材](01-系统架构设计师教材/README.md) | 源 PDF（整页扫描 + OCR 文本层） | 是，2026-09 治理决定入库，见该目录 README |
+| [01-系统架构设计师教材](01-系统架构设计师教材/README.md) | 源 PDF（OCR 重建文本，非整页扫描图像；见该目录 README） | 是，2026-09 治理决定入库，见该目录 README |
 | [02-历年真题](02-历年真题/INDEX.md) | 33 份本地原始整理稿（Markdown） | 是 |
 | [02-历年真题(补充)](<02-历年真题(补充)/INDEX.md>) | 20 份补充整理稿（Markdown） | 是 |
 
 ## 规则
 
-1. **源扫描件仅限两份已登记文件入库。** `catalog/corpora.json` 标 `committed: true` 的两份 PDF
+1. **源 PDF 仅限两份已登记文件入库。** `catalog/corpora.json` 标 `committed: true` 的两份 PDF
    随仓库入库（`.gitignore` 用 `!` 反选放行，校验器双向核对 git 跟踪集合与登记清单）；
    其余 `*.pdf` 与 `sources/**` 下的图片格式一律不入库。书目信息、页数与 SHA-256 记在
    [catalog/corpora.json](../catalog/corpora.json)。
