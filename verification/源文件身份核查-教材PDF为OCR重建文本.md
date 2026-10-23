@@ -55,7 +55,7 @@
 ## 影响范围
 
 1. **教材文字核查结论**：第 1–9 章的首轮/第二轮记录与第 10 章首轮记录，凡以「对照扫描件图像」「回图」「印面」为证据的文字结论，实际证据都是 OCR 文本，不属于扫描件事实核查。记录本身不必删除，但需标记「待真实扫描件重核」，不能再作为「原书如此」的证明。
-2. **`catalog/errata.json`**：现有 151 条全部是 `corpus: textbook` 条目，全部依据该 PDF 的渲染页登记；其中 `kind: typo` 的 48 条多为 OCR 误识形态（如 `Recommand`、`梅降`、`Garland`、`OLIP`、`talalE`、`Rcmote`、`Inf`、`Jion`），不能继续表述为「原书排印错误」。清单见[教材errata待重核清单.md](./教材errata待重核清单.md)。
+2. **`catalog/errata.json`**：仓库总状态 151 条（`main` 137 条 + 未合并的 `textbook-r1-ch10` 分支 14 条），全部是 `corpus: textbook` 条目、且全部依据该 PDF 的渲染页登记；其中 `kind: typo` 的 48 条多为 OCR 误识形态（如 `Recommand`、`梅降`、`Garland`、`OLIP`、`talalE`、`Rcmote`、`Inf`、`Jion`），不能继续表述为「原书排印错误」。清单见[教材errata待重核清单.md](./教材errata待重核清单.md)。
 3. **图表登记**：`catalog/figures.json` 的图表 SVG 拓扑以背景栅格图的线条为据，这部分仍可用；但图内/表内标签文字来自 OCR 文本，须在 note 或记录中标注不确定，待真实扫描件重核。
 4. **`catalog/corpora.json` 的 `blind_checked_chapters`**：该字段驱动的「同父标题无重号」门禁仍是机器可判定的结构检查，可以保留；但不能再用它表述「教材已完成第二轮独立盲核」的扫描件含义。
 5. **教材清洗稿**：清洗稿是既有 OCR 文本的手工整理结果，仍可作为知识库可读正文使用，但不得再声称已还原原书，也不得据该 PDF 新增「原书勘误」。
