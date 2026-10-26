@@ -72,7 +72,7 @@ uv run python scripts/validate_knowledge_base.py   # 应输出 PASSED: 0 errors
 
 | [`sources/00-系统架构设计师考试大纲`](sources/00-系统架构设计师考试大纲/) | 来源说明 | 69 页扫描件（无文本层），源 PDF 已入库 |
 
-| [`sources/01-系统架构设计师教材`](sources/01-系统架构设计师教材/) | 来源说明 | 2022 年第 2 版、720 页 OCR 重建文本 PDF（含 OCR 文本层；正文页不是整页扫描图像），源 PDF 已入库 |
+| [`sources/01-系统架构设计师教材`](sources/01-系统架构设计师教材/) | 来源说明 | 2022 年第 2 版、720 页 OCR 重建文本 PDF 为主（含 OCR 文本层；其中 32 页为整页扫描覆盖页），源 PDF 已入库 |
 
 | [`sources/02-历年真题`](sources/02-历年真题/) | 33 份试题文件 | 本地原始材料；质量、题量和答案来源不一 |
 

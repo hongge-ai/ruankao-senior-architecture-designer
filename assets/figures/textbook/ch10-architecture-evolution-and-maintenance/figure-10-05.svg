@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 600" font-family="Liberation Serif, SimSun, 'Noto Serif CJK SC', 'WenQuanYi Zen Hei', 'Droid Sans Fallback', serif" font-size="19">
   <title>图 10-5 正交软件体系结构的演化</title>
-  <desc>复原自《系统架构设计师教程（第2版）》印刷页340（物理页349）。五层正交体系结构：第一层A，第二层B、C、C'，第三层D、E，第四层F、G、G（印面无撇号，与C'不一致），第五层H。实线连接A-B、A-C、B-D、C-E、D-F、E-G、F-H、G-H；虚线连接A-C'、C'-G、G-H。两个虚线椭圆分别圈住线索C-E-G与C'-G。「更新前」箭头指向左椭圆，「更新后」箭头指向右椭圆。组件框为四角小切角矩形。</desc>
+  <desc>复原自《系统架构设计师教程（第2版）》印刷页340（物理页349）。五层正交体系结构：第一层A，第二层B、C、C'，第三层D、E，第四层F、G、G'（OCR 文本作 G'；SVG 按此修正），第五层H。实线连接A-B、A-C、B-D、C-E、D-F、E-G、F-H、G-H；虚线连接A-C'、C'-G'、G'-H。两个虚线椭圆分别圈住线索C-E-G与C'-G。「更新前」箭头指向左椭圆，「更新后」箭头指向右椭圆。组件框为四角小切角矩形。</desc>
   <defs>
     <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#000"/></marker>
   </defs>
@@ -51,7 +51,7 @@
     <text x="420" y="307">E</text>
     <text x="280" y="417">F</text>
     <text x="420" y="417">G</text>
-    <text x="580" y="417">G</text>
+    <text x="580" y="417">G'</text>
     <text x="420" y="527">H</text>
     <text x="510" y="44">更新前</text>
     <text x="750" y="245">更新后</text>
