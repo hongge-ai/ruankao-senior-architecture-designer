@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-26",
+  "note": "第 10 章 OCR 纠错试点撤销/迁移的 11 条 errata 完整快照（原文照录），供取得真实扫描件后复核或需要时回滚；现行登记簿见 catalog/errata.json，处置说明见 verification/教材errata迁移记录-第10章.md。",
+  "entries": [
+    {
+      "id": "tb-0139",
+      "corpus": "textbook",
+      "kind": "noted",
+      "file": "content/01-系统架构设计师教材-清洗版/第10章-软件架构的演化和维护/第03节-软件架构演化方式的分类.md",
+      "anchor": "目前主流的进程代数语言之一就是 演算，-ADL 就是以此为基础设计的架构描述语言。",
+      "original": "印面 9 处「π-ADL／π 演算」的 π 字位均为空字格（物理页 352 五处、353 四处，235 阈值下零墨），系原书排版时希腊字母未印出",
+      "physical_page": 352,
+      "printed_page": 343,
+      "record": "verification/教材首轮核查-第10章-软件架构的演化和维护.md",
+      "note": "首轮 r-103b 以多阈值墨量扫描发现、verify-103b 复核 352 全部 5 处与 353 抽查 1 处均零墨确证；清洗稿原补写为「π」，按占位记号不得补写口径回滚为照录空格（同 tb-0020 先例）。"
+    },
+    {
+      "id": "tb-0140",
+      "corpus": "textbook",
+      "kind": "noted",
+      "file": "content/01-系统架构设计师教材-清洗版/第10章-软件架构的演化和维护/第03节-软件架构演化方式的分类.md",
+      "anchor": "提供 `IOP`、`JRMP`、`SOAP` 以及 `EJBLocal` 互操作机制",
+      "original": "印面作 IOP（仅一个 I，3px 纯竖无旗钩；第二 I 候选区零墨），疑原书漏排一个 I",
+      "physical_page": 353,
+      "printed_page": 344,
+      "record": "verification/教材首轮核查-第10章-软件架构的演化和维护.md",
+      "note": "首轮 r-103b 提出、verify-103b 以同页 JRMP 之 J 字形对照 NCC 终裁确证；照录印面不勘正。"
+    },
+    {
+      "id": "tb-0141",
+      "corpus": "textbook",
+      "kind": "noted",
+      "file": "content/01-系统架构设计师教材-清洗版/第10章-软件架构的演化和维护/第03节-软件架构演化方式的分类.md",
+      "anchor": "在 `PKUAS` 内置的 3 种 `EIB` 容器中",
+      "original": "印面首处作 EIB（I 为 3px 纯竖），同页后文两处及下页均作 EJB，同页两种拼法并存",
+      "physical_page": 354,
+      "printed_page": 345,
+      "record": "verification/教材首轮核查-第10章-软件架构的演化和维护.md",
+      "note": "verify-103b NCC 逐字母终裁（I 模板 1.000、J 0.944）；疑首处为原书笔误，照录印面。"
+    },
+    {
+      "id": "tb-0142",
+      "corpus": "textbook",
+      "kind": "noted",
+      "file": "content/01-系统架构设计师教材-清洗版/第10章-软件架构的演化和维护/第03节-软件架构演化方式的分类.md",
+      "anchor": "`JMX`(`Java Managemente Extension`)",
+      "original": "印面作 Java Managemente Extension：Management 词尾多一个 e、Extension 词尾无 s",
+      "physical_page": 354,
+      "printed_page": 345,
+      "record": "verification/教材首轮核查-第10章-软件架构的演化和维护.md",
+      "note": "verify-103b 追加单点 NCC+数值灰度图双证（e vs a=0.768/0.031；词尾 9 字母后直接右括号）；疑原书拼写笔误，照录。"
+    },
+    {
+      "id": "tb-0143",
+      "corpus": "textbook",
+      "kind": "noted",
+      "file": "content/01-系统架构设计师教材-清洗版/第10章-软件架构的演化和维护/第01节-软件架构演化和定义的关系.md",
+      "anchor": "即组件之间交互消息的增加、删除或改变",
+      "original": "印面连接件段段末「…增加、删除或改变」后无句号（x227 起零墨迹）",
+      "physical_page": 340,
+      "printed_page": 331,
+      "record": "verification/教材首轮核查-第10章-软件架构的演化和维护.md",
+      "note": "blind-340lower 像素复核为段尾缺句号的排版事实；正文照录不加句号。"
+    },
+    {
+      "id": "tb-0144",
+      "corpus": "textbook",
+      "kind": "noted",
+      "file": "content/01-系统架构设计师教材-清洗版/第10章-软件架构的演化和维护/第03节-软件架构演化方式的分类.md",
+      "anchor": "以实现负载的平衡",
+      "original": "印面「以实现负载的平衡」为段末，其后无句号（跨页 350 末—351 首，块缩条目收尾）",
+      "physical_page": 351,
+      "printed_page": 342,
+      "record": "verification/教材首轮核查-第10章-软件架构的演化和维护.md",
+      "note": "r-103a/r-103b 双轮一致（e103b-p351-pingheng.png）；正文照录不加句号。"
+    },
+    {
+      "id": "tb-0145",
+      "corpus": "textbook",
+      "kind": "noted",
+      "file": "content/01-系统架构设计师教材-清洗版/第10章-软件架构的演化和维护/第03节-软件架构演化方式的分类.md",
+      "anchor": "并可能导致具体的执行事件的顺序和方式发生更改",
+      "original": "印面 AMI/RMI 条目段末「…顺序和方式发生更改」后无句号（低阈值 200 扫描至 x454 无墨）",
+      "physical_page": 348,
+      "printed_page": 339,
+      "record": "verification/教材首轮核查-第10章-软件架构的演化和维护.md",
+      "note": "reread-348 像素复核（rv348-L4 证据、末字「改」模板 0.89–0.91 三处命中）；正文照录不加句号，与 tb-0143、tb-0144 同型段尾缺句号。"
+    },
+    {
+      "id": "tb-0146",
+      "corpus": "textbook",
+      "kind": "noted",
+      "file": "content/01-系统架构设计师教材-清洗版/第10章-软件架构的演化和维护/第04节-软件架构演化原则.md",
+      "anchor": "`CoE` 远小于 `CoRD` 最佳",
+      "original": "印面原则 1「方案说明」段末「CoE远小于CoRD最佳」无句号，同节其余原则的「方案说明」多有句号",
+      "physical_page": 356,
+      "printed_page": 347,
+      "record": "verification/教材首轮核查-第10章-软件架构的演化和维护.md",
+      "note": "首轮 r-104 早前记录、本轮回图复核；正文照录不加句号，登记原书自身标点前后不一。"
+    },
+    {
+      "id": "tb-0147",
+      "corpus": "textbook",
+      "kind": "noted",
+      "file": "content/01-系统架构设计师教材-清洗版/第10章-软件架构的演化和维护/第04节-软件架构演化原则.md",
+      "anchor": "`DDT=依赖的技术集合用到的技术合集|`",
+      "original": "印面原则 14「度量方案：TI=1-DDT，其中DDT=依赖的技术集合用到的技术合集|」：等号右侧无起始竖线，两处「集合」之间无集合运算符",
+      "physical_page": 359,
+      "printed_page": 350,
+      "record": "verification/教材首轮核查-第10章-软件架构的演化和维护.md",
+      "note": "本轮 8× 放大复核，公式区仅见文字与末尾一竖；正确符号无法判定，正文照录印面，不补写运算符。"
+    },
+    {
+      "id": "tb-0148",
+      "corpus": "textbook",
+      "kind": "noted",
+      "file": "content/01-系统架构设计师教材-清洗版/第10章-软件架构的演化和维护/第04节-软件架构演化原则.md",
+      "anchor": "`EQI Q`",
+      "original": "印面原则 17「度量方案：EQI Q」：EQI 与 Q 之间约 16px 零墨，据同原则「方案说明」的 EQI／SQ 对照，疑原书脱「>S」",
+      "physical_page": 350,
+      "printed_page": 349,
+      "record": "verification/教材首轮核查-第10章-软件架构的演化和维护.md",
+      "note": "本轮 10× 放大与列投影复核（x334–341 为 I，x357–372 为 Q，其间无墨）；正文照录印面，不补写比较符。"
+    },
+    {
+      "id": "tb-0149",
+      "corpus": "textbook",
+      "kind": "typo",
+      "file": "content/01-系统架构设计师教材-清洗版/第10章-软件架构的演化和维护/第07节-软件架构维护.md",
+      "anchor": "`Region of Quiescence`",
+      "original": "印面作 Rcgion of Quiescence（e 形似 c）",
+      "corrected": "Region of Quiescence",
+      "physical_page": 372,
+      "printed_page": 363,
+      "record": "verification/教材首轮核查-第10章-软件架构的演化和维护.md",
+      "note": "本轮 8× 单字复核，印面确为 Rcgion；属原书排印错误，正文按正确拼写勘正。"
+    }
+  ]
+}

@@ -4,7 +4,7 @@
 - 基线：分支 `textbook-r1-ch10` @ `272aee3`（第 10 章首轮收口提交）；本记录对应的工作树修订随本提交入库。
 - 范围：`content/01-系统架构设计师教材-清洗版/第10章-软件架构的演化和维护/` 的 INDEX 与 7 节；27 个 SVG（23 图 + 4 表）。
 - 底本：入库教材 PDF 的 OCR 文本层（`tmp/tb-r2/ch10/ocr-pages/339–377.txt`）；其中物理 341/342/344/373/374/375 为整页扫描覆盖页（渲染页即扫描页），其余为 OCR 文本页。证据身份见[源文件身份核查-教材PDF为OCR重建文本.md](./源文件身份核查-教材PDF为OCR重建文本.md)。
-- 方法：以 9 批盲核报告（`tmp/tb-r2/ch10/blind-*.md`）与 14 条 errata 为输入，分诊代理按 A/B/C 档逐条给出建议；Lead 复核、裁决并落盘。`web_search` 在本会话持续 503，外部查证改用 `web_fetch`（Wikipedia、Oracle 文档、Crossref、OpenAlex），URL 与访问日期 2026-10-26 记在各分诊报告。
+- 方法：以 9 批盲核报告（`tmp/tb-r2/ch10/blind-*.md`）与 14 条 errata 为输入，分诊代理按 N/K/R/C1/C2/C3 六档（K 记 A/B 置信）逐条给出建议；Lead 复核、裁决并落盘。`web_search` 在本会话持续 503，外部查证改用 `web_fetch`（Wikipedia、Oracle 文档、Crossref、OpenAlex），URL 与访问日期 2026-10-26 记在各分诊报告。
 - 口径：OCR 文本是底本；只有明显 OCR 工件才保留/写出更正确形式，属于清洗改写的按 R 回退；无法判定的标点/版式/书中特有写法保留原样并记 C3（见[教材OCR未决清单.md](./教材OCR未决清单.md)）。
 
 ## 一、正文修订（已落盘）
@@ -65,7 +65,7 @@
 
 ## 五、来源与复现
 
-- 分诊报告：`tmp/tb-r2/ch10/triage-a/b/c/d/e.md`、`triage-figures.md`；盲核报告 `tmp/tb-r2/ch10/blind-*.md`。
+- 试点期工作副本：分诊报告 `tmp/tb-r2/ch10/triage-a/b/c/d/e.md`、`triage-figures.md`，盲核报告 `tmp/tb-r2/ch10/blind-*.md`（`tmp/` 不入库）；分诊明细已归档为 [教材OCR分诊明细-第10章.json](./教材OCR分诊明细-第10章.json)（171 条），口径见 [教材OCR纠错作业规程.md](./教材OCR纠错作业规程.md)。
 - 外部来源（均 2026-10-26 访问）：Wikipedia `Internet_Inter-ORB_Protocol`、`Java_Management_Extensions`、`Architecture_description_language`、`%CE%A0-calculus`；Oracle `RMI-IIOP`、`JMX`、`Java EE Enterprise Beans`；Jakarta `Enterprise Beans`；Wikipedia 中文/英文 `Euclidean distance`、`Cardinality`；Crossref/OpenAlex 人名条目（Cuesta、Barnes）。
 - 正文 old→new 的完整逐行差异见本提交的 `git diff`；回滚可按文件逐条回退。
 
