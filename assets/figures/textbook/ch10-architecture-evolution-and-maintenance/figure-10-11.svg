@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 520" font-family="Liberation Serif, SimSun, 'Noto Serif CJK SC', 'WenQuanYi Zen Hei', 'Droid Sans Fallback', serif" font-size="18">
+  <title>图 10-11 第二阶段网站架构</title>
+  <desc>复原自《系统架构设计师教程（第2版）》印刷页355（物理页364）。左侧「应用服务器」圆角容器内只有平行四边形「应用程序」；右侧上下两个圆角容器分别为「文件服务器」（内含错位多张纸「文件」）与「数据库服务器」（内含圆柱「数据库」）。两条箭头自「应用服务器」容器右侧边缘同一点分叉，分别指向「文件服务器」与「数据库服务器」容器的左侧边缘。</desc>
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#000"/></marker>
+  </defs>
+  <g fill="none" stroke="#000" stroke-width="1.4">
+    <rect x="40" y="160" width="320" height="230" rx="16"/>
+    <path d="M120,220 L330,220 L300,330 L90,330 Z"/>
+    <rect x="620" y="40" width="400" height="220" rx="16"/>
+    <path d="M766,64 L956,64 L956,194 L766,194 Z" fill="#fff"/>
+    <path d="M754,76 L944,76 L944,206 L754,206 Z" fill="#fff"/>
+    <path d="M730,100 L920,100 L920,230 C892,242 868,214 834,226 C798,238 758,222 730,212 Z" fill="#fff"/>
+    <rect x="620" y="300" width="400" height="190" rx="16"/>
+    <ellipse cx="825" cy="352" rx="90" ry="14" fill="#fff"/>
+    <path d="M735,352 L735,465 A90,14 0 0 0 915,465 L915,352" fill="#fff"/>
+    <line x1="360" y1="275" x2="620" y2="145" marker-end="url(#ar)"/>
+    <line x1="360" y1="275" x2="620" y2="395" marker-end="url(#ar)"/>
+  </g>
+  <g fill="#000" stroke="none">
+    <text x="64" y="198">应用服务器</text>
+    <text x="210" y="282" text-anchor="middle">应用程序</text>
+    <text x="644" y="78">文件服务器</text>
+    <text x="825" y="178" text-anchor="middle">文件</text>
+    <text x="644" y="338">数据库服务器</text>
+    <text x="825" y="430" text-anchor="middle">数据库</text>
+  </g>
+</svg>

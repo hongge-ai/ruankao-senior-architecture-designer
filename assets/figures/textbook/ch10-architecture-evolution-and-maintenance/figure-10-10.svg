@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 460" font-family="Liberation Serif, SimSun, 'Noto Serif CJK SC', 'WenQuanYi Zen Hei', 'Droid Sans Fallback', serif" font-size="18">
+  <title>图 10-10 第一阶段网站架构</title>
+  <desc>复原自《系统架构设计师教程（第2版）》印刷页355（物理页364）。一台「应用服务器」圆角容器内包含三个元素：平行四边形「应用程序」（左）、错位多张纸「文件」（右上）、圆柱「数据库」（右下）。两条箭头均自「应用程序」右侧边缘向右分叉，一条指向上方的「文件」纸堆左缘，一条指向下方的「数据库」圆柱左侧。原图未画出服务器集群与更多连线。</desc>
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#000"/></marker>
+  </defs>
+  <g fill="none" stroke="#000" stroke-width="1.4">
+    <rect x="40" y="20" width="820" height="420" rx="16"/>
+    <path d="M150,165 L430,165 L395,295 L115,295 Z"/>
+    <path d="M558,82 L778,82 L778,232 L558,232 Z" fill="#fff"/>
+    <path d="M544,96 L764,96 L764,246 L544,246 Z" fill="#fff"/>
+    <path d="M530,110 L750,110 L750,260 C720,272 695,242 658,256 C620,270 570,252 530,240 Z" fill="#fff"/>
+    <ellipse cx="640" cy="315" rx="105" ry="16" fill="#fff"/>
+    <path d="M535,315 L535,420 A105,16 0 0 0 745,420 L745,315" fill="#fff"/>
+    <line x1="410" y1="230" x2="530" y2="170" marker-end="url(#ar)"/>
+    <line x1="410" y1="230" x2="535" y2="365" marker-end="url(#ar)"/>
+  </g>
+  <g fill="#000" stroke="none">
+    <text x="64" y="58">应用服务器</text>
+    <text x="272" y="240" text-anchor="middle">应用程序</text>
+    <text x="640" y="195" text-anchor="middle">文件</text>
+    <text x="640" y="395" text-anchor="middle">数据库</text>
+  </g>
+</svg>

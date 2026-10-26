@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 444" font-family="Liberation Serif, SimSun, 'Noto Serif CJK SC', 'WenQuanYi Zen Hei', 'Droid Sans Fallback', serif" font-size="17">
+  <title>表 10-1 可维护性相关架构演化操作</title>
+  <desc>复原自《系统架构设计师教程（第2版）》印刷页338（物理页347）。两列表格：名称、说明。8行操作：AMD/RMD（增加/删除模块间的依赖关系）、AMI/RMI（增加/删除模块间的接口）、AM/RM（增加/删除一个模块）、SM（拆分模块）、AGM（聚合模块）。英文为 Dependence 拼写。</desc>
+  <g fill="none" stroke="#000">
+    <rect x="10" y="10" width="880" height="424" stroke-width="2"/>
+    <line x1="10" y1="62" x2="890" y2="62" stroke-width="0.8"/>
+    <line x1="460" y1="10" x2="460" y2="434" stroke-width="0.8"/>
+    <g stroke-width="0.7">
+      <line x1="10" y1="110" x2="890" y2="110"/>
+      <line x1="10" y1="158" x2="890" y2="158"/>
+      <line x1="10" y1="206" x2="890" y2="206"/>
+      <line x1="10" y1="254" x2="890" y2="254"/>
+      <line x1="10" y1="302" x2="890" y2="302"/>
+      <line x1="10" y1="350" x2="890" y2="350"/>
+      <line x1="10" y1="398" x2="890" y2="398"/>
+    </g>
+  </g>
+  <g fill="#000" stroke="none" text-anchor="middle">
+    <text x="235" y="43" font-weight="bold">名称</text>
+    <text x="675" y="43" font-weight="bold">说明</text>
+    <text x="235" y="92">AMD(Add Module Dependence)</text>
+    <text x="675" y="92">增加模块间的依赖关系</text>
+    <text x="235" y="140">RMD(Remove Module Dependence)</text>
+    <text x="675" y="140">删除模块间的依赖关系</text>
+    <text x="235" y="188">AMI(Add Module Interface)</text>
+    <text x="675" y="188">增加模块间的接口</text>
+    <text x="235" y="236">RMI(Remove Module Interface)</text>
+    <text x="675" y="236">删除模块间的接口</text>
+    <text x="235" y="284">AM(Add Module)</text>
+    <text x="675" y="284">增加一个模块</text>
+    <text x="235" y="332">RM(Remove Module)</text>
+    <text x="675" y="332">删除一个模块</text>
+    <text x="235" y="380">SM(Split Module)</text>
+    <text x="675" y="380">拆分模块</text>
+    <text x="235" y="428">AGM(Aggregate Modules)</text>
+    <text x="675" y="428">聚合模块</text>
+  </g>
+</svg>

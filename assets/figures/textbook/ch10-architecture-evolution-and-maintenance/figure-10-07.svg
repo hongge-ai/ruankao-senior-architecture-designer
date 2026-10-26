@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 820" font-family="Liberation Serif, SimSun, 'Noto Serif CJK SC', 'WenQuanYi Zen Hei', 'Droid Sans Fallback', serif" font-size="19">
+  <title>图 10-7 PuLSE 概览</title>
+  <desc>复原自《系统架构设计师教程（第2版）》印刷页346（物理页355）。左大框「部署步骤」：左列 PuLSE初始化→PL基础设施构建→PL基础设施使用 依次向下箭头，右侧竖条框「PL基础设施演化和管理」竖排文字，左列三框与竖条之间三条双向细箭头；右大框「技术组件」纵列 6 框：用户定制（BC）、Scoping(Eco)、建模（CDA）、架构（DSSA）、Instantiating{1}（印面为花括号包数字1）、演化和管理（EM）；左右大框之间水平双向粗空心箭头；左大框底部向下双向粗空心箭头接底部大框「支持组件」：工程入口点、成熟度、组织事务，标题在框内底部。</desc>
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#000"/></marker>
+    <marker id="arw" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5.5" markerHeight="5.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="none" stroke="#000" stroke-width="1.3"/></marker>
+  </defs>
+  <g fill="none" stroke="#000" stroke-width="1.3">
+    <!-- 三大框 -->
+    <rect x="60" y="30" width="440" height="540"/>
+    <rect x="620" y="30" width="300" height="540"/>
+    <rect x="60" y="660" width="860" height="140"/>
+    <!-- 左列三框 -->
+    <rect x="100" y="150" width="290" height="80"/>
+    <rect x="100" y="290" width="290" height="100"/>
+    <rect x="100" y="450" width="290" height="100"/>
+    <!-- 竖条框 -->
+    <rect x="438" y="120" width="40" height="430"/>
+    <!-- 下行箭头 -->
+    <line x1="245" y1="230" x2="245" y2="290" marker-end="url(#ar)"/>
+    <line x1="245" y1="390" x2="245" y2="450" marker-end="url(#ar)"/>
+    <!-- 双向细箭头 ×3 -->
+    <line x1="390" y1="185" x2="438" y2="160" marker-start="url(#ar)" marker-end="url(#ar)"/>
+    <line x1="390" y1="335" x2="438" y2="330" marker-start="url(#ar)" marker-end="url(#ar)"/>
+    <line x1="390" y1="490" x2="438" y2="508" marker-start="url(#ar)" marker-end="url(#ar)"/>
+    <!-- 中间水平双向粗空心箭头 -->
+    <path d="M505,300 L535,284 L535,292 L575,292 L575,284 L605,300 L575,316 L575,308 L535,308 L535,316 Z" fill="#fff" stroke-width="1.3"/>
+    <!-- 左大框底部向下双向粗空心箭头 -->
+    <path d="M280,585 L296,615 L288,615 L288,635 L296,635 L280,645 L264,635 L272,635 L272,615 L264,615 Z" fill="#fff" stroke-width="1.3"/>
+    <!-- 右侧 6 框 -->
+    <rect x="660" y="120" width="220" height="56"/>
+    <rect x="660" y="192" width="220" height="56"/>
+    <rect x="660" y="264" width="220" height="56"/>
+    <rect x="660" y="336" width="220" height="56"/>
+    <rect x="660" y="408" width="220" height="56"/>
+    <rect x="660" y="480" width="220" height="56"/>
+    <!-- 底部 3 框 -->
+    <rect x="100" y="688" width="230" height="56"/>
+    <rect x="360" y="688" width="230" height="56"/>
+    <rect x="620" y="688" width="230" height="56"/>
+  </g>
+  <g fill="#000" stroke="none" text-anchor="middle">
+    <text x="280" y="78" font-weight="bold">部署步骤</text>
+    <text x="770" y="78" font-weight="bold">技术组件</text>
+    <text x="245" y="199">PuLSE初始化</text>
+    <text x="245" y="331">PL基础设施</text>
+    <text x="245" y="359">构建</text>
+    <text x="245" y="491">PL基础设施</text>
+    <text x="245" y="519">使用</text>
+    <text x="458" y="150">P</text>
+    <text x="458" y="188">L</text>
+    <text x="458" y="226">基</text>
+    <text x="458" y="264">础</text>
+    <text x="458" y="302">设</text>
+    <text x="458" y="340">施</text>
+    <text x="458" y="378">演</text>
+    <text x="458" y="416">化</text>
+    <text x="458" y="454">和</text>
+    <text x="458" y="492">管</text>
+    <text x="458" y="530">理</text>
+    <text x="770" y="156">用户定制（BC）</text>
+    <text x="770" y="228">Scoping(Eco)</text>
+    <text x="770" y="300">建模（CDA）</text>
+    <text x="770" y="372">架构（DSSA）</text>
+    <text x="770" y="444">Instantiating{1}</text>
+    <text x="770" y="516">演化和管理（EM）</text>
+    <text x="215" y="724">工程入口点</text>
+    <text x="475" y="724">成熟度</text>
+    <text x="735" y="724">组织事务</text>
+    <text x="490" y="782" font-weight="bold">支持组件</text>
+  </g>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 800" font-family="Liberation Serif, SimSun, 'Noto Serif CJK SC', 'WenQuanYi Zen Hei', 'Droid Sans Fallback', serif" font-size="18">
+  <title>图 10-13 第四阶段网站架构</title>
+  <desc>复原自《系统架构设计师教程（第2版）》印刷页356（物理页365）。左侧圆角框「负载均衡调度服务器」（文字分两行），其右缘分出三条箭头，分别指向三层错位应用服务器框（「应用服务器n」「应用服务器2」「应用服务器1」）的左边缘。最前的「应用服务器1」框内含平行四边形「应用程序」与下方波浪纸形「本地缓存」，两者间有一条向下箭头；「应用程序」右侧顶点分出三条箭头：一条指向右上方三层错位缓存服务器框（最前框内为波浪纸形「远程分布式缓存」）的前框下边缘，一条指向「文件服务器」容器左缘（内含错位多张纸「文件」），一条指向「数据库服务器」容器左缘（内含圆柱「数据库」）。</desc>
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#000"/></marker>
+  </defs>
+  <g fill="none" stroke="#000" stroke-width="1.4">
+    <rect x="40" y="390" width="230" height="110" rx="14"/>
+    <path d="M418,264 L758,264 L758,604 L418,604 Z"/>
+    <path d="M434,282 L774,282 L774,622 L434,622 Z"/>
+    <path d="M450,300 L790,300 L790,640 L450,640 Z" fill="#fff"/>
+    <path d="M500,360 L730,360 L705,465 L475,465 Z"/>
+    <line x1="600" y1="465" x2="600" y2="523" marker-end="url(#ar)"/>
+    <path d="M515,525 C551,503 587,541 695,519 L695,596 C659,618 623,580 515,602 Z" fill="#fff"/>
+    <path d="M768,44 L1168,44 L1168,264 L768,264 Z"/>
+    <path d="M784,62 L1184,62 L1184,282 L784,282 Z"/>
+    <path d="M800,80 L1200,80 L1200,300 L800,300 Z" fill="#fff"/>
+    <path d="M890,180 C926,158 962,196 1070,174 L1070,251 C1034,273 998,235 890,257 Z" fill="#fff"/>
+    <rect x="800" y="340" width="400" height="180" rx="16"/>
+    <path d="M1014,362 L1184,362 L1184,472 L1014,472 Z" fill="#fff"/>
+    <path d="M1002,374 L1172,374 L1172,484 L1002,484 Z" fill="#fff"/>
+    <path d="M990,386 L1160,386 L1160,496 C1134,508 1112,482 1082,494 C1050,506 1016,490 990,480 Z" fill="#fff"/>
+    <rect x="800" y="590" width="400" height="170" rx="16"/>
+    <ellipse cx="992" cy="640" rx="85" ry="14" fill="#fff"/>
+    <path d="M907,640 L907,735 A85,14 0 0 0 1077,735 L1077,640" fill="#fff"/>
+    <line x1="270" y1="440" x2="418" y2="352" marker-end="url(#ar)"/>
+    <line x1="270" y1="440" x2="434" y2="390" marker-end="url(#ar)"/>
+    <line x1="270" y1="440" x2="450" y2="430" marker-end="url(#ar)"/>
+    <line x1="718" y1="413" x2="940" y2="300" marker-end="url(#ar)"/>
+    <line x1="718" y1="413" x2="800" y2="400" marker-end="url(#ar)"/>
+    <line x1="718" y1="413" x2="800" y2="640" marker-end="url(#ar)"/>
+  </g>
+  <g fill="#000" stroke="none">
+    <text x="155" y="425" text-anchor="middle">负载均衡调度</text>
+    <text x="155" y="455" text-anchor="middle">服务器</text>
+    <text x="436" y="296">应用服务器n</text>
+    <text x="452" y="314">应用服务器2</text>
+    <text x="468" y="332">应用服务器1</text>
+    <text x="612" y="417" text-anchor="middle">应用程序</text>
+    <text x="605" y="573" text-anchor="middle">本地缓存</text>
+    <text x="786" y="74">分布式缓存服务器n</text>
+    <text x="802" y="92">分布式缓存服务器2</text>
+    <text x="818" y="110">分布式缓存服务器1</text>
+    <text x="1015" y="225" text-anchor="middle">远程分布式缓存</text>
+    <text x="824" y="378">文件服务器</text>
+    <text x="1075" y="448" text-anchor="middle">文件</text>
+    <text x="824" y="628">数据库服务器</text>
+    <text x="992" y="705" text-anchor="middle">数据库</text>
+  </g>
+</svg>

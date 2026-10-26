@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 800" font-family="Liberation Serif, SimSun, 'Noto Serif CJK SC', 'WenQuanYi Zen Hei', 'Droid Sans Fallback', serif" font-size="17">
+  <title>表 10-3 Web 读写程序组件图解析数据</title>
+  <desc>复原自《系统架构设计师教程（第2版）》印刷页364-365（物理页373-374）。原书表格跨页：第一段（物理页373）为指标表头 L/talalE/totalN（talalE 为印面怪字，原书如此）及指标值 1/19/13，其下为 S/E/X/R/W 列名与 5 个组件行（sub2、sub1、RemoteDB、RSApplication、RSInterface）；第二段（物理页374）顶部标「（续表）」并重复指标表头 L/talalE/totalN，其下为 8 个组件行（RemoteApplication、RemoteInterface、WebApplication、WebInterface、LocalDB、ClientApplication、MainInterface、User），原书第二段不重复 S/E/X/R/W 列名。指标表头 L、talalE、totalN 各为合并格：L 对 S 列，talalE 横跨 E、X 两列，totalN 横跨 R、W 两列；S/E/X/R/W 列边界自其列名行起向下贯通，不穿过指标合并格。</desc>
+  <g fill="none" stroke="#000">
+    <rect x="10" y="10" width="880" height="352" stroke-width="2"/>
+    <line x1="10" y1="54" x2="890" y2="54" stroke-width="0.8"/>
+    <line x1="10" y1="98" x2="890" y2="98" stroke-width="0.8"/>
+    <line x1="10" y1="142" x2="890" y2="142" stroke-width="0.8"/>
+    <line x1="250" y1="10" x2="250" y2="362" stroke-width="0.8"/>
+    <line x1="380" y1="10" x2="380" y2="362" stroke-width="0.8"/>
+    <line x1="510" y1="98" x2="510" y2="362" stroke-width="0.8"/>
+    <line x1="640" y1="10" x2="640" y2="362" stroke-width="0.8"/>
+    <line x1="770" y1="98" x2="770" y2="362" stroke-width="0.8"/>
+    <g stroke-width="0.7">
+      <line x1="10" y1="186" x2="890" y2="186"/>
+      <line x1="10" y1="230" x2="890" y2="230"/>
+      <line x1="10" y1="274" x2="890" y2="274"/>
+      <line x1="10" y1="318" x2="890" y2="318"/>
+    </g>
+    <rect x="10" y="390" width="880" height="396" stroke-width="2"/>
+    <line x1="10" y1="434" x2="890" y2="434" stroke-width="0.8"/>
+    <line x1="250" y1="390" x2="250" y2="786" stroke-width="0.8"/>
+    <line x1="380" y1="390" x2="380" y2="786" stroke-width="0.8"/>
+    <line x1="510" y1="434" x2="510" y2="786" stroke-width="0.8"/>
+    <line x1="640" y1="390" x2="640" y2="786" stroke-width="0.8"/>
+    <line x1="770" y1="434" x2="770" y2="786" stroke-width="0.8"/>
+    <g stroke-width="0.7">
+      <line x1="10" y1="478" x2="890" y2="478"/>
+      <line x1="10" y1="522" x2="890" y2="522"/>
+      <line x1="10" y1="566" x2="890" y2="566"/>
+      <line x1="10" y1="610" x2="890" y2="610"/>
+      <line x1="10" y1="654" x2="890" y2="654"/>
+      <line x1="10" y1="698" x2="890" y2="698"/>
+      <line x1="10" y1="742" x2="890" y2="742"/>
+    </g>
+  </g>
+  <g fill="#000" stroke="none" text-anchor="middle">
+    <text x="880" y="384" text-anchor="end" font-size="15">（续表）</text>
+    <text x="315" y="39">L</text>
+    <text x="510" y="39">talalE</text>
+    <text x="765" y="39">totalN</text>
+    <text x="130" y="83">组件图</text>
+    <text x="315" y="83">1</text>
+    <text x="510" y="83">19</text>
+    <text x="765" y="83">13</text>
+    <text x="315" y="127">S</text>
+    <text x="445" y="127">E</text>
+    <text x="575" y="127">X</text>
+    <text x="705" y="127">R</text>
+    <text x="830" y="127">W</text>
+    <text x="130" y="171">sub2</text>
+    <text x="315" y="171">0</text><text x="445" y="171">0</text><text x="575" y="171">0</text><text x="705" y="171">1</text><text x="830" y="171">1</text>
+    <text x="130" y="215">sub1</text>
+    <text x="315" y="215">0</text><text x="445" y="215">0</text><text x="575" y="215">1</text><text x="705" y="215">1</text><text x="830" y="215">1</text>
+    <text x="130" y="259">RemoteDB</text>
+    <text x="315" y="259">0</text><text x="445" y="259">0</text><text x="575" y="259">1</text><text x="705" y="259">0</text><text x="830" y="259">1</text>
+    <text x="130" y="303">RSApplication</text>
+    <text x="315" y="303">0</text><text x="445" y="303">1</text><text x="575" y="303">1</text><text x="705" y="303">1</text><text x="830" y="303">1</text>
+    <text x="130" y="347">RSInterface</text>
+    <text x="315" y="347">0</text><text x="445" y="347">1</text><text x="575" y="347">0</text><text x="705" y="347">1</text><text x="830" y="347">1</text>
+    <text x="315" y="419">L</text>
+    <text x="510" y="419">talalE</text>
+    <text x="765" y="419">totalN</text>
+    <text x="130" y="463">RemoteApplication</text>
+    <text x="315" y="463">0</text><text x="445" y="463">0</text><text x="575" y="463">1</text><text x="705" y="463">1</text><text x="830" y="463">1</text>
+    <text x="130" y="507">RemoteInterface</text>
+    <text x="315" y="507">0</text><text x="445" y="507">1</text><text x="575" y="507">0</text><text x="705" y="507">1</text><text x="830" y="507">1</text>
+    <text x="130" y="551">WebApplication</text>
+    <text x="315" y="551">0</text><text x="445" y="551">1</text><text x="575" y="551">1</text><text x="705" y="551">1</text><text x="830" y="551">1</text>
+    <text x="130" y="595">WebInterface</text>
+    <text x="315" y="595">0</text><text x="445" y="595">1</text><text x="575" y="595">0</text><text x="705" y="595">1</text><text x="830" y="595">1</text>
+    <text x="130" y="639">LocalDB</text>
+    <text x="315" y="639">0</text><text x="445" y="639">0</text><text x="575" y="639">1</text><text x="705" y="639">0</text><text x="830" y="639">1</text>
+    <text x="130" y="683">ClientApplication</text>
+    <text x="315" y="683">2</text><text x="445" y="683">1</text><text x="575" y="683">0</text><text x="705" y="683">1</text><text x="830" y="683">1</text>
+    <text x="130" y="727">MainInterface</text>
+    <text x="315" y="727">0</text><text x="445" y="727">1</text><text x="575" y="727">0</text><text x="705" y="727">2</text><text x="830" y="727">1</text>
+    <text x="130" y="771">User</text>
+    <text x="315" y="771">0</text><text x="445" y="771">0</text><text x="575" y="771">0</text><text x="705" y="771">1</text><text x="830" y="771">0</text>
+  </g>
+</svg>

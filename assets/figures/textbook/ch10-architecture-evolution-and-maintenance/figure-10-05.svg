@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 600" font-family="Liberation Serif, SimSun, 'Noto Serif CJK SC', 'WenQuanYi Zen Hei', 'Droid Sans Fallback', serif" font-size="19">
+  <title>图 10-5 正交软件体系结构的演化</title>
+  <desc>复原自《系统架构设计师教程（第2版）》印刷页340（物理页349）。五层正交体系结构：第一层A，第二层B、C、C'，第三层D、E，第四层F、G、G'（OCR 文本作 G'；SVG 按此修正），第五层H。实线连接A-B、A-C、B-D、C-E、D-F、E-G、F-H、G-H；虚线连接A-C'、C'-G'、G'-H。两个虚线椭圆分别圈住线索C-E-G与C'-G。「更新前」箭头指向左椭圆，「更新后」箭头指向右椭圆。组件框为四角小切角矩形。</desc>
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#000"/></marker>
+  </defs>
+  <g fill="none" stroke="#000" stroke-width="1.2">
+    <!-- 虚线椭圆（线索） -->
+    <ellipse cx="420" cy="300" rx="88" ry="158" stroke-dasharray="7 5" stroke-width="1.1"/>
+    <ellipse cx="580" cy="300" rx="88" ry="158" stroke-dasharray="7 5" stroke-width="1.1"/>
+    <!-- 实线连接 -->
+    <g stroke-width="1.1">
+      <line x1="392" y1="98" x2="300" y2="170"/>
+      <line x1="402" y1="100" x2="416" y2="169"/>
+      <line x1="280" y1="211" x2="280" y2="279"/>
+      <line x1="420" y1="211" x2="420" y2="279"/>
+      <line x1="280" y1="321" x2="280" y2="389"/>
+      <line x1="420" y1="321" x2="420" y2="389"/>
+      <line x1="292" y1="428" x2="396" y2="500"/>
+      <line x1="420" y1="431" x2="420" y2="499"/>
+    </g>
+    <!-- 虚线连接 -->
+    <g stroke-width="1.1" stroke-dasharray="6 5">
+      <line x1="428" y1="96" x2="570" y2="172"/>
+      <line x1="580" y1="211" x2="580" y2="389"/>
+      <line x1="580" y1="431" x2="444" y2="500"/>
+    </g>
+    <!-- 更新前/更新后 指示箭头 -->
+    <line x1="492" y1="48" x2="452" y2="130" stroke-width="1" marker-end="url(#ar)"/>
+    <line x1="712" y1="248" x2="671" y2="297" stroke-width="1" marker-end="url(#ar)"/>
+    <!-- 组件框（四角切角） -->
+    <g stroke-width="1.3">
+      <path d="M386,60 L414,60 L420,66 L420,94 L414,100 L386,100 L380,94 L380,66 Z"/>
+      <path d="M266,170 L294,170 L300,176 L300,204 L294,210 L266,210 L260,204 L260,176 Z"/>
+      <path d="M406,170 L434,170 L440,176 L440,204 L434,210 L406,210 L400,204 L400,176 Z"/>
+      <path d="M566,170 L594,170 L600,176 L600,204 L594,210 L566,210 L560,204 L560,176 Z"/>
+      <path d="M266,280 L294,280 L300,286 L300,314 L294,320 L266,320 L260,314 L260,286 Z"/>
+      <path d="M406,280 L434,280 L440,286 L440,314 L434,320 L406,320 L400,314 L400,286 Z"/>
+      <path d="M266,390 L294,390 L300,396 L300,424 L294,430 L266,430 L260,424 L260,396 Z"/>
+      <path d="M406,390 L434,390 L440,396 L440,424 L434,430 L406,430 L400,424 L400,396 Z"/>
+      <path d="M566,390 L594,390 L600,396 L600,424 L594,430 L566,430 L560,424 L560,396 Z"/>
+      <path d="M406,500 L434,500 L440,506 L440,534 L434,540 L406,540 L400,534 L400,506 Z"/>
+    </g>
+  </g>
+  <g fill="#000" stroke="none" text-anchor="middle">
+    <text x="400" y="87">A</text>
+    <text x="280" y="197">B</text>
+    <text x="420" y="197">C</text>
+    <text x="580" y="197">C'</text>
+    <text x="280" y="307">D</text>
+    <text x="420" y="307">E</text>
+    <text x="280" y="417">F</text>
+    <text x="420" y="417">G</text>
+    <text x="580" y="417">G'</text>
+    <text x="420" y="527">H</text>
+    <text x="510" y="44">更新前</text>
+    <text x="750" y="245">更新后</text>
+    <text x="130" y="87" text-anchor="end">第一层</text>
+    <text x="130" y="197" text-anchor="end">第二层</text>
+    <text x="130" y="307" text-anchor="end">第三层</text>
+    <text x="130" y="417" text-anchor="end">第四层</text>
+    <text x="130" y="527" text-anchor="end">第五层</text>
+  </g>
+</svg>

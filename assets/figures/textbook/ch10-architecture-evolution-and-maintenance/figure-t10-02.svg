@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 556" font-family="Liberation Serif, SimSun, 'Noto Serif CJK SC', 'WenQuanYi Zen Hei', 'Droid Sans Fallback', serif" font-size="17">
+  <title>表 10-2 可靠性相关架构修改操作</title>
+  <desc>复原自《系统架构设计师教程（第2版）》印刷页339（物理页348）。两列表格：名称、说明。11行操作：AMS/RMS（顺序图增加/删除模块交互消息）、AO/RO（顺序图增加/删除交互对象）、AF/RF/CF（顺序图增加/删除/修改消息片段）、AU/RU（用例图为参与者增加/删除可执行用例）、AA/RA（用例图增加/删除参与者）。</desc>
+  <g fill="none" stroke="#000">
+    <rect x="10" y="10" width="880" height="536" stroke-width="2"/>
+    <line x1="10" y1="62" x2="890" y2="62" stroke-width="0.8"/>
+    <line x1="460" y1="10" x2="460" y2="546" stroke-width="0.8"/>
+    <g stroke-width="0.7">
+      <line x1="10" y1="106" x2="890" y2="106"/>
+      <line x1="10" y1="150" x2="890" y2="150"/>
+      <line x1="10" y1="194" x2="890" y2="194"/>
+      <line x1="10" y1="238" x2="890" y2="238"/>
+      <line x1="10" y1="282" x2="890" y2="282"/>
+      <line x1="10" y1="326" x2="890" y2="326"/>
+      <line x1="10" y1="370" x2="890" y2="370"/>
+      <line x1="10" y1="414" x2="890" y2="414"/>
+      <line x1="10" y1="458" x2="890" y2="458"/>
+      <line x1="10" y1="502" x2="890" y2="502"/>
+      <line x1="10" y1="546" x2="890" y2="546"/>
+    </g>
+  </g>
+  <g fill="#000" stroke="none" text-anchor="middle">
+    <text x="235" y="43" font-weight="bold">名称</text>
+    <text x="675" y="43" font-weight="bold">说明</text>
+    <text x="235" y="90">AMS(Add Message)</text>
+    <text x="675" y="90">在顺序图中增加模块交互消息</text>
+    <text x="235" y="134">RMS(Remove Message)</text>
+    <text x="675" y="134">在顺序图中删除模块交互消息</text>
+    <text x="235" y="178">AO(Add Object)</text>
+    <text x="675" y="178">在顺序图中增加交互对象</text>
+    <text x="235" y="222">RO(Remove Object)</text>
+    <text x="675" y="222">在顺序图中删除交互对象</text>
+    <text x="235" y="266">AF(Add Fragment)</text>
+    <text x="675" y="266">在顺序图中增加消息片段</text>
+    <text x="235" y="310">RF(Remove Fragment)</text>
+    <text x="675" y="310">在顺序图中删除消息片段</text>
+    <text x="235" y="354">CF(Change Fragment)</text>
+    <text x="675" y="354">在顺序图中修改消息片段</text>
+    <text x="235" y="398">AU(Add Use Case)</text>
+    <text x="675" y="398">在用例图中为参与者增加一个可执行用例</text>
+    <text x="235" y="442">RU(Remove Use Case)</text>
+    <text x="675" y="442">在用例图中为参与者删除某个可执行用例</text>
+    <text x="235" y="486">AA(Add Actor)</text>
+    <text x="675" y="486">在用例图中增加参与者</text>
+    <text x="235" y="530">RA(Remove Actor)</text>
+    <text x="675" y="530">在用例图中删除参与者</text>
+  </g>
+</svg>
