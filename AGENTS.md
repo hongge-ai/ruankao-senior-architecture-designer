@@ -306,7 +306,9 @@ uv run --group lint ruff format scripts/          # CI 用 ruff format --check
 
 
 
-- 流程见 [贡献流程](#贡献流程)：改动 → 更新来源与清单 → 跑 `uv run python scripts/validate_knowledge_base.py` → 经 PR 合并；**不要直接推送受保护的 `main`**。commit message 中不要添加任何 AI 工具署名或 `Co-Authored-By` 之类的尾注。PR 用 `.github/pull_request_template.md`，勘误/下架走 `.github/ISSUE_TEMPLATE/`。
+- 流程见 [贡献流程](#贡献流程)：改动 → 更新来源与清单 → 跑 `uv run python scripts/validate_knowledge_base.py` → 经 PR 提交评审 → **由维护者明确说「合并 / merge」后才合并**；**不要直接推送受保护的 `main`**。commit message 中不要添加任何 AI 工具署名或 `Co-Authored-By` 之类的尾注。PR 用 `.github/pull_request_template.md`，勘误/下架走 `.github/ISSUE_TEMPLATE/`。
+
+- **合并授权（2026-10-26 定稿）**：**合并到 `main` 必须由维护者以人类身份明确说「合并 / merge」**。CI 通过、自查完成、PR 已开、方案已确认、任务「做完/完成」等均**不构成**合并授权；自动化代理与协作者不得据此推断或自行合并。允许的操作边界：修改文件、提交到工作分支、推送工作分支、开/更新 PR、请求评审；**不得**在未获明确指令时合并 PR、推送 `main`、force push、改写历史或删除分支。单人维护时的自查只替代「另一名维护者复核」，不替代「合并授权」。
 
 - 换行符：`.md` 用 **CRLF**，`.py`/`.json`/`.yml`/`.yaml`/`.toml`/`uv.lock` 用 **LF**（见 `.gitattributes`、`.editorconfig`）；**所有文本文件统一为标准 UTF-8，不加 BOM**。
 
@@ -1074,7 +1076,7 @@ SVG 必须作为独立文件落盘并以 Markdown 图片语法引用——**GitH
 
    CI 用的是 `uv run --locked`，本地加 `--locked` 可以完全对齐（改过 `pyproject.toml` 但没跑 `uv lock` 时它会直接报错，而不是静默改写锁文件）。
 
-6. 通过 Pull Request 合并；不要直接推送受保护的 `main`。
+6. 通过 Pull Request 提交评审；**合并到 `main` 须等待维护者明确说「合并 / merge」**。CI 通过、自查完成不构成合并授权；不要直接推送受保护的 `main`。
 
 
 
@@ -1100,7 +1102,7 @@ SVG 必须作为独立文件落盘并以 Markdown 图片语法引用——**GitH
 
 - 不混入无关格式化或大规模改写；
 
-- 内容修改优先由另一名维护者复核；单人维护且暂无独立复核人时，可由提交者完成逐项自查，并在来源、已知限制和验证结果记录完整且自动检查通过后合并。
+- 内容修改优先由另一名维护者复核；单人维护且暂无独立复核人时，可由提交者完成逐项自查，并在来源、已知限制和验证结果记录完整且自动检查通过后**提交评审**；**合并仍须维护者明确说「合并 / merge」**。自查与自动检查只证明「可合并」，不构成合并授权。
 
 
 
