@@ -19,3 +19,7 @@
 - [ ] 已运行 `uv lock --check`
 - [ ] 已运行 `uv run python scripts/validate_knowledge_base.py`（输出 `PASSED: 0 errors`）
 - [ ] 自动检查通过
+
+## 合并授权
+
+- [ ] 维护者已明确说「合并 / merge」（CI 通过、自查完成、PR 已开均不构成授权；未打勾前请勿合并）
