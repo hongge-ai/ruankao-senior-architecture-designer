@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 796 307" role="img" aria-labelledby="title desc">
+  <title id="title">图 15-4 基本Web服务协议</title><desc id="desc">三个节点形成三角。两条 UDDI 斜边、WSDL 描述及 SOAP 连接的横边均双向。斜标尾字受电子重建错位影响，按本章服务检索和发布语义校读。</desc>
+  <style>
+    text {font:22px "Noto Sans CJK SC","Microsoft YaHei",sans-serif;text-anchor:middle;fill:#192d38}
+    rect {fill:#f6fafb;stroke:#507382;stroke-width:1.7}
+    line {stroke:#507382;stroke-width:1.7}
+  </style>
+  <defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#507382"/></marker></defs>
+  <rect x="318" y="12" width="160" height="59"/><text x="398.0" y="49.5">服务注册</text>
+  <rect x="20" y="214" width="174" height="67"/><text x="107.0" y="255.5">服务请求者</text>
+  <rect x="602" y="214" width="174" height="67"/><text x="689.0" y="255.5">服务提供者</text>
+  <line x1="107" y1="213" x2="317" y2="41" marker-start="url(#arr)" marker-end="url(#arr)"/>
+  <line x1="479" y1="41" x2="689" y2="213" marker-start="url(#arr)" marker-end="url(#arr)"/>
+  <line x1="195" y1="231" x2="601" y2="231" marker-start="url(#arr)" marker-end="url(#arr)"/>
+  <line x1="195" y1="265" x2="601" y2="265" marker-start="url(#arr)" marker-end="url(#arr)"/>
+  <g transform="translate(196 120) rotate(-39)"><text x="0" y="0">通过UDDI检索</text></g>
+  <g transform="translate(601 118) rotate(39)"><text x="0" y="0">通过UDDI发布</text></g>
+  <text x="398" y="221">用WSDL描述</text>
+  <text x="398" y="295">通过SOAP连接</text>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 487" role="img" aria-labelledby="title desc">
+<title id="title">图 15-2 IBM WebSphere业务集成参考架构</title>
+<desc id="desc">教材物理页524。顶层两横条，下分控制服务和业务逻辑两组三组件，由连接服务联系，底部为IT服务管理。按同页正文修复图中Services误识和Service后多余数字。</desc>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#396b7a"/></marker></defs>
+<g font-family="Noto Sans CJK SC, sans-serif" fill="#17333e">
+<rect x="21" y="8" width="658" height="39" rx="0" fill="#eff7f9" stroke="#4d7580" stroke-width="1.6"/><text x="350.0" y="33.833333333333336" text-anchor="middle" font-size="19">Development Services</text>
+<rect x="21" y="58" width="658" height="39" rx="0" fill="#eff7f9" stroke="#4d7580" stroke-width="1.6"/><text x="350.0" y="83.83333333333333" text-anchor="middle" font-size="19">Business Innovation and Optimization Services</text>
+<rect x="34" y="111" width="632" height="114" rx="0" fill="#fff" stroke="#4d7580" stroke-width="1.6"/>
+<rect x="34" y="298" width="632" height="127" rx="0" fill="#fff" stroke="#4d7580" stroke-width="1.6"/>
+<path d="M127 225v14 M141 225v14 M127 281v17 M141 281v17" stroke="#396b7a" stroke-width="1.8" fill="none"/>
+<path d="M343 225v14 M357 225v14 M343 281v17 M357 281v17" stroke="#396b7a" stroke-width="1.8" fill="none"/>
+<path d="M559 225v14 M573 225v14 M559 281v17 M573 281v17" stroke="#396b7a" stroke-width="1.8" fill="none"/>
+<rect x="15" y="240" width="670" height="41" rx="14" fill="#eff7f9" stroke="#4d7580" stroke-width="1.6"/><text x="350.0" y="267.1666666666667" text-anchor="middle" font-size="20">Connectivity Services</text>
+<rect x="45" y="119" width="185" height="99" rx="0" fill="#eff7f9" stroke="#4d7580" stroke-width="1.6"/>
+<text x="137" y="149" text-anchor="middle" font-size="19">Interaction</text>
+<text x="137" y="173" text-anchor="middle" font-size="19">Services</text>
+<rect x="258" y="119" width="185" height="99" rx="0" fill="#eff7f9" stroke="#4d7580" stroke-width="1.6"/>
+<text x="350" y="149" text-anchor="middle" font-size="19">Process</text>
+<text x="350" y="173" text-anchor="middle" font-size="19">Services</text>
+<rect x="470" y="119" width="185" height="99" rx="0" fill="#eff7f9" stroke="#4d7580" stroke-width="1.6"/>
+<text x="562" y="149" text-anchor="middle" font-size="19">Information</text>
+<text x="562" y="173" text-anchor="middle" font-size="19">Services</text>
+<text x="350" y="207" text-anchor="middle" font-size="16">Control Service</text>
+<rect x="45" y="307" width="185" height="110" rx="0" fill="#eff7f9" stroke="#4d7580" stroke-width="1.6"/>
+<text x="137" y="335" text-anchor="middle" font-size="18">Partner</text>
+<text x="137" y="358" text-anchor="middle" font-size="18">Services</text>
+<rect x="258" y="307" width="185" height="110" rx="0" fill="#eff7f9" stroke="#4d7580" stroke-width="1.6"/>
+<text x="350" y="335" text-anchor="middle" font-size="18">Business</text>
+<text x="350" y="358" text-anchor="middle" font-size="18">Application</text>
+<text x="350" y="381" text-anchor="middle" font-size="18">Services</text>
+<rect x="470" y="307" width="185" height="110" rx="0" fill="#eff7f9" stroke="#4d7580" stroke-width="1.6"/>
+<text x="562" y="335" text-anchor="middle" font-size="18">Application and</text>
+<text x="562" y="358" text-anchor="middle" font-size="18">Information</text>
+<text x="562" y="381" text-anchor="middle" font-size="18">Assets</text>
+<text x="350" y="408" text-anchor="middle" font-size="15">Business Logic Service</text>
+<rect x="10" y="433" width="680" height="45" rx="0" fill="#eff7f9" stroke="#4d7580" stroke-width="1.6"/><text x="350.0" y="461.8333333333333" text-anchor="middle" font-size="19">IT Services Management</text>
+</g></svg>

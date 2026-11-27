@@ -1,0 +1,3345 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-27",
+  "chapter": "第15章-面向服务架构设计理论与实践",
+  "scope": "章导语及各节全文",
+  "base_commit": "cf4f2af7b0d51b7898e3dbb05317808a9f4c0ad9",
+  "entries": [
+    {
+      "id": "ch15a-01",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/INDEX.md",
+      "loc": "标点、分词或段落边界",
+      "ocr": "Pezzini,Gartner",
+      "current": "Pezzini,Gartner",
+      "final": "Pezzini, Gartner",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图句法、段首缩进或英文词界统一排印。",
+      "sources": [
+        "教材 PDF 物理页 519（印刷页 512），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-02",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/INDEX.md",
+      "loc": "标点、分词或段落边界",
+      "ocr": " (Service-Oriented Architecture,SOA) 中",
+      "current": " (Service-Oriented Architecture,SOA) 中",
+      "final": "（Service-Oriented Architecture，SOA）中",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图句法、段首缩进或英文词界统一排印。",
+      "sources": [
+        "教材 PDF 物理页 519（印刷页 512），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-03",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第01节-SOA的相关概念.md",
+      "loc": "标点、分词或段落边界",
+      "ocr": " (Service-Oriented Architecture,SOA), 从",
+      "current": " (Service-Oriented Architecture,SOA), 从",
+      "final": "（Service-Oriented Architecture，SOA），从",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图句法、段首缩进或英文词界统一排印。",
+      "sources": [
+        "教材 PDF 物理页 519（印刷页 512），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-04",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第01节-SOA的相关概念.md",
+      "loc": "恢复底本内容或结构",
+      "ocr": "构建在各种这样的系统中的服务",
+      "current": "构建在各种系统中的服务",
+      "final": "构建在各种这样的系统中的服务",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "根据页图可辨文字、缩进和编号恢复。",
+      "sources": [
+        "教材 PDF 物理页 519（印刷页 512），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-05",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第01节-SOA的相关概念.md",
+      "loc": "保留清洗稿校正",
+      "ocr": "服务可以一种统一",
+      "current": "服务可以以一种统一",
+      "final": "服务可以以一种统一",
+      "class": "K",
+      "confidence": "A",
+      "evidence": "保留引出方式的介词“以”，避免让“可以”直接支配数量短语。",
+      "sources": [
+        "教材 PDF 物理页 519（印刷页 512），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-06",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第01节-SOA的相关概念.md",
+      "loc": "标点、分词或段落边界",
+      "ocr": "BPEL4WS, 它",
+      "current": "BPEL4WS, 它",
+      "final": "BPEL4WS，它",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图句法、段首缩进或英文词界统一排印。",
+      "sources": [
+        "教材 PDF 物理页 520（印刷页 513），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-07",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第01节-SOA的相关概念.md",
+      "loc": "标点、分词或段落边界",
+      "ocr": "使用BPEL, 用户",
+      "current": "使用BPEL, 用户",
+      "final": "使用BPEL，用户",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图句法、段首缩进或英文词界统一排印。",
+      "sources": [
+        "教材 PDF 物理页 520（印刷页 513），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-08",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第01节-SOA的相关概念.md",
+      "loc": "标点、分词或段落边界",
+      "ocr": "现有的Web Services, 将",
+      "current": "现有的Web Services, 将",
+      "final": "现有的Web Services，将",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图句法、段首缩进或英文词界统一排印。",
+      "sources": [
+        "教材 PDF 物理页 520（印刷页 513），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-09",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第01节-SOA的相关概念.md",
+      "loc": "术语或文字校正",
+      "ocr": "一个新的Web Services, 在",
+      "current": "一个新的Web Services, 在",
+      "final": "一个新的Web Service，在",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "量词“一个”和下文“单个Service”都唯一要求单数。",
+      "sources": [
+        "教材 PDF 物理页 520（印刷页 513），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-10",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第02节-SOA的发展历史.md",
+      "loc": "待核",
+      "ocr": "Web服务相互学习和交互",
+      "current": "Web服务相互学习和交互",
+      "final": null,
+      "class": "C3",
+      "confidence": "低～中",
+      "evidence": "页图清晰作“学习”。SOA可能在此指服务发现、调用或其他交互，无法仅据语境选定。",
+      "sources": [
+        "教材 PDF 物理页 520（印刷页 513），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-11",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第02节-SOA的发展历史.md",
+      "loc": "标点、分词或段落边界",
+      "ocr": "SOA, 但XML",
+      "current": "SOA, 但XML",
+      "final": "SOA，但XML",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图句法、段首缩进或英文词界统一排印。",
+      "sources": [
+        "教材 PDF 物理页 520（印刷页 513），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-12",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第02节-SOA的发展历史.md",
+      "loc": "标点、分词或段落边界",
+      "ocr": "通过XML, 开发",
+      "current": "通过XML, 开发",
+      "final": "通过XML，开发",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图句法、段首缩进或英文词界统一排印。",
+      "sources": [
+        "教材 PDF 物理页 520（印刷页 513），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-13",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第02节-SOA的发展历史.md",
+      "loc": "标点、分词或段落边界",
+      "ocr": " (Standard Generalized Markup Language,SGML), 它",
+      "current": " (Standard Generalized Markup Language,SGML), 它",
+      "final": "（Standard Generalized Markup Language，SGML），它",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图句法、段首缩进或英文词界统一排印。",
+      "sources": [
+        "教材 PDF 物理页 520（印刷页 513），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-14",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第02节-SOA的发展历史.md",
+      "loc": "待核",
+      "ocr": "它在20世纪60年代后期就已存在",
+      "current": "它在20世纪60年代后期就已存在",
+      "final": null,
+      "class": "C3",
+      "confidence": "低～中",
+      "evidence": "“它”可能把前身GML的起源与SGML成为标准的时间合写；只凭本页不能认定所指版本。",
+      "sources": [
+        "教材 PDF 物理页 520（印刷页 513），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-15",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第02节-SOA的发展历史.md",
+      "loc": "XSLT名称",
+      "ocr": "XML转换语言 (eXtensible Stylesheet Language Transformation,XSLT), 接受方",
+      "current": "XML转换语言 (eXtensible Stylesheet Language Transformation,XSLT), 接受方",
+      "final": "XML转换语言（XSL Transformations，XSLT），接受方",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "W3C规范题名为XSL Transformations，MDN的完整展开亦以复数Transformations结尾。保留正文对其用途的描述。",
+      "sources": [
+        "教材 PDF 物理页 520（印刷页 513），OCR 衍生页面",
+        "https://raw.githubusercontent.com/w3c/qtspecs/master/specifications/xslt-30/html/Overview.html（访问 2026-11-27）",
+        "https://raw.githubusercontent.com/mdn/content/main/files/en-us/web/xml/xslt/index.md（访问 2026-11-27）"
+      ]
+    },
+    {
+      "id": "ch15a-16",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第02节-SOA的发展历史.md",
+      "loc": "标点、分词或段落边界",
+      "ocr": "XML是SOA 的基石",
+      "current": "XML是SOA 的基石",
+      "final": "XML是SOA的基石",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图句法、段首缩进或英文词界统一排印。",
+      "sources": [
+        "教材 PDF 物理页 521（印刷页 514），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-17",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第02节-SOA的发展历史.md",
+      "loc": "术语或文字校正",
+      "ocr": " (Simple Object Access Protocal,SOAP)",
+      "current": " (Simple Object Access Protocal,SOAP)",
+      "final": "（Simple Object Access Protocol，SOAP）",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "同章15.4.1明确SOAP的末词为Protocol。",
+      "sources": [
+        "教材 PDF 物理页 521（印刷页 514），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-18",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第02节-SOA的发展历史.md",
+      "loc": "标点、分词或段落边界",
+      "ocr": "(Web Services Description Language,WSDL) 及",
+      "current": "(Web Services Description Language,WSDL) 及",
+      "final": "（Web Services Description Language，WSDL）及",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图句法、段首缩进或英文词界统一排印。",
+      "sources": [
+        "教材 PDF 物理页 521（印刷页 514），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-19",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第02节-SOA的发展历史.md",
+      "loc": "术语或文字校正",
+      "ocr": "通用服务发现和集成协议 (Universal Discovery Description and Integration,UDDI)",
+      "current": "通用服务发现和集成协议 (Universal Discovery Description and Integration,UDDI)",
+      "final": "统一描述、发现和集成协议（Universal Description, Discovery and Integration，UDDI）",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "同章15.4.1给出“统一描述、发现和集成协议”，Apache jUDDI手册英文章名与此顺序一致。",
+      "sources": [
+        "教材 PDF 物理页 521（印刷页 514），OCR 衍生页面",
+        "https://raw.githubusercontent.com/apache/juddi/master/docs/asciidoc/Guide/en-US/GuideUDDIRegistryIntroduction.asciidoc（访问 2026-11-27）"
+      ]
+    },
+    {
+      "id": "ch15a-20",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第02节-SOA的发展历史.md",
+      "loc": "标点、分词或段落边界",
+      "ocr": "发布了 《SOA",
+      "current": "发布了 《SOA",
+      "final": "发布了《SOA",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图句法、段首缩进或英文词界统一排印。",
+      "sources": [
+        "教材 PDF 物理页 521（印刷页 514），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-21",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第02节-SOA的发展历史.md",
+      "loc": "标点、分词或段落边界",
+      "ocr": "特定解读”,这",
+      "current": "特定解读”,这",
+      "final": "特定解读”，这",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图句法、段首缩进或英文词界统一排印。",
+      "sources": [
+        "教材 PDF 物理页 521（印刷页 514），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-22",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第02节-SOA的发展历史.md",
+      "loc": "标点、分词或段落边界",
+      "ocr": "的解决方案。\n关于国内",
+      "current": "的解决方案。\n关于国内",
+      "final": "的解决方案。\n\n关于国内",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图句法、段首缩进或英文词界统一排印。",
+      "sources": [
+        "教材 PDF 物理页 522（印刷页 515），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-23",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第02节-SOA的发展历史.md",
+      "loc": "标点、分词或段落边界",
+      "ocr": "表 15-1进行了",
+      "current": "表 15-1进行了",
+      "final": "表 15-1 进行了",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图句法、段首缩进或英文词界统一排印。",
+      "sources": [
+        "教材 PDF 物理页 522（印刷页 515），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-24",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第02节-SOA的发展历史.md",
+      "loc": "表15-1左右两列及标题",
+      "ocr": "左列3项，右列5项；表题“可修改性质量属性场景描述”",
+      "current": "> 表 15-1 可修改性质量属性场景描述〔原书表题如此，与表内“国内实施 SOA 的现状”内容不符，当为原书排印错误，照录〕\n\n| IT建设领先领域 | 服务型系统还没开始大规模构造领域 |\n|---|---|\n| （电信、金融）<br>1. 首先需要统一标准(SCA/SDO)。<br>2. 用符合SOA标准的方法(面向构件)构造粒度更小、组合更容易、架构更灵活的“服务”。<br>3. SOA的流程管理。<br>4. SOA 的软件治理。<br>5. 多“服务”用ESB实现集成。 | （政府、电力、国防）<br>1. 采用对遗留系统进行切割和封装的方式，或整个系统包装成一个服务。<br>2. 未来的新建系统用粒度更小、组合更容易、架构更灵活的面向构件技术构造。<br>3. 用ESB实现新旧“服务”的注册与管理。 |",
+      "final": "![表 15-1 可修改性质量属性场景描述](../../../assets/figures/textbook/ch15-service-oriented-architecture/figure-t15-01.svg)\n\n> 表 15-1 可修改性质量属性场景描述",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "页图左列电信、金融为遗留系统封装／新系统／ESB注册3项；右列政府、电力、国防为统一标准／构件／流程／治理／集成5项。复原两列，移除基线对纸书排印的无依据归因。",
+      "sources": [
+        "教材 PDF 物理页 522（印刷页 515），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-25",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第02节-SOA的发展历史.md",
+      "loc": "待核",
+      "ocr": "可修改性质量属性场景描述",
+      "current": "可修改性质量属性场景描述",
+      "final": null,
+      "class": "C3",
+      "confidence": "低～中",
+      "evidence": "页图题名与表内国内SOA实施现状不合。缺少纸书证据，不能确认原印题名。",
+      "sources": [
+        "教材 PDF 物理页 522（印刷页 515），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-26",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第02节-SOA的发展历史.md",
+      "loc": "图 15-1",
+      "ocr": "图 15-1 SOA架构与微服务架构图",
+      "current": "> 图 15-1 SOA架构与微服务架构图",
+      "final": "![图 15-1 SOA架构与微服务架构图](../../../assets/figures/textbook/ch15-service-oriented-architecture/figure-15-01.svg)\n\n> 图 15-1 SOA架构与微服务架构图",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "两侧各自从用户经UI到三项服务，再指向本侧一个数据库框；左侧服务之前有企业服务总线，右侧直接分流。",
+      "sources": [
+        "教材 PDF 物理页 523（印刷页 516），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-27",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第03节-SOA的参考架构.md",
+      "loc": "图 15-2",
+      "ocr": "图 15-2 IBM WebSphere业务集成参考架构",
+      "current": "> 图 15-2 IBM WebSphere业务集成参考架构",
+      "final": "![图 15-2 IBM WebSphere业务集成参考架构](../../../assets/figures/textbook/ch15-service-oriented-architecture/figure-15-02.svg)\n\n> 图 15-2 IBM WebSphere业务集成参考架构",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "顶层两横条，下分控制服务和业务逻辑两组三组件，由连接服务联系，底部为IT服务管理。按同页正文修复图中Services误识和Service后多余数字。",
+      "sources": [
+        "教材 PDF 物理页 524（印刷页 517），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-28",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第03节-SOA的参考架构.md",
+      "loc": "图 15-3",
+      "ocr": "图 15-3 一个典型的企业服务总线",
+      "current": "> 图 15-3 一个典型的企业服务总线",
+      "final": "![图 15-3 一个典型的企业服务总线](../../../assets/figures/textbook/ch15-service-oriented-architecture/figure-15-03.svg)\n\n> 图 15-3 一个典型的企业服务总线",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "上下各三个Service与总线插槽相对，内部三行分别有6个功能、3个Web服务规范与4个传输项。",
+      "sources": [
+        "教材 PDF 物理页 525（印刷页 518），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-29",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第02节-SOA的发展历史.md",
+      "loc": "标点、分词或段落边界",
+      "ocr": "更适合。\nSOA架构",
+      "current": "更适合。\nSOA架构",
+      "final": "更适合。\n\nSOA架构",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图句法、段首缩进或英文词界统一排印。",
+      "sources": [
+        "教材 PDF 物理页 522（印刷页 515），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-30",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第02节-SOA的发展历史.md",
+      "loc": "恢复底本内容或结构",
+      "ocr": "企业服务总线连接各个子系统",
+      "current": "企业服务总线链接各个子系统",
+      "final": "企业服务总线连接各个子系统",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "根据页图可辨文字、缩进和编号恢复。",
+      "sources": [
+        "教材 PDF 物理页 522（印刷页 515），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-31",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第02节-SOA的发展历史.md",
+      "loc": "标点、分词或段落边界",
+      "ocr": "图 15-1所示",
+      "current": "图 15-1所示",
+      "final": "图 15-1 所示",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图句法、段首缩进或英文词界统一排印。",
+      "sources": [
+        "教材 PDF 物理页 522（印刷页 515），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-32",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第03节-SOA的参考架构.md",
+      "loc": "保留清洗稿校正",
+      "ocr": "Websphere业务集成参考架构",
+      "current": "WebSphere业务集成参考架构",
+      "final": "WebSphere业务集成参考架构",
+      "class": "K",
+      "confidence": "A",
+      "evidence": "图15-2题名和物理524同页多处正式产品名均作WebSphere。",
+      "sources": [
+        "教材 PDF 物理页 523（印刷页 516），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-33",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第03节-SOA的参考架构.md",
+      "loc": "术语或文字校正",
+      "ocr": "“关注点分离 (Separation of Concern)” 的",
+      "current": "“关注点分离 (Separation of Concern)” 的",
+      "final": "“关注点分离（Separation of Concerns）”的",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "第13章13.1明确同名术语separation of concerns，以复数表示多个关注点。",
+      "sources": [
+        "教材 PDF 物理页 523（印刷页 516），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-34",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第03节-SOA的参考架构.md",
+      "loc": "标点、分词或段落边界",
+      "ocr": " (WSDL描述),也",
+      "current": " (WSDL描述),也",
+      "final": "（WSDL描述），也",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图句法、段首缩进或英文词界统一排印。",
+      "sources": [
+        "教材 PDF 物理页 523（印刷页 516），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-35",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第03节-SOA的参考架构.md",
+      "loc": "标点、分词或段落边界",
+      "ocr": "(如图 15-2所示，以下称参考架构)",
+      "current": "(如图 15-2所示，以下称参考架构)",
+      "final": "（如图 15-2 所示，以下称参考架构）",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图句法、段首缩进或英文词界统一排印。",
+      "sources": [
+        "教材 PDF 物理页 523（印刷页 516），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-36",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第03节-SOA的参考架构.md",
+      "loc": "标点、分词或段落边界",
+      "ocr": "(如图 15-2所示)",
+      "current": "(如图 15-2所示)",
+      "final": "（如图 15-2 所示）",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图句法、段首缩进或英文词界统一排印。",
+      "sources": [
+        "教材 PDF 物理页 523（印刷页 516），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-37",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第03节-SOA的参考架构.md",
+      "loc": "术语或文字校正",
+      "ocr": "通过提供企业服务总线提供",
+      "current": "通过提供企业服务总线提供",
+      "final": "通过企业服务总线提供",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "“通过”引手段总线，后面的“提供”支配“连接性”，重复动词可删。",
+      "sources": [
+        "教材 PDF 物理页 523（印刷页 516），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-38",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第03节-SOA的参考架构.md",
+      "loc": "标点、分词或段落边界",
+      "ocr": " (Enterprise Service Bus,ESB) 是",
+      "current": " (Enterprise Service Bus,ESB) 是",
+      "final": "（Enterprise Service Bus，ESB）是",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图句法、段首缩进或英文词界统一排印。",
+      "sources": [
+        "教材 PDF 物理页 524（印刷页 517），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-39",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第03节-SOA的参考架构.md",
+      "loc": "标点、分词或段落边界",
+      "ocr": "图 15-3所示",
+      "current": "图 15-3所示",
+      "final": "图 15-3 所示",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图句法、段首缩进或英文词界统一排印。",
+      "sources": [
+        "教材 PDF 物理页 524（印刷页 517），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-40",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第03节-SOA的参考架构.md",
+      "loc": "标点、分词或段落边界",
+      "ocr": "工具方面的支持。\n\nIBM有",
+      "current": "工具方面的支持。\n\nIBM有",
+      "final": "工具方面的支持。IBM有",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图句法、段首缩进或英文词界统一排印。",
+      "sources": [
+        "教材 PDF 物理页 524（印刷页 517），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-41",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第03节-SOA的参考架构.md",
+      "loc": "标点、分词或段落边界",
+      "ocr": "Message Broker; 而",
+      "current": "Message Broker; 而",
+      "final": "Message Broker；而",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图句法、段首缩进或英文词界统一排印。",
+      "sources": [
+        "教材 PDF 物理页 524（印刷页 517），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-42",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第03节-SOA的参考架构.md",
+      "loc": "标点、分词或段落边界",
+      "ocr": "Integration Developer, 支持",
+      "current": "Integration Developer, 支持",
+      "final": "Integration Developer，支持",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图句法、段首缩进或英文词界统一排印。",
+      "sources": [
+        "教材 PDF 物理页 524（印刷页 517），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-43",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第03节-SOA的参考架构.md",
+      "loc": "恢复底本内容或结构",
+      "ocr": "1）整合已有应用——应用和信息访问服务",
+      "current": "### 1. 整合已有应用——应用和信息访问服务",
+      "final": "1）整合已有应用——应用和信息访问服务",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "根据页图可辨文字、缩进和编号恢复。",
+      "sources": [
+        "教材 PDF 物理页 525（印刷页 518），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-44",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第03节-SOA的参考架构.md",
+      "loc": "恢复底本内容或结构",
+      "ocr": "2）整合新开发的应用——业务应用服务",
+      "current": "### 2. 整合新开发的应用——业务应用服务",
+      "final": "2）整合新开发的应用——业务应用服务",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "根据页图可辨文字、缩进和编号恢复。",
+      "sources": [
+        "教材 PDF 物理页 525（印刷页 518），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-45",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第03节-SOA的参考架构.md",
+      "loc": "恢复底本内容或结构",
+      "ocr": "3）整合客户和业务伙伴(B2C/B2B)——伙伴服务",
+      "current": "### 3. 整合客户和业务伙伴(B2C/B2B)——伙伴服务",
+      "final": "3）整合客户和业务伙伴(B2C/B2B)——伙伴服务",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "根据页图可辨文字、缩进和编号恢复。",
+      "sources": [
+        "教材 PDF 物理页 526（印刷页 519），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-46",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第03节-SOA的参考架构.md",
+      "loc": "恢复底本内容或结构",
+      "ocr": "1）数据整合——信息服务",
+      "current": "### 1. 数据整合——信息服务",
+      "final": "1）数据整合——信息服务",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "根据页图可辨文字、缩进和编号恢复。",
+      "sources": [
+        "教材 PDF 物理页 526（印刷页 519），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-47",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第03节-SOA的参考架构.md",
+      "loc": "恢复底本内容或结构",
+      "ocr": "2）流程整合——流程服务",
+      "current": "### 2. 流程整合——流程服务",
+      "final": "2）流程整合——流程服务",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "根据页图可辨文字、缩进和编号恢复。",
+      "sources": [
+        "教材 PDF 物理页 526（印刷页 519），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-48",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第03节-SOA的参考架构.md",
+      "loc": "恢复底本内容或结构",
+      "ocr": "3）用户访问整合——交互服务",
+      "current": "### 3. 用户访问整合——交互服务",
+      "final": "3）用户访问整合——交互服务",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "根据页图可辨文字、缩进和编号恢复。",
+      "sources": [
+        "教材 PDF 物理页 527（印刷页 520），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-49",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第03节-SOA的参考架构.md",
+      "loc": "术语或文字校正",
+      "ocr": "包括如下集中信息服务",
+      "current": "包括如下集中信息服务",
+      "final": "包括如下几种信息服务",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "随后列联邦、复制、转换、搜索四类服务。“集中”与“几种”形音相近，本句在引出类别。",
+      "sources": [
+        "教材 PDF 物理页 526（印刷页 519），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-50",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第03节-SOA的参考架构.md",
+      "loc": "待核",
+      "ocr": "粒度的业务逻辑",
+      "current": "粒度的业务逻辑",
+      "final": null,
+      "class": "C3",
+      "confidence": "低～中",
+      "evidence": "“粒度”前很可能缺少修饰语；可能为细粒度、不同粒度或其他表达。",
+      "sources": [
+        "教材 PDF 物理页 526（印刷页 519），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-51",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第03节-SOA的参考架构.md",
+      "loc": "标点、分词或段落边界",
+      "ocr": " (StaffService): ",
+      "current": " (StaffService): ",
+      "final": "（Staff Service）：",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图句法、段首缩进或英文词界统一排印。",
+      "sources": [
+        "教材 PDF 物理页 527（印刷页 520），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-52",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第03节-SOA的参考架构.md",
+      "loc": "标点、分词或段落边界",
+      "ocr": " (ModelService): ",
+      "current": " (ModelService): ",
+      "final": "（Model Service）：",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图句法、段首缩进或英文词界统一排印。",
+      "sources": [
+        "教材 PDF 物理页 527（印刷页 520），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-53",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第03节-SOA的参考架构.md",
+      "loc": "术语或文字校正",
+      "ocr": "通过用户为中心的服务",
+      "current": "通过用户为中心的服务",
+      "final": "通过以用户为中心的服务",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "“通过”引出手段，固定结构为“以……为中心”；本页反复使用“以服务为中心”。",
+      "sources": [
+        "教材 PDF 物理页 527（印刷页 520），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-54",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第03节-SOA的参考架构.md",
+      "loc": "术语或文字校正",
+      "ocr": "用于服务为中心的编程模型",
+      "current": "用于服务为中心的编程模型",
+      "final": "用于以服务为中心的编程模型",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "同段上项明示“用于支持以服务为中心的企业集成方法学和建模”。",
+      "sources": [
+        "教材 PDF 物理页 527（印刷页 520），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-55",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第03节-SOA的参考架构.md",
+      "loc": "标点、分词或段落边界",
+      "ocr": "和SDO等。\n开发环境",
+      "current": "和SDO等。\n开发环境",
+      "final": "和SDO等。\n\n开发环境",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图句法、段首缩进或英文词界统一排印。",
+      "sources": [
+        "教材 PDF 物理页 527（印刷页 520），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-56",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第03节-SOA的参考架构.md",
+      "loc": "标点、分词或段落边界",
+      "ocr": "可视化的业务流程模型。\n\n2.",
+      "current": "可视化的业务流程模型。\n\n2.",
+      "final": "可视化的业务流程模型。\n2.",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图句法、段首缩进或英文词界统一排印。",
+      "sources": [
+        "教材 PDF 物理页 527（印刷页 520），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-57",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第03节-SOA的参考架构.md",
+      "loc": "标点、分词或段落边界",
+      "ocr": "从而提高生产效率；\n\n另一方面",
+      "current": "从而提高生产效率；\n\n另一方面",
+      "final": "从而提高生产效率；另一方面",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图句法、段首缩进或英文词界统一排印。",
+      "sources": [
+        "教材 PDF 物理页 528（印刷页 521），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-58",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第03节-SOA的参考架构.md",
+      "loc": "待核",
+      "ocr": "业务性能管理 (Business Process Management,BPM)",
+      "current": "业务性能管理 (Business Process Management,BPM)",
+      "final": null,
+      "class": "C3",
+      "confidence": "低～中",
+      "evidence": "中文为“性能”，英文Process则指流程；本节同时讨论性能指标与流程优化，两词均可能是作者所指，未据任一方反改另一方。",
+      "sources": [
+        "教材 PDF 物理页 528（印刷页 521），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-59",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第03节-SOA的参考架构.md",
+      "loc": "术语或文字校正",
+      "ocr": "检测感兴趣的服务",
+      "current": "检测感兴趣的服务",
+      "final": "检测感兴趣的事件",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "后段明确公共事件框架截获事件，“经过采集服务的过滤被传递给监控服务”；所过滤检测的对象是事件。",
+      "sources": [
+        "教材 PDF 物理页 528（印刷页 521），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-60",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第03节-SOA的参考架构.md",
+      "loc": "标点、分词或段落边界",
+      "ocr": " (Key Performance Indicators,KPI)。\n业务创新",
+      "current": " (Key Performance Indicators,KPI)。\n业务创新",
+      "final": "（Key Performance Indicators，KPI）。\n\n业务创新",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图句法、段首缩进或英文词界统一排印。",
+      "sources": [
+        "教材 PDF 物理页 528（印刷页 521），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-61",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第03节-SOA的参考架构.md",
+      "loc": "标点、分词或段落边界",
+      "ocr": "其他IT资源。\nIT服务管理",
+      "current": "其他IT资源。\nIT服务管理",
+      "final": "其他IT资源。\n\nIT服务管理",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图句法、段首缩进或英文词界统一排印。",
+      "sources": [
+        "教材 PDF 物理页 528（印刷页 521），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-62",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第03节-SOA的参考架构.md",
+      "loc": "标点、分词或段落边界",
+      "ocr": " (Business Logic Service): ",
+      "current": " (Business Logic Service): ",
+      "final": "（Business Logic Service）：",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图句法、段首缩进或英文词界统一排印。",
+      "sources": [
+        "教材 PDF 物理页 523（印刷页 516），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-63",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第03节-SOA的参考架构.md",
+      "loc": "标点、分词或段落边界",
+      "ocr": " (Control Service): ",
+      "current": " (Control Service): ",
+      "final": "（Control Service）：",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图句法、段首缩进或英文词界统一排印。",
+      "sources": [
+        "教材 PDF 物理页 523（印刷页 516），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-64",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第03节-SOA的参考架构.md",
+      "loc": "标点、分词或段落边界",
+      "ocr": " (Connectivity Service): ",
+      "current": " (Connectivity Service): ",
+      "final": "（Connectivity Service）：",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图句法、段首缩进或英文词界统一排印。",
+      "sources": [
+        "教材 PDF 物理页 523（印刷页 516），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-65",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第03节-SOA的参考架构.md",
+      "loc": "标点、分词或段落边界",
+      "ocr": " (Business Innovation and Optimization Service):",
+      "current": " (Business Innovation and Optimization Service):",
+      "final": "（Business Innovation and Optimization Service）：",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图句法、段首缩进或英文词界统一排印。",
+      "sources": [
+        "教材 PDF 物理页 523（印刷页 516），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-66",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第03节-SOA的参考架构.md",
+      "loc": "标点、分词或段落边界",
+      "ocr": " (Development Service): ",
+      "current": " (Development Service): ",
+      "final": "（Development Service）：",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图句法、段首缩进或英文词界统一排印。",
+      "sources": [
+        "教材 PDF 物理页 523（印刷页 516），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-67",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第03节-SOA的参考架构.md",
+      "loc": "标点、分词或段落边界",
+      "ocr": " (IT Service Management): ",
+      "current": " (IT Service Management): ",
+      "final": "（IT Service Management）：",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图句法、段首缩进或英文词界统一排印。",
+      "sources": [
+        "教材 PDF 物理页 523（印刷页 516），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-68",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第03节-SOA的参考架构.md",
+      "loc": "标点、分词或段落边界",
+      "ocr": " (On-Ramp Service): ",
+      "current": " (On-Ramp Service): ",
+      "final": "（On-Ramp Service）：",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图句法、段首缩进或英文词界统一排印。",
+      "sources": [
+        "教材 PDF 物理页 525（印刷页 518），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-69",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第03节-SOA的参考架构.md",
+      "loc": "标点、分词或段落边界",
+      "ocr": " (Event Detect Service): ",
+      "current": " (Event Detect Service): ",
+      "final": "（Event Detect Service）：",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图句法、段首缩进或英文词界统一排印。",
+      "sources": [
+        "教材 PDF 物理页 525（印刷页 518），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-70",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第03节-SOA的参考架构.md",
+      "loc": "标点、分词或段落边界",
+      "ocr": " (Component Service): ",
+      "current": " (Component Service): ",
+      "final": "（Component Service）：",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图句法、段首缩进或英文词界统一排印。",
+      "sources": [
+        "教材 PDF 物理页 525（印刷页 518），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-71",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第03节-SOA的参考架构.md",
+      "loc": "标点、分词或段落边界",
+      "ocr": " (Core Service): ",
+      "current": " (Core Service): ",
+      "final": "（Core Service）：",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图句法、段首缩进或英文词界统一排印。",
+      "sources": [
+        "教材 PDF 物理页 525（印刷页 518），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-72",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第03节-SOA的参考架构.md",
+      "loc": "标点、分词或段落边界",
+      "ocr": " (Interface Service): ",
+      "current": " (Interface Service): ",
+      "final": "（Interface Service）：",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图句法、段首缩进或英文词界统一排印。",
+      "sources": [
+        "教材 PDF 物理页 526（印刷页 519），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-73",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第03节-SOA的参考架构.md",
+      "loc": "标点、分词或段落边界",
+      "ocr": "(Community Service): ",
+      "current": "(Community Service): ",
+      "final": "（Community Service）：",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图句法、段首缩进或英文词界统一排印。",
+      "sources": [
+        "教材 PDF 物理页 526（印刷页 519），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-74",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第03节-SOA的参考架构.md",
+      "loc": "标点、分词或段落边界",
+      "ocr": " (Document Service): ",
+      "current": " (Document Service): ",
+      "final": "（Document Service）：",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图句法、段首缩进或英文词界统一排印。",
+      "sources": [
+        "教材 PDF 物理页 526（印刷页 519），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-75",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第03节-SOA的参考架构.md",
+      "loc": "标点、分词或段落边界",
+      "ocr": " (Protocol Service): ",
+      "current": " (Protocol Service): ",
+      "final": "（Protocol Service）：",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图句法、段首缩进或英文词界统一排印。",
+      "sources": [
+        "教材 PDF 物理页 526（印刷页 519），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-76",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第03节-SOA的参考架构.md",
+      "loc": "标点、分词或段落边界",
+      "ocr": " (Federation Service): ",
+      "current": " (Federation Service): ",
+      "final": "（Federation Service）：",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图句法、段首缩进或英文词界统一排印。",
+      "sources": [
+        "教材 PDF 物理页 526（印刷页 519），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-77",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第03节-SOA的参考架构.md",
+      "loc": "标点、分词或段落边界",
+      "ocr": " (Replication Service): ",
+      "current": " (Replication Service): ",
+      "final": "（Replication Service）：",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图句法、段首缩进或英文词界统一排印。",
+      "sources": [
+        "教材 PDF 物理页 526（印刷页 519），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-78",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第03节-SOA的参考架构.md",
+      "loc": "标点、分词或段落边界",
+      "ocr": " (Transformation Service): ",
+      "current": " (Transformation Service): ",
+      "final": "（Transformation Service）：",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图句法、段首缩进或英文词界统一排印。",
+      "sources": [
+        "教材 PDF 物理页 526（印刷页 519），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-79",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第03节-SOA的参考架构.md",
+      "loc": "标点、分词或段落边界",
+      "ocr": " (Search Service): ",
+      "current": " (Search Service): ",
+      "final": "（Search Service）：",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图句法、段首缩进或英文词界统一排印。",
+      "sources": [
+        "教材 PDF 物理页 526（印刷页 519），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-80",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第03节-SOA的参考架构.md",
+      "loc": "标点、分词或段落边界",
+      "ocr": " (Choreography Service): ",
+      "current": " (Choreography Service): ",
+      "final": "（Choreography Service）：",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图句法、段首缩进或英文词界统一排印。",
+      "sources": [
+        "教材 PDF 物理页 526（印刷页 519），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-81",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第03节-SOA的参考架构.md",
+      "loc": "标点、分词或段落边界",
+      "ocr": " (Transaction Service): ",
+      "current": " (Transaction Service): ",
+      "final": "（Transaction Service）：",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图句法、段首缩进或英文词界统一排印。",
+      "sources": [
+        "教材 PDF 物理页 527（印刷页 520），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-82",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第03节-SOA的参考架构.md",
+      "loc": "标点、分词或段落边界",
+      "ocr": " (Delivery Service): ",
+      "current": " (Delivery Service): ",
+      "final": "（Delivery Service）：",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图句法、段首缩进或英文词界统一排印。",
+      "sources": [
+        "教材 PDF 物理页 527（印刷页 520），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-83",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第03节-SOA的参考架构.md",
+      "loc": "标点、分词或段落边界",
+      "ocr": " (Experience Service): ",
+      "current": " (Experience Service): ",
+      "final": "（Experience Service）：",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图句法、段首缩进或英文词界统一排印。",
+      "sources": [
+        "教材 PDF 物理页 527（印刷页 520），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-84",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第03节-SOA的参考架构.md",
+      "loc": "标点、分词或段落边界",
+      "ocr": " (Resource Service): ",
+      "current": " (Resource Service): ",
+      "final": "（Resource Service）：",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图句法、段首缩进或英文词界统一排印。",
+      "sources": [
+        "教材 PDF 物理页 527（印刷页 520），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-85",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第03节-SOA的参考架构.md",
+      "loc": "标点、分词或段落边界",
+      "ocr": " (Design Service): ",
+      "current": " (Design Service): ",
+      "final": "（Design Service）：",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图句法、段首缩进或英文词界统一排印。",
+      "sources": [
+        "教材 PDF 物理页 528（印刷页 521），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-86",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第03节-SOA的参考架构.md",
+      "loc": "标点、分词或段落边界",
+      "ocr": " (Implementation Service): ",
+      "current": " (Implementation Service): ",
+      "final": "（Implementation Service）：",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图句法、段首缩进或英文词界统一排印。",
+      "sources": [
+        "教材 PDF 物理页 528（印刷页 521），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-87",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第03节-SOA的参考架构.md",
+      "loc": "标点、分词或段落边界",
+      "ocr": " (Test Service): ",
+      "current": " (Test Service): ",
+      "final": "（Test Service）：",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图句法、段首缩进或英文词界统一排印。",
+      "sources": [
+        "教材 PDF 物理页 528（印刷页 521），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-88",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第03节-SOA的参考架构.md",
+      "loc": "标点、分词或段落边界",
+      "ocr": " (Common Event Infrastructure Service): ",
+      "current": " (Common Event Infrastructure Service): ",
+      "final": "（Common Event Infrastructure Service）：",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图句法、段首缩进或英文词界统一排印。",
+      "sources": [
+        "教材 PDF 物理页 528（印刷页 521），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-89",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第03节-SOA的参考架构.md",
+      "loc": "标点、分词或段落边界",
+      "ocr": " (Collection Service):",
+      "current": " (Collection Service):",
+      "final": "（Collection Service）：",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图句法、段首缩进或英文词界统一排印。",
+      "sources": [
+        "教材 PDF 物理页 528（印刷页 521），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-90",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第03节-SOA的参考架构.md",
+      "loc": "标点、分词或段落边界",
+      "ocr": " (Monitoring Service): ",
+      "current": " (Monitoring Service): ",
+      "final": "（Monitoring Service）：",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图句法、段首缩进或英文词界统一排印。",
+      "sources": [
+        "教材 PDF 物理页 528（印刷页 521），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-91",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第03节-SOA的参考架构.md",
+      "loc": "标点、分词或段落边界",
+      "ocr": " (Security and Directory Service): ",
+      "current": " (Security and Directory Service): ",
+      "final": "（Security and Directory Service）：",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图句法、段首缩进或英文词界统一排印。",
+      "sources": [
+        "教材 PDF 物理页 528（印刷页 521），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-92",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第03节-SOA的参考架构.md",
+      "loc": "标点、分词或段落边界",
+      "ocr": " (System Management and Virtualization Service): ",
+      "current": " (System Management and Virtualization Service): ",
+      "final": "（System Management and Virtualization Service）：",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图句法、段首缩进或英文词界统一排印。",
+      "sources": [
+        "教材 PDF 物理页 528（印刷页 521），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15a-93",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第03节-SOA的参考架构.md",
+      "loc": "图 15-2 图内标签",
+      "ocr": "Interaction Serviccs",
+      "current": "> 图 15-2 IBM WebSphere业务集成参考架构",
+      "final": "Services",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "图15-2三类控制服务使用相同后缀；同图及正文均有Services。",
+      "sources": [
+        "教材 PDF 物理页 524（印刷页 517），OCR 衍生页面"
+      ],
+      "asset": "assets/figures/textbook/ch15-service-oriented-architecture/figure-15-02.svg"
+    },
+    {
+      "id": "ch15a-94",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第03节-SOA的参考架构.md",
+      "loc": "图 15-2 图内标签",
+      "ocr": "Business Logic Service1",
+      "current": "> 图 15-2 IBM WebSphere业务集成参考架构",
+      "final": "Business Logic Service",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "正文六类服务清单明示Business Logic Service，图末尾的1形残迹不属名称。",
+      "sources": [
+        "教材 PDF 物理页 524（印刷页 517），OCR 衍生页面"
+      ],
+      "asset": "assets/figures/textbook/ch15-service-oriented-architecture/figure-15-02.svg"
+    },
+    {
+      "id": "ch15a-95",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第03节-SOA的参考架构.md",
+      "loc": "图 15-3 图内标签",
+      "ocr": "[Transform",
+      "current": "> 图 15-3 一个典型的企业服务总线",
+      "final": "Transform",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "转换对应同节消息转换职责，方括号状痕迹不属于标签。",
+      "sources": [
+        "教材 PDF 物理页 525（印刷页 518），OCR 衍生页面"
+      ],
+      "asset": "assets/figures/textbook/ch15-service-oriented-architecture/figure-15-03.svg"
+    },
+    {
+      "id": "ch15a-96",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第03节-SOA的参考架构.md",
+      "loc": "图 15-3 图内标签",
+      "ocr": "SMT P",
+      "current": "> 图 15-3 一个典型的企业服务总线",
+      "final": "SMTP",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "末行与HTTP(S)、JMS和FTP同为协议标签，按单一缩略名合并空格。",
+      "sources": [
+        "教材 PDF 物理页 525（印刷页 518），OCR 衍生页面"
+      ],
+      "asset": "assets/figures/textbook/ch15-service-oriented-architecture/figure-15-03.svg"
+    },
+    {
+      "id": "ch15b-01",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第04节-SOA主要协议和规范.md",
+      "loc": "物理 528，印刷 521，15.4",
+      "ocr": "Web服务作为实现SOA中服务的最主要手段。",
+      "current": "Web服务是实现SOA中服务的最主要手段。",
+      "final": "Web服务是实现SOA中服务的最主要手段。",
+      "class": "K",
+      "confidence": "B",
+      "evidence": "页上用“作为”使全句仅剩主语；清洗稿保留完整判断句。",
+      "sources": [
+        "教材 PDF 物理页 528（印刷页 521），直接目读渲染页"
+      ]
+    },
+    {
+      "id": "ch15b-02",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第04节-SOA主要协议和规范.md",
+      "loc": "物理 528，印刷 521，15.4",
+      "ocr": "首先来了跟踪Web Service相关的标准",
+      "current": "首先来了解Web Service相关的标准",
+      "final": "首先来了解Web Service相关的标准",
+      "class": "K",
+      "confidence": "B",
+      "evidence": "电子页出现“来了跟踪”的断裂搭配，本句引出后文协议，保留已有的“来了解”。",
+      "sources": [
+        "教材 PDF 物理页 528（印刷页 521），直接目读渲染页"
+      ]
+    },
+    {
+      "id": "ch15b-03",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第04节-SOA主要协议和规范.md",
+      "loc": "物理 529，印刷 522，15.4",
+      "ocr": "和SOAP, 通过",
+      "current": "和SOAP, 通过",
+      "final": "和SOAP，通过",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图的缩进、跨页续文、词间距或中文语句边界复原排版。",
+      "sources": [
+        "教材 PDF 物理页 529（印刷页 522），直接目读渲染页"
+      ]
+    },
+    {
+      "id": "ch15b-04",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第04节-SOA主要协议和规范.md",
+      "loc": "物理 529，印刷 522，15.4",
+      "ocr": "图 15-4所示",
+      "current": "图 15-4所示",
+      "final": "图 15-4 所示",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图的缩进、跨页续文、词间距或中文语句边界复原排版。",
+      "sources": [
+        "教材 PDF 物理页 529（印刷页 522），直接目读渲染页"
+      ]
+    },
+    {
+      "id": "ch15b-05",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第04节-SOA主要协议和规范.md",
+      "loc": "物理 529，印刷 522，15.4.2 WSDL规范",
+      "ocr": "Language,Web服务描述语言),是",
+      "current": "Language,Web服务描述语言),是",
+      "final": "Language, Web服务描述语言)，是",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图的缩进、跨页续文、词间距或中文语句边界复原排版。",
+      "sources": [
+        "教材 PDF 物理页 529（印刷页 522），直接目读渲染页"
+      ]
+    },
+    {
+      "id": "ch15b-06",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第04节-SOA主要协议和规范.md",
+      "loc": "物理 529，印刷 522，15.4.2 WSDL规范",
+      "ocr": "通过WSDL, 可描述",
+      "current": "通过WSDL, 可描述",
+      "final": "通过WSDL，可描述",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图的缩进、跨页续文、词间距或中文语句边界复原排版。",
+      "sources": [
+        "教材 PDF 物理页 529（印刷页 522），直接目读渲染页"
+      ]
+    },
+    {
+      "id": "ch15b-07",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第04节-SOA主要协议和规范.md",
+      "loc": "物理 529，印刷 522，15.4.2 WSDL规范",
+      "ocr": "如URL。\nWSDL文档",
+      "current": "如URL。\nWSDL文档",
+      "final": "如URL。\n\nWSDL文档",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图的缩进、跨页续文、词间距或中文语句边界复原排版。",
+      "sources": [
+        "教材 PDF 物理页 529（印刷页 522），直接目读渲染页"
+      ]
+    },
+    {
+      "id": "ch15b-08",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第04节-SOA主要协议和规范.md",
+      "loc": "物理 529，印刷 522，15.4.2 WSDL规范",
+      "ocr": "图 15-5所示",
+      "current": "图 15-5所示",
+      "final": "图 15-5 所示",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图的缩进、跨页续文、词间距或中文语句边界复原排版。",
+      "sources": [
+        "教材 PDF 物理页 529（印刷页 522），直接目读渲染页"
+      ]
+    },
+    {
+      "id": "ch15b-09",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第04节-SOA主要协议和规范.md",
+      "loc": "物理 530，印刷 523，15.4.2 WSDL规范",
+      "ocr": "消息的数据结构。\n\n- operation",
+      "current": "消息的数据结构。\n\n- operation",
+      "final": "消息的数据结构。\n- operation",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图的缩进、跨页续文、词间距或中文语句边界复原排版。",
+      "sources": [
+        "教材 PDF 物理页 530（印刷页 523），直接目读渲染页"
+      ]
+    },
+    {
+      "id": "ch15b-10",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第04节-SOA主要协议和规范.md",
+      "loc": "物理 529，印刷 522，15.4.2 WSDL规范",
+      "ocr": "使用Types所定义的类型",
+      "current": "使用Types所定义的类型",
+      "final": "使用types所定义的类型",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "紧邻上条列出 WSDL 元素 types，英文元素名区分大小写。",
+      "sources": [
+        "教材 PDF 物理页 529（印刷页 522），直接目读渲染页"
+      ]
+    },
+    {
+      "id": "ch15b-11",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第04节-SOA主要协议和规范.md",
+      "loc": "物理 530，印刷 523，15.4.2 WSDL规范",
+      "ocr": "这是一个粗糙命名的元素",
+      "current": "这是一个粗糙命名的元素",
+      "final": null,
+      "class": "C3",
+      "confidence": "低",
+      "evidence": "底本同样写“粗糙命名”；候选如“顶层命名元素”“命名的元素”都需要额外出处，保留。",
+      "sources": [
+        "教材 PDF 物理页 530（印刷页 523），直接目读渲染页"
+      ]
+    },
+    {
+      "id": "ch15b-12",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第04节-SOA主要协议和规范.md",
+      "loc": "物理 530，印刷 523，15.4.3 SOAP协议",
+      "ocr": "在功能上是相交的、彼此独立的",
+      "current": "在功能上是相交的、彼此独立的",
+      "final": "在功能上是正交的、彼此独立的",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "“彼此独立”及两个命名空间是本段内证。同书14.3.2用“正交分解”指职责彼此独立；SOAP 1.1 概述另有 functionally orthogonal。本项仅校术语。",
+      "sources": [
+        "教材 PDF 物理页 530（印刷页 523），直接目读渲染页",
+        "教材 14.3.2 微服务个体约束，印刷 495。",
+        "SOAP 1.1 规范文本镜像（2026-11-27 核对） https://github.com/way-platform/soap-go/blob/942cd2ae78195e145447e6cf0c15a2c2b5292373/docs/soap-1.1.md"
+      ]
+    },
+    {
+      "id": "ch15b-13",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第04节-SOA主要协议和规范.md",
+      "loc": "物理 530，印刷 523，15.4.3 SOAP协议",
+      "ocr": "(Encoding Rules), 用于",
+      "current": "(Encoding Rules), 用于",
+      "final": "(Encoding Rules)，用于",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图的缩进、跨页续文、词间距或中文语句边界复原排版。",
+      "sources": [
+        "教材 PDF 物理页 530（印刷页 523），直接目读渲染页"
+      ]
+    },
+    {
+      "id": "ch15b-14",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第04节-SOA主要协议和规范.md",
+      "loc": "物理 531，印刷 524，15.4.4 REST规范",
+      "ocr": "信息的互相传递。\n\n微服务对外",
+      "current": "信息的互相传递。\n\n微服务对外",
+      "final": "信息的互相传递。微服务对外",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图的缩进、跨页续文、词间距或中文语句边界复原排版。",
+      "sources": [
+        "教材 PDF 物理页 531（印刷页 524），直接目读渲染页"
+      ]
+    },
+    {
+      "id": "ch15b-15",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第04节-SOA主要协议和规范.md",
+      "loc": "物理 531，印刷 524，15.4.4 REST规范",
+      "ocr": "State Transfer, 对应",
+      "current": "State Transfer, 对应",
+      "final": "State Transfer，对应",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图的缩进、跨页续文、词间距或中文语句边界复原排版。",
+      "sources": [
+        "教材 PDF 物理页 531（印刷页 524），直接目读渲染页"
+      ]
+    },
+    {
+      "id": "ch15b-16",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第04节-SOA主要协议和规范.md",
+      "loc": "物理 531，印刷 524，15.4.4 REST规范",
+      "ocr": "多个URI, 但",
+      "current": "多个URI, 但",
+      "final": "多个URI，但",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图的缩进、跨页续文、词间距或中文语句边界复原排版。",
+      "sources": [
+        "教材 PDF 物理页 531（印刷页 524），直接目读渲染页"
+      ]
+    },
+    {
+      "id": "ch15b-17",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第04节-SOA主要协议和规范.md",
+      "loc": "物理 531，印刷 524，15.4.4 REST规范",
+      "ocr": "相关资源URI, 将",
+      "current": "相关资源URI, 将",
+      "final": "相关资源URI，将",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图的缩进、跨页续文、词间距或中文语句边界复原排版。",
+      "sources": [
+        "教材 PDF 物理页 531（印刷页 524），直接目读渲染页"
+      ]
+    },
+    {
+      "id": "ch15b-18",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第04节-SOA主要协议和规范.md",
+      "loc": "物理 531，印刷 524，15.4.4 REST规范",
+      "ocr": "形式只是统一格式",
+      "current": "形式只是统一格式",
+      "final": null,
+      "class": "C3",
+      "confidence": "低",
+      "evidence": "页图同文。同段也列举多种格式，此处可能描述单个应用的接口约定。不能确定需改哪一处，亦不能当作 REST 仅允许一种表述格式的依据。",
+      "sources": [
+        "教材 PDF 物理页 531（印刷页 524），直接目读渲染页"
+      ]
+    },
+    {
+      "id": "ch15b-19",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第04节-SOA主要协议和规范.md",
+      "loc": "物理 531，印刷 524，15.4.4 REST规范",
+      "ocr": "保证在服务端，如果一段时间内",
+      "current": "保证在服务端，如果一段时间内",
+      "final": null,
+      "class": "C3",
+      "confidence": "低",
+      "evidence": "电子页同文；“保证”可能是“保存”，也可能是与后半句相连的动词，暂无唯一依据。",
+      "sources": [
+        "教材 PDF 物理页 531（印刷页 524），直接目读渲染页"
+      ]
+    },
+    {
+      "id": "ch15b-20",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第05节-SOA设计的标准要求.md",
+      "loc": "物理 532，印刷 525，15.5.2 通信协议标准",
+      "ocr": "XSD,XML Schema",
+      "current": "XSD,XML Schema",
+      "final": "XSD, XML Schema",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图的缩进、跨页续文、词间距或中文语句边界复原排版。",
+      "sources": [
+        "教材 PDF 物理页 532（印刷页 525），直接目读渲染页"
+      ]
+    },
+    {
+      "id": "ch15b-21",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第05节-SOA设计的标准要求.md",
+      "loc": "物理 532，印刷 525，15.5.3 应用程序统一登记与集成",
+      "ocr": "统一描述、定义和集成",
+      "current": "统一描述、定义和集成",
+      "final": "统一描述、发现和集成",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "15.4.1明确展开UDDI为统一描述、发现和集成；15.8.1亦作“描述、发现与集成”，这里谈论的是同一登记标准。",
+      "sources": [
+        "教材 PDF 物理页 532（印刷页 525），直接目读渲染页",
+        "教材 15.4.1（物理529/印刷522）、15.8.1（物理535/印刷528）。"
+      ]
+    },
+    {
+      "id": "ch15b-22",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第05节-SOA设计的标准要求.md",
+      "loc": "物理 532，印刷 525，15.5.4 服务质量 (QoS)",
+      "ocr": "Service,QoS",
+      "current": "Service,QoS",
+      "final": "Service, QoS",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图的缩进、跨页续文、词间距或中文语句边界复原排版。",
+      "sources": [
+        "教材 PDF 物理页 532（印刷页 525），直接目读渲染页"
+      ]
+    },
+    {
+      "id": "ch15b-23",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第05节-SOA设计的标准要求.md",
+      "loc": "物理 532，印刷 525，15.5.4 服务质量 (QoS)",
+      "ocr": "称作服务质量。\n\n与QoS相关",
+      "current": "称作服务质量。\n\n与QoS相关",
+      "final": "称作服务质量。与QoS相关",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图的缩进、跨页续文、词间距或中文语句边界复原排版。",
+      "sources": [
+        "教材 PDF 物理页 532（印刷页 525），直接目读渲染页"
+      ]
+    },
+    {
+      "id": "ch15b-24",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第05节-SOA设计的标准要求.md",
+      "loc": "物理 532，印刷 525，15.5.4 服务质量 (QoS)",
+      "ocr": "进行交换。\n\n具有诸如",
+      "current": "进行交换。\n\n具有诸如",
+      "final": "进行交换。具有诸如",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图的缩进、跨页续文、词间距或中文语句边界复原排版。",
+      "sources": [
+        "教材 PDF 物理页 532（印刷页 525），直接目读渲染页"
+      ]
+    },
+    {
+      "id": "ch15b-25",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第05节-SOA设计的标准要求.md",
+      "loc": "物理 532，印刷 525，15.5.4 服务质量 (QoS)",
+      "ocr": "仅且仅仅传送一次",
+      "current": "仅且仅仅传送一次",
+      "final": "传送一次且仅一次",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "紧邻英文 Once-and-only-once Delivery 明确对应“一次且仅一次”，避免两个“仅”重复且缺失前项“一次”。",
+      "sources": [
+        "教材 PDF 物理页 532（印刷页 525），直接目读渲染页"
+      ]
+    },
+    {
+      "id": "ch15b-26",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第05节-SOA设计的标准要求.md",
+      "loc": "物理 532，印刷 525，15.5.4 服务质量 (QoS)",
+      "ocr": "等特性消息的发送和确认",
+      "current": "等特性消息的发送和确认",
+      "final": "等特性的消息的发送和确认",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "四个并列特性均修饰“消息”；“具有……等特性”须以“的”连接中心语。",
+      "sources": [
+        "教材 PDF 物理页 532（印刷页 525），直接目读渲染页"
+      ]
+    },
+    {
+      "id": "ch15b-27",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第05节-SOA设计的标准要求.md",
+      "loc": "物理 532，印刷 525，15.5.4 服务质量 (QoS)",
+      "ocr": "WS-Reliable Messaging",
+      "current": "WS-Reliable Messaging",
+      "final": "WS-ReliableMessaging",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "两个独立项目的实现文档均将规范名 ReliableMessaging 连写。",
+      "sources": [
+        "教材 PDF 物理页 532（印刷页 525），直接目读渲染页",
+        "Apache CXF 项目 README（2026-11-27 核对） https://github.com/apache/cxf/blob/8c3a7aa54772e5324fe605503cfd952ecc332445/README.md",
+        "Microsoft .NET WCF Glossary（2026-11-27 核对） https://github.com/dotnet/docs/blob/7460ede22123a70603267df744ddb66aaca69f5e/docs/framework/wcf/glossary.md"
+      ]
+    },
+    {
+      "id": "ch15b-28",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第05节-SOA设计的标准要求.md",
+      "loc": "物理 533，印刷 526，15.5.4 服务质量 (QoS)",
+      "ocr": "SAML(as Security Assertion Markup Language)",
+      "current": "SAML (Security Assertion Markup Language)",
+      "final": "SAML (Security Assertion Markup Language)",
+      "class": "K",
+      "confidence": "B",
+      "evidence": "括内异常多出 as，去掉后首字母与 SAML 精确相符。",
+      "sources": [
+        "教材 PDF 物理页 533（印刷页 526），直接目读渲染页"
+      ]
+    },
+    {
+      "id": "ch15b-29",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第05节-SOA设计的标准要求.md",
+      "loc": "物理 533，印刷 526，15.5.4 服务质量 (QoS)",
+      "ocr": "Assertions),一项",
+      "current": "Assertions),一项",
+      "final": "Assertions)，一项",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图的缩进、跨页续文、词间距或中文语句边界复原排版。",
+      "sources": [
+        "教材 PDF 物理页 533（印刷页 526），直接目读渲染页"
+      ]
+    },
+    {
+      "id": "ch15b-30",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第05节-SOA设计的标准要求.md",
+      "loc": "物理 533，印刷 526，15.5.4 服务质量 (QoS)",
+      "ocr": "服务消费者与某种策略通信",
+      "current": "服务消费者与某种策略通信",
+      "final": "服务消费者按某种策略通信",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "下句是提供方要求消费方出示标识的策略示例；本段末句也明确相互通信的实体为提供者与消费者。策略是要求，并非通信对端。",
+      "sources": [
+        "教材 PDF 物理页 533（印刷页 526），直接目读渲染页"
+      ]
+    },
+    {
+      "id": "ch15b-31",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第05节-SOA设计的标准要求.md",
+      "loc": "物理 533，印刷 526，15.5.4 服务质量 (QoS)",
+      "ocr": "整合数据仓库 (Silos of Data), 应用程序，以及组件",
+      "current": "整合数据仓库 (Silos of Data), 应用程序，以及组件",
+      "final": "整合数据孤岛 (Silos of Data)、应用程序以及组件",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "本章15.6说明孤立系统即信息孤岛，同书14.4使用“数据孤岛”；英文 Silos of Data 即此类分散的数据，非数据仓库。",
+      "sources": [
+        "教材 PDF 物理页 533（印刷页 526），直接目读渲染页",
+        "教材 15.6（物理533、534/印刷526、527）及14.4的数据共享中心案例。"
+      ]
+    },
+    {
+      "id": "ch15b-32",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第05节-SOA设计的标准要求.md",
+      "loc": "物理 533，印刷 526，15.5.4 服务质量 (QoS)",
+      "ocr": "一个用来让系统管理员管理所有运行在多种环境下的服务的管理系统",
+      "current": "一个让系统管理员管理所有运行在多种环境下的服务的系统",
+      "final": "一个用来让系统管理员管理所有运行在多种环境下的服务的管理系统",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "电子页在“让”前有“用来”，后面明确为“管理系统”；清洗稿省略。保留已消除主宾断裂的句内排法。",
+      "sources": [
+        "教材 PDF 物理页 533（印刷页 526），直接目读渲染页"
+      ]
+    },
+    {
+      "id": "ch15b-33",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第05节-SOA设计的标准要求.md",
+      "loc": "物理 533，印刷 526，15.5.4 服务质量 (QoS)",
+      "ocr": "一个WSDM适应（WSDM-compliant）的管理方案",
+      "current": "一个兼容WSDM (WSDM-compliant) 的管理方案",
+      "final": "一个兼容WSDM (WSDM-compliant) 的管理方案",
+      "class": "K",
+      "confidence": "B",
+      "evidence": "已有稿把错误的逐词直译“WSDM适应”改成“兼容WSDM”，与同句 compliant 对应。",
+      "sources": [
+        "教材 PDF 物理页 533（印刷页 526），直接目读渲染页"
+      ]
+    },
+    {
+      "id": "ch15b-34",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第06节-SOA的作用.md",
+      "loc": "物理 534，印刷 527，15.6",
+      "ocr": "为了保证所有的应用能够互通互用，每一个应用都需要一个EAI Server来对应。",
+      "current": "为了保证所有的应用能够互通互用，每一个应用都需要一个EAI Server来对应。",
+      "final": "在这里的点对点例子中，为了保证所有的应用能够互通互用，每对应用之间都需要建立连接。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "本段随后明确“每两个应用之间可以对话”，并列1、3、6、10个“翻译”。用例计数的是应用之间的连接，并不能从这些数字推出服务器台数。",
+      "sources": [
+        "教材 PDF 物理页 534（印刷页 527），直接目读渲染页"
+      ]
+    },
+    {
+      "id": "ch15b-35",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第06节-SOA的作用.md",
+      "loc": "物理 534，印刷 527，15.6",
+      "ocr": "这样会带来EAI Server呈几何倍数的增长",
+      "current": "这样会带来EAI Server呈几何倍数的增长",
+      "final": "这样，所需连接的数量就按应用两两连接的组合数增长",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "教材在本段给出2、3、4、5个应用分别需要1、3、6、10个“翻译”。这些数为 n(n−1)/2，而非几何数列；修复仅限此处假设的点对点连接示例。",
+      "sources": [
+        "教材 PDF 物理页 534（印刷页 527），直接目读渲染页"
+      ]
+    },
+    {
+      "id": "ch15b-36",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第06节-SOA的作用.md",
+      "loc": "物理 534，印刷 527，15.6",
+      "ocr": "一个“翻译”,当",
+      "current": "一个“翻译”,当",
+      "final": "一个“翻译”，当",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图的缩进、跨页续文、词间距或中文语句边界复原排版。",
+      "sources": [
+        "教材 PDF 物理页 534（印刷页 527），直接目读渲染页"
+      ]
+    },
+    {
+      "id": "ch15b-37",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第06节-SOA的作用.md",
+      "loc": "物理 534，印刷 527，15.6",
+      "ocr": "三个“翻译”,当",
+      "current": "三个“翻译”,当",
+      "final": "三个“翻译”，当",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图的缩进、跨页续文、词间距或中文语句边界复原排版。",
+      "sources": [
+        "教材 PDF 物理页 534（印刷页 527），直接目读渲染页"
+      ]
+    },
+    {
+      "id": "ch15b-38",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第06节-SOA的作用.md",
+      "loc": "物理 534，印刷 527，15.6",
+      "ocr": "六个“翻译”,五",
+      "current": "六个“翻译”,五",
+      "final": "六个“翻译”，五",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图的缩进、跨页续文、词间距或中文语句边界复原排版。",
+      "sources": [
+        "教材 PDF 物理页 534（印刷页 527），直接目读渲染页"
+      ]
+    },
+    {
+      "id": "ch15b-39",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第06节-SOA的作用.md",
+      "loc": "物理 534，印刷 527，15.6",
+      "ocr": "形成资源的共享。\n从这个意义",
+      "current": "形成资源的共享。\n从这个意义",
+      "final": "形成资源的共享。\n\n从这个意义",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图的缩进、跨页续文、词间距或中文语句边界复原排版。",
+      "sources": [
+        "教材 PDF 物理页 534（印刷页 527），直接目读渲染页"
+      ]
+    },
+    {
+      "id": "ch15b-40",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第06节-SOA的作用.md",
+      "loc": "物理 534，印刷 527，15.6",
+      "ocr": "“拿来就用”,而",
+      "current": "“拿来就用”,而",
+      "final": "“拿来就用”，而",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图的缩进、跨页续文、词间距或中文语句边界复原排版。",
+      "sources": [
+        "教材 PDF 物理页 534（印刷页 527），直接目读渲染页"
+      ]
+    },
+    {
+      "id": "ch15b-41",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第07节-SOA的设计原则.md",
+      "loc": "物理 534，印刷 527，15.7",
+      "ocr": "一些常见和讨论的设计原则",
+      "current": "一些常见和讨论的设计原则",
+      "final": null,
+      "class": "C3",
+      "confidence": "低",
+      "evidence": "页图同文，修法可能为“常见的设计原则”或“经常被讨论的设计原则”，不能确定原有取词。",
+      "sources": [
+        "教材 PDF 物理页 534（印刷页 527），直接目读渲染页"
+      ]
+    },
+    {
+      "id": "ch15b-42",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第07节-SOA的设计原则.md",
+      "loc": "物理 535，印刷 528，15.7",
+      "ocr": "管理和恢复。\n\n5. 粗粒度",
+      "current": "管理和恢复。\n\n5. 粗粒度",
+      "final": "管理和恢复。\n5. 粗粒度",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图的缩进、跨页续文、词间距或中文语句边界复原排版。",
+      "sources": [
+        "教材 PDF 物理页 535（印刷页 528），直接目读渲染页"
+      ]
+    },
+    {
+      "id": "ch15b-43",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第07节-SOA的设计原则.md",
+      "loc": "物理 535，印刷 528，15.7",
+      "ocr": "调用 (RPC), 通常",
+      "current": "调用 (RPC), 通常",
+      "final": "调用 (RPC)，通常",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图的缩进、跨页续文、词间距或中文语句边界复原排版。",
+      "sources": [
+        "教材 PDF 物理页 535（印刷页 528），直接目读渲染页"
+      ]
+    },
+    {
+      "id": "ch15b-44",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第04节-SOA主要协议和规范.md",
+      "loc": "物理 530，印刷 523，15.4.3 SOAP协议",
+      "ocr": "SOAP封装 (Envelop), 定义了",
+      "current": "SOAP封装 (Envelop), 定义了",
+      "final": "SOAP封装 (Envelope)，定义了",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "SOAP 1.1 规范正文和微软 SOAP XML 示例均使用 Envelope；后者的文档根元素为 soap:Envelope。",
+      "sources": [
+        "教材 PDF 物理页 530（印刷页 523），直接目读渲染页",
+        "SOAP 1.1 规范文本镜像（2026-11-27 核对） https://github.com/way-platform/soap-go/blob/942cd2ae78195e145447e6cf0c15a2c2b5292373/docs/soap-1.1.md",
+        "Microsoft XML Serialization with XML Web Services（2026-11-27 核对） https://github.com/dotnet/docs/blob/7460ede22123a70603267df744ddb66aaca69f5e/docs/standard/serialization/xml-serialization-with-xml-web-services.md"
+      ]
+    },
+    {
+      "id": "ch15b-45",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第05节-SOA设计的标准要求.md",
+      "loc": "物理 533，印刷 526，15.5.4 服务质量 (QoS)",
+      "ocr": "WSBPEL(Web Service Business Process Execution Language)",
+      "current": "WSBPEL(Web Service Business Process Execution Language)",
+      "final": "WS-BPEL(Web Services Business Process Execution Language)",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "两个独立资料均使用 WS-BPEL 并把全称中的 Services 写作复数。保留前文早期名 BPEL4WS。",
+      "sources": [
+        "教材 PDF 物理页 533（印刷页 526），直接目读渲染页",
+        "NISP Standards Catalog，2026-11-27 核对 https://github.com/nispworld/nispworld.github.io/blob/7a1d24375ebd3cac1d8897e256bf114bef12cb3e/standard/oasis-ws-bpel.html",
+        "PLDB 语言资料，2026-11-27 核对 https://github.com/breck7/pldb/blob/d60119cce3f1729c15172a875a92c51573e0204e/concepts/bpel.scroll"
+      ]
+    },
+    {
+      "id": "ch15b-46",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第05节-SOA设计的标准要求.md",
+      "loc": "物理 533，印刷 526，15.5.4 服务质量 (QoS)",
+      "ocr": "Web Services for Distributed Management",
+      "current": "Web Services for Distributed Management",
+      "final": "Web Services Distributed Management",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "Globus 与 FGSMS 文档均把 WSDM 展开为 Web Services Distributed Management；去掉多余介词。",
+      "sources": [
+        "教材 PDF 物理页 533（印刷页 526），直接目读渲染页",
+        "Globus Toolkit 文档，2026-11-27 核对 https://github.com/globus/globus-toolkit-documentation/blob/99c47973f9dccc0bc826194da2cf093e8283256e/toolkit/docs/4.0/common/key/index.xml",
+        "FGSMS 用户指南，2026-11-27 核对 https://github.com/mil-oss/fgsms-site/blob/79ccd951b4a65b5842ba0e2051d1701f7e3df930/user.html"
+      ]
+    },
+    {
+      "id": "ch15b-47",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第04节-SOA主要协议和规范.md",
+      "loc": "物理 529，印刷 522，图 15-4",
+      "ocr": "> 图 15-4 基本Web服务协议",
+      "current": "> 图 15-4 基本Web服务协议",
+      "final": "![图 15-4 基本Web服务协议](../../../assets/figures/textbook/ch15-service-oriented-architecture/figure-15-04.svg)\n\n> 图 15-4 基本Web服务协议",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "清洗稿仅存题注。按页图恢复图块，节点与连线逐项目读。",
+      "sources": [
+        "教材 PDF 物理页 529（印刷页 522），直接目读渲染页"
+      ]
+    },
+    {
+      "id": "ch15b-48",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第04节-SOA主要协议和规范.md",
+      "loc": "物理 530，印刷 523，图 15-5",
+      "ocr": "> 图 15-5 文档基本结构框架",
+      "current": "> 图 15-5 文档基本结构框架",
+      "final": "![图 15-5 文档基本结构框架](../../../assets/figures/textbook/ch15-service-oriented-architecture/figure-15-05.svg)\n\n> 图 15-5 文档基本结构框架",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "清洗稿仅存题注。按页图恢复图块，节点与连线逐项目读。",
+      "sources": [
+        "教材 PDF 物理页 530（印刷页 523），直接目读渲染页"
+      ]
+    },
+    {
+      "id": "ch15c-01",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第08节-SOA的设计模式.md",
+      "loc": "物理 537 / 印刷 530，图 15-6",
+      "ocr": "> 图 15-6 ESB示意图",
+      "current": "> 图 15-6 ESB示意图",
+      "final": "![图 15-6 ESB示意图](../../../assets/figures/textbook/ch15-service-oriented-architecture/figure-15-06.svg)",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "五类服务无箭头接入同一 ESB；下方企业应用与企业数据各有一个连接及五个未命名示意图标。",
+      "sources": [
+        "入库教材 PDF 物理 537 / 印刷 530，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch15c-02",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第08节-SOA的设计模式.md",
+      "loc": "物理 538 / 印刷 531，图 15-7",
+      "ocr": "> 图 15-7 SynchroESB层次结构图",
+      "current": "> 图 15-7 SynchroESB层次结构图",
+      "final": "![图 15-7 SynchroESB层次结构图](../../../assets/figures/textbook/ch15-service-oriented-architecture/figure-15-07.svg)",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "四层从应用工具到服务总线；中间六节点先分支再汇合，适配器、无字组件、省略号及数据转换并列；底层消息说明与 JMS 分两行。",
+      "sources": [
+        "入库教材 PDF 物理 538 / 印刷 531，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch15c-03",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第08节-SOA的设计模式.md",
+      "loc": "物理 539 / 印刷 532，图 15-8",
+      "ocr": "> 图 15-8 单体架构与微服务架构",
+      "current": "> 图 15-8 单体架构与微服务架构",
+      "final": "![图 15-8 单体架构与微服务架构](../../../assets/figures/textbook/ch15-service-oriented-architecture/figure-15-08.svg)",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "左侧三格按页图同为展示层，单体应用连接共用数据库；右侧展示层分派给服务A、服务B、服务C，各连独立数据库。右下副标签以图题及紧邻正文订为微服务架构。",
+      "sources": [
+        "入库教材 PDF 物理 539 / 印刷 532，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch15c-04",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第08节-SOA的设计模式.md",
+      "loc": "物理 539 / 印刷 532，小项编号",
+      "ocr": "1) 复杂应用解耦",
+      "current": "### 1. 复杂应用解耦",
+      "final": "1）复杂应用解耦",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "页图的“数字+右括号”与下方正文同字号、常规字重；高一层的数字加点标题才为粗体。",
+      "sources": [
+        "入库教材 PDF 物理 539 / 印刷 532，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch15c-05",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第08节-SOA的设计模式.md",
+      "loc": "物理 539 / 印刷 532，小项编号",
+      "ocr": "2) 独立",
+      "current": "### 2. 独立",
+      "final": "2）独立",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "页图的“数字+右括号”与下方正文同字号、常规字重；高一层的数字加点标题才为粗体。",
+      "sources": [
+        "入库教材 PDF 物理 539 / 印刷 532，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch15c-06",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第08节-SOA的设计模式.md",
+      "loc": "物理 539 / 印刷 532，小项编号",
+      "ocr": "3) 技术选型灵活",
+      "current": "### 3. 技术选型灵活",
+      "final": "3）技术选型灵活",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "页图的“数字+右括号”与下方正文同字号、常规字重；高一层的数字加点标题才为粗体。",
+      "sources": [
+        "入库教材 PDF 物理 539 / 印刷 532，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch15c-07",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第08节-SOA的设计模式.md",
+      "loc": "物理 540 / 印刷 533，小项编号",
+      "ocr": "4) 容错",
+      "current": "### 4. 容错",
+      "final": "4）容错",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "页图的“数字+右括号”与下方正文同字号、常规字重；高一层的数字加点标题才为粗体。",
+      "sources": [
+        "入库教材 PDF 物理 540 / 印刷 533，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch15c-08",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第08节-SOA的设计模式.md",
+      "loc": "物理 540 / 印刷 533，小项编号",
+      "ocr": "5) 松耦合，易扩展",
+      "current": "### 5. 松耦合，易扩展",
+      "final": "5）松耦合，易扩展",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "页图的“数字+右括号”与下方正文同字号、常规字重；高一层的数字加点标题才为粗体。",
+      "sources": [
+        "入库教材 PDF 物理 540 / 印刷 533，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch15c-09",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第08节-SOA的设计模式.md",
+      "loc": "物理 540 / 印刷 533，小项编号",
+      "ocr": "1) 聚合器微服务",
+      "current": "### 1. 聚合器微服务",
+      "final": "1）聚合器微服务",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "页图的“数字+右括号”与下方正文同字号、常规字重；高一层的数字加点标题才为粗体。",
+      "sources": [
+        "入库教材 PDF 物理 540 / 印刷 533，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch15c-10",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第08节-SOA的设计模式.md",
+      "loc": "物理 540 / 印刷 533，小项编号",
+      "ocr": "2) 链式微服务",
+      "current": "### 2. 链式微服务",
+      "final": "2）链式微服务",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "页图的“数字+右括号”与下方正文同字号、常规字重；高一层的数字加点标题才为粗体。",
+      "sources": [
+        "入库教材 PDF 物理 540 / 印刷 533，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch15c-11",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第08节-SOA的设计模式.md",
+      "loc": "物理 540 / 印刷 533，小项编号",
+      "ocr": "3) 数据共享微服务",
+      "current": "### 3. 数据共享微服务",
+      "final": "3）数据共享微服务",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "页图的“数字+右括号”与下方正文同字号、常规字重；高一层的数字加点标题才为粗体。",
+      "sources": [
+        "入库教材 PDF 物理 540 / 印刷 533，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch15c-12",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第08节-SOA的设计模式.md",
+      "loc": "物理 541 / 印刷 534，小项编号",
+      "ocr": "4) 异步消息传递微服务",
+      "current": "### 4. 异步消息传递微服务",
+      "final": "4）异步消息传递微服务",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "页图的“数字+右括号”与下方正文同字号、常规字重；高一层的数字加点标题才为粗体。",
+      "sources": [
+        "入库教材 PDF 物理 541 / 印刷 534，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch15c-13",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第10节-SOA实施的过程.md",
+      "loc": "物理 544 / 印刷 537，小项编号",
+      "ocr": "1) 自顶向下分解法",
+      "current": "#### 1. 自顶向下分解法",
+      "final": "1）自顶向下分解法",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "页图的“数字+右括号”与下方正文同字号、常规字重；高一层的数字加点标题才为粗体。",
+      "sources": [
+        "入库教材 PDF 物理 544 / 印刷 537，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch15c-14",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第10节-SOA实施的过程.md",
+      "loc": "物理 545 / 印刷 538，小项编号",
+      "ocr": "2) 业务目标分析法",
+      "current": "#### 2. 业务目标分析法",
+      "final": "2）业务目标分析法",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "页图的“数字+右括号”与下方正文同字号、常规字重；高一层的数字加点标题才为粗体。",
+      "sources": [
+        "入库教材 PDF 物理 545 / 印刷 538，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch15c-15",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第10节-SOA实施的过程.md",
+      "loc": "物理 545 / 印刷 538，小项编号",
+      "ocr": "3) 自底向上分析法",
+      "current": "#### 3. 自底向上分析法",
+      "final": "3）自底向上分析法",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "页图的“数字+右括号”与下方正文同字号、常规字重；高一层的数字加点标题才为粗体。",
+      "sources": [
+        "入库教材 PDF 物理 545 / 印刷 538，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch15c-16",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第10节-SOA实施的过程.md",
+      "loc": "物理 545 / 印刷 538，小项编号",
+      "ocr": "1) 建立业务对象",
+      "current": "#### 1. 建立业务对象",
+      "final": "1）建立业务对象",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "页图的“数字+右括号”与下方正文同字号、常规字重；高一层的数字加点标题才为粗体。",
+      "sources": [
+        "入库教材 PDF 物理 545 / 印刷 538，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch15c-17",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第10节-SOA实施的过程.md",
+      "loc": "物理 546 / 印刷 539，小项编号",
+      "ocr": "2) 建立服务接口",
+      "current": "#### 2. 建立服务接口",
+      "final": "2）建立服务接口",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "页图的“数字+右括号”与下方正文同字号、常规字重；高一层的数字加点标题才为粗体。",
+      "sources": [
+        "入库教材 PDF 物理 546 / 印刷 539，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch15c-18",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第10节-SOA实施的过程.md",
+      "loc": "物理 546 / 印刷 539，小项编号",
+      "ocr": "3) 建立业务流程",
+      "current": "#### 3. 流程建模",
+      "final": "3）建立业务流程",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "页图的“数字+右括号”与下方正文同字号、常规字重；高一层的数字加点标题才为粗体。本页题行明写“3）建立业务流程”。",
+      "sources": [
+        "入库教材 PDF 物理 546 / 印刷 539，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch15c-19",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第08节-SOA的设计模式.md",
+      "loc": "物理 535 / 印刷 528，PEP英文展开",
+      "ocr": "Policy Enforcement Point,PEP",
+      "current": "Policy Enforcement Point,PEP",
+      "final": "Policy Enforcement Point, PEP",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "逗号后补空格，分隔全称与简称。",
+      "sources": [
+        "入库教材 PDF 物理 535 / 印刷 528，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch15c-20",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第08节-SOA的设计模式.md",
+      "loc": "物理 535 / 印刷 528，两类厂商",
+      "ocr": "下属分公司);另一个阵营",
+      "current": "下属分公司);另一个阵营",
+      "final": "下属分公司)；另一个阵营",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "分号用于中文并列分句。",
+      "sources": [
+        "入库教材 PDF 物理 535 / 印刷 528，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch15c-21",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第08节-SOA的设计模式.md",
+      "loc": "物理 535 / 印刷 528，治理功能引文",
+      "ocr": "注册表产品进行集成。\n\n大多数商用服务",
+      "current": "注册表产品进行集成。\n\n大多数商用服务",
+      "final": "注册表产品进行集成。大多数商用服务",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "页上“ 大多数商用服务”位于同一行中途，接上一句。",
+      "sources": [
+        "入库教材 PDF 物理 535 / 印刷 528，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch15c-22",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第08节-SOA的设计模式.md",
+      "loc": "物理 536 / 印刷 529，注册表三项之后",
+      "ocr": "管理服务在ESB上的互动。\n设计时段",
+      "current": "管理服务在ESB上的互动。\n设计时段",
+      "final": "管理服务在ESB上的互动。\n\n设计时段",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "新段缩进，脱离编号列表。",
+      "sources": [
+        "入库教材 PDF 物理 536 / 印刷 529，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch15c-23",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第08节-SOA的设计模式.md",
+      "loc": "物理 536 / 印刷 529，注册表管理两段引语",
+      "ocr": "不同阶段之间移动。”配置文件管理",
+      "current": "不同阶段之间移动。”配置文件管理",
+      "final": "不同阶段之间移动。”\n\n配置文件管理",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "配置文件管理另起段。",
+      "sources": [
+        "入库教材 PDF 物理 536 / 印刷 529，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch15c-24",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第08节-SOA的设计模式.md",
+      "loc": "物理 536 / 印刷 529，Brent Carlson续引",
+      "ocr": "到SOA开发流程之中。”他说：",
+      "current": "到SOA开发流程之中。”他说：",
+      "final": "到SOA开发流程之中。”\n\n他说：",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "页图“他说”另行缩进。",
+      "sources": [
+        "入库教材 PDF 物理 536 / 印刷 529，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch15c-25",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第08节-SOA的设计模式.md",
+      "loc": "物理 536 / 印刷 529，企业集成术语",
+      "ocr": "EAI、B2B和BMP",
+      "current": "EAI、B2B和BMP",
+      "final": "EAI、B2B和BPM",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "同章15.3列出Business Process Management（BPM），本处讨论的同为业务流程集成。",
+      "sources": [
+        "入库教材 PDF 物理 536 / 印刷 529，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch15c-26",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第08节-SOA的设计模式.md",
+      "loc": "物理 536 / 印刷 529，ESB英文展开",
+      "ocr": "Enterprise Service Bus,ESB",
+      "current": "Enterprise Service Bus,ESB",
+      "final": "Enterprise Service Bus, ESB",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "逗号分隔全称与简称。",
+      "sources": [
+        "入库教材 PDF 物理 536 / 印刷 529，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch15c-27",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第08节-SOA的设计模式.md",
+      "loc": "物理 536 / 印刷 529，点对点集成的缺点",
+      "ocr": "复杂度高，可管理性差，复用度差和系统脆弱",
+      "current": "复杂度高，可管理性差，复用度差和系统脆弱",
+      "final": "复杂度高、可管理性差、复用度差和系统脆弱",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "四项并列短语共用同一谓语。",
+      "sources": [
+        "入库教材 PDF 物理 536 / 印刷 529，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch15c-28",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第08节-SOA的设计模式.md",
+      "loc": "物理 537 / 印刷 530，六项功能之后",
+      "ocr": "提供日志和监控功能。\n由于采用了",
+      "current": "提供日志和监控功能。\n由于采用了",
+      "final": "提供日志和监控功能。\n\n由于采用了",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "末项结束，下一段独立缩进。",
+      "sources": [
+        "入库教材 PDF 物理 537 / 印刷 530，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch15c-29",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第08节-SOA的设计模式.md",
+      "loc": "物理 540 / 印刷 533，微服务模式列举",
+      "ocr": "微服务架构的灵活性。\n\n常见的微服务",
+      "current": "微服务架构的灵活性。\n\n常见的微服务",
+      "final": "微服务架构的灵活性。常见的微服务",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "列举是同段顶格续行。",
+      "sources": [
+        "入库教材 PDF 物理 540 / 印刷 533，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch15c-30",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第08节-SOA的设计模式.md",
+      "loc": "物理 540 / 印刷 533，代理和分支模式",
+      "ocr": "代理微服务器",
+      "current": "代理微服务器",
+      "final": "代理微服务",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "上一段明确列“代理微服务设计模式”，此处讨论同一模式的职责，三处不是服务器硬件。",
+      "sources": [
+        "入库教材 PDF 物理 540 / 印刷 533，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch15c-31",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第08节-SOA的设计模式.md",
+      "loc": "物理 540 / 印刷 533，分支模式",
+      "ocr": "分支微服务器模式",
+      "current": "分支微服务器模式",
+      "final": "分支微服务模式",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "上一段及本句均列举服务模式，与紧接的两个服务调用链一致。",
+      "sources": [
+        "入库教材 PDF 物理 540 / 印刷 533，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch15c-32",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第08节-SOA的设计模式.md",
+      "loc": "物理 541 / 印刷 534，REST分句",
+      "ocr": "RESTful风格的API,REST使用",
+      "current": "RESTful风格的API,REST使用",
+      "final": "RESTful风格的API，REST使用",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "两个汉语分句之间改用全角逗号。",
+      "sources": [
+        "入库教材 PDF 物理 541 / 印刷 534，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch15c-33",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第08节-SOA的设计模式.md",
+      "loc": "物理 541 / 印刷 534，微服务面临的挑战",
+      "ocr": "因此对开发人员出了更高要求",
+      "current": "因此对开发人员出了更高要求",
+      "final": "因此对开发人员提出了更高要求",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "“对……提出……要求”为本句动宾搭配，补谓语首字。",
+      "sources": [
+        "入库教材 PDF 物理 541 / 印刷 534，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch15c-34",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第09节-构建SOA架构时应该注意的问题.md",
+      "loc": "物理 542 / 印刷 535，EDI英文展开",
+      "ocr": "Electronic Data Interchange,EDI",
+      "current": "Electronic Data Interchange,EDI",
+      "final": "Electronic Data Interchange, EDI",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "英文全称、缩写用逗号加空格。",
+      "sources": [
+        "入库教材 PDF 物理 542 / 印刷 535，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch15c-35",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第09节-构建SOA架构时应该注意的问题.md",
+      "loc": "物理 543 / 印刷 536，粗粒度接口收束",
+      "ocr": "作为外部集成的接口。\n\n通常架构设计师",
+      "current": "作为外部集成的接口。\n\n通常架构设计师",
+      "final": "作为外部集成的接口。通常架构设计师",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "BPEL引例在页上顶格接续，没有新段首缩进。",
+      "sources": [
+        "入库教材 PDF 物理 543 / 印刷 536，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch15c-36",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第09节-构建SOA架构时应该注意的问题.md",
+      "loc": "物理 543 / 印刷 536，访问J2EE应用的API",
+      "ocr": "JAX-RPCAPI",
+      "current": "JAX-RPCAPI",
+      "final": "JAX-RPC API",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "接口规范名 JAX-RPC 和通名 API 为两个词。",
+      "sources": [
+        "入库教材 PDF 物理 543 / 印刷 536，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch15c-37",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第09节-构建SOA架构时应该注意的问题.md",
+      "loc": "物理 543 / 印刷 536，两种访问途径",
+      "ocr": "使用Servlet来实现); Web服务客户",
+      "current": "使用Servlet来实现); Web服务客户",
+      "final": "使用Servlet来实现)；Web服务客户",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "汉语并列分句间用全角分号。",
+      "sources": [
+        "入库教材 PDF 物理 543 / 印刷 536，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch15c-38",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第09节-构建SOA架构时应该注意的问题.md",
+      "loc": "物理 543 / 印刷 536，访问约束",
+      "ocr": "Session Bean, 但Web服务客户",
+      "current": "Session Bean, 但Web服务客户",
+      "final": "Session Bean，但Web服务客户",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "汉语分句使用全角逗号。",
+      "sources": [
+        "入库教材 PDF 物理 543 / 印刷 536，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch15c-39",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第09节-构建SOA架构时应该注意的问题.md",
+      "loc": "物理 543 / 印刷 536，企业Bean举例",
+      "ocr": "企业Bean, 如有状态",
+      "current": "企业Bean, 如有状态",
+      "final": "企业Bean，如有状态",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "举例前用全角逗号。",
+      "sources": [
+        "入库教材 PDF 物理 543 / 印刷 536，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch15c-40",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第10节-SOA实施的过程.md",
+      "loc": "物理 544 / 印刷 537，全局规划",
+      "ocr": "作为用户，实施SOA, 首先",
+      "current": "作为用户，实施SOA, 首先",
+      "final": "作为用户，实施SOA，首先",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "中文句中的停顿使用全角逗号。",
+      "sources": [
+        "入库教材 PDF 物理 544 / 印刷 537，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch15c-41",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第10节-SOA实施的过程.md",
+      "loc": "物理 544 / 印刷 537，实施和服务",
+      "ocr": "考虑这6方面的因素。\n\nSOA的实施涉及",
+      "current": "考虑这6方面的因素。\n\nSOA的实施涉及",
+      "final": "考虑这6方面的因素。SOA的实施涉及",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "同段顶格续行；下一完整节题为15.10.2。",
+      "sources": [
+        "入库教材 PDF 物理 544 / 印刷 537，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch15c-42",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第10节-SOA实施的过程.md",
+      "loc": "物理 544 / 印刷 537，业务组件模型",
+      "ocr": "业务执行层次和业务组件。\n\n由于企业内部",
+      "current": "业务执行层次和业务组件。\n\n由于企业内部",
+      "final": "业务执行层次和业务组件。由于企业内部",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "页图“由于企业内部”顶格承上，继续论业务组件模型。",
+      "sources": [
+        "入库教材 PDF 物理 544 / 印刷 537，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch15c-43",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第10节-SOA实施的过程.md",
+      "loc": "物理 545 / 印刷 538，业务目标建模",
+      "ocr": "“目标服务树”,处于",
+      "current": "“目标服务树”,处于",
+      "final": "“目标服务树”，处于",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "引号后接中文分句。",
+      "sources": [
+        "入库教材 PDF 物理 545 / 印刷 538，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch15c-44",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第10节-SOA实施的过程.md",
+      "loc": "物理 545 / 印刷 538，已有资产分析",
+      "ocr": "“遗留资产分析”,它的",
+      "current": "“遗留资产分析”,它的",
+      "final": "“遗留资产分析”，它的",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "引号后接中文分句。",
+      "sources": [
+        "入库教材 PDF 物理 545 / 印刷 538，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch15c-45",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第10节-SOA实施的过程.md",
+      "loc": "物理 546 / 印刷 539，业务对象列表后",
+      "ocr": "造成或产生的一些事件。\n通过对业务对象",
+      "current": "造成或产生的一些事件。\n通过对业务对象",
+      "final": "造成或产生的一些事件。\n\n通过对业务对象",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "结语独立缩进，脱离第三项。",
+      "sources": [
+        "入库教材 PDF 物理 546 / 印刷 539，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch15c-46",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第10节-SOA实施的过程.md",
+      "loc": "物理 546 / 印刷 539，服务接口定义",
+      "ocr": "getCustomerlnfo()",
+      "current": "getCustomerlnfo()",
+      "final": "getCustomerInfo()",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "与下文调用同一获取客户信息的操作；CustomerInfo 中 Info 为 Information 的缩写，首字母为 I。",
+      "sources": [
+        "入库教材 PDF 物理 546 / 印刷 539，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch15c-47",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第10节-SOA实施的过程.md",
+      "loc": "物理 546 / 印刷 539，同一服务接口调用",
+      "ocr": "getCustomer Info()",
+      "current": "getCustomer Info()",
+      "final": "getCustomerInfo()",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "按上文同一操作名，标识符中没有空格。",
+      "sources": [
+        "入库教材 PDF 物理 546 / 印刷 539，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch15c-48",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第10节-SOA实施的过程.md",
+      "loc": "物理 546 / 印刷 539，BP全称标点",
+      "ocr": "Business Process,BP",
+      "current": "Business Process,BP",
+      "final": "Business Process, BP",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "英文缩写和全称分隔。",
+      "sources": [
+        "入库教材 PDF 物理 546 / 印刷 539，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch15c-49",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第10节-SOA实施的过程.md",
+      "loc": "物理 546 / 印刷 539，需求收集和流程模型",
+      "ocr": "模型。\n\n通过使用适当的工具",
+      "current": "模型。\n\n通过使用适当的工具",
+      "final": "模型。通过使用适当的工具",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "页图顶格接续描述建模之前的需求收集。",
+      "sources": [
+        "入库教材 PDF 物理 546 / 印刷 539，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch15c-50",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第10节-SOA实施的过程.md",
+      "loc": "物理 547 / 印刷 540，决策点的转换条件",
+      "ocr": "业务规则(转换条件),使用",
+      "current": "业务规则(转换条件),使用",
+      "final": "业务规则(转换条件)，使用",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "中文分句界限。",
+      "sources": [
+        "入库教材 PDF 物理 547 / 印刷 540，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch15c-51",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第08节-SOA的设计模式.md",
+      "loc": "物理 536 / 印刷 529，ESB图引",
+      "ocr": "图 15-6所示",
+      "current": "图 15-6所示",
+      "final": "图 15-6 所示",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "图号与“所示”之间留空，便于识别。",
+      "sources": [
+        "入库教材 PDF 物理 536 / 印刷 529，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch15c-52",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第08节-SOA的设计模式.md",
+      "loc": "物理 538 / 印刷 531，SynchroESB图引",
+      "ocr": "图 15-7所示",
+      "current": "图 15-7所示",
+      "final": "图 15-7 所示",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "图号与“所示”之间留空，便于识别。",
+      "sources": [
+        "入库教材 PDF 物理 538 / 印刷 531，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch15c-53",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第08节-SOA的设计模式.md",
+      "loc": "物理 539 / 印刷 532，微服务图引",
+      "ocr": "图 15-8所示",
+      "current": "图 15-8所示",
+      "final": "图 15-8 所示",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "图号与“所示”之间留空，便于识别。",
+      "sources": [
+        "入库教材 PDF 物理 539 / 印刷 532，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch15c-54",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第08节-SOA的设计模式.md",
+      "loc": "物理 539 / 印刷 532，图 15-8 单体架构与微服务架构",
+      "ocr": "右下同样印作“单体应用架构”",
+      "current": "> 图 15-8 单体架构与微服务架构",
+      "final": "微服务架构",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "本图标题对比两种架构；右侧三项服务有独立数据库，与相邻段落的拆分定义一致，标签可据图题与节点共同确认。",
+      "sources": [
+        "入库教材 PDF 物理 539 / 印刷 532，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch15c-55",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第08节-SOA的设计模式.md",
+      "loc": "物理 539 / 印刷 532，图 15-8 单体架构与微服务架构",
+      "ocr": "并列服务标为A、B、c",
+      "current": "> 图 15-8 单体架构与微服务架构",
+      "final": "服务C",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "与 A、B 并列的第三个成员；随后的链式微服务示例称服务A、B、C。",
+      "sources": [
+        "入库教材 PDF 物理 539 / 印刷 532，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch15c-56",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第08节-SOA的设计模式.md",
+      "loc": "物理 539 / 印刷 532，图 15-8 单体架构与微服务架构",
+      "ocr": "左侧三行均为“展示层”",
+      "current": "> 图 15-8 单体架构与微服务架构",
+      "final": null,
+      "class": "C3",
+      "confidence": "低",
+      "evidence": "页图有相同名称三次，只有分层图案和一个共用数据库，并不能确定其中两层应具体叫什么。保留三个原标签。",
+      "sources": [
+        "入库教材 PDF 物理 539 / 印刷 532，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch15c-57",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第08节-SOA的设计模式.md",
+      "loc": "物理 535 / 印刷 528，服务位置",
+      "ocr": "服务位置：也就是服务应用开发者",
+      "current": "服务位置：也就是服务应用开发者",
+      "final": null,
+      "class": "C3",
+      "confidence": "低",
+      "evidence": "语义残缺，定位、查询或服务消费者等候选无法从图或下文唯一还原。",
+      "sources": [
+        "入库教材 PDF 物理 535 / 印刷 528，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch15c-58",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第08节-SOA的设计模式.md",
+      "loc": "物理 536 / 印刷 529，服务总线请求",
+      "ocr": "消息即可获得所需服务",
+      "current": "消息即可获得所需服务",
+      "final": null,
+      "class": "C3",
+      "confidence": "低",
+      "evidence": "页图与稿同字，疑有衍字或主语不合，无法确定作者原句。",
+      "sources": [
+        "入库教材 PDF 物理 536 / 印刷 529，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch15c-59",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第08节-SOA的设计模式.md",
+      "loc": "物理 541 / 印刷 534，REST的同步性",
+      "ocr": "REST设计模式是同步的",
+      "current": "REST设计模式是同步的",
+      "final": null,
+      "class": "C3",
+      "confidence": "低",
+      "evidence": "表述未区分同步调用实现与REST的架构约束；保留教材例句，暂不改成普遍技术结论。",
+      "sources": [
+        "入库教材 PDF 物理 541 / 印刷 534，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch15c-60",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第08节-SOA的设计模式.md",
+      "loc": "物理 541 / 印刷 534，CAP与强一致性",
+      "ocr": "使人们不得不放弃传统数据库的强一致性",
+      "current": "使人们不得不放弃传统数据库的强一致性",
+      "final": null,
+      "class": "C3",
+      "confidence": "低",
+      "evidence": "缺少分区发生时如何取舍可用性的限定；不能依简略表述重构原句。",
+      "sources": [
+        "入库教材 PDF 物理 541 / 印刷 534，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch15c-61",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第10节-SOA实施的过程.md",
+      "loc": "物理 547 / 印刷 540，登录流程的构件",
+      "ocr": "登录证书数据",
+      "current": "登录证书数据",
+      "final": null,
+      "class": "C3",
+      "confidence": "低",
+      "evidence": "凭据、证书、验证数据等读法都与业务相关，现有图文不足以确定原文另有何字。",
+      "sources": [
+        "入库教材 PDF 物理 547 / 印刷 540，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch15c-62",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第10节-SOA实施的过程.md",
+      "loc": "物理 544 / 印刷 537，既有清洗稿",
+      "ocr": "CI O",
+      "current": "CIO",
+      "final": "CIO",
+      "class": "K",
+      "confidence": "A",
+      "evidence": "首席信息官处于方案选型与统筹角色，保留已合并的缩写。",
+      "sources": [
+        "入库教材 PDF 物理 544 / 印刷 537，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch15c-63",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第08节-SOA的设计模式.md",
+      "loc": "物理 535 / 印刷 528，服务注册的模板",
+      "ocr": "包含开发向注册表发布服务可能需要的说明性服务模板",
+      "current": "包含开发向注册表发布服务可能需要的说明性服务模板",
+      "final": "包含开发者向注册表发布服务可能需要的说明性服务模板",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "本项起首称“应用开发者，也叫服务提供者，向注册表公布他们的功能”；“开发向”缺少发布主体，最小补一“者”。",
+      "sources": [
+        "入库教材 PDF 物理 535 / 印刷 528，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch15r2a-01",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第03节-SOA的参考架构.md",
+      "loc": "15.3 开发服务",
+      "ocr": "贯彻整个软件开发生命周期的开发平台",
+      "current": "贯彻整个软件开发生命周期的开发平台",
+      "final": "贯穿整个软件开发生命周期的开发平台",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "紧随其后的需求分析至维护是覆盖范围；本节印520明言开发工具支持整个软件开发周期，另见13.1“贯穿于软件研发的整个生命周期内”。",
+      "sources": [
+        "教材 PDF 物理页 523（印刷页 516）"
+      ]
+    },
+    {
+      "id": "ch15r2a-02",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第03节-SOA的参考架构.md",
+      "loc": "15.3 接口服务",
+      "ocr": "如其他企业应用，数据库、消息系统和管理框架",
+      "current": "如其他企业应用，数据库、消息系统和管理框架",
+      "final": "如其他企业应用、数据库、消息系统和管理框架",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "页图所列四类企业系统并列，统一使用顿号。",
+      "sources": [
+        "教材 PDF 物理页 526（印刷页 519）"
+      ]
+    },
+    {
+      "id": "ch15r2b-01",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第04节-SOA主要协议和规范.md",
+      "loc": "物理 528，印刷 521，15.4",
+      "ocr": "“WS”作为",
+      "current": "“WS-” 作为",
+      "final": "“WS-”作为",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "删除右引号与中文谓语间的断词空格。",
+      "sources": [
+        "教材 PDF 物理 528 / 印刷 521，第二轮目读"
+      ]
+    },
+    {
+      "id": "ch15r2b-02",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第04节-SOA主要协议和规范.md",
+      "loc": "物理 529，印刷 522，15.4",
+      "ocr": "可被元素的各消息部件所引用",
+      "current": "可被元素的各消息部件所引用",
+      "final": "可被message元素的各消息部件所引用",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "同一页紧接的message条目明确“使用types所定义的类型”；WSDL模式中message包含part，part可通过type引用数据类型。",
+      "sources": [
+        "教材 PDF 物理 529 / 印刷 522，第二轮目读",
+        "https://github.com/apache/cxf/blob/main/core/src/main/resources/schemas/wsdl/wsdl.xsd（2026-11-27 核阅）"
+      ]
+    },
+    {
+      "id": "ch15r2b-03",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第04节-SOA主要协议和规范.md",
+      "loc": "物理 530，印刷 523，15.4",
+      "ocr": "这是一个粗糙命名的元素",
+      "current": "这是一个粗糙命名的元素",
+      "final": "这是一个具名元素",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "消解首轮ch15b-11。WSDL 1.1的tService规定name属性必需，允许多个port；Jakarta XML Web Services另明确限定名标识wsdl:service并可枚举端口。两源确认命名语义，删去无规范依据的修饰词，保留原有端口说明。",
+      "sources": [
+        "教材 PDF 物理 530 / 印刷 523，第二轮目读",
+        "https://github.com/apache/cxf/blob/main/core/src/main/resources/schemas/wsdl/wsdl.xsd（2026-11-27 核阅）",
+        "https://github.com/eclipse-ee4j/jax-ws-api/blob/master/api/src/main/java/jakarta/xml/ws/Service.java（2026-11-27 核阅）"
+      ]
+    },
+    {
+      "id": "ch15r2b-04",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第04节-SOA主要协议和规范.md",
+      "loc": "物理 531，印刷 524，15.4",
+      "ocr": "表述 (Representational)",
+      "current": "表述 (Representational)",
+      "final": "表述 (Representation)",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "此小目是资源表述的名词；HTTP语义第3.2节和MDN均用representation。REST英文全称中的形容词Representational仍按原拼写。",
+      "sources": [
+        "教材 PDF 物理 531 / 印刷 524，第二轮目读",
+        "https://github.com/httpwg/http-core/blob/main/rfc9110.xml（2026-11-27 核阅）",
+        "https://github.com/mdn/content/blob/main/files/en-us/glossary/representation_header/index.md（2026-11-27 核阅）"
+      ]
+    },
+    {
+      "id": "ch15r2b-05",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第04节-SOA主要协议和规范.md",
+      "loc": "物理 531，印刷 524，15.4",
+      "ocr": "在Web 中某一个时间",
+      "current": "在Web 中某一个时间",
+      "final": "在Web中某一个时间",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "删除Web与中文方位词间的断词空格。",
+      "sources": [
+        "教材 PDF 物理 531 / 印刷 524，第二轮目读"
+      ]
+    },
+    {
+      "id": "ch15r2b-06",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第04节-SOA主要协议和规范.md",
+      "loc": "物理 531，印刷 524，15.4",
+      "ocr": "便于用户请求这些资源，实现资源状态转移",
+      "current": "便于用户请求这些资源，实现资源状态转移",
+      "final": "便于用户请求这些资源，实现应用状态转移",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "本句描述客户端通过链接导航；RFC 9110第3.2节说明超文本引导接收方后续交互，Spring HATEOAS独立说明链接在资源间导航。教材本页已区分应用状态与资源状态，下一句明确归于应用状态。",
+      "sources": [
+        "教材 PDF 物理 531 / 印刷 524，第二轮目读",
+        "https://github.com/httpwg/http-core/blob/main/rfc9110.xml（2026-11-27 核阅）",
+        "https://github.com/spring-projects/spring-hateoas/blob/main/src/main/asciidoc/fundamentals.adoc（2026-11-27 核阅）"
+      ]
+    },
+    {
+      "id": "ch15r2b-07",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第04节-SOA主要协议和规范.md",
+      "loc": "物理 532，印刷 525，15.4",
+      "ocr": "遵循REST 设计原则",
+      "current": "遵循REST 设计原则",
+      "final": "遵循REST设计原则",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "删除REST与中文名词间的断词空格。",
+      "sources": [
+        "教材 PDF 物理 532 / 印刷 525，第二轮目读"
+      ]
+    },
+    {
+      "id": "ch15r2b-08",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第05节-SOA设计的标准要求.md",
+      "loc": "物理 533，印刷 526，15.5",
+      "ocr": "异步通信，并行处理，数据转换，以及校正",
+      "current": "异步通信，并行处理，数据转换，以及校正",
+      "final": "异步通信、并行处理、数据转换以及校正",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "并列短语用顿号，连词前去逗号。",
+      "sources": [
+        "教材 PDF 物理 533 / 印刷 526，第二轮目读"
+      ]
+    },
+    {
+      "id": "ch15r2b-09",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第06节-SOA的作用.md",
+      "loc": "物理 533，印刷 526，15.6",
+      "ocr": "操作系统，应用软件，系统软件和应用基础结构",
+      "current": "操作系统，应用软件，系统软件和应用基础结构",
+      "final": "操作系统、应用软件、系统软件和应用基础结构",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "同一主语的并列名词用顿号。",
+      "sources": [
+        "教材 PDF 物理 533 / 印刷 526，第二轮目读"
+      ]
+    },
+    {
+      "id": "ch15r2b-10",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第06节-SOA的作用.md",
+      "loc": "物理 534，印刷 527，15.6",
+      "ocr": "但是，这样会带来EAI Server呈几何倍数的增长",
+      "current": "但是，这样，所需连接的数量",
+      "final": "但是，这样所需连接的数量",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "删除首轮技术说明新增的多余停顿。",
+      "sources": [
+        "教材 PDF 物理 534 / 印刷 527，第二轮目读"
+      ]
+    },
+    {
+      "id": "ch15r2b-11",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第06节-SOA的作用.md",
+      "loc": "物理 534，印刷 527，15.6",
+      "ocr": "业务接口可以作少许改变。而内部操作却不需要改变",
+      "current": "业务接口可以作少许改变。而内部操作却不需要改变",
+      "final": "业务接口可以作少许改变，而内部操作却不需要改变",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "两个由“而”连接的紧邻对照分句合为一句。",
+      "sources": [
+        "教材 PDF 物理 534 / 印刷 527，第二轮目读"
+      ]
+    },
+    {
+      "id": "ch15r2b-12",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第07节-SOA的设计原则.md",
+      "loc": "物理 534，印刷 527，15.7",
+      "ocr": "SOA架构中，继承了",
+      "current": "SOA架构中，继承了",
+      "final": "SOA架构继承了",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "“SOA架构”是“继承了……原则”的主语，删除使主语悬空的方位词和逗号。",
+      "sources": [
+        "教材 PDF 物理 534 / 印刷 527，第二轮目读"
+      ]
+    },
+    {
+      "id": "ch15r2c-01",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第08节-SOA的设计模式.md",
+      "loc": "服务注册表厂商",
+      "ocr": "Sun和WebMethods",
+      "current": "Sun和WebMethods",
+      "final": "Sun和webMethods",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "Software AG开发库与IBM产品清单均作webMethods，小写w、大写M。",
+      "sources": [
+        "教材 PDF 物理页 535（印刷页 528），OCR 衍生页面",
+        "https://raw.githubusercontent.com/SoftwareAG/adapya-entirex/master/README.rst（访问 2026-11-27）",
+        "https://raw.githubusercontent.com/IBM/webmethods-helm-charts/main/README.md（访问 2026-11-27）"
+      ]
+    },
+    {
+      "id": "ch15r2c-02",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第08节-SOA的设计模式.md",
+      "loc": "注册表第二项功能",
+      "ocr": "服务位置：也就是服务应用开发者，帮助他们查询注册服务",
+      "current": "服务位置：也就是服务应用开发者，帮助他们查询注册服务",
+      "final": "服务定位：帮助服务应用开发者查询已注册的服务",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "本项说明“寻找符合自身要求的服务”，紧接处说明消费者检索合同；与15.4图15-4的请求者通过UDDI检索、及本段注册/定位/绑定三种功能相符。",
+      "sources": [
+        "教材 PDF 物理页 535（印刷页 528），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15r2c-03",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第08节-SOA的设计模式.md",
+      "loc": "点对点集成",
+      "ocr": "如果采用点对点的集成方式存在着",
+      "current": "如果采用点对点的集成方式存在着",
+      "final": "如果采用点对点的集成方式，就会存在",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "“如果”引条件，“存在”是结果；句法需分开。",
+      "sources": [
+        "教材 PDF 物理页 536（印刷页 529），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15r2c-04",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第08节-SOA的设计模式.md",
+      "loc": "ESB请求消息",
+      "ocr": "只需要向服务总线发出请求，消息即可获得所需服务",
+      "current": "只需要向服务总线发出请求，消息即可获得所需服务",
+      "final": "只需要向服务总线发出请求消息，即可获得所需服务",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "移逗号即可。上文明说“产生一个服务请求消息”，获取服务的主语是连接在总线上的组件。",
+      "sources": [
+        "教材 PDF 物理页 536（印刷页 529），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15r2c-05",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第08节-SOA的设计模式.md",
+      "loc": "REST的定义",
+      "ocr": "REST提供了一系列架构系统参数作为整体使用",
+      "current": "REST提供了一系列架构系统参数作为整体使用",
+      "final": "REST定义了一组配合使用的架构约束",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "15.4将RESTful定义为满足设计约束；MDN亦解释为一组软件架构约束。",
+      "sources": [
+        "教材 PDF 物理页 541（印刷页 534），OCR 衍生页面",
+        "https://raw.githubusercontent.com/mdn/content/main/files/en-us/glossary/rest/index.md（访问 2026-11-27）"
+      ]
+    },
+    {
+      "id": "ch15r2c-06",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第08节-SOA的设计模式.md",
+      "loc": "同步调用与等待",
+      "ocr": "但是REST设计模式是同步的，容易造成阻塞，从而耗费大量时间",
+      "current": "但是REST设计模式是同步的，容易造成阻塞，从而耗费大量时间",
+      "final": "如果客户端同步等待REST接口完成耗时操作，就可能长时间阻塞；接口也可以先返回已受理的响应，再异步完成处理",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "HTTP规范明确202表示已受理但处理尚未完成。Azure REST API指南采用这一响应和状态查询资源实施长时操作。",
+      "sources": [
+        "教材 PDF 物理页 541（印刷页 534），OCR 衍生页面",
+        "https://raw.githubusercontent.com/httpwg/http-core/main/rfc9110.xml（访问 2026-11-27）",
+        "https://raw.githubusercontent.com/microsoft/api-guidelines/vNext/azure/Guidelines.md（访问 2026-11-27）"
+      ]
+    },
+    {
+      "id": "ch15r2c-07",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第08节-SOA的设计模式.md",
+      "loc": "生产者与队列",
+      "ocr": "消息队列将消息写入一个消息队列中",
+      "current": "消息队列将消息写入一个消息队列中",
+      "final": "消息生产者将消息写入队列",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "14.2事件驱动图中生产者发布、消费者处理；队列存放消息而非自身承担业务生产者角色。",
+      "sources": [
+        "教材 PDF 物理页 541（印刷页 534），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15r2c-08",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第08节-SOA的设计模式.md",
+      "loc": "CAP约束",
+      "ocr": "受限于CAP原理约束以及NoSQL数据库的高扩展性，使人们不得不放弃传统数据库的强一致性，转而追求最终一致性，因此对开发人员提出了更高要求",
+      "current": "受限于CAP原理约束以及NoSQL数据库的高扩展性，使人们不得不放弃传统数据库的强一致性，转而追求最终一致性，因此对开发人员提出了更高要求",
+      "final": "发生网络分区时，分布式数据库无法同时保证强一致性和所有节点的可用性。系统可以保留强一致性并限制部分请求，也可以优先保证可用性，采用最终一致性等方案，这对开发人员提出了更高要求",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "Cassandra文档明确网络分区期间的取舍；etcd在分区时多数侧继续、少数侧不可用，键值操作可保证线性一致性，说明并非所有数据库都必放弃强一致性。",
+      "sources": [
+        "教材 PDF 物理页 541（印刷页 534），OCR 衍生页面",
+        "https://raw.githubusercontent.com/apache/cassandra/trunk/doc/modules/cassandra/pages/architecture/guarantees.adoc（访问 2026-11-27）",
+        "https://raw.githubusercontent.com/etcd-io/website/main/content/en/docs/v3.6/op-guide/failures.md（访问 2026-11-27）",
+        "https://raw.githubusercontent.com/etcd-io/website/main/content/en/docs/v3.6/learning/api_guarantees.md（访问 2026-11-27）"
+      ]
+    },
+    {
+      "id": "ch15r2c-09",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第10节-SOA实施的过程.md",
+      "loc": "实施目标层次",
+      "ocr": "实行SOA 的目标层次",
+      "current": "实行SOA 的目标层次",
+      "final": "实行SOA的目标层次",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "移除同一术语与中文结构助词间的孤立空格。",
+      "sources": [
+        "教材 PDF 物理页 544（印刷页 537），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15r2c-10",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第10节-SOA实施的过程.md",
+      "loc": "流程提供的价值",
+      "ocr": "用于提供业务值的输入和输出",
+      "current": "用于提供业务值的输入和输出",
+      "final": "用于提供业务价值的输入和输出",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "本段定义流程产生的业务价值，随后举文档列表作输出而非数值。教材14.2的对应惯用语为“业务价值”。",
+      "sources": [
+        "教材 PDF 物理页 546（印刷页 539），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15r2c-11",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第10节-SOA实施的过程.md",
+      "loc": "需求管理工具名",
+      "ocr": "IBM Rational Requisite Pro",
+      "current": "IBM Rational Requisite Pro",
+      "final": "IBM Rational RequisitePro",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "实际工具导出的需求管理计划模板（文档内容有RequisitePro Use Case Project Template）与另一独立项目中指向IBM工具页的名称，均以RequisitePro连写。",
+      "sources": [
+        "教材 PDF 物理页 546（印刷页 539），OCR 衍生页面",
+        "https://raw.githubusercontent.com/WookiePL/aipsi-sale/master/Sekcja7%20Projekt%20AIPSI/Rational%20RequisitePro/Sekcja7/Requirements%20Management%20Plan.RMP（访问 2026-11-27）",
+        "https://raw.githubusercontent.com/jakobnunnendorf/SE_egrocery/main/README.md（访问 2026-11-27）"
+      ]
+    },
+    {
+      "id": "ch15r2c-12",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第09节-构建SOA架构时应该注意的问题.md",
+      "loc": "无状态服务的适用范围",
+      "ocr": "SOA系统架构中的具体服务应该都是独立的、自包含的请求，在实现这些服务的时候不需要前一个请求的状态，也就是说服务不应该依赖于其他服务的上下文和状态，即SOA架构中的服务应该是无状态的服务",
+      "current": "SOA系统架构中的具体服务应该都是独立的、自包含的请求，在实现这些服务的时候不需要前一个请求的状态，也就是说服务不应该依赖于其他服务的上下文和状态，即SOA架构中的服务应该是无状态的服务",
+      "final": "设计无状态服务时，每个请求都应该是独立的、自包含的，服务处理该请求时不依赖前一个请求留下的会话状态",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "同章15.10明确“服务之间的交换可以为有状态、也可以为无状态”，并给出先设置客户编号再查询的有状态例。当前小节讲的是无状态服务设计，独立、自包含形容请求。",
+      "sources": [
+        "教材 PDF 物理页 543（印刷页 536），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15r2c-13",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第08节-SOA的设计模式.md",
+      "loc": "微服务系统测试",
+      "ocr": "传统的单体Web应用只需测试单一API即可，然而对于微服务架构测试，需要启动其依赖的所有服务",
+      "current": "传统的单体Web应用只需测试单一API即可，然而对于微服务架构测试，需要启动其依赖的所有服务",
+      "final": "单体Web应用的多个模块可以在同一进程中接受集成测试，而对涉及多个微服务的业务流程进行端到端测试时，则需要准备相应的依赖服务",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "本段首句在讨论系统测试；5.4明确单元、集成和系统测试的不同范围，单体应用也须检验模块协作。15.8.4说明微服务可独立测试，因此启动相应依赖的要求只针对跨服务端到端测试。",
+      "sources": [
+        "教材 PDF 物理页 541（印刷页 534），OCR 衍生页面"
+      ]
+    }
+  ],
+  "counts": {
+    "N": 115,
+    "R": 44,
+    "K": 7,
+    "C1": 41,
+    "C3": 15,
+    "C2": 12
+  },
+  "round_2": {
+    "baseline": "743ae09fb2f97f8c2141dbec4883d05bdce0151f",
+    "record": "verification/教材第二轮独立盲核记录-第15章.md",
+    "counts": {
+      "C1": 11,
+      "N": 9,
+      "C2": 7
+    },
+    "resolved": [
+      "ch15b-11",
+      "ch15c-57",
+      "ch15c-58",
+      "ch15c-59",
+      "ch15c-60"
+    ]
+  }
+}

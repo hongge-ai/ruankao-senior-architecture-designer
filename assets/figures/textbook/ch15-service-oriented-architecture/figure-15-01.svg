@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 695 402" role="img" aria-labelledby="title desc">
+<title id="title">图 15-1 SOA架构与微服务架构图</title>
+<desc id="desc">教材物理页523。两侧各自从用户经UI到三项服务，再指向本侧一个数据库框；左侧服务之前有企业服务总线，右侧直接分流。</desc>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#396b7a"/></marker></defs>
+<g font-family="Noto Sans CJK SC, sans-serif" fill="#17333e">
+<rect x="129" y="9" width="86" height="35" rx="18" fill="#eff7f9" stroke="#4d7580" stroke-width="1.6"/><text x="172.0" y="32.833333333333336" text-anchor="middle" font-size="19">用户</text>
+<path d="M172 45v30" stroke="#396b7a" stroke-width="1.8" fill="none" marker-end="url(#arr)"/>
+<rect x="100" y="78" width="144" height="38" rx="0" fill="#eff7f9" stroke="#4d7580" stroke-width="1.6"/><text x="172.0" y="103.33333333333333" text-anchor="middle" font-size="19">UI</text>
+<path d="M172 116v31" stroke="#396b7a" stroke-width="1.8" fill="none" marker-end="url(#arr)"/>
+<rect x="32" y="150" width="280" height="41" rx="0" fill="#eff7f9" stroke="#4d7580" stroke-width="1.6"/><text x="172.0" y="176.83333333333334" text-anchor="middle" font-size="19">企业服务总线ESB</text>
+<path d="M73 191V231" stroke="#396b7a" stroke-width="1.8" fill="none" marker-end="url(#arr)"/>
+<rect x="31" y="234" width="84" height="40" rx="0" fill="#eff7f9" stroke="#4d7580" stroke-width="1.6"/><text x="73.0" y="260.3333333333333" text-anchor="middle" font-size="19">服务</text>
+<path d="M73 275v36" stroke="#396b7a" stroke-width="1.8" fill="none" marker-end="url(#arr)"/>
+<path d="M172 191V231" stroke="#396b7a" stroke-width="1.8" fill="none" marker-end="url(#arr)"/>
+<rect x="130" y="234" width="84" height="40" rx="0" fill="#eff7f9" stroke="#4d7580" stroke-width="1.6"/><text x="172.0" y="260.3333333333333" text-anchor="middle" font-size="19">服务</text>
+<path d="M172 275v36" stroke="#396b7a" stroke-width="1.8" fill="none" marker-end="url(#arr)"/>
+<path d="M271 191V231" stroke="#396b7a" stroke-width="1.8" fill="none" marker-end="url(#arr)"/>
+<rect x="229" y="234" width="84" height="40" rx="0" fill="#eff7f9" stroke="#4d7580" stroke-width="1.6"/><text x="271.0" y="260.3333333333333" text-anchor="middle" font-size="19">服务</text>
+<path d="M271 275v36" stroke="#396b7a" stroke-width="1.8" fill="none" marker-end="url(#arr)"/>
+<rect x="32" y="314" width="280" height="37" rx="0" fill="#eff7f9" stroke="#4d7580" stroke-width="1.6"/><text x="172.0" y="338.8333333333333" text-anchor="middle" font-size="19">数据库</text>
+<text x="172" y="383" text-anchor="middle" font-size="20">SOA架构</text>
+<rect x="480" y="9" width="86" height="35" rx="18" fill="#eff7f9" stroke="#4d7580" stroke-width="1.6"/><text x="523.0" y="32.833333333333336" text-anchor="middle" font-size="19">用户</text>
+<path d="M523 45v30" stroke="#396b7a" stroke-width="1.8" fill="none" marker-end="url(#arr)"/>
+<rect x="451" y="78" width="144" height="38" rx="0" fill="#eff7f9" stroke="#4d7580" stroke-width="1.6"/><text x="523.0" y="103.33333333333333" text-anchor="middle" font-size="19">UI</text>
+<path d="M523 116v64 M424 180h198" stroke="#396b7a" stroke-width="1.8" fill="none"/>
+<path d="M424 180V231" stroke="#396b7a" stroke-width="1.8" fill="none" marker-end="url(#arr)"/>
+<rect x="382" y="234" width="84" height="40" rx="0" fill="#eff7f9" stroke="#4d7580" stroke-width="1.6"/><text x="424.0" y="260.3333333333333" text-anchor="middle" font-size="19">微服务</text>
+<path d="M424 275v36" stroke="#396b7a" stroke-width="1.8" fill="none" marker-end="url(#arr)"/>
+<path d="M523 180V231" stroke="#396b7a" stroke-width="1.8" fill="none" marker-end="url(#arr)"/>
+<rect x="481" y="234" width="84" height="40" rx="0" fill="#eff7f9" stroke="#4d7580" stroke-width="1.6"/><text x="523.0" y="260.3333333333333" text-anchor="middle" font-size="19">微服务</text>
+<path d="M523 275v36" stroke="#396b7a" stroke-width="1.8" fill="none" marker-end="url(#arr)"/>
+<path d="M622 180V231" stroke="#396b7a" stroke-width="1.8" fill="none" marker-end="url(#arr)"/>
+<rect x="580" y="234" width="84" height="40" rx="0" fill="#eff7f9" stroke="#4d7580" stroke-width="1.6"/><text x="622.0" y="260.3333333333333" text-anchor="middle" font-size="19">微服务</text>
+<path d="M622 275v36" stroke="#396b7a" stroke-width="1.8" fill="none" marker-end="url(#arr)"/>
+<rect x="383" y="314" width="280" height="37" rx="0" fill="#eff7f9" stroke="#4d7580" stroke-width="1.6"/><text x="523.0" y="338.8333333333333" text-anchor="middle" font-size="19">数据库</text>
+<text x="523" y="383" text-anchor="middle" font-size="20">微服务架构</text>
+</g></svg>

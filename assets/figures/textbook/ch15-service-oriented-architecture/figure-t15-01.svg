@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 970 286" role="img" aria-labelledby="title desc">
+<title id="title">表 15-1 可修改性质量属性场景描述</title>
+<desc id="desc">教材物理页522。两列，左列电信金融含3项，右列政府电力国防含5项。保留衍生页所显示的表题。</desc>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#396b7a"/></marker></defs>
+<g font-family="Noto Sans CJK SC, sans-serif" fill="#17333e">
+<rect x="5" y="5" width="960" height="275" rx="0" fill="#fff" stroke="#4d7580" stroke-width="1.6"/>
+<path d="M485 5V280 M5 75H965" stroke="#396b7a" stroke-width="1.8" fill="none"/>
+<text x="245" y="33" text-anchor="middle" font-size="21">IT建设领先领域</text>
+<text x="245" y="61" text-anchor="middle" font-size="21">（电信、金融）</text>
+<text x="725" y="33" text-anchor="middle" font-size="21">服务型系统还没开始大规模构造领域</text>
+<text x="725" y="61" text-anchor="middle" font-size="21">（政府、电力、国防）</text>
+<text x="15" y="105" text-anchor="start" font-size="18">1. 采用对遗留系统进行切割和封装的方式，或整个</text>
+<text x="15" y="135" text-anchor="start" font-size="18">　 系统包装成一个服务</text>
+<text x="15" y="165" text-anchor="start" font-size="18">2. 未来的新建系统用粒度更小、组合更容易、架构</text>
+<text x="15" y="195" text-anchor="start" font-size="18">　 更灵活的面向构件技术构造</text>
+<text x="15" y="225" text-anchor="start" font-size="18">3. 用ESB实现新旧“服务”的注册与管理</text>
+<text x="495" y="105" text-anchor="start" font-size="18">1. 首先需要统一标准（SCA/SDO）</text>
+<text x="495" y="135" text-anchor="start" font-size="18">2. 用符合SOA标准的方法（面向构件）构造粒度更</text>
+<text x="495" y="165" text-anchor="start" font-size="18">　 小、组合更容易、架构更灵活的“服务”</text>
+<text x="495" y="195" text-anchor="start" font-size="18">3. SOA的流程管理</text>
+<text x="495" y="225" text-anchor="start" font-size="18">4. SOA的软件治理</text>
+<text x="495" y="255" text-anchor="start" font-size="18">5. 多“服务”用ESB实现集成</text>
+</g></svg>
