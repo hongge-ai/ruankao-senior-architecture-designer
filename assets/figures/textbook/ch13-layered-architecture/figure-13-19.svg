@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 477" role="img" aria-labelledby="title desc">
+<title id="title">图 13-19 数据访问层的模块结构图</title><desc id="desc">DALFactory 指向 IDAL，IDAL 指向 Model；SQLServerDAL 与 OracleDAL 各指向 IDAL。依页图保留五个说明框。</desc>
+<defs><marker id="a" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#456b7a"/></marker></defs>
+<g font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" fill="#192d38">
+<rect x="30" y="74" width="65.6" height="16" fill="white" stroke="#638797" stroke-width="1.4"/>
+<rect x="30" y="90" width="205" height="76" fill="#f8fcfd" stroke="#638797" stroke-width="1.4"/>
+<text x="132.5" y="134.1" text-anchor="middle" font-size="19">DALFactory</text>
+<rect x="398" y="74" width="59.2" height="16" fill="white" stroke="#638797" stroke-width="1.4"/>
+<rect x="398" y="90" width="185" height="76" fill="#f8fcfd" stroke="#638797" stroke-width="1.4"/>
+<text x="490.5" y="134.1" text-anchor="middle" font-size="19">IDAL</text>
+<rect x="814" y="74" width="49.6" height="16" fill="white" stroke="#638797" stroke-width="1.4"/>
+<rect x="814" y="90" width="155" height="76" fill="#f8fcfd" stroke="#638797" stroke-width="1.4"/>
+<text x="891.5" y="134.1" text-anchor="middle" font-size="19">Model</text>
+<rect x="230" y="289" width="73.60000000000001" height="16" fill="white" stroke="#638797" stroke-width="1.4"/>
+<rect x="230" y="305" width="230" height="69" fill="#f8fcfd" stroke="#638797" stroke-width="1.4"/>
+<text x="345.0" y="345.6" text-anchor="middle" font-size="19">SQLServerDAL</text>
+<rect x="682" y="289" width="67.2" height="16" fill="white" stroke="#638797" stroke-width="1.4"/>
+<rect x="682" y="305" width="210" height="69" fill="#f8fcfd" stroke="#638797" stroke-width="1.4"/>
+<text x="787.0" y="345.6" text-anchor="middle" font-size="19">OracleDAL</text>
+<polyline points="235,123 397,123" fill="none" stroke="#456b7a" stroke-width="1.8" marker-end="url(#a)" stroke-dasharray="5 4"/>
+<polyline points="583,123 813,123" fill="none" stroke="#456b7a" stroke-width="1.8" marker-end="url(#a)" stroke-dasharray="5 4"/>
+<polyline points="426,305 426,167" fill="none" stroke="#456b7a" stroke-width="1.8" marker-end="url(#a)" stroke-dasharray="5 4"/>
+<polyline points="785,305 785,264 541,264 541,167" fill="none" stroke="#456b7a" stroke-width="1.8" marker-end="url(#a)" stroke-dasharray="5 4"/>
+<path d="M18 180 h242 l15 15 v53 h-257 z M260 180 v15 h15" stroke="#618592" fill="#f2f8fa"/>
+<text x="146.5" y="219.4" text-anchor="middle" font-size="17">创建DAL对象的工厂</text>
+<path d="M440 11 h305 l15 15 v36 h-320 z M745 11 v15 h15" stroke="#618592" fill="#f2f8fa"/>
+<text x="600.0" y="41.9" text-anchor="middle" font-size="17">数据访问层的接口程序集</text>
+<path d="M607 176 h390 l15 15 v51 h-405 z M997 176 v15 h15" stroke="#618592" fill="#f2f8fa"/>
+<text x="809.5" y="203.9" text-anchor="middle" font-size="17">数据访问层需要使用的数据对象，也即为</text>
+<text x="809.5" y="224.9" text-anchor="middle" font-size="17">持久层的持久对象。只有属性，没有行为</text>
+<path d="M69 392 h345 l15 15 v50 h-360 z M414 392 v15 h15" stroke="#618592" fill="#f2f8fa"/>
+<text x="249.0" y="419.4" text-anchor="middle" font-size="17">访问MS SQL Server数据库。</text>
+<text x="249.0" y="440.4" text-anchor="middle" font-size="17">实现了IDAL的接口</text>
+<path d="M657 392 h294 l15 15 v50 h-309 z M951 392 v15 h15" stroke="#618592" fill="#f2f8fa"/>
+<text x="811.5" y="419.4" text-anchor="middle" font-size="17">访问Oracle数据库。</text>
+<text x="811.5" y="440.4" text-anchor="middle" font-size="17">实现了IDAL的接口</text>
+</g></svg>

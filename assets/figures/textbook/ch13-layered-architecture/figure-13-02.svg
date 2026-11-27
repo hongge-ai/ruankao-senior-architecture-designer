@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 509" role="img" aria-labelledby="title desc">
+<title id="title">图 13-2 MVC设计模式</title>
+<desc id="desc">控制器、模型、视图三者之间三条实线方法调用、两条虚线事件，保留图例。</desc>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#3e666f"/></marker></defs>
+<g font-family="Noto Sans CJK SC, sans-serif" text-anchor="middle" fill="#172f38">
+<rect x="292" y="14" width="316" height="112" rx="2" fill="#eff7f9" stroke="#4a7481" stroke-width="1.5"/>
+<text x="450.0" y="40.0" font-size="19" >（控制器）</text>
+<text x="450.0" y="64.0" font-size="19" >接受用户请求</text>
+<text x="450.0" y="88.0" font-size="19" >调用模型响应用户请求</text>
+<text x="450.0" y="112.0" font-size="19" >选择视图显示响应结果</text>
+<rect x="14" y="245" width="246" height="137" rx="2" fill="#eff7f9" stroke="#4a7481" stroke-width="1.5"/>
+<text x="137.0" y="283.5" font-size="19" >（视图）</text>
+<text x="137.0" y="307.5" font-size="19" >显示模型状态</text>
+<text x="137.0" y="331.5" font-size="19" >接受数据更新请求</text>
+<text x="137.0" y="355.5" font-size="19" >把用户输入数据传给控制器</text>
+<rect x="640" y="245" width="247" height="137" rx="2" fill="#eff7f9" stroke="#4a7481" stroke-width="1.5"/>
+<text x="763.5" y="271.5" font-size="19" >（模型）</text>
+<text x="763.5" y="295.5" font-size="19" >代表应用程序状态</text>
+<text x="763.5" y="319.5" font-size="19" >响应状态查询</text>
+<text x="763.5" y="343.5" font-size="19" >处理业务流程</text>
+<text x="763.5" y="367.5" font-size="19" >通知视图业务状态更新</text>
+<path d="M292 65H134V242" fill="none" stroke="#3e666f" stroke-width="2" marker-end="url(#arr)"/>
+<text x="211" y="51.0" font-size="19" >选择视图</text>
+<path d="M608 65H764V242" fill="none" stroke="#3e666f" stroke-width="2" marker-end="url(#arr)"/>
+<text x="683" y="51.0" font-size="19" >业务处理</text>
+<path d="M260 282H335V130" fill="none" stroke="#3e666f" stroke-width="2" marker-end="url(#arr)" stroke-dasharray="5 4"/>
+<text x="390" y="224.0" font-size="19" >用户请求</text>
+<path d="M260 305H637" fill="none" stroke="#3e666f" stroke-width="2" marker-end="url(#arr)"/>
+<text x="448" y="294.0" font-size="19" >状态查询</text>
+<path d="M640 336H263" fill="none" stroke="#3e666f" stroke-width="2" marker-end="url(#arr)" stroke-dasharray="5 4"/>
+<text x="449" y="361.0" font-size="19" >通知新数据更新</text>
+<text x="300" y="437.0" font-size="19" >图例</text>
+<path d="M360 425H505" fill="none" stroke="#3e666f" stroke-width="2"/>
+<text x="573" y="431.0" font-size="19" >方法调用</text>
+<path d="M360 463H505" fill="none" stroke="#3e666f" stroke-width="2" stroke-dasharray="5 4"/>
+<text x="573" y="470.0" font-size="19" >事件</text>
+</g>
+</svg>

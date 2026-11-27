@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 674 620" role="img" aria-labelledby="title desc">
+  <title id="title">图 13-13 DTO模式</title>
+  <desc id="desc">客户端、DTO、服务器；跨进程取得 DTO，服务器创建 DTO，随后在客户端一侧访问四个属性。图内消息名疑似多印一个 e，以相邻命名形式排为 GetCustomerDto()。</desc>
+  <style>
+    rect, ellipse, path, polygon {fill:#fff;stroke:#416573;stroke-width:2}
+    line {stroke:#416573;stroke-width:2}
+    text {font:20px "Noto Sans CJK SC","Microsoft YaHei",sans-serif;text-anchor:middle;fill:#16272e}
+  </style>
+  <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" style="stroke:none;fill:#416573"/></marker></defs>
+  <rect x="12" y="41" width="117" height="46" rx="0"/><text x="70.5" y="71.0">aClient</text>
+  <rect x="268" y="41" width="170" height="46" rx="0"/><text x="353.0" y="71.0">:CustomerDTO</text>
+  <rect x="542" y="41" width="115" height="46" rx="0"/><text x="599.5" y="71.0">aServer</text>
+  <text x="481" y="25.0">进程边界</text>
+  <line x1="481" y1="40" x2="481" y2="603"/>
+  <line x1="70" y1="88" x2="70" y2="607"/>
+  <rect x="61" y="136" width="18" height="415" rx="0"/>
+  <line x1="353" y1="131" x2="353" y2="607"/>
+  <rect x="344" y="208" width="18" height="343" rx="0"/>
+  <line x1="600" y1="88" x2="600" y2="607"/>
+  <rect x="591" y="136" width="18" height="106" rx="0"/>
+  <line x1="80" y1="137" x2="590" y2="137" marker-end="url(#a)" marker-start="url(#a)"/>
+  <text x="326" y="121.0">GetCustomerDto()</text>
+  <line x1="590" y1="208" x2="363" y2="208" marker-end="url(#a)"/>
+  <text x="448" y="192.0">《创建》</text>
+  <line x1="80" y1="208" x2="343" y2="208" marker-end="url(#a)"/>
+  <text x="202" y="192.0">GetTitle()</text>
+  <line x1="343" y1="243" x2="80" y2="243" marker-end="url(#a)"/>
+  <line x1="80" y1="313" x2="343" y2="284" marker-end="url(#a)"/>
+  <text x="205" y="276.0">GetFirstName()</text>
+  <line x1="343" y1="318" x2="80" y2="347" marker-end="url(#a)"/>
+  <line x1="80" y1="407" x2="343" y2="378" marker-end="url(#a)"/>
+  <text x="205" y="370.0">GetMiddleName()</text>
+  <line x1="343" y1="412" x2="80" y2="441" marker-end="url(#a)"/>
+  <line x1="80" y1="501" x2="343" y2="472" marker-end="url(#a)"/>
+  <text x="205" y="464.0">GetLastName()</text>
+  <line x1="343" y1="506" x2="80" y2="535" marker-end="url(#a)"/>
+</svg>

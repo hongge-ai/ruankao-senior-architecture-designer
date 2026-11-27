@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 758 608" role="img" aria-labelledby="title desc">
+  <title id="title">图 13-10 业务框架在整个系统架构中的位置</title>
+  <desc id="desc">保留 DomainM、Service、Control 间双向关系，DAO 界面、DAO 执行和数据库依次向下。</desc>
+  <style>
+    rect, ellipse, path, polygon {fill:#fff;stroke:#416573;stroke-width:2}
+    line {stroke:#416573;stroke-width:2}
+    text {font:20px "Noto Sans CJK SC","Microsoft YaHei",sans-serif;text-anchor:middle;fill:#16272e}
+  </style>
+  <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" style="stroke:none;fill:#416573"/></marker></defs>
+  <g stroke-dasharray="6 5"><line x1="12" y1="8" x2="745" y2="8"/><line x1="12" y1="80" x2="745" y2="80"/><line x1="12" y1="140" x2="745" y2="140"/><line x1="12" y1="277" x2="745" y2="277"/><line x1="12" y1="510" x2="745" y2="510"/><line x1="12" y1="594" x2="745" y2="594"/></g>
+  <rect x="24" y="26" width="93" height="37" rx="0"/><text x="70.5" y="51.5">JSP</text>
+  <rect x="148" y="26" width="108" height="37" rx="0"/><text x="202.0" y="51.5">Servlet</text>
+  <rect x="291" y="26" width="120" height="37" rx="0"/><text x="351.0" y="51.5">Java应用</text>
+  <rect x="440" y="26" width="158" height="37" rx="0"/><text x="519.0" y="51.5">其他客户端</text>
+  <text x="675" y="54.0">表示层</text>
+  <polygon points="287.0,81 379.0,81 379.0,110.0 448.0,110.0 333,139 218.0,110.0 287.0,110.0"/>
+  <text x="333" y="112.0">业务需求</text>
+  <rect x="44" y="151" width="549" height="114" rx="20"/>
+  <text x="115" y="184.0">业务容器</text>
+  <rect x="267" y="157" width="135" height="39" rx="14"/><text x="334.5" y="183.5">DomainM</text>
+  <rect x="171" y="215" width="121" height="41" rx="14"/><text x="231.5" y="242.5">Service</text>
+  <rect x="373" y="215" width="122" height="41" rx="14"/><text x="434.0" y="242.5">Control</text>
+  <line x1="267" y1="184" x2="242" y2="214" marker-end="url(#a)" marker-start="url(#a)"/>
+  <line x1="403" y1="183" x2="430" y2="214" marker-end="url(#a)" marker-start="url(#a)"/>
+  <line x1="293" y1="235" x2="372" y2="235" marker-end="url(#a)" marker-start="url(#a)"/>
+  <line x1="723" y1="141" x2="723" y2="276" marker-end="url(#a)" marker-start="url(#a)"/>
+  <text x="660" y="248.0">业务层</text>
+  <polygon points="301.2,278 364.8,278 364.8,303.5 412.5,303.5 333,329 253.5,303.5 301.2,303.5"/>
+  <rect x="166" y="330" width="334" height="39" rx="0"/><text x="333.0" y="356.5">DAO界面</text>
+  <polygon points="287.0,370 379.0,370 379.0,394.5 448.0,394.5 333,419 218.0,394.5 287.0,394.5"/>
+  <rect x="166" y="420" width="334" height="39" rx="0"/><text x="333.0" y="446.5">DAO执行</text>
+  <polygon points="287.0,460 379.0,460 379.0,484.5 448.0,484.5 333,509 218.0,484.5 287.0,484.5"/>
+  <path d="M253 521 a80.0 9 0 0 1 160 0 v52 a80.0 9 0 0 1 -160 0 Z"/><ellipse cx="333.0" cy="521" rx="80.0" ry="9"/><text x="333.0" y="558.0">数据库</text>
+</svg>

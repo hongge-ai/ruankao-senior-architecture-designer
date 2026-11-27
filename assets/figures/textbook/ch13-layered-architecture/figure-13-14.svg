@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 445 349" role="img" aria-labelledby="title desc">
+  <title id="title">图 13-14 Hibernate架构图</title>
+  <desc id="desc">按页图复原应用、持久对象、Hibernate 属性、XML 映射与数据库的相对层次。</desc>
+  <style>
+    rect, ellipse, path, polygon {fill:#fff;stroke:#416573;stroke-width:2}
+    line {stroke:#416573;stroke-width:2}
+    text {font:20px "Noto Sans CJK SC","Microsoft YaHei",sans-serif;text-anchor:middle;fill:#16272e}
+  </style>
+  <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" style="stroke:none;fill:#416573"/></marker></defs>
+  <rect x="12" y="12" width="422" height="94" rx="0"/>
+  <text x="223" y="65.0">应用</text>
+  <rect x="12" y="128" width="422" height="153" rx="0"/>
+  <text x="224" y="183.0">Hibernate</text>
+  <rect x="79" y="83" width="290" height="57" rx="0"/><text x="224.0" y="118.5">持久对象</text>
+  <rect x="29" y="205" width="165" height="61" rx="0"/><text x="111.5" y="230.0">Hibernate</text><text x="111.5" y="255.0">属性</text>
+  <rect x="254" y="205" width="160" height="61" rx="0"/><text x="334.0" y="230.0">XML</text><text x="334.0" y="255.0">映射</text>
+  <rect x="12" y="299" width="422" height="42" rx="0"/><text x="223.0" y="327.0">数据库</text>
+</svg>

@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1210 804" role="img" aria-labelledby="title desc">
+<title id="title">图 13-18 PetShop 4.0的体系架构</title><desc id="desc">三横层、跨层模型对象和底部资源；两组独立的 Profile DAL 及图内“购物车、愿景／用户熟悉”依可见字形保留。</desc>
+<defs><marker id="a" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#456b7a"/></marker></defs>
+<g font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" fill="#192d38">
+<rect x="130" y="21" width="769" height="270" fill="white" stroke="#638797" stroke-width="1.4"/>
+<text x="498" y="48.1" text-anchor="middle" font-size="19">ASP.NET 2.0</text>
+<rect x="146" y="59" width="470" height="65" fill="#f8fcfd" stroke="#638797" stroke-width="1.4"/>
+<text x="381.0" y="97.6" text-anchor="middle" font-size="19">ASP.NET窗体、用户控件、母版页、向导</text>
+<rect x="146" y="135" width="235" height="41" fill="#f8fcfd" stroke="#638797" stroke-width="1.4"/>
+<text x="263.5" y="161.3" text-anchor="middle" font-size="18">Membership Provider</text>
+<rect x="146" y="186" width="235" height="91" fill="#f8fcfd" stroke="#638797" stroke-width="1.4"/>
+<text x="263.5" y="215.9" text-anchor="middle" font-size="17">Membership</text>
+<text x="263.5" y="236.9" text-anchor="middle" font-size="17">安全、用户账户</text>
+<text x="263.5" y="257.9" text-anchor="middle" font-size="17">登录控件</text>
+<rect x="390" y="135" width="226" height="41" fill="#f8fcfd" stroke="#638797" stroke-width="1.4"/>
+<text x="503.0" y="161.3" text-anchor="middle" font-size="18">Profile Provider</text>
+<rect x="390" y="186" width="226" height="91" fill="#f8fcfd" stroke="#638797" stroke-width="1.4"/>
+<text x="503.0" y="215.9" text-anchor="middle" font-size="17">Profile</text>
+<text x="503.0" y="236.9" text-anchor="middle" font-size="17">购物车、愿景</text>
+<text x="503.0" y="257.9" text-anchor="middle" font-size="17">用户熟悉</text>
+<rect x="628" y="59" width="254" height="218" fill="white" stroke="#638797" stroke-width="1.4"/>
+<text x="755" y="87.1" text-anchor="middle" font-size="19">CacheDependency</text>
+<rect x="641" y="99" width="228" height="44" fill="#f8fcfd" stroke="#638797" stroke-width="1.4"/>
+<text x="755.0" y="126.4" text-anchor="middle" font-size="17">ICacheDependency</text>
+<rect x="641" y="152" width="228" height="54" fill="#f8fcfd" stroke="#638797" stroke-width="1.4"/>
+<text x="755.0" y="173.9" text-anchor="middle" font-size="17">CacheDependency</text>
+<text x="755.0" y="194.9" text-anchor="middle" font-size="17">Factory</text>
+<rect x="641" y="213" width="228" height="54" fill="#f8fcfd" stroke="#638797" stroke-width="1.4"/>
+<text x="755.0" y="234.9" text-anchor="middle" font-size="17">Table Cache</text>
+<text x="755.0" y="255.9" text-anchor="middle" font-size="17">Dependency</text>
+<rect x="912" y="21" width="223" height="270" fill="#f8fcfd" stroke="#638797" stroke-width="1.4"/>
+<text x="1023.5" y="150.6" text-anchor="middle" font-size="19">订单处理</text>
+<text x="1023.5" y="173.6" text-anchor="middle" font-size="19">控制台应用程序</text>
+<rect x="130" y="304" width="1005" height="151" fill="white" stroke="#638797" stroke-width="1.4"/>
+<text x="634" y="334.1" text-anchor="middle" font-size="19">业务组件</text>
+<rect x="146" y="354" width="491" height="86" fill="#f8fcfd" stroke="#638797" stroke-width="1.4"/>
+<text x="391.5" y="391.8" text-anchor="middle" font-size="18">C#业务组件</text>
+<text x="391.5" y="413.8" text-anchor="middle" font-size="18">分类、产品、库存、项目、订单、购物车等</text>
+<rect x="648" y="354" width="469" height="39" fill="#f8fcfd" stroke="#638797" stroke-width="1.4"/>
+<text x="882.5" y="379.6" text-anchor="middle" font-size="19">订单策略</text>
+<rect x="648" y="402" width="226" height="38" fill="#f8fcfd" stroke="#638797" stroke-width="1.4"/>
+<text x="761.0" y="427.1" text-anchor="middle" font-size="19">同步</text>
+<rect x="886" y="402" width="231" height="38" fill="#f8fcfd" stroke="#638797" stroke-width="1.4"/>
+<text x="1001.5" y="427.1" text-anchor="middle" font-size="19">异步</text>
+<rect x="130" y="474" width="158" height="203" fill="#f8fcfd" stroke="#638797" stroke-width="1.4"/>
+<text x="209.0" y="558.6" text-anchor="middle" font-size="19">Sql</text>
+<text x="209.0" y="581.6" text-anchor="middle" font-size="19">Membership</text>
+<text x="209.0" y="604.6" text-anchor="middle" font-size="19">Provider</text>
+<rect x="301" y="474" width="158" height="203" fill="#f8fcfd" stroke="#638797" stroke-width="1.4"/>
+<text x="380.0" y="558.6" text-anchor="middle" font-size="19">Oracle</text>
+<text x="380.0" y="581.6" text-anchor="middle" font-size="19">Membership</text>
+<text x="380.0" y="604.6" text-anchor="middle" font-size="19">Provider</text>
+<rect x="472" y="474" width="200" height="203" fill="white" stroke="#638797" stroke-width="1.4"/>
+<text x="572.0" y="501.1" text-anchor="middle" font-size="19">Profile DAL</text>
+<rect x="482" y="517" width="180" height="34" fill="#f8fcfd" stroke="#638797" stroke-width="1.4"/>
+<text x="572.0" y="540.1" text-anchor="middle" font-size="19">接口</text>
+<rect x="482" y="562" width="180" height="35" fill="#f8fcfd" stroke="#638797" stroke-width="1.4"/>
+<text x="572.0" y="585.6" text-anchor="middle" font-size="19">工厂</text>
+<rect x="482" y="606" width="85.0" height="59" fill="#f8fcfd" stroke="#638797" stroke-width="1.4"/>
+<text x="524.5" y="641.6" text-anchor="middle" font-size="19">Oracle</text>
+<rect x="577.0" y="606" width="85.0" height="59" fill="#f8fcfd" stroke="#638797" stroke-width="1.4"/>
+<text x="619.5" y="641.6" text-anchor="middle" font-size="19">SQL</text>
+<rect x="685" y="474" width="219" height="203" fill="white" stroke="#638797" stroke-width="1.4"/>
+<text x="794.5" y="501.1" text-anchor="middle" font-size="19">Profile DAL</text>
+<rect x="695" y="517" width="199" height="34" fill="#f8fcfd" stroke="#638797" stroke-width="1.4"/>
+<text x="794.5" y="540.1" text-anchor="middle" font-size="19">接口</text>
+<rect x="695" y="562" width="199" height="35" fill="#f8fcfd" stroke="#638797" stroke-width="1.4"/>
+<text x="794.5" y="585.6" text-anchor="middle" font-size="19">工厂</text>
+<rect x="695" y="606" width="94.5" height="59" fill="#f8fcfd" stroke="#638797" stroke-width="1.4"/>
+<text x="742.25" y="641.6" text-anchor="middle" font-size="19">Oracle</text>
+<rect x="799.5" y="606" width="94.5" height="59" fill="#f8fcfd" stroke="#638797" stroke-width="1.4"/>
+<text x="846.75" y="641.6" text-anchor="middle" font-size="19">SQL</text>
+<rect x="917" y="474" width="218" height="203" fill="white" stroke="#638797" stroke-width="1.4"/>
+<text x="1026.0" y="501.1" text-anchor="middle" font-size="19">Messaging</text>
+<rect x="927" y="517" width="198" height="34" fill="#f8fcfd" stroke="#638797" stroke-width="1.4"/>
+<text x="1026.0" y="540.1" text-anchor="middle" font-size="19">接口</text>
+<rect x="927" y="562" width="198" height="35" fill="#f8fcfd" stroke="#638797" stroke-width="1.4"/>
+<text x="1026.0" y="585.6" text-anchor="middle" font-size="19">工厂</text>
+<rect x="927" y="606" width="198" height="59" fill="#f8fcfd" stroke="#638797" stroke-width="1.4"/>
+<text x="1026.0" y="630.1" text-anchor="middle" font-size="19">MSMQ</text>
+<text x="1026.0" y="653.1" text-anchor="middle" font-size="19">Messaging</text>
+<rect x="130" y="693" width="188" height="92" fill="#f8fcfd" stroke="#638797" stroke-width="1.4"/>
+<text x="224.0" y="723.4" text-anchor="middle" font-size="17">SQL 2000/2005</text>
+<text x="224.0" y="744.4" text-anchor="middle" font-size="17">Oracle 10g</text>
+<text x="224.0" y="765.4" text-anchor="middle" font-size="17">成员数据库</text>
+<rect x="334" y="693" width="188" height="92" fill="#f8fcfd" stroke="#638797" stroke-width="1.4"/>
+<text x="428.0" y="723.4" text-anchor="middle" font-size="17">SQL 2000/2005</text>
+<text x="428.0" y="744.4" text-anchor="middle" font-size="17">Oracle 10g</text>
+<text x="428.0" y="765.4" text-anchor="middle" font-size="17">配置数据库</text>
+<rect x="538" y="693" width="188" height="92" fill="#f8fcfd" stroke="#638797" stroke-width="1.4"/>
+<text x="632.0" y="723.4" text-anchor="middle" font-size="17">SQL 2000/2005</text>
+<text x="632.0" y="744.4" text-anchor="middle" font-size="17">Oracle 10g</text>
+<text x="632.0" y="765.4" text-anchor="middle" font-size="17">订单数据库</text>
+<rect x="742" y="693" width="188" height="92" fill="#f8fcfd" stroke="#638797" stroke-width="1.4"/>
+<text x="836.0" y="723.4" text-anchor="middle" font-size="17">SQL 2000/2005</text>
+<text x="836.0" y="744.4" text-anchor="middle" font-size="17">Oracle 10g</text>
+<text x="836.0" y="765.4" text-anchor="middle" font-size="17">库存数据库</text>
+<rect x="946" y="693" width="188" height="92" fill="#f8fcfd" stroke="#638797" stroke-width="1.4"/>
+<text x="1040.0" y="733.9" text-anchor="middle" font-size="17">MSMQ</text>
+<text x="1040.0" y="754.9" text-anchor="middle" font-size="17">异步订单</text>
+<rect x="1148" y="21" width="45" height="656" fill="#f8fcfd" stroke="#638797" stroke-width="1.4"/>
+<text x="1170.5" y="320.6" text-anchor="middle" font-size="19">模</text>
+<text x="1170.5" y="343.6" text-anchor="middle" font-size="19">型</text>
+<text x="1170.5" y="366.6" text-anchor="middle" font-size="19">对</text>
+<text x="1170.5" y="389.6" text-anchor="middle" font-size="19">象</text>
+<text x="67" y="161.1" text-anchor="middle" font-size="19">表现层</text>
+<text x="67" y="386.1" text-anchor="middle" font-size="19">业务逻辑层</text>
+<text x="67" y="582.1" text-anchor="middle" font-size="19">数据访问层</text>
+</g></svg>

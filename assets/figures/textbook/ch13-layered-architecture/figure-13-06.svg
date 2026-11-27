@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 790 427" role="img" aria-labelledby="title desc">
+<title id="title">图 13-6 基于XML的界面管理技术框图</title>
+<desc id="desc">界面定制和界面配置单向进入可执行文件和DOM API；其余五对接口均双向。</desc>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#3e666f"/></marker></defs>
+<g font-family="Noto Sans CJK SC, sans-serif" text-anchor="middle" fill="#172f38">
+<rect x="219" y="13" width="166" height="46" rx="2" fill="#eff7f9" stroke="#4a7481" stroke-width="1.5"/>
+<text x="302.0" y="42.0" font-size="19" >可执行文件</text>
+<rect x="550" y="13" width="215" height="46" rx="2" fill="#eff7f9" stroke="#4a7481" stroke-width="1.5"/>
+<text x="657.5" y="42.0" font-size="19" >界面定制模块</text>
+<rect x="174" y="126" width="256" height="50" rx="2" fill="#eff7f9" stroke="#4a7481" stroke-width="1.5"/>
+<text x="302.0" y="157.0" font-size="19" >界面动态生成模块</text>
+<rect x="18" y="249" width="160" height="46" rx="2" fill="#eff7f9" stroke="#4a7481" stroke-width="1.5"/>
+<text x="98.0" y="278.0" font-size="19" >数据存取类</text>
+<rect x="320" y="249" width="160" height="46" rx="2" fill="#eff7f9" stroke="#4a7481" stroke-width="1.5"/>
+<text x="400.0" y="278.0" font-size="19" >DOM API</text>
+<rect x="550" y="249" width="215" height="46" rx="2" fill="#eff7f9" stroke="#4a7481" stroke-width="1.5"/>
+<text x="657.5" y="278.0" font-size="19" >界面配置模块</text>
+<rect x="18" y="366" width="160" height="46" rx="2" fill="#eff7f9" stroke="#4a7481" stroke-width="1.5"/>
+<text x="98.0" y="395.0" font-size="19" >数据库</text>
+<rect x="287" y="366" width="226" height="46" rx="2" fill="#eff7f9" stroke="#4a7481" stroke-width="1.5"/>
+<text x="400.0" y="395.0" font-size="19" >XML配置文件</text>
+<path d="M546 36H389" fill="none" stroke="#3e666f" stroke-width="2" marker-end="url(#arr)"/>
+<path d="M302 65V121" fill="none" stroke="#3e666f" stroke-width="2" marker-end="url(#arr)" marker-start="url(#arr)"/>
+<path d="M225 181L126 245" fill="none" stroke="#3e666f" stroke-width="2" marker-end="url(#arr)" marker-start="url(#arr)"/>
+<path d="M356 181L397 245" fill="none" stroke="#3e666f" stroke-width="2" marker-end="url(#arr)" marker-start="url(#arr)"/>
+<path d="M548 272H484" fill="none" stroke="#3e666f" stroke-width="2" marker-end="url(#arr)"/>
+<path d="M98 301V360" fill="none" stroke="#3e666f" stroke-width="2" marker-end="url(#arr)" marker-start="url(#arr)"/>
+<path d="M400 301V360" fill="none" stroke="#3e666f" stroke-width="2" marker-end="url(#arr)" marker-start="url(#arr)"/>
+</g>
+</svg>

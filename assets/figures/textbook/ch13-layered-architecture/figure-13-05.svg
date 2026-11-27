@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 819 540" role="img" aria-labelledby="title desc">
+<title id="title">图 13-5 UI Components和UIP Components</title>
+<desc id="desc">依据整页扫描复原分组、三条贯穿栏和三对双向箭头；右下照图作Sources。</desc>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#3e666f"/></marker></defs>
+<g font-family="Noto Sans CJK SC, sans-serif" text-anchor="middle" fill="#172f38">
+<rect x="10" y="8" width="642" height="54" rx="12" fill="#eff7f9" stroke="#4a7481" stroke-width="1.5"/>
+<text x="331.0" y="41.0" font-size="19" >Users</text>
+<path d="M333 65V106" fill="none" stroke="#3e666f" stroke-width="2" marker-end="url(#arr)" marker-start="url(#arr)"/>
+<rect x="10" y="110" width="642" height="95" rx="2" fill="#e2f0f3" stroke="#4a7481" stroke-width="1.5"/>
+<rect x="21" y="119" width="620" height="33" rx="2" fill="white" stroke="#4a7481" stroke-width="1.5"/>
+<text x="331.0" y="141.5" font-size="19" >UI Components (UIC)</text>
+<rect x="21" y="162" width="620" height="33" rx="2" fill="white" stroke="#4a7481" stroke-width="1.5"/>
+<text x="331.0" y="184.5" font-size="19" >UI Process Components (UIP)</text>
+<rect x="10" y="218" width="642" height="117" rx="2" fill="#e2f0f3" stroke="#4a7481" stroke-width="1.5"/>
+<rect x="21" y="227" width="620" height="34" rx="2" fill="white" stroke="#4a7481" stroke-width="1.5"/>
+<text x="331.0" y="250.0" font-size="19" >Service interfaces (SI)</text>
+<rect x="21" y="272" width="201" height="54" rx="2" fill="white" stroke="#4a7481" stroke-width="1.5"/>
+<text x="121.5" y="293.0" font-size="19" >Business</text>
+<text x="121.5" y="317.0" font-size="19" >Workflows (BW)</text>
+<rect x="230" y="272" width="201" height="54" rx="2" fill="white" stroke="#4a7481" stroke-width="1.5"/>
+<text x="330.5" y="293.0" font-size="19" >Business</text>
+<text x="330.5" y="317.0" font-size="19" >Components (BC)</text>
+<rect x="439" y="272" width="201" height="54" rx="2" fill="white" stroke="#4a7481" stroke-width="1.5"/>
+<text x="539.5" y="293.0" font-size="19" >Business</text>
+<text x="539.5" y="317.0" font-size="19" >Entities (BE)</text>
+<rect x="10" y="349" width="316" height="76" rx="2" fill="#e2f0f3" stroke="#4a7481" stroke-width="1.5"/>
+<rect x="20" y="358" width="296" height="57" rx="2" fill="white" stroke="#4a7481" stroke-width="1.5"/>
+<text x="168.0" y="380.5" font-size="19" >Data Access</text>
+<text x="168.0" y="404.5" font-size="19" >Components (DAC)</text>
+<path d="M168 428v44" fill="none" stroke="#3e666f" stroke-width="2" marker-end="url(#arr)" marker-start="url(#arr)"/>
+<rect x="10" y="476" width="316" height="50" rx="10" fill="#eff7f9" stroke="#4a7481" stroke-width="1.5"/>
+<text x="168.0" y="507.0" font-size="19" >Data Sources</text>
+<rect x="336" y="349" width="316" height="76" rx="2" fill="#e2f0f3" stroke="#4a7481" stroke-width="1.5"/>
+<rect x="346" y="358" width="296" height="57" rx="2" fill="white" stroke="#4a7481" stroke-width="1.5"/>
+<text x="494.0" y="392.5" font-size="19" >Service Gateways (SG)</text>
+<path d="M494 428v44" fill="none" stroke="#3e666f" stroke-width="2" marker-end="url(#arr)" marker-start="url(#arr)"/>
+<rect x="336" y="476" width="316" height="50" rx="10" fill="#eff7f9" stroke="#4a7481" stroke-width="1.5"/>
+<text x="494.0" y="507.0" font-size="19" >Sources</text>
+<rect x="669" y="24" width="38" height="503" rx="2" fill="#dceff2" stroke="#4a7481" stroke-width="1.5"/>
+<text x="688" y="281.0" font-size="18" transform="rotate(-90 688 281)">Communication</text>
+<rect x="719" y="24" width="38" height="503" rx="2" fill="#dceff2" stroke="#4a7481" stroke-width="1.5"/>
+<text x="738" y="281.0" font-size="18" transform="rotate(-90 738 281)">Operational Management</text>
+<rect x="769" y="24" width="38" height="503" rx="2" fill="#dceff2" stroke="#4a7481" stroke-width="1.5"/>
+<text x="788" y="281.0" font-size="18" transform="rotate(-90 788 281)">Security</text>
+<g fill="#d4e9ef" stroke="#527f8b"><circle cx="268" cy="22" r="6"/><path d="M256 47q0-21 12-21t12 21z"/></g><g fill="#d4e9ef" stroke="#527f8b"><path d="M254 490q7-4 14 0v11q-7 4-14 0zM243 494q7-4 14 0v11q-7 4-14 0zM258 499q7-4 14 0v11q-7 4-14 0z"/></g><g fill="#d4e9ef" stroke="#527f8b"><path d="M573 481l8 5v9l-8 5-8-5v-9zM565 495l8 5v9l-8 5-8-5v-9zM581 495l8 5v9l-8 5-8-5v-9z"/></g></g>
+</svg>

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1131 584" role="img" aria-labelledby="title desc">
+<title id="title">图 13-23 电子小票服务系统结构框图</title><desc id="desc">Flash 经 SPI 指向 STM32，STM32 经 GPIO 指向显示屏；串口双向、收银机经 USB 转串口指向 STM32，外部电子小票云平台、微信及终端用无线折线表示。</desc>
+<defs><marker id="a" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#456b7a"/></marker></defs>
+<g font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" fill="#192d38">
+<rect x="15" y="15" width="477" height="397" fill="white" stroke="#638797" stroke-width="1.4"/>
+<text x="254" y="56.4" text-anchor="middle" font-size="23">小票智能硬件</text>
+<rect x="34" y="90" width="215" height="73" fill="#f8fcfd" stroke="#638797" stroke-width="1.4"/>
+<text x="141.5" y="132.6" text-anchor="middle" font-size="19">字模存储Flash</text>
+<rect x="319" y="90" width="153" height="73" fill="#f8fcfd" stroke="#638797" stroke-width="1.4"/>
+<text x="395.5" y="132.6" text-anchor="middle" font-size="19">无线模块</text>
+<rect x="34" y="292" width="178" height="71" fill="#f8fcfd" stroke="#638797" stroke-width="1.4"/>
+<text x="123.0" y="333.6" text-anchor="middle" font-size="19">TFTLCD屏</text>
+<rect x="319" y="292" width="153" height="71" fill="#f8fcfd" stroke="#638797" stroke-width="1.4"/>
+<text x="395.5" y="322.1" text-anchor="middle" font-size="19">STM32</text>
+<text x="395.5" y="345.1" text-anchor="middle" font-size="19">控制器</text>
+<polyline points="249,127 268,127 268,236 346,236 346,292" fill="none" stroke="#456b7a" stroke-width="1.8" marker-end="url(#a)"/>
+<text x="251" y="212.4" text-anchor="middle" font-size="17">SPI</text>
+<polyline points="396,164 396,291" fill="none" stroke="#456b7a" stroke-width="1.8" marker-end="url(#a)" marker-start="url(#a)"/>
+<text x="428" y="230.1" text-anchor="middle" font-size="16">串口</text>
+<polyline points="319,327 212,327" fill="none" stroke="#456b7a" stroke-width="1.8" marker-end="url(#a)"/>
+<text x="266" y="316.1" text-anchor="middle" font-size="16">GPIO</text>
+<path d="M640 154 q-16 -35 15 -46 q5 -31 34 -23 q25 -31 50 -8 q39 -14 51 21 q24 14 9 45 q7 29 -29 32 q-22 19 -50 3 q-32 15 -49 -6 q-25 3 -31 -18z" fill="#edf7fa" stroke="#638797"/>
+<text x="717" y="123.6" text-anchor="middle" font-size="19">电子小票</text>
+<text x="717" y="146.6" text-anchor="middle" font-size="19">云平台</text>
+<path d="M939 154 q-16 -35 15 -46 q5 -31 34 -23 q25 -31 50 -8 q39 -14 51 21 q24 14 9 45 q7 29 -29 32 q-22 19 -50 3 q-32 15 -49 -6 q-25 3 -31 -18z" fill="#edf7fa" stroke="#638797"/>
+<text x="1016" y="123.6" text-anchor="middle" font-size="19">微信</text>
+<text x="1016" y="146.6" text-anchor="middle" font-size="19">公众平台</text>
+<polyline points="473,119 530,93 515,127 639,101" fill="none" stroke="#456b7a" stroke-width="1.8"/>
+<text x="550" y="158.9" text-anchor="middle" font-size="17">Wi-Fi/</text>
+<text x="550" y="179.9" text-anchor="middle" font-size="17">GPRS</text>
+<polyline points="802,135 855,109 842,145 939,116" fill="none" stroke="#456b7a" stroke-width="1.8"/>
+<polyline points="701,182 729,219 716,219 765,279" fill="none" stroke="#456b7a" stroke-width="1.8"/>
+<polyline points="1010,181 1027,233 1013,225 1038,282" fill="none" stroke="#456b7a" stroke-width="1.8"/>
+<rect x="741" y="281" width="49" height="30" fill="#e9f4f6" stroke="#638797" stroke-width="1.4"/>
+<rect x="760" y="311" width="10" height="6" fill="white" stroke="#638797" stroke-width="1.4"/>
+<rect x="749" y="317" width="34" height="5" fill="white" stroke="#638797" stroke-width="1.4"/>
+<text x="766" y="344.6" text-anchor="middle" font-size="19">商家</text>
+<text x="766" y="367.6" text-anchor="middle" font-size="19">PC终端</text>
+<rect x="1027" y="282" width="28" height="45" fill="#edf7fa" stroke="#638797" stroke-width="1.4"/>
+<polyline points="1037,318 1046,318" fill="none" stroke="#456b7a" stroke-width="1.8"/>
+<text x="1040" y="356.6" text-anchor="middle" font-size="19">消费者</text>
+<text x="1040" y="379.6" text-anchor="middle" font-size="19">智能手机</text>
+<rect x="370" y="494" width="49" height="30" fill="#e9f4f6" stroke="#638797" stroke-width="1.4"/>
+<rect x="389" y="524" width="10" height="6" fill="white" stroke="#638797" stroke-width="1.4"/>
+<rect x="378" y="530" width="34" height="5" fill="white" stroke="#638797" stroke-width="1.4"/>
+<text x="394" y="563.1" text-anchor="middle" font-size="19">商家收银机</text>
+<polyline points="395,493 395,363" fill="none" stroke="#456b7a" stroke-width="1.8" marker-end="url(#a)"/>
+<text x="458" y="457.4" text-anchor="middle" font-size="17">USB转串口</text>
+</g></svg>

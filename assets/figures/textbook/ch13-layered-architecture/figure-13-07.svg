@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 885 480" role="img" aria-labelledby="title desc">
+  <title id="title">图 13-7 工作流参考模型</title>
+  <desc id="desc">五个接口分别对应过程定义、客户端、相关应用、其他工作流及监视工具。</desc>
+  <style>
+    rect, ellipse, path, polygon {fill:#fff;stroke:#416573;stroke-width:2}
+    line {stroke:#416573;stroke-width:2}
+    text {font:20px "Noto Sans CJK SC","Microsoft YaHei",sans-serif;text-anchor:middle;fill:#16272e}
+  </style>
+  <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" style="stroke:none;fill:#416573"/></marker></defs>
+  <rect x="309" y="8" width="165" height="38" rx="0"/><text x="391.5" y="34.0">过程定义工具</text>
+  <line x1="392" y1="47" x2="392" y2="95" marker-end="url(#a)"/>
+  <text x="433" y="77.0">接口1</text>
+  <rect x="198" y="96" width="390" height="224" rx="0"/>
+  <text x="393" y="126.0">工作流API 和交互形式</text>
+  <rect x="230" y="142" width="323" height="161" rx="0"/>
+  <text x="392" y="168.0">工作流设置服务器</text>
+  <rect x="351" y="188" width="115" height="62" rx="0"/>
+  <rect x="335" y="199" width="115" height="62" rx="0"/>
+  <rect x="319" y="210" width="115" height="62" rx="0"/><text x="376.5" y="235.5">工作流</text><text x="376.5" y="260.5">引擎</text>
+  <rect x="669" y="135" width="202" height="169" rx="0"/>
+  <text x="770" y="163.0">其他工作流</text>
+  <text x="770" y="188.0">设置服务器</text>
+  <rect x="722" y="207" width="115" height="62" rx="0"/>
+  <rect x="706" y="218" width="115" height="62" rx="0"/>
+  <rect x="690" y="229" width="115" height="62" rx="0"/><text x="747.5" y="254.5">工作流</text><text x="747.5" y="279.5">引擎</text>
+  <rect x="8" y="185" width="112" height="75" rx="0"/><text x="64.0" y="217.0">管理与</text><text x="64.0" y="242.0">监视工具</text>
+  <line x1="121" y1="222" x2="197" y2="222" marker-end="url(#a)" marker-start="url(#a)"/>
+  <text x="158" y="208.0">接口5</text>
+  <line x1="589" y1="222" x2="668" y2="222" marker-end="url(#a)" marker-start="url(#a)"/>
+  <text x="629" y="208.0">接口4</text>
+  <rect x="174" y="389" width="150" height="80" rx="0"/><text x="249.0" y="423.5">工作流</text><text x="249.0" y="448.5">客户端应用</text>
+  <rect x="436" y="389" width="150" height="80" rx="0"/><text x="511.0" y="423.5">相关</text><text x="511.0" y="448.5">应用</text>
+  <line x1="250" y1="321" x2="250" y2="388" marker-end="url(#a)" marker-start="url(#a)"/>
+  <text x="213" y="359.0">接口2</text>
+  <line x1="511" y1="321" x2="511" y2="388" marker-end="url(#a)" marker-start="url(#a)"/>
+  <text x="548" y="359.0">接口3</text>
+</svg>

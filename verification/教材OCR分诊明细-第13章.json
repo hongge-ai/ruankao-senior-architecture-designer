@@ -1,0 +1,1910 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-27",
+  "chapter": "第13章-层次式架构设计理论与实践",
+  "scope": "章导语、13.1–13.7",
+  "base_commit": "502f5d55356eadbd975c8c24ac8808a45a578b55",
+  "counts": {
+    "N": 88,
+    "K": 7,
+    "C1": 9,
+    "C2": 1,
+    "R": 20,
+    "C3": 10
+  },
+  "entries": [
+    {
+      "id": "s01-01",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第01节-层次式体系结构概述.md",
+      "loc": "段落与列表边界",
+      "ocr": "系统级复用。\n分层式",
+      "current": "系统级复用。\n分层式",
+      "final": "系统级复用。\n\n分层式",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "依据段首缩进、连续行和跨页句法还原段落。",
+      "sources": [
+        "教材 PDF 物理页 458（印刷页 451），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "s01-02",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第01节-层次式体系结构概述.md",
+      "loc": "分层式体系结构",
+      "ocr": "使设计的系统机构清晰",
+      "current": "使设计的系统结构清晰",
+      "final": "使设计的系统结构清晰",
+      "class": "K",
+      "confidence": "A",
+      "evidence": "本段主题及同页前文“系统的组织结构和拓扑结构”支持结构。",
+      "sources": [
+        "教材 PDF 物理页 458（印刷页 451），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "s01-03",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第01节-层次式体系结构概述.md",
+      "loc": "段落与列表边界",
+      "ocr": "并作为下层客户。\n\n在一些",
+      "current": "并作为下层客户。\n\n在一些",
+      "final": "并作为下层客户。在一些",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "依据段首缩进、连续行和跨页句法还原段落。",
+      "sources": [
+        "教材 PDF 物理页 458（印刷页 451），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "s01-04",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第01节-层次式体系结构概述.md",
+      "loc": "段落与列表边界",
+      "ocr": "architecture pattern)。\n\n这也是",
+      "current": "architecture pattern)。\n\n这也是",
+      "final": "architecture pattern)。这也是",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "依据段首缩进、连续行和跨页句法还原段落。",
+      "sources": [
+        "教材 PDF 物理页 459（印刷页 452），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "s01-05",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第01节-层次式体系结构概述.md",
+      "loc": "中英文交界处",
+      "ocr": "anti-pattern), 就是",
+      "current": "anti-pattern), 就是",
+      "final": "anti-pattern)，就是",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "中文语句的分隔符归一；英文内部原样。",
+      "sources": [
+        "教材 PDF 物理页 459（印刷页 452），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "s01-06",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第01节-层次式体系结构概述.md",
+      "loc": "中英文交界处",
+      "ocr": "超过20%,则",
+      "current": "超过20%,则",
+      "final": "超过20%，则",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "中文语句的分隔符归一；英文内部原样。",
+      "sources": [
+        "教材 PDF 物理页 459（印刷页 452），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "s01-07",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第01节-层次式体系结构概述.md",
+      "loc": "图13-1",
+      "ocr": "图 13-1 常用的层次式架构",
+      "current": "> 图 13-1 常用的层次式架构",
+      "final": "![图 13-1 常用的层次式架构](../../../assets/figures/textbook/ch13-layered-architecture/figure-13-01.svg)",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "Request依次穿过四个封闭层，上三层各四组件，下层四个数据存储。",
+      "sources": [
+        "教材 PDF 物理页 459（印刷页 452），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "s02-01",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第02节-表现层框架设计.md",
+      "loc": "中英文交界处",
+      "ocr": "(Controller): 接受",
+      "current": "(Controller): 接受",
+      "final": "(Controller)：接受",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "中文语句的分隔符归一；英文内部原样。",
+      "sources": [
+        "教材 PDF 物理页 460（印刷页 453），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "s02-02",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第02节-表现层框架设计.md",
+      "loc": "中英文交界处",
+      "ocr": "(Model): 应用",
+      "current": "(Model): 应用",
+      "final": "(Model)：应用",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "中文语句的分隔符归一；英文内部原样。",
+      "sources": [
+        "教材 PDF 物理页 460（印刷页 453），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "s02-03",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第02节-表现层框架设计.md",
+      "loc": "中英文交界处",
+      "ocr": "(View): 用户",
+      "current": "(View): 用户",
+      "final": "(View)：用户",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "中文语句的分隔符归一；英文内部原样。",
+      "sources": [
+        "教材 PDF 物理页 460（印刷页 453），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "s02-04",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第02节-表现层框架设计.md",
+      "loc": "段落与列表边界",
+      "ocr": "进行同步更新。\n三者",
+      "current": "进行同步更新。\n三者",
+      "final": "进行同步更新。\n\n三者",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "依据段首缩进、连续行和跨页句法还原段落。",
+      "sources": [
+        "教材 PDF 物理页 460（印刷页 453），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "s02-05",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第02节-表现层框架设计.md",
+      "loc": "段落与列表边界",
+      "ocr": "模型来处理；\n\n然后",
+      "current": "模型来处理；\n\n然后",
+      "final": "模型来处理；然后",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "依据段首缩进、连续行和跨页句法还原段落。",
+      "sources": [
+        "教材 PDF 物理页 460（印刷页 453），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "s02-06",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第02节-表现层框架设计.md",
+      "loc": "段落与列表边界",
+      "ocr": "无须发生改动。\n\n2.",
+      "current": "无须发生改动。\n\n2.",
+      "final": "无须发生改动。\n2.",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "依据段首缩进、连续行和跨页句法还原段落。",
+      "sources": [
+        "教材 PDF 物理页 461（印刷页 454），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "s02-07",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第02节-表现层框架设计.md",
+      "loc": "段落与列表边界",
+      "ocr": "发布给用户。\nMVC是构建",
+      "current": "发布给用户。\nMVC是构建",
+      "final": "发布给用户。\n\nMVC是构建",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "依据段首缩进、连续行和跨页句法还原段落。",
+      "sources": [
+        "教材 PDF 物理页 461（印刷页 454），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "s02-08",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第02节-表现层框架设计.md",
+      "loc": "MVP 首句与现有夹注",
+      "ocr": "模式提供数据",
+      "current": "模式〔原书此处脱“中，Model”三字〕提供数据",
+      "final": "模式中，Model提供数据",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "同段下文明确写“Model提供数据，View负责显示”，可补行为主体；页图仅表明当前版本，不支持夹注对纸书的断言。",
+      "sources": [
+        "教材 PDF 物理页 461（印刷页 454），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "s02-09",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第02节-表现层框架设计.md",
+      "loc": "段落与列表边界",
+      "ocr": "通过Controller。\nMVP不仅仅",
+      "current": "通过Controller。\nMVP不仅仅",
+      "final": "通过Controller。\n\nMVP不仅仅",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "依据段首缩进、连续行和跨页句法还原段落。",
+      "sources": [
+        "教材 PDF 物理页 461（印刷页 454），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "s02-10",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第02节-表现层框架设计.md",
+      "loc": "段落与列表边界",
+      "ocr": "View的依赖。\n\nPresenter依赖",
+      "current": "View的依赖。\n\nPresenter依赖",
+      "final": "View的依赖。Presenter依赖",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "依据段首缩进、连续行和跨页句法还原段落。",
+      "sources": [
+        "教材 PDF 物理页 461（印刷页 454），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "s02-11",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第02节-表现层框架设计.md",
+      "loc": "段落与列表边界",
+      "ocr": "(单元测试)。\n目前",
+      "current": "(单元测试)。\n目前",
+      "final": "(单元测试)。\n\n目前",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "依据段首缩进、连续行和跨页句法还原段落。",
+      "sources": [
+        "教材 PDF 物理页 462（印刷页 455），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "s02-12",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第02节-表现层框架设计.md",
+      "loc": "段落与列表边界",
+      "ocr": "而提出的。\nMVVM模式全称",
+      "current": "而提出的。\nMVVM模式全称",
+      "final": "而提出的。\n\nMVVM模式全称",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "依据段首缩进、连续行和跨页句法还原段落。",
+      "sources": [
+        "教材 PDF 物理页 462（印刷页 455），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "s02-13",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第02节-表现层框架设计.md",
+      "loc": "中英文交界处",
+      "ocr": "使用Model, 它们",
+      "current": "使用Model, 它们",
+      "final": "使用Model，它们",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "中文语句的分隔符归一；英文内部原样。",
+      "sources": [
+        "教材 PDF 物理页 461（印刷页 454），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "s02-14",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第02节-表现层框架设计.md",
+      "loc": "中英文交界处",
+      "ocr": "抽象化的View, 即",
+      "current": "抽象化的View, 即",
+      "final": "抽象化的View，即",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "中文语句的分隔符归一；英文内部原样。",
+      "sources": [
+        "教材 PDF 物理页 461（印刷页 454），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "s02-15",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第02节-表现层框架设计.md",
+      "loc": "中英文交界处",
+      "ocr": "接口 IView, 这",
+      "current": "接口 IView, 这",
+      "final": "接口 IView，这",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "中文语句的分隔符归一；英文内部原样。",
+      "sources": [
+        "教材 PDF 物理页 461（印刷页 454），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "s02-16",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第02节-表现层框架设计.md",
+      "loc": "中英文交界处",
+      "ocr": "Model-View-ViewModel), 它和",
+      "current": "Model-View-ViewModel), 它和",
+      "final": "Model-View-ViewModel)，它和",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "中文语句的分隔符归一；英文内部原样。",
+      "sources": [
+        "教材 PDF 物理页 462（印刷页 455），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "s02-17",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第02节-表现层框架设计.md",
+      "loc": "中英文交界处",
+      "ocr": "ViewModel, 即",
+      "current": "ViewModel, 即",
+      "final": "ViewModel，即",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "中文语句的分隔符归一；英文内部原样。",
+      "sources": [
+        "教材 PDF 物理页 462（印刷页 455），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "s02-18",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第02节-表现层框架设计.md",
+      "loc": "中英文交界处",
+      "ocr": "采用MVVM, 倾向",
+      "current": "采用MVVM, 倾向",
+      "final": "采用MVVM，倾向",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "中文语句的分隔符归一；英文内部原样。",
+      "sources": [
+        "教材 PDF 物理页 462（印刷页 455），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "s02-19",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第02节-表现层框架设计.md",
+      "loc": "段落与列表边界",
+      "ocr": "响应式的更新。\n\n> 图 13-4 MVVM设计模式\n\nMVVM流程设计如图 13-4所示。",
+      "current": "响应式的更新。\n\n> 图 13-4 MVVM设计模式\n\nMVVM流程设计如图 13-4所示。",
+      "final": "响应式的更新。MVVM流程设计如图 13-4所示。",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "依据段首缩进、连续行和跨页句法还原段落。",
+      "sources": [
+        "教材 PDF 物理页 462（印刷页 455），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "s02-20",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第02节-表现层框架设计.md",
+      "loc": "段落与列表边界",
+      "ocr": "ViewModel来实现。\n\nViewModel通常",
+      "current": "ViewModel来实现。\n\nViewModel通常",
+      "final": "ViewModel来实现。ViewModel通常",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "依据段首缩进、连续行和跨页句法还原段落。",
+      "sources": [
+        "教材 PDF 物理页 462（印刷页 455），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "s02-21",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第02节-表现层框架设计.md",
+      "loc": "段落与列表边界",
+      "ocr": "都会并存。\n\n因此，许多",
+      "current": "都会并存。\n\n因此，许多",
+      "final": "都会并存。因此，许多",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "依据段首缩进、连续行和跨页句法还原段落。",
+      "sources": [
+        "教材 PDF 物理页 463（印刷页 456），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "s02-22",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第02节-表现层框架设计.md",
+      "loc": "XML 控件属性示例",
+      "ocr": "type=\"Constraint\"是位置等",
+      "current": "`type=\"Constraint\"` 是位置等",
+      "final": "`constraint` 是位置等",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "紧接着的两行 XML 中 type 分别是 panel、button，位置由另一属性 constraint 指定，示例后也解释为控件容器位置。",
+      "sources": [
+        "教材 PDF 物理页 463（印刷页 456），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "s02-23",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第02节-表现层框架设计.md",
+      "loc": "XML 容器与可见性",
+      "ocr": "父控件起始标签已自闭合，isvisible-\"false\"，末尾另有 </component>",
+      "current": "```xml\n<component type=\"panel\" constraint=\"16,22,78,200\">\n  <component type=\"button\" isvisible=\"false\" constraint=\"17,222,78,20\"/>\n</component>\n```",
+      "final": "```xml\n<component type=\"panel\" constraint=\"16,22,78,200\">\n  <component type=\"button\" isvisible=\"false\" constraint=\"17,222,78,20\"/>\n</component>\n```",
+      "class": "K",
+      "confidence": "A",
+      "evidence": "唯一可形成父子关系的配对标签和赋值符，与下文“包含了一个不可视按钮”对应；保留坐标与嵌套。",
+      "sources": [
+        "教材 PDF 物理页 463（印刷页 456），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "s02-24",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第02节-表现层框架设计.md",
+      "loc": "段落与列表边界",
+      "ocr": "XML配置文件。\n\n根据XML",
+      "current": "XML配置文件。\n\n根据XML",
+      "final": "XML配置文件。根据XML",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "依据段首缩进、连续行和跨页句法还原段落。",
+      "sources": [
+        "教材 PDF 物理页 463（印刷页 456），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "s02-25",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第02节-表现层框架设计.md",
+      "loc": "Swing 按钮组件",
+      "ocr": "button，JFC解析器会给予JLabel对象",
+      "current": "button,JFC解析器会给予JLabel对象",
+      "final": "button，JFC解析器会给予JButton对象",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "示例生成能操作的按钮。OpenJDK 声明 JButton 的按钮角色，JLabel 是显示文本或图像的区域；独立的 Swing 实例用 JButton 构造两个按钮。只纠正示例组件类名，不推断纸书。",
+      "sources": [
+        "教材 PDF 物理页 463（印刷页 456），OCR 衍生页面",
+        "https://github.com/openjdk/jdk/blob/master/src/java.desktop/share/classes/javax/swing/JButton.java （访问 2026-11-27）",
+        "https://github.com/openjdk/jdk/blob/master/src/java.desktop/share/classes/javax/swing/JLabel.java （访问 2026-11-27）",
+        "https://github.com/aterai/java-swing-tips/blob/master/examples/DefaultButton/src/java/example/MainPanel.java （访问 2026-11-27）"
+      ]
+    },
+    {
+      "id": "s02-26",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第02节-表现层框架设计.md",
+      "loc": "HTML 标记示例",
+      "ocr": "给予<button id=…>这样",
+      "current": "给予<button id=…>这样",
+      "final": "给予`<button id=…>`这样",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "给 HTML 片段添加行内代码界定符，避免页面渲染时将示例当控件。",
+      "sources": [
+        "教材 PDF 物理页 463（印刷页 456），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "s02-27",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第02节-表现层框架设计.md",
+      "loc": "中英文交界处",
+      "ocr": "技术的API, 而是",
+      "current": "技术的API, 而是",
+      "final": "技术的API，而是",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "中文语句的分隔符归一；英文内部原样。",
+      "sources": [
+        "教材 PDF 物理页 463（印刷页 456），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "s02-28",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第02节-表现层框架设计.md",
+      "loc": "中英文交界处",
+      "ocr": "解析XML, 得到",
+      "current": "解析XML, 得到",
+      "final": "解析XML，得到",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "中文语句的分隔符归一；英文内部原样。",
+      "sources": [
+        "教材 PDF 物理页 463（印刷页 456），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "s02-29",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第02节-表现层框架设计.md",
+      "loc": "UIP 英文全名",
+      "ocr": "UserInterface Process Application Block",
+      "current": "UserInterface Process Application Block",
+      "final": "User Interface Process Application Block",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "同页 User Interface Process Components 与 UI Process Components 对应，Interface 前有单词间隔。",
+      "sources": [
+        "教材 PDF 物理页 464（印刷页 457），整页扫描覆盖"
+      ]
+    },
+    {
+      "id": "s02-30",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第02节-表现层框架设计.md",
+      "loc": "中英文交界处",
+      "ocr": "Interface Components: 这个",
+      "current": "Interface Components: 这个",
+      "final": "Interface Components：这个",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "中文语句的分隔符归一；英文内部原样。",
+      "sources": [
+        "教材 PDF 物理页 464（印刷页 457），整页扫描覆盖"
+      ]
+    },
+    {
+      "id": "s02-31",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第02节-表现层框架设计.md",
+      "loc": "中英文交界处",
+      "ocr": "Process Components: 这个",
+      "current": "Process Components: 这个",
+      "final": "Process Components：这个",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "中文语句的分隔符归一；英文内部原样。",
+      "sources": [
+        "教材 PDF 物理页 464（印刷页 457），整页扫描覆盖"
+      ]
+    },
+    {
+      "id": "s02-32",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第02节-表现层框架设计.md",
+      "loc": "段落与列表边界",
+      "ocr": "重要的支持功能。\n图 13-5",
+      "current": "重要的支持功能。\n图 13-5",
+      "final": "重要的支持功能。\n\n图 13-5",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "依据段首缩进、连续行和跨页句法还原段落。",
+      "sources": [
+        "教材 PDF 物理页 464（印刷页 457），整页扫描覆盖"
+      ]
+    },
+    {
+      "id": "s02-33",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第02节-表现层框架设计.md",
+      "loc": "图13-5下方的清单表",
+      "ocr": "图13-5后直接接 UIP 组件功能段",
+      "current": "| 分层 | 组件 |",
+      "final": "> 图 13-5 UI Components和UIP Components\n\nUIP的组件主要负责的功能是",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "整页扫描中实为框图而非表。短名、外围栏、分组和双向关系在 SVG 内呈现。",
+      "sources": [
+        "教材 PDF 物理页 464（印刷页 457），整页扫描覆盖"
+      ]
+    },
+    {
+      "id": "s02-34",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第02节-表现层框架设计.md",
+      "loc": "段落与列表边界",
+      "ocr": "进行修改。\n\n软件运行结束",
+      "current": "进行修改。\n\n软件运行结束",
+      "final": "进行修改。软件运行结束",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "依据段首缩进、连续行和跨页句法还原段落。",
+      "sources": [
+        "教材 PDF 物理页 465（印刷页 458），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "s02-35",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第02节-表现层框架设计.md",
+      "loc": "中英文交界处",
+      "ocr": "大小、位置等),通过",
+      "current": "大小、位置等),通过",
+      "final": "大小、位置等)，通过",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "中文语句的分隔符归一；英文内部原样。",
+      "sources": [
+        "教材 PDF 物理页 465（印刷页 458），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "s02-36",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第02节-表现层框架设计.md",
+      "loc": "图13-2",
+      "ocr": "图 13-2 MVC设计模式",
+      "current": "> 图 13-2 MVC设计模式",
+      "final": "![图 13-2 MVC设计模式](../../../assets/figures/textbook/ch13-layered-architecture/figure-13-02.svg)",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "控制器、模型、视图三者之间三条实线方法调用、两条虚线事件，保留图例。",
+      "sources": [
+        "教材 PDF 物理页 460（印刷页 453），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "s02-37",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第02节-表现层框架设计.md",
+      "loc": "图13-3",
+      "ocr": "图 13-3 MVP设计模式",
+      "current": "> 图 13-3 MVP设计模式",
+      "final": "![图 13-3 MVP设计模式](../../../assets/figures/textbook/ch13-layered-architecture/figure-13-03.svg)",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "保留用户、View、Presenter、Model及编号1至7的方向和线型。",
+      "sources": [
+        "教材 PDF 物理页 461（印刷页 454），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "s02-38",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第02节-表现层框架设计.md",
+      "loc": "图13-4",
+      "ocr": "图 13-4 MVVM设计模式",
+      "current": "> 图 13-4 MVVM设计模式",
+      "final": "![图 13-4 MVVM设计模式](../../../assets/figures/textbook/ch13-layered-architecture/figure-13-04.svg)",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "保留View、ViewModel、Model及两组反向连线，DOM事件监听与DataBinding分列。",
+      "sources": [
+        "教材 PDF 物理页 462（印刷页 455），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "s02-39",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第02节-表现层框架设计.md",
+      "loc": "图13-5",
+      "ocr": "图 13-5 UI Components和UIP Components",
+      "current": "> 图 13-5 UI Components和UIP Components",
+      "final": "![图 13-5 UI Components和UIP Components](../../../assets/figures/textbook/ch13-layered-architecture/figure-13-05.svg)",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "依据整页扫描复原分组、三条贯穿栏和三对双向箭头；右下照图作Sources。",
+      "sources": [
+        "教材 PDF 物理页 464（印刷页 457），整页扫描覆盖"
+      ]
+    },
+    {
+      "id": "s02-40",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第02节-表现层框架设计.md",
+      "loc": "图13-6",
+      "ocr": "图 13-6 基于XML的界面管理技术框图",
+      "current": "> 图 13-6 基于XML的界面管理技术框图",
+      "final": "![图 13-6 基于XML的界面管理技术框图](../../../assets/figures/textbook/ch13-layered-architecture/figure-13-06.svg)",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "界面定制和界面配置单向进入可执行文件和DOM API；其余五对接口均双向。",
+      "sources": [
+        "教材 PDF 物理页 465（印刷页 458），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "s02-41",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第02节-表现层框架设计.md",
+      "loc": "UIP 服务器升级措辞",
+      "ocr": "执行服务器的成组的升级",
+      "current": "执行服务器的成组的升级",
+      "final": null,
+      "class": "C3",
+      "confidence": "低～中",
+      "evidence": "整页扫描可直接辨认该写法，不能唯一确定是否指 server-side batch updates；保留并待其他材料。",
+      "sources": [
+        "教材 PDF 物理页 464（印刷页 457），整页扫描覆盖"
+      ]
+    },
+    {
+      "id": "s02-42",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第02节-表现层框架设计.md",
+      "loc": "图13-3第三步括注",
+      "ocr": "use View as a change’s store",
+      "current": "> 图 13-3 MVP设计模式",
+      "final": null,
+      "class": "C3",
+      "confidence": "低～中",
+      "evidence": "图中可辨“use View as a change’s store”，所指对象与其他图文不够清楚。保留可见字串，不调整交互方向。",
+      "sources": [
+        "教材 PDF 物理页 461（印刷页 454），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "s01-08",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第01节-层次式体系结构概述.md",
+      "loc": "13.1 设计注意事项的说明段",
+      "ocr": "所谓污水池",
+      "current": "所谓污水池",
+      "final": "   所谓污水池",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "使两条编号注意事项各自包含底本中的说明段，列表内说明段缩进三个空格。",
+      "sources": [
+        "教材 PDF 物理页 459（印刷页 452），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "s01-09",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第01节-层次式体系结构概述.md",
+      "loc": "13.1 设计注意事项的说明段",
+      "ocr": "每一层或多或少",
+      "current": "每一层或多或少",
+      "final": "   每一层或多或少",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "使两条编号注意事项各自包含底本中的说明段，列表内说明段缩进三个空格。",
+      "sources": [
+        "教材 PDF 物理页 459（印刷页 452），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "s01-10",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第01节-层次式体系结构概述.md",
+      "loc": "13.1 设计注意事项的说明段",
+      "ocr": "即使你的表现层",
+      "current": "即使你的表现层",
+      "final": "   即使你的表现层",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "使两条编号注意事项各自包含底本中的说明段，列表内说明段缩进三个空格。",
+      "sources": [
+        "教材 PDF 物理页 459（印刷页 452），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "s03-01",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第03节-中间层架构设计.md",
+      "loc": "13.3.1 业务逻辑层组件设计",
+      "ocr": "运行的核心。\n\n通常按模块",
+      "current": "运行的核心。\n\n通常按模块",
+      "final": "运行的核心。通常按模块",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页上段首缩进、续行位置或中文语境恢复段界与标点。",
+      "sources": [
+        "教材 PDF 物理页 465（印刷页 458），电子底本"
+      ]
+    },
+    {
+      "id": "s03-02",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第03节-中间层架构设计.md",
+      "loc": "13.3.1 业务逻辑层组件设计",
+      "ocr": "编程),而",
+      "current": "编程),而",
+      "final": "编程)，而",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页上段首缩进、续行位置或中文语境恢复段界与标点。",
+      "sources": [
+        "教材 PDF 物理页 466（印刷页 459），电子底本"
+      ]
+    },
+    {
+      "id": "s03-03",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第03节-中间层架构设计.md",
+      "loc": "13.3.1 业务逻辑层组件设计",
+      "ocr": "Inverse of Control",
+      "current": "Inversion of Control",
+      "final": "Inversion of Control",
+      "class": "K",
+      "confidence": "高",
+      "evidence": "中文“控制反转”及 IoC 缩写对应 Inversion of Control，保留清洗稿术语。",
+      "sources": [
+        "教材 PDF 物理页 466（印刷页 459），电子底本"
+      ]
+    },
+    {
+      "id": "s03-04",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第03节-中间层架构设计.md",
+      "loc": "13.3.1 业务逻辑层组件设计",
+      "ocr": "等bean, 而",
+      "current": "等bean, 而",
+      "final": "等bean，而",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页上段首缩进、续行位置或中文语境恢复段界与标点。",
+      "sources": [
+        "教材 PDF 物理页 466（印刷页 459），电子底本"
+      ]
+    },
+    {
+      "id": "s03-05",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第03节-中间层架构设计.md",
+      "loc": "13.3.2 业务逻辑层工作流设计",
+      "ocr": "Coalition,WFMC), 以便",
+      "current": "Coalition,WFMC), 以便",
+      "final": "Coalition, WFMC)，以便",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页上段首缩进、续行位置或中文语境恢复段界与标点。",
+      "sources": [
+        "教材 PDF 物理页 466（印刷页 459），电子底本"
+      ]
+    },
+    {
+      "id": "s03-06",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第03节-中间层架构设计.md",
+      "loc": "13.3.2 业务逻辑层工作流设计",
+      "ocr": "WPDL, 后来",
+      "current": "WPDL, 后来",
+      "final": "WPDL，后来",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页上段首缩进、续行位置或中文语境恢复段界与标点。",
+      "sources": [
+        "教材 PDF 物理页 467（印刷页 460），电子底本"
+      ]
+    },
+    {
+      "id": "s03-07",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第03节-中间层架构设计.md",
+      "loc": "13.3.2 业务逻辑层工作流设计",
+      "ocr": "状态处理器等。\n用工作流",
+      "current": "状态处理器等。\n用工作流",
+      "final": "状态处理器等。\n\n用工作流",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页上段首缩进、续行位置或中文语境恢复段界与标点。",
+      "sources": [
+        "教材 PDF 物理页 467（印刷页 460），电子底本"
+      ]
+    },
+    {
+      "id": "s03-08",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第03节-中间层架构设计.md",
+      "loc": "13.3.3 业务逻辑层实体设计",
+      "ocr": "表示法),如",
+      "current": "表示法),如",
+      "final": "表示法)，如",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页上段首缩进、续行位置或中文语境恢复段界与标点。",
+      "sources": [
+        "教材 PDF 物理页 468（印刷页 461），整页扫描"
+      ]
+    },
+    {
+      "id": "s03-09",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第03节-中间层架构设计.md",
+      "loc": "13.3.3 业务逻辑层实体设计",
+      "ocr": "理想选择。\n如果XML",
+      "current": "理想选择。\n如果XML",
+      "final": "理想选择。\n\n如果XML",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页上段首缩进、续行位置或中文语境恢复段界与标点。",
+      "sources": [
+        "教材 PDF 物理页 468（印刷页 461），整页扫描"
+      ]
+    },
+    {
+      "id": "s03-10",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第03节-中间层架构设计.md",
+      "loc": "13.3.3 业务逻辑层实体设计",
+      "ocr": "一个DataTable, 用于",
+      "current": "一个DataTable, 用于",
+      "final": "一个DataTable，用于",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页上段首缩进、续行位置或中文语境恢复段界与标点。",
+      "sources": [
+        "教材 PDF 物理页 468（印刷页 461），整页扫描"
+      ]
+    },
+    {
+      "id": "s03-11",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第03节-中间层架构设计.md",
+      "loc": "13.3.3 业务逻辑层实体设计",
+      "ocr": "Unique Constraint对象",
+      "current": "Unique Constraint对象",
+      "final": "UniqueConstraint对象",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "印刷页461有两处 UniqueConstraint，同一 .NET 类型在次页换行处断开。",
+      "sources": [
+        "教材 PDF 物理页 469（印刷页 462），整页扫描"
+      ]
+    },
+    {
+      "id": "s03-12",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第03节-中间层架构设计.md",
+      "loc": "13.3.3 业务逻辑层实体设计",
+      "ocr": "对象的DataSet。\n将业务逻辑层实体",
+      "current": "对象的DataSet。\n将业务逻辑层实体",
+      "final": "对象的DataSet。\n\n将业务逻辑层实体",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页上段首缩进、续行位置或中文语境恢复段界与标点。",
+      "sources": [
+        "教材 PDF 物理页 469（印刷页 462），整页扫描"
+      ]
+    },
+    {
+      "id": "s03-13",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第03节-中间层架构设计.md",
+      "loc": "13.3.4 业务逻辑层框架",
+      "ocr": "图13-10便是在",
+      "current": "图 13-10 是在",
+      "final": "图 13-10 便是在",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "电子页“便是在”清晰，回填被清洗稿省略的副词。",
+      "sources": [
+        "教材 PDF 物理页 470（印刷页 463），电子底本"
+      ]
+    },
+    {
+      "id": "s03-14",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第03节-中间层架构设计.md",
+      "loc": "13.3.4 业务逻辑层框架",
+      "ocr": "实现的。\n通过服务控制器",
+      "current": "实现的。\n通过服务控制器",
+      "final": "实现的。通过服务控制器",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "页图后句顶格续行，仍属第（3）项。",
+      "sources": [
+        "教材 PDF 物理页 470（印刷页 463），电子底本"
+      ]
+    },
+    {
+      "id": "s04-01",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第04节-数据访问层设计.md",
+      "loc": "13.4.1 5种数据访问模式",
+      "ocr": "13-11所示",
+      "current": "13-11所示",
+      "final": "13-11 所示",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页上段首缩进、续行位置或中文语境恢复段界与标点。",
+      "sources": [
+        "教材 PDF 物理页 471（印刷页 464），电子底本"
+      ]
+    },
+    {
+      "id": "s04-02",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第04节-数据访问层设计.md",
+      "loc": "13.4.1 5种数据访问模式",
+      "ocr": "13-13所示",
+      "current": "13-13所示",
+      "final": "13-13 所示",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页上段首缩进、续行位置或中文语境恢复段界与标点。",
+      "sources": [
+        "教材 PDF 物理页 472（印刷页 465），电子底本"
+      ]
+    },
+    {
+      "id": "s04-03",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第04节-数据访问层设计.md",
+      "loc": "13.4.1 5种数据访问模式",
+      "ocr": "数据传输对象。\n这当中",
+      "current": "数据传输对象。\n这当中",
+      "final": "数据传输对象。\n\n这当中",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页上段首缩进、续行位置或中文语境恢复段界与标点。",
+      "sources": [
+        "教材 PDF 物理页 472（印刷页 465），电子底本"
+      ]
+    },
+    {
+      "id": "s04-04",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第04节-数据访问层设计.md",
+      "loc": "13.4.1 5种数据访问模式",
+      "ocr": "实现代码。\n同时，",
+      "current": "实现代码。\n同时，",
+      "final": "实现代码。同时，",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页上段首缩进、续行位置或中文语境恢复段界与标点。",
+      "sources": [
+        "教材 PDF 物理页 472（印刷页 465），电子底本"
+      ]
+    },
+    {
+      "id": "s04-05",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第04节-数据访问层设计.md",
+      "loc": "13.4.1 5种数据访问模式",
+      "ocr": "方法来访问数据。\n这种方式",
+      "current": "方法来访问数据。\n这种方式",
+      "final": "方法来访问数据。这种方式",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页上段首缩进、续行位置或中文语境恢复段界与标点。",
+      "sources": [
+        "教材 PDF 物理页 473（印刷页 466），电子底本"
+      ]
+    },
+    {
+      "id": "s04-06",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第04节-数据访问层设计.md",
+      "loc": "13.4.1 5种数据访问模式",
+      "ocr": "Mapping,O/R Mapping",
+      "current": "Mapping,O/R Mapping",
+      "final": "Mapping, O/R Mapping",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页上段首缩进、续行位置或中文语境恢复段界与标点。",
+      "sources": [
+        "教材 PDF 物理页 473（印刷页 466），电子底本"
+      ]
+    },
+    {
+      "id": "s04-07",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第04节-数据访问层设计.md",
+      "loc": "13.4.1 5种数据访问模式",
+      "ocr": "种潮流。\n\n对象/关系",
+      "current": "种潮流。\n\n对象/关系",
+      "final": "种潮流。对象/关系",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页上段首缩进、续行位置或中文语境恢复段界与标点。",
+      "sources": [
+        "教材 PDF 物理页 473（印刷页 466），电子底本"
+      ]
+    },
+    {
+      "id": "s04-08",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第04节-数据访问层设计.md",
+      "loc": "13.4.1 5种数据访问模式",
+      "ocr": "组织起来的。\n\n那么，",
+      "current": "组织起来的。\n\n那么，",
+      "final": "组织起来的。那么，",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页上段首缩进、续行位置或中文语境恢复段界与标点。",
+      "sources": [
+        "教材 PDF 物理页 473（印刷页 466），电子底本"
+      ]
+    },
+    {
+      "id": "s04-09",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第04节-数据访问层设计.md",
+      "loc": "13.4.2 工厂模式在数据访问层应用",
+      "ocr": "System.Data.SqlClient",
+      "current": "System.Data.SqlClient",
+      "final": "System.Data.SqlClient",
+      "class": "K",
+      "confidence": "高",
+      "evidence": "同段解释访问 SQL Server 与 OleDb 的两个命名空间，保留标识符以及相邻 System.Data.OleDb 的标准大小写。",
+      "sources": [
+        "教材 PDF 物理页 473（印刷页 466），电子底本"
+      ]
+    },
+    {
+      "id": "s04-10",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第04节-数据访问层设计.md",
+      "loc": "13.4.2 工厂模式在数据访问层应用",
+      "ocr": "…//db.需要的操作",
+      "current": "// db所需的操作",
+      "final": "// db需要的操作",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "电子页注释用“需要”，恢复原措辞；保留清洗稿合法的 C# 注释。",
+      "sources": [
+        "教材 PDF 物理页 475（印刷页 468），电子底本"
+      ]
+    },
+    {
+      "id": "s04-11",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第04节-数据访问层设计.md",
+      "loc": "13.4.2 工厂模式在数据访问层应用",
+      "ocr": "SqlServer的专用函数",
+      "current": "SqlServer的专用函数",
+      "final": "SQL Server的专用函数",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "同节数据库名在图前工厂模式段、具体类说明均作 SQL Server。",
+      "sources": [
+        "教材 PDF 物理页 476（印刷页 469），电子底本"
+      ]
+    },
+    {
+      "id": "s04-12",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第04节-数据访问层设计.md",
+      "loc": "13.4.3 ORM、Hibernate与CMP2.0设计思想",
+      "ocr": "OR Mapping), 可能",
+      "current": "OR Mapping), 可能",
+      "final": "OR Mapping)，可能",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页上段首缩进、续行位置或中文语境恢复段界与标点。",
+      "sources": [
+        "教材 PDF 物理页 476（印刷页 469），电子底本"
+      ]
+    },
+    {
+      "id": "s04-13",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第04节-数据访问层设计.md",
+      "loc": "13.4.3 ORM、Hibernate与CMP2.0设计思想",
+      "ocr": "不如用OR Mapping, 开发者",
+      "current": "不如用OR Mapping, 开发者",
+      "final": "不如用OR Mapping，开发者",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页上段首缩进、续行位置或中文语境恢复段界与标点。",
+      "sources": [
+        "教材 PDF 物理页 476（印刷页 469），电子底本"
+      ]
+    },
+    {
+      "id": "s04-14",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第04节-数据访问层设计.md",
+      "loc": "13.4.3 ORM、Hibernate与CMP2.0设计思想",
+      "ocr": "图13-11",
+      "current": "图13-11〔原书即引作“图13-11”，实为本章图13-14〕",
+      "final": "图 13-14 ",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "同段前句指图13-14，图位及题注均为 Hibernate 架构；图13-11为在线访问模式。去掉正文内编辑夹注。",
+      "sources": [
+        "教材 PDF 物理页 476（印刷页 469），电子底本"
+      ]
+    },
+    {
+      "id": "s04-15",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第04节-数据访问层设计.md",
+      "loc": "13.4.3 ORM、Hibernate与CMP2.0设计思想",
+      "ocr": "Hibernate件",
+      "current": "Hibernate件〔原书如此，当为“Hibernate配置文件”〕",
+      "final": "Hibernate配置文件",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "例为 hibernate.properties，图内 Hibernate 属性、XML 映射均为配置输入；以例中指代作推断补字，移除编辑夹注。",
+      "sources": [
+        "教材 PDF 物理页 476（印刷页 469），电子底本"
+      ]
+    },
+    {
+      "id": "s04-16",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第04节-数据访问层设计.md",
+      "loc": "13.4.3 ORM、Hibernate与CMP2.0设计思想",
+      "ocr": "ORM区隔离实际数据存储和业务层之间的关系",
+      "current": "ORM区隔离实际数据存储和业务层之间的关系",
+      "final": null,
+      "class": "C3",
+      "confidence": "低",
+      "evidence": "底本同样写“区隔离”。可理解为“隔离”或“区隔”，暂无字形及内部平行句可作唯一裁决。",
+      "sources": [
+        "教材 PDF 物理页 476（印刷页 469），电子底本"
+      ]
+    },
+    {
+      "id": "s04-17",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第04节-数据访问层设计.md",
+      "loc": "13.4.3 ORM、Hibernate与CMP2.0设计思想",
+      "ocr": "O/R映射方案。\n\nHibernate推动",
+      "current": "O/R映射方案。\n\nHibernate推动",
+      "final": "O/R映射方案。Hibernate推动",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页上段首缩进、续行位置或中文语境恢复段界与标点。",
+      "sources": [
+        "教材 PDF 物理页 476（印刷页 469），电子底本"
+      ]
+    },
+    {
+      "id": "s04-18",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第04节-数据访问层设计.md",
+      "loc": "13.4.4 灵活运用XML Schema",
+      "ocr": "替代DTDs, 成为",
+      "current": "替代DTDs, 成为",
+      "final": "替代DTDs，成为",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页上段首缩进、续行位置或中文语境恢复段界与标点。",
+      "sources": [
+        "教材 PDF 物理页 477（印刷页 470），电子底本"
+      ]
+    },
+    {
+      "id": "s04-19",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第04节-数据访问层设计.md",
+      "loc": "13.4.4 灵活运用XML Schema",
+      "ocr": "XMLSchema文档",
+      "current": "XMLSchema文档",
+      "final": "XML Schema文档",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页上段首缩进、续行位置或中文语境恢复段界与标点。",
+      "sources": [
+        "教材 PDF 物理页 477（印刷页 470），电子底本"
+      ]
+    },
+    {
+      "id": "s04-20",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第04节-数据访问层设计.md",
+      "loc": "13.4.4 灵活运用XML Schema",
+      "ocr": "利用XMLSchema语言",
+      "current": "利用XMLSchema语言",
+      "final": "利用XML Schema语言",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页上段首缩进、续行位置或中文语境恢复段界与标点。",
+      "sources": [
+        "教材 PDF 物理页 477（印刷页 470），电子底本"
+      ]
+    },
+    {
+      "id": "s04-21",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第04节-数据访问层设计.md",
+      "loc": "13.4.4 灵活运用XML Schema",
+      "ocr": "XML Schema Part0:Primer",
+      "current": "XML Schema Part0:Primer",
+      "final": "XML Schema Part 0: Primer",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页上段首缩进、续行位置或中文语境恢复段界与标点。",
+      "sources": [
+        "教材 PDF 物理页 477（印刷页 470），电子底本"
+      ]
+    },
+    {
+      "id": "s04-22",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第04节-数据访问层设计.md",
+      "loc": "13.4.4 灵活运用XML Schema",
+      "ocr": "XML Schema Part2:Datatypes",
+      "current": "XML Schema Part2:Datatypes",
+      "final": "XML Schema Part 2: Datatypes",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页上段首缩进、续行位置或中文语境恢复段界与标点。",
+      "sources": [
+        "教材 PDF 物理页 477（印刷页 470），电子底本"
+      ]
+    },
+    {
+      "id": "s04-23",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第04节-数据访问层设计.md",
+      "loc": "13.4.4 灵活运用XML Schema",
+      "ocr": "XML1.0文档类型",
+      "current": "XML1.0文档类型",
+      "final": "XML 1.0文档类型",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页上段首缩进、续行位置或中文语境恢复段界与标点。",
+      "sources": [
+        "教材 PDF 物理页 477（印刷页 470），电子底本"
+      ]
+    },
+    {
+      "id": "s04-24",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第04节-数据访问层设计.md",
+      "loc": "13.4.4 灵活运用XML Schema",
+      "ocr": "构造新的Schema, 也",
+      "current": "构造新的Schema, 也",
+      "final": "构造新的Schema，也",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页上段首缩进、续行位置或中文语境恢复段界与标点。",
+      "sources": [
+        "教材 PDF 物理页 477（印刷页 470），电子底本"
+      ]
+    },
+    {
+      "id": "s04-25",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第04节-数据访问层设计.md",
+      "loc": "13.4.4 灵活运用XML Schema",
+      "ocr": "易于使用。\n与DTD不同",
+      "current": "易于使用。\n与DTD不同",
+      "final": "易于使用。\n\n与DTD不同",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页上段首缩进、续行位置或中文语境恢复段界与标点。",
+      "sources": [
+        "教材 PDF 物理页 477（印刷页 470），电子底本"
+      ]
+    },
+    {
+      "id": "s04-26",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第04节-数据访问层设计.md",
+      "loc": "13.4.5 事务处理设计",
+      "ocr": "事务呢?在",
+      "current": "事务呢?在",
+      "final": "事务呢？在",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页上段首缩进、续行位置或中文语境恢复段界与标点。",
+      "sources": [
+        "教材 PDF 物理页 478（印刷页 471），电子底本"
+      ]
+    },
+    {
+      "id": "s04-27",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第04节-数据访问层设计.md",
+      "loc": "13.4.5 事务处理设计",
+      "ocr": "一致性表示当事务执行失败时，所有被该事务影响的数据都应该恢复到事务执行前的状态。",
+      "current": "一致性表示当事务执行失败时，所有被该事务影响的数据都应该恢复到事务执行前的状态。",
+      "final": null,
+      "class": "C3",
+      "confidence": "低",
+      "evidence": "页图同文。这里只说明失败回滚，将一致性的定义与原子性混用。属底本概念问题，保留原句供专业审订。",
+      "sources": [
+        "教材 PDF 物理页 478（印刷页 471），电子底本"
+      ]
+    },
+    {
+      "id": "s04-28",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第04节-数据访问层设计.md",
+      "loc": "13.4.5 事务处理设计",
+      "ocr": "rollback(); 但是",
+      "current": "rollback(); 但是",
+      "final": "rollback()；但是",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页上段首缩进、续行位置或中文语境恢复段界与标点。",
+      "sources": [
+        "教材 PDF 物理页 479（印刷页 472），电子底本"
+      ]
+    },
+    {
+      "id": "s04-29",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第04节-数据访问层设计.md",
+      "loc": "13.4.5 事务处理设计",
+      "ocr": "enlist(), 它们",
+      "current": "enlist(), 它们",
+      "final": "enlist()，它们",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页上段首缩进、续行位置或中文语境恢复段界与标点。",
+      "sources": [
+        "教材 PDF 物理页 479（印刷页 472），电子底本"
+      ]
+    },
+    {
+      "id": "s04-30",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第04节-数据访问层设计.md",
+      "loc": "13.4.5 事务处理设计",
+      "ocr": "DataBaseConnection dbc = null; / dbc = new DataBaseConnection();",
+      "current": "DataBaseConnection dbc = new DataBaseConnection();",
+      "final": "DataBaseConnection dbc = null;\n    dbc = new DataBaseConnection();",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "页图先声明为 null，再为 dbc 赋值；清洗稿合并了两条语句，按页恢复。",
+      "sources": [
+        "教材 PDF 物理页 479（印刷页 472），电子底本"
+      ]
+    },
+    {
+      "id": "s04-31",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第04节-数据访问层设计.md",
+      "loc": "13.4.5 事务处理设计",
+      "ocr": "sessionContext.getUserTransaction(); //获得JTA事务",
+      "current": "sessionContext.getUserTransaction();",
+      "final": "sessionContext.getUserTransaction(); // 获得JTA事务",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "页图方法调用下一行右侧有“//获得JTA事务”注释，随对应语句恢复。",
+      "sources": [
+        "教材 PDF 物理页 479（印刷页 472），电子底本"
+      ]
+    },
+    {
+      "id": "s04-32",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第04节-数据访问层设计.md",
+      "loc": "13.4.6 连接对象管理设计",
+      "ocr": "连接为已分配。\n\n若连接池",
+      "current": "连接为已分配。\n\n若连接池",
+      "final": "连接为已分配。若连接池",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页上段首缩进、续行位置或中文语境恢复段界与标点。",
+      "sources": [
+        "教材 PDF 物理页 480（印刷页 473），电子底本"
+      ]
+    },
+    {
+      "id": "s05-01",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第05节-数据架构规划与设计.md",
+      "loc": "13.5.2 数据库设计与XML设计融合",
+      "ocr": "将来会代替HTML而成为Web上保存数据的主要格式",
+      "current": "将来会代替HTML而成为Web上保存数据的主要格式",
+      "final": null,
+      "class": "C3",
+      "confidence": "低",
+      "evidence": "电子页中明确作为预测陈述，缺乏认定为 OCR 错误的依据。保留历史表述。",
+      "sources": [
+        "教材 PDF 物理页 481（印刷页 474），电子底本"
+      ]
+    },
+    {
+      "id": "s05-02",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第05节-数据架构规划与设计.md",
+      "loc": "13.5.2 数据库设计与XML设计融合",
+      "ocr": "易于操作。\n在某种程度上",
+      "current": "易于操作。\n在某种程度上",
+      "final": "易于操作。\n\n在某种程度上",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页上段首缩进、续行位置或中文语境恢复段界与标点。",
+      "sources": [
+        "教材 PDF 物理页 481（印刷页 474），电子底本"
+      ]
+    },
+    {
+      "id": "s05-03",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第05节-数据架构规划与设计.md",
+      "loc": "13.5.2 数据库设计与XML设计融合",
+      "ocr": "DTD或XMLSchema",
+      "current": "DTD或XMLSchema",
+      "final": "DTD或XML Schema",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页上段首缩进、续行位置或中文语境恢复段界与标点。",
+      "sources": [
+        "教材 PDF 物理页 481（印刷页 474），电子底本"
+      ]
+    },
+    {
+      "id": "s05-04",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第05节-数据架构规划与设计.md",
+      "loc": "13.5.2 数据库设计与XML设计融合",
+      "ocr": "XML文件系统);",
+      "current": "XML文件系统);",
+      "final": "XML文件系统)；",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页上段首缩进、续行位置或中文语境恢复段界与标点。",
+      "sources": [
+        "教材 PDF 物理页 482（印刷页 475），电子底本"
+      ]
+    },
+    {
+      "id": "s05-05",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第05节-数据架构规划与设计.md",
+      "loc": "13.5.2 数据库设计与XML设计融合",
+      "ocr": "符合某一模式);",
+      "current": "符合某一模式);",
+      "final": "符合某一模式)；",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页上段首缩进、续行位置或中文语境恢复段界与标点。",
+      "sources": [
+        "教材 PDF 物理页 482（印刷页 475），电子底本"
+      ]
+    },
+    {
+      "id": "s05-06",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第05节-数据架构规划与设计.md",
+      "loc": "13.5.2 数据库设计与XML设计融合",
+      "ocr": "扩展名为.xsd), 多个",
+      "current": "扩展名为.xsd), 多个",
+      "final": "扩展名为.xsd)，多个",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页上段首缩进、续行位置或中文语境恢复段界与标点。",
+      "sources": [
+        "教材 PDF 物理页 482（印刷页 475），电子底本"
+      ]
+    },
+    {
+      "id": "s07-D01",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第07节-层次式架构案例分析.md",
+      "loc": "物理 484，印刷 477，图 13-15 .NET中标准的B/S分层式结构",
+      "ocr": "> 图 13-15 .NET中标准的B/S分层式结构",
+      "current": "> 图 13-15 .NET中标准的B/S分层式结构",
+      "final": "![图 13-15 .NET中标准的B/S分层式结构](../../../assets/figures/textbook/ch13-layered-architecture/figure-13-15.svg)",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "IIS 内表示层；CLR 内业务逻辑层、数据访问层。相邻层双向，数据访问构件经 ADO.NET 指向两数据库。",
+      "sources": [
+        "入库教材 PDF 物理 484（印刷 477），渲染页目读"
+      ]
+    },
+    {
+      "id": "s07-D02",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第07节-层次式架构案例分析.md",
+      "loc": "物理 484，印刷 477，图 13-16 PetShop 2.0的体系架构",
+      "ocr": "> 图 13-16 PetShop 2.0的体系架构",
+      "current": "> 图 13-16 PetShop 2.0的体系架构",
+      "final": "![图 13-16 PetShop 2.0的体系架构](../../../assets/figures/textbook/ch13-layered-architecture/figure-13-16.svg)",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "两层框内列 C# 构件、企业服务器和 DAAB，底部两组 SQL Server 2000；电子底本无可见的上下数据库箭头。",
+      "sources": [
+        "入库教材 PDF 物理 484（印刷 477），渲染页目读"
+      ]
+    },
+    {
+      "id": "s07-D03",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第07节-层次式架构案例分析.md",
+      "loc": "物理 484，印刷 477，图 13-17 PetShop 3.0的体系架构",
+      "ocr": "> 图 13-17 PetShop 3.0的体系架构",
+      "current": "> 图 13-17 PetShop 3.0的体系架构",
+      "final": "![图 13-17 PetShop 3.0的体系架构](../../../assets/figures/textbook/ch13-layered-architecture/figure-13-17.svg)",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "三个横层及跨层的业务实体；底部从左到右四项，图中没有单独编号的表。",
+      "sources": [
+        "入库教材 PDF 物理 484（印刷 477），渲染页目读"
+      ]
+    },
+    {
+      "id": "s07-D04",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第07节-层次式架构案例分析.md",
+      "loc": "物理 485，印刷 478，图 13-18 PetShop 4.0的体系架构",
+      "ocr": "> 图 13-18 PetShop 4.0的体系架构",
+      "current": "> 图 13-18 PetShop 4.0的体系架构",
+      "final": "![图 13-18 PetShop 4.0的体系架构](../../../assets/figures/textbook/ch13-layered-architecture/figure-13-18.svg)",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "三横层、跨层模型对象和底部资源；两组独立的 Profile DAL 及图内“购物车、愿景／用户熟悉”依可见字形保留。",
+      "sources": [
+        "入库教材 PDF 物理 485（印刷 478），渲染页目读"
+      ]
+    },
+    {
+      "id": "s07-D05",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第07节-层次式架构案例分析.md",
+      "loc": "物理 485，印刷 478，图 13-19 数据访问层的模块结构图",
+      "ocr": "> 图 13-19 数据访问层的模块结构图",
+      "current": "> 图 13-19 数据访问层的模块结构图",
+      "final": "![图 13-19 数据访问层的模块结构图](../../../assets/figures/textbook/ch13-layered-architecture/figure-13-19.svg)",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "DALFactory 指向 IDAL，IDAL 指向 Model；SQLServerDAL 与 OracleDAL 各指向 IDAL。依页图保留五个说明框。",
+      "sources": [
+        "入库教材 PDF 物理 485（印刷 478），渲染页目读"
+      ]
+    },
+    {
+      "id": "s07-D06",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第07节-层次式架构案例分析.md",
+      "loc": "物理 486，印刷 479，图 13-20 业务逻辑层的模块结构图",
+      "ocr": "> 图 13-20 业务逻辑层的模块结构图",
+      "current": "> 图 13-20 业务逻辑层的模块结构图",
+      "final": "![图 13-20 业务逻辑层的模块结构图](../../../assets/figures/textbook/ch13-layered-architecture/figure-13-20.svg)",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "BLL 依赖 IBLLStrategy、DALFactory、IDAL、Model；两个折角说明框解释策略和核心业务。",
+      "sources": [
+        "入库教材 PDF 物理 486（印刷 479），渲染页目读"
+      ]
+    },
+    {
+      "id": "s07-D07",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第07节-层次式架构案例分析.md",
+      "loc": "物理 486，印刷 479，图 13-21 表示层的模块结构",
+      "ocr": "> 图 13-21 表示层的模块结构",
+      "current": "> 图 13-21 表示层的模块结构",
+      "final": "![图 13-21 表示层的模块结构](../../../assets/figures/textbook/ch13-layered-architecture/figure-13-21.svg)",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "Web Component 到 BLL 的向下虚线单箭头。",
+      "sources": [
+        "入库教材 PDF 物理 486（印刷 479），渲染页目读"
+      ]
+    },
+    {
+      "id": "s07-D08",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第07节-层次式架构案例分析.md",
+      "loc": "物理 487，印刷 480，图 13-22 电子小票物联网架构",
+      "ocr": "> 图 13-22 电子小票物联网架构",
+      "current": "> 图 13-22 电子小票物联网架构",
+      "final": "![图 13-22 电子小票物联网架构](../../../assets/figures/textbook/ch13-layered-architecture/figure-13-22.svg)",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "应用层各三种服务，网络层六项基础服务，感知层三项；两组互联网和一组 Wi-Fi/GPRS 均有双向箭头。",
+      "sources": [
+        "入库教材 PDF 物理 487（印刷 480），渲染页目读"
+      ]
+    },
+    {
+      "id": "s07-D09",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第07节-层次式架构案例分析.md",
+      "loc": "物理 488，印刷 481，图 13-23 电子小票服务系统结构框图",
+      "ocr": "> 图 13-23 电子小票服务系统结构框图",
+      "current": "> 图 13-23 电子小票服务系统结构框图",
+      "final": "![图 13-23 电子小票服务系统结构框图](../../../assets/figures/textbook/ch13-layered-architecture/figure-13-23.svg)",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "Flash 经 SPI 指向 STM32，STM32 经 GPIO 指向显示屏；串口双向、收银机经 USB 转串口指向 STM32，外部电子小票云平台、微信及终端用无线折线表示。",
+      "sources": [
+        "入库教材 PDF 物理 488（印刷 481），渲染页目读"
+      ]
+    },
+    {
+      "id": "s06-D01",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第06节-物联网层次架构设计.md",
+      "loc": "物理 482，印刷 475，感知层ETC英文展开",
+      "ocr": "Electronic Toll Collection,ETC",
+      "current": "Electronic Toll Collection,ETC",
+      "final": "Electronic Toll Collection, ETC",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "英文全称与缩写以逗号加空格分隔。",
+      "sources": [
+        "入库教材 PDF 物理 482（印刷 475），渲染页目读"
+      ]
+    },
+    {
+      "id": "s06-D02",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第06节-物联网层次架构设计.md",
+      "loc": "物理 483，印刷 476，应用层的两个子层",
+      "ocr": "两个子层。\n\n一个是应用程序层",
+      "current": "两个子层。\n\n一个是应用程序层",
+      "final": "两个子层。一个是应用程序层",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "“一个是”在渲染图上顶格接上句，属同段，下一段首为“应用层是”。",
+      "sources": [
+        "入库教材 PDF 物理 483（印刷 476），渲染页目读"
+      ]
+    },
+    {
+      "id": "s06-D03",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第06节-物联网层次架构设计.md",
+      "loc": "物理 483，印刷 476，终端设备层",
+      "ocr": "“物物相连的网”,但",
+      "current": "“物物相连的网”,但",
+      "final": "“物物相连的网”，但",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "引号后承接汉语分句。",
+      "sources": [
+        "入库教材 PDF 物理 483（印刷 476），渲染页目读"
+      ]
+    },
+    {
+      "id": "s07-D10",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第07节-层次式架构案例分析.md",
+      "loc": "物理 484，印刷 477，PetShop 2.0架构",
+      "ocr": "做较大的修改",
+      "current": "做较大的修改",
+      "final": "做大的修改",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "页图为“做大的修改”，语义完整；既有稿多一“较”。",
+      "sources": [
+        "入库教材 PDF 物理 484（印刷 477），渲染页目读"
+      ]
+    },
+    {
+      "id": "s07-D11",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第07节-层次式架构案例分析.md",
+      "loc": "物理 484，印刷 477，PetShop 3.0图引",
+      "ocr": "独立出来。\n\nPetShop 3.0的体系架构",
+      "current": "独立出来。\n\nPetShop 3.0的体系架构",
+      "final": "独立出来。PetShop 3.0的体系架构",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "下一行顶格接“PetShop 3.0的体系架构”，均属本段。",
+      "sources": [
+        "入库教材 PDF 物理 484（印刷 477），渲染页目读"
+      ]
+    },
+    {
+      "id": "s07-D12",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第07节-层次式架构案例分析.md",
+      "loc": "物理 484，印刷 477，DAL的数据库实现",
+      "ocr": "MS-SQL的 SQL Server DAL和支持Oracle的 Oracle DAL",
+      "current": "MS-SQL的 SQL Server DAL和支持Oracle的 Oracle DAL",
+      "final": "MS-SQL的SQL Server DAL和支持Oracle的Oracle DAL",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "删去两处汉字与英文模块名之间不一致的多余空格，保留英文名内部空格。",
+      "sources": [
+        "入库教材 PDF 物理 484（印刷 477），渲染页目读"
+      ]
+    },
+    {
+      "id": "s07-D13",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第07节-层次式架构案例分析.md",
+      "loc": "物理 486，印刷 479，业务逻辑的多样化",
+      "ocr": "在业务逻辑处理中，如果存在业务操作的多样化或者今后可能的变化，均应利用抽象原理，使用接口或抽象类",
+      "current": "在业务逻辑处理中，如果存在业务操作的多样化或者今后可能的变化，均应利用抽象原理，使用接口或抽象类",
+      "final": "在业务逻辑的处理中，如果存在业务操作的多样化或者是今后可能的变化，均应利用抽象的原理、或者使用接口、或者使用抽象类",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "页图保留“的处理”“或者是”“抽象的原理”以及两个“或者使用”；既有清洗稿省略与改写过多。",
+      "sources": [
+        "入库教材 PDF 物理 486（印刷 479），渲染页目读"
+      ]
+    },
+    {
+      "id": "s07-D14",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第07节-层次式架构案例分析.md",
+      "loc": "物理 486，印刷 479，图13-21引介及辅助模块",
+      "ocr": "表示层的模块结构如图 13-21 所示。各个层次中还引入了辅助模块，如数据访问层的Messaging模块用于提供异步插入订单功能，采用MSMQ(Microsoft Messaging Queue)技术",
+      "current": "表示层的模块结构如图 13-21 所示。各个层次中还引入了辅助模块，如数据访问层的Messaging模块用于提供异步插入订单功能，采用MSMQ(Microsoft Messaging Queue)技术",
+      "final": "图 13-21 表示层的模块结构图中，各个层次中还引入了辅助的模块，如数据访问层的Messaging模块，是为异步插入订单的功能提供，采用了MSMQ(Microsoft Messaging Queue)技术",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "将清洗稿改写的两句恢复电子版可见句式；数据库缩写按文内标准拼写保留。",
+      "sources": [
+        "入库教材 PDF 物理 486（印刷 479），渲染页目读"
+      ]
+    },
+    {
+      "id": "s07-D15",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第07节-层次式架构案例分析.md",
+      "loc": "物理 487，印刷 480，显示屏英文展开",
+      "ocr": "Thin Film Transistor Liquid Crystal Display,TFTLCD",
+      "current": "Thin Film Transistor Liquid Crystal Display,TFTLCD",
+      "final": "Thin Film Transistor Liquid Crystal Display, TFTLCD",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "补逗号后空格。",
+      "sources": [
+        "入库教材 PDF 物理 487（印刷 480），渲染页目读"
+      ]
+    },
+    {
+      "id": "s07-D16",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第07节-层次式架构案例分析.md",
+      "loc": "物理 488，印刷 481，串行外设接口英文展开",
+      "ocr": "Serial Peripheral Interface,SPI",
+      "current": "Serial Peripheral Interface,SPI",
+      "final": "Serial Peripheral Interface, SPI",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "补逗号后空格。",
+      "sources": [
+        "入库教材 PDF 物理 488（印刷 481），渲染页目读"
+      ]
+    },
+    {
+      "id": "s07-D17",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第07节-层次式架构案例分析.md",
+      "loc": "物理 488，印刷 481，GPIO英文展开",
+      "ocr": "General Purpose Input /Output,GPIO",
+      "current": "General Purpose Input /Output,GPIO",
+      "final": "General Purpose Input/Output, GPIO",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "英文斜线两边留白统一，补逗号后空格。",
+      "sources": [
+        "入库教材 PDF 物理 488（印刷 481），渲染页目读"
+      ]
+    },
+    {
+      "id": "s07-D18",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第07节-层次式架构案例分析.md",
+      "loc": "物理 483，印刷 476，标识符",
+      "ocr": "ASPNet",
+      "current": "ASP.NET",
+      "final": "ASP.NET",
+      "class": "K",
+      "confidence": "A",
+      "evidence": "既有稿使用规范的标识符形式；其他图文中同名架构或同类 Strategy 标识提供内证。",
+      "sources": [
+        "入库教材 PDF 物理 483（印刷 476），渲染页目读"
+      ]
+    },
+    {
+      "id": "s07-D19",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第07节-层次式架构案例分析.md",
+      "loc": "物理 484，印刷 477，标识符",
+      "ocr": "MemberShip",
+      "current": "Membership",
+      "final": "Membership",
+      "class": "K",
+      "confidence": "A",
+      "evidence": "既有稿使用规范的标识符形式；其他图文中同名架构或同类 Strategy 标识提供内证。",
+      "sources": [
+        "入库教材 PDF 物理 484（印刷 477），渲染页目读"
+      ]
+    },
+    {
+      "id": "s07-D20",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第07节-层次式架构案例分析.md",
+      "loc": "物理 486，印刷 479，标识符",
+      "ocr": "IOrderStategy",
+      "current": "IOrderStrategy",
+      "final": "IOrderStrategy",
+      "class": "K",
+      "confidence": "A",
+      "evidence": "既有稿使用规范的标识符形式；其他图文中同名架构或同类 Strategy 标识提供内证。",
+      "sources": [
+        "入库教材 PDF 物理 486（印刷 479），渲染页目读"
+      ]
+    },
+    {
+      "id": "s07-D21",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第07节-层次式架构案例分析.md",
+      "loc": "物理 485，印刷 478，图13-18 Profile 小格",
+      "ocr": "购物车、愿景／用户熟悉",
+      "current": "购物车、愿景；用户熟悉",
+      "final": null,
+      "class": "C3",
+      "confidence": "低",
+      "evidence": "渲染图结尾读作“用户熟悉”，表意可疑，无纸书或原始软件图确认；SVG保留字形，未作推断性修正。",
+      "sources": [
+        "入库教材 PDF 物理 485（印刷 478），渲染页目读"
+      ]
+    },
+    {
+      "id": "s07-D22",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第07节-层次式架构案例分析.md",
+      "loc": "物理 485，印刷 478，图13-18 数据访问层并列两组",
+      "ocr": "Profile DAL、Profile DAL",
+      "current": "Profile DAL（接口、工厂、Oracle、SQL）×2",
+      "final": null,
+      "class": "C3",
+      "confidence": "低",
+      "evidence": "电子版图确实连续两组 Profile DAL；下方数据库不同，不能仅据邻接字段猜改第二组名称。",
+      "sources": [
+        "入库教材 PDF 物理 485（印刷 478），渲染页目读"
+      ]
+    },
+    {
+      "id": "s07-D23",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第07节-层次式架构案例分析.md",
+      "loc": "物理 485，印刷 478，图13-18 Profile 购物项",
+      "ocr": "购物车、愿景",
+      "current": "购物车、愿景",
+      "final": null,
+      "class": "C3",
+      "confidence": "低",
+      "evidence": "可能涉及愿望清单，但教材页图写作“愿景”，没有更替的充分内证，SVG照录。",
+      "sources": [
+        "入库教材 PDF 物理 485（印刷 478），渲染页目读"
+      ]
+    },
+    {
+      "id": "s07-D24",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第07节-层次式架构案例分析.md",
+      "loc": "物理 486，印刷 479，消息队列名称",
+      "ocr": "MSMQ（Microsoft Messaging Queue）",
+      "current": "MSMQ(Microsoft Messaging Queue)",
+      "final": null,
+      "class": "C3",
+      "confidence": "低",
+      "evidence": "缩写和展开在本页可读，英文正式产品名称如需技术纠误需要另证，此次不改。",
+      "sources": [
+        "入库教材 PDF 物理 486（印刷 479），渲染页目读"
+      ]
+    },
+    {
+      "id": "s07-D25",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第07节-层次式架构案例分析.md",
+      "loc": "物理 486，印刷 479，业务逻辑段后半",
+      "ocr": "PetShop将核心业务逻辑都放到了一个模块BLL中，并没有将具体实现和抽象严格地按照模块分开。所以，表示层",
+      "current": "PetShop将核心业务逻辑都放到了一个模块BLL中，并没有将具体实现和抽象严格地按照模块分开。所以，表示层",
+      "final": "PetShop将核心的业务逻辑都放到了一个模块BLL中，并没有将具体的实现和抽象严格地按照模块分开。所以表示层",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "原页保留两个“的”，“所以”后无逗号。",
+      "sources": [
+        "入库教材 PDF 物理 486（印刷 479），渲染页目读"
+      ]
+    },
+    {
+      "id": "s07-D26",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第07节-层次式架构案例分析.md",
+      "loc": "物理 484，印刷 477，图13-16数据库产品",
+      "ocr": "SQL Sever 2000",
+      "current": "> 图 13-16 PetShop 2.0的体系架构",
+      "final": "SQL Server 2000",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "按同页图13-17 SQL Server DAL 及下方数据库比较文字恢复 Server 的 r；订正位于新 SVG。",
+      "sources": [
+        "入库教材 PDF 物理 484（印刷 477），渲染页目读"
+      ]
+    },
+    {
+      "id": "s07-D27",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第07节-层次式架构案例分析.md",
+      "loc": "物理 485，印刷 478，图13-19 Oracle模块说明",
+      "ocr": "访问Oraclc数据库",
+      "current": "> 图 13-19 数据访问层的模块结构图",
+      "final": "访问Oracle数据库。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "说明框用词可据本图 OracleDAL 模块及相邻正文的 Oracle 唯一回校；订正位于新 SVG。",
+      "sources": [
+        "入库教材 PDF 物理 485（印刷 478），渲染页目读"
+      ]
+    },
+    {
+      "id": "s06-D04",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第06节-物联网层次架构设计.md",
+      "loc": "物理 482，印刷 475，网络层手机付费示例",
+      "ocr": "内置手机的RFID信息",
+      "current": "内置手机的RFID信息",
+      "final": null,
+      "class": "C3",
+      "confidence": "低",
+      "evidence": "独立复验确认页上如此。“内置”的修饰对象及是否漏介词仍有歧义，保留待查。",
+      "sources": [
+        "入库教材 PDF 物理 482（印刷 475），渲染页目读"
+      ]
+    }
+  ]
+}
