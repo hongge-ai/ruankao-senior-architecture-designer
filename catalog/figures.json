@@ -1624,7 +1624,7 @@
    "asset": "assets/figures/textbook/ch08-quality-attributes-and-evaluation/figure-t08-02.svg",
    "physical_page": 284,
    "printed_page": 275,
-   "record": "verification/教材OCR纠错记录-第8章.md",
+   "record": "verification/教材新版第二轮独立盲核记录-第08章.md",
    "note": "两列六项，修正变更请求和成本度量表述。"
   },
   {
@@ -1638,7 +1638,7 @@
    "asset": "assets/figures/textbook/ch08-quality-attributes-and-evaluation/figure-t08-03.svg",
    "physical_page": 284,
    "printed_page": 275,
-   "record": "verification/教材OCR纠错记录-第8章.md",
+   "record": "verification/教材新版第二轮独立盲核记录-第08章.md",
    "note": "两列六项，刺激源为用户或其他系统。"
   },
   {
@@ -1652,7 +1652,7 @@
    "asset": "assets/figures/textbook/ch08-quality-attributes-and-evaluation/figure-t08-04.svg",
    "physical_page": 285,
    "printed_page": 276,
-   "record": "verification/教材OCR纠错记录-第8章.md",
+   "record": "verification/教材新版第二轮独立盲核记录-第08章.md",
    "note": "两列六项，响应度量五项；区别缺陷存在与测试暴露缺陷。"
   },
   {
@@ -1666,7 +1666,7 @@
    "asset": "assets/figures/textbook/ch08-quality-attributes-and-evaluation/figure-t08-05.svg",
    "physical_page": 285,
    "printed_page": 276,
-   "record": "verification/教材OCR纠错记录-第8章.md",
+   "record": "verification/教材新版第二轮独立盲核记录-第08章.md",
    "note": "两列六项，响应含五个分项；忘记密码的场景以重置恢复访问。"
   },
   {
@@ -1680,7 +1680,7 @@
    "asset": "assets/figures/textbook/ch08-quality-attributes-and-evaluation/figure-t08-06.svg",
    "physical_page": 286,
    "printed_page": 277,
-   "record": "verification/教材OCR纠错记录-第8章.md",
+   "record": "verification/教材新版第二轮独立盲核记录-第08章.md",
    "note": "两列六项，分开身份识别与授权状态；恢复数据或服务按所需时间度量。"
   },
   {
@@ -1694,7 +1694,7 @@
    "asset": "assets/figures/textbook/ch08-quality-attributes-and-evaluation/figure-08-05.svg",
    "physical_page": 298,
    "printed_page": 289,
-   "record": "verification/教材OCR纠错记录-第8章.md",
+   "record": "verification/教材新版第二轮独立盲核记录-第08章.md",
    "note": "九步四组；去掉重叠图题，步骤4、6、7、8名称按正文明确为架构方法与场景排序。 电子重建页直接目读，成品独立栅格化复验。"
   },
   {
@@ -1722,7 +1722,7 @@
    "asset": "assets/figures/textbook/ch08-quality-attributes-and-evaluation/figure-08-07.svg",
    "physical_page": 300,
    "printed_page": 291,
-   "record": "verification/教材OCR纠错记录-第8章.md",
+   "record": "verification/教材新版第二轮独立盲核记录-第08章.md",
    "note": "恢复三个标准处理程序指向Handler的箭头；图例A key component添空格。 电子重建页直接目读，成品独立栅格化复验。"
   },
   {
@@ -1778,8 +1778,8 @@
    "asset": "assets/figures/textbook/ch08-quality-attributes-and-evaluation/figure-08-02.svg",
    "physical_page": 290,
    "printed_page": 281,
-   "record": "verification/教材OCR纠错记录-第8章.md",
-   "note": "四象限、七编号步骤。右上框第二字无法唯一识别，原图留疑。"
+   "record": "verification/教材新版第二轮独立盲核记录-第08章.md",
+   "note": "四象限、七个编号步骤。第二轮放大物理页 290 核实右上框为“行动计划”。"
   },
   {
    "id": "tb-fig-0127",
@@ -1848,7 +1848,7 @@
    "asset": "assets/figures/textbook/ch08-quality-attributes-and-evaluation/figure-t08-11.svg",
    "physical_page": 308,
    "printed_page": 299,
-   "record": "verification/教材OCR纠错记录-第8章.md",
+   "record": "verification/教材新版第二轮独立盲核记录-第08章.md",
    "note": "跨物理308–309。场景5跨页复列只计一次，第一页属用例，次页增长组横线自6始。 电子重建页直接目读，成品独立栅格化复验。"
   },
   {
@@ -1862,7 +1862,7 @@
    "asset": "assets/figures/textbook/ch08-quality-attributes-and-evaluation/figure-t08-12.svg",
    "physical_page": 310,
    "printed_page": 301,
-   "record": "verification/教材OCR纠错记录-第8章.md",
+   "record": "verification/教材新版第二轮独立盲核记录-第08章.md",
    "note": "表8-12场景5及1各2票，已读另两列为1和0或0和1，故各缺用户1票；三列5/5/5，行和15。 电子重建页直接目读，成品独立栅格化复验。"
   },
   {
@@ -1876,7 +1876,7 @@
    "asset": "assets/figures/textbook/ch08-quality-attributes-and-evaluation/figure-t08-13.svg",
    "physical_page": 310,
    "printed_page": 301,
-   "record": "verification/教材OCR纠错记录-第8章.md",
+   "record": "verification/教材新版第二轮独立盲核记录-第08章.md",
    "note": "跨物理310–311，已拼成完整三列、八个编号的表，去除续表角注。 电子重建页直接目读，成品独立栅格化复验。"
   },
   {

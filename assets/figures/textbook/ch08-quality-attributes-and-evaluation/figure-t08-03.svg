@@ -23,6 +23,6 @@
   <text x="224" y="303" font-family="WenQuanYi Zen Hei, sans-serif" font-size="15" fill="#000000">处理刺激、改变服务级别</text>
   <line x1="40" y1="320" x2="1060" y2="320" stroke="#000000" stroke-width="1"/>
   <text x="125" y="349" text-anchor="middle" font-family="WenQuanYi Zen Hei, sans-serif" font-size="15" fill="#000000">响应度量</text>
-  <text x="224" y="349" font-family="WenQuanYi Zen Hei, sans-serif" font-size="15" fill="#000000">等待时间、期限、吞吐量、抖动、缺失率、数据丢失率</text>
+  <text x="224" y="349" font-family="WenQuanYi Zen Hei, sans-serif" font-size="15" fill="#000000">响应延迟、截止期限、吞吐量、抖动、错过截止期限的比例、数据丢失率</text>
   <line x1="40" y1="366" x2="1060" y2="366" stroke="#000000" stroke-width="1.5"/>
 </svg>

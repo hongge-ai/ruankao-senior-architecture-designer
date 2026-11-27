@@ -9,7 +9,7 @@
   <g stroke="#555" stroke-width="1.4" fill="none">
     <line x1="416" y1="39" x2="365" y2="50"/>
     <line x1="440" y1="76.5" x2="368" y2="76.5"/>
-    <polyline points="189,65 189,172 113,172.5"/>
+    <polyline points="205,65 189,65 189,172 113,172.5"/>
     <polyline points="113,193.5 172,193.5 171,314"/>
     <line x1="75" y1="216" x2="75" y2="263"/>
     <line x1="309" y1="96" x2="309" y2="251"/>
@@ -24,8 +24,8 @@
     <polygon points="360,52 368.5,54 366.5,47"/>
     <polygon points="362,76.5 371,72.5 371,80.5"/>
     <polygon points="75,208 71,217 79,217"/>
-    <polygon points="309,87 305,96 313,96"/>
-    <polygon points="262,87 258,96 266,96"/>
+    <polygon points="309,80 305,96 313,96"/>
+    <polygon points="262,80 258,96 266,96"/>
     <polygon points="325,290 321,299 329,299"/>
     <polygon points="107,172.5 116,168 116,177"/>
     <polygon points="107,193.5 116,189 116,198"/>

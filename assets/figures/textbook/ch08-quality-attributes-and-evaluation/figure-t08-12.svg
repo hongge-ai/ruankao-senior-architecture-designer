@@ -48,7 +48,7 @@
 <text x="47" y="174" font-family="serif" font-size="13" fill="#000000" text-anchor="middle">14</text>
 <text x="92" y="152" font-family="serif" font-size="15" fill="#000000" text-anchor="start">Framework should be complete clear and</text>
 <text x="92" y="174" font-family="serif" font-size="15" fill="#000000" text-anchor="start">perform exactly as required</text>
-<text x="92" y="196" font-family="serif" font-size="15" fill="#000000" text-anchor="start">框架应该是完全清晰的，并且完全按照需求执行</text>
+<text x="92" y="196" font-family="serif" font-size="15" fill="#000000" text-anchor="start">框架应完整、清晰，并按需求执行</text>
 <text x="562" y="163" font-family="serif" font-size="15" fill="#000000" text-anchor="middle">Functionality</text>
 <text x="562" y="185" font-family="serif" font-size="15" fill="#000000" text-anchor="middle">功能性</text>
 <text x="689.5" y="174" font-family="serif" font-size="15" fill="#000000" text-anchor="middle">0</text>
@@ -77,7 +77,7 @@
 <text x="47" y="392" font-family="serif" font-size="13" fill="#000000" text-anchor="middle">8</text>
 <text x="92" y="370" font-family="serif" font-size="15" fill="#000000" text-anchor="start">Components in framework interact in a</text>
 <text x="92" y="392" font-family="serif" font-size="15" fill="#000000" text-anchor="start">coordinated manner</text>
-<text x="92" y="414" font-family="serif" font-size="15" fill="#000000" text-anchor="start">框架中的组件通过交互协议交互</text>
+<text x="92" y="414" font-family="serif" font-size="15" fill="#000000" text-anchor="start">框架中的组件协同交互</text>
 <text x="562" y="381" font-family="serif" font-size="15" fill="#000000" text-anchor="middle">Functionality</text>
 <text x="562" y="403" font-family="serif" font-size="15" fill="#000000" text-anchor="middle">功能性</text>
 <text x="689.5" y="392" font-family="serif" font-size="15" fill="#000000" text-anchor="middle">0</text>

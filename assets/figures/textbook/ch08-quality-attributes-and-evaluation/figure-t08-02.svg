@@ -20,11 +20,11 @@
   <text x="224" y="257" font-family="WenQuanYi Zen Hei, sans-serif" font-size="15" fill="#000000">系统用户界面、平台、环境或与目标系统交互的系统</text>
   <line x1="40" y1="274" x2="1060" y2="274" stroke="#000000" stroke-width="1"/>
   <text x="125" y="318" text-anchor="middle" font-family="WenQuanYi Zen Hei, sans-serif" font-size="15" fill="#000000">响应</text>
-  <text x="224" y="303" font-family="WenQuanYi Zen Hei, sans-serif" font-size="15" fill="#000000">查找架构中需要修改的位置，进行修改且不会影响其他功能，对所做的修改进行测试，部</text>
-  <text x="224" y="333" font-family="WenQuanYi Zen Hei, sans-serif" font-size="15" fill="#000000">署所做的修改</text>
+  <text x="224" y="303" font-family="WenQuanYi Zen Hei, sans-serif" font-size="15" fill="#000000">定位并实施修改，保持其他功能的预期行为；测试修改，</text>
+  <text x="224" y="333" font-family="WenQuanYi Zen Hei, sans-serif" font-size="15" fill="#000000">并部署经验证的修改</text>
   <line x1="40" y1="350" x2="1060" y2="350" stroke="#000000" stroke-width="1"/>
   <text x="125" y="394" text-anchor="middle" font-family="WenQuanYi Zen Hei, sans-serif" font-size="15" fill="#000000">响应度量</text>
-  <text x="224" y="379" font-family="WenQuanYi Zen Hei, sans-serif" font-size="15" fill="#000000">受影响元素的数量、修改所需的工作量和费用；该修改对其他功能或质量属性所造成影</text>
-  <text x="224" y="409" font-family="WenQuanYi Zen Hei, sans-serif" font-size="15" fill="#000000">响的程度</text>
+  <text x="224" y="379" font-family="WenQuanYi Zen Hei, sans-serif" font-size="15" fill="#000000">受影响元素的数量、修改所需的工作量和费用；该修改对其他功能或质量属性</text>
+  <text x="224" y="409" font-family="WenQuanYi Zen Hei, sans-serif" font-size="15" fill="#000000">造成影响的程度</text>
   <line x1="40" y1="426" x2="1060" y2="426" stroke="#000000" stroke-width="1.5"/>
 </svg>

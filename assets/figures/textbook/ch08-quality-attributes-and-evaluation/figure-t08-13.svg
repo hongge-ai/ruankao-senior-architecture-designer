@@ -28,7 +28,7 @@
 <text x="847" y="98" font-family="serif" font-size="15" font-weight="bold" fill="#000000" text-anchor="middle">质量属性</text>
 <text x="47" y="145" font-family="serif" font-size="13" fill="#000000" text-anchor="middle">8</text>
 <text x="92" y="134" font-family="serif" font-size="15" fill="#000000" text-anchor="start">Components in framework interact in a coordinated manner</text>
-<text x="92" y="156" font-family="serif" font-size="15" fill="#000000" text-anchor="start">框架中的组件通过交互协议交互</text>
+<text x="92" y="156" font-family="serif" font-size="15" fill="#000000" text-anchor="start">框架中的组件协同交互</text>
 <text x="847" y="192" font-family="serif" font-size="15" fill="#000000" text-anchor="middle">Functionality</text>
 <text x="847" y="214" font-family="serif" font-size="15" fill="#000000" text-anchor="middle">功能性</text>
 <text x="47" y="203" font-family="serif" font-size="13" fill="#000000" text-anchor="middle">13</text>
@@ -36,7 +36,7 @@
 <text x="92" y="214" font-family="serif" font-size="15" fill="#000000" text-anchor="start">架构预期的整体行为一致</text>
 <text x="47" y="261" font-family="serif" font-size="13" fill="#000000" text-anchor="middle">14</text>
 <text x="92" y="250" font-family="serif" font-size="15" fill="#000000" text-anchor="start">Framework should be complete clear and perform exactly as required.</text>
-<text x="92" y="272" font-family="serif" font-size="15" fill="#000000" text-anchor="start">框架应该是完全清晰的，并且完全按照需求执行</text>
+<text x="92" y="272" font-family="serif" font-size="15" fill="#000000" text-anchor="start">框架应完整、清晰，并按需求执行</text>
 <text x="47" y="319" font-family="serif" font-size="13" fill="#000000" text-anchor="middle">4</text>
 <text x="92" y="308" font-family="serif" font-size="15" fill="#000000" text-anchor="start">User errors in using system should be handled</text>
 <text x="92" y="330" font-family="serif" font-size="15" fill="#000000" text-anchor="start">处理用户在使用系统时出现的错误</text>
