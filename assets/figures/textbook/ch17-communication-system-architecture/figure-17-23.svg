@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="495" viewBox="0 0 850 495" role="img" aria-labelledby="title"><title id="title">汇聚层 FW 与 LB 的双机高可用组网模型</title>
+<defs><marker id="a" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 8 4 0 8Z" fill="#477786"/></marker></defs>
+<rect width="850" height="495" fill="white"/>
+<rect x="42" y="66" width="260" height="255" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="211" y="91" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">汇聚交换设备</text>
+<rect x="548" y="66" width="260" height="255" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="639" y="91" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">汇聚交换设备</text>
+<text x="100" y="32" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">Vx10</text>
+<line x1="130" y1="10" x2="130" y2="106" stroke="#477786" stroke-width="1.6" stroke-dasharray="5 4"/>
+<ellipse cx="130" cy="106" rx="4" ry="4" fill="#cbe8ef" stroke="#477786" stroke-width="1.6"/>
+<ellipse cx="130" cy="135" rx="4" ry="4" fill="#cbe8ef" stroke="#477786" stroke-width="1.6"/>
+<text x="156" y="140" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="14" fill="#173c48">Vx1</text>
+<ellipse cx="130" cy="168" rx="4" ry="4" fill="#cbe8ef" stroke="#477786" stroke-width="1.6"/>
+<text x="156" y="173" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="14" fill="#173c48">Vx2</text>
+<ellipse cx="130" cy="201" rx="4" ry="4" fill="#cbe8ef" stroke="#477786" stroke-width="1.6"/>
+<text x="156" y="206" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="14" fill="#173c48">Vx3</text>
+<ellipse cx="130" cy="234" rx="4" ry="4" fill="#cbe8ef" stroke="#477786" stroke-width="1.6"/>
+<text x="156" y="239" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="14" fill="#173c48">Vx4</text>
+<ellipse cx="130" cy="267" rx="4" ry="4" fill="#cbe8ef" stroke="#477786" stroke-width="1.6"/>
+<text x="156" y="272" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="14" fill="#173c48">Vx5</text>
+<line x1="176" y1="135" x2="319" y2="135" stroke="#477786" stroke-width="1.6" stroke-dasharray="5 4"/>
+<line x1="176" y1="168" x2="319" y2="168" stroke="#477786" stroke-width="1.6" stroke-dasharray="5 4"/>
+<rect x="319" y="123" width="77" height="62" fill="#cbe8ef" stroke="#477786" stroke-width="1.5"/>
+<text x="357.5" y="159.44" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">LB</text>
+<path d="M175 201 H261 V222" fill="none" stroke="#477786" stroke-width="1.6" stroke-dasharray="5 4"/>
+<path d="M175 234 H261 V222" fill="none" stroke="#477786" stroke-width="1.6" stroke-dasharray="5 4"/>
+<path d="M175 267 H261 V283" fill="none" stroke="#477786" stroke-width="1.6" stroke-dasharray="5 4"/>
+<rect x="232" y="222" width="60" height="61" fill="#cbe8ef" stroke="#477786" stroke-width="1.5"/>
+<text x="262.0" y="257.94" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">FW</text>
+<path d="M122 234 H82 V358" fill="none" stroke="#477786" stroke-width="1.6" stroke-dasharray="5 4"/>
+<path d="M122 267 H104 V340" fill="none" stroke="#477786" stroke-width="1.6" stroke-dasharray="5 4"/>
+<text x="750" y="32" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">Vx10</text>
+<line x1="720" y1="10" x2="720" y2="106" stroke="#477786" stroke-width="1.6" stroke-dasharray="5 4"/>
+<ellipse cx="720" cy="106" rx="4" ry="4" fill="#cbe8ef" stroke="#477786" stroke-width="1.6"/>
+<ellipse cx="720" cy="135" rx="4" ry="4" fill="#cbe8ef" stroke="#477786" stroke-width="1.6"/>
+<text x="694" y="140" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="14" fill="#173c48">Vx1</text>
+<ellipse cx="720" cy="168" rx="4" ry="4" fill="#cbe8ef" stroke="#477786" stroke-width="1.6"/>
+<text x="694" y="173" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="14" fill="#173c48">Vx2</text>
+<ellipse cx="720" cy="201" rx="4" ry="4" fill="#cbe8ef" stroke="#477786" stroke-width="1.6"/>
+<text x="694" y="206" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="14" fill="#173c48">Vx3</text>
+<ellipse cx="720" cy="234" rx="4" ry="4" fill="#cbe8ef" stroke="#477786" stroke-width="1.6"/>
+<text x="694" y="239" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="14" fill="#173c48">Vx4</text>
+<ellipse cx="720" cy="267" rx="4" ry="4" fill="#cbe8ef" stroke="#477786" stroke-width="1.6"/>
+<text x="694" y="272" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="14" fill="#173c48">Vx5</text>
+<line x1="674" y1="135" x2="531" y2="135" stroke="#477786" stroke-width="1.6" stroke-dasharray="5 4"/>
+<line x1="674" y1="168" x2="531" y2="168" stroke="#477786" stroke-width="1.6" stroke-dasharray="5 4"/>
+<rect x="454" y="123" width="77" height="62" fill="#cbe8ef" stroke="#477786" stroke-width="1.5"/>
+<text x="492.5" y="159.44" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">LB</text>
+<path d="M675 201 H591 V222" fill="none" stroke="#477786" stroke-width="1.6" stroke-dasharray="5 4"/>
+<path d="M675 234 H591 V222" fill="none" stroke="#477786" stroke-width="1.6" stroke-dasharray="5 4"/>
+<path d="M675 267 H591 V283" fill="none" stroke="#477786" stroke-width="1.6" stroke-dasharray="5 4"/>
+<rect x="562" y="222" width="60" height="61" fill="#cbe8ef" stroke="#477786" stroke-width="1.5"/>
+<text x="592.0" y="257.94" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">FW</text>
+<path d="M728 234 H768 V358" fill="none" stroke="#477786" stroke-width="1.6" stroke-dasharray="5 4"/>
+<path d="M728 267 H746 V340" fill="none" stroke="#477786" stroke-width="1.6" stroke-dasharray="5 4"/>
+<line x1="82" y1="358" x2="768" y2="358" stroke="#477786" stroke-width="1.6" stroke-dasharray="5 4"/>
+<line x1="104" y1="340" x2="746" y2="340" stroke="#477786" stroke-width="1.6" stroke-dasharray="5 4"/>
+<line x1="227" y1="358" x2="227" y2="389" stroke="#477786" stroke-width="1.6" stroke-dasharray="5 4"/>
+<rect x="192" y="389" width="117" height="42" fill="#cbe8ef" stroke="#477786" stroke-width="1.5"/>
+<rect x="199" y="396" width="117" height="42" fill="#cbe8ef" stroke="#477786" stroke-width="1.5"/>
+<rect x="206" y="403" width="117" height="42" fill="#cbe8ef" stroke="#477786" stroke-width="1.5"/>
+<text x="264.5" y="429.0" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="14" fill="#173c48">业务服务器</text>
+<line x1="605" y1="340" x2="605" y2="389" stroke="#477786" stroke-width="1.6" stroke-dasharray="5 4"/>
+<rect x="570" y="389" width="117" height="42" fill="#cbe8ef" stroke="#477786" stroke-width="1.5"/>
+<rect x="577" y="396" width="117" height="42" fill="#cbe8ef" stroke="#477786" stroke-width="1.5"/>
+<rect x="584" y="403" width="117" height="42" fill="#cbe8ef" stroke="#477786" stroke-width="1.5"/>
+<text x="642.5" y="429.0" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="14" fill="#173c48">业务服务器</text>
+</svg>

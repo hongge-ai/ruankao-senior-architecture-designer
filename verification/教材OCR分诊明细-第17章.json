@@ -1,0 +1,2841 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-27",
+  "chapter": "第17章-通信系统架构设计理论与实践",
+  "scope": "章导语及各节全文",
+  "base_commit": "04664779c7488143a8e9e9a66af9f342babfcd68",
+  "entries": [
+    {
+      "id": "ch17a-01",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/INDEX.md",
+      "loc": "段落、标题或排印",
+      "ocr": "通信系统(也称为通信网络)是",
+      "current": "通信系统(也称为通信网络)是",
+      "final": "通信系统（也称为通信网络）是",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图缩进、字级、标题编号及中文标点整理。",
+      "sources": [
+        "教材 PDF 物理页 606（印刷页 599），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch17a-02",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第01节-通信系统概述.md",
+      "loc": "段落、标题或排印",
+      "ocr": "GE/10GE(1GE=1Gb/s) 传输速率",
+      "current": "GE/10GE(1GE=1Gb/s) 传输速率",
+      "final": "GE/10GE（1 GE = 1 Gb/s）传输速率",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图缩进、字级、标题编号及中文标点整理。",
+      "sources": [
+        "教材 PDF 物理页 606（印刷页 599），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch17a-03",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第01节-通信系统概述.md",
+      "loc": "段落、标题或排印",
+      "ocr": "40GE/100GE, 甚至400G E传输速率",
+      "current": "40GE/100GE, 甚至400G E传输速率",
+      "final": "40GE/100GE，甚至400GE传输速率",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图缩进、字级、标题编号及中文标点整理。",
+      "sources": [
+        "教材 PDF 物理页 606（印刷页 599），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch17a-04",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第01节-通信系统概述.md",
+      "loc": "措辞或技术概念",
+      "ocr": "光线千兆接入",
+      "current": "光线千兆接入",
+      "final": "光纤千兆接入",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "上句明确写以光纤传送，接入方式与无线Wi-Fi、5G并列。",
+      "sources": [
+        "教材 PDF 物理页 606（印刷页 599），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch17a-05",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第01节-通信系统概述.md",
+      "loc": "段落、标题或排印",
+      "ocr": "移动终端5G 高速接入",
+      "current": "移动终端5G 高速接入",
+      "final": "移动终端5G高速接入",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图缩进、字级、标题编号及中文标点整理。",
+      "sources": [
+        "教材 PDF 物理页 606（印刷页 599），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch17a-06",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "段落、标题或排印",
+      "ocr": "其特点是：\n\n覆盖地理范围小",
+      "current": "其特点是：\n\n覆盖地理范围小",
+      "final": "其特点是：覆盖地理范围小",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图缩进、字级、标题编号及中文标点整理。",
+      "sources": [
+        "教材 PDF 物理页 606（印刷页 599），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch17a-07",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "段落、标题或排印",
+      "ocr": "集中建筑群内(通常2.5km内);数据传输速率高(一般在10Mb/s以上，典型1Gb/s, 甚至10Gb/s);",
+      "current": "集中建筑群内(通常2.5km内);数据传输速率高(一般在10Mb/s以上，典型1Gb/s, 甚至10Gb/s); ",
+      "final": "集中建筑群内（通常在2.5 km内）；数据传输速率高（一般在10 Mb/s以上，典型为1 Gb/s，甚至10 Gb/s）；",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图缩进、字级、标题编号及中文标点整理。",
+      "sources": [
+        "教材 PDF 物理页 606（印刷页 599），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch17a-08",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "恢复漏文或图文关系",
+      "ocr": "低误码率（通常在10〔上标残形〕以下），可靠性高",
+      "current": "低误码率(通常在10°以下),可靠性高",
+      "final": "低误码率，可靠性高",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "低误码率和可靠性高两项均可读，数式上标仅存度符状残形，不将其误认作指数。数值原貌另入未决。",
+      "sources": [
+        "教材 PDF 物理页 606（印刷页 599），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch17a-09",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "待核",
+      "ocr": "通常在10°以下",
+      "current": "通常在10°以下",
+      "final": null,
+      "class": "C3",
+      "confidence": "低～中",
+      "evidence": "物理606页下半17.2.1“概述”，数字10后只剩小圆形，分辨不出负号或指数数字。基线“10°以下”不是有效误码率数量级，正文仅保留定性结论，不推定数值。",
+      "sources": [
+        "教材 PDF 物理页 606（印刷页 599），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch17a-10",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "恢复漏文或图文关系",
+      "ocr": "支持多种传输介质，支持实时应用。就网络拓扑而言，有总线型、环型、星型、树型等型式。从传输介质来说，包含有线局域网和无线局域网。",
+      "current": "支持多种传输介质支持实时应用。",
+      "final": "支持多种传输介质，支持实时应用。就网络拓扑而言，有总线型、环型、星型、树型等型式。从传输介质来说，包含有线局域网和无线局域网。",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "物理606页底部在实时应用后还有两句，分别按拓扑和传输介质分类；基线直跳“网络组成”。",
+      "sources": [
+        "教材 PDF 物理页 606（印刷页 599），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch17a-11",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "段落、标题或排印",
+      "ocr": "等以太网连接。\n用单核心",
+      "current": "等以太网连接。\n用单核心",
+      "final": "等以太网连接。\n\n用单核心",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图缩进、字级、标题编号及中文标点整理。",
+      "sources": [
+        "教材 PDF 物理页 607（印刷页 600），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch17a-12",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "VLAN划分与转发",
+      "ocr": "如采用三层以上交换机可划分成VLAN,VLAN内采用二层数据链路转发，VLAN之间采用三层路由转发",
+      "current": "如采用三层以上交换机可划分成VLAN,VLAN内采用二层数据链路转发，VLAN之间采用三层路由转发",
+      "final": "支持VLAN的交换机可划分VLAN。VLAN内采用二层转发，跨VLAN通信采用三层路由转发",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "Open vSwitch FAQ解释二层交换端口如何划入不同VLAN，Linux桥接文档说明802.1Q在二层以太网建立隔离广播域。无需把VLAN划分限定于三层以上交换机。",
+      "sources": [
+        "教材 PDF 物理页 607（印刷页 600），OCR 衍生页面",
+        "https://raw.githubusercontent.com/openvswitch/ovs/main/Documentation/faq/vlan.rst（访问 2026-11-27）",
+        "https://raw.githubusercontent.com/torvalds/linux/v6.12/Documentation/networking/bridge.rst（访问 2026-11-27）"
+      ]
+    },
+    {
+      "id": "ch17a-13",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "措辞或技术概念",
+      "ocr": "双核心架构通常是指核心交换设备通常采用三层及以上交换机",
+      "current": "双核心架构通常是指核心交换设备通常采用三层及以上交换机",
+      "final": "双核心架构采用两台核心交换设备，通常使用三层及以上交换机",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "图17-2明确显示两台相连的核心交换设备，两个“通常”重复。",
+      "sources": [
+        "教材 PDF 物理页 607（印刷页 600），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch17a-14",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "措辞或技术概念",
+      "ocr": "各VLAN之间访问需通过两台核心交换设备来完成",
+      "current": "各VLAN之间访问需通过两台核心交换设备来完成",
+      "final": "各VLAN之间的访问由核心交换设备进行路由转发",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "图17-2中两台核心并联，上文写只有核心有路由功能，下文明确说网关保护或负载均衡，单次访问无需依次经过两台。",
+      "sources": [
+        "教材 PDF 物理页 608（印刷页 601），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch17a-15",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "措辞或技术概念",
+      "ocr": "有一条以上条路径可选择",
+      "current": "有一条以上条路径可选择",
+      "final": "有多条路径可供选择",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "图中双上联提供多个可选路径，“条”重出。",
+      "sources": [
+        "教材 PDF 物理页 608（印刷页 601），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch17a-16",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "措辞或技术概念",
+      "ocr": "设备投资相比单核心局域网的高",
+      "current": "设备投资相比单核心局域网的高",
+      "final": "设备投资高于单核心局域网",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "移除多余“的”，明确比较对象。",
+      "sources": [
+        "教材 PDF 物理页 608（印刷页 601），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch17a-17",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "段落、标题或排印",
+      "ocr": "RPR(Resilient Packet Ring) 动态弹性分组环",
+      "current": "RPR(Resilient Packet Ring) 动态弹性分组环",
+      "final": "RPR（Resilient Packet Ring）动态弹性分组环",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图缩进、字级、标题编号及中文标点整理。",
+      "sources": [
+        "教材 PDF 物理页 608（印刷页 601），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch17a-18",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "措辞或技术概念",
+      "ocr": "环型局域网设备投资比单核心局域网的高",
+      "current": "环型局域网设备投资比单核心局域网的高",
+      "final": "环型局域网设备投资高于单核心局域网",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "“比……的高”结构杂糅，保留投资比较。",
+      "sources": [
+        "教材 PDF 物理页 609（印刷页 602），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch17a-19",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "段落、标题或排印",
+      "ocr": "LACP等协议。\n\n网络中三层设备",
+      "current": "LACP等协议。\n\n网络中三层设备",
+      "final": "LACP等协议。网络中三层设备",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图缩进、字级、标题编号及中文标点整理。",
+      "sources": [
+        "教材 PDF 物理页 609（印刷页 602），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch17a-20",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "措辞或技术概念",
+      "ocr": "路由控制的路由协议OSPF、RIP、BGP等",
+      "current": "路由控制的路由协议OSPF、RIP、BGP等",
+      "final": "路由控制的路由协议有OSPF、RIP、BGP等",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "列举协议的句子缺谓语。",
+      "sources": [
+        "教材 PDF 物理页 609（印刷页 602），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch17a-21",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "措辞或技术概念",
+      "ocr": "进行三级网络的功能进行选择",
+      "current": "进行三级网络的功能进行选择",
+      "final": "选择三级网络的功能",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "“进行……进行选择”重复谓语。",
+      "sources": [
+        "教材 PDF 物理页 610（印刷页 603），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch17a-22",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "恢复漏文或图文关系",
+      "ocr": "通常，在大型网络构建中，通过广域网将分布在各地域的局域网互连起来，形成一个大的网络。",
+      "current": "各地域的局域网互连起来，形成一个大的网络。",
+      "final": "通常，在大型网络构建中，通过广域网将分布在各地域的局域网互连起来，形成一个大的网络。",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "电子页“3. 网络架构”段落以“通常，在大型网络构建中”起句，现稿缺前半句。",
+      "sources": [
+        "教材 PDF 物理页 610（印刷页 603），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch17a-23",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "段落、标题或排印",
+      "ocr": "需要通过核心路由设备。\n\n网络中各局域网",
+      "current": "需要通过核心路由设备。\n\n网络中各局域网",
+      "final": "需要通过核心路由设备。网络中各局域网",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图缩进、字级、标题编号及中文标点整理。",
+      "sources": [
+        "教材 PDF 物理页 610（印刷页 603），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch17a-24",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "段落、标题或排印",
+      "ocr": "以及相互访问效率高。\n\n新的部门局域网",
+      "current": "以及相互访问效率高。\n\n新的部门局域网",
+      "final": "以及相互访问效率高。新的部门局域网",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图缩进、字级、标题编号及中文标点整理。",
+      "sources": [
+        "教材 PDF 物理页 610（印刷页 603），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch17a-25",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "措辞或技术概念",
+      "ocr": "网络内各局域网之间访问需经过两台核心路由设备",
+      "current": "网络内各局域网之间访问需经过两台核心路由设备",
+      "final": "网络内各局域网之间的访问通过核心路由设备转发",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "图17-6的各局域网分别接到两台核心，正文说明路径可选，不必经两台依次转发。",
+      "sources": [
+        "教材 PDF 物理页 611（印刷页 604），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch17a-26",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "措辞或技术概念",
+      "ocr": "三台以上核心路由器设备构成路由环路",
+      "current": "三台以上核心路由器设备构成路由环路",
+      "final": "三台及以上核心路由设备构成环形拓扑",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "该处描述图17-7的正常拓扑；同段后文“容易形成路由环路”才指冗余设计失当造成的故障。",
+      "sources": [
+        "教材 PDF 物理页 611（印刷页 604），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch17a-27",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "措辞或技术概念",
+      "ocr": "至少存在两条以上连接至其他路由设备的链路",
+      "current": "至少存在两条以上连接至其他路由设备的链路",
+      "final": "至少有两条连接至其他路由设备的链路",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "“至少”与“以上”重复表达下限。",
+      "sources": [
+        "教材 PDF 物理页 611（印刷页 604），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch17a-28",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "措辞或技术概念",
+      "ocr": "之间均存在链接",
+      "current": "之间均存在链接",
+      "final": "之间均存在链路",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "本段论述路由器之间的网络链路，上句即用“链路”。",
+      "sources": [
+        "教材 PDF 物理页 611（印刷页 604），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch17a-29",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "段落、标题或排印",
+      "ocr": "高层次子域连接多个低层次子域。\n\n层次子域中",
+      "current": "高层次子域连接多个低层次子域。\n\n层次子域中",
+      "final": "高层次子域连接多个低层次子域。层次子域中",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图缩进、字级、标题编号及中文标点整理。",
+      "sources": [
+        "教材 PDF 物理页 613（印刷页 606），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch17a-30",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "段落、标题或排印",
+      "ocr": "发布非法路由的风险。\n\n子域之间",
+      "current": "发布非法路由的风险。\n\n子域之间",
+      "final": "发布非法路由的风险。子域之间",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图缩进、字级、标题编号及中文标点整理。",
+      "sources": [
+        "教材 PDF 物理页 613（印刷页 606），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch17a-31",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "措辞或技术概念",
+      "ocr": "对用于域互访的域边界路由设备",
+      "current": "对用于域互访的域边界路由设备",
+      "final": "对子域互访的域边界路由设备",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "衍生页中“对用于域互访”语序不通；上一段、下一句都在概述子域间互访。",
+      "sources": [
+        "教材 PDF 物理页 613（印刷页 606），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch17a-32",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "段落、标题或排印",
+      "ocr": "### 1. 单核心架构",
+      "current": "### 1. 单核心架构",
+      "final": "1）单核心架构",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图缩进、字级、标题编号及中文标点整理。",
+      "sources": [
+        "教材 PDF 物理页 607（印刷页 600），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch17a-33",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "段落、标题或排印",
+      "ocr": "### 2. 双核心架构",
+      "current": "### 2. 双核心架构",
+      "final": "2）双核心架构",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图缩进、字级、标题编号及中文标点整理。",
+      "sources": [
+        "教材 PDF 物理页 607（印刷页 600），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch17a-34",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "段落、标题或排印",
+      "ocr": "### 3. 环型架构",
+      "current": "### 3. 环型架构",
+      "final": "3）环型架构",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图缩进、字级、标题编号及中文标点整理。",
+      "sources": [
+        "教材 PDF 物理页 608（印刷页 601），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch17a-35",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "段落、标题或排印",
+      "ocr": "### 4. 层次局域网架构",
+      "current": "### 4. 层次局域网架构",
+      "final": "4）层次局域网架构",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图缩进、字级、标题编号及中文标点整理。",
+      "sources": [
+        "教材 PDF 物理页 609（印刷页 602），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch17a-36",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "段落、标题或排印",
+      "ocr": "### 1. 单核心广域网",
+      "current": "### 1. 单核心广域网",
+      "final": "1）单核心广域网",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图缩进、字级、标题编号及中文标点整理。",
+      "sources": [
+        "教材 PDF 物理页 610（印刷页 603），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch17a-37",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "段落、标题或排印",
+      "ocr": "### 2. 双核心广域网",
+      "current": "### 2. 双核心广域网",
+      "final": "2）双核心广域网",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图缩进、字级、标题编号及中文标点整理。",
+      "sources": [
+        "教材 PDF 物理页 610（印刷页 603），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch17a-38",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "段落、标题或排印",
+      "ocr": "### 3. 环型广域网",
+      "current": "### 3. 环型广域网",
+      "final": "3）环型广域网",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图缩进、字级、标题编号及中文标点整理。",
+      "sources": [
+        "教材 PDF 物理页 611（印刷页 604），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch17a-39",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "段落、标题或排印",
+      "ocr": "### 4. 半冗余广域网",
+      "current": "### 4. 半冗余广域网",
+      "final": "4）半冗余广域网",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图缩进、字级、标题编号及中文标点整理。",
+      "sources": [
+        "教材 PDF 物理页 611（印刷页 604），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch17a-40",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "段落、标题或排印",
+      "ocr": "### 5. 对等子域广域网",
+      "current": "### 5. 对等子域广域网",
+      "final": "5）对等子域广域网",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图缩进、字级、标题编号及中文标点整理。",
+      "sources": [
+        "教材 PDF 物理页 612（印刷页 605），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch17a-41",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "段落、标题或排印",
+      "ocr": "### 6. 层次子域广域网",
+      "current": "### 6. 层次子域广域网",
+      "final": "6）层次子域广域网",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "按页图缩进、字级、标题编号及中文标点整理。",
+      "sources": [
+        "教材 PDF 物理页 613（印刷页 606），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch17a-42",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "图 17-1",
+      "ocr": "图 17-1 典型单核心局域网",
+      "current": "> 图 17-1 典型单核心局域网",
+      "final": "![图 17-1 典型单核心局域网](../../../assets/figures/textbook/ch17-communication-system-architecture/figure-17-01.svg)\n\n> 图 17-1 典型单核心局域网",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "一个核心下联两台示例接入设备，上联服务器；各组省略号表示其他同类设备。",
+      "sources": [
+        "教材 PDF 物理页 607（印刷页 600），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch17a-43",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "图 17-2",
+      "ocr": "图 17-2 典型双核心局域网",
+      "current": "> 图 17-2 典型双核心局域网",
+      "final": "![图 17-2 典型双核心局域网](../../../assets/figures/textbook/ch17-communication-system-architecture/figure-17-02.svg)\n\n> 图 17-2 典型双核心局域网",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "双核心间互连，两台服务器与两台接入设备各双联核心，用户设备分别下挂。",
+      "sources": [
+        "教材 PDF 物理页 608（印刷页 601），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch17a-44",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "图 17-3",
+      "ocr": "图 17-3 典型环型局域网",
+      "current": "> 图 17-3 典型环型局域网",
+      "final": "![图 17-3 典型环型局域网](../../../assets/figures/textbook/ch17-communication-system-architecture/figure-17-03.svg)\n\n> 图 17-3 典型环型局域网",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "四个核心节点与省略号构成环形示意，依衍生页保留底部回线和右端的可见端点，不猜补缺口。",
+      "sources": [
+        "教材 PDF 物理页 608（印刷页 601），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch17a-45",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "图 17-4",
+      "ocr": "图 17-4 层次局域网模型",
+      "current": "> 图 17-4 层次局域网模型",
+      "final": "![图 17-4 层次局域网模型](../../../assets/figures/textbook/ch17-communication-system-architecture/figure-17-04.svg)\n\n> 图 17-4 层次局域网模型",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "核心、汇聚、接入和用户层，核心互连，两组汇聚和接入成对交叉上联。",
+      "sources": [
+        "教材 PDF 物理页 609（印刷页 602），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch17a-46",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "图 17-5",
+      "ocr": "图 17-5 单核心广域网",
+      "current": "> 图 17-5 单核心广域网",
+      "final": "![图 17-5 单核心广域网](../../../assets/figures/textbook/ch17-communication-system-architecture/figure-17-05.svg)\n\n> 图 17-5 单核心广域网",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "各局域网分别连接同一核心路由设备。",
+      "sources": [
+        "教材 PDF 物理页 610（印刷页 603），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch17a-47",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "图 17-6",
+      "ocr": "图 17-6 双核心广域网",
+      "current": "> 图 17-6 双核心广域网",
+      "final": "![图 17-6 双核心广域网](../../../assets/figures/textbook/ch17-communication-system-architecture/figure-17-06.svg)\n\n> 图 17-6 双核心广域网",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "各局域网分别接至两个相互连接的核心。",
+      "sources": [
+        "教材 PDF 物理页 610（印刷页 603），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch17a-48",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "图 17-7",
+      "ocr": "图 17-7 环型广域网",
+      "current": "> 图 17-7 环型广域网",
+      "final": "![图 17-7 环型广域网](../../../assets/figures/textbook/ch17-communication-system-architecture/figure-17-07.svg)\n\n> 图 17-7 环型广域网",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "四个示例核心节点构成环，各局域网与两个相邻核心相连。",
+      "sources": [
+        "教材 PDF 物理页 611（印刷页 604），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch17a-49",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "图 17-8",
+      "ocr": "图 17-8 半冗余广域网",
+      "current": "> 图 17-8 半冗余广域网",
+      "final": "![图 17-8 半冗余广域网](../../../assets/figures/textbook/ch17-communication-system-architecture/figure-17-08.svg)\n\n> 图 17-8 半冗余广域网",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "一个包含七个路由设备的半冗余子域，外围六个局域网接口与对应核心相连。",
+      "sources": [
+        "教材 PDF 物理页 612（印刷页 605），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch17a-50",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "图 17-9",
+      "ocr": "图 17-9 对等子域广域网",
+      "current": "> 图 17-9 对等子域广域网",
+      "final": "![图 17-9 对等子域广域网](../../../assets/figures/textbook/ch17-communication-system-architecture/figure-17-09.svg)\n\n> 图 17-9 对等子域广域网",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "上下两个对等子域，各含七台路由设备；上域右下和左下两设备分别连接下域右上设备。",
+      "sources": [
+        "教材 PDF 物理页 612（印刷页 605），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch17a-51",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "图 17-10",
+      "ocr": "图 17-10 层次子域广域网",
+      "current": "> 图 17-10 层次子域广域网",
+      "final": "![图 17-10 层次子域广域网](../../../assets/figures/textbook/ch17-communication-system-architecture/figure-17-10.svg)\n\n> 图 17-10 层次子域广域网",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "上域七台、左下域五台、右下域四台设备；上域的两台边界设备各自连接两个下域，两个下域之间无直连。",
+      "sources": [
+        "教材 PDF 物理页 613（印刷页 606），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch17b-001",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "物理 614，印刷 607，17.2",
+      "ocr": "5 GS",
+      "current": "5 GS",
+      "final": "5GS",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "本组全节系统名印面及同段均为5GS，清除词内空格。",
+      "sources": [
+        "教材 PDF 物理页 614（印刷页 607），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch17b-002",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "物理 614，印刷 607，17.2",
+      "ocr": "5G S",
+      "current": "5G S",
+      "final": "5GS",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "本组全节系统名印面及同段均为5GS，清除词内空格。",
+      "sources": [
+        "教材 PDF 物理页 614（印刷页 607），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch17b-003",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "物理 614，印刷 607，17.2",
+      "ocr": "1）透明模式",
+      "current": "### 1. 透明模式",
+      "final": "1）透明模式",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "页图为上层粗体小标题所辖普通编号，恢复从属层级。",
+      "sources": [
+        "教材 PDF 物理页 614（印刷页 607），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch17b-004",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "物理 615，印刷 608，17.2",
+      "ocr": "2）非透明模式",
+      "current": "### 2. 非透明模式",
+      "final": "2）非透明模式",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "页图为上层粗体小标题所辖普通编号，恢复从属层级。",
+      "sources": [
+        "教材 PDF 物理页 615（印刷页 608），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch17b-005",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第03节-网络构建关键技术.md",
+      "loc": "物理 620，印刷 613，17.3",
+      "ocr": "1）网络部件",
+      "current": "### 1. 网络部件",
+      "final": "1）网络部件",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "页图为上层粗体小标题所辖普通编号，恢复从属层级。",
+      "sources": [
+        "教材 PDF 物理页 620（印刷页 613），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch17b-006",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第03节-网络构建关键技术.md",
+      "loc": "物理 621，印刷 614，17.3",
+      "ocr": "2）网络连接模型",
+      "current": "### 2. 网络连接模型",
+      "final": "2）网络连接模型",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "页图为上层粗体小标题所辖普通编号，恢复从属层级。",
+      "sources": [
+        "教材 PDF 物理页 621（印刷页 614），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch17b-007",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第03节-网络构建关键技术.md",
+      "loc": "物理 621，印刷 614，17.3",
+      "ocr": "3）网络协议及配置",
+      "current": "### 3. 网络协议及配置",
+      "final": "3）网络协议及配置",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "页图为上层粗体小标题所辖普通编号，恢复从属层级。",
+      "sources": [
+        "教材 PDF 物理页 621（印刷页 614），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch17b-008",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第03节-网络构建关键技术.md",
+      "loc": "物理 622，印刷 615，17.3",
+      "ocr": "1）ISATAP隧道",
+      "current": "### 1. ISATAP隧道",
+      "final": "1）ISATAP隧道",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "页图为上层粗体小标题所辖普通编号，恢复从属层级。",
+      "sources": [
+        "教材 PDF 物理页 622（印刷页 615），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch17b-009",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第03节-网络构建关键技术.md",
+      "loc": "物理 623，印刷 616，17.3",
+      "ocr": "2）6to4隧道",
+      "current": "### 2. 6to4隧道",
+      "final": "2）6to4隧道",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "页图为上层粗体小标题所辖普通编号，恢复从属层级。",
+      "sources": [
+        "教材 PDF 物理页 623（印刷页 616），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch17b-010",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第03节-网络构建关键技术.md",
+      "loc": "物理 623，印刷 616，17.3",
+      "ocr": "3）4over6隧道",
+      "current": "### 3. 4over6隧道",
+      "final": "3）4over6隧道",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "页图为上层粗体小标题所辖普通编号，恢复从属层级。",
+      "sources": [
+        "教材 PDF 物理页 623（印刷页 616），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch17b-011",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第03节-网络构建关键技术.md",
+      "loc": "物理 623，印刷 616，17.3",
+      "ocr": "4）6over4隧道",
+      "current": "### 4. 6over4隧道",
+      "final": "4）6over4隧道",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "页图为上层粗体小标题所辖普通编号，恢复从属层级。",
+      "sources": [
+        "教材 PDF 物理页 623（印刷页 616），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch17b-012",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第03节-网络构建关键技术.md",
+      "loc": "物理 624，印刷 617，17.3",
+      "ocr": "1）硬件处理方式",
+      "current": "### 1. 硬件处理方式",
+      "final": "1）硬件处理方式",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "页图为上层粗体小标题所辖普通编号，恢复从属层级。",
+      "sources": [
+        "教材 PDF 物理页 624（印刷页 617），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch17b-013",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第03节-网络构建关键技术.md",
+      "loc": "物理 624，印刷 617，17.3",
+      "ocr": "2）软件处理方式",
+      "current": "### 2. 软件处理方式",
+      "final": "2）软件处理方式",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "页图为上层粗体小标题所辖普通编号，恢复从属层级。",
+      "sources": [
+        "教材 PDF 物理页 624（印刷页 617），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch17b-014",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "物理 614，印刷 607，17.2",
+      "ocr": "移动终端用户 (User Equipment,UE)",
+      "current": "移动终端用户 (User Equipment,UE)",
+      "final": "用户设备 (User Equipment, UE)",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "同页图17-11的UE标注明确为用户设备。",
+      "sources": [
+        "教材 PDF 物理页 614（印刷页 607），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch17b-015",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "物理 614，印刷 607，17.2",
+      "ocr": "通常需要DN(Data Network) 网络，如Internet、IMS(IP Media Subsystem)、专用网络等互连来为UE提供所需的业务。\n\n各式各样的上网、语音、AR/VR、工业控制和无人驾驶等5GS中UPF网元作为DN的接入点。",
+      "current": "通常需要DN(Data Network) 网络，如Internet、IMS(IP Media Subsystem)、专用网络等互连来为UE提供所需的业务。\n\n各式各样的上网、语音、AR/VR、工业控制和无人驾驶等5GS中UPF网元作为DN的接入点。",
+      "final": "通常需要与数据网络 (Data Network, DN) 互连，如Internet、IMS (IP Multimedia Subsystem)、专用网络等，来为UE提供所需的业务，如上网、语音、AR/VR、工业控制和无人驾驶等。5GS中UPF网元作为DN的接入点。",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "连接对象接“与”；各式业务接上句例示。IMS的英文全称由RFC 4457与3GPP要求文献RFC 4083交叉核对。",
+      "sources": [
+        "教材 PDF 物理页 614（印刷页 607），OCR衍生页直接目读",
+        "https://www.rfc-editor.org/rfc/rfc4457",
+        "https://www.rfc-editor.org/rfc/rfc4083"
+      ]
+    },
+    {
+      "id": "ch17b-016",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "物理 614，印刷 607，17.2",
+      "ocr": "UE分配由运营商规划的网络地址空间的IP地址。",
+      "current": "UE分配由运营商规划的网络地址空间的IP地址。",
+      "final": "UE被分配一个来自运营商规划的网络地址空间的IP地址。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "非透明模式对应句“UE被指派”及运营商地址池共同说明UE是受配者。",
+      "sources": [
+        "教材 PDF 物理页 614（印刷页 607），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch17b-017",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "物理 615，印刷 608，17.2",
+      "ocr": "非透明接入DN和UE的原理图",
+      "current": "非透明接入DN和UE的原理图",
+      "final": "以非透明模式直接和间接接入DN的原理图",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "图17-13两个子图分别题直接接入、间接接入，终点均为ISP/Intranet。",
+      "sources": [
+        "教材 PDF 物理页 615（印刷页 608），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch17b-018",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "物理 615，印刷 608，17.2",
+      "ocr": "进行数据通信保护。\n\n至于",
+      "current": "进行数据通信保护。\n\n至于",
+      "final": "进行数据通信保护。至于",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "页图同段续行，去清洗稿多造段界。",
+      "sources": [
+        "教材 PDF 物理页 615（印刷页 608），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch17b-019",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "物理 615，印刷 608，17.2",
+      "ocr": "通常通过向外部DN-AAA服务器(如Radius、Diameter服务器)发起对UE进行认证",
+      "current": "通常通过向外部DN-AAA服务器(如Radius、Diameter服务器)发起对UE进行认证",
+      "final": "通常向外部DN-AAA服务器（如RADIUS、Diameter服务器）发起对UE的认证请求",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "“发起”需要名词宾语；同页已提供对UE进行认证、会话建立次序。",
+      "sources": [
+        "教材 PDF 物理页 615（印刷页 608），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch17b-020",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "物理 615，印刷 608，17.2",
+      "ocr": "之后UE才可访问Internet/ISP的服务",
+      "current": "之后UE才可访问Internet/ISP的服务",
+      "final": "之后UE才可访问Intranet/ISP的服务",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "同页五次指明运营商外部的目标为Intranet/ISP，Internet另指传输网络。",
+      "sources": [
+        "教材 PDF 物理页 615（印刷页 608），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch17b-021",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "物理 616，印刷 609，17.2",
+      "ocr": "Moble Edge Computing,MEC",
+      "current": "Moble Edge Computing,MEC",
+      "final": "Mobile Edge Computing, MEC",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "同句Mobile Edge Platform且图中Mobile Edge Cloud均确认Mobile拼写，保留教材当时MEC展开。",
+      "sources": [
+        "教材 PDF 物理页 616（印刷页 609），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch17b-022",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "物理 616，印刷 609，17.2",
+      "ocr": "PCF(Policy Charging Function)",
+      "current": "PCF(Policy Charging Function)",
+      "final": "PCF (Policy Control Function)",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "本书2.5明确采用Policy Control Function，图中中文为策略控制功能。",
+      "sources": [
+        "教材 PDF 物理页 616（印刷页 609），OCR衍生页直接目读",
+        "教材 2.5《计算机网络》，5G核心网功能实体PCF"
+      ]
+    },
+    {
+      "id": "ch17b-023",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "物理 617，印刷 610，17.2",
+      "ocr": "的方式。\nDAS",
+      "current": "的方式。\nDAS",
+      "final": "的方式。\n\nDAS",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "三项存储类型结束，另起DAS段。",
+      "sources": [
+        "教材 PDF 物理页 617（印刷页 610），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch17b-024",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "物理 617，印刷 610，17.2",
+      "ocr": "主机连接存储；包括",
+      "current": "主机连接存储；包括",
+      "final": "主机连接存储，包括",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "包括引出同句举例。",
+      "sources": [
+        "教材 PDF 物理页 617（印刷页 610），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch17b-025",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "物理 617，印刷 610，17.2",
+      "ocr": "最常见的NAS协议以下：",
+      "current": "最常见的NAS协议以下：",
+      "final": "最常见的NAS协议如下：",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "补足常用搭配“如下”，下文直接列两例。",
+      "sources": [
+        "教材 PDF 物理页 617（印刷页 610），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch17b-026",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "物理 617，印刷 610，17.2",
+      "ocr": "用户计算机通过远程过程调用",
+      "current": "用户计算机通过远程过程调用",
+      "final": "以NFS为例，用户计算机通过远程过程调用",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "本段RPC机制以NFS为例；同页另列CIFS/SMB。Linux NFS客户端实际调用RPC，微软说明SMB网络文件共享协议。",
+      "sources": [
+        "教材 PDF 物理页 617（印刷页 610），OCR衍生页直接目读",
+        "https://github.com/torvalds/linux/blob/master/fs/nfs/nfs3proc.c",
+        "https://github.com/MicrosoftDocs/win32/blob/docs/desktop-src/FileIO/microsoft-smb-protocol-and-cifs-protocol-overview.md"
+      ]
+    },
+    {
+      "id": "ch17b-027",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "物理 617，印刷 610，17.2",
+      "ocr": "公共Internet文件服务/服务器消息块 (Common Internet File Services / Server Message Block,CIFS/SMB)",
+      "current": "公共Internet文件服务/服务器消息块 (Common Internet File Services / Server Message Block,CIFS/SMB)",
+      "final": "公共Internet文件系统/服务器消息块 (Common Internet File System / Server Message Block, CIFS/SMB)",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "协议名由Windows开发文档及Linux SMB客户端Kconfig交叉确认。",
+      "sources": [
+        "教材 PDF 物理页 617（印刷页 610），OCR衍生页直接目读",
+        "https://github.com/MicrosoftDocs/win32/blob/docs/desktop-src/FileIO/microsoft-smb-protocol-and-cifs-protocol-overview.md",
+        "https://github.com/torvalds/linux/blob/master/fs/smb/client/Kconfig"
+      ]
+    },
+    {
+      "id": "ch17b-028",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "物理 617，印刷 610，17.2",
+      "ocr": "SAN的设计消除了单点故障，具有极高可用性和故障恢复能力",
+      "current": "SAN的设计消除了单点故障，具有极高可用性和故障恢复能力",
+      "final": "SAN可通过冗余设计消除单点故障，提高可用性和故障恢复能力",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "本章17.3.1说明单点单归故障仍会中断服务；避免把设计目标表述为每个SAN的固有属性。",
+      "sources": [
+        "教材 PDF 物理页 617（印刷页 610），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch17b-029",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "物理 618，印刷 611，17.2",
+      "ocr": "采用存储协议而不是网络协议连接服务器和存储单元",
+      "current": "采用存储协议而不是网络协议连接服务器和存储单元",
+      "final": "采用存储协议连接服务器和存储单元",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "下文IP-SAN举例明确使用TCP/IP承载，存储协议可运行于网络协议之上。",
+      "sources": [
+        "教材 PDF 物理页 618（印刷页 611），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch17b-030",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "物理 618，印刷 611，17.2",
+      "ocr": "iSCSI将SCSI命令封装在以太网帧内，然后使用IP以太网络进行传输",
+      "current": "iSCSI将SCSI命令封装在以太网帧内，然后使用IP以太网络进行传输",
+      "final": "iSCSI将SCSI命令封装在iSCSI协议数据单元中，通过TCP/IP传输",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "RFC 7143说明SCSI over TCP/IP及PDU，Linux iSCSI/TCP数据路径独立确认。",
+      "sources": [
+        "教材 PDF 物理页 618（印刷页 611），OCR衍生页直接目读",
+        "https://www.rfc-editor.org/rfc/rfc7143",
+        "https://github.com/torvalds/linux/blob/master/drivers/scsi/iscsi_tcp.c"
+      ]
+    },
+    {
+      "id": "ch17b-031",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "物理 618，印刷 611，17.2",
+      "ocr": "它与iSCSI类似，将FC帧封装在以太网数据报中，然后像iSCSI一样使用IP以太网络进行传输",
+      "current": "它与iSCSI类似，将FC帧封装在以太网数据报中，然后像iSCSI一样使用IP以太网络进行传输",
+      "final": "它将FC帧封装在以太网帧中传输，无须经过IP层",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "Linux定义FCoE帧头直接跟随含EtherType的头部；Wireshark按EtherType进行FCoE解码。",
+      "sources": [
+        "教材 PDF 物理页 618（印刷页 611），OCR衍生页直接目读",
+        "https://github.com/torvalds/linux/blob/master/include/scsi/fc/fc_fcoe.h",
+        "https://github.com/wireshark/wireshark/blob/master/epan/dissectors/packet-fcoe.c"
+      ]
+    },
+    {
+      "id": "ch17b-032",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "物理 618，印刷 611，17.2",
+      "ocr": "它是一种用于通过PCI Express(PCIe) 总线访问闪存存储的接口协议。NVMe支持若干并行序列，每一个序列又能支持若干并发命令。\nSAN",
+      "current": "它是一种用于通过PCI Express(PCIe) 总线访问闪存存储的接口协议。NVMe支持若干并行序列，每一个序列又能支持若干并发命令。\nSAN",
+      "final": "它通过光纤通道传输NVMe命令。NVMe支持多个并行队列，每个队列又能支持多个并发命令。\n\nSAN",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "原句将本地PCIe与该项FC传输混同。Linux FC主机与SPDK FC目标分别实现FC传输及并行I/O队列。末句不属第4项。",
+      "sources": [
+        "教材 PDF 物理页 618（印刷页 611），OCR衍生页直接目读",
+        "https://github.com/torvalds/linux/blob/master/drivers/nvme/host/fc.c",
+        "https://github.com/spdk/spdk/blob/master/lib/nvmf/fc.c"
+      ]
+    },
+    {
+      "id": "ch17b-033",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "物理 619，印刷 612，17.2",
+      "ocr": "具有网络控制逻辑的中心",
+      "current": "具有网络控制逻辑的中心",
+      "final": "是网络控制的逻辑中心",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "同页控制平面表述“逻辑上为中心的SDN控制器”。",
+      "sources": [
+        "教材 PDF 物理页 619（印刷页 612），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch17b-034",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "物理 619，印刷 612，17.2",
+      "ocr": "它掌握着",
+      "current": "它南向接口掌握着",
+      "final": "它掌握着",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "右侧插图内“南向接口”串入左栏。直接目读左栏句子为“它掌握着”。",
+      "sources": [
+        "教材 PDF 物理页 619（印刷页 612），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch17b-035",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "物理 619，印刷 612，17.2",
+      "ocr": "的下发；\n\n应用平面",
+      "current": "的下发；\n\n应用平面",
+      "final": "的下发；应用平面",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "页图数据、控制、应用平面为同一段并列叙述。",
+      "sources": [
+        "教材 PDF 物理页 619（印刷页 612），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch17b-036",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第03节-网络构建关键技术.md",
+      "loc": "物理 621，印刷 614，17.3",
+      "ocr": "为R2。它们的高可用性指标分别是A1、A2、A3、A4、A5。由NE1和NE2两类设备组成的这五种型式网络的可用性计算如下。",
+      "current": "为R2。它们的高可用性指标分别是A1、A2、A3、A4、A5。由NE1和NE2两类设备组成的这五种型式网络的可用性计算如下。",
+      "final": "为R2。假设各设备独立失效，链路始终可用，只要存在一条连通任一在线NE1和任一在线NE2的路径，网络即可用。在此假设下，五种拓扑的可用性分别为A1、A2、A3、A4、A5，计算如下。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "五式仅含节点在线率，并将各独立节点或不相交路径概率相乘；依据图和算式明确适用前提。",
+      "sources": [
+        "教材 PDF 物理页 621（印刷页 614），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch17b-037",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第03节-网络构建关键技术.md",
+      "loc": "物理 621，印刷 614，17.3",
+      "ocr": "(a) 是一对一（单点单归）连接方式，其可用性为 $A_1=R_1R_2$；(b) 是一对二（单点双归）连接方式，其可用性为 $A_2=R_2\\left[1-(1-R_1)^2\\right]$；(c) 是二对一（双点单归）连接方式，其可用性为 $A_3=R_1\\left[1-(1-R_2)^2\\right]$；(d) 是双一对一（双点双归）连接方式，其可用性为 $A_4=1-(1-R_1R_2)^2$；(e) 是双一对二（双归属）连接方式，其可用性为 $A_5=\\left[1-(1-R_1)^2\\right]\\left[1-(1-R_2)^2\\right]$。",
+      "current": "(a) 是一对一（单点单归）连接方式，其可用性为 $A_1=R_1R_2$；(b) 是一对二（单点双归）连接方式，其可用性为 $A_2=R_2\\left[1-(1-R_1)^2\\right]$；(c) 是二对一（双点单归）连接方式，其可用性为 $A_3=R_1\\left[1-(1-R_2)^2\\right]$；(d) 是双一对一（双点双归）连接方式，其可用性为 $A_4=1-(1-R_1R_2)^2$；(e) 是双一对二（双归属）连接方式，其可用性为 $A_5=\\left[1-(1-R_1)^2\\right]\\left[1-(1-R_2)^2\\right]$。",
+      "final": "(a) 是一对一（单点单归）连接方式，其可用性为 $A_1=R_1R_2$。\n\n(b) 是一对二（单点双归）连接方式，其可用性为 $A_2=R_2\\left[1-(1-R_1)^2\\right]$。\n\n(c) 是二对一（双点单归）连接方式，其可用性为 $A_3=R_1\\left[1-(1-R_2)^2\\right]$。\n\n(d) 是双一对一（双点双归）连接方式，其可用性为 $A_4=1-(1-R_1R_2)^2$。\n\n(e) 是双一对二（双归属）连接方式，其可用性为 $A_5=\\left[1-(1-R_1)^2\\right]\\left[1-(1-R_2)^2\\right]$。",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "版面五种拓扑分别成项，公式不变以便与图逐项对读。",
+      "sources": [
+        "教材 PDF 物理页 621（印刷页 614），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch17b-038",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第03节-网络构建关键技术.md",
+      "loc": "物理 622，印刷 615，17.3",
+      "ocr": "互联网数字分配机构 (IANA) 在2016年已向国际互联网工程任务组 (IETF) 提出建议，要求新制定的国际互联网标准只支持IPv6, 不再兼容IPv4。",
+      "current": "互联网数字分配机构 (IANA) 在2016年已向国际互联网工程任务组 (IETF) 提出建议，要求新制定的国际互联网标准只支持IPv6, 不再兼容IPv4。",
+      "final": "2016年11月7日，互联网架构委员会 (IAB) 发表声明，希望互联网工程任务组 (IETF) 制定或扩展协议时不再强制要求与IPv4兼容。",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "IAB声明原文的机构、日期及“不再要求IPv4兼容”范围，由IETF作者指南对该正式声明的链接交叉确认。",
+      "sources": [
+        "教材 PDF 物理页 622（印刷页 615），OCR衍生页直接目读",
+        "https://github.com/kesara/iab-scraper/blob/b23b11e2b1589c9e8b80099c733c817ae9d9cc52/iab_statements/2016-11-07.md",
+        "https://github.com/ietf/authors.ietf.org/blob/a9f106b9344a6d1c20b0951d11a2ce97077b392c/example-addresses.md",
+        "https://www.iab.org/2016/11/07/iab-statement-on-ipv6"
+      ]
+    },
+    {
+      "id": "ch17b-039",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第03节-网络构建关键技术.md",
+      "loc": "物理 622，印刷 615，17.3",
+      "ocr": "相同的传输层协议TCP、UDP等",
+      "current": "相同的传输层协议TCP、UDP以及链路层、物理层协议等",
+      "final": "相同的传输层协议TCP、UDP等",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "页图正文在TCP、UDP等处止；旁图底行写链路层及物理层，是IP的下层。",
+      "sources": [
+        "教材 PDF 物理页 622（印刷页 615），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch17b-040",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第03节-网络构建关键技术.md",
+      "loc": "物理 623，印刷 616，17.3",
+      "ocr": "网络地址翻译 (Network Address Translator) 技术",
+      "current": "网络地址翻译 (Network Address Translator) 技术",
+      "final": "网络地址翻译 (Network Address Translation) 技术",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "同页下文的NAT-PT展开为Network Address Translation-Protocol Translation，与此处“技术”词性相符。",
+      "sources": [
+        "教材 PDF 物理页 623（印刷页 616），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch17b-041",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第03节-网络构建关键技术.md",
+      "loc": "物理 623，印刷 616，17.3",
+      "ocr": "(RFC2766) 协议、SIIT(Stateless IP/ICMPTranslation)(RFC2765) 协议等。",
+      "current": "(RFC2766) 协议、SIIT(Stateless IP/ICMPTranslation)(RFC2765) 协议等。",
+      "final": "（RFC 2766）、SIIT (Stateless IP/ICMP Translation，RFC 2765) 等早期规范。RFC 2766 后已转为历史状态，SIIT 的算法规范则经 RFC 6145 修订，再由 RFC 7915 取代。",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "采用早期规范的历史限定；NAT-PT移入历史状态、SIIT的旧版与替代关系由独立编写的相应RFC沿革确认。",
+      "sources": [
+        "教材 PDF 物理页 623（印刷页 616），OCR衍生页直接目读",
+        "https://www.rfc-editor.org/rfc/rfc2766",
+        "https://www.rfc-editor.org/rfc/rfc4966",
+        "https://www.rfc-editor.org/rfc/rfc2765",
+        "https://www.rfc-editor.org/rfc/rfc6145",
+        "https://www.rfc-editor.org/rfc/rfc7915"
+      ]
+    },
+    {
+      "id": "ch17b-042",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第03节-网络构建关键技术.md",
+      "loc": "物理 624，印刷 617，17.3",
+      "ocr": "单一集中式结构的控制器，一般采用了多线程的方式对控制器进行性能提升，形成NOX-MT版本。",
+      "current": "单一集中式结构的控制器，一般采用了多线程的方式对控制器进行性能提升，形成NOX-MT版本。",
+      "final": "单一集中式结构的控制器可采用多线程方式提升性能，NOX-MT就是一个例子。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "同段下一例为Maestro，因此NOX-MT不能泛指所有多线程控制器。",
+      "sources": [
+        "教材 PDF 物理页 624（印刷页 617），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch17b-043",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第03节-网络构建关键技术.md",
+      "loc": "物理 624，印刷 617，17.3",
+      "ocr": "“二段提交”",
+      "current": "“二段提交”",
+      "final": "“两段提交”",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "同段同一术语，与前一处“两段提交”统一。",
+      "sources": [
+        "教材 PDF 物理页 624（印刷页 617），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch17b-044",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "物理 614，印刷 607，17.2",
+      "ocr": "MG=RAN（接入网）",
+      "current": "图17-11仅留图注",
+      "final": null,
+      "class": "C3",
+      "confidence": "低～中",
+      "evidence": "图中接入网字形清楚为MG=RAN，可能原拟NG-RAN，也可能泛指5G接入网。无纸书对照区分，按底本留形。",
+      "sources": [
+        "教材 PDF 物理页 614（印刷页 607），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch17b-045",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "物理 614，印刷 607，17.2",
+      "ocr": "DHCP（动态主机控制协议）",
+      "current": "图17-11、17-12仅留图注",
+      "final": "DHCP（动态主机配置协议）",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "网络协议全称中的Configuration应译为配置，非控制。",
+      "sources": [
+        "教材 PDF 物理页 614（印刷页 607），OCR衍生页直接目读",
+        "https://www.rfc-editor.org/rfc/rfc2131",
+        "https://github.com/wireshark/wireshark/blob/master/epan/dissectors/packet-dhcp.c"
+      ]
+    },
+    {
+      "id": "ch17b-046",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "物理 616，印刷 609，17.2",
+      "ocr": "NET（网络能力开放功能）",
+      "current": "图17-14仅留图注",
+      "final": "NEF（网络能力开放功能）",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "正文明确给出NEF及Network Exposure Function，全图同一实体。",
+      "sources": [
+        "教材 PDF 物理页 616（印刷页 609），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch17b-047",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "物理 619，印刷 612，17.2",
+      "ocr": "Clean State",
+      "current": "CLean State",
+      "final": null,
+      "class": "C3",
+      "confidence": "低～中",
+      "evidence": "该斯坦福项目名疑为Clean Slate；页图写Clean State，历史归属与名称待独立资料核定。",
+      "sources": [
+        "教材 PDF 物理页 619（印刷页 612），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch17b-048",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第03节-网络构建关键技术.md",
+      "loc": "物理 622，印刷 615，17.3",
+      "ocr": "目前国内外主流网络还是IPv4网络，IPv6网络尚未规模化部署。",
+      "current": "目前国内外主流网络还是IPv4网络，IPv6网络尚未规模化部署。",
+      "final": null,
+      "class": "C3",
+      "confidence": "低～中",
+      "evidence": "缺少教材编写时的地区、指标与数据；该描述有明确时代性，不用当前数据直接替换。",
+      "sources": [
+        "教材 PDF 物理页 622（印刷页 615），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch17b-049",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第03节-网络构建关键技术.md",
+      "loc": "物理 624，印刷 617，17.3",
+      "ocr": "控制器询问每个交换机是否处理完对应旧规则的流",
+      "current": "控制器询问每个交换机是否处理完对应旧规则的流",
+      "final": null,
+      "class": "C3",
+      "confidence": "低～中",
+      "evidence": "本段有特定更新流程，但未指明具体论文或算法，不能据其概括所有一致性更新方案。",
+      "sources": [
+        "教材 PDF 物理页 624（印刷页 617），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch17b-050",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第03节-网络构建关键技术.md",
+      "loc": "物理 624，印刷 617，17.3",
+      "ocr": "RMT(Reconfigurable Match Tables)",
+      "current": "RMT(Reconfigurable Match Tables)",
+      "final": "RMT(Reconfigurable Match Tables)",
+      "class": "K",
+      "confidence": "A",
+      "evidence": "保留基线正确拼写、与相邻可重配置匹配表的中文对应；不扩写为另一名称。",
+      "sources": [
+        "教材 PDF 物理页 624（印刷页 617），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch17b-051",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "物理 614，印刷 607，17.2",
+      "ocr": ";DL",
+      "current": ";DL",
+      "final": "；DL",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "修订同句标点或缺失的助词，使并列或语法连接清楚。",
+      "sources": [
+        "教材 PDF 物理页 614（印刷页 607），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch17b-052",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "物理 614，印刷 607，17.2",
+      "ocr": "相反从5GS来看",
+      "current": "相反从5GS来看",
+      "final": "相反，从5GS来看",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "修订同句标点或缺失的助词，使并列或语法连接清楚。",
+      "sources": [
+        "教材 PDF 物理页 614（印刷页 607），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch17b-053",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "物理 615，印刷 608，17.2",
+      "ocr": "如5GS通过Internet方式",
+      "current": "如5GS通过Internet方式",
+      "final": "如5GS通过Internet",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "修订同句标点或缺失的助词，使并列或语法连接清楚。",
+      "sources": [
+        "教材 PDF 物理页 615（印刷页 608），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch17b-054",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "物理 616，印刷 609，17.2",
+      "ocr": "SMF,SMF",
+      "current": "SMF,SMF",
+      "final": "SMF，SMF",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "修订同句标点或缺失的助词，使并列或语法连接清楚。",
+      "sources": [
+        "教材 PDF 物理页 616（印刷页 609），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch17b-055",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第02节-通信系统网络架构.md",
+      "loc": "物理 618，印刷 611，17.2",
+      "ocr": "最常见SAN协议",
+      "current": "最常见SAN协议",
+      "final": "最常见的SAN协议",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "修订同句标点或缺失的助词，使并列或语法连接清楚。",
+      "sources": [
+        "教材 PDF 物理页 618（印刷页 611），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch17b-056",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第03节-网络构建关键技术.md",
+      "loc": "物理 620，印刷 613，17.3",
+      "ocr": "提高MTBF, 降低MTTR",
+      "current": "提高MTBF, 降低MTTR",
+      "final": "提高MTBF、降低MTTR",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "修订同句标点或缺失的助词，使并列或语法连接清楚。",
+      "sources": [
+        "教材 PDF 物理页 620（印刷页 613），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch17b-057",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第03节-网络构建关键技术.md",
+      "loc": "物理 621，印刷 614，17.3",
+      "ocr": "为R1, 网络设备",
+      "current": "为R1, 网络设备",
+      "final": "为R1，网络设备",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "修订同句标点或缺失的助词，使并列或语法连接清楚。",
+      "sources": [
+        "教材 PDF 物理页 621（印刷页 614），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch17b-058",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第03节-网络构建关键技术.md",
+      "loc": "物理 623，印刷 616，17.3",
+      "ocr": "即地址前缀为“2002:”,将",
+      "current": "即地址前缀为“2002:”,将",
+      "final": "即地址前缀为“2002:”，将",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "修订同句标点或缺失的助词，使并列或语法连接清楚。",
+      "sources": [
+        "教材 PDF 物理页 623（印刷页 616），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch17b-059",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第03节-网络构建关键技术.md",
+      "loc": "物理 624，印刷 617，17.3",
+      "ocr": "是Maestro, 它",
+      "current": "是Maestro, 它",
+      "final": "是Maestro，它",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "修订同句标点或缺失的助词，使并列或语法连接清楚。",
+      "sources": [
+        "教材 PDF 物理页 624（印刷页 617），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch17b-060",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第03节-网络构建关键技术.md",
+      "loc": "物理 624，印刷 617，17.3",
+      "ocr": "是FlowAdapter, 它",
+      "current": "是FlowAdapter, 它",
+      "final": "是FlowAdapter，它",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "修订同句标点或缺失的助词，使并列或语法连接清楚。",
+      "sources": [
+        "教材 PDF 物理页 624（印刷页 617），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-01",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第04节-网络构建和设计方法.md",
+      "loc": "物理 625 / 印刷 618，17.4",
+      "ocr": "功能。\n收集用户需求",
+      "current": "功能。\n收集用户需求",
+      "final": "功能。收集用户需求",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "第2项在同一段内续写。",
+      "sources": [
+        "入库教材 PDF 物理 625 / 印刷 618，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-02",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第04节-网络构建和设计方法.md",
+      "loc": "物理 625 / 印刷 618，17.4",
+      "ocr": "几方面入手。\n\n通过与特定",
+      "current": "几方面入手。\n\n通过与特定",
+      "final": "几方面入手。通过与特定",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "续文齐左且无首行缩进，与第2项合段。",
+      "sources": [
+        "入库教材 PDF 物理 625 / 印刷 618，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-03",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第04节-网络构建和设计方法.md",
+      "loc": "物理 625 / 印刷 618，17.4",
+      "ocr": "分项需求表。\n通过上述",
+      "current": "分项需求表。\n通过上述",
+      "final": "分项需求表。\n\n通过上述",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "概括五项的总结另起一段。",
+      "sources": [
+        "入库教材 PDF 物理 625 / 印刷 618，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-04",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第04节-网络构建和设计方法.md",
+      "loc": "物理 625 / 印刷 618，17.4",
+      "ocr": "更客观做出",
+      "current": "更客观做出",
+      "final": "更客观地做出",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "“客观”修饰“做出”，补状语标记。",
+      "sources": [
+        "入库教材 PDF 物理 625 / 印刷 618，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-05",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第04节-网络构建和设计方法.md",
+      "loc": "物理 626 / 印刷 619，17.4",
+      "ocr": "构建虚拟局域网(VLAN), 可",
+      "current": "构建虚拟局域网(VLAN), 可",
+      "final": "构建虚拟局域网（VLAN），可",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "中文括注与逗号排版。",
+      "sources": [
+        "入库教材 PDF 物理 626 / 印刷 619，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-06",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第04节-网络构建和设计方法.md",
+      "loc": "物理 626 / 印刷 619，17.4",
+      "ocr": "一个以上AP提供无线覆盖，从而避免一个AP故障后，可由其他AP接替",
+      "current": "一个以上AP提供无线覆盖，从而避免一个AP故障后，可由其他AP接替",
+      "final": "两个或更多AP提供无线覆盖，当一个AP故障时，可由其他AP接替",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "同一区域要有另一台可接替，至少两台；冗余避免中断而不能避免单台故障。",
+      "sources": [
+        "入库教材 PDF 物理 626 / 印刷 619，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-07",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第04节-网络构建和设计方法.md",
+      "loc": "物理 626 / 印刷 619，17.4",
+      "ocr": "所有AP都应设置成同一SSID",
+      "current": "所有AP都应设置成同一SSID",
+      "final": "提供同一无线网络的AP应设置成同一SSID。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "同一段给出虚拟网规划，组织可提供多个无线网络；把SSID一致的范围限定在同一无线网络。",
+      "sources": [
+        "入库教材 PDF 物理 626 / 印刷 619，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-08",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第04节-网络构建和设计方法.md",
+      "loc": "物理 627 / 印刷 620，17.4",
+      "ocr": "移动性角度的用户",
+      "current": "移动性角度的用户",
+      "final": "移动性较高的用户",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "同句前接“频繁变更位置”，是描述移动程度，不是“角度”。",
+      "sources": [
+        "入库教材 PDF 物理 627 / 印刷 620，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-09",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第04节-网络构建和设计方法.md",
+      "loc": "物理 628 / 印刷 621，17.4",
+      "ocr": "网络复杂度不同增大",
+      "current": "网络复杂度不同增大",
+      "final": "网络复杂度不断增大",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "与前一分句“网络用户不断增加”相对。",
+      "sources": [
+        "入库教材 PDF 物理 628 / 印刷 621，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-10",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第04节-网络构建和设计方法.md",
+      "loc": "物理 628 / 印刷 621，17.4",
+      "ocr": "核心层覆盖范围不易过大，连接设备也不易过多",
+      "current": "核心层覆盖范围不易过大，连接设备也不易过多",
+      "final": "核心层覆盖范围不宜过大，连接设备也不宜过多",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "本项提出设计建议，后文亦用“不宜”。",
+      "sources": [
+        "入库教材 PDF 物理 628 / 印刷 621，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-11",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第04节-网络构建和设计方法.md",
+      "loc": "物理 628 / 印刷 621，17.4",
+      "ocr": "模型设计思路。\n\n三层层次化模型将",
+      "current": "模型设计思路。\n\n三层层次化模型将",
+      "final": "模型设计思路。三层层次化模型将",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "“三层层次化模型将”在下一行顶格，承上未缩进。",
+      "sources": [
+        "入库教材 PDF 物理 628 / 印刷 621，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-12",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第04节-网络构建和设计方法.md",
+      "loc": "物理 629 / 印刷 622，17.4",
+      "ocr": "可用性只有90%",
+      "current": "可用性只有90%",
+      "final": "可用性约为90.91%",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "按题设10年可用、1年修复，10÷(10+1)=90.909…%。",
+      "sources": [
+        "入库教材 PDF 物理 629 / 印刷 622，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-13",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第04节-网络构建和设计方法.md",
+      "loc": "物理 629 / 印刷 622，17.4",
+      "ocr": "只需要1ms就可恢复，那么它的可用性是99.99%",
+      "current": "只需要1ms就可恢复，那么它的可用性是99.99%",
+      "final": "只需要1 ms就可恢复，那么它的可用性约为99.99%",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "10÷(10+0.001)为近似99.99%，原数值正确，补近似用语并规范单位。",
+      "sources": [
+        "入库教材 PDF 物理 629 / 印刷 622，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-14",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第04节-网络构建和设计方法.md",
+      "loc": "物理 629 / 印刷 622，17.4",
+      "ocr": "对业务影响则很小。\n可见",
+      "current": "对业务影响则很小。\n可见",
+      "final": "对业务影响则很小。\n\n可见",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "两个途径之后的总结为独立段。",
+      "sources": [
+        "入库教材 PDF 物理 629 / 印刷 622，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-15",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第04节-网络构建和设计方法.md",
+      "loc": "物理 631 / 印刷 624，17.4",
+      "ocr": "正常运行的切行为",
+      "current": "正常运行的切行为",
+      "final": "正常运行的一切行为",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "页图跨行“的／一切行为和手段”清楚，基线漏“一”。",
+      "sources": [
+        "入库教材 PDF 物理 631 / 印刷 624，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-16",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第04节-网络构建和设计方法.md",
+      "loc": "物理 632 / 印刷 625，17.4",
+      "ocr": "人力等),来",
+      "current": "人力等),来",
+      "final": "人力等），来",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "中文插入语闭括号和逗号。",
+      "sources": [
+        "入库教材 PDF 物理 632 / 印刷 625，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-17",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第04节-网络构建和设计方法.md",
+      "loc": "物理 632 / 印刷 625，17.4",
+      "ocr": "所需资源(空间",
+      "current": "所需资源(空间",
+      "final": "所需资源（空间",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "与后面的中文闭括号配对。",
+      "sources": [
+        "入库教材 PDF 物理 632 / 印刷 625，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-18",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第04节-网络构建和设计方法.md",
+      "loc": "物理 632 / 印刷 625，17.4",
+      "ocr": "虚拟化是一种网络资源可以灵活调配、按需使用的重要途径",
+      "current": "虚拟化是一种网络资源可以灵活调配、按需使用的重要途径",
+      "final": "虚拟化是使网络资源能够灵活调配、按需使用的重要途径",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "“使……能够”表达手段及目标，去除“一种网络资源可以”的主谓粘连。",
+      "sources": [
+        "入库教材 PDF 物理 632 / 印刷 625，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-19",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第04节-网络构建和设计方法.md",
+      "loc": "物理 632 / 印刷 625，17.4",
+      "ocr": "所以设备尽量多的智能化、统一管理",
+      "current": "所以设备尽量多的智能化、统一管理",
+      "final": "所以，尽量对更多设备实施智能化、统一管理",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "保留适用设备的数量范围，恢复“对设备实施管理”的句法关系。",
+      "sources": [
+        "入库教材 PDF 物理 632 / 印刷 625，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-20",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第04节-网络构建和设计方法.md",
+      "loc": "物理 632 / 印刷 625，17.4",
+      "ocr": "降低TCO, 达到绿色环保目的",
+      "current": "降低TCO, 达到绿色环保目的",
+      "final": "降低TCO，达到绿色环保目的",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "中文语句内用逗号。",
+      "sources": [
+        "入库教材 PDF 物理 632 / 印刷 625，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-21",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第04节-网络构建和设计方法.md",
+      "loc": "物理 633 / 印刷 626，17.4",
+      "ocr": "降低TCO, 达到绿色环保效果",
+      "current": "降低TCO, 达到绿色环保效果",
+      "final": "降低TCO，达到绿色环保效果",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "中文语句内用逗号。",
+      "sources": [
+        "入库教材 PDF 物理 633 / 印刷 626，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-22",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第04节-网络构建和设计方法.md",
+      "loc": "物理 633 / 印刷 626，17.4",
+      "ocr": "体现更直观：\n\n但深入分析",
+      "current": "体现更直观：\n\n但深入分析",
+      "final": "体现更直观，但深入分析",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "底本“虽然……但……”在同段连续，逗号承接。",
+      "sources": [
+        "入库教材 PDF 物理 633 / 印刷 626，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-23",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第04节-网络构建和设计方法.md",
+      "loc": "物理 625 / 印刷 618，17.4",
+      "ocr": "1）生成树协议(Spanning Tree Protocol,STP)",
+      "current": "### 1. 生成树协议(Spanning Tree Protocol,STP)",
+      "final": "1）生成树协议（Spanning Tree Protocol，STP）",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "页图为普通编号、正文字重。恢复小目，避免与上一级标题并列。",
+      "sources": [
+        "入库教材 PDF 物理 625 / 印刷 618，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-24",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第04节-网络构建和设计方法.md",
+      "loc": "物理 626 / 印刷 619，17.4",
+      "ocr": "2）虚拟局域网",
+      "current": "### 2. 虚拟局域网",
+      "final": "2）虚拟局域网",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "页图为普通编号、正文字重。恢复小目，避免与上一级标题并列。",
+      "sources": [
+        "入库教材 PDF 物理 626 / 印刷 619，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-25",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第04节-网络构建和设计方法.md",
+      "loc": "物理 626 / 印刷 619，17.4",
+      "ocr": "3）无线局域网",
+      "current": "### 3. 无线局域网",
+      "final": "3）无线局域网",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "页图为普通编号、正文字重。恢复小目，避免与上一级标题并列。",
+      "sources": [
+        "入库教材 PDF 物理 626 / 印刷 619，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-26",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第04节-网络构建和设计方法.md",
+      "loc": "物理 626 / 印刷 619，17.4",
+      "ocr": "4）线路冗余设计",
+      "current": "### 4. 线路冗余设计",
+      "final": "4）线路冗余设计",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "页图为普通编号、正文字重。恢复小目，避免与上一级标题并列。",
+      "sources": [
+        "入库教材 PDF 物理 626 / 印刷 619，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-27",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第04节-网络构建和设计方法.md",
+      "loc": "物理 626 / 印刷 619，17.4",
+      "ocr": "5）交换设备功能的合理使用",
+      "current": "### 5. 交换设备功能的合理使用",
+      "final": "5）交换设备功能的合理使用",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "页图为普通编号、正文字重。恢复小目，避免与上一级标题并列。",
+      "sources": [
+        "入库教材 PDF 物理 626 / 印刷 619，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-28",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第04节-网络构建和设计方法.md",
+      "loc": "物理 626 / 印刷 619，17.4",
+      "ocr": "6）服务器冗余设计",
+      "current": "### 6. 服务器冗余设计",
+      "final": "6）服务器冗余设计",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "页图为普通编号、正文字重。恢复小目，避免与上一级标题并列。",
+      "sources": [
+        "入库教材 PDF 物理 626 / 印刷 619，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-29",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第04节-网络构建和设计方法.md",
+      "loc": "物理 627 / 印刷 620，17.4",
+      "ocr": "1）远程接入技术",
+      "current": "### 1. 远程接入技术",
+      "final": "1）远程接入技术",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "页图为普通编号、正文字重。恢复小目，避免与上一级标题并列。",
+      "sources": [
+        "入库教材 PDF 物理 627 / 印刷 620，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-30",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第04节-网络构建和设计方法.md",
+      "loc": "物理 627 / 印刷 620，17.4",
+      "ocr": "2）广域网互连技术",
+      "current": "### 2. 广域网互连技术",
+      "final": "2）广域网互连技术",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "页图为普通编号、正文字重。恢复小目，避免与上一级标题并列。",
+      "sources": [
+        "入库教材 PDF 物理 627 / 印刷 620，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-31",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第04节-网络构建和设计方法.md",
+      "loc": "物理 628 / 印刷 621，17.4",
+      "ocr": "1）层次化设计优点",
+      "current": "### 1. 层次化设计优点",
+      "final": "1）层次化设计优点",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "页图为普通编号、正文字重。恢复小目，避免与上一级标题并列。",
+      "sources": [
+        "入库教材 PDF 物理 628 / 印刷 621，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-32",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第04节-网络构建和设计方法.md",
+      "loc": "物理 628 / 印刷 621，17.4",
+      "ocr": "2）三层层次化模型设计思路",
+      "current": "### 2. 三层层次化模型设计思路",
+      "final": "2）三层层次化模型设计思路",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "页图为普通编号、正文字重。恢复小目，避免与上一级标题并列。",
+      "sources": [
+        "入库教材 PDF 物理 628 / 印刷 621，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-33",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第04节-网络构建和设计方法.md",
+      "loc": "物理 629 / 印刷 622，17.4",
+      "ocr": "3）层次化设计应遵循原则",
+      "current": "### 3. 层次化设计应遵循原则",
+      "final": "3）层次化设计应遵循原则",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "页图为普通编号、正文字重。恢复小目，避免与上一级标题并列。",
+      "sources": [
+        "入库教材 PDF 物理 629 / 印刷 622，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-34",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第04节-网络构建和设计方法.md",
+      "loc": "物理 629 / 印刷 622，17.4",
+      "ocr": "1）提高网络可用性的途径",
+      "current": "### 1. 提高网络可用性的途径",
+      "final": "1）提高网络可用性的途径",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "页图为普通编号、正文字重。恢复小目，避免与上一级标题并列。",
+      "sources": [
+        "入库教材 PDF 物理 629 / 印刷 622，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-35",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第04节-网络构建和设计方法.md",
+      "loc": "物理 629 / 印刷 622，17.4",
+      "ocr": "2）设计的核心思想",
+      "current": "### 2. 设计的核心思想",
+      "final": "2）设计的核心思想",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "页图为普通编号、正文字重。恢复小目，避免与上一级标题并列。",
+      "sources": [
+        "入库教材 PDF 物理 629 / 印刷 622，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-36",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第04节-网络构建和设计方法.md",
+      "loc": "物理 629 / 印刷 622，17.4",
+      "ocr": "3）设计原则",
+      "current": "### 3. 设计原则",
+      "final": "3）设计原则",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "页图为普通编号、正文字重。恢复小目，避免与上一级标题并列。",
+      "sources": [
+        "入库教材 PDF 物理 629 / 印刷 622，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-37",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第04节-网络构建和设计方法.md",
+      "loc": "物理 630 / 印刷 623，17.4",
+      "ocr": "1）防火墙布设",
+      "current": "### 1. 防火墙布设",
+      "final": "1）防火墙布设",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "页图为普通编号、正文字重。恢复小目，避免与上一级标题并列。",
+      "sources": [
+        "入库教材 PDF 物理 630 / 印刷 623，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-38",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第04节-网络构建和设计方法.md",
+      "loc": "物理 630 / 印刷 623，17.4",
+      "ocr": "2）VPN技术",
+      "current": "### 2. VPN技术",
+      "final": "2）VPN技术",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "页图为普通编号、正文字重。恢复小目，避免与上一级标题并列。",
+      "sources": [
+        "入库教材 PDF 物理 630 / 印刷 623，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-39",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第04节-网络构建和设计方法.md",
+      "loc": "物理 630 / 印刷 623，17.4",
+      "ocr": "3）访问控制技术",
+      "current": "### 3. 访问控制技术",
+      "final": "3）访问控制技术",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "页图为普通编号、正文字重。恢复小目，避免与上一级标题并列。",
+      "sources": [
+        "入库教材 PDF 物理 630 / 印刷 623，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-40",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第04节-网络构建和设计方法.md",
+      "loc": "物理 631 / 印刷 624，17.4",
+      "ocr": "4）网络安全隔离",
+      "current": "### 4. 网络安全隔离",
+      "final": "4）网络安全隔离",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "页图为普通编号、正文字重。恢复小目，避免与上一级标题并列。",
+      "sources": [
+        "入库教材 PDF 物理 631 / 印刷 624，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-41",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第04节-网络构建和设计方法.md",
+      "loc": "物理 631 / 印刷 624，17.4",
+      "ocr": "5）网络安全协议",
+      "current": "### 5. 网络安全协议",
+      "final": "5）网络安全协议",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "页图为普通编号、正文字重。恢复小目，避免与上一级标题并列。",
+      "sources": [
+        "入库教材 PDF 物理 631 / 印刷 624，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-42",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第04节-网络构建和设计方法.md",
+      "loc": "物理 631 / 印刷 624，17.4",
+      "ocr": "6）网络安全审计",
+      "current": "### 6. 网络安全审计",
+      "final": "6）网络安全审计",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "页图为普通编号、正文字重。恢复小目，避免与上一级标题并列。",
+      "sources": [
+        "入库教材 PDF 物理 631 / 印刷 624，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-43",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第04节-网络构建和设计方法.md",
+      "loc": "物理 632 / 印刷 625，17.4",
+      "ocr": "1）标准化",
+      "current": "### 1. 标准化",
+      "final": "1）标准化",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "页图为普通编号、正文字重。恢复小目，避免与上一级标题并列。",
+      "sources": [
+        "入库教材 PDF 物理 632 / 印刷 625，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-44",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第04节-网络构建和设计方法.md",
+      "loc": "物理 632 / 印刷 625，17.4",
+      "ocr": "2）集成化",
+      "current": "### 2. 集成化",
+      "final": "2）集成化",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "页图为普通编号、正文字重。恢复小目，避免与上一级标题并列。",
+      "sources": [
+        "入库教材 PDF 物理 632 / 印刷 625，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-45",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第04节-网络构建和设计方法.md",
+      "loc": "物理 632 / 印刷 625，17.4",
+      "ocr": "3）虚拟化",
+      "current": "### 3. 虚拟化",
+      "final": "3）虚拟化",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "页图为普通编号、正文字重。恢复小目，避免与上一级标题并列。",
+      "sources": [
+        "入库教材 PDF 物理 632 / 印刷 625，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-46",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第04节-网络构建和设计方法.md",
+      "loc": "物理 632 / 印刷 625，17.4",
+      "ocr": "4）智能化",
+      "current": "### 4. 智能化",
+      "final": "4）智能化",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "页图为普通编号、正文字重。恢复小目，避免与上一级标题并列。",
+      "sources": [
+        "入库教材 PDF 物理 632 / 印刷 625，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-47",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第04节-网络构建和设计方法.md",
+      "loc": "物理 626 / 印刷 619，17.4",
+      "ocr": "STP协议是在IEEE802.标准中定义的，分为“.1d”“.1w”“1s” 等多个版本",
+      "current": "STP协议是在IEEE802.标准中定义的，分为“.1d”“.1w”“1s” 等多个版本",
+      "final": "生成树协议的相关标准包括IEEE 802.1D（STP）、802.1w（快速生成树协议，RSTP）和802.1s（多生成树协议，MSTP）",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "RFC 5556第2.5节逐项列明三个标准编号；Linux桥文档补充各协议全称及标准后续合并沿革。",
+      "sources": [
+        "入库教材 PDF 物理 626 / 印刷 619，页图直接目读",
+        "https://raw.githubusercontent.com/AlexMelanFromRingo/rfc-library/main/rfc/05500-05999/rfc5556.txt（2026-11-27 核阅）",
+        "https://raw.githubusercontent.com/torvalds/linux/master/Documentation/networking/bridge.rst（2026-11-27 核阅）"
+      ]
+    },
+    {
+      "id": "ch17c-48",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第04节-网络构建和设计方法.md",
+      "loc": "物理 627 / 印刷 620，17.4",
+      "ocr": "综合业务数据网接入技术",
+      "current": "综合业务数据网接入技术",
+      "final": "综合业务数字网（ISDN）接入技术",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "RFC 1618摘要和RFC 2127引述ITU-T建议均可核对ISDN全称Integrated Services Digital Network，Digital为“数字”。",
+      "sources": [
+        "入库教材 PDF 物理 627 / 印刷 620，页图直接目读",
+        "https://raw.githubusercontent.com/AlexMelanFromRingo/rfc-library/main/rfc/02000-02499/rfc2127.txt（2026-11-27 核阅）",
+        "https://raw.githubusercontent.com/AlexMelanFromRingo/rfc-library/main/rfc/01500-01999/rfc1618.txt（2026-11-27 核阅）"
+      ]
+    },
+    {
+      "id": "ch17c-49",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第04节-网络构建和设计方法.md",
+      "loc": "物理 627 / 印刷 620，17.4",
+      "ocr": "使用私有地址在组织内互访具有很高安全性，避免来自外部网络攻击。使用私有地址的用户在访问外部网络，需要进行地址转换 (NAT), 因此",
+      "current": "使用私有地址在组织内互访具有很高安全性，避免来自外部网络攻击。使用私有地址的用户在访问外部网络，需要进行地址转换 (NAT), 因此",
+      "final": "私有地址用于组织内部通信，不在公共互联网上路由。防范外部攻击仍需配置访问控制等措施。使用私有IPv4地址的用户直接访问公共IPv4网络时，通常需要进行地址转换（NAT），因此",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "RFC 1918规定私有地址的路由边界，RFC 4864第2.2节区分地址转换与安全过滤。",
+      "sources": [
+        "入库教材 PDF 物理 627 / 印刷 620，页图直接目读",
+        "https://raw.githubusercontent.com/AlexMelanFromRingo/rfc-library/main/rfc/01500-01999/rfc1918.txt（2026-11-27 核阅）",
+        "https://raw.githubusercontent.com/AlexMelanFromRingo/rfc-library/main/rfc/04500-04999/rfc4864.txt（2026-11-27 核阅）"
+      ]
+    },
+    {
+      "id": "ch17c-50",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第04节-网络构建和设计方法.md",
+      "loc": "物理 630 / 印刷 623，17.4",
+      "ocr": "VPN中数据通过安全加密通道完成传送",
+      "current": "VPN中数据通过安全加密通道完成传送",
+      "final": "VPN通过逻辑隔离建立专用网络，数据是否加密取决于所用技术和配置",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "RFC 4364明言BGP/MPLS IP VPN自身不加密；RFC 2784将GRE定义为封装。",
+      "sources": [
+        "入库教材 PDF 物理 630 / 印刷 623，页图直接目读",
+        "https://raw.githubusercontent.com/AlexMelanFromRingo/rfc-library/main/rfc/04000-04499/rfc4364.txt（2026-11-27 核阅）",
+        "https://raw.githubusercontent.com/AlexMelanFromRingo/rfc-library/main/rfc/02500-02999/rfc2784.txt（2026-11-27 核阅）"
+      ]
+    },
+    {
+      "id": "ch17c-51",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第04节-网络构建和设计方法.md",
+      "loc": "物理 631 / 印刷 624，17.4",
+      "ocr": "HTTPS协议：是基于SSL或TLS进行HTTP交互的协议，用于在客户计算机和服务器之间交换信息。它使用安全套接字层进行信息交互，所有交互数据均被加密。对于启用HTTPS协议的服务器，需要预先生成一个电子证书。同时，客户计算机需要安装证书。借用证书，客户计算机和服务器之间完成相互身份认证，双方通过密钥对数据加密来实现信息交换。",
+      "current": "HTTPS协议：是基于SSL或TLS进行HTTP交互的协议，用于在客户计算机和服务器之间交换信息。它使用安全套接字层进行信息交互，所有交互数据均被加密。对于启用HTTPS协议的服务器，需要预先生成一个电子证书。同时，客户计算机需要安装证书。借用证书，客户计算机和服务器之间完成相互身份认证，双方通过密钥对数据加密来实现信息交换。",
+      "final": "HTTPS协议：使用TLS保护客户计算机和服务器之间的HTTP通信。通常由服务器出示证书，客户端验证服务器的身份。采用双向证书认证时，客户端还需提供证书供服务器验证。双方使用通信密钥加密传输HTTP数据。",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "RFC 9110第4.2.2节定义HTTPS；RFC 8446第4.3.2、4.4.2节说明客户端证书由服务端请求；OpenSSL区分默认与请求客户端证书的模式。",
+      "sources": [
+        "入库教材 PDF 物理 631 / 印刷 624，页图直接目读",
+        "https://raw.githubusercontent.com/AlexMelanFromRingo/rfc-library/main/rfc/09000-09499/rfc9110.txt（2026-11-27 核阅）",
+        "https://raw.githubusercontent.com/AlexMelanFromRingo/rfc-library/main/rfc/08000-08499/rfc8446.txt（2026-11-27 核阅）",
+        "https://raw.githubusercontent.com/openssl/openssl/master/doc/man3/SSL_CTX_set_verify.pod（2026-11-27 核阅）"
+      ]
+    },
+    {
+      "id": "ch17c-52",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第05节-通信网络构建案例分析.md",
+      "loc": "物理 634 / 印刷 627，17.5",
+      "ocr": "通过链路汇聚提供带宽利用率",
+      "current": "通过链路汇聚提供带宽利用率",
+      "final": "通过链路汇聚提高带宽利用率",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "“提高”与后面的“降低复杂度”并举。",
+      "sources": [
+        "入库教材 PDF 物理 634 / 印刷 627，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-53",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第05节-通信网络构建案例分析.md",
+      "loc": "物理 634 / 印刷 627，17.5",
+      "ocr": "802.1x,动态ARP检查",
+      "current": "802.1x,动态ARP检查",
+      "final": "802.1X、动态ARP检查",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "IEEE 802.1X名称大小写和中文列举符号。",
+      "sources": [
+        "入库教材 PDF 物理 634 / 印刷 627，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-54",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第05节-通信网络构建案例分析.md",
+      "loc": "物理 634 / 印刷 627，17.5",
+      "ocr": "防止非法访问。\n接入层",
+      "current": "防止非法访问。\n接入层",
+      "final": "防止非法访问。\n\n接入层",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "四项特征后另起段。",
+      "sources": [
+        "入库教材 PDF 物理 634 / 印刷 627，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-55",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第05节-通信网络构建案例分析.md",
+      "loc": "物理 634 / 印刷 627，17.5",
+      "ocr": "(组网模型三),接入交换机",
+      "current": "(组网模型三),接入交换机",
+      "final": "（组网模型三），接入交换机",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "中文括注、逗号。",
+      "sources": [
+        "入库教材 PDF 物理 634 / 印刷 627，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-56",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第05节-通信网络构建案例分析.md",
+      "loc": "物理 635 / 印刷 628，17.5",
+      "ocr": "较矩形拓扑的复杂",
+      "current": "较矩形拓扑的复杂",
+      "final": "较矩形拓扑复杂",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "“较……复杂”比较句不需结构助词。表格SVG与可检索正文同改。",
+      "sources": [
+        "入库教材 PDF 物理 635 / 印刷 628，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-57",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第05节-通信网络构建案例分析.md",
+      "loc": "物理 635 / 印刷 628，17.5",
+      "ocr": "采用此模型。\n由于三角形",
+      "current": "采用此模型。\n由于三角形",
+      "final": "采用此模型。\n\n由于三角形",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "底本两段均有首行缩进。",
+      "sources": [
+        "入库教材 PDF 物理 635 / 印刷 628，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-58",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第05节-通信网络构建案例分析.md",
+      "loc": "物理 635 / 印刷 628，17.5",
+      "ocr": "汇聚交换上的L4/L7层设备",
+      "current": "汇聚交换上的L4/L7层设备",
+      "final": "汇聚交换机上的L4/L7层设备",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "与括号前“汇聚层交换机”互证，补中心词。",
+      "sources": [
+        "入库教材 PDF 物理 635 / 印刷 628，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-59",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第05节-通信网络构建案例分析.md",
+      "loc": "物理 635 / 印刷 628，17.5",
+      "ocr": "Protocol,VRRP), 并将",
+      "current": "Protocol,VRRP), 并将",
+      "final": "Protocol, VRRP），并将",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "英文缩写前加空格，中文语句用全角标点。",
+      "sources": [
+        "入库教材 PDF 物理 635 / 印刷 628，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-60",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第05节-通信网络构建案例分析.md",
+      "loc": "物理 635 / 印刷 628，17.5",
+      "ocr": "协议 (Virtual Router",
+      "current": "协议 (Virtual Router",
+      "final": "协议（Virtual Router",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "中文括注与右括号配对。",
+      "sources": [
+        "入库教材 PDF 物理 635 / 印刷 628，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-61",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第05节-通信网络构建案例分析.md",
+      "loc": "物理 635 / 印刷 628，17.5",
+      "ocr": "组网模型二矩形连接方式",
+      "current": "组网模型二矩形连接方式",
+      "final": "组网模型二为矩形连接方式",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "同句前半为“组网模型一为三角形连接方式”，补谓语。",
+      "sources": [
+        "入库教材 PDF 物理 635 / 印刷 628，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-62",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第05节-通信网络构建案例分析.md",
+      "loc": "物理 636 / 印刷 629，17.5",
+      "ocr": "运行VRRP,汇聚交换机",
+      "current": "运行VRRP,汇聚交换机",
+      "final": "运行VRRP，汇聚交换机",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "中文句内逗号。",
+      "sources": [
+        "入库教材 PDF 物理 636 / 印刷 629，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-63",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第05节-通信网络构建案例分析.md",
+      "loc": "物理 636 / 印刷 629，17.5",
+      "ocr": "运行VRRP,FW主用模块",
+      "current": "运行VRRP,FW主用模块",
+      "final": "运行VRRP，FW主用模块",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "中文句内逗号。",
+      "sources": [
+        "入库教材 PDF 物理 636 / 印刷 629，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-64",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第05节-通信网络构建案例分析.md",
+      "loc": "物理 636 / 印刷 629，17.5",
+      "ocr": "链路或街道故障",
+      "current": "链路或街道故障",
+      "final": "链路或节点故障",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "同页上段明确使用“任一节点整机或链路故障”。",
+      "sources": [
+        "入库教材 PDF 物理 636 / 印刷 629，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-65",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第05节-通信网络构建案例分析.md",
+      "loc": "物理 637 / 印刷 630，17.5",
+      "ocr": "<500ms;",
+      "current": "<500ms;",
+      "final": "<500 ms；",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "五项可用性指标的单位间距和中文分隔。",
+      "sources": [
+        "入库教材 PDF 物理 637 / 印刷 630，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-66",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第05节-通信网络构建案例分析.md",
+      "loc": "物理 637 / 印刷 630，17.5",
+      "ocr": "<1s;",
+      "current": "<1s;",
+      "final": "<1 s；",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "单位间距及分号。",
+      "sources": [
+        "入库教材 PDF 物理 637 / 印刷 630，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-67",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第05节-通信网络构建案例分析.md",
+      "loc": "物理 637 / 印刷 630，17.5",
+      "ocr": "<200ms;",
+      "current": "<200ms;",
+      "final": "<200 ms；",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "单位间距及分号。",
+      "sources": [
+        "入库教材 PDF 物理 637 / 印刷 630，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-68",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第05节-通信网络构建案例分析.md",
+      "loc": "物理 637 / 印刷 630，17.5",
+      "ocr": "<1s。",
+      "current": "<1s。",
+      "final": "<1 s。",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "单位间距。",
+      "sources": [
+        "入库教材 PDF 物理 637 / 印刷 630，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-69",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第05节-通信网络构建案例分析.md",
+      "loc": "物理 637 / 印刷 630，17.5",
+      "ocr": "自己的园区网络。\n\n在国家层面",
+      "current": "自己的园区网络。\n\n在国家层面",
+      "final": "自己的园区网络。在国家层面",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "“在国家层面”顶格承上，回复同段。",
+      "sources": [
+        "入库教材 PDF 物理 637 / 印刷 630，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-70",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第05节-通信网络构建案例分析.md",
+      "loc": "物理 637 / 印刷 630，17.5",
+      "ocr": "详细IPv6 网络升级方案。\n依照上述",
+      "current": "详细IPv6 网络升级方案。\n依照上述",
+      "final": "详细IPv6网络升级方案。\n\n依照上述",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "五步清单结束，说明段另起；恢复连续协议名。",
+      "sources": [
+        "入库教材 PDF 物理 637 / 印刷 630，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-71",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第05节-通信网络构建案例分析.md",
+      "loc": "物理 637 / 印刷 630，17.5",
+      "ocr": "在保证现有业务正常提供外",
+      "current": "在保证现有业务正常提供外",
+      "final": "在保证现有业务正常提供的同时",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "前后均为升级目标，使用“在……的同时”连接。",
+      "sources": [
+        "入库教材 PDF 物理 637 / 印刷 630，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-72",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第05节-通信网络构建案例分析.md",
+      "loc": "物理 638 / 印刷 631，17.5",
+      "ocr": "Multimedia Priority Service,MPS), 如",
+      "current": "Multimedia Priority Service,MPS), 如",
+      "final": "Multimedia Priority Service, MPS），如",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "英文简称内部逗号间距、中文括注。",
+      "sources": [
+        "入库教材 PDF 物理 638 / 印刷 631，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-73",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第05节-通信网络构建案例分析.md",
+      "loc": "物理 638 / 印刷 631，17.5",
+      "ocr": "优先服务 (Multimedia",
+      "current": "优先服务 (Multimedia",
+      "final": "优先服务（Multimedia",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "括号配对。",
+      "sources": [
+        "入库教材 PDF 物理 638 / 印刷 631，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-74",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第05节-通信网络构建案例分析.md",
+      "loc": "物理 638 / 印刷 631，17.5",
+      "ocr": "传统电源、新能源电源等),电网",
+      "current": "传统电源、新能源电源等),电网",
+      "final": "传统电源、新能源电源等），电网",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "中文括注、并列标点。",
+      "sources": [
+        "入库教材 PDF 物理 638 / 印刷 631，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-75",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第05节-通信网络构建案例分析.md",
+      "loc": "物理 638 / 印刷 631，17.5",
+      "ocr": "智能感知设备(传统电源",
+      "current": "智能感知设备(传统电源",
+      "final": "智能感知设备（传统电源",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "括号配对。",
+      "sources": [
+        "入库教材 PDF 物理 638 / 印刷 631，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-76",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第05节-通信网络构建案例分析.md",
+      "loc": "物理 639 / 印刷 632，17.5",
+      "ocr": "小于8ms",
+      "current": "小于8ms",
+      "final": "小于8 ms",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "保留例示阈值，数字与单位分隔。",
+      "sources": [
+        "入库教材 PDF 物理 639 / 印刷 632，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-77",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第05节-通信网络构建案例分析.md",
+      "loc": "物理 638 / 印刷 631，17.5",
+      "ocr": "比如部署用户端到出口路由器的自动隧道技术(如ISATAP) 来完成IPv6用户对网络业务的访问。",
+      "current": "比如部署用户端到出口路由器的自动隧道技术(如ISATAP) 来完成IPv6用户对网络业务的访问。",
+      "final": "例如，支持IPv4和IPv6的用户端可通过ISATAP隧道连接双栈出口路由器，在IPv4网络上访问IPv6业务。",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "RFC 5214定义ISATAP端点为双栈节点；RFC 4213第3节说明IPv6-over-IPv4的端点要求。",
+      "sources": [
+        "入库教材 PDF 物理 638 / 印刷 631，页图直接目读",
+        "https://raw.githubusercontent.com/AlexMelanFromRingo/rfc-library/main/rfc/05000-05499/rfc5214.txt（2026-11-27 核阅）",
+        "https://raw.githubusercontent.com/AlexMelanFromRingo/rfc-library/main/rfc/04000-04499/rfc4213.txt（2026-11-27 核阅）"
+      ]
+    },
+    {
+      "id": "ch17c-78",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第04节-网络构建和设计方法.md",
+      "loc": "物理 630 / 印刷 623，17.4",
+      "ocr": "广告软件、垃圾邮件",
+      "current": "广告软件、垃圾邮件",
+      "final": null,
+      "class": "C3",
+      "confidence": "低",
+      "evidence": "垃圾邮件为消息，未经限定不能一概视为恶意代码；无法由页图判断是否特指携带恶意代码的邮件。",
+      "sources": [
+        "入库教材 PDF 物理 630 / 印刷 623，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-79",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第04节-网络构建和设计方法.md",
+      "loc": "物理 632 / 印刷 625，17.4",
+      "ocr": "彻底实现IT资源化",
+      "current": "彻底实现IT资源化",
+      "final": null,
+      "class": "C3",
+      "confidence": "低",
+      "evidence": "“资源化”可能漏字，但“虚拟化”“池化”等表达并非唯一，不覆盖原措辞。",
+      "sources": [
+        "入库教材 PDF 物理 632 / 印刷 625，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-80",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第05节-通信网络构建案例分析.md",
+      "loc": "物理 635 / 印刷 628，17.5",
+      "ocr": "网络收敛比变小",
+      "current": "网络收敛比变小",
+      "final": null,
+      "class": "C3",
+      "confidence": "低",
+      "evidence": "表中未定义“收敛比”的分子分母，不能单凭拥塞结论断定比值增减。",
+      "sources": [
+        "入库教材 PDF 物理 635 / 印刷 628，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-81",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第05节-通信网络构建案例分析.md",
+      "loc": "物理 638 / 印刷 631，17.5",
+      "ocr": "种类繁多数据巨大的设备",
+      "current": "种类繁多数据巨大的设备",
+      "final": null,
+      "class": "C3",
+      "confidence": "低",
+      "evidence": "上下文同时涉及设备规模与数据采集，“数量巨大”和“数据量巨大”都讲得通，字面保留。",
+      "sources": [
+        "入库教材 PDF 物理 638 / 印刷 631，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-82",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第05节-通信网络构建案例分析.md",
+      "loc": "物理 639 / 印刷 632，17.5",
+      "ocr": "任何两个通信点之间的一个跳闸事件",
+      "current": "任何两个通信点之间的一个跳闸事件",
+      "final": null,
+      "class": "C3",
+      "confidence": "低",
+      "evidence": "小于8 ms的适用业务范围和测量边界未交代，缺纸书及规范出处，保留案例原说法。",
+      "sources": [
+        "入库教材 PDF 物理 639 / 印刷 632，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-83",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第05节-通信网络构建案例分析.md",
+      "loc": "物理 633 / 印刷 626，17.5",
+      "ocr": "图 17-20 高可用典型组网架构",
+      "current": "> 图 17-20 高可用典型组网架构",
+      "final": "![图 17-20 高可用典型组网架构](../../../assets/figures/textbook/ch17-communication-system-architecture/figure-17-20.svg)",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "双核心、双汇聚、三接入，刀片服务器的经接入与直连汇聚两种路径分别保留。",
+      "sources": [
+        "入库教材 PDF 物理 633 / 印刷 626，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-84",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第05节-通信网络构建案例分析.md",
+      "loc": "物理 634 / 印刷 627，17.5",
+      "ocr": "图 17-21 接入-汇聚层间高可用典型组网架构",
+      "current": "> 图 17-21 接入-汇聚层间高可用典型组网架构",
+      "final": "![图 17-21 接入-汇聚层间高可用典型组网架构](../../../assets/figures/textbook/ch17-communication-system-architecture/figure-17-21.svg)",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "四种二层物理拓扑。模型二L3汇聚互联；接入之间的遮挡链路依据U形名称及续表的接入间故障说明复原。",
+      "sources": [
+        "入库教材 PDF 物理 634 / 印刷 627，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-85",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第05节-通信网络构建案例分析.md",
+      "loc": "物理 634 / 印刷 627，17.5",
+      "ocr": "表 17-1 四种组网模型对比",
+      "current": "> 表 17-1 四种组网模型对比",
+      "final": "![表 17-1 四种组网模型对比](../../../assets/figures/textbook/ch17-communication-system-architecture/figure-t17-01.svg)",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "跨物理634–635／印刷627–628，三列四行。模型二至四由续表接排，原Markdown表保留检索。",
+      "sources": [
+        "入库教材 PDF 物理 634 / 印刷 627，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-86",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第05节-通信网络构建案例分析.md",
+      "loc": "物理 635 / 印刷 628，17.5",
+      "ocr": "图 17-22 核心-汇聚层典型组网架构",
+      "current": "> 图 17-22 核心-汇聚层典型组网架构",
+      "final": "![图 17-22 核心-汇聚层典型组网架构](../../../assets/figures/textbook/ch17-communication-system-architecture/figure-17-22.svg)",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "左侧两竖两斜加核心横联；右侧四边矩形，无交叉。",
+      "sources": [
+        "入库教材 PDF 物理 635 / 印刷 628，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-87",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第05节-通信网络构建案例分析.md",
+      "loc": "物理 636 / 印刷 629，17.5",
+      "ocr": "图 17-23 汇聚层FW与LB的双机高可用组网模型",
+      "current": "> 图 17-23 汇聚层FW与LB的双机高可用组网模型",
+      "final": "![图 17-23 汇聚层FW与LB的双机高可用组网模型](../../../assets/figures/textbook/ch17-communication-system-architecture/figure-17-23.svg)",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "双汇聚、两组LB及FW、两组服务器；Vx编号照录。原图覆字使个别端口对应关系不清，两侧独立Vx10上联，另列Vx1至Vx5。",
+      "sources": [
+        "入库教材 PDF 物理 636 / 印刷 629，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch17c-88",
+      "file": "content/01-系统架构设计师教材-清洗版/第17章-通信系统架构设计理论与实践/第05节-通信网络构建案例分析.md",
+      "loc": "物理 639 / 印刷 632，17.5",
+      "ocr": "图 17-24 基于5G 网络的智能电网架构",
+      "current": "> 图 17-24 基于5G 网络的智能电网架构",
+      "final": "![图 17-24 基于5G 网络的智能电网架构](../../../assets/figures/textbook/ch17-communication-system-architecture/figure-17-24.svg)",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "保留三个电网应用、物联网平台、边缘计算和5G网络，以及电源侧、电网侧、用户侧、供应链。",
+      "sources": [
+        "入库教材 PDF 物理 639 / 印刷 632，页图直接目读"
+      ]
+    }
+  ],
+  "counts": {
+    "N": 73,
+    "C1": 44,
+    "R": 55,
+    "C3": 10,
+    "C2": 16,
+    "K": 1
+  }
+}

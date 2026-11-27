@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 225" role="img" aria-labelledby="title desc">
+<title id="title">图 17-12 UE透明接入5G 网络</title>
+<desc id="desc">UPF、DHCP、DNS分别接入运营商特定IP网络，再经防火墙或代理至外部IP网络。</desc>
+<style>text{font-family:"Noto Sans CJK SC",sans-serif;font-size:15px;fill:#183846;text-anchor:middle;dominant-baseline:central}.node{fill:#fff;stroke:#578894;stroke-width:1.4}.net{fill:#e3f5f7;stroke:#588e9c;stroke-width:1.6}.link{fill:none;stroke:#55717a;stroke-width:1.5}</style>
+<path class="link" d="M92 64 H478 M280 124 H478 M280 185 H478 M490 116 H855"/>
+<path class="link" d="M377 43 V88" stroke-dasharray="5 4"/>
+<text x="386" y="19.0">N6（UPF连接数据网接口）</text>
+<ellipse class="net" cx="81" cy="64" rx="72" ry="26"/>
+<text x="81" y="64.0">5GS（5G系统）</text>
+<rect class="node" x="152" y="45" width="195" height="38"/>
+<text x="249.5" y="64.0">UPF（用户面功能）</text>
+<rect class="node" x="152" y="104" width="195" height="41"/>
+<text x="249.5" y="115.0">DHCP（动态主机</text>
+<text x="249.5" y="134.0">配置协议）</text>
+<rect class="node" x="152" y="166" width="195" height="38"/>
+<text x="249.5" y="185.0">DNS（域名解析服务）</text>
+<ellipse class="net" cx="480" cy="119" rx="86" ry="89"/>
+<text x="480" y="90.5">Operator-specific</text>
+<text x="480" y="109.5">IP Network</text>
+<text x="480" y="128.5">（运营商特定的</text>
+<text x="480" y="147.5">IP网络）</text>
+<rect class="node" x="588" y="91" width="148" height="51"/>
+<text x="662.0" y="107.0">Firewall/Proxy</text>
+<text x="662.0" y="126.0">（防火墙/代理）</text>
+<rect class="node" x="755" y="91" width="177" height="51"/>
+<text x="843.5" y="107.0">External IP Network</text>
+<text x="843.5" y="126.0">（外部IP网络）</text>
+</svg>

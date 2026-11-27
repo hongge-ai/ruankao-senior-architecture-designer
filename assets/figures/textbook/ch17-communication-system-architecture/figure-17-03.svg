@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 342" role="img" aria-labelledby="title desc">
+<title id="title">图 17-3 典型环型局域网</title><desc id="desc">四个核心节点与省略号构成环形示意，依衍生页保留底部回线和右端的可见端点，不猜补缺口。</desc>
+<rect x="64" y="8" width="446" height="58" rx="2" fill="#f8fafb" stroke="#66848b" stroke-width="1.6"/>
+<g fill="none" stroke="#567c85" stroke-width="1.8">
+<path d="M161 121L140 37"/>
+<path d="M161 121L285 37"/>
+<path d="M161 121L440 37"/>
+<path d="M161 121L325 121"/>
+<path d="M325 121L140 37"/>
+<path d="M325 121L285 37"/>
+<path d="M325 121L490 121"/>
+<path d="M555 121H592 M641 121H673 M801 121h10 M95 121H69v43h742"/>
+<path d="M173 220L405 220"/>
+<path d="M469 220h93"/>
+<path d="M161 121L173 220"/>
+<path d="M161 121L405 220"/>
+<path d="M325 121L590 220"/>
+<path d="M173 220L57 307"/>
+<path d="M173 220L170 307"/>
+<path d="M173 220L266 307"/>
+<path d="M405 220L360 307"/>
+<path d="M405 220L478 307"/>
+<path d="M405 220L590 307"/></g>
+<g font-family="Noto Sans CJK SC, sans-serif" fill="#173643">
+<rect x="84.0" y="21" width="112" height="32" rx="2" fill="#edf6f8" stroke="#66848b" stroke-width="1.6"/>
+<text x="140" y="43" text-anchor="middle" font-size="17">业务服务器</text>
+<rect x="229.0" y="21" width="112" height="32" rx="2" fill="#edf6f8" stroke="#66848b" stroke-width="1.6"/>
+<text x="285" y="43" text-anchor="middle" font-size="17">业务服务器</text>
+<text x="440" y="43" text-anchor="middle" font-size="17">……</text>
+<rect x="95.0" y="105" width="132" height="32" rx="2" fill="#edf6f8" stroke="#66848b" stroke-width="1.6"/>
+<text x="161" y="127" text-anchor="middle" font-size="17">核心交换设备</text>
+<rect x="259.0" y="105" width="132" height="32" rx="2" fill="#edf6f8" stroke="#66848b" stroke-width="1.6"/>
+<text x="325" y="127" text-anchor="middle" font-size="17">核心交换设备</text>
+<rect x="424.0" y="105" width="132" height="32" rx="2" fill="#edf6f8" stroke="#66848b" stroke-width="1.6"/>
+<text x="490" y="127" text-anchor="middle" font-size="17">核心交换设备</text>
+<rect x="672.0" y="105" width="132" height="32" rx="2" fill="#edf6f8" stroke="#66848b" stroke-width="1.6"/>
+<text x="738" y="127" text-anchor="middle" font-size="17">核心交换设备</text>
+<text x="615" y="127" text-anchor="middle" font-size="17">……</text>
+<rect x="109.0" y="204" width="128" height="32" rx="2" fill="#edf6f8" stroke="#66848b" stroke-width="1.6"/>
+<text x="173" y="226" text-anchor="middle" font-size="17">接入交换设备</text>
+<rect x="341.0" y="204" width="128" height="32" rx="2" fill="#edf6f8" stroke="#66848b" stroke-width="1.6"/>
+<text x="405" y="226" text-anchor="middle" font-size="17">接入交换设备</text>
+<text x="590" y="226" text-anchor="middle" font-size="17">……</text>
+<rect x="5.5" y="291" width="103" height="32" rx="2" fill="#edf6f8" stroke="#66848b" stroke-width="1.6"/>
+<text x="57" y="313" text-anchor="middle" font-size="17">用户设备</text>
+<rect x="118.5" y="291" width="103" height="32" rx="2" fill="#edf6f8" stroke="#66848b" stroke-width="1.6"/>
+<text x="170" y="313" text-anchor="middle" font-size="17">用户设备</text>
+<text x="266" y="313" text-anchor="middle" font-size="17">……</text>
+<rect x="308.5" y="291" width="103" height="32" rx="2" fill="#edf6f8" stroke="#66848b" stroke-width="1.6"/>
+<text x="360" y="313" text-anchor="middle" font-size="17">用户设备</text>
+<rect x="426.5" y="291" width="103" height="32" rx="2" fill="#edf6f8" stroke="#66848b" stroke-width="1.6"/>
+<text x="478" y="313" text-anchor="middle" font-size="17">用户设备</text>
+<text x="590" y="313" text-anchor="middle" font-size="17">……</text></g>
+</svg>

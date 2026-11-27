@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430 400" role="img" aria-labelledby="title desc">
+<title id="title">图 17-17 SDN网络架构</title>
+<desc id="desc">北向接口连接网络应用与控制器；南向接口连至含四台转发设备的数据平面。</desc>
+<style>text{font-family:"Noto Sans CJK SC",sans-serif;font-size:15px;fill:#183846;text-anchor:middle;dominant-baseline:central}.node{fill:#fff;stroke:#578894;stroke-width:1.4}.net{fill:#e3f5f7;stroke:#588e9c;stroke-width:1.6}.link{fill:none;stroke:#55717a;stroke-width:1.5}</style>
+<path class="link" d="M207 31 V247"/>
+<rect class="node" x="118" y="12" width="180" height="43"/>
+<text x="208.0" y="33.5">SDN网络应用</text>
+<rect class="node" x="118" y="115" width="180" height="43"/>
+<text x="208.0" y="136.5">SDN控制器</text>
+<text x="264" y="85.0">北向接口</text>
+<text x="265" y="183.0">南向接口</text>
+<g transform="translate(20 198) scale(3.9 1.9)"><path class="net" vector-effect="non-scaling-stroke" d="M19 86 C0 85 -3 58 10 49 Q7 33 23 30 Q23 12 39 19 Q52 0 62 13 Q77 -1 84 20 Q102 22 94 44 Q109 62 94 74 Q92 94 75 88 Q61 104 48 91 Q34 101 27 87 Z"/></g>
+<rect class="node" x="84" y="262" width="99" height="32"/>
+<text x="133.5" y="278.0">转发设备</text>
+<rect class="node" x="243" y="240" width="99" height="32"/>
+<text x="292.5" y="256.0">转发设备</text>
+<rect class="node" x="47" y="322" width="99" height="32"/>
+<text x="96.5" y="338.0">转发设备</text>
+<rect class="node" x="221" y="328" width="99" height="32"/>
+<text x="270.5" y="344.0">转发设备</text>
+</svg>

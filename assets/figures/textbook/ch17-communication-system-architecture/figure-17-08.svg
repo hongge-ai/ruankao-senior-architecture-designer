@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 751 452" role="img" aria-labelledby="title desc">
+<title id="title">图 17-8 半冗余广域网</title><desc id="desc">一个包含七个路由设备的半冗余子域，外围六个局域网接口与对应核心相连。</desc>
+<ellipse cx="369" cy="223" rx="237" ry="188" fill="#fcfdfc" stroke="#789191" stroke-width="1.6"/>
+<g fill="none" stroke="#567c85" stroke-width="1.8">
+<path d="M265 119L245 195"/>
+<path d="M245 195L478 119"/>
+<path d="M478 119L500 195"/>
+<path d="M245 195L500 195"/>
+<path d="M245 195L316 266"/>
+<path d="M316 266L500 195"/>
+<path d="M500 195L474 316"/>
+<path d="M316 266L474 316"/>
+<path d="M316 266L313 344"/>
+<path d="M313 344L474 316"/>
+<path d="M354 20L478 119"/>
+<path d="M78 87L265 119"/>
+<path d="M60 321L245 195"/>
+<path d="M670 83L478 119"/>
+<path d="M686 230L500 195"/>
+<path d="M623 424L474 316"/></g>
+<g font-family="Noto Sans CJK SC, sans-serif" fill="#173643">
+<rect x="193.0" y="103" width="144" height="32" rx="2" fill="#edf6f8" stroke="#66848b" stroke-width="1.6"/>
+<text x="265" y="125" text-anchor="middle" font-size="17">广域网路由设备</text>
+<rect x="406.0" y="103" width="144" height="32" rx="2" fill="#edf6f8" stroke="#66848b" stroke-width="1.6"/>
+<text x="478" y="125" text-anchor="middle" font-size="17">广域网路由设备</text>
+<rect x="173.0" y="179" width="144" height="32" rx="2" fill="#edf6f8" stroke="#66848b" stroke-width="1.6"/>
+<text x="245" y="201" text-anchor="middle" font-size="17">广域网路由设备</text>
+<rect x="428.0" y="179" width="144" height="32" rx="2" fill="#edf6f8" stroke="#66848b" stroke-width="1.6"/>
+<text x="500" y="201" text-anchor="middle" font-size="17">广域网路由设备</text>
+<rect x="244.0" y="250" width="144" height="32" rx="2" fill="#edf6f8" stroke="#66848b" stroke-width="1.6"/>
+<text x="316" y="272" text-anchor="middle" font-size="17">广域网路由设备</text>
+<rect x="402.0" y="300" width="144" height="32" rx="2" fill="#edf6f8" stroke="#66848b" stroke-width="1.6"/>
+<text x="474" y="322" text-anchor="middle" font-size="17">广域网路由设备</text>
+<rect x="241.0" y="328" width="144" height="32" rx="2" fill="#edf6f8" stroke="#66848b" stroke-width="1.6"/>
+<text x="313" y="350" text-anchor="middle" font-size="17">广域网路由设备</text>
+<rect x="299.0" y="4" width="110" height="32" rx="2" fill="#f6f9ee" stroke="#66848b" stroke-width="1.6"/>
+<text x="354" y="26" text-anchor="middle" font-size="17">局域网X</text>
+<rect x="23.0" y="71" width="110" height="32" rx="2" fill="#f6f9ee" stroke="#66848b" stroke-width="1.6"/>
+<text x="78" y="93" text-anchor="middle" font-size="17">局域网Y</text>
+<rect x="5.0" y="305" width="110" height="32" rx="2" fill="#f6f9ee" stroke="#66848b" stroke-width="1.6"/>
+<text x="60" y="327" text-anchor="middle" font-size="17">局域网Z</text>
+<rect x="615.0" y="67" width="110" height="32" rx="2" fill="#f6f9ee" stroke="#66848b" stroke-width="1.6"/>
+<text x="670" y="89" text-anchor="middle" font-size="17">局域网……</text>
+<rect x="631.0" y="214" width="110" height="32" rx="2" fill="#f6f9ee" stroke="#66848b" stroke-width="1.6"/>
+<text x="686" y="236" text-anchor="middle" font-size="17">局域网……</text>
+<rect x="568.0" y="408" width="110" height="32" rx="2" fill="#f6f9ee" stroke="#66848b" stroke-width="1.6"/>
+<text x="623" y="430" text-anchor="middle" font-size="17">局域网……</text></g>
+</svg>

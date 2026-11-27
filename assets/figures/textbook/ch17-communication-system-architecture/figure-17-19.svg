@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 190" role="img" aria-labelledby="title desc">
+<title id="title">图 17-19 双栈IP协议栈结构</title>
+<desc id="desc">IPv4与IPv6并列，上方共享传输层和应用层，下方共享链路层及物理层。</desc>
+<style>text{font-family:"Noto Sans CJK SC",sans-serif;font-size:15px;fill:#183846;text-anchor:middle;dominant-baseline:central}.node{fill:#fff;stroke:#578894;stroke-width:1.4}.net{fill:#e3f5f7;stroke:#588e9c;stroke-width:1.6}.link{fill:none;stroke:#55717a;stroke-width:1.5}</style>
+<rect class="node" x="10" y="8" width="430" height="43"/>
+<text x="225.0" y="29.5">应用层协议</text>
+<rect class="node" x="10" y="51" width="430" height="43"/>
+<text x="225.0" y="72.5">TCP/UDP协议</text>
+<rect class="node" x="10" y="137" width="430" height="43"/>
+<text x="225.0" y="158.5">链路层及物理层协议</text>
+<rect class="node" x="10" y="94" width="215" height="43"/>
+<text x="117.5" y="115.5">IPv4协议</text>
+<rect class="node" x="225" y="94" width="215" height="43"/>
+<text x="332.5" y="115.5">IPv6协议</text>
+</svg>

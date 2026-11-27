@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 448" role="img" aria-labelledby="title desc">
+<title id="title">图 17-18 两类设备五种拓扑互连图</title>
+<desc id="desc">五种拓扑逐一画出NE1和NE2的连接，末图为两侧各两个节点的全互连。</desc>
+<style>text{font-family:"Noto Sans CJK SC",sans-serif;font-size:15px;fill:#183846;text-anchor:middle;dominant-baseline:central}.node{fill:#fff;stroke:#578894;stroke-width:1.4}.net{fill:#e3f5f7;stroke:#588e9c;stroke-width:1.6}.link{fill:none;stroke:#55717a;stroke-width:1.5}</style>
+<path class="link" d="M193 34 L193 95"/>
+<rect class="node" x="130" y="8" width="126" height="35"/>
+<text x="193.0" y="25.5">网络设备NE1</text>
+<rect class="node" x="130" y="78" width="126" height="35"/>
+<text x="193.0" y="95.5">网络设备NE2</text>
+<text x="193" y="132.0">(a) 一对一连接</text>
+<path class="link" d="M509 34 L586 95"/>
+<path class="link" d="M663 34 L586 95"/>
+<rect class="node" x="446" y="8" width="126" height="35"/>
+<text x="509.0" y="25.5">网络设备NE1</text>
+<rect class="node" x="600" y="8" width="126" height="35"/>
+<text x="663.0" y="25.5">网络设备NE1</text>
+<rect class="node" x="523" y="78" width="126" height="35"/>
+<text x="586.0" y="95.5">网络设备NE2</text>
+<text x="586" y="132.0">(b) 一对二连接</text>
+<path class="link" d="M193 184 L116 245"/>
+<path class="link" d="M193 184 L270 245"/>
+<rect class="node" x="130" y="158" width="126" height="35"/>
+<text x="193.0" y="175.5">网络设备NE1</text>
+<rect class="node" x="53" y="228" width="126" height="35"/>
+<text x="116.0" y="245.5">网络设备NE2</text>
+<rect class="node" x="207" y="228" width="126" height="35"/>
+<text x="270.0" y="245.5">网络设备NE2</text>
+<text x="193" y="282.0">(c) 二对一连接</text>
+<path class="link" d="M509 184 L509 245"/>
+<path class="link" d="M663 184 L663 245"/>
+<rect class="node" x="446" y="158" width="126" height="35"/>
+<text x="509.0" y="175.5">网络设备NE1</text>
+<rect class="node" x="600" y="158" width="126" height="35"/>
+<text x="663.0" y="175.5">网络设备NE1</text>
+<rect class="node" x="446" y="228" width="126" height="35"/>
+<text x="509.0" y="245.5">网络设备NE2</text>
+<rect class="node" x="600" y="228" width="126" height="35"/>
+<text x="663.0" y="245.5">网络设备NE2</text>
+<text x="586" y="282.0">(d) 双一对一连接</text>
+<path class="link" d="M313 334 L313 395"/>
+<path class="link" d="M313 334 L467 395"/>
+<path class="link" d="M467 334 L313 395"/>
+<path class="link" d="M467 334 L467 395"/>
+<rect class="node" x="250" y="308" width="126" height="35"/>
+<text x="313.0" y="325.5">网络设备NE1</text>
+<rect class="node" x="404" y="308" width="126" height="35"/>
+<text x="467.0" y="325.5">网络设备NE1</text>
+<rect class="node" x="250" y="378" width="126" height="35"/>
+<text x="313.0" y="395.5">网络设备NE2</text>
+<rect class="node" x="404" y="378" width="126" height="35"/>
+<text x="467.0" y="395.5">网络设备NE2</text>
+<text x="390" y="432.0">(e) 双一对二连接</text>
+</svg>

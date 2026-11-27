@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1090" height="390" viewBox="0 0 1090 390" role="img" aria-labelledby="title"><title id="title">接入–汇聚层间高可用典型组网架构</title>
+<defs><marker id="a" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 8 4 0 8Z" fill="#477786"/></marker></defs>
+<rect width="1090" height="390" fill="white"/>
+<line x1="121" y1="61" x2="251" y2="61" stroke="#477786" stroke-width="1.6"/>
+<line x1="121" y1="45" x2="121" y2="175" stroke="#477786" stroke-width="1.6"/>
+<line x1="251" y1="45" x2="251" y2="175" stroke="#477786" stroke-width="1.6"/>
+<line x1="121" y1="175" x2="121" y2="295" stroke="#477786" stroke-width="1.6"/>
+<line x1="121" y1="175" x2="251" y2="295" stroke="#477786" stroke-width="1.6"/>
+<line x1="251" y1="175" x2="121" y2="295" stroke="#477786" stroke-width="1.6"/>
+<line x1="251" y1="175" x2="251" y2="295" stroke="#477786" stroke-width="1.6"/>
+<line x1="71" y1="53" x2="304" y2="53" stroke="#477786" stroke-width="1.6" stroke-dasharray="5 4"/>
+<rect x="92" y="30" width="58" height="49" fill="#cbe8ef" stroke="#477786" stroke-width="1.5"/>
+<text x="121.0" y="58.92" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="13" fill="#173c48">汇聚</text>
+<rect x="92" y="150" width="58" height="49" fill="#cbe8ef" stroke="#477786" stroke-width="1.5"/>
+<text x="121.0" y="178.92" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="13" fill="#173c48">接入</text>
+<rect x="86" y="279" width="70" height="36" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="121.0" y="301.42" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="13" fill="#173c48">用户设备</text>
+<rect x="222" y="30" width="58" height="49" fill="#cbe8ef" stroke="#477786" stroke-width="1.5"/>
+<text x="251.0" y="58.92" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="13" fill="#173c48">汇聚</text>
+<rect x="222" y="150" width="58" height="49" fill="#cbe8ef" stroke="#477786" stroke-width="1.5"/>
+<text x="251.0" y="178.92" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="13" fill="#173c48">接入</text>
+<rect x="216" y="279" width="70" height="36" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="251.0" y="301.42" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="13" fill="#173c48">用户设备</text>
+<text x="184" y="263" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">……</text>
+<text x="184" y="349" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#173c48">组网模型一</text>
+<line x1="370" y1="44" x2="500" y2="44" stroke="#477786" stroke-width="1.6"/>
+<line x1="370" y1="175" x2="500" y2="175" stroke="#477786" stroke-width="1.6"/>
+<line x1="370" y1="45" x2="370" y2="175" stroke="#477786" stroke-width="1.6"/>
+<line x1="500" y1="45" x2="500" y2="175" stroke="#477786" stroke-width="1.6"/>
+<line x1="370" y1="175" x2="370" y2="295" stroke="#477786" stroke-width="1.6"/>
+<line x1="370" y1="175" x2="500" y2="295" stroke="#477786" stroke-width="1.6"/>
+<line x1="500" y1="175" x2="370" y2="295" stroke="#477786" stroke-width="1.6"/>
+<line x1="500" y1="175" x2="500" y2="295" stroke="#477786" stroke-width="1.6"/>
+<line x1="320" y1="53" x2="553" y2="53" stroke="#477786" stroke-width="1.6" stroke-dasharray="5 4"/>
+<rect x="341" y="30" width="58" height="49" fill="#cbe8ef" stroke="#477786" stroke-width="1.5"/>
+<text x="370.0" y="58.92" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="13" fill="#173c48">汇聚</text>
+<rect x="341" y="150" width="58" height="49" fill="#cbe8ef" stroke="#477786" stroke-width="1.5"/>
+<text x="370.0" y="178.92" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="13" fill="#173c48">接入</text>
+<rect x="335" y="279" width="70" height="36" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="370.0" y="301.42" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="13" fill="#173c48">用户设备</text>
+<rect x="471" y="30" width="58" height="49" fill="#cbe8ef" stroke="#477786" stroke-width="1.5"/>
+<text x="500.0" y="58.92" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="13" fill="#173c48">汇聚</text>
+<rect x="471" y="150" width="58" height="49" fill="#cbe8ef" stroke="#477786" stroke-width="1.5"/>
+<text x="500.0" y="178.92" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="13" fill="#173c48">接入</text>
+<rect x="465" y="279" width="70" height="36" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="500.0" y="301.42" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="13" fill="#173c48">用户设备</text>
+<text x="433" y="263" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">……</text>
+<text x="433" y="349" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#173c48">组网模型二</text>
+<line x1="619" y1="61" x2="749" y2="61" stroke="#477786" stroke-width="1.6"/>
+<line x1="619" y1="175" x2="749" y2="175" stroke="#477786" stroke-width="1.6"/>
+<line x1="619" y1="45" x2="619" y2="175" stroke="#477786" stroke-width="1.6"/>
+<line x1="749" y1="45" x2="749" y2="175" stroke="#477786" stroke-width="1.6"/>
+<line x1="619" y1="175" x2="619" y2="295" stroke="#477786" stroke-width="1.6"/>
+<line x1="619" y1="175" x2="749" y2="295" stroke="#477786" stroke-width="1.6"/>
+<line x1="749" y1="175" x2="619" y2="295" stroke="#477786" stroke-width="1.6"/>
+<line x1="749" y1="175" x2="749" y2="295" stroke="#477786" stroke-width="1.6"/>
+<line x1="569" y1="53" x2="802" y2="53" stroke="#477786" stroke-width="1.6" stroke-dasharray="5 4"/>
+<rect x="590" y="30" width="58" height="49" fill="#cbe8ef" stroke="#477786" stroke-width="1.5"/>
+<text x="619.0" y="58.92" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="13" fill="#173c48">汇聚</text>
+<rect x="590" y="150" width="58" height="49" fill="#cbe8ef" stroke="#477786" stroke-width="1.5"/>
+<text x="619.0" y="178.92" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="13" fill="#173c48">接入</text>
+<rect x="584" y="279" width="70" height="36" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="619.0" y="301.42" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="13" fill="#173c48">用户设备</text>
+<rect x="720" y="30" width="58" height="49" fill="#cbe8ef" stroke="#477786" stroke-width="1.5"/>
+<text x="749.0" y="58.92" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="13" fill="#173c48">汇聚</text>
+<rect x="720" y="150" width="58" height="49" fill="#cbe8ef" stroke="#477786" stroke-width="1.5"/>
+<text x="749.0" y="178.92" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="13" fill="#173c48">接入</text>
+<rect x="714" y="279" width="70" height="36" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="749.0" y="301.42" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="13" fill="#173c48">用户设备</text>
+<text x="682" y="263" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">……</text>
+<text x="682" y="349" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#173c48">组网模型三</text>
+<line x1="868" y1="61" x2="998" y2="61" stroke="#477786" stroke-width="1.6"/>
+<line x1="868" y1="45" x2="868" y2="175" stroke="#477786" stroke-width="1.6"/>
+<line x1="998" y1="45" x2="998" y2="175" stroke="#477786" stroke-width="1.6"/>
+<line x1="868" y1="61" x2="998" y2="175" stroke="#477786" stroke-width="1.6"/>
+<line x1="998" y1="61" x2="868" y2="175" stroke="#477786" stroke-width="1.6"/>
+<line x1="868" y1="175" x2="868" y2="295" stroke="#477786" stroke-width="1.6"/>
+<line x1="868" y1="175" x2="998" y2="295" stroke="#477786" stroke-width="1.6"/>
+<line x1="998" y1="175" x2="868" y2="295" stroke="#477786" stroke-width="1.6"/>
+<line x1="998" y1="175" x2="998" y2="295" stroke="#477786" stroke-width="1.6"/>
+<line x1="818" y1="53" x2="1051" y2="53" stroke="#477786" stroke-width="1.6" stroke-dasharray="5 4"/>
+<rect x="839" y="30" width="58" height="49" fill="#cbe8ef" stroke="#477786" stroke-width="1.5"/>
+<text x="868.0" y="58.92" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="13" fill="#173c48">汇聚</text>
+<rect x="839" y="150" width="58" height="49" fill="#cbe8ef" stroke="#477786" stroke-width="1.5"/>
+<text x="868.0" y="178.92" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="13" fill="#173c48">接入</text>
+<rect x="833" y="279" width="70" height="36" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="868.0" y="301.42" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="13" fill="#173c48">用户设备</text>
+<rect x="969" y="30" width="58" height="49" fill="#cbe8ef" stroke="#477786" stroke-width="1.5"/>
+<text x="998.0" y="58.92" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="13" fill="#173c48">汇聚</text>
+<rect x="969" y="150" width="58" height="49" fill="#cbe8ef" stroke="#477786" stroke-width="1.5"/>
+<text x="998.0" y="178.92" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="13" fill="#173c48">接入</text>
+<rect x="963" y="279" width="70" height="36" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="998.0" y="301.42" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="13" fill="#173c48">用户设备</text>
+<text x="931" y="263" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">……</text>
+<text x="931" y="349" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#173c48">组网模型四</text>
+<text x="39" y="36" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">L3</text>
+<text x="39" y="85" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">L2</text>
+<text x="39" y="182" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">接入层</text>
+<text x="39" y="61" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">汇聚层</text>
+</svg>

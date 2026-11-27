@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="250" viewBox="0 0 720 250" role="img" aria-labelledby="title"><title id="title">核心–汇聚层典型组网架构</title>
+<defs><marker id="a" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 8 4 0 8Z" fill="#477786"/></marker></defs>
+<rect width="720" height="250" fill="white"/>
+<line x1="135" y1="48" x2="307" y2="48" stroke="#477786" stroke-width="1.6"/>
+<line x1="135" y1="48" x2="135" y2="152" stroke="#477786" stroke-width="1.6"/>
+<line x1="307" y1="48" x2="307" y2="152" stroke="#477786" stroke-width="1.6"/>
+<line x1="135" y1="48" x2="307" y2="152" stroke="#477786" stroke-width="1.6"/>
+<line x1="307" y1="48" x2="135" y2="152" stroke="#477786" stroke-width="1.6"/>
+<rect x="100" y="30" width="70" height="36" fill="#cbe8ef" stroke="#477786" stroke-width="1.5"/>
+<text x="135.0" y="52.76" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="14" fill="#173c48">交换机</text>
+<rect x="272" y="30" width="70" height="36" fill="#cbe8ef" stroke="#477786" stroke-width="1.5"/>
+<text x="307.0" y="52.76" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="14" fill="#173c48">交换机</text>
+<rect x="100" y="134" width="70" height="36" fill="#cbe8ef" stroke="#477786" stroke-width="1.5"/>
+<text x="135.0" y="156.76" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="14" fill="#173c48">交换机</text>
+<rect x="272" y="134" width="70" height="36" fill="#cbe8ef" stroke="#477786" stroke-width="1.5"/>
+<text x="307.0" y="156.76" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="14" fill="#173c48">交换机</text>
+<text x="220" y="222" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">组网模型一</text>
+<line x1="437" y1="48" x2="609" y2="48" stroke="#477786" stroke-width="1.6"/>
+<line x1="437" y1="48" x2="437" y2="152" stroke="#477786" stroke-width="1.6"/>
+<line x1="609" y1="48" x2="609" y2="152" stroke="#477786" stroke-width="1.6"/>
+<line x1="437" y1="152" x2="609" y2="152" stroke="#477786" stroke-width="1.6"/>
+<rect x="402" y="30" width="70" height="36" fill="#cbe8ef" stroke="#477786" stroke-width="1.5"/>
+<text x="437.0" y="52.76" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="14" fill="#173c48">交换机</text>
+<rect x="574" y="30" width="70" height="36" fill="#cbe8ef" stroke="#477786" stroke-width="1.5"/>
+<text x="609.0" y="52.76" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="14" fill="#173c48">交换机</text>
+<rect x="402" y="134" width="70" height="36" fill="#cbe8ef" stroke="#477786" stroke-width="1.5"/>
+<text x="437.0" y="156.76" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="14" fill="#173c48">交换机</text>
+<rect x="574" y="134" width="70" height="36" fill="#cbe8ef" stroke="#477786" stroke-width="1.5"/>
+<text x="609.0" y="156.76" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="14" fill="#173c48">交换机</text>
+<text x="522" y="222" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">组网模型二</text>
+<text x="50" y="53" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">核心层</text>
+<text x="50" y="158" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">汇聚层</text>
+</svg>
