@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1420 1140" width="1420" height="1140" role="img" aria-labelledby="title desc">
+<title id="title">HL7 Web服务信息交换流程</title>
+<desc id="desc">教材图12-13，物理453页。上方HIS和下方LIS各有客户机、业务逻辑与适配器，三组代理及存根交换命令、确认和结果。保留方向及队列标识。</desc>
+<defs><marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto-start-reverse" markerUnits="strokeWidth"><path d="M0 0L7 3.5L0 7Z" fill="#40708a"/></marker></defs>
+<g font-family="Noto Sans CJK SC, Noto Sans, sans-serif" fill="#152838">
+<rect x="40" y="29" width="1330" height="466" rx="32" fill="white" stroke="#7898a3" stroke-width="2"/>
+<rect x="40" y="640" width="1330" height="466" rx="32" fill="white" stroke="#7898a3" stroke-width="2"/>
+<text x="710" y="73" font-size="34" text-anchor="middle">医疗信息系统HIS</text>
+<text x="710" y="1081" font-size="34" text-anchor="middle">实验室信息系统LIS</text>
+<rect x="65" y="129" width="138" height="100" rx="18" fill="white" stroke="#7898a3" stroke-width="2"/>
+<text x="134.0" y="189" font-size="31" text-anchor="middle">客户机</text>
+<rect x="390" y="129" width="264" height="100" rx="18" fill="white" stroke="#7898a3" stroke-width="2"/>
+<text x="522.0" y="189" font-size="31" text-anchor="middle">业务逻辑</text>
+<rect x="65" y="929" width="138" height="100" rx="18" fill="white" stroke="#7898a3" stroke-width="2"/>
+<text x="134.0" y="989" font-size="31" text-anchor="middle">客户机</text>
+<rect x="390" y="929" width="264" height="100" rx="18" fill="white" stroke="#7898a3" stroke-width="2"/>
+<text x="522.0" y="989" font-size="31" text-anchor="middle">业务逻辑</text>
+<path d="M205 179H387" fill="none" stroke="#527989" stroke-width="2" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<path d="M205 979H387" fill="none" stroke="#527989" stroke-width="2" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<rect x="65" y="307" width="923" height="181" rx="20" fill="white" stroke="#7898a3" stroke-width="2"/>
+<text x="525" y="348" font-size="30" text-anchor="middle">适配器</text>
+<rect x="65" y="662" width="923" height="186" rx="20" fill="white" stroke="#7898a3" stroke-width="2"/>
+<text x="525" y="820" font-size="30" text-anchor="middle">适配器</text>
+<rect x="80" y="365" width="289" height="100" rx="18" fill="white" stroke="#7898a3" stroke-width="2"/>
+<text x="224" y="404" font-size="26" text-anchor="middle">POLB_AR002942</text>
+<text x="224" y="441" font-size="26" text-anchor="middle">Service Proxy</text>
+<rect x="80" y="685" width="289" height="100" rx="18" fill="white" stroke="#7898a3" stroke-width="2"/>
+<text x="224" y="724" font-size="26" text-anchor="middle">POLB_AR002942</text>
+<text x="224" y="761" font-size="26" text-anchor="middle">Service Stub</text>
+<rect x="382" y="365" width="289" height="100" rx="18" fill="white" stroke="#7898a3" stroke-width="2"/>
+<text x="526" y="404" font-size="26" text-anchor="middle">POLB_AR003962</text>
+<text x="526" y="441" font-size="26" text-anchor="middle">Service Stub</text>
+<rect x="382" y="685" width="289" height="100" rx="18" fill="white" stroke="#7898a3" stroke-width="2"/>
+<text x="526" y="724" font-size="26" text-anchor="middle">POLB_AR003962</text>
+<text x="526" y="761" font-size="26" text-anchor="middle">Service Proxy</text>
+<rect x="685" y="365" width="289" height="100" rx="18" fill="white" stroke="#7898a3" stroke-width="2"/>
+<text x="829" y="404" font-size="26" text-anchor="middle">POLB_AR004922</text>
+<text x="829" y="441" font-size="26" text-anchor="middle">Service Stub</text>
+<rect x="685" y="685" width="289" height="100" rx="18" fill="white" stroke="#7898a3" stroke-width="2"/>
+<text x="829" y="724" font-size="26" text-anchor="middle">POLB_AR004922</text>
+<text x="829" y="761" font-size="26" text-anchor="middle">Service Proxy</text>
+<path d="M520 230V303" fill="none" stroke="#527989" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="433" y="269" font-size="25" text-anchor="middle">Send Order</text>
+<rect x="1009" y="212" width="196" height="66" rx="13" fill="white" stroke="#7898a3" stroke-width="2"/>
+<text x="1107" y="255" font-size="23" text-anchor="middle">ResultMSMQ ]</text>
+<rect x="1130" y="299" width="201" height="81" rx="0" fill="white" stroke="#7898a3" stroke-width="2"/>
+<text x="1230" y="332" font-size="23" text-anchor="middle">ActiveConf</text>
+<text x="1230" y="365" font-size="23" text-anchor="middle">MSMQ</text>
+<path d="M988 377H1104V281" fill="none" stroke="#527989" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M989 427H1230V384" fill="none" stroke="#527989" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M1110 212V199H657" fill="none" stroke="#527989" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M1230 297V167H657" fill="none" stroke="#527989" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="1073" y="316" font-size="22" text-anchor="middle" stroke="white" stroke-width="5" paint-order="stroke" stroke-linejoin="round">Store</text>
+<text x="1073" y="345" font-size="22" text-anchor="middle" stroke="white" stroke-width="5" paint-order="stroke" stroke-linejoin="round">Result</text>
+<text x="1110" y="435" font-size="22" text-anchor="middle" stroke="white" stroke-width="5" paint-order="stroke" stroke-linejoin="round">Store Activate</text>
+<text x="1110" y="463" font-size="22" text-anchor="middle" stroke="white" stroke-width="5" paint-order="stroke" stroke-linejoin="round">Confirmation</text>
+<text x="833" y="119" font-size="25" text-anchor="middle" stroke="white" stroke-width="5" paint-order="stroke" stroke-linejoin="round">Receive Active</text>
+<text x="833" y="150" font-size="25" text-anchor="middle" stroke="white" stroke-width="5" paint-order="stroke" stroke-linejoin="round">Confirmation</text>
+<text x="824" y="205" font-size="24" text-anchor="middle" stroke="white" stroke-width="5" paint-order="stroke" stroke-linejoin="round">Receive</text>
+<text x="824" y="233" font-size="24" text-anchor="middle" stroke="white" stroke-width="5" paint-order="stroke" stroke-linejoin="round">Result</text>
+<path d="M145 466V681" fill="none" stroke="#527989" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="145" y="548" font-size="22" text-anchor="middle" stroke="white" stroke-width="5" paint-order="stroke" stroke-linejoin="round">Order</text>
+<text x="145" y="577" font-size="22" text-anchor="middle" stroke="white" stroke-width="5" paint-order="stroke" stroke-linejoin="round">Request</text>
+<path d="M310 684V469" fill="none" stroke="#527989" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="310" y="532" font-size="22" text-anchor="middle" stroke="white" stroke-width="5" paint-order="stroke" stroke-linejoin="round">Order</text>
+<text x="310" y="561" font-size="22" text-anchor="middle" stroke="white" stroke-width="5" paint-order="stroke" stroke-linejoin="round">Request</text>
+<text x="310" y="590" font-size="22" text-anchor="middle" stroke="white" stroke-width="5" paint-order="stroke" stroke-linejoin="round">AcceptAck</text>
+<path d="M465 684V469" fill="none" stroke="#527989" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="465" y="551" font-size="22" text-anchor="middle" stroke="white" stroke-width="5" paint-order="stroke" stroke-linejoin="round">Activate</text>
+<text x="465" y="580" font-size="22" text-anchor="middle" stroke="white" stroke-width="5" paint-order="stroke" stroke-linejoin="round">Confirmation</text>
+<path d="M610 466V681" fill="none" stroke="#527989" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="610" y="531" font-size="22" text-anchor="middle" stroke="white" stroke-width="5" paint-order="stroke" stroke-linejoin="round">Activate</text>
+<text x="610" y="560" font-size="22" text-anchor="middle" stroke="white" stroke-width="5" paint-order="stroke" stroke-linejoin="round">Confirmation</text>
+<text x="610" y="589" font-size="22" text-anchor="middle" stroke="white" stroke-width="5" paint-order="stroke" stroke-linejoin="round">AcceptAck</text>
+<path d="M756 684V469" fill="none" stroke="#527989" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="756" y="570" font-size="22" text-anchor="middle" stroke="white" stroke-width="5" paint-order="stroke" stroke-linejoin="round">Result</text>
+<path d="M905 466V681" fill="none" stroke="#527989" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="905" y="550" font-size="22" text-anchor="middle" stroke="white" stroke-width="5" paint-order="stroke" stroke-linejoin="round">Result</text>
+<text x="905" y="579" font-size="22" text-anchor="middle" stroke="white" stroke-width="5" paint-order="stroke" stroke-linejoin="round">AcceptAck</text>
+<rect x="1037" y="846" width="147" height="93" rx="0" fill="white" stroke="#7898a3" stroke-width="2"/>
+<text x="1110" y="880" font-size="25" text-anchor="middle">Order</text>
+<text x="1110" y="916" font-size="25" text-anchor="middle">MSMQ</text>
+<path d="M988 752H1110V842" fill="none" stroke="#527989" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M1110 940V977H658" fill="none" stroke="#527989" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M510 929V852" fill="none" stroke="#527989" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M553 929V852" fill="none" stroke="#527989" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="1103" y="735" font-size="24" text-anchor="middle" stroke="white" stroke-width="5" paint-order="stroke" stroke-linejoin="round">Store Order</text>
+<text x="883" y="999" font-size="25" text-anchor="middle" stroke="white" stroke-width="5" paint-order="stroke" stroke-linejoin="round">Receive Order</text>
+<text x="385" y="881" font-size="23" text-anchor="middle" stroke="white" stroke-width="5" paint-order="stroke" stroke-linejoin="round">Send Activate</text>
+<text x="385" y="910" font-size="23" text-anchor="middle" stroke="white" stroke-width="5" paint-order="stroke" stroke-linejoin="round">Confirmation</text>
+<text x="698" y="881" font-size="23" text-anchor="middle" stroke="white" stroke-width="5" paint-order="stroke" stroke-linejoin="round">Send Event</text>
+<text x="698" y="910" font-size="23" text-anchor="middle" stroke="white" stroke-width="5" paint-order="stroke" stroke-linejoin="round">Complete Notification</text>
+</g>
+</svg>

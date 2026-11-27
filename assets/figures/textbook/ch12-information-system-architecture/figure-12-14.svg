@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 425" width="960" height="425" role="img" aria-labelledby="title desc">
+<title id="title">Ramp Coordination流程图</title>
+<desc id="desc">教材图12-14，物理455页。保留起止、六边形和四个梯形；右侧上下两个检查步骤之间在底本未见可确认连线，未补画。</desc>
+<defs><marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto-start-reverse" markerUnits="strokeWidth"><path d="M0 0L7 3.5L0 7Z" fill="#40708a"/></marker></defs>
+<g font-family="Noto Sans CJK SC, Noto Sans, sans-serif" fill="#152838">
+<rect x="69" y="26" width="193" height="52" rx="18" fill="white" stroke="#7898a3" stroke-width="2"/>
+<text x="166" y="61" font-size="34" text-anchor="middle">开始</text>
+<path d="M82 118H237L276 158L237 197H82L45 158Z" fill="white" stroke="#527989" stroke-width="2"/>
+<text x="161" y="145" font-size="28" text-anchor="middle">Retrieve</text>
+<text x="161" y="183" font-size="28" text-anchor="middle">Flight BO</text>
+<path d="M383 118h197l-38 78h-120Z" fill="white" stroke="#527989" stroke-width="2"/>
+<text x="480" y="147" font-size="27" text-anchor="middle">Check</text>
+<text x="480" y="185" font-size="27" text-anchor="middle">Spot</text>
+<path d="M661 118h197l-38 78h-120Z" fill="white" stroke="#527989" stroke-width="2"/>
+<text x="758" y="147" font-size="27" text-anchor="middle">Check</text>
+<text x="758" y="185" font-size="27" text-anchor="middle">Unloading</text>
+<path d="M373 236h197l-38 78h-120Z" fill="white" stroke="#527989" stroke-width="2"/>
+<text x="470" y="265" font-size="27" text-anchor="middle">Check</text>
+<text x="470" y="303" font-size="27" text-anchor="middle">Push Back</text>
+<path d="M661 236h197l-38 78h-120Z" fill="white" stroke="#527989" stroke-width="2"/>
+<text x="758" y="265" font-size="27" text-anchor="middle">Check</text>
+<text x="758" y="303" font-size="27" text-anchor="middle">Loading</text>
+<rect x="383" y="355" width="192" height="51" rx="18" fill="white" stroke="#7898a3" stroke-width="2"/>
+<text x="479" y="392" font-size="34" text-anchor="middle">结束</text>
+<path d="M166 79V113" fill="none" stroke="#527989" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M277 158H397" fill="none" stroke="#527989" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M560 158H674" fill="none" stroke="#527989" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M677 277H570" fill="none" stroke="#527989" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M479 315V350" fill="none" stroke="#527989" stroke-width="2" marker-end="url(#arrow)"/>
+</g>
+</svg>

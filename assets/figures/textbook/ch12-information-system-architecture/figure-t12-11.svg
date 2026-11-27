@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1296 1114" role="img" aria-labelledby="title desc">
+<title id="title">表 12-11 架构变更管理阶段活动的详细说明</title>
+<desc id="desc">入库教材 PDF 物理 438。两列两组，目标对应步骤，输入对应输出，保留项目从属。</desc>
+<g font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" fill="#15232c">
+<rect x="4" y="6" width="1288" height="49" fill="#edf4f8" stroke="none"/>
+<text x="410.0" y="38" text-anchor="middle" font-size="21" font-weight="bold" fill="#15232c">目标</text>
+<text x="1054.0" y="38" text-anchor="middle" font-size="21" font-weight="bold" fill="#15232c">步骤</text>
+<line x1="4" y1="6" x2="1292" y2="6" stroke="#697883" stroke-width="1.5"/>
+<text x="20" y="99.5" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="99.5" text-anchor="start" font-size="18" fill="#15232c">确保基线架构持续符合当前实际情况。</text>
+<text x="20" y="128.5" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="128.5" text-anchor="start" font-size="18" fill="#15232c">评估架构性能并提出改进建议。</text>
+<text x="20" y="157.5" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="157.5" text-anchor="start" font-size="18" fill="#15232c">评估在之前阶段中制定的框架和原则的变化。</text>
+<text x="20" y="186.5" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="186.5" text-anchor="start" font-size="18" fill="#15232c">为实施治理阶段建立的新的企业架构基线建立一个架构变更管理流程。</text>
+<text x="20" y="215.5" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="215.5" text-anchor="start" font-size="18" fill="#15232c">将架构和运营的业务价值最大化。</text>
+<text x="20" y="244.5" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="244.5" text-anchor="start" font-size="18" fill="#15232c">运用治理框架。</text>
+<text x="832" y="85.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="852" y="85.0" text-anchor="start" font-size="18" fill="#15232c">建立价值实现过程。</text>
+<text x="832" y="114.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="852" y="114.0" text-anchor="start" font-size="18" fill="#15232c">部署监控工具。</text>
+<text x="832" y="143.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="852" y="143.0" text-anchor="start" font-size="18" fill="#15232c">管理风险。</text>
+<text x="832" y="172.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="852" y="172.0" text-anchor="start" font-size="18" fill="#15232c">提供架构变更管理分析。</text>
+<text x="832" y="201.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="852" y="201.0" text-anchor="start" font-size="18" fill="#15232c">开发变更需求以满足性能目标。</text>
+<text x="832" y="230.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="852" y="230.0" text-anchor="start" font-size="18" fill="#15232c">管理治理过程。</text>
+<text x="832" y="259.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="852" y="259.0" text-anchor="start" font-size="18" fill="#15232c">启动实施变更的流程。</text>
+<line x1="4" y1="55" x2="1292" y2="55" stroke="#697883" stroke-width="1.5"/>
+<rect x="4" y="296" width="1288" height="49" fill="#edf4f8" stroke="none"/>
+<text x="410.0" y="328" text-anchor="middle" font-size="21" font-weight="bold" fill="#15232c">输入</text>
+<text x="1054.0" y="328" text-anchor="middle" font-size="21" font-weight="bold" fill="#15232c">输出</text>
+<line x1="4" y1="296" x2="1292" y2="296" stroke="#697883" stroke-width="1.5"/>
+<text x="20" y="375.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="375.0" text-anchor="start" font-size="18" fill="#15232c">在阶段E和F中确认的架构工作要求书。</text>
+<text x="20" y="404.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="404.0" text-anchor="start" font-size="18" fill="#15232c">企业架构的组织模型。</text>
+<text x="20" y="433.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="433.0" text-anchor="start" font-size="18" fill="#15232c">架构工作说明书。</text>
+<text x="20" y="462.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="462.0" text-anchor="start" font-size="18" fill="#15232c">架构愿景。</text>
+<text x="20" y="491.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="491.0" text-anchor="start" font-size="18" fill="#15232c">架构资源库。</text>
+<text x="20" y="520.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="520.0" text-anchor="start" font-size="18" fill="#15232c">架构定义文档。</text>
+<text x="20" y="549.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="549.0" text-anchor="start" font-size="18" fill="#15232c">架构需求说明书。</text>
+<text x="20" y="578.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="578.0" text-anchor="start" font-size="18" fill="#15232c">架构路线图。</text>
+<text x="20" y="607.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="607.0" text-anchor="start" font-size="18" fill="#15232c">由技术变化产生的变更请求。</text>
+<text x="47" y="636.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="67" y="636.0" text-anchor="start" font-size="18" fill="#15232c">新技术报告。</text>
+<text x="47" y="665.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="67" y="665.0" text-anchor="start" font-size="18" fill="#15232c">资产管理成本削减措施。</text>
+<text x="47" y="694.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="67" y="694.0" text-anchor="start" font-size="18" fill="#15232c">技术退出报告。</text>
+<text x="47" y="723.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="67" y="723.0" text-anchor="start" font-size="18" fill="#15232c">各标准举措。</text>
+<text x="20" y="752.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="752.0" text-anchor="start" font-size="18" fill="#15232c">由业务变化产生的变更请求。</text>
+<text x="47" y="781.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="67" y="781.0" text-anchor="start" font-size="18" fill="#15232c">业务发展。</text>
+<text x="47" y="810.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="67" y="810.0" text-anchor="start" font-size="18" fill="#15232c">业务异常。</text>
+<text x="47" y="839.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="67" y="839.0" text-anchor="start" font-size="18" fill="#15232c">业务革新。</text>
+<text x="47" y="868.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="67" y="868.0" text-anchor="start" font-size="18" fill="#15232c">业务技术革新。</text>
+<text x="47" y="897.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="67" y="897.0" text-anchor="start" font-size="18" fill="#15232c">战略变化发展。</text>
+<text x="20" y="926.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="926.0" text-anchor="start" font-size="18" fill="#15232c">由经验教训产生的变更请求。</text>
+<text x="20" y="955.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="955.0" text-anchor="start" font-size="18" fill="#15232c">过渡架构。</text>
+<text x="20" y="984.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="984.0" text-anchor="start" font-size="18" fill="#15232c">实施治理模型。</text>
+<text x="20" y="1013.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="1013.0" text-anchor="start" font-size="18" fill="#15232c">架构契约(签字)。</text>
+<text x="20" y="1042.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="1042.0" text-anchor="start" font-size="18" fill="#15232c">合规性的评估。</text>
+<text x="20" y="1071.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="1071.0" text-anchor="start" font-size="18" fill="#15232c">实施和迁移计划。</text>
+<text x="832" y="637.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="852" y="637.0" text-anchor="start" font-size="18" fill="#15232c">架构的各种更新。</text>
+<text x="832" y="666.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="852" y="666.0" text-anchor="start" font-size="18" fill="#15232c">对架构框架和原则的变更。</text>
+<text x="832" y="695.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="852" y="695.0" text-anchor="start" font-size="18" fill="#15232c">新的架构工作要求书，用于发起另一次 ADM 循</text>
+<text x="852" y="722.0" text-anchor="start" font-size="18" fill="#15232c">环。</text>
+<text x="832" y="751.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="852" y="751.0" text-anchor="start" font-size="18" fill="#15232c">架构工作说明书(Update)。</text>
+<text x="832" y="780.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="852" y="780.0" text-anchor="start" font-size="18" fill="#15232c">架构契约(Update)。</text>
+<text x="832" y="809.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="852" y="809.0" text-anchor="start" font-size="18" fill="#15232c">合规性的评估(Update)。</text>
+<line x1="4" y1="345" x2="1292" y2="345" stroke="#697883" stroke-width="1.5"/>
+<line x1="4" y1="1108" x2="1292" y2="1108" stroke="#697883" stroke-width="1.5"/>
+<line x1="816" y1="6" x2="816" y2="1108" stroke="#697883" stroke-width="1.5"/>
+</g>
+</svg>

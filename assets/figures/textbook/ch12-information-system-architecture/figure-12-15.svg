@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1570 830" width="1570" height="830" role="img" aria-labelledby="title desc">
+<title id="title">Ramp Coordination系统架构</title>
+<desc id="desc">教材图12-15，物理456页。上层交互、流程和信息服务，中间 ESB 与适配接口，下层五个伙伴或业务系统。RCMS 与流程服务之间的跨层曲线有一段被文字遮断，以虚线连接可见两端，独立于 Fire 横线。少数英文标签含疑似底本识别误差，按图形可辨字串转录。</desc>
+<defs><marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto-start-reverse" markerUnits="strokeWidth"><path d="M0 0L7 3.5L0 7Z" fill="#40708a"/></marker></defs>
+<g font-family="Noto Sans CJK SC, Noto Sans, sans-serif" fill="#152838">
+<rect x="105" y="306" width="1270" height="177" rx="0" fill="white" stroke="#7898a3" stroke-width="2"/>
+<rect x="105" y="537" width="202" height="248" rx="0" fill="white" stroke="#7898a3" stroke-width="2"/>
+<rect x="322" y="537" width="202" height="248" rx="0" fill="white" stroke="#7898a3" stroke-width="2"/>
+<rect x="541" y="537" width="325" height="248" rx="0" fill="white" stroke="#7898a3" stroke-width="2"/>
+<rect x="877" y="537" width="197" height="248" rx="0" fill="white" stroke="#7898a3" stroke-width="2"/>
+<rect x="1091" y="537" width="284" height="248" rx="0" fill="white" stroke="#7898a3" stroke-width="2"/>
+<rect x="122" y="126" width="640" height="154" rx="23" fill="white" stroke="#7898a3" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="443" y="171" font-size="24" text-anchor="middle">Interaction Service (Websphere Porial Server)</text>
+<rect x="140" y="193" width="139" height="70" rx="0" fill="white" stroke="#7898a3" stroke-width="2"/>
+<text x="209" y="219" font-size="23" text-anchor="middle">Check</text>
+<text x="209" y="250" font-size="23" text-anchor="middle">spot</text>
+<rect x="293" y="193" width="139" height="70" rx="0" fill="white" stroke="#7898a3" stroke-width="2"/>
+<text x="362" y="219" font-size="23" text-anchor="middle">Check</text>
+<text x="362" y="250" font-size="23" text-anchor="middle">Urloading</text>
+<rect x="452" y="193" width="139" height="70" rx="0" fill="white" stroke="#7898a3" stroke-width="2"/>
+<text x="521" y="219" font-size="23" text-anchor="middle">Check</text>
+<text x="521" y="250" font-size="23" text-anchor="middle">Loading</text>
+<rect x="603" y="193" width="139" height="70" rx="0" fill="white" stroke="#7898a3" stroke-width="2"/>
+<text x="672" y="219" font-size="23" text-anchor="middle">Check</text>
+<text x="672" y="250" font-size="23" text-anchor="middle">Push Back</text>
+<rect x="851" y="81" width="190" height="207" rx="22" fill="white" stroke="#7898a3" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="946" y="113" font-size="23" text-anchor="middle">(3)Process</text>
+<text x="946" y="140" font-size="23" text-anchor="middle">Service</text>
+<text x="946" y="167" font-size="23" text-anchor="middle">(W BISF)</text>
+<rect x="858" y="195" width="177" height="68" rx="0" fill="white" stroke="#7898a3" stroke-width="2"/>
+<text x="947" y="223" font-size="22" text-anchor="middle">Ramp</text>
+<text x="947" y="251" font-size="22" text-anchor="middle">Coandination</text>
+<rect x="1143" y="81" width="185" height="207" rx="22" fill="white" stroke="#7898a3" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="1236" y="110" font-size="23" text-anchor="middle">Im tem ation</text>
+<text x="1236" y="139" font-size="23" text-anchor="middle">Service</text>
+<text x="1236" y="168" font-size="23" text-anchor="middle">(WAS/SDO)</text>
+<rect x="1151" y="195" width="170" height="68" rx="0" fill="white" stroke="#7898a3" stroke-width="2"/>
+<text x="1236" y="223" font-size="23" text-anchor="middle">Retrieve</text>
+<text x="1236" y="252" font-size="23" text-anchor="middle">Flight,BQ</text>
+<path d="M446 126 Q680 -8 929 81" fill="none" stroke="#527989" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="691" y="52" font-size="24" text-anchor="middle" stroke="white" stroke-width="5" paint-order="stroke" stroke-linejoin="round">Stall Service-</text>
+<path d="M1150 146 Q1082 6 956 80" fill="none" stroke="#527989" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="1083" y="75" font-size="24" text-anchor="middle" stroke="white" stroke-width="5" paint-order="stroke" stroke-linejoin="round">Service</text>
+<path d="M187 264v62" fill="none" stroke="#527989" stroke-width="2"/>
+<path d="M237 264v62" fill="none" stroke="#527989" stroke-width="2"/>
+<path d="M334 264v62" fill="none" stroke="#527989" stroke-width="2"/>
+<path d="M388 264v62" fill="none" stroke="#527989" stroke-width="2"/>
+<ellipse cx="388" cy="329" rx="4" ry="5" fill="white" stroke="#698b95" stroke-width="2"/>
+<path d="M491 264v62" fill="none" stroke="#527989" stroke-width="2"/>
+<ellipse cx="491" cy="329" rx="4" ry="5" fill="white" stroke="#698b95" stroke-width="2"/>
+<path d="M545 264v62" fill="none" stroke="#527989" stroke-width="2"/>
+<path d="M650 264v62" fill="none" stroke="#527989" stroke-width="2"/>
+<ellipse cx="650" cy="329" rx="4" ry="5" fill="white" stroke="#698b95" stroke-width="2"/>
+<path d="M700 264v62" fill="none" stroke="#527989" stroke-width="2"/>
+<ellipse cx="700" cy="329" rx="4" ry="5" fill="white" stroke="#698b95" stroke-width="2"/>
+<path d="M914 264v62" fill="none" stroke="#527989" stroke-width="2"/>
+<path d="M971 264v62" fill="none" stroke="#527989" stroke-width="2"/>
+<path d="M1191 264v62" fill="none" stroke="#527989" stroke-width="2"/>
+<path d="M1241 264v62" fill="none" stroke="#527989" stroke-width="2"/>
+<path d="M339 564q40 18 76 -5t91 9v143q-35 -18 -70 -4t-97 -8Z" fill="white" stroke="#527989" stroke-width="2"/>
+<text x="423" y="608" font-size="24" text-anchor="middle">(4)Ramp</text>
+<text x="423" y="642" font-size="24" text-anchor="middle">Coordination</text>
+<text x="423" y="676" font-size="24" text-anchor="middle">Function</text>
+<rect x="579" y="548" width="117" height="78" rx="0" fill="white" stroke="#7898a3" stroke-width="2"/>
+<text x="637.5" y="577" font-size="24" text-anchor="middle">Flight</text>
+<text x="637.5" y="609" font-size="24" text-anchor="middle">Arivel</text>
+<rect x="727" y="548" width="125" height="78" rx="0" fill="white" stroke="#7898a3" stroke-width="2"/>
+<text x="789.5" y="577" font-size="24" text-anchor="middle">Cockpit</text>
+<text x="789.5" y="609" font-size="24" text-anchor="middle">Info</text>
+<rect x="908" y="548" width="135" height="78" rx="0" fill="white" stroke="#7898a3" stroke-width="2"/>
+<text x="975.5" y="577" font-size="24" text-anchor="middle">Passage</text>
+<text x="975.5" y="609" font-size="24" text-anchor="middle">Info</text>
+<rect x="1135" y="548" width="148" height="78" rx="0" fill="white" stroke="#7898a3" stroke-width="2"/>
+<text x="1209.0" y="577" font-size="24" text-anchor="middle">Crew Into</text>
+<text x="206" y="651" font-size="30" text-anchor="middle">（无）</text>
+<text x="205" y="764" font-size="23" text-anchor="middle" fill="#2678aa">Partner Service</text>
+<text x="422" y="763" font-size="26" text-anchor="middle">RCMS</text>
+<text x="705" y="666" font-size="24" text-anchor="middle">机务人员管理系统</text>
+<text x="705" y="698" font-size="24" text-anchor="middle">航班调试系统</text>
+<text x="705" y="730" font-size="24" text-anchor="middle">IMS</text>
+<text x="705" y="762" font-size="24" text-anchor="middle">S/390</text>
+<text x="975" y="737" font-size="26" text-anchor="middle">订票系统</text>
+<text x="975" y="768" font-size="26" text-anchor="middle">IBM TPF</text>
+<text x="1234" y="692" font-size="26" text-anchor="middle">乘务人员管理系统</text>
+<text x="1234" y="725" font-size="26" text-anchor="middle">Oracle</text>
+<text x="1234" y="758" font-size="26" text-anchor="middle">HP-UX</text>
+<rect x="120" y="350" width="255" height="109" rx="12" fill="white" stroke="#7898a3" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="248" y="380" font-size="22" text-anchor="middle">(2)Event Service</text>
+<text x="248" y="411" font-size="22" text-anchor="middle">(JMS Pvb/Sub over)</text>
+<text x="248" y="442" font-size="22" text-anchor="middle">Message Broker</text>
+<rect x="500" y="373" width="185" height="127" rx="13" fill="white" stroke="#7898a3" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="592" y="405" font-size="23" text-anchor="middle">Event Detect</text>
+<text x="592" y="435" font-size="23" text-anchor="middle">Service</text>
+<text x="644" y="467" font-size="24" text-anchor="middle">MQ</text>
+<path d="M720 463V398Q720 377 743 377H840V299H1357V467H1277" fill="none" stroke="#527989" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="1007" y="323" font-size="21" text-anchor="middle" stroke="white" stroke-width="5" paint-order="stroke" stroke-linejoin="round">SoAp/HTTP</text>
+<text x="1010" y="353" font-size="24" text-anchor="middle" fill="#286483" stroke="white" stroke-width="5" paint-order="stroke" stroke-linejoin="round">Transport Service (WSIF)</text>
+<text x="992" y="392" font-size="25" text-anchor="middle" fill="#315b73" stroke="white" stroke-width="5" paint-order="stroke" stroke-linejoin="round">On-Ramp Service</text>
+<text x="994" y="440" font-size="24" text-anchor="middle" fill="#2678aa" stroke="white" stroke-width="5" paint-order="stroke" stroke-linejoin="round">Socket</text>
+<text x="786" y="407" font-size="23" text-anchor="middle" stroke="white" stroke-width="5" paint-order="stroke" stroke-linejoin="round">IMS J2C</text>
+<text x="786" y="438" font-size="23" text-anchor="middle" stroke="white" stroke-width="5" paint-order="stroke" stroke-linejoin="round">Connector</text>
+<text x="1204" y="351" font-size="23" text-anchor="middle" stroke="white" stroke-width="5" paint-order="stroke" stroke-linejoin="round">RMI/IIOP</text>
+<text x="1194" y="452" font-size="23" text-anchor="middle" stroke="white" stroke-width="5" paint-order="stroke" stroke-linejoin="round">JDBC</text>
+<text x="1335" y="395" font-size="25" text-anchor="middle" stroke="white" stroke-width="5" paint-order="stroke" stroke-linejoin="round">ESB</text>
+<text x="1413" y="283" font-size="24" text-anchor="middle" stroke="white" stroke-width="5" paint-order="stroke" stroke-linejoin="round">(1)Federetion</text>
+<text x="1413" y="313" font-size="24" text-anchor="middle" stroke="white" stroke-width="5" paint-order="stroke" stroke-linejoin="round">Service</text>
+<path d="M1296 445Q1533 340 1330 193" fill="none" stroke="#527989" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M447 405Q690 252 958 289" fill="none" stroke="#527989" stroke-width="2"/>
+<path d="M497 430L377 397" fill="none" stroke="#527989" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="442" y="431" font-size="23" text-anchor="middle" stroke="white" stroke-width="5" paint-order="stroke" stroke-linejoin="round">Fire-</text>
+<path d="M447 405Q415 427 413 465" fill="none" stroke="#527989" stroke-width="2" stroke-dasharray="7 5"/>
+<path d="M413 465Q408 507 424 557" fill="none" stroke="#527989" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M185 263L104 330Q36 384 119 409" fill="none" stroke="#527989" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="82" y="371" font-size="22" text-anchor="middle" stroke="white" stroke-width="5" paint-order="stroke" stroke-linejoin="round">Wait</text>
+<path d="M618 548V486" fill="none" stroke="#527989" stroke-width="2"/>
+<path d="M686 552V476" fill="none" stroke="#527989" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M754 548V486" fill="none" stroke="#527989" stroke-width="2"/>
+<path d="M825 548V478" fill="none" stroke="#527989" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M938 548V467" fill="none" stroke="#527989" stroke-width="2"/>
+<path d="M1017 548V479" fill="none" stroke="#527989" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M1150 548V474" fill="none" stroke="#527989" stroke-width="2"/>
+<path d="M1233 548V478" fill="none" stroke="#527989" stroke-width="2" marker-end="url(#arrow)"/>
+</g>
+</svg>

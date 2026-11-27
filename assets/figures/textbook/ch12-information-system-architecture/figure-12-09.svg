@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 852 820" role="img" aria-labelledby="title desc">
+<title id="title">图 12-9 ADM架构开发方法的全生命周期模型</title>
+<desc id="desc">预备阶段与 A 双向相连；A 至 H 循环，各阶段与需求管理双向相连。H 保留图中“架构变更治理”。</desc>
+<g font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" fill="#15232c">
+<defs><marker id="arr" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M 0 0 L 8 4 L 0 8 z" fill="#3c6777"/></marker></defs>
+<path d="M 426.0 391.0 L 426.0 284.0" fill="none" stroke="#3c6777" stroke-width="2.2" marker-end="url(#arr)" marker-start="url(#arr)"/>
+<path d="M 481.9 414.1 L 557.5 338.5" fill="none" stroke="#3c6777" stroke-width="2.2" marker-end="url(#arr)" marker-start="url(#arr)"/>
+<path d="M 505.0 470.0 L 612.0 470.0" fill="none" stroke="#3c6777" stroke-width="2.2" marker-end="url(#arr)" marker-start="url(#arr)"/>
+<path d="M 481.9 525.9 L 557.5 601.5" fill="none" stroke="#3c6777" stroke-width="2.2" marker-end="url(#arr)" marker-start="url(#arr)"/>
+<path d="M 426.0 549.0 L 426.0 656.0" fill="none" stroke="#3c6777" stroke-width="2.2" marker-end="url(#arr)" marker-start="url(#arr)"/>
+<path d="M 370.1 525.9 L 294.5 601.5" fill="none" stroke="#3c6777" stroke-width="2.2" marker-end="url(#arr)" marker-start="url(#arr)"/>
+<path d="M 347.0 470.0 L 240.0 470.0" fill="none" stroke="#3c6777" stroke-width="2.2" marker-end="url(#arr)" marker-start="url(#arr)"/>
+<path d="M 370.1 414.1 L 294.5 338.5" fill="none" stroke="#3c6777" stroke-width="2.2" marker-end="url(#arr)" marker-start="url(#arr)"/>
+<path d="M 494.4 238.3 L 541.5 257.8" fill="none" stroke="#3c6777" stroke-width="2.2" marker-end="url(#arr)"/>
+<path d="M 638.2 354.5 L 657.7 401.6" fill="none" stroke="#3c6777" stroke-width="2.2" marker-end="url(#arr)"/>
+<path d="M 657.7 538.4 L 638.2 585.5" fill="none" stroke="#3c6777" stroke-width="2.2" marker-end="url(#arr)"/>
+<path d="M 541.5 682.2 L 494.4 701.7" fill="none" stroke="#3c6777" stroke-width="2.2" marker-end="url(#arr)"/>
+<path d="M 357.6 701.7 L 310.5 682.2" fill="none" stroke="#3c6777" stroke-width="2.2" marker-end="url(#arr)"/>
+<path d="M 213.8 585.5 L 194.3 538.4" fill="none" stroke="#3c6777" stroke-width="2.2" marker-end="url(#arr)"/>
+<path d="M 194.3 401.6 L 213.8 354.5" fill="none" stroke="#3c6777" stroke-width="2.2" marker-end="url(#arr)"/>
+<path d="M 310.5 257.8 L 357.6 238.3" fill="none" stroke="#3c6777" stroke-width="2.2" marker-end="url(#arr)"/>
+<path d="M 426.0 114.0 L 426.0 136.0" fill="none" stroke="#3c6777" stroke-width="2.2" marker-end="url(#arr)" marker-start="url(#arr)"/>
+<circle cx="426.0" cy="210.0" r="73" fill="#fbfdfd" stroke="#548696" stroke-width="2"/>
+<text x="426.0" y="211.0" text-anchor="middle" font-size="20" fill="#15232c">A.</text>
+<text x="426.0" y="236.0" text-anchor="middle" font-size="20" fill="#15232c">架构愿景</text>
+<circle cx="609.8" cy="286.2" r="73" fill="#fbfdfd" stroke="#548696" stroke-width="2"/>
+<text x="609.8477631085024" y="287.15223689149764" text-anchor="middle" font-size="20" fill="#15232c">B.</text>
+<text x="609.8477631085024" y="312.15223689149764" text-anchor="middle" font-size="20" fill="#15232c">业务架构</text>
+<circle cx="686.0" cy="470.0" r="73" fill="#fbfdfd" stroke="#548696" stroke-width="2"/>
+<text x="686.0" y="471.0" text-anchor="middle" font-size="20" fill="#15232c">C.</text>
+<text x="686.0" y="496.0" text-anchor="middle" font-size="20" fill="#15232c">信息系统架构</text>
+<circle cx="609.8" cy="653.8" r="73" fill="#fbfdfd" stroke="#548696" stroke-width="2"/>
+<text x="609.8477631085024" y="654.8477631085024" text-anchor="middle" font-size="20" fill="#15232c">D.</text>
+<text x="609.8477631085024" y="679.8477631085024" text-anchor="middle" font-size="20" fill="#15232c">技术架构</text>
+<circle cx="426.0" cy="730.0" r="73" fill="#fbfdfd" stroke="#548696" stroke-width="2"/>
+<text x="426.0" y="716.0" text-anchor="middle" font-size="20" fill="#15232c">E.</text>
+<text x="426.0" y="741.0" text-anchor="middle" font-size="20" fill="#15232c">机会及</text>
+<text x="426.0" y="766.0" text-anchor="middle" font-size="20" fill="#15232c">解决方案</text>
+<circle cx="242.2" cy="653.8" r="73" fill="#fbfdfd" stroke="#548696" stroke-width="2"/>
+<text x="242.15223689149767" y="654.8477631085024" text-anchor="middle" font-size="20" fill="#15232c">F.</text>
+<text x="242.15223689149767" y="679.8477631085024" text-anchor="middle" font-size="20" fill="#15232c">迁移规划</text>
+<circle cx="166.0" cy="470.0" r="73" fill="#fbfdfd" stroke="#548696" stroke-width="2"/>
+<text x="166.0" y="471.00000000000006" text-anchor="middle" font-size="20" fill="#15232c">G.</text>
+<text x="166.0" y="496.00000000000006" text-anchor="middle" font-size="20" fill="#15232c">实施治理</text>
+<circle cx="242.2" cy="286.2" r="73" fill="#fbfdfd" stroke="#548696" stroke-width="2"/>
+<text x="242.1522368914976" y="287.15223689149764" text-anchor="middle" font-size="20" fill="#15232c">H.</text>
+<text x="242.1522368914976" y="312.15223689149764" text-anchor="middle" font-size="20" fill="#15232c">架构变更治理</text>
+<circle cx="426.0" cy="470.0" r="78" fill="#b3e3ef" stroke="#548696" stroke-width="2"/>
+<circle cx="426.0" cy="62.0" r="51" fill="#fbfdfd" stroke="#548696" stroke-width="2"/>
+<text x="426" y="477" text-anchor="middle" font-size="23" fill="#15232c">需求管理</text>
+<text x="426" y="69" text-anchor="middle" font-size="19" fill="#15232c">预备阶段</text>
+</g>
+</svg>

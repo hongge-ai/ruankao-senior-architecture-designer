@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1296 1259" role="img" aria-labelledby="title desc">
+<title id="title">表 12-10 实施治理阶段活动的详细说明</title>
+<desc id="desc">入库教材 PDF 物理 437。两列两组，目标对应步骤，输入对应输出，保留项目从属。</desc>
+<g font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" fill="#15232c">
+<rect x="4" y="6" width="1288" height="49" fill="#edf4f8" stroke="none"/>
+<text x="377.0" y="38" text-anchor="middle" font-size="21" font-weight="bold" fill="#15232c">目标</text>
+<text x="1021.0" y="38" text-anchor="middle" font-size="21" font-weight="bold" fill="#15232c">步骤</text>
+<line x1="4" y1="6" x2="1292" y2="6" stroke="#697883" stroke-width="1.5"/>
+<text x="20" y="85.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="85.0" text-anchor="start" font-size="18" fill="#15232c">为每个实施项目给予建议。</text>
+<text x="20" y="114.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="114.0" text-anchor="start" font-size="18" fill="#15232c">对涵盖整个实施和部署过程的架构契约进行治理。</text>
+<text x="20" y="143.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="143.0" text-anchor="start" font-size="18" fill="#15232c">在解决方案正在实施和部署时，行使恰当的治理职责。</text>
+<text x="20" y="172.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="172.0" text-anchor="start" font-size="18" fill="#15232c">确保各实施项目符合于规定的架构。</text>
+<text x="20" y="201.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="201.0" text-anchor="start" font-size="18" fill="#15232c">确保按工作计划成功部署了解决方案的相关程序。</text>
+<text x="20" y="230.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="230.0" text-anchor="start" font-size="18" fill="#15232c">确保已经部署的解决方案与目标架构一致。</text>
+<text x="20" y="259.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="259.0" text-anchor="start" font-size="18" fill="#15232c">组织各种支持性行动，确保被部署的解决方案长期有效。</text>
+<text x="766" y="99.5" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="786" y="99.5" text-anchor="start" font-size="18" fill="#15232c">通过开发管理工作，确认部署的范围和优先级。</text>
+<text x="766" y="128.5" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="786" y="128.5" text-anchor="start" font-size="18" fill="#15232c">明确用于部署的资源和技能。</text>
+<text x="766" y="157.5" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="786" y="157.5" text-anchor="start" font-size="18" fill="#15232c">指导部署解决方案的开发工作。</text>
+<text x="766" y="186.5" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="786" y="186.5" text-anchor="start" font-size="18" fill="#15232c">执行企业架构合规审查。</text>
+<text x="766" y="215.5" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="786" y="215.5" text-anchor="start" font-size="18" fill="#15232c">实施业务和信息运营。</text>
+<text x="766" y="244.5" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="786" y="244.5" text-anchor="start" font-size="18" fill="#15232c">执行实施后审查并结束实施工作。</text>
+<line x1="4" y1="55" x2="1292" y2="55" stroke="#697883" stroke-width="1.5"/>
+<rect x="4" y="296" width="1288" height="49" fill="#edf4f8" stroke="none"/>
+<text x="377.0" y="328" text-anchor="middle" font-size="21" font-weight="bold" fill="#15232c">输入</text>
+<text x="1021.0" y="328" text-anchor="middle" font-size="21" font-weight="bold" fill="#15232c">输出</text>
+<line x1="4" y1="296" x2="1292" y2="296" stroke="#697883" stroke-width="1.5"/>
+<text x="20" y="375.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="375.0" text-anchor="start" font-size="18" fill="#15232c">架构工作要求书</text>
+<text x="20" y="404.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="404.0" text-anchor="start" font-size="18" fill="#15232c">能力评估</text>
+<text x="20" y="433.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="433.0" text-anchor="start" font-size="18" fill="#15232c">企业架构的组织模型。</text>
+<text x="47" y="462.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="67" y="462.0" text-anchor="start" font-size="18" fill="#15232c">受影响的组织范围。</text>
+<text x="47" y="491.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="67" y="491.0" text-anchor="start" font-size="18" fill="#15232c">成熟度评测、差距及解决方法。</text>
+<text x="47" y="520.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="67" y="520.0" text-anchor="start" font-size="18" fill="#15232c">架构团队所担当的角色和职责。</text>
+<text x="47" y="549.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="67" y="549.0" text-anchor="start" font-size="18" fill="#15232c">架构工作的约束。</text>
+<text x="47" y="578.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="67" y="578.0" text-anchor="start" font-size="18" fill="#15232c">预算需求。</text>
+<text x="47" y="607.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="67" y="607.0" text-anchor="start" font-size="18" fill="#15232c">治理和支持策略。</text>
+<text x="20" y="636.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="636.0" text-anchor="start" font-size="18" fill="#15232c">定制的架构框架。</text>
+<text x="47" y="665.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="67" y="665.0" text-anchor="start" font-size="18" fill="#15232c">定制的架构方法。</text>
+<text x="47" y="694.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="67" y="694.0" text-anchor="start" font-size="18" fill="#15232c">定制的架构内容(交付物和制品)。</text>
+<text x="47" y="723.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="67" y="723.0" text-anchor="start" font-size="18" fill="#15232c">配置和部署工具。</text>
+<text x="20" y="752.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="752.0" text-anchor="start" font-size="18" fill="#15232c">架构工作说明书。</text>
+<text x="20" y="781.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="781.0" text-anchor="start" font-size="18" fill="#15232c">架构愿景。</text>
+<text x="20" y="810.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="810.0" text-anchor="start" font-size="18" fill="#15232c">架构资源库。</text>
+<text x="47" y="839.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="67" y="839.0" text-anchor="start" font-size="18" fill="#15232c">可重用的构件块。</text>
+<text x="47" y="868.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="67" y="868.0" text-anchor="start" font-size="18" fill="#15232c">公开且可得的参考模型。</text>
+<text x="47" y="897.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="67" y="897.0" text-anchor="start" font-size="18" fill="#15232c">组织特定的参考模型。</text>
+<text x="47" y="926.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="67" y="926.0" text-anchor="start" font-size="18" fill="#15232c">组织标准。</text>
+<text x="20" y="955.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="955.0" text-anchor="start" font-size="18" fill="#15232c">架构定义文档。</text>
+<text x="20" y="984.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="984.0" text-anchor="start" font-size="18" fill="#15232c">架构需求说明书。</text>
+<text x="47" y="1013.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="67" y="1013.0" text-anchor="start" font-size="18" fill="#15232c">架构需求。</text>
+<text x="47" y="1042.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="67" y="1042.0" text-anchor="start" font-size="18" fill="#15232c">差距分析结果(业务、数据、应用和技术)。</text>
+<text x="20" y="1071.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="1071.0" text-anchor="start" font-size="18" fill="#15232c">架构路线图。</text>
+<text x="20" y="1100.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="1100.0" text-anchor="start" font-size="18" fill="#15232c">过渡架构。</text>
+<text x="20" y="1129.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="1129.0" text-anchor="start" font-size="18" fill="#15232c">实施治理模型。</text>
+<text x="20" y="1158.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="1158.0" text-anchor="start" font-size="18" fill="#15232c">架构契约。</text>
+<text x="20" y="1187.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="1187.0" text-anchor="start" font-size="18" fill="#15232c">架构工作要求书(经过机会与解决方案和迁移规划阶段明确的)。</text>
+<text x="20" y="1216.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="1216.0" text-anchor="start" font-size="18" fill="#15232c">实施和迁移计划。</text>
+<text x="766" y="592.5" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="786" y="592.5" text-anchor="start" font-size="18" fill="#15232c">架构契约(签字)。</text>
+<text x="766" y="621.5" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="786" y="621.5" text-anchor="start" font-size="18" fill="#15232c">变更请求。</text>
+<text x="766" y="650.5" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="786" y="650.5" text-anchor="start" font-size="18" fill="#15232c">影响分析(实施)。</text>
+<text x="766" y="679.5" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="786" y="679.5" text-anchor="start" font-size="18" fill="#15232c">建议。</text>
+<text x="766" y="708.5" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="786" y="708.5" text-anchor="start" font-size="18" fill="#15232c">可部署的符合架构要求的解决方案。</text>
+<text x="793" y="737.5" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="813" y="737.5" text-anchor="start" font-size="18" fill="#15232c">实现的符合架构要求的系统。</text>
+<text x="793" y="766.5" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="813" y="766.5" text-anchor="start" font-size="18" fill="#15232c">填充了相关资料的架构资源库。</text>
+<text x="793" y="795.5" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="813" y="795.5" text-anchor="start" font-size="18" fill="#15232c">架构合规性建议与特许。</text>
+<text x="793" y="824.5" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="813" y="824.5" text-anchor="start" font-size="18" fill="#15232c">对服务交付需求的建议。</text>
+<text x="793" y="853.5" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="813" y="853.5" text-anchor="start" font-size="18" fill="#15232c">关于效能指标的建议。</text>
+<text x="793" y="882.5" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="813" y="882.5" text-anchor="start" font-size="18" fill="#15232c">服务水平协议 (SLAs)。</text>
+<text x="793" y="911.5" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="813" y="911.5" text-anchor="start" font-size="18" fill="#15232c">在实施后经过更新的架构愿景。</text>
+<text x="793" y="940.5" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="813" y="940.5" text-anchor="start" font-size="18" fill="#15232c">在实施后经过更新的架构定义文档。</text>
+<text x="793" y="969.5" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="813" y="969.5" text-anchor="start" font-size="18" fill="#15232c">在实施后经过更新的过渡架构。</text>
+<text x="793" y="998.5" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="813" y="998.5" text-anchor="start" font-size="18" fill="#15232c">已实施解决方案的业务和信息运营模型。</text>
+<line x1="4" y1="345" x2="1292" y2="345" stroke="#697883" stroke-width="1.5"/>
+<line x1="4" y1="1253" x2="1292" y2="1253" stroke="#697883" stroke-width="1.5"/>
+<line x1="750" y1="6" x2="750" y2="1253" stroke="#697883" stroke-width="1.5"/>
+</g>
+</svg>

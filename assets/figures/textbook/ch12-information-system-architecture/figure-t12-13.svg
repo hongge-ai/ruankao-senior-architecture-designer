@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1296 491" role="img" aria-labelledby="title desc">
+<title id="title">表 12-13 四个维度对架构活动范围的限定</title>
+<desc id="desc">入库教材 PDF 物理 440。四项维度对照考察。</desc>
+<g font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" fill="#15232c">
+<rect x="4" y="6" width="1288" height="49" fill="#edf4f8" stroke="none"/>
+<text x="100.0" y="38" text-anchor="middle" font-size="21" font-weight="bold" fill="#15232c">维度</text>
+<text x="744.0" y="38" text-anchor="middle" font-size="21" font-weight="bold" fill="#15232c">考察</text>
+<line x1="4" y1="6" x2="1292" y2="6" stroke="#697883" stroke-width="1.5"/>
+<text x="18" y="112.0" text-anchor="start" font-size="18" fill="#15232c">企业范围或焦点</text>
+<text x="210" y="85.0" text-anchor="start" font-size="18" fill="#15232c">企业最大的业务范围是什么？其中又有多少是需要架构工作聚焦的？许多企业的规模非常大，实际上形成了一个组织单位成员</text>
+<text x="210" y="112.0" text-anchor="start" font-size="18" fill="#15232c">的联盟，每个成员都有自己独立的企业权利。现代企业越来越突破它的传统界线，包括了一个由供应商、客户和合作伙伴形成</text>
+<text x="210" y="139.0" text-anchor="start" font-size="18" fill="#15232c">的模糊的传统行业企业联盟</text>
+<line x1="4" y1="55" x2="1292" y2="55" stroke="#697883" stroke-width="1.5"/>
+<text x="18" y="233.0" text-anchor="start" font-size="18" fill="#15232c">架构领域</text>
+<text x="210" y="206.0" text-anchor="start" font-size="18" fill="#15232c">一个全面的企业架构描述应该包括全部四个架构领域(业务、数据、应用、技术)，但是实际的资源和时间约束经常意味着没有</text>
+<text x="210" y="233.0" text-anchor="start" font-size="18" fill="#15232c">充分的时间、资金或其他资源去设计一个自顶而下的、包含全部四个架构领域的架构描述。即使在选定的架构活动范围小于企</text>
+<text x="210" y="260.0" text-anchor="start" font-size="18" fill="#15232c">业整体业务范围时也是这样</text>
+<line x1="4" y1="176" x2="1292" y2="176" stroke="#697883" stroke-width="1.5"/>
+<text x="18" y="327.0" text-anchor="start" font-size="18" fill="#15232c">详述垂直范围或级</text>
+<text x="18" y="354.0" text-anchor="start" font-size="18" fill="#15232c">别</text>
+<text x="210" y="327.0" text-anchor="start" font-size="18" fill="#15232c">架构工作应该细化到第几层？怎么样的架构工作才算充分的？架构工作和其他相关工作(系统设计、系统工程以及系统开发)的</text>
+<text x="210" y="354.0" text-anchor="start" font-size="18" fill="#15232c">界线是什么</text>
+<line x1="4" y1="297" x2="1292" y2="297" stroke="#697883" stroke-width="1.5"/>
+<text x="18" y="434.5" text-anchor="start" font-size="18" fill="#15232c">时间周期</text>
+<text x="210" y="421.0" text-anchor="start" font-size="18" fill="#15232c">架构愿景的准确时间周期是什么？它是否意味着要在这个时间期间内用详细的架构描述填充满？如果不是，那么需要定义多少</text>
+<text x="210" y="448.0" text-anchor="start" font-size="18" fill="#15232c">个中间级别的目标架构，并且它们的时间周期是多少</text>
+<line x1="4" y1="391" x2="1292" y2="391" stroke="#697883" stroke-width="1.5"/>
+<line x1="4" y1="485" x2="1292" y2="485" stroke="#697883" stroke-width="1.5"/>
+<line x1="196" y1="6" x2="196" y2="485" stroke="#697883" stroke-width="1.5"/>
+</g>
+</svg>

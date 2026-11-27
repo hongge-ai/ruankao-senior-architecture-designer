@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1296 762" role="img" aria-labelledby="title desc">
+<title id="title">表 12-12 需求管理活动的详细说明</title>
+<desc id="desc">入库教材 PDF 物理 439。两列两组，目标对应步骤，输入对应输出，保留项目从属。</desc>
+<g font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" fill="#15232c">
+<rect x="4" y="6" width="1288" height="49" fill="#edf4f8" stroke="none"/>
+<text x="279.5" y="38" text-anchor="middle" font-size="21" font-weight="bold" fill="#15232c">目标</text>
+<text x="923.5" y="38" text-anchor="middle" font-size="21" font-weight="bold" fill="#15232c">步骤</text>
+<line x1="4" y1="6" x2="1292" y2="6" stroke="#697883" stroke-width="1.5"/>
+<text x="20" y="260.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="260.0" text-anchor="start" font-size="18" fill="#15232c">定义一个可以贯穿ADM循环各个阶段的管理架构需求的过</text>
+<text x="40" y="287.0" text-anchor="start" font-size="18" fill="#15232c">程。</text>
+<text x="20" y="316.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="316.0" text-anchor="start" font-size="18" fill="#15232c">识别和存储企业需求并与相应的ADM阶段进行交互。</text>
+<text x="571" y="85.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="591" y="85.0" text-anchor="start" font-size="18" fill="#15232c">通过业务情景或其他模拟技术来识别并记录需求(ADM各阶段)。</text>
+<text x="571" y="114.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="591" y="114.0" text-anchor="start" font-size="18" fill="#15232c">建立需求基线。</text>
+<text x="598" y="143.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="618" y="143.0" text-anchor="start" font-size="18" fill="#15232c">确定产生于当前架构开发方法阶段的各优先级事项。</text>
+<text x="598" y="172.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="618" y="172.0" text-anchor="start" font-size="18" fill="#15232c">确认干系人认可各个结果优先级事项。</text>
+<text x="598" y="201.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="618" y="201.0" text-anchor="start" font-size="18" fill="#15232c">记录需求优先级并将其放入需求库。</text>
+<text x="571" y="230.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="591" y="230.0" text-anchor="start" font-size="18" fill="#15232c">监控需求基线。</text>
+<text x="571" y="259.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="591" y="259.0" text-anchor="start" font-size="18" fill="#15232c">识别发生变更的需求(ADM各阶段)。</text>
+<text x="598" y="288.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="618" y="288.0" text-anchor="start" font-size="18" fill="#15232c">增、删、改处理并重新评定优先级。</text>
+<text x="598" y="317.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="618" y="317.0" text-anchor="start" font-size="18" fill="#15232c">识别并解决冲突。</text>
+<text x="598" y="346.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="618" y="346.0" text-anchor="start" font-size="18" fill="#15232c">生成需求影响说明。</text>
+<text x="571" y="375.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="591" y="375.0" text-anchor="start" font-size="18" fill="#15232c">评估变更的需求对现在和之前的ADM阶段产生的影响(ADM各阶段)。</text>
+<text x="571" y="404.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="591" y="404.0" text-anchor="start" font-size="18" fill="#15232c">实施架构变更管理阶段的需求(ADM架构变更管理阶段)。</text>
+<text x="571" y="433.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="591" y="433.0" text-anchor="start" font-size="18" fill="#15232c">更新需求资源库。</text>
+<text x="571" y="462.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="591" y="462.0" text-anchor="start" font-size="18" fill="#15232c">实施当前阶段的需求变更(ADM各阶段)。</text>
+<text x="571" y="491.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="591" y="491.0" text-anchor="start" font-size="18" fill="#15232c">评估并修订先前阶段的差距分析(ADM各阶段)。</text>
+<line x1="4" y1="55" x2="1292" y2="55" stroke="#697883" stroke-width="1.5"/>
+<rect x="4" y="528" width="1288" height="49" fill="#edf4f8" stroke="none"/>
+<text x="279.5" y="560" text-anchor="middle" font-size="21" font-weight="bold" fill="#15232c">输入</text>
+<text x="923.5" y="560" text-anchor="middle" font-size="21" font-weight="bold" fill="#15232c">输出</text>
+<line x1="4" y1="528" x2="1292" y2="528" stroke="#697883" stroke-width="1.5"/>
+<text x="20" y="607.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="607.0" text-anchor="start" font-size="18" fill="#15232c">各个ADM阶段中与需求相关的输出就是需求管理流程的输</text>
+<text x="40" y="634.0" text-anchor="start" font-size="18" fill="#15232c">入。</text>
+<text x="20" y="663.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="663.0" text-anchor="start" font-size="18" fill="#15232c">最初高层次的需求是作为一部分的架构愿景所产生。</text>
+<text x="20" y="692.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="692.0" text-anchor="start" font-size="18" fill="#15232c">每个架构领域都有相应的详细需求，之后的ADM阶段交付</text>
+<text x="40" y="719.0" text-anchor="start" font-size="18" fill="#15232c">物也包含了对新的需求类型的映射(如一致性需求)。</text>
+<text x="571" y="635.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="591" y="635.0" text-anchor="start" font-size="18" fill="#15232c">更新的架构需求说明(如有必要)。</text>
+<text x="571" y="664.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="591" y="664.0" text-anchor="start" font-size="18" fill="#15232c">需求影响的评估，识别出需要回到的ADM阶段。最终版本必须包含需求的全部含</text>
+<text x="591" y="691.0" text-anchor="start" font-size="18" fill="#15232c">义(如成本、时间范围和业务流程)。</text>
+<line x1="4" y1="577" x2="1292" y2="577" stroke="#697883" stroke-width="1.5"/>
+<line x1="4" y1="756" x2="1292" y2="756" stroke="#697883" stroke-width="1.5"/>
+<line x1="555" y1="6" x2="555" y2="756" stroke="#697883" stroke-width="1.5"/>
+</g>
+</svg>

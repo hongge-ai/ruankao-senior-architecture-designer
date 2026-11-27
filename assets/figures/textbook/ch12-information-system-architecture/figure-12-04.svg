@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 570" role="img" aria-labelledby="title desc">
+  <title id="title">图 12-4 MVC架构的分层体系</title>
+  <desc id="desc">据教材电子底本重绘。按背景图保留箭头：浏览器请求向下、回复向上；控制器向视图发送处理结果、形成页面向左；模型和控制器间左箭头向上、右箭头向下，标签位置照底本。左向箭头与 Controller 后的字形粘连，辨认限于箭头拓扑及清楚的词。</desc>
+  <style>
+    rect, ellipse, path, polygon { fill: white; stroke: #416573; stroke-width: 2; }
+    line { stroke: #416573; stroke-width: 2; }
+    text { font: 22px "Noto Sans CJK SC", "Microsoft YaHei", sans-serif; fill: #16272e; text-anchor: middle; }
+  </style>
+  <defs><marker id="tip" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" style="fill:#416573;stroke:none"/></marker></defs>
+  <rect x="150" y="12" width="170" height="76" rx="12"/>
+<text x="235.0" y="42.0">Web</text>
+<text x="235.0" y="74.0">浏览器</text>
+  <line x1="211" y1="176" x2="211" y2="89" marker-end="url(#tip)"/>
+  <line x1="263" y1="89" x2="263" y2="176" marker-end="url(#tip)"/>
+  <text x="121" y="143">HTTP回复</text>
+  <text x="342" y="143">HTTP请求</text>
+  <rect x="150" y="177" width="170" height="88" rx="12"/>
+<text x="235.0" y="213.0">控制器</text>
+<text x="235.0" y="245.0">(Controller)</text>
+  <rect x="472" y="177" width="154" height="88" rx="12"/>
+<text x="549.0" y="213.0">视图</text>
+<text x="549.0" y="245.0">(View)</text>
+  <line x1="321" y1="204" x2="471" y2="204" marker-end="url(#tip)"/>
+  <line x1="471" y1="238" x2="321" y2="238" marker-end="url(#tip)"/>
+  <text x="395" y="192">处理结果</text>
+  <text x="395" y="270">形成页面</text>
+  <line x1="211" y1="354" x2="211" y2="266" marker-end="url(#tip)"/>
+  <line x1="263" y1="266" x2="263" y2="354" marker-end="url(#tip)"/>
+  <text x="106" y="290">数据或业务</text>
+<text x="106" y="322">处理请求</text>
+  <text x="351" y="306">处理结果</text>
+<text x="351" y="338">返回</text>
+  <rect x="149" y="355" width="172" height="129" rx="12"/>
+<text x="235.0" y="379.5">模型</text>
+<text x="235.0" y="411.5">(Model)</text>
+<text x="235.0" y="443.5">(数据或业</text>
+<text x="235.0" y="475.5">务逻辑)</text>
+  <path d="M107 485 H361 a9 36.0 0 0 1 0 72 H107 a8 36.0 0 0 1 0 -72 Z"/>
+<ellipse cx="361" cy="521.0" rx="9" ry="36.0"/>
+<text x="231.5" y="513.0">数据库</text>
+<text x="231.5" y="545.0">服务器</text>
+</svg>
