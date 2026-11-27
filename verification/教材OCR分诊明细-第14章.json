@@ -2546,14 +2546,356 @@
       "sources": [
         "入库教材 PDF 物理 517 / 印刷 510，页图目读"
       ]
+    },
+    {
+      "id": "ch14r2a-01",
+      "file": "content/01-系统架构设计师教材-清洗版/第14章-云原生架构设计理论与实践/第01节-云原生架构产生背景.md",
+      "loc": "14.1 开发、技术运营和质量保障三者的沟通",
+      "ocr": "三者的交集，促进之间的沟通",
+      "current": "三者的交集，促进之间的沟通",
+      "final": "三者的交集，促进三者之间的沟通",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "“之间”前缺少相互沟通的对象。紧邻的“三者”明确指开发、技术运营、质量保障，直接复用同句指代。",
+      "sources": [
+        "入库教材 PDF 物理 489（印刷 482）电子重建页；同句“开发、技术运营和质量保障三者的交集”。"
+      ]
+    },
+    {
+      "id": "ch14r2a-02",
+      "file": "content/01-系统架构设计师教材-清洗版/第14章-云原生架构设计理论与实践/第02节-云原生架构内涵.md",
+      "loc": "14.2.2 架构持续演进原则末句",
+      "ocr": "在线灰度等应用和流量进行细颗粒度控制",
+      "current": "在线灰度等应用和流量进行细颗粒度控制",
+      "final": "在线灰度等对应用和流量进行细颗粒度控制",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "“通过”引出微服务/应用网关至在线灰度等技术手段，“应用和流量”是进行控制的对象。补“对”以恢复“通过……对……进行……控制”的句法。",
+      "sources": [
+        "入库教材 PDF 物理 495（印刷 488）电子重建页；同节14.2.2“进行基于服务流量的策略控制和治理”。"
+      ]
+    },
+    {
+      "id": "ch14r2b-01",
+      "file": "content/01-系统架构设计师教材-清洗版/第14章-云原生架构设计理论与实践/第03节-云原生架构相关技术.md",
+      "loc": "物理 499 / 印刷 492，容器隔离机制",
+      "ocr": "Linux Name Space",
+      "current": "Linux Name Space",
+      "final": "Linux namespaces",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "Linux 手册题名为 overview of Linux namespaces；Docker 的 Kernel namespaces 章节亦用单词 namespaces，和下一句所述 Linux 容器隔离机制对应。",
+      "sources": [
+        "入库教材 PDF 物理 499，第二轮渲染目读",
+        "https://github.com/mkerrisk/man-pages/blob/master/man7/namespaces.7（2026-11-27 核阅）",
+        "https://github.com/docker/docs/blob/main/content/manuals/engine/security/_index.md（2026-11-27 核阅）"
+      ]
+    },
+    {
+      "id": "ch14r2b-02",
+      "file": "content/01-系统架构设计师教材-清洗版/第14章-云原生架构设计理论与实践/第03节-云原生架构相关技术.md",
+      "loc": "物理 500 / 印刷 493，容器编排并列动作",
+      "ocr": "自动部署，扩展和管理容器化应用",
+      "current": "自动部署，扩展和管理容器化应用",
+      "final": "自动部署、扩展和管理容器化应用",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "部署、扩展和管理共享同一宾语，使用并列顿号。",
+      "sources": [
+        "入库教材 PDF 物理 500，第二轮渲染目读"
+      ]
+    },
+    {
+      "id": "ch14r2b-03",
+      "file": "content/01-系统架构设计师教材-清洗版/第14章-云原生架构设计理论与实践/第03节-云原生架构相关技术.md",
+      "loc": "物理 500 / 印刷 493，服务发现与负载均衡",
+      "ocr": "通过Service资源出现各种应用服务",
+      "current": "通过Service资源出现各种应用服务",
+      "final": "通过Service资源公开各种应用服务",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "Kubernetes 文档明确“将 Pod 集合在网络上公开出去”，HashiCorp 的 Service 资源文档说明其公开的端口和服务公开方式。原句“出现”在此缺少使服务可访问的含义；技术语义已证实，未据此推断纸书原词。该条解决首轮 ch14b-13。",
+      "sources": [
+        "入库教材 PDF 物理 500，第二轮渲染目读",
+        "https://github.com/kubernetes/website/blob/main/content/zh-cn/docs/concepts/services-networking/service.md（2026-11-27 核阅）",
+        "https://github.com/hashicorp/terraform-provider-kubernetes/blob/main/docs/resources/service_v1.md（2026-11-27 核阅）"
+      ]
+    },
+    {
+      "id": "ch14r2b-04",
+      "file": "content/01-系统架构设计师教材-清洗版/第14章-云原生架构设计理论与实践/第03节-云原生架构相关技术.md",
+      "loc": "物理 501 / 印刷 494，可移植性及服务类型",
+      "ocr": "Load Balance Service",
+      "current": "Load Balance Service",
+      "final": "LoadBalancer 类型的 Service",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "教程以 Kubernetes 资源为例。官方文档明确采用“LoadBalancer 类型的 Service”；AWS 负载均衡控制器识别 type LoadBalancer 的 Kubernetes service objects。",
+      "sources": [
+        "入库教材 PDF 物理 501，第二轮渲染目读",
+        "https://github.com/kubernetes/website/blob/main/content/zh-cn/docs/concepts/services-networking/service.md（2026-11-27 核阅）",
+        "https://github.com/aws/eks-charts/blob/master/stable/aws-load-balancer-controller/README.md（2026-11-27 核阅）"
+      ]
+    },
+    {
+      "id": "ch14r2b-05",
+      "file": "content/01-系统架构设计师教材-清洗版/第14章-云原生架构设计理论与实践/第03节-云原生架构相关技术.md",
+      "loc": "物理 502 / 印刷 495，微服务个体约束",
+      "ocr": "如果当一个微服务修改或者发布时",
+      "current": "如果当一个微服务修改或者发布时",
+      "final": "当一个微服务修改或者发布时",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "“当……时”已引出时间条件；与紧接下段“当服务A发布和扩缩容的时候”一致，删重复的条件词。",
+      "sources": [
+        "入库教材 PDF 物理 502，第二轮渲染目读"
+      ]
+    },
+    {
+      "id": "ch14r2b-06",
+      "file": "content/01-系统架构设计师教材-清洗版/第14章-云原生架构设计理论与实践/第03节-云原生架构相关技术.md",
+      "loc": "物理 503 / 印刷 496，Spring Cloud能力列表",
+      "ocr": "全局锁、决策竞选、分布式会话",
+      "current": "全局锁、决策竞选、分布式会话",
+      "final": "全局锁、领导者选举、分布式会话",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "Spring Cloud 文档称 Leader Election，多个应用实例中仅一个获得领导权；Kubernetes 中文文档提供“领导者选举”的对译。本处列举分布式协调能力，无候选决策方案的语义。",
+      "sources": [
+        "入库教材 PDF 物理 503，第二轮渲染目读",
+        "https://github.com/spring-cloud/spring-cloud-kubernetes/blob/main/docs/modules/ROOT/pages/leader-election.adoc（2026-11-27 核阅）",
+        "https://github.com/kubernetes/website/blob/main/content/zh-cn/docs/concepts/architecture/leases.md（2026-11-27 核阅）"
+      ]
+    },
+    {
+      "id": "ch14r2b-07",
+      "file": "content/01-系统架构设计师教材-清洗版/第14章-云原生架构设计理论与实践/第03节-云原生架构相关技术.md",
+      "loc": "物理 503 / 印刷 496，应用运行时名称",
+      "ocr": "DAPR(Distributed Application Runtime, 分布式应用运行时)",
+      "current": "DAPR(Distributed Application Runtime, 分布式应用运行时)",
+      "final": "Dapr（Distributed Application Runtime，分布式应用运行时）",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "该项目同期 v1.0 文档使用 Dapr，CNCF 项目名同形，保留英文展开及已有中文释义。",
+      "sources": [
+        "入库教材 PDF 物理 503，第二轮渲染目读",
+        "https://github.com/dapr/docs/blob/v1.0/daprdocs/content/en/concepts/overview.md（2026-11-27 核阅）",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml（2026-11-27 核阅）"
+      ]
+    },
+    {
+      "id": "ch14r2b-08",
+      "file": "content/01-系统架构设计师教材-清洗版/第14章-云原生架构设计理论与实践/第03节-云原生架构相关技术.md",
+      "loc": "物理 503 / 印刷 496，混沌实验工具名",
+      "ocr": "Chaosblade",
+      "current": "Chaosblade",
+      "final": null,
+      "class": "C3",
+      "confidence": "低",
+      "evidence": "同一项目中英文 README 的标题分别采用 ChaosBlade 和 Chaosblade，CNCF 项目名用 Chaosblade；底本大小写有直接依据，保留而不强求单一写法。",
+      "sources": [
+        "入库教材 PDF 物理 503，第二轮渲染目读",
+        "https://github.com/chaosblade-io/chaosblade/blob/master/README_CN.md（2026-11-27 核阅）",
+        "https://github.com/chaosblade-io/chaosblade/blob/master/README.md（2026-11-27 核阅）",
+        "https://github.com/cncf/landscape/blob/master/landscape.yml（2026-11-27 核阅）"
+      ]
+    },
+    {
+      "id": "ch14r2b-09",
+      "file": "content/01-系统架构设计师教材-清洗版/第14章-云原生架构设计理论与实践/第03节-云原生架构相关技术.md",
+      "loc": "物理 504 / 印刷 497，函数计算拆分",
+      "ocr": "把应用逻辑拆分多个函数",
+      "current": "把应用逻辑拆分多个函数",
+      "final": "把应用逻辑拆分为多个函数",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "结构为“把……拆分为……”，本节前文“将后端单体应用拆分为松耦合的多个子应用”同构，补结果介词。",
+      "sources": [
+        "入库教材 PDF 物理 504，第二轮渲染目读"
+      ]
+    },
+    {
+      "id": "ch14r2b-10",
+      "file": "content/01-系统架构设计师教材-清洗版/第14章-云原生架构设计理论与实践/第03节-云原生架构相关技术.md",
+      "loc": "物理 504 / 印刷 497，Google容器计算产品名",
+      "ocr": "CloudRun服务",
+      "current": "CloudRun服务",
+      "final": "Cloud Run服务",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "GoogleCloudPlatform 官方示例和 HashiCorp 的 Google Cloud Run 资源文档均将 Cloud Run 写作两个词。",
+      "sources": [
+        "入库教材 PDF 物理 504，第二轮渲染目读",
+        "https://github.com/GoogleCloudPlatform/cloud-run-samples/blob/main/README.md（2026-11-27 核阅）",
+        "https://github.com/hashicorp/terraform-provider-google/blob/main/website/docs/r/cloud_run_service.html.markdown（2026-11-27 核阅）"
+      ]
+    },
+    {
+      "id": "ch14r2c-01",
+      "file": "content/01-系统架构设计师教材-清洗版/第14章-云原生架构设计理论与实践/第04节-云原生架构案例分析.md",
+      "loc": "14.4.1 隔离运行时",
+      "ocr": "Kata Container",
+      "current": "Kata Container来",
+      "final": "Kata Containers来",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "指开源项目本身；项目自述及CNCF全景目录均作Kata Containers。",
+      "sources": [
+        "教材 PDF 物理页 508（印刷页 501），OCR 衍生页面",
+        "https://raw.githubusercontent.com/kata-containers/kata-containers/main/README.md（访问 2026-11-27）",
+        "https://raw.githubusercontent.com/cncf/landscape/master/landscape.yml（访问 2026-11-27）"
+      ]
+    },
+    {
+      "id": "ch14r2c-02",
+      "file": "content/01-系统架构设计师教材-清洗版/第14章-云原生架构设计理论与实践/第04节-云原生架构案例分析.md",
+      "loc": "14.4.2 云平台图号",
+      "ocr": "业务中台(其云平台架构如图 14-6所示)",
+      "current": "业务中台(其云平台架构如图 14-6所示)",
+      "final": "业务中台（其云平台架构如图 14-6 所示）",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "中文括注使用全角括号并统一图号与中文间距。",
+      "sources": [
+        "教材 PDF 物理页 510（印刷页 503），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch14r2c-03",
+      "file": "content/01-系统架构设计师教材-清洗版/第14章-云原生架构设计理论与实践/第04节-云原生架构案例分析.md",
+      "loc": "14.4.3 OGG全名",
+      "ocr": "OGG(Oracle Golden Gate)",
+      "current": "OGG(Oracle Golden Gate) 同步",
+      "final": "OGG（Oracle GoldenGate）同步",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "Oracle官方样例镜像及Debezium连接器文档均称Oracle GoldenGate。",
+      "sources": [
+        "教材 PDF 物理页 512（印刷页 505），OCR 衍生页面",
+        "https://raw.githubusercontent.com/oracle/docker-images/main/OracleGoldenGate/README.md（访问 2026-11-27）",
+        "https://raw.githubusercontent.com/debezium/debezium/main/documentation/modules/ROOT/pages/connectors/oracle.adoc（访问 2026-11-27）"
+      ]
+    },
+    {
+      "id": "ch14r2c-04",
+      "file": "content/01-系统架构设计师教材-清洗版/第14章-云原生架构设计理论与实践/第04节-云原生架构案例分析.md",
+      "loc": "案例图号",
+      "ocr": "图 14-7展示",
+      "current": "图 14-7展示",
+      "final": "图 14-7 展示",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "正文引用图号后按同章格式留空格。",
+      "sources": [
+        "教材 PDF 物理页 512（印刷页 505），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch14r2c-05",
+      "file": "content/01-系统架构设计师教材-清洗版/第14章-云原生架构设计理论与实践/第04节-云原生架构案例分析.md",
+      "loc": "案例图号",
+      "ocr": "图 14-8展示",
+      "current": "图 14-8展示",
+      "final": "图 14-8 展示",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "正文引用图号后按同章格式留空格。",
+      "sources": [
+        "教材 PDF 物理页 514（印刷页 507），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch14r2c-06",
+      "file": "content/01-系统架构设计师教材-清洗版/第14章-云原生架构设计理论与实践/第04节-云原生架构案例分析.md",
+      "loc": "案例图号",
+      "ocr": "图 14-9是",
+      "current": "图 14-9是",
+      "final": "图 14-9 是",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "正文引用图号后按同章格式留空格。",
+      "sources": [
+        "教材 PDF 物理页 516（印刷页 509），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch14r2c-07",
+      "file": "content/01-系统架构设计师教材-清洗版/第14章-云原生架构设计理论与实践/第04节-云原生架构案例分析.md",
+      "loc": "14.4.3 稳定性与服务等级",
+      "ocr": "至少5个9(99.999%)以上的SLA服务",
+      "current": "至少5个9(99.999%)以上的SLA服务",
+      "final": "至少5个9（99.999%）的SLA服务",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "“至少”与“以上”表达相同下限，保留前者和数字，统一中文括号。历史承诺范围仍归首轮未决项，不据此泛化。",
+      "sources": [
+        "教材 PDF 物理页 513（印刷页 506），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch14r2c-08",
+      "file": "content/01-系统架构设计师教材-清洗版/第14章-云原生架构设计理论与实践/第04节-云原生架构案例分析.md",
+      "loc": "14.4.3 云组件数量",
+      "ocr": "超过300余种的云上组件",
+      "current": "超过300余种的云上组件",
+      "final": "300余种云上组件",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "删除表示超过300的重复修饰，“余”保留原数值含义。",
+      "sources": [
+        "教材 PDF 物理页 513（印刷页 506），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch14r2c-09",
+      "file": "assets/figures/textbook/ch14-cloud-native-architecture/figure-14-08.svg",
+      "loc": "图14-8 云日志说明",
+      "ocr": "日志类数据采、消费、投递集及查询分析功能",
+      "current": "日志类数据采、消费、</text>\n<text x=\"973.5\" y=\"457.3\" font-size=\"16\">投递集及查询分析功能",
+      "final": "日志类数据采集、消费、</text>\n<text x=\"973.5\" y=\"457.3\" font-size=\"16\">投递及查询分析功能",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "将错落到“投递”后的“集”归还“采”；四个功能动词恢复采集、消费、投递及查询分析。厂商SDK中文文档含“数据采集配置”“日志消费”；四项顺序和其他字均与页图一致。",
+      "sources": [
+        "教材 PDF 物理页 514（印刷页 507），OCR 衍生页面",
+        "https://raw.githubusercontent.com/aliyun/aliyun-log-python-sdk/master/README_CN.md（访问 2026-11-27）"
+      ]
+    },
+    {
+      "id": "ch14r2c-10",
+      "file": "assets/figures/textbook/ch14-cloud-native-architecture/figure-14-09.svg",
+      "loc": "图14-9 门店补货参数",
+      "ocr": "门店优光级",
+      "current": "门店优光级",
+      "final": "门店优先级",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "框内为门店与补货参数，“光”与“先”形近；下方补货计算、右方参数配置佐证该格是门店优先级。该组其他歧读另候核。",
+      "sources": [
+        "教材 PDF 物理页 516（印刷页 509），OCR 衍生页面"
+      ]
     }
   ],
   "counts": {
-    "N": 90,
-    "C1": 32,
+    "N": 95,
+    "C1": 40,
     "K": 11,
-    "C3": 19,
-    "C2": 3,
+    "C3": 20,
+    "C2": 11,
     "R": 26
+  },
+  "round_2": {
+    "baseline": "5eb9936ac977a9267546428d1603e741723f3e2c",
+    "record": "verification/教材第二轮独立盲核记录-第14章.md",
+    "counts": {
+      "C1": 8,
+      "C2": 8,
+      "N": 5,
+      "C3": 1
+    },
+    "resolved": [
+      "ch14b-13",
+      "ch14c-68"
+    ]
   }
 }

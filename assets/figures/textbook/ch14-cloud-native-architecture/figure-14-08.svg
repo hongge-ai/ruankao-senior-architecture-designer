@@ -42,8 +42,8 @@
 <rect x="747" y="387" width="378" height="111" fill="#fff" stroke="#577a87" stroke-width="1.45"/>
 <text x="790" y="447.9" font-size="18">云日志</text>
 <rect x="837" y="397" width="273" height="90" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
-<text x="973.5" y="437.3" font-size="16">日志类数据采、消费、</text>
-<text x="973.5" y="457.3" font-size="16">投递集及查询分析功能</text>
+<text x="973.5" y="437.3" font-size="16">日志类数据采集、消费、</text>
+<text x="973.5" y="457.3" font-size="16">投递及查询分析功能</text>
 <polyline points="357,317 357,446" fill="none" stroke="#446c78" stroke-width="1.7"/>
 <polyline points="245,446 245,416 472,416 472,446" fill="none" stroke="#446c78" stroke-width="1.7"/>
 <rect x="200" y="447" width="93" height="51" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
