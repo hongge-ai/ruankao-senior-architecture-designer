@@ -4579,7 +4579,7 @@
    "printed_page": 677,
    "note": "Kafka经JSON进入主数据序列，批量计算向三项输出，第三项导向仓库。三处受损标签照可见字形。",
    "id": "tb-fig-0326",
-   "record": "verification/教材OCR纠错记录-第19章.md"
+   "record": "verification/教材第二轮独立盲核记录-第19章.md"
   },
   {
    "corpus": "textbook",
@@ -4607,7 +4607,7 @@
    "printed_page": 682,
    "note": "数据空间及子集、并行计算、合并与复用，格线示意。",
    "id": "tb-fig-0328",
-   "record": "verification/教材OCR纠错记录-第19章.md"
+   "record": "verification/教材第二轮独立盲核记录-第19章.md"
   },
   {
    "corpus": "textbook",

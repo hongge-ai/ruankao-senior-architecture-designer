@@ -11,7 +11,7 @@
 <path d="M365 50 C395 45 393 27 363 30" fill="none" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
 <rect x="16" y="228" width="87" height="43" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
 <text x="59.5" y="255.28" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">Kafka</text>
-<line x1="85" y1="228" x2="159" y2="106" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="85" y1="228" x2="172" y2="84" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
 <text x="146" y="167" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">JSON</text>
 <rect x="301" y="149" width="381" height="78" fill="white" stroke="#477786" stroke-width="1.5"/>
 <line x1="542" y1="83" x2="366" y2="161" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
