@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1139 512" role="img" aria-labelledby="title desc">
+<title id="title">图 14-8 某核心应用架构示意图</title>
+<desc id="desc">左侧独立 PTS；中部两列各三个容器，下接云盘、NAS、OSS及MQ、DB；右侧四组监控和防护服务。</desc>
+<defs><marker id="arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#446c78"/></marker></defs>
+<g font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" text-anchor="middle" fill="#19333d">
+<rect x="12" y="10" width="1113" height="49" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="568.5" y="41.8" font-size="22">Redis云数据库</text>
+<rect x="12" y="75" width="177" height="423" fill="#fff" stroke="#577a87" stroke-width="1.45"/>
+<text x="100" y="253.9" font-size="18">PTS</text>
+<rect x="20" y="335" width="161" height="46" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="100.5" y="363.9" font-size="18">性能测试服务</text>
+<rect x="204" y="75" width="526" height="242" fill="#fff" stroke="#577a87" stroke-width="1.45"/>
+<text x="282" y="201.9" font-size="18">Kubernetes</text>
+<polyline points="216,226 352,226" fill="none" stroke="#446c78" stroke-width="1.7" marker-end="url(#arrow)"/>
+<rect x="361" y="93" width="358" height="210" fill="#fff" stroke="#577a87" stroke-width="1.45"/>
+<rect x="373" y="107" width="98" height="46" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="422.0" y="135.9" font-size="18">容器</text>
+<rect x="608" y="107" width="98" height="46" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="657.0" y="135.9" font-size="18">容器</text>
+<rect x="373" y="172" width="98" height="46" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="422.0" y="200.9" font-size="18">容器</text>
+<rect x="608" y="172" width="98" height="46" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="657.0" y="200.9" font-size="18">容器</text>
+<rect x="373" y="237" width="98" height="46" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="422.0" y="265.9" font-size="18">容器</text>
+<rect x="608" y="237" width="98" height="46" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="657.0" y="265.9" font-size="18">容器</text>
+<text x="538" y="200.9" font-size="18">弹性伸缩</text>
+<rect x="747" y="75" width="378" height="90" fill="#fff" stroke="#577a87" stroke-width="1.45"/>
+<text x="788" y="125.9" font-size="18">ARMS</text>
+<rect x="829" y="89" width="281" height="62" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="969.5" y="125.9" font-size="18">APM类全链路监控</text>
+<rect x="747" y="178" width="378" height="96" fill="#fff" stroke="#577a87" stroke-width="1.45"/>
+<text x="788" y="231.9" font-size="18">AHAS</text>
+<rect x="829" y="189" width="281" height="73" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="969.5" y="220.4" font-size="18">限流、熔断、降级、</text>
+<text x="969.5" y="242.4" font-size="18">系统保护</text>
+<rect x="747" y="286" width="378" height="88" fill="#fff" stroke="#577a87" stroke-width="1.45"/>
+<text x="791" y="335.9" font-size="18">云监控</text>
+<rect x="840" y="300" width="270" height="58" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="975.0" y="334.9" font-size="18">监控、报警</text>
+<rect x="747" y="387" width="378" height="111" fill="#fff" stroke="#577a87" stroke-width="1.45"/>
+<text x="790" y="447.9" font-size="18">云日志</text>
+<rect x="837" y="397" width="273" height="90" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="973.5" y="437.3" font-size="16">日志类数据采、消费、</text>
+<text x="973.5" y="457.3" font-size="16">投递集及查询分析功能</text>
+<polyline points="357,317 357,446" fill="none" stroke="#446c78" stroke-width="1.7"/>
+<polyline points="245,446 245,416 472,416 472,446" fill="none" stroke="#446c78" stroke-width="1.7"/>
+<rect x="200" y="447" width="93" height="51" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="246.5" y="478.4" font-size="18">云盘</text>
+<rect x="312" y="447" width="93" height="51" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="358.5" y="478.4" font-size="18">NAS</text>
+<rect x="428" y="447" width="93" height="51" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="474.5" y="478.4" font-size="18">OSS</text>
+<polyline points="637,317 637,351" fill="none" stroke="#446c78" stroke-width="1.7"/>
+<rect x="554" y="351" width="167" height="53" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="637.5" y="383.4" font-size="18">MQ消息队列</text>
+<polyline points="637,404 637,443" fill="none" stroke="#446c78" stroke-width="1.7"/>
+<rect x="554" y="444" width="167" height="53" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="637.5" y="476.4" font-size="18">DB弹性扩容</text>
+</g></svg>

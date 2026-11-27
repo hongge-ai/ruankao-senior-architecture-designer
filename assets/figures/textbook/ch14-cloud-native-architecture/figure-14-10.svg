@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1095 451" role="img" aria-labelledby="title desc">
+<title id="title">图 14-10 基于云原生中间件的技术架构示意图</title>
+<desc id="desc">应用六项，第二层两排四格，右下格不辨正文；中间件说明向左指向六项产品，底部 IaaS 与后台系统分列。</desc>
+<defs><marker id="arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#446c78"/></marker></defs>
+<g font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" text-anchor="middle" fill="#19333d">
+<text x="42" y="47.9" font-size="18">应</text>
+<text x="42" y="69.9" font-size="18">用</text>
+<rect x="86" y="10" width="994" height="87" fill="#fff" stroke="#577a87" stroke-width="1.45"/>
+<rect x="97.0" y="29" width="153.67" height="48" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="173.83499999999998" y="58.6" font-size="17">POS</text>
+<rect x="260.67" y="29" width="153.67" height="48" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="337.505" y="58.6" font-size="17">OMS</text>
+<rect x="424.33" y="29" width="153.67" height="48" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="501.16499999999996" y="58.6" font-size="17">DRP</text>
+<rect x="588.0" y="29" width="153.67" height="48" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="664.835" y="58.6" font-size="17">CRM</text>
+<rect x="751.67" y="29" width="153.67" height="48" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="828.505" y="58.6" font-size="17">库存平衡</text>
+<rect x="915.33" y="29" width="153.67" height="48" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="992.1650000000001" y="58.6" font-size="17">全渠道运营平台</text>
+<text x="42" y="169.9" font-size="18">中</text>
+<text x="42" y="191.9" font-size="18">心</text>
+<rect x="86" y="110" width="994" height="136" fill="#fff" stroke="#577a87" stroke-width="1.45"/>
+<rect x="97.0" y="125" width="235.5" height="45" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="214.75" y="153.4" font-size="18">订单中心</text>
+<rect x="342.5" y="125" width="235.5" height="45" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="460.25" y="153.4" font-size="18">库存中心</text>
+<rect x="588.0" y="125" width="235.5" height="45" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="705.75" y="153.4" font-size="18">结算中心</text>
+<rect x="833.5" y="125" width="235.5" height="45" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="951.25" y="153.4" font-size="18">主数据</text>
+<rect x="97.0" y="186" width="235.5" height="45" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="214.75" y="214.4" font-size="18">商品中心</text>
+<rect x="342.5" y="186" width="235.5" height="45" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="460.25" y="214.4" font-size="18">会员中心</text>
+<rect x="588.0" y="186" width="235.5" height="45" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="705.75" y="214.4" font-size="18">营销中心</text>
+<rect x="833.5" y="186" width="235.5" height="45" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="951.25" y="214.4" font-size="18"></text>
+<rect x="86" y="261" width="994" height="75" fill="#fff" stroke="#577a87" stroke-width="1.45"/>
+<rect x="99.0" y="276" width="97.17" height="45" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="147.585" y="304.4" font-size="18">K8S</text>
+<rect x="206.17" y="276" width="97.17" height="45" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="254.755" y="304.4" font-size="18">EDAS</text>
+<rect x="313.33" y="276" width="97.17" height="45" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="361.91499999999996" y="304.4" font-size="18">MQ</text>
+<rect x="420.5" y="276" width="97.17" height="45" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="469.085" y="304.4" font-size="18">ARMS</text>
+<rect x="527.67" y="276" width="97.17" height="45" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="576.255" y="304.4" font-size="18">PTS</text>
+<rect x="634.83" y="276" width="97.17" height="45" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="683.4150000000001" y="304.4" font-size="18">CSB</text>
+<polyline points="790,299 741,299" fill="none" stroke="#446c78" stroke-width="1.7" marker-end="url(#arrow)"/>
+<rect x="797" y="276" width="270" height="45" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="932.0" y="304.4" font-size="18">阿里云原生中间件产品</text>
+<text x="41" y="325.9" font-size="18">基</text>
+<text x="41" y="347.9" font-size="18">础</text>
+<text x="41" y="369.9" font-size="18">设</text>
+<text x="41" y="391.9" font-size="18">施</text>
+<rect x="86" y="352" width="415" height="80" fill="#fff" stroke="#577a87" stroke-width="1.45"/>
+<rect x="109" y="368" width="369" height="48" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="293.5" y="397.9" font-size="18">阿里云 IaaS 服务</text>
+<text x="547" y="366.3" font-size="16">后</text>
+<text x="547" y="386.3" font-size="16">台</text>
+<text x="547" y="406.3" font-size="16">系</text>
+<text x="547" y="426.3" font-size="16">统</text>
+<rect x="592" y="352" width="488" height="80" fill="#fff" stroke="#577a87" stroke-width="1.45"/>
+<rect x="605" y="368" width="100" height="48" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="655.0" y="397.9" font-size="18">CRM</text>
+<rect x="719" y="368" width="139" height="48" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="788.5" y="397.9" font-size="18">库存平衡</text>
+<rect x="872" y="368" width="195" height="48" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="969.5" y="397.9" font-size="18">全渠道运营平台</text>
+</g></svg>

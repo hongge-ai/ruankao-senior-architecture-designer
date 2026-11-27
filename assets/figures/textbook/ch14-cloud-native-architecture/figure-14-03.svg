@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1090 382" role="img" aria-labelledby="title desc">
+  <title id="title">图 14-3 传统、虚拟化、容器部署模式比较</title>
+  <desc id="desc">三种部署各含三、四、三个应用。虚拟化有两台虚拟机，容器列共用一个运行时。两支右箭头表示部署模式的比较顺序。</desc>
+  <style>
+    rect, polygon {fill:white;stroke:#456b7a;stroke-width:1.7}
+    line {stroke:#456b7a;stroke-width:1.7}
+    text {font:18px "Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:#192d38;text-anchor:middle;paint-order:stroke;stroke:white;stroke-width:4;stroke-linejoin:round}
+  </style>
+  <defs><marker id="tip" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#456b7a"/></marker></defs>
+  <rect x="15" y="220" width="232" height="40"/><text x="131.0" y="246.0">Operating System</text>
+  <rect x="15" y="289" width="232" height="39"/><text x="131.0" y="314.5">Hardware</text>
+  <text x="131.0" y="360">Traditional Deployment</text>
+  <rect x="285" y="220" width="365" height="40"/><text x="467.5" y="246.0">Operating System</text>
+  <rect x="285" y="289" width="365" height="39"/><text x="467.5" y="314.5">Hardware</text>
+  <text x="467.5" y="360">Virtualized Deployment</text>
+  <rect x="690" y="220" width="384" height="40"/><text x="882.0" y="246.0">Operating System</text>
+  <rect x="690" y="289" width="384" height="39"/><text x="882.0" y="314.5">Hardware</text>
+  <text x="882.0" y="360">Container Deployment</text>
+  <rect x="15" y="153" width="72" height="39"/><text x="51.0" y="178.5">APP</text>
+  <rect x="95" y="153" width="72" height="39"/><text x="131.0" y="178.5">APP</text>
+  <rect x="175" y="153" width="72" height="39"/><text x="211.0" y="178.5">APP</text>
+  <rect x="285" y="12" width="83" height="36"/><text x="326.5" y="36.0">APP</text>
+  <rect x="379" y="12" width="83" height="36"/><text x="420.5" y="36.0">APP</text>
+  <rect x="285" y="57" width="177" height="38"/><text x="373.5" y="82.0">Bin/Library</text>
+  <rect x="285" y="104" width="177" height="38"/><text x="373.5" y="129.0">Operating System</text>
+  <rect x="285" y="153" width="177" height="39"/><text x="373.5" y="178.5">Virtual Machine</text>
+  <rect x="472" y="12" width="83" height="36"/><text x="513.5" y="36.0">APP</text>
+  <rect x="566" y="12" width="83" height="36"/><text x="607.5" y="36.0">APP</text>
+  <rect x="472" y="57" width="177" height="38"/><text x="560.5" y="82.0">Bin/Library</text>
+  <rect x="472" y="104" width="177" height="38"/><text x="560.5" y="129.0">Operating System</text>
+  <rect x="472" y="153" width="177" height="39"/><text x="560.5" y="178.5">Virtual Machine</text>
+  <rect x="690" y="12" width="122" height="38"/><text x="751.0" y="37.0">App</text>
+  <rect x="690" y="57" width="122" height="38"/><text x="751.0" y="82.0">Bin/Library</text>
+  <rect x="690" y="104" width="122" height="38"/><text x="751.0" y="129.0">Container</text>
+  <rect x="821" y="12" width="122" height="38"/><text x="882.0" y="37.0">App</text>
+  <rect x="821" y="57" width="122" height="38"/><text x="882.0" y="82.0">Bin/Library</text>
+  <rect x="821" y="104" width="122" height="38"/><text x="882.0" y="129.0">Container</text>
+  <rect x="952" y="12" width="122" height="38"/><text x="1013.0" y="37.0">App</text>
+  <rect x="952" y="57" width="122" height="38"/><text x="1013.0" y="82.0">Bin/Library</text>
+  <rect x="952" y="104" width="122" height="38"/><text x="1013.0" y="129.0">Container</text>
+  <rect x="690" y="153" width="384" height="39"/><text x="882.0" y="178.5">Container Runtime</text>
+  <polygon points="254,234 264,234 264,228 276,240 264,252 264,246 254,246"/>
+  <polygon points="659,234 669,234 669,228 681,240 669,252 669,246 659,246"/>
+</svg>

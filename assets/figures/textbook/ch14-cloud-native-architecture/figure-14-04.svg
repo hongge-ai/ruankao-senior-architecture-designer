@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 902 445" role="img" aria-labelledby="title desc">
+  <title id="title">图 14-4 服务网格的典型架构</title>
+  <desc id="desc">两个服务各与其代理双向通信。入口流量进入左代理，再经右代理到出口；控制平面向两个代理分发发现、配置和证书。Istiod 内含 Pilot、Citadel、Galley。</desc>
+  <style>
+    rect, polygon {fill:white;stroke:#456b7a;stroke-width:1.7}
+    line {stroke:#456b7a;stroke-width:1.7}
+    text {font:18px "Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:#192d38;text-anchor:middle;paint-order:stroke;stroke:white;stroke-width:4;stroke-linejoin:round}
+  </style>
+  <defs><marker id="tip" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#456b7a"/></marker></defs>
+  <g stroke-dasharray="6 4"><rect x="67" y="42" width="764" height="387"/></g>
+  <text x="118" y="28">Istio Mesh</text>
+  <rect x="154" y="61" width="576" height="144"/>
+  <text x="227" y="134">Data plane</text>
+  <rect x="254" y="80" width="122" height="39"/><text x="315.0" y="105.5">Service A</text>
+  <rect x="542" y="80" width="122" height="39"/><text x="603.0" y="105.5">Service B</text>
+  <rect x="254" y="155" width="122" height="42"/><text x="315.0" y="182.0">Proxy</text>
+  <rect x="542" y="155" width="122" height="42"/><text x="603.0" y="182.0">Proxy</text>
+  <line x1="315" y1="120" x2="315" y2="154" marker-end="url(#tip)" marker-start="url(#tip)"/>
+  <line x1="603" y1="120" x2="603" y2="154" marker-end="url(#tip)" marker-start="url(#tip)"/>
+  <line x1="7" y1="178" x2="253" y2="178" marker-end="url(#tip)"/>
+  <line x1="377" y1="178" x2="541" y2="178" marker-end="url(#tip)"/>
+  <line x1="665" y1="178" x2="892" y2="178" marker-end="url(#tip)"/>
+  <text x="116" y="168">Ingress Traffic</text>
+  <text x="460" y="167">Mesh traffic</text>
+  <text x="779" y="166">Egress Traffic</text>
+  <rect x="156" y="301" width="575" height="110"/>
+  <text x="235" y="324">Control plane</text>
+  <rect x="180" y="338" width="527" height="57"/>
+  <text x="224" y="372">Istiod</text>
+  <rect x="274" y="346" width="110" height="41"/><text x="329.0" y="372.5">Pilot</text>
+  <rect x="400" y="346" width="123" height="41"/><text x="461.5" y="372.5">Citadel</text>
+  <rect x="540" y="346" width="126" height="41"/><text x="603.0" y="372.5">Galley</text>
+  <g stroke-dasharray="5 4"><line x1="459" y1="300" x2="459" y2="269"/><line x1="315" y1="269" x2="603" y2="269"/><line x1="315" y1="269" x2="315" y2="198" marker-end="url(#tip)"/><line x1="603" y1="269" x2="603" y2="198" marker-end="url(#tip)"/></g>
+  <text x="459" y="231">Discovery Configuration</text>
+  <text x="459" y="256">Certificates</text>
+</svg>

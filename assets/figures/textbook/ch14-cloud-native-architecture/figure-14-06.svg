@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1041 579" role="img" aria-labelledby="title desc">
+<title id="title">图 14-6 某容器云平台架构示意图</title>
+<desc id="desc">上部网关与三排组件，开发运维链自需求向运维，平台下列四类环境；末格按同页混合云说明校为公有云环境。</desc>
+<defs><marker id="arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#446c78"/></marker></defs>
+<g font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" text-anchor="middle" fill="#19333d">
+<rect x="12" y="12" width="85" height="290" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="54.5" y="151.9" font-size="18">网</text>
+<text x="54.5" y="173.9" font-size="18">关</text>
+<rect x="110" y="12" width="720" height="290" fill="#fff" stroke="#577a87" stroke-width="1.45"/>
+<rect x="124.0" y="31" width="130.4" height="58" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="189.2" y="65.9" font-size="18">用户</text>
+<rect x="264.4" y="31" width="130.4" height="58" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="329.59999999999997" y="65.9" font-size="18">车辆</text>
+<rect x="404.8" y="31" width="130.4" height="58" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="470.0" y="65.9" font-size="18">订单</text>
+<rect x="545.2" y="31" width="130.4" height="58" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="610.4000000000001" y="65.9" font-size="18">能量</text>
+<rect x="685.6" y="31" width="130.4" height="58" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="750.8000000000001" y="65.9" font-size="18">…</text>
+<text x="934" y="65.9" font-size="18">业务组件</text>
+<polyline points="111,108 830,108" fill="none" stroke="#446c78" stroke-width="1.7" stroke-dasharray="5 4"/>
+<rect x="124.0" y="128" width="165.5" height="58" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="206.75" y="162.9" font-size="18">服务发现</text>
+<rect x="299.5" y="128" width="165.5" height="58" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="382.25" y="162.9" font-size="18">消息中心</text>
+<rect x="475.0" y="128" width="165.5" height="58" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="557.75" y="162.9" font-size="18">调度中心</text>
+<rect x="650.5" y="128" width="165.5" height="58" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="733.25" y="162.9" font-size="18">配置中心</text>
+<text x="934" y="151.9" font-size="18">微服务治理</text>
+<text x="934" y="173.9" font-size="18">组件</text>
+<polyline points="111,205 830,205" fill="none" stroke="#446c78" stroke-width="1.7" stroke-dasharray="5 4"/>
+<rect x="124.0" y="225" width="130.4" height="58" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="189.2" y="259.9" font-size="18">RabbitMQ</text>
+<rect x="264.4" y="225" width="130.4" height="58" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="329.59999999999997" y="259.9" font-size="18">Kafka</text>
+<rect x="404.8" y="225" width="130.4" height="58" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="470.0" y="259.9" font-size="18">Redis</text>
+<rect x="545.2" y="225" width="130.4" height="58" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="610.4000000000001" y="259.9" font-size="18">Nginx</text>
+<rect x="685.6" y="225" width="130.4" height="58" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="750.8000000000001" y="259.9" font-size="18">…</text>
+<text x="934" y="259.9" font-size="18">中间件服务</text>
+<rect x="12" y="319" width="818" height="85" fill="#fff" stroke="#577a87" stroke-width="1.45"/>
+<rect x="31" y="340" width="95" height="44" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45" stroke-dasharray="6 4"/>
+<text x="78.5" y="367.9" font-size="18">需求</text>
+<polyline points="127,362 163,362" fill="none" stroke="#446c78" stroke-width="1.7" marker-end="url(#arrow)" stroke-dasharray="5 4"/>
+<rect x="165" y="340" width="95" height="44" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45" stroke-dasharray="6 4"/>
+<text x="212.5" y="367.9" font-size="18">项目</text>
+<polyline points="261,362 297,362" fill="none" stroke="#446c78" stroke-width="1.7" marker-end="url(#arrow)" stroke-dasharray="5 4"/>
+<rect x="299" y="340" width="95" height="44" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45" stroke-dasharray="6 4"/>
+<text x="346.5" y="367.9" font-size="18">开发</text>
+<polyline points="395,362 431,362" fill="none" stroke="#446c78" stroke-width="1.7" marker-end="url(#arrow)" stroke-dasharray="5 4"/>
+<rect x="433" y="340" width="95" height="44" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45" stroke-dasharray="6 4"/>
+<text x="480.5" y="367.9" font-size="18">测试</text>
+<polyline points="529,362 565,362" fill="none" stroke="#446c78" stroke-width="1.7" marker-end="url(#arrow)" stroke-dasharray="5 4"/>
+<rect x="567" y="340" width="95" height="44" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45" stroke-dasharray="6 4"/>
+<text x="614.5" y="367.9" font-size="18">上线</text>
+<polyline points="663,362 699,362" fill="none" stroke="#446c78" stroke-width="1.7" marker-end="url(#arrow)" stroke-dasharray="5 4"/>
+<rect x="701" y="340" width="95" height="44" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45" stroke-dasharray="6 4"/>
+<text x="748.5" y="367.9" font-size="18">运维</text>
+<text x="934" y="366.9" font-size="18">DevOps</text>
+<rect x="12" y="418" width="818" height="66" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="421.0" y="456.9" font-size="18">资源　集群　应用　镜像　安全　日志　监控　告警</text>
+<text x="934" y="456.9" font-size="18">容器云平台</text>
+<rect x="12.0" y="505" width="197.0" height="55" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="110.5" y="538.4" font-size="18">测试环境</text>
+<rect x="219.0" y="505" width="197.0" height="55" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="317.5" y="538.4" font-size="18">压测环境</text>
+<rect x="426.0" y="505" width="197.0" height="55" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="524.5" y="538.4" font-size="18">生产环境</text>
+<rect x="633.0" y="505" width="197.0" height="55" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="731.5" y="538.4" font-size="18">公有云环境</text>
+<text x="934" y="537.9" font-size="18">混合云环境</text>
+</g></svg>
