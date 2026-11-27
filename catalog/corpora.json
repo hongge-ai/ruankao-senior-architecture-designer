@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-26",
+  "updated_at": "2026-11-27",
   "layers": {
     "content": "content",
     "sources": "sources",
@@ -57,7 +57,18 @@
         "06",
         "07",
         "08",
-        "09"
+        "09",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20"
       ],
       "expected_documents": {
         "index": 1,

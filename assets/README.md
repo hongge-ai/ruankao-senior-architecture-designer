@@ -1,16 +1,16 @@
 # assets —— 图片与图表资产
 
-本目录存放**依法取得、并与原图逐一对照**后落盘的图片与矢量图，供正文以 Markdown 图片语法引用。
+本目录存放**依法取得、并与原图逐一对照**后落盘的图片与矢量图，供正文以 Markdown 图片语法引用。当前已收录教材的 343 幅复原 SVG 资产，逐图见[图表登记簿](../catalog/figures.json)。
 
 ## 目录约定
 
 ```text
-assets/figures/<语料 id>/<章节 slug>/<原图号>.<svg|png>
+assets/figures/<语料 id>/<章节 slug>/<原图号>.svg
 ```
 
 - `<语料 id>` 取 [catalog/corpora.json](../catalog/corpora.json) 中的 `outline` / `textbook` / `exams`；
 - `<章节 slug>` 取该文件 frontmatter 的 `slug`，例如 `ch07-architecture-design-fundamentals`；
-- `<原图号>` 用原书图号，例如 `figure-07-03`；表格用 `table` 前缀，例如 `figure` 改 `figure-t07-01`（首码 t + 表号）；
+- `<原图号>` 用原书图号，例如 `figure-07-03`；表格用 `figure-t` 前缀，例如 `figure-t07-01`；
 - **序号一律两位零填充**（章号、图号/表号均如此），保证文件名按字典序排列与原书顺序一致：
   `figure-01-01` … `figure-01-09`、`figure-02-01` … `figure-02-35`；无编号图用 `figure-07-unnumbered-01`。
 
@@ -23,12 +23,11 @@ assets/figures/<语料 id>/<章节 slug>/<原图号>.<svg|png>
 一律禁止入库——仓库此前 325 个凭空生成的 Mermaid 示意图即因此被全部移除，
 位置登记在 [verification/待重画图表清单.md](../verification/待重画图表清单.md)。
 
-补画与形式选择（表格 / Mermaid / 独立 SVG）的完整规则见
-[AGENTS.md 的「图表与公式处理」](../AGENTS.md#图表与公式处理)。其中两条最容易踩：
+原文图表一律复原为独立 `.svg` 文件，渲染核对后逐图登记于[图表登记簿](../catalog/figures.json)。Mermaid 和 Markdown 表格均不用于原文图表复原。完整规则见 [AGENTS.md 的「图表与公式处理」](../AGENTS.md#图表与公式处理)。
 
 1. SVG 必须是**独立文件**并用图片语法引用——GitHub 会剥掉内联 `<svg>`，内联图在网页上不显示；
 2. 落盘前移除水印、个人信息与无关页边内容，并补 `<title>` / `<desc>` 无障碍标注。
 
 ## 体积
 
-引入大批量位图前先评估 Git LFS 与再分发权利；能用 SVG 或 Markdown 表格表达的，不要放位图。
+如有权纳入原始图片，须移除无关水印、个人信息和页边内容。引入大批量图片前先评估 Git LFS 与再分发权利。
