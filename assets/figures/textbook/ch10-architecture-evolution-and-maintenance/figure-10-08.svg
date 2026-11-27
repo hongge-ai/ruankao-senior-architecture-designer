@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1400" height="620" viewBox="0 0 1400 620" font-family="Liberation Serif, SimSun, 'Noto Serif CJK SC', 'WenQuanYi Zen Hei', 'Droid Sans Fallback', serif">
   <title>图 10-8 演化过程已知的架构演化评估执行过程</title>
-  <desc>复原自入库教材扫描件物理页361（原书印刷页352）。三行：软件架构（A₀、A、A、…、A）、质量（可维护性/可靠性）（Q₀、Q、Q、…、Q）、距离（D(0,1)、D(0.2)、…、D(n-1,n)）。共五列，第 4 列为省略号列；A₀/Q₀ 的 0 为下标。每列由软件架构向下以空心粗箭头指向对应质量值，省略号列不画纵向箭头。相邻两列的质量值以斜向空心粗箭头向内汇聚到两列中点下方的距离值上方：第 1、2、4 对为左右两条，第 3 对（左侧为 Q、右侧为省略号列）在原图上只画左侧一条。距离行的「…」位于第 3、4 列中点。原图 D(0.2) 照录为 0.2（句点），未改为逗号。</desc>
+  <desc>复原自入库教材电子重建页物理页361（原书印刷页352）。三行：软件架构（A₀、A₁、A₂、…、Aₙ）、质量（可维护性/可靠性）（Q₀、Q₁、Q₂、…、Qₙ）、距离（D(0,1)、D(1,2)、…、D(n-1,n)）。共五列，第 4 列为省略号列；A₀/Q₀ 的 0 为下标。每列由软件架构向下以空心粗箭头指向对应质量值，省略号列不画纵向箭头。相邻两列的质量值以斜向空心粗箭头向内汇聚到两列中点下方的距离值上方：第 1、2、4 对为左右两条，第 3 对（左侧为 Q、右侧为省略号列）在原图上只画左侧一条。距离行的「…」位于第 3、4 列中点。重建页第二个距离标签作 D(0.2)；按相邻输入端点和正文序列校为 D(1,2)，并按正文补齐版本下标。</desc>
   <defs>
     <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
       <path d="M0,0 L10,5 L0,10 Z" fill="#000"/>
@@ -20,10 +20,10 @@
   <!-- software architecture labels -->
   <g fill="#000" font-size="34" text-anchor="middle">
     <text x="450" y="95">A<tspan dy="6" font-size="22">0</tspan></text>
-    <text x="690" y="95">A</text>
-    <text x="930" y="95">A</text>
+    <text x="690" y="95">A<tspan dy="6" font-size="22">1</tspan></text>
+    <text x="930" y="95">A<tspan dy="6" font-size="22">2</tspan></text>
     <text x="1180" y="95">…</text>
-    <text x="1360" y="95">A</text>
+    <text x="1360" y="95">A<tspan dy="6" font-size="22">n</tspan></text>
   </g>
 
   <!-- vertical block arrows A -> Q -->
@@ -37,10 +37,10 @@
   <!-- quality labels -->
   <g fill="#000" font-size="34" text-anchor="middle">
     <text x="450" y="320">Q<tspan dy="6" font-size="22">0</tspan></text>
-    <text x="690" y="320">Q</text>
-    <text x="930" y="320">Q</text>
+    <text x="690" y="320">Q<tspan dy="6" font-size="22">1</tspan></text>
+    <text x="930" y="320">Q<tspan dy="6" font-size="22">2</tspan></text>
     <text x="1180" y="320">…</text>
-    <text x="1360" y="320">Q</text>
+    <text x="1360" y="320">Q<tspan dy="6" font-size="22">n</tspan></text>
   </g>
 
   <!-- diagonal block arrows Q -> D, converging to the midpoint of each adjacent column pair -->
@@ -61,7 +61,7 @@
   <!-- distance labels, centered under the midpoint of the adjacent column pair -->
   <g fill="#000" font-size="34" text-anchor="middle">
     <text x="570" y="555">D(0,1)</text>
-    <text x="810" y="555">D(0.2)</text>
+    <text x="810" y="555">D(1,2)</text>
     <text x="1055" y="555">…</text>
     <text x="1270" y="555">D(n-1,n)</text>
   </g>
