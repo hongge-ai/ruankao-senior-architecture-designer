@@ -19,7 +19,7 @@ IBM的WebSphere业务集成参考架构（如图 15-2 所示，以下称参考�
 2. 控制服务（Control Service）：包括实现人 (People)、流程 (Process) 和信息 (Information) 集成的服务，以及执行这些集成逻辑的能力。
 3. 连接服务（Connectivity Service）：通过企业服务总线提供分布在各种架构元素中服务间的连接性。
 4. 业务创新和优化服务（Business Innovation and Optimization Service）：用于监控业务系统运行时服务的业务性能，并通过及时了解到的业务性能和变化，采取措施适应变化的市场。
-5. 开发服务（Development Service）：贯彻整个软件开发生命周期的开发平台，从需求分析，到建模、设计、开发、测试和维护等全面的工具支持。
+5. 开发服务（Development Service）：贯穿整个软件开发生命周期的开发平台，从需求分析，到建模、设计、开发、测试和维护等全面的工具支持。
 6. IT服务管理（IT Service Management）：支持业务系统运行的各种基础设施管理能力或服务，如安全服务、目录服务、系统管理和资源虚拟化。
 
 ![图 15-2 IBM WebSphere业务集成参考架构](../../../assets/figures/textbook/ch15-service-oriented-architecture/figure-15-02.svg)
@@ -59,7 +59,7 @@ ESB所提供的基于标准的连接服务，将应用中实现的功能或者�
 
 1. 组件服务（Component Service）：为可重用的组件提供应用的运行时容器管理服务，如对象持久化、组件安全管理和事务管理等。
 2. 核心服务（Core Service）：提供运行时的服务，包括内存管理、对象实例化和对象池、性能管理和负载均衡、可用性管理等。
-3. 接口服务（Interface Service）：提供和其他企业系统集成的接口，如其他企业应用，数据库、消息系统和管理框架。
+3. 接口服务（Interface Service）：提供和其他企业系统集成的接口，如其他企业应用、数据库、消息系统和管理框架。
 
 3）整合客户和业务伙伴(B2C/B2B)——伙伴服务
 

@@ -2921,14 +2921,425 @@
       "sources": [
         "入库教材 PDF 物理 535 / 印刷 528，页图直接目读"
       ]
+    },
+    {
+      "id": "ch15r2a-01",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第03节-SOA的参考架构.md",
+      "loc": "15.3 开发服务",
+      "ocr": "贯彻整个软件开发生命周期的开发平台",
+      "current": "贯彻整个软件开发生命周期的开发平台",
+      "final": "贯穿整个软件开发生命周期的开发平台",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "紧随其后的需求分析至维护是覆盖范围；本节印520明言开发工具支持整个软件开发周期，另见13.1“贯穿于软件研发的整个生命周期内”。",
+      "sources": [
+        "教材 PDF 物理页 523（印刷页 516）"
+      ]
+    },
+    {
+      "id": "ch15r2a-02",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第03节-SOA的参考架构.md",
+      "loc": "15.3 接口服务",
+      "ocr": "如其他企业应用，数据库、消息系统和管理框架",
+      "current": "如其他企业应用，数据库、消息系统和管理框架",
+      "final": "如其他企业应用、数据库、消息系统和管理框架",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "页图所列四类企业系统并列，统一使用顿号。",
+      "sources": [
+        "教材 PDF 物理页 526（印刷页 519）"
+      ]
+    },
+    {
+      "id": "ch15r2b-01",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第04节-SOA主要协议和规范.md",
+      "loc": "物理 528，印刷 521，15.4",
+      "ocr": "“WS”作为",
+      "current": "“WS-” 作为",
+      "final": "“WS-”作为",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "删除右引号与中文谓语间的断词空格。",
+      "sources": [
+        "教材 PDF 物理 528 / 印刷 521，第二轮目读"
+      ]
+    },
+    {
+      "id": "ch15r2b-02",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第04节-SOA主要协议和规范.md",
+      "loc": "物理 529，印刷 522，15.4",
+      "ocr": "可被元素的各消息部件所引用",
+      "current": "可被元素的各消息部件所引用",
+      "final": "可被message元素的各消息部件所引用",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "同一页紧接的message条目明确“使用types所定义的类型”；WSDL模式中message包含part，part可通过type引用数据类型。",
+      "sources": [
+        "教材 PDF 物理 529 / 印刷 522，第二轮目读",
+        "https://github.com/apache/cxf/blob/main/core/src/main/resources/schemas/wsdl/wsdl.xsd（2026-11-27 核阅）"
+      ]
+    },
+    {
+      "id": "ch15r2b-03",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第04节-SOA主要协议和规范.md",
+      "loc": "物理 530，印刷 523，15.4",
+      "ocr": "这是一个粗糙命名的元素",
+      "current": "这是一个粗糙命名的元素",
+      "final": "这是一个具名元素",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "消解首轮ch15b-11。WSDL 1.1的tService规定name属性必需，允许多个port；Jakarta XML Web Services另明确限定名标识wsdl:service并可枚举端口。两源确认命名语义，删去无规范依据的修饰词，保留原有端口说明。",
+      "sources": [
+        "教材 PDF 物理 530 / 印刷 523，第二轮目读",
+        "https://github.com/apache/cxf/blob/main/core/src/main/resources/schemas/wsdl/wsdl.xsd（2026-11-27 核阅）",
+        "https://github.com/eclipse-ee4j/jax-ws-api/blob/master/api/src/main/java/jakarta/xml/ws/Service.java（2026-11-27 核阅）"
+      ]
+    },
+    {
+      "id": "ch15r2b-04",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第04节-SOA主要协议和规范.md",
+      "loc": "物理 531，印刷 524，15.4",
+      "ocr": "表述 (Representational)",
+      "current": "表述 (Representational)",
+      "final": "表述 (Representation)",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "此小目是资源表述的名词；HTTP语义第3.2节和MDN均用representation。REST英文全称中的形容词Representational仍按原拼写。",
+      "sources": [
+        "教材 PDF 物理 531 / 印刷 524，第二轮目读",
+        "https://github.com/httpwg/http-core/blob/main/rfc9110.xml（2026-11-27 核阅）",
+        "https://github.com/mdn/content/blob/main/files/en-us/glossary/representation_header/index.md（2026-11-27 核阅）"
+      ]
+    },
+    {
+      "id": "ch15r2b-05",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第04节-SOA主要协议和规范.md",
+      "loc": "物理 531，印刷 524，15.4",
+      "ocr": "在Web 中某一个时间",
+      "current": "在Web 中某一个时间",
+      "final": "在Web中某一个时间",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "删除Web与中文方位词间的断词空格。",
+      "sources": [
+        "教材 PDF 物理 531 / 印刷 524，第二轮目读"
+      ]
+    },
+    {
+      "id": "ch15r2b-06",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第04节-SOA主要协议和规范.md",
+      "loc": "物理 531，印刷 524，15.4",
+      "ocr": "便于用户请求这些资源，实现资源状态转移",
+      "current": "便于用户请求这些资源，实现资源状态转移",
+      "final": "便于用户请求这些资源，实现应用状态转移",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "本句描述客户端通过链接导航；RFC 9110第3.2节说明超文本引导接收方后续交互，Spring HATEOAS独立说明链接在资源间导航。教材本页已区分应用状态与资源状态，下一句明确归于应用状态。",
+      "sources": [
+        "教材 PDF 物理 531 / 印刷 524，第二轮目读",
+        "https://github.com/httpwg/http-core/blob/main/rfc9110.xml（2026-11-27 核阅）",
+        "https://github.com/spring-projects/spring-hateoas/blob/main/src/main/asciidoc/fundamentals.adoc（2026-11-27 核阅）"
+      ]
+    },
+    {
+      "id": "ch15r2b-07",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第04节-SOA主要协议和规范.md",
+      "loc": "物理 532，印刷 525，15.4",
+      "ocr": "遵循REST 设计原则",
+      "current": "遵循REST 设计原则",
+      "final": "遵循REST设计原则",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "删除REST与中文名词间的断词空格。",
+      "sources": [
+        "教材 PDF 物理 532 / 印刷 525，第二轮目读"
+      ]
+    },
+    {
+      "id": "ch15r2b-08",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第05节-SOA设计的标准要求.md",
+      "loc": "物理 533，印刷 526，15.5",
+      "ocr": "异步通信，并行处理，数据转换，以及校正",
+      "current": "异步通信，并行处理，数据转换，以及校正",
+      "final": "异步通信、并行处理、数据转换以及校正",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "并列短语用顿号，连词前去逗号。",
+      "sources": [
+        "教材 PDF 物理 533 / 印刷 526，第二轮目读"
+      ]
+    },
+    {
+      "id": "ch15r2b-09",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第06节-SOA的作用.md",
+      "loc": "物理 533，印刷 526，15.6",
+      "ocr": "操作系统，应用软件，系统软件和应用基础结构",
+      "current": "操作系统，应用软件，系统软件和应用基础结构",
+      "final": "操作系统、应用软件、系统软件和应用基础结构",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "同一主语的并列名词用顿号。",
+      "sources": [
+        "教材 PDF 物理 533 / 印刷 526，第二轮目读"
+      ]
+    },
+    {
+      "id": "ch15r2b-10",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第06节-SOA的作用.md",
+      "loc": "物理 534，印刷 527，15.6",
+      "ocr": "但是，这样会带来EAI Server呈几何倍数的增长",
+      "current": "但是，这样，所需连接的数量",
+      "final": "但是，这样所需连接的数量",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "删除首轮技术说明新增的多余停顿。",
+      "sources": [
+        "教材 PDF 物理 534 / 印刷 527，第二轮目读"
+      ]
+    },
+    {
+      "id": "ch15r2b-11",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第06节-SOA的作用.md",
+      "loc": "物理 534，印刷 527，15.6",
+      "ocr": "业务接口可以作少许改变。而内部操作却不需要改变",
+      "current": "业务接口可以作少许改变。而内部操作却不需要改变",
+      "final": "业务接口可以作少许改变，而内部操作却不需要改变",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "两个由“而”连接的紧邻对照分句合为一句。",
+      "sources": [
+        "教材 PDF 物理 534 / 印刷 527，第二轮目读"
+      ]
+    },
+    {
+      "id": "ch15r2b-12",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第07节-SOA的设计原则.md",
+      "loc": "物理 534，印刷 527，15.7",
+      "ocr": "SOA架构中，继承了",
+      "current": "SOA架构中，继承了",
+      "final": "SOA架构继承了",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "“SOA架构”是“继承了……原则”的主语，删除使主语悬空的方位词和逗号。",
+      "sources": [
+        "教材 PDF 物理 534 / 印刷 527，第二轮目读"
+      ]
+    },
+    {
+      "id": "ch15r2c-01",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第08节-SOA的设计模式.md",
+      "loc": "服务注册表厂商",
+      "ocr": "Sun和WebMethods",
+      "current": "Sun和WebMethods",
+      "final": "Sun和webMethods",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "Software AG开发库与IBM产品清单均作webMethods，小写w、大写M。",
+      "sources": [
+        "教材 PDF 物理页 535（印刷页 528），OCR 衍生页面",
+        "https://raw.githubusercontent.com/SoftwareAG/adapya-entirex/master/README.rst（访问 2026-11-27）",
+        "https://raw.githubusercontent.com/IBM/webmethods-helm-charts/main/README.md（访问 2026-11-27）"
+      ]
+    },
+    {
+      "id": "ch15r2c-02",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第08节-SOA的设计模式.md",
+      "loc": "注册表第二项功能",
+      "ocr": "服务位置：也就是服务应用开发者，帮助他们查询注册服务",
+      "current": "服务位置：也就是服务应用开发者，帮助他们查询注册服务",
+      "final": "服务定位：帮助服务应用开发者查询已注册的服务",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "本项说明“寻找符合自身要求的服务”，紧接处说明消费者检索合同；与15.4图15-4的请求者通过UDDI检索、及本段注册/定位/绑定三种功能相符。",
+      "sources": [
+        "教材 PDF 物理页 535（印刷页 528），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15r2c-03",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第08节-SOA的设计模式.md",
+      "loc": "点对点集成",
+      "ocr": "如果采用点对点的集成方式存在着",
+      "current": "如果采用点对点的集成方式存在着",
+      "final": "如果采用点对点的集成方式，就会存在",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "“如果”引条件，“存在”是结果；句法需分开。",
+      "sources": [
+        "教材 PDF 物理页 536（印刷页 529），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15r2c-04",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第08节-SOA的设计模式.md",
+      "loc": "ESB请求消息",
+      "ocr": "只需要向服务总线发出请求，消息即可获得所需服务",
+      "current": "只需要向服务总线发出请求，消息即可获得所需服务",
+      "final": "只需要向服务总线发出请求消息，即可获得所需服务",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "移逗号即可。上文明说“产生一个服务请求消息”，获取服务的主语是连接在总线上的组件。",
+      "sources": [
+        "教材 PDF 物理页 536（印刷页 529），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15r2c-05",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第08节-SOA的设计模式.md",
+      "loc": "REST的定义",
+      "ocr": "REST提供了一系列架构系统参数作为整体使用",
+      "current": "REST提供了一系列架构系统参数作为整体使用",
+      "final": "REST定义了一组配合使用的架构约束",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "15.4将RESTful定义为满足设计约束；MDN亦解释为一组软件架构约束。",
+      "sources": [
+        "教材 PDF 物理页 541（印刷页 534），OCR 衍生页面",
+        "https://raw.githubusercontent.com/mdn/content/main/files/en-us/glossary/rest/index.md（访问 2026-11-27）"
+      ]
+    },
+    {
+      "id": "ch15r2c-06",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第08节-SOA的设计模式.md",
+      "loc": "同步调用与等待",
+      "ocr": "但是REST设计模式是同步的，容易造成阻塞，从而耗费大量时间",
+      "current": "但是REST设计模式是同步的，容易造成阻塞，从而耗费大量时间",
+      "final": "如果客户端同步等待REST接口完成耗时操作，就可能长时间阻塞；接口也可以先返回已受理的响应，再异步完成处理",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "HTTP规范明确202表示已受理但处理尚未完成。Azure REST API指南采用这一响应和状态查询资源实施长时操作。",
+      "sources": [
+        "教材 PDF 物理页 541（印刷页 534），OCR 衍生页面",
+        "https://raw.githubusercontent.com/httpwg/http-core/main/rfc9110.xml（访问 2026-11-27）",
+        "https://raw.githubusercontent.com/microsoft/api-guidelines/vNext/azure/Guidelines.md（访问 2026-11-27）"
+      ]
+    },
+    {
+      "id": "ch15r2c-07",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第08节-SOA的设计模式.md",
+      "loc": "生产者与队列",
+      "ocr": "消息队列将消息写入一个消息队列中",
+      "current": "消息队列将消息写入一个消息队列中",
+      "final": "消息生产者将消息写入队列",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "14.2事件驱动图中生产者发布、消费者处理；队列存放消息而非自身承担业务生产者角色。",
+      "sources": [
+        "教材 PDF 物理页 541（印刷页 534），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15r2c-08",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第08节-SOA的设计模式.md",
+      "loc": "CAP约束",
+      "ocr": "受限于CAP原理约束以及NoSQL数据库的高扩展性，使人们不得不放弃传统数据库的强一致性，转而追求最终一致性，因此对开发人员提出了更高要求",
+      "current": "受限于CAP原理约束以及NoSQL数据库的高扩展性，使人们不得不放弃传统数据库的强一致性，转而追求最终一致性，因此对开发人员提出了更高要求",
+      "final": "发生网络分区时，分布式数据库无法同时保证强一致性和所有节点的可用性。系统可以保留强一致性并限制部分请求，也可以优先保证可用性，采用最终一致性等方案，这对开发人员提出了更高要求",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "Cassandra文档明确网络分区期间的取舍；etcd在分区时多数侧继续、少数侧不可用，键值操作可保证线性一致性，说明并非所有数据库都必放弃强一致性。",
+      "sources": [
+        "教材 PDF 物理页 541（印刷页 534），OCR 衍生页面",
+        "https://raw.githubusercontent.com/apache/cassandra/trunk/doc/modules/cassandra/pages/architecture/guarantees.adoc（访问 2026-11-27）",
+        "https://raw.githubusercontent.com/etcd-io/website/main/content/en/docs/v3.6/op-guide/failures.md（访问 2026-11-27）",
+        "https://raw.githubusercontent.com/etcd-io/website/main/content/en/docs/v3.6/learning/api_guarantees.md（访问 2026-11-27）"
+      ]
+    },
+    {
+      "id": "ch15r2c-09",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第10节-SOA实施的过程.md",
+      "loc": "实施目标层次",
+      "ocr": "实行SOA 的目标层次",
+      "current": "实行SOA 的目标层次",
+      "final": "实行SOA的目标层次",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "移除同一术语与中文结构助词间的孤立空格。",
+      "sources": [
+        "教材 PDF 物理页 544（印刷页 537），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15r2c-10",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第10节-SOA实施的过程.md",
+      "loc": "流程提供的价值",
+      "ocr": "用于提供业务值的输入和输出",
+      "current": "用于提供业务值的输入和输出",
+      "final": "用于提供业务价值的输入和输出",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "本段定义流程产生的业务价值，随后举文档列表作输出而非数值。教材14.2的对应惯用语为“业务价值”。",
+      "sources": [
+        "教材 PDF 物理页 546（印刷页 539），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15r2c-11",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第10节-SOA实施的过程.md",
+      "loc": "需求管理工具名",
+      "ocr": "IBM Rational Requisite Pro",
+      "current": "IBM Rational Requisite Pro",
+      "final": "IBM Rational RequisitePro",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "实际工具导出的需求管理计划模板（文档内容有RequisitePro Use Case Project Template）与另一独立项目中指向IBM工具页的名称，均以RequisitePro连写。",
+      "sources": [
+        "教材 PDF 物理页 546（印刷页 539），OCR 衍生页面",
+        "https://raw.githubusercontent.com/WookiePL/aipsi-sale/master/Sekcja7%20Projekt%20AIPSI/Rational%20RequisitePro/Sekcja7/Requirements%20Management%20Plan.RMP（访问 2026-11-27）",
+        "https://raw.githubusercontent.com/jakobnunnendorf/SE_egrocery/main/README.md（访问 2026-11-27）"
+      ]
+    },
+    {
+      "id": "ch15r2c-12",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第09节-构建SOA架构时应该注意的问题.md",
+      "loc": "无状态服务的适用范围",
+      "ocr": "SOA系统架构中的具体服务应该都是独立的、自包含的请求，在实现这些服务的时候不需要前一个请求的状态，也就是说服务不应该依赖于其他服务的上下文和状态，即SOA架构中的服务应该是无状态的服务",
+      "current": "SOA系统架构中的具体服务应该都是独立的、自包含的请求，在实现这些服务的时候不需要前一个请求的状态，也就是说服务不应该依赖于其他服务的上下文和状态，即SOA架构中的服务应该是无状态的服务",
+      "final": "设计无状态服务时，每个请求都应该是独立的、自包含的，服务处理该请求时不依赖前一个请求留下的会话状态",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "同章15.10明确“服务之间的交换可以为有状态、也可以为无状态”，并给出先设置客户编号再查询的有状态例。当前小节讲的是无状态服务设计，独立、自包含形容请求。",
+      "sources": [
+        "教材 PDF 物理页 543（印刷页 536），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch15r2c-13",
+      "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第08节-SOA的设计模式.md",
+      "loc": "微服务系统测试",
+      "ocr": "传统的单体Web应用只需测试单一API即可，然而对于微服务架构测试，需要启动其依赖的所有服务",
+      "current": "传统的单体Web应用只需测试单一API即可，然而对于微服务架构测试，需要启动其依赖的所有服务",
+      "final": "单体Web应用的多个模块可以在同一进程中接受集成测试，而对涉及多个微服务的业务流程进行端到端测试时，则需要准备相应的依赖服务",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "本段首句在讨论系统测试；5.4明确单元、集成和系统测试的不同范围，单体应用也须检验模块协作。15.8.4说明微服务可独立测试，因此启动相应依赖的要求只针对跨服务端到端测试。",
+      "sources": [
+        "教材 PDF 物理页 541（印刷页 534），OCR 衍生页面"
+      ]
     }
   ],
   "counts": {
-    "N": 106,
+    "N": 115,
     "R": 44,
     "K": 7,
-    "C1": 30,
+    "C1": 41,
     "C3": 15,
-    "C2": 5
+    "C2": 12
+  },
+  "round_2": {
+    "baseline": "743ae09fb2f97f8c2141dbec4883d05bdce0151f",
+    "record": "verification/教材第二轮独立盲核记录-第15章.md",
+    "counts": {
+      "C1": 11,
+      "N": 9,
+      "C2": 7
+    },
+    "resolved": [
+      "ch15b-11",
+      "ch15c-57",
+      "ch15c-58",
+      "ch15c-59",
+      "ch15c-60"
+    ]
   }
 }

@@ -43,7 +43,7 @@ Web服务安全规范用来保证消息的安全性。该规范主要包括认�
 
 ### 4. 控制
 
-在SOA中，进程是使用一组离散的服务创建的。BPEL4WS或者WS-BPEL(Web Services Business Process Execution Language) 是用来控制这些服务的语言。当企业着手于服务架构时，服务可以用来整合数据孤岛 (Silos of Data)、应用程序以及组件。整合应用意味着像异步通信，并行处理，数据转换，以及校正等进程请求必须被标准化。
+在SOA中，进程是使用一组离散的服务创建的。BPEL4WS或者WS-BPEL(Web Services Business Process Execution Language) 是用来控制这些服务的语言。当企业着手于服务架构时，服务可以用来整合数据孤岛 (Silos of Data)、应用程序以及组件。整合应用意味着像异步通信、并行处理、数据转换以及校正等进程请求必须被标准化。
 
 ### 5. 管理
 
