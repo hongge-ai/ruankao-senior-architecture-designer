@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1241 783" role="img" aria-labelledby="title desc">
+<title id="title">图 14-5 某旅行公司云原生平台架构图</title>
+<desc id="desc">四个并列治理域、独立市场栏、接口及资源层；保留图内三处 Wangler、平台专名和 Local/Route 字样。</desc>
+<defs><marker id="arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#446c78"/></marker></defs>
+<g font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" text-anchor="middle" fill="#19333d">
+<rect x="8" y="8" width="990" height="377" fill="#fff" stroke="#577a87" stroke-width="1.45"/>
+<text x="52" y="96.9" font-size="18">某</text>
+<text x="52" y="118.9" font-size="18">旅</text>
+<text x="52" y="140.9" font-size="18">行</text>
+<text x="52" y="162.9" font-size="18">云</text>
+<text x="52" y="184.9" font-size="18">原</text>
+<text x="52" y="206.9" font-size="18">生</text>
+<text x="52" y="228.9" font-size="18">平</text>
+<text x="52" y="250.9" font-size="18">台</text>
+<rect x="99.0" y="27" width="168.6" height="52" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="183.3" y="58.9" font-size="18">云原生应用</text>
+<rect x="277.6" y="27" width="168.6" height="52" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="361.90000000000003" y="58.9" font-size="18">AI/大数据</text>
+<rect x="456.2" y="27" width="168.6" height="52" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="540.5" y="58.9" font-size="18">音/视频</text>
+<rect x="634.8" y="27" width="168.6" height="52" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="719.0999999999999" y="58.9" font-size="18">Serverless</text>
+<rect x="813.4" y="27" width="168.6" height="52" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="897.6999999999999" y="58.9" font-size="18">在/离线</text>
+<rect x="99" y="96" width="213" height="198" fill="white" stroke="#577a87" stroke-width="1.45" stroke-dasharray="6 4"/>
+<text x="205" y="125.6" font-size="20">集群管理</text>
+<rect x="105" y="140" width="201" height="42" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="205.5" y="166.6" font-size="17">多环境&amp;混合云部署</text>
+<rect x="105" y="190" width="201" height="42" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="205.5" y="216.6" font-size="17">资源利用率优化</text>
+<rect x="105" y="240" width="201" height="42" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="205.5" y="266.6" font-size="17">资源申请收口</text>
+<rect x="322" y="96" width="213" height="198" fill="white" stroke="#577a87" stroke-width="1.45" stroke-dasharray="6 4"/>
+<text x="428" y="125.6" font-size="20">安全隔离</text>
+<rect x="328" y="140" width="201" height="42" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="428.5" y="166.6" font-size="17">标准&amp;非标资源管控</text>
+<rect x="328" y="190" width="201" height="42" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="428.5" y="216.6" font-size="17">全链路故障漏洞分析</text>
+<rect x="328" y="240" width="201" height="42" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="428.5" y="266.6" font-size="17">应用安全合规审计</text>
+<rect x="545" y="96" width="213" height="198" fill="white" stroke="#577a87" stroke-width="1.45" stroke-dasharray="6 4"/>
+<text x="651" y="125.6" font-size="20">监控&amp;报警</text>
+<rect x="551" y="140" width="201" height="42" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="651.5" y="166.6" font-size="17">日志分析</text>
+<rect x="551" y="190" width="201" height="42" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="651.5" y="216.6" font-size="17">监控报警</text>
+<rect x="551" y="240" width="201" height="42" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="651.5" y="266.6" font-size="17">全链路追踪</text>
+<rect x="768" y="96" width="213" height="198" fill="white" stroke="#577a87" stroke-width="1.45" stroke-dasharray="6 4"/>
+<text x="874" y="125.6" font-size="20">DevOps</text>
+<rect x="774" y="140" width="201" height="42" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="874.5" y="166.6" font-size="17">CICD</text>
+<rect x="774" y="190" width="201" height="42" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="874.5" y="216.6" font-size="17">资源利用率优化</text>
+<rect x="774" y="240" width="201" height="42" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="874.5" y="266.6" font-size="17">资源申请收口</text>
+<rect x="99" y="312" width="883" height="54" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="540.5" y="345.9" font-size="21">Jean &amp; Furt (Kubernetes) &amp; 兜率（机器学习平台）</text>
+<rect x="8" y="397" width="990" height="54" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="503.0" y="429.9" font-size="18">ServiceAPI 接口汇聚</text>
+<rect x="8" y="466" width="265" height="49" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="140.5" y="496.4" font-size="18">Wangler(KVM)</text>
+<rect x="287" y="466" width="271" height="49" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="422.5" y="496.4" font-size="18">Wangler(Docker)</text>
+<rect x="572" y="466" width="426" height="49" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="785.0" y="496.4" font-size="18">Wangler(Kubernetes)</text>
+<rect x="8" y="531" width="265" height="83" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="140.5" y="567.4" font-size="18">计算</text>
+<text x="140.5" y="589.4" font-size="18">CPU/GPU</text>
+<rect x="287" y="531" width="271" height="83" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="422.5" y="567.4" font-size="18">容器网络</text>
+<text x="422.5" y="589.4" font-size="18">Calico/Linux Route</text>
+<rect x="572" y="531" width="202" height="83" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="673.0" y="567.4" font-size="18">存储</text>
+<text x="673.0" y="589.4" font-size="18">Local/Route</text>
+<rect x="788" y="531" width="210" height="83" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="893.0" y="567.4" font-size="18">运行时</text>
+<text x="893.0" y="589.4" font-size="18">Docker/Kata</text>
+<rect x="1012" y="8" width="220" height="606" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="1122.0" y="261.9" font-size="18">应用市场 &amp;</text>
+<text x="1122.0" y="283.9" font-size="18">模型市场 &amp;</text>
+<text x="1122.0" y="305.9" font-size="18">数据市场</text>
+<text x="1122.0" y="327.9" font-size="18">· 标准云原生应用</text>
+<text x="1122.0" y="349.9" font-size="18">· 标准化数据产品</text>
+<text x="1122.0" y="371.9" font-size="18">· 标准化预训练模型</text>
+<rect x="8" y="629" width="1224" height="63" fill="#fff" stroke="#577a87" stroke-width="1.45"/>
+<text x="71" y="665.9" font-size="18">OS层</text>
+<rect x="365" y="640" width="174" height="40" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="452.0" y="665.9" font-size="18">Linux</text>
+<rect x="851" y="640" width="174" height="40" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="938.0" y="665.9" font-size="18">Windows</text>
+<rect x="8" y="709" width="1224" height="63" fill="#fff" stroke="#577a87" stroke-width="1.45"/>
+<text x="80" y="745.9" font-size="18">机器资源池</text>
+<rect x="212" y="719" width="185" height="42" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="304.5" y="745.9" font-size="18">物理机</text>
+<rect x="569" y="719" width="185" height="42" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="661.5" y="745.9" font-size="18">虚拟机</text>
+<rect x="923" y="719" width="185" height="42" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="1015.5" y="745.9" font-size="18">混合云机器</text>
+</g></svg>

@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1175 728" role="img" aria-labelledby="title desc">
+<title id="title">图 14-7 某快递公司核心业务上云架构示意图</title>
+<desc id="desc">流量入口、接入层、应用、中台及基础设施逐层映射；下方混合态标签不代表新增分组。保留四个域名小格，模糊后缀照录。</desc>
+<defs><marker id="arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#446c78"/></marker></defs>
+<g font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" text-anchor="middle" fill="#19333d">
+<text x="35" y="74.9" font-size="18">流</text>
+<text x="35" y="96.9" font-size="18">量</text>
+<text x="35" y="118.9" font-size="18">入</text>
+<text x="35" y="140.9" font-size="18">口</text>
+<text x="35" y="250.9" font-size="18">接</text>
+<text x="35" y="272.9" font-size="18">入</text>
+<text x="35" y="294.9" font-size="18">层</text>
+<text x="35" y="377.9" font-size="18">应</text>
+<text x="35" y="399.9" font-size="18">用</text>
+<text x="35" y="471.9" font-size="18">中</text>
+<text x="35" y="493.9" font-size="18">台</text>
+<text x="35" y="565.9" font-size="18">基</text>
+<text x="35" y="587.9" font-size="18">础</text>
+<text x="35" y="609.9" font-size="18">设</text>
+<text x="35" y="631.9" font-size="18">施</text>
+<rect x="77" y="10" width="536" height="189" fill="#fff" stroke="#577a87" stroke-width="1.45"/>
+<rect x="89.0" y="22" width="251.0" height="45" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="214.5" y="50.1" font-size="17">阿里云DNS</text>
+<rect x="350.0" y="22" width="251.0" height="45" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="475.5" y="50.1" font-size="17">Linux-Bind</text>
+<rect x="89.0" y="82" width="251.0" height="45" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="214.5" y="110.1" font-size="17">F5-外部VIP</text>
+<rect x="350.0" y="82" width="251.0" height="45" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="475.5" y="110.1" font-size="17">F5-内部VIP</text>
+<rect x="89.0" y="142" width="251.0" height="45" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="214.5" y="170.1" font-size="17">外部：sto-express.cr</text>
+<rect x="350.0" y="142" width="251.0" height="45" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="475.5" y="170.1" font-size="17">内部：stosystem.com</text>
+<rect x="627" y="10" width="536" height="189" fill="#fff" stroke="#577a87" stroke-width="1.45"/>
+<rect x="639.0" y="22" width="251.0" height="45" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="764.5" y="50.1" font-size="17">阿里DNS</text>
+<rect x="900.0" y="22" width="251.0" height="45" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="1025.5" y="50.1" font-size="17">PrivateZone</text>
+<rect x="639.0" y="82" width="251.0" height="45" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="764.5" y="110.1" font-size="17">SLB-外部VIP</text>
+<rect x="900.0" y="82" width="251.0" height="45" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="1025.5" y="110.1" font-size="17">SLB-内部VIP</text>
+<rect x="639.0" y="142" width="251.0" height="45" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="764.5" y="170.1" font-size="17">外部：sto.cr</text>
+<rect x="900.0" y="142" width="251.0" height="45" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="1025.5" y="170.1" font-size="17">内部：stosystem.com</text>
+<rect x="77" y="214" width="261" height="102" fill="#fff" stroke="#577a87" stroke-width="1.45"/>
+<rect x="88" y="225" width="239" height="79" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="207.5" y="259.4" font-size="18">Nginx</text>
+<text x="207.5" y="281.4" font-size="18">外网</text>
+<rect x="77" y="329" width="261" height="105" fill="#fff" stroke="#577a87" stroke-width="1.45"/>
+<rect x="88" y="340" width="239" height="47" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="207.5" y="369.4" font-size="18">Java</text>
+<text x="291" y="418.6" font-size="17">VM</text>
+<rect x="352" y="214" width="261" height="102" fill="#fff" stroke="#577a87" stroke-width="1.45"/>
+<rect x="363" y="225" width="239" height="79" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="482.5" y="259.4" font-size="18">Nginx</text>
+<text x="482.5" y="281.4" font-size="18">内网</text>
+<rect x="352" y="329" width="261" height="105" fill="#fff" stroke="#577a87" stroke-width="1.45"/>
+<rect x="363" y="340" width="239" height="47" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="482.5" y="369.4" font-size="18">.NET</text>
+<text x="566" y="418.6" font-size="17">VM</text>
+<rect x="627" y="214" width="261" height="102" fill="#fff" stroke="#577a87" stroke-width="1.45"/>
+<rect x="638" y="225" width="239" height="79" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="757.5" y="259.4" font-size="18">生产-2套Nginx接入</text>
+<text x="757.5" y="281.4" font-size="18">内/外</text>
+<rect x="627" y="329" width="261" height="105" fill="#fff" stroke="#577a87" stroke-width="1.45"/>
+<rect x="638" y="340" width="239" height="47" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="757.5" y="369.4" font-size="18">.NET</text>
+<text x="841" y="418.6" font-size="17">ECS</text>
+<rect x="902" y="214" width="261" height="102" fill="#fff" stroke="#577a87" stroke-width="1.45"/>
+<rect x="913" y="225" width="239" height="79" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="1032.5" y="259.4" font-size="18">生产-3套Ingress</text>
+<text x="1032.5" y="281.4" font-size="18">内/外/办公网</text>
+<rect x="902" y="329" width="261" height="105" fill="#fff" stroke="#577a87" stroke-width="1.45"/>
+<rect x="913" y="340" width="239" height="47" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="1032.5" y="369.4" font-size="18">Java</text>
+<text x="1116" y="418.6" font-size="17">Pod</text>
+<rect x="77" y="447" width="536" height="70" fill="#fff" stroke="#577a87" stroke-width="1.45"/>
+<rect x="87.0" y="459" width="165.33" height="46" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="169.66500000000002" y="487.9" font-size="18">中间件</text>
+<rect x="262.33" y="459" width="165.33" height="46" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="344.995" y="487.9" font-size="18">Redis</text>
+<rect x="437.67" y="459" width="165.33" height="46" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="520.335" y="487.9" font-size="18">Oracle</text>
+<rect x="77" y="531" width="536" height="136" fill="#fff" stroke="#577a87" stroke-width="1.45"/>
+<rect x="87" y="545" width="516" height="46" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="345.0" y="573.9" font-size="18">VMware 虚拟化平台</text>
+<rect x="87" y="608" width="516" height="46" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="345.0" y="636.9" font-size="18">物理机</text>
+<rect x="627" y="447" width="536" height="70" fill="#fff" stroke="#577a87" stroke-width="1.45"/>
+<rect x="637.0" y="459" width="165.33" height="46" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="719.665" y="487.9" font-size="18">云上中间件</text>
+<rect x="812.33" y="459" width="165.33" height="46" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="894.995" y="487.9" font-size="18">云Redis</text>
+<rect x="987.67" y="459" width="165.33" height="46" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="1070.335" y="487.9" font-size="18">OLAP/OLTP</text>
+<rect x="627" y="531" width="536" height="136" fill="#fff" stroke="#577a87" stroke-width="1.45"/>
+<rect x="637" y="545" width="516" height="46" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="895.0" y="573.9" font-size="18">ACK</text>
+<rect x="637" y="608" width="516" height="46" fill="#f4f9fb" stroke="#577a87" stroke-width="1.45"/>
+<text x="895.0" y="636.9" font-size="18">神龙服务器</text>
+<text x="616" y="708.9" font-size="21">上云混合态架构</text>
+</g></svg>

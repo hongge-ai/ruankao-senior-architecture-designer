@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 478" role="img" aria-labelledby="title desc">
+<title id="title">图 14-1 Mesh化架构</title>
+<desc id="desc">左右对照传统架构与Mesh化架构，均含业务代码及四种SDK。传统进程与网络双向通信，右图另绘SDK与Mesh进程、外层进程与网络的双向通信。</desc>
+<defs><marker id="tip" viewBox="0 0 10 10" markerWidth="5" markerHeight="5" refX="9" refY="5" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#376d80"/></marker></defs>
+<g font-family="Noto Sans CJK SC, sans-serif" text-anchor="middle" fill="#172f38">
+<rect x="20" y="62" width="390" height="215" fill="#fff" stroke="#63808a" stroke-width="1.5"/>
+<text x="73" y="87" font-size="18">业务进程</text>
+<rect x="40" y="98" width="350" height="149" fill="#fff" stroke="#63808a" stroke-width="1.5"/>
+<rect x="56" y="110" width="318" height="34" fill="#fff" stroke="#63808a" stroke-width="1.5"/>
+<text x="215" y="134" font-size="18">业务代码</text>
+<rect x="65" y="159" width="64" height="67" fill="#fff" stroke="#63808a" stroke-width="1.5"/>
+<text x="97" y="185" font-size="18">RPC</text>
+<text x="97" y="212" font-size="18">SDK</text>
+<rect x="144" y="159" width="64" height="67" fill="#fff" stroke="#63808a" stroke-width="1.5"/>
+<text x="176" y="185" font-size="18">Redis</text>
+<text x="176" y="212" font-size="18">SDK</text>
+<rect x="223" y="159" width="64" height="67" fill="#fff" stroke="#63808a" stroke-width="1.5"/>
+<text x="255" y="185" font-size="18">MQ</text>
+<text x="255" y="212" font-size="18">SDK</text>
+<rect x="302" y="159" width="64" height="67" fill="#fff" stroke="#63808a" stroke-width="1.5"/>
+<text x="334" y="185" font-size="18">DB</text>
+<text x="334" y="212" font-size="18">SDK</text>
+<rect x="444" y="16" width="390" height="309" fill="#fff" stroke="#63808a" stroke-width="1.5"/>
+<text x="497" y="41" font-size="18">业务进程</text>
+<rect x="464" y="52" width="350" height="149" fill="#fff" stroke="#63808a" stroke-width="1.5"/>
+<rect x="480" y="64" width="318" height="34" fill="#fff" stroke="#63808a" stroke-width="1.5"/>
+<text x="639" y="88" font-size="18">业务代码</text>
+<rect x="489" y="113" width="64" height="67" fill="#fff" stroke="#63808a" stroke-width="1.5"/>
+<text x="521" y="139" font-size="18">RPC</text>
+<text x="521" y="166" font-size="18">SDK</text>
+<rect x="568" y="113" width="64" height="67" fill="#fff" stroke="#63808a" stroke-width="1.5"/>
+<text x="600" y="139" font-size="18">Redis</text>
+<text x="600" y="166" font-size="18">SDK</text>
+<rect x="647" y="113" width="64" height="67" fill="#fff" stroke="#63808a" stroke-width="1.5"/>
+<text x="679" y="139" font-size="18">MQ</text>
+<text x="679" y="166" font-size="18">SDK</text>
+<rect x="726" y="113" width="64" height="67" fill="#fff" stroke="#63808a" stroke-width="1.5"/>
+<text x="758" y="139" font-size="18">DB</text>
+<text x="758" y="166" font-size="18">SDK</text>
+<path d="M639 205L639 251" fill="none" stroke="#376d80" stroke-width="1.8" marker-end="url(#tip)" marker-start="url(#tip)"/>
+<text x="727" y="234" font-size="16">SDK协议、标准协议</text>
+<rect x="460" y="256" width="358" height="56" fill="#fff" stroke="#63808a" stroke-width="1.5"/>
+<text x="639" y="280" font-size="18">Mesh进程</text>
+<text x="639" y="302" font-size="17">（流量控制、安全策略、微隔离……）</text>
+<path d="M215 280L215 331" fill="none" stroke="#376d80" stroke-width="1.8" marker-end="url(#tip)" marker-start="url(#tip)"/>
+<text x="266" y="309" font-size="18">SDK协议</text>
+<ellipse cx="215" cy="357" rx="53" ry="23" fill="#fff" stroke="#63808a" stroke-width="1.5"/>
+<text x="215" y="364" font-size="18">网络</text>
+<text x="215" y="411" font-size="18">传统架构</text>
+<path d="M639 328L639 383" fill="none" stroke="#376d80" stroke-width="1.8" marker-end="url(#tip)" marker-start="url(#tip)"/>
+<text x="737" y="359" font-size="16">新协议、加密、染色……</text>
+<ellipse cx="639" cy="409" rx="53" ry="23" fill="#fff" stroke="#63808a" stroke-width="1.5"/>
+<text x="639" y="416" font-size="18">网络</text>
+<text x="639" y="462" font-size="18">Mesh化架构</text></g>
+</svg>

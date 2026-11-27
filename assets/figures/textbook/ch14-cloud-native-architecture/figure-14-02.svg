@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 624 146" role="img" aria-labelledby="title desc">
+<title id="title">图 14-2 事件驱动架构</title>
+<desc id="desc">生产者向主题发送三条事件，主题向消费者转发三条事件。消费者反向订阅主题。</desc>
+<defs><marker id="tip" viewBox="0 0 10 10" markerWidth="5" markerHeight="5" refX="9" refY="5" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#376d80"/></marker></defs>
+<g font-family="Noto Sans CJK SC, sans-serif" text-anchor="middle" fill="#172f38">
+<rect x="15" y="15" width="110" height="115" fill="#fff" stroke="#63808a" stroke-width="1.5"/>
+<text x="70" y="82" font-size="22">生产者</text>
+<rect x="256" y="15" width="110" height="115" fill="#fff" stroke="#63808a" stroke-width="1.5"/>
+<text x="311" y="82" font-size="22">主题</text>
+<rect x="497" y="15" width="110" height="115" fill="#fff" stroke="#63808a" stroke-width="1.5"/>
+<text x="552" y="82" font-size="22">消费者</text>
+<path d="M130 52L251 52" fill="none" stroke="#376d80" stroke-width="1.8" marker-end="url(#tip)"/>
+<rect x="164" y="36" width="52" height="23" fill="white"/>
+<text x="190" y="58" font-size="18">事件</text>
+<path d="M130 80L251 80" fill="none" stroke="#376d80" stroke-width="1.8" marker-end="url(#tip)"/>
+<rect x="164" y="64" width="52" height="23" fill="white"/>
+<text x="190" y="86" font-size="18">事件</text>
+<path d="M130 108L251 108" fill="none" stroke="#376d80" stroke-width="1.8" marker-end="url(#tip)"/>
+<rect x="164" y="92" width="52" height="23" fill="white"/>
+<text x="190" y="114" font-size="18">事件</text>
+<path d="M371 52L492 52" fill="none" stroke="#376d80" stroke-width="1.8" marker-end="url(#tip)"/>
+<rect x="405" y="36" width="52" height="23" fill="white"/>
+<text x="431" y="58" font-size="18">事件</text>
+<path d="M371 80L492 80" fill="none" stroke="#376d80" stroke-width="1.8" marker-end="url(#tip)"/>
+<rect x="405" y="64" width="52" height="23" fill="white"/>
+<text x="431" y="86" font-size="18">事件</text>
+<path d="M371 108L492 108" fill="none" stroke="#376d80" stroke-width="1.8" marker-end="url(#tip)"/>
+<rect x="405" y="92" width="52" height="23" fill="white"/>
+<text x="431" y="114" font-size="18">事件</text>
+<path d="M492 25L371 25" fill="none" stroke="#376d80" stroke-width="1.8" marker-end="url(#tip)"/>
+<rect x="405" y="8" width="52" height="23" fill="white"/>
+<text x="431" y="30" font-size="18">订阅</text></g>
+</svg>
