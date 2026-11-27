@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1110 692" role="img" aria-labelledby="title desc">
+<title id="title">图 12-8 TOGAF能力框架</title>
+<desc id="desc">保留左右业务栏、上下外围回路、中心框架标签和有向联系旁的说明。</desc>
+<g font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" fill="#15232c">
+<defs><marker id="arr" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M 0 0 L 8 4 L 0 8 z" fill="#3c6777"/></marker></defs>
+<rect x="10" y="60" width="98" height="585" fill="#d7eff4" stroke="#578492"/>
+<rect x="1000" y="60" width="98" height="585" fill="#d7eff4" stroke="#578492"/>
+<text x="59" y="243" text-anchor="middle" font-size="27" fill="#15232c">业</text>
+<text x="59" y="275" text-anchor="middle" font-size="27" fill="#15232c">务</text>
+<text x="59" y="307" text-anchor="middle" font-size="27" fill="#15232c">愿</text>
+<text x="59" y="339" text-anchor="middle" font-size="27" fill="#15232c">景</text>
+<text x="59" y="371" text-anchor="middle" font-size="27" fill="#15232c">及</text>
+<text x="59" y="403" text-anchor="middle" font-size="27" fill="#15232c">驱</text>
+<text x="59" y="435" text-anchor="middle" font-size="27" fill="#15232c">动</text>
+<text x="59" y="467" text-anchor="middle" font-size="27" fill="#15232c">力</text>
+<text x="1049" y="307" text-anchor="middle" font-size="27" fill="#15232c">业</text>
+<text x="1049" y="339" text-anchor="middle" font-size="27" fill="#15232c">务</text>
+<text x="1049" y="371" text-anchor="middle" font-size="27" fill="#15232c">能</text>
+<text x="1049" y="403" text-anchor="middle" font-size="27" fill="#15232c">力</text>
+<rect x="424" y="78" width="268" height="110" fill="#d7eff4" stroke="#578492"/>
+<text x="558.0" y="138.0" text-anchor="middle" font-size="21" fill="#15232c">架构能力框架</text>
+<rect x="424" y="285" width="268" height="72" fill="#d7eff4" stroke="#578492"/>
+<text x="558.0" y="313.0" text-anchor="middle" font-size="21" fill="#15232c">架构开发方法</text>
+<text x="558.0" y="339.0" text-anchor="middle" font-size="21" fill="#15232c">（ADM）</text>
+<rect x="424" y="357" width="268" height="54" fill="#d7eff4" stroke="#578492"/>
+<text x="558.0" y="389.0" text-anchor="middle" font-size="21" fill="#15232c">ADM原则及技术</text>
+<rect x="475" y="413" width="166" height="76" fill="#d7eff4" stroke="#578492"/>
+<text x="558.0" y="443.0" text-anchor="middle" font-size="21" fill="#15232c">架构</text>
+<text x="558.0" y="469.0" text-anchor="middle" font-size="21" fill="#15232c">内容框架</text>
+<rect x="424" y="489" width="268" height="53" fill="#d7eff4" stroke="#578492"/>
+<text x="558.0" y="520.5" text-anchor="middle" font-size="21" fill="#15232c">企业连续体及各种工具</text>
+<rect x="424" y="542" width="268" height="62" fill="#d7eff4" stroke="#578492"/>
+<text x="558.0" y="578.0" text-anchor="middle" font-size="21" fill="#15232c">TOGAF参考模型</text>
+<text x="558" y="62" text-anchor="middle" font-size="25" fill="#15232c">TOGAF能力框架</text>
+<text x="558" y="638" text-anchor="middle" font-size="22" fill="#15232c">TOGAF企业连续体和各种工具</text>
+<line x1="59" y1="60" x2="59" y2="22" stroke="#697883" stroke-width="1.5"/>
+<line x1="59" y1="22" x2="1049" y2="22" stroke="#697883" stroke-width="1.5"/>
+<path d="M 1049.0 22.0 L 1049.0 60.0" fill="none" stroke="#3c6777" stroke-width="2.2" marker-end="url(#arr)"/>
+<line x1="1049" y1="645" x2="1049" y2="672" stroke="#697883" stroke-width="1.5"/>
+<line x1="1049" y1="672" x2="59" y2="672" stroke="#697883" stroke-width="1.5"/>
+<path d="M 59.0 672.0 L 59.0 645.0" fill="none" stroke="#3c6777" stroke-width="2.2" marker-end="url(#arr)"/>
+<path d="M 108.0 111.0 L 424.0 111.0" fill="none" stroke="#3c6777" stroke-width="2.2" marker-end="url(#arr)"/>
+<path d="M 692.0 111.0 L 1000.0 111.0" fill="none" stroke="#3c6777" stroke-width="2.2" marker-end="url(#arr)"/>
+<text x="265" y="104" text-anchor="middle" font-size="15" fill="#15232c">明确能力的规模、结构和文化</text>
+<text x="846" y="87" text-anchor="middle" font-size="15" fill="#15232c">为各架构角色设置目标、</text>
+<text x="846" y="107" text-anchor="middle" font-size="15" fill="#15232c">关键性能指标、规划和预算</text>
+<path d="M 424.0 167.0 L 108.0 167.0" fill="none" stroke="#3c6777" stroke-width="2.2" marker-end="url(#arr)"/>
+<path d="M 1000.0 167.0 L 692.0 167.0" fill="none" stroke="#3c6777" stroke-width="2.2" marker-end="url(#arr)"/>
+<text x="265" y="186" text-anchor="middle" font-size="15" fill="#15232c">针对架构能力的有效运用</text>
+<text x="265" y="206" text-anchor="middle" font-size="15" fill="#15232c">确保业务愿景的实现</text>
+<text x="846" y="186" text-anchor="middle" font-size="15" fill="#15232c">业务能力驱动了针对</text>
+<text x="846" y="206" text-anchor="middle" font-size="15" fill="#15232c">架构能力成熟度的需求</text>
+<path d="M 558.0 188.0 L 558.0 285.0" fill="none" stroke="#3c6777" stroke-width="2.2" marker-end="url(#arr)"/>
+<text x="569" y="238" text-anchor="start" font-size="16" fill="#15232c">架构能力采用的方法</text>
+<path d="M 108.0 327.0 L 424.0 327.0" fill="none" stroke="#3c6777" stroke-width="2.2" marker-end="url(#arr)"/>
+<path d="M 424.0 372.0 L 108.0 372.0" fill="none" stroke="#3c6777" stroke-width="2.2" marker-end="url(#arr)"/>
+<path d="M 692.0 372.0 L 1000.0 372.0" fill="none" stroke="#3c6777" stroke-width="2.2" marker-end="url(#arr)"/>
+<path d="M 424.0 580.0 L 108.0 580.0" fill="none" stroke="#3c6777" stroke-width="2.2" marker-end="url(#arr)"/>
+<path d="M 1000.0 580.0 L 692.0 580.0" fill="none" stroke="#3c6777" stroke-width="2.2" marker-end="url(#arr)"/>
+<text x="265" y="291" text-anchor="middle" font-size="15" fill="#15232c">业务需求被纳入架构开发方法之中，</text>
+<text x="265" y="311" text-anchor="middle" font-size="15" fill="#15232c">从而明确了需要解决的问题</text>
+<text x="265" y="395" text-anchor="middle" font-size="15" fill="#15232c">架构开发方法完善了</text>
+<text x="265" y="415" text-anchor="middle" font-size="15" fill="#15232c">对业务需求的理解</text>
+<text x="846" y="396" text-anchor="middle" font-size="15" fill="#15232c">架构开发方法产生了</text>
+<text x="846" y="416" text-anchor="middle" font-size="15" fill="#15232c">新的业务解决方案</text>
+<text x="265" y="456" text-anchor="middle" font-size="15" fill="#15232c">架构开发方法产生了存储在资源库中的</text>
+<text x="265" y="476" text-anchor="middle" font-size="15" fill="#15232c">各项内容，并通过架构连续体来进行分</text>
+<text x="265" y="496" text-anchor="middle" font-size="15" fill="#15232c">类组织</text>
+<text x="265" y="550" text-anchor="middle" font-size="15" fill="#15232c">企业连续体及资源库明</text>
+<text x="265" y="570" text-anchor="middle" font-size="15" fill="#15232c">晰了业务的当前状态</text>
+<text x="846" y="550" text-anchor="middle" font-size="15" fill="#15232c">运营方面的变化更新了</text>
+<text x="846" y="570" text-anchor="middle" font-size="15" fill="#15232c">企业连续体和资源库</text>
+<text x="846" y="463" text-anchor="middle" font-size="21" fill="#15232c">TOGAF架构开发方法</text>
+<text x="846" y="489" text-anchor="middle" font-size="21" fill="#15232c">及内容框架</text>
+</g>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 570 155" role="img" aria-labelledby="title desc">
+  <title id="title">图 12-5 多服务结构</title>
+  <desc id="desc">据教材电子底本重绘。两侧多层 C/S 应用之间以两条方向相反的消息箭头相连。</desc>
+  <style>
+    rect, ellipse, path, polygon { fill: white; stroke: #416573; stroke-width: 2; }
+    line { stroke: #416573; stroke-width: 2; }
+    text { font: 22px "Noto Sans CJK SC", "Microsoft YaHei", sans-serif; fill: #16272e; text-anchor: middle; }
+  </style>
+  <defs><marker id="tip" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" style="fill:#416573;stroke:none"/></marker></defs>
+  <rect x="12" y="34" width="146" height="82" rx="12"/>
+<text x="85.0" y="67.0">多层C/S</text>
+<text x="85.0" y="99.0">应用1</text>
+  <rect x="412" y="34" width="146" height="82" rx="12"/>
+<text x="485.0" y="67.0">多层C/S</text>
+<text x="485.0" y="99.0">应用2</text>
+  <line x1="411" y1="59" x2="159" y2="59" marker-end="url(#tip)"/>
+  <line x1="159" y1="92" x2="411" y2="92" marker-end="url(#tip)"/>
+  <text x="285" y="42">消息</text>
+  <text x="285" y="130">消息</text>
+</svg>

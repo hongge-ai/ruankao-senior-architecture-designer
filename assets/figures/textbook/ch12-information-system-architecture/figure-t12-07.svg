@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1296 1056" role="img" aria-labelledby="title desc">
+<title id="title">表 12-7 技术架构阶段活动的详细说明</title>
+<desc id="desc">入库教材 PDF 物理 433–434，合并跨页续表。两列两组，目标对应步骤，输入对应输出，保留项目从属。</desc>
+<g font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" fill="#15232c">
+<rect x="4" y="6" width="1288" height="49" fill="#edf4f8" stroke="none"/>
+<text x="289.5" y="38" text-anchor="middle" font-size="21" font-weight="bold" fill="#15232c">目标</text>
+<text x="933.5" y="38" text-anchor="middle" font-size="21" font-weight="bold" fill="#15232c">步骤</text>
+<line x1="4" y1="6" x2="1292" y2="6" stroke="#697883" stroke-width="1.5"/>
+<text x="20" y="146.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="146.0" text-anchor="start" font-size="18" fill="#15232c">开发一个目标技术架构，并以此作为后续的实施和迁移计划</text>
+<text x="40" y="173.0" text-anchor="start" font-size="18" fill="#15232c">的基础。</text>
+<text x="20" y="202.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="202.0" text-anchor="start" font-size="18" fill="#15232c">将应用架构中定义的各种应用组件映射为相应的技术组件，</text>
+<text x="40" y="229.0" text-anchor="start" font-size="18" fill="#15232c">这些技术组件代表了各种可以从市场或组织内部获得的软件</text>
+<text x="40" y="256.0" text-anchor="start" font-size="18" fill="#15232c">和硬件组件。</text>
+<text x="591" y="85.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="611" y="85.0" text-anchor="start" font-size="18" fill="#15232c">选择参考模型、视角和工具。</text>
+<text x="591" y="114.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="611" y="114.0" text-anchor="start" font-size="18" fill="#15232c">开发基线技术架构 1.0 版。</text>
+<text x="591" y="143.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="611" y="143.0" text-anchor="start" font-size="18" fill="#15232c">开发目标技术架构 1.0 版。</text>
+<text x="591" y="172.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="611" y="172.0" text-anchor="start" font-size="18" fill="#15232c">执行差距分析。</text>
+<text x="591" y="201.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="611" y="201.0" text-anchor="start" font-size="18" fill="#15232c">定义组件。</text>
+<text x="591" y="230.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="611" y="230.0" text-anchor="start" font-size="18" fill="#15232c">分析对整个架构的影响。</text>
+<text x="591" y="259.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="611" y="259.0" text-anchor="start" font-size="18" fill="#15232c">评审。</text>
+<text x="591" y="288.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="611" y="288.0" text-anchor="start" font-size="18" fill="#15232c">技术架构定稿。</text>
+<text x="591" y="317.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="611" y="317.0" text-anchor="start" font-size="18" fill="#15232c">完善架构定义文档。</text>
+<line x1="4" y1="55" x2="1292" y2="55" stroke="#697883" stroke-width="1.5"/>
+<rect x="4" y="354" width="1288" height="49" fill="#edf4f8" stroke="none"/>
+<text x="289.5" y="386" text-anchor="middle" font-size="21" font-weight="bold" fill="#15232c">输入</text>
+<text x="933.5" y="386" text-anchor="middle" font-size="21" font-weight="bold" fill="#15232c">输出</text>
+<line x1="4" y1="354" x2="1292" y2="354" stroke="#697883" stroke-width="1.5"/>
+<text x="20" y="433.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="433.0" text-anchor="start" font-size="18" fill="#15232c">架构工作要求书</text>
+<text x="20" y="462.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="462.0" text-anchor="start" font-size="18" fill="#15232c">能力评估</text>
+<text x="20" y="491.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="491.0" text-anchor="start" font-size="18" fill="#15232c">沟通计划</text>
+<text x="20" y="520.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="520.0" text-anchor="start" font-size="18" fill="#15232c">企业架构的组织模型</text>
+<text x="20" y="549.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="549.0" text-anchor="start" font-size="18" fill="#15232c">定制的架构框架</text>
+<text x="20" y="578.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="578.0" text-anchor="start" font-size="18" fill="#15232c">技术原则</text>
+<text x="20" y="607.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="607.0" text-anchor="start" font-size="18" fill="#15232c">架构工作说明书</text>
+<text x="20" y="636.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="636.0" text-anchor="start" font-size="18" fill="#15232c">架构资源库(4方面)。</text>
+<text x="20" y="665.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="665.0" text-anchor="start" font-size="18" fill="#15232c">架构定义文档草稿，包括：</text>
+<text x="47" y="694.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="67" y="694.0" text-anchor="start" font-size="18" fill="#15232c">基线业务架构 1.0 版</text>
+<text x="47" y="723.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="67" y="723.0" text-anchor="start" font-size="18" fill="#15232c">目标业务架构 1.0 版</text>
+<text x="47" y="752.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="67" y="752.0" text-anchor="start" font-size="18" fill="#15232c">基线数据架构 1.0 版</text>
+<text x="47" y="781.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="67" y="781.0" text-anchor="start" font-size="18" fill="#15232c">目标数据架构 1.0 版</text>
+<text x="47" y="810.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="67" y="810.0" text-anchor="start" font-size="18" fill="#15232c">基线应用架构 1.0 版</text>
+<text x="47" y="839.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="67" y="839.0" text-anchor="start" font-size="18" fill="#15232c">目标应用架构 1.0 版</text>
+<text x="47" y="868.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="67" y="868.0" text-anchor="start" font-size="18" fill="#15232c">基线技术架构 0.1 版</text>
+<text x="47" y="897.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="67" y="897.0" text-anchor="start" font-size="18" fill="#15232c">目标技术架构 0.1 版</text>
+<text x="20" y="926.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="926.0" text-anchor="start" font-size="18" fill="#15232c">架构需求说明书草稿，包括：</text>
+<text x="47" y="955.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="67" y="955.0" text-anchor="start" font-size="18" fill="#15232c">差距分析结果</text>
+<text x="47" y="984.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="67" y="984.0" text-anchor="start" font-size="18" fill="#15232c">来自于之前各阶段的相关技术需求</text>
+<text x="20" y="1013.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="1013.0" text-anchor="start" font-size="18" fill="#15232c">架构路线图的业务、数据和应用架构组件。</text>
+<text x="591" y="476.5" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="611" y="476.5" text-anchor="start" font-size="18" fill="#15232c">经过改善和更新的架构愿景阶段中的各交付物。</text>
+<text x="618" y="505.5" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="638" y="505.5" text-anchor="start" font-size="18" fill="#15232c">架构工作说明 (Update)。</text>
+<text x="618" y="534.5" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="638" y="534.5" text-anchor="start" font-size="18" fill="#15232c">经过验证的或新增的技术原则。</text>
+<text x="591" y="563.5" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="611" y="563.5" text-anchor="start" font-size="18" fill="#15232c">更新的架构定义文档。</text>
+<text x="618" y="592.5" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="638" y="592.5" text-anchor="start" font-size="18" fill="#15232c">基线技术架构 1.0 版。</text>
+<text x="618" y="621.5" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="638" y="621.5" text-anchor="start" font-size="18" fill="#15232c">目标技术架构1.0版</text>
+<text x="645" y="650.5" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="665" y="650.5" text-anchor="start" font-size="18" fill="#15232c">各技术组件以及它们与信息系统之间的关系。</text>
+<text x="645" y="679.5" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="665" y="679.5" text-anchor="start" font-size="18" fill="#15232c">各技术平台以及它的结构组成。</text>
+<text x="645" y="708.5" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="665" y="708.5" text-anchor="start" font-size="18" fill="#15232c">环境和位置。</text>
+<text x="645" y="737.5" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="665" y="737.5" text-anchor="start" font-size="18" fill="#15232c">期望的处理负荷以及技术组件间的负荷分布。</text>
+<text x="645" y="766.5" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="665" y="766.5" text-anchor="start" font-size="18" fill="#15232c">物理(网络)通信。</text>
+<text x="645" y="795.5" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="665" y="795.5" text-anchor="start" font-size="18" fill="#15232c">硬件及网络说明。</text>
+<text x="618" y="824.5" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="638" y="824.5" text-anchor="start" font-size="18" fill="#15232c">主要涉众关注的技术架构视图。</text>
+<text x="591" y="853.5" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="611" y="853.5" text-anchor="start" font-size="18" fill="#15232c">更新的架构需求说明书。</text>
+<text x="618" y="882.5" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="638" y="882.5" text-anchor="start" font-size="18" fill="#15232c">差距分析结果。</text>
+<text x="618" y="911.5" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="638" y="911.5" text-anchor="start" font-size="18" fill="#15232c">从业务架构和信息系统架构阶段输出的需求。</text>
+<text x="618" y="940.5" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="638" y="940.5" text-anchor="start" font-size="18" fill="#15232c">更新后的技术需求。</text>
+<text x="591" y="969.5" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="611" y="969.5" text-anchor="start" font-size="18" fill="#15232c">架构路线图的技术架构组件。</text>
+<line x1="4" y1="403" x2="1292" y2="403" stroke="#697883" stroke-width="1.5"/>
+<line x1="4" y1="1050" x2="1292" y2="1050" stroke="#697883" stroke-width="1.5"/>
+<line x1="575" y1="6" x2="575" y2="1050" stroke="#697883" stroke-width="1.5"/>
+</g>
+</svg>

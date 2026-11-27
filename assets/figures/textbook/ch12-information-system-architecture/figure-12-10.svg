@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 738" role="img" aria-labelledby="title desc">
+<title id="title">图 12-10 信息化建设生命周期</title>
+<desc id="desc">中心五阶段；外围十五项顺时针衔接，保留两处“审查”。</desc>
+<g font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" fill="#15232c">
+<defs><marker id="arr" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M 0 0 L 8 4 L 0 8 z" fill="#3c6777"/></marker></defs>
+<path d="M 417.1 88.9 L 455.0 97.0" fill="none" stroke="#3c6777" stroke-width="2.2" marker-end="url(#arr)"/>
+<path d="M 531.8 131.2 L 563.2 154.0" fill="none" stroke="#3c6777" stroke-width="2.2" marker-end="url(#arr)"/>
+<path d="M 619.4 216.5 L 638.8 250.1" fill="none" stroke="#3c6777" stroke-width="2.2" marker-end="url(#arr)"/>
+<path d="M 664.8 330.1 L 668.9 368.6" fill="none" stroke="#3c6777" stroke-width="2.2" marker-end="url(#arr)"/>
+<path d="M 660.1 452.3 L 648.1 489.1" fill="none" stroke="#3c6777" stroke-width="2.2" marker-end="url(#arr)"/>
+<path d="M 606.0 562.0 L 580.1 590.7" fill="none" stroke="#3c6777" stroke-width="2.2" marker-end="url(#arr)"/>
+<path d="M 512.1 640.2 L 476.7 656.0" fill="none" stroke="#3c6777" stroke-width="2.2" marker-end="url(#arr)"/>
+<path d="M 394.4 673.4 L 355.6 673.4" fill="none" stroke="#3c6777" stroke-width="2.2" marker-end="url(#arr)"/>
+<path d="M 273.3 656.0 L 237.9 640.2" fill="none" stroke="#3c6777" stroke-width="2.2" marker-end="url(#arr)"/>
+<path d="M 169.9 590.7 L 144.0 562.0" fill="none" stroke="#3c6777" stroke-width="2.2" marker-end="url(#arr)"/>
+<path d="M 101.9 489.1 L 89.9 452.3" fill="none" stroke="#3c6777" stroke-width="2.2" marker-end="url(#arr)"/>
+<path d="M 81.1 368.6 L 85.2 330.1" fill="none" stroke="#3c6777" stroke-width="2.2" marker-end="url(#arr)"/>
+<path d="M 111.2 250.1 L 130.6 216.5" fill="none" stroke="#3c6777" stroke-width="2.2" marker-end="url(#arr)"/>
+<path d="M 186.8 154.0 L 218.2 131.2" fill="none" stroke="#3c6777" stroke-width="2.2" marker-end="url(#arr)"/>
+<path d="M 295.0 97.0 L 332.9 88.9" fill="none" stroke="#3c6777" stroke-width="2.2" marker-end="url(#arr)"/>
+<circle cx="375.0" cy="80.0" r="42" fill="#edf7f9" stroke="#548696" stroke-width="2"/>
+<text x="375.0" y="77.0" text-anchor="middle" font-size="19" fill="#15232c">开发</text>
+<text x="375.0" y="101.0" text-anchor="middle" font-size="19" fill="#15232c">请求</text>
+<circle cx="497.0" cy="105.9" r="42" fill="#edf7f9" stroke="#548696" stroke-width="2"/>
+<text x="497.02099292274005" y="102.93636270721976" text-anchor="middle" font-size="19" fill="#15232c">初步</text>
+<text x="497.02099292274005" y="126.93636270721976" text-anchor="middle" font-size="19" fill="#15232c">调查</text>
+<circle cx="597.9" cy="179.3" r="42" fill="#edf7f9" stroke="#548696" stroke-width="2"/>
+<text x="597.9434476432183" y="176.26081809234253" text-anchor="middle" font-size="19" fill="#15232c">可行性</text>
+<text x="597.9434476432183" y="200.26081809234253" text-anchor="middle" font-size="19" fill="#15232c">研究</text>
+<circle cx="660.3" cy="287.3" r="42" fill="#edf7f9" stroke="#548696" stroke-width="2"/>
+<text x="660.316954888546" y="294.2949016875158" text-anchor="middle" font-size="19" fill="#15232c">审批</text>
+<circle cx="673.4" cy="411.4" r="42" fill="#edf7f9" stroke="#548696" stroke-width="2"/>
+<text x="673.356568610482" y="408.35853898029603" text-anchor="middle" font-size="19" fill="#15232c">详细</text>
+<text x="673.356568610482" y="432.35853898029603" text-anchor="middle" font-size="19" fill="#15232c">调查</text>
+<circle cx="634.8" cy="530.0" r="42" fill="#edf7f9" stroke="#548696" stroke-width="2"/>
+<text x="634.8076211353316" y="527.0" text-anchor="middle" font-size="19" fill="#15232c">逻辑</text>
+<text x="634.8076211353316" y="551.0" text-anchor="middle" font-size="19" fill="#15232c">设计</text>
+<circle cx="551.3" cy="622.7" r="42" fill="#edf7f9" stroke="#548696" stroke-width="2"/>
+<text x="551.335575687742" y="629.7050983124842" text-anchor="middle" font-size="19" fill="#15232c">审查</text>
+<circle cx="437.4" cy="673.4" r="42" fill="#edf7f9" stroke="#548696" stroke-width="2"/>
+<text x="437.3735072453278" y="670.4442802201418" text-anchor="middle" font-size="19" fill="#15232c">总体</text>
+<text x="437.3735072453278" y="694.4442802201418" text-anchor="middle" font-size="19" fill="#15232c">设计</text>
+<circle cx="312.6" cy="673.4" r="42" fill="#edf7f9" stroke="#548696" stroke-width="2"/>
+<text x="312.62649275467226" y="670.4442802201418" text-anchor="middle" font-size="19" fill="#15232c">详细</text>
+<text x="312.62649275467226" y="694.4442802201418" text-anchor="middle" font-size="19" fill="#15232c">设计</text>
+<circle cx="198.7" cy="622.7" r="42" fill="#edf7f9" stroke="#548696" stroke-width="2"/>
+<text x="198.6644243122581" y="629.7050983124842" text-anchor="middle" font-size="19" fill="#15232c">审查</text>
+<circle cx="115.2" cy="530.0" r="42" fill="#edf7f9" stroke="#548696" stroke-width="2"/>
+<text x="115.19237886466846" y="527.0000000000001" text-anchor="middle" font-size="19" fill="#15232c">编程</text>
+<text x="115.19237886466846" y="551.0000000000001" text-anchor="middle" font-size="19" fill="#15232c">调试</text>
+<circle cx="76.6" cy="411.4" r="42" fill="#edf7f9" stroke="#548696" stroke-width="2"/>
+<text x="76.64343138951801" y="408.35853898029626" text-anchor="middle" font-size="19" fill="#15232c">系统</text>
+<text x="76.64343138951801" y="432.35853898029626" text-anchor="middle" font-size="19" fill="#15232c">转换</text>
+<circle cx="89.7" cy="287.3" r="42" fill="#edf7f9" stroke="#548696" stroke-width="2"/>
+<text x="89.68304511145391" y="294.2949016875158" text-anchor="middle" font-size="19" fill="#15232c">验收</text>
+<circle cx="152.1" cy="179.3" r="42" fill="#edf7f9" stroke="#548696" stroke-width="2"/>
+<text x="152.05655235678182" y="176.26081809234242" text-anchor="middle" font-size="19" fill="#15232c">系统</text>
+<text x="152.05655235678182" y="200.26081809234242" text-anchor="middle" font-size="19" fill="#15232c">维护</text>
+<circle cx="253.0" cy="105.9" r="42" fill="#edf7f9" stroke="#548696" stroke-width="2"/>
+<text x="252.97900707725995" y="102.9363627072197" text-anchor="middle" font-size="19" fill="#15232c">系统</text>
+<text x="252.97900707725995" y="126.9363627072197" text-anchor="middle" font-size="19" fill="#15232c">评价</text>
+<circle cx="375.0" cy="380.0" r="145" fill="#b5e2ee" stroke="#548696" stroke-width="2"/>
+<rect x="217" y="274" width="106" height="36" fill="#f7fbfb" stroke="#789aa1"/>
+<text x="270" y="299" text-anchor="middle" font-size="21" fill="#15232c">运行维护</text>
+<rect x="418" y="288" width="106" height="36" fill="#f7fbfb" stroke="#789aa1"/>
+<text x="471" y="313" text-anchor="middle" font-size="21" fill="#15232c">系统规划</text>
+<rect x="447" y="417" width="106" height="36" fill="#f7fbfb" stroke="#789aa1"/>
+<text x="500" y="442" text-anchor="middle" font-size="21" fill="#15232c">系统分析</text>
+<rect x="322" y="505" width="106" height="36" fill="#f7fbfb" stroke="#789aa1"/>
+<text x="375" y="530" text-anchor="middle" font-size="21" fill="#15232c">系统设计</text>
+<rect x="201" y="406" width="106" height="36" fill="#f7fbfb" stroke="#789aa1"/>
+<text x="254" y="431" text-anchor="middle" font-size="21" fill="#15232c">系统实施</text>
+</g>
+</svg>

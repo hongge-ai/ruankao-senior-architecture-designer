@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1300 1070" width="1300" height="1070" role="img" aria-labelledby="title desc">
+<title id="title">参考体系结构</title>
+<desc id="desc">教材图12-12，物理450页。应用、Web服务下层架构、传输三层，左右为发送者和接收者；两侧适配器按图均写发送适配器。</desc>
+<defs><marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto-start-reverse" markerUnits="strokeWidth"><path d="M0 0L7 3.5L0 7Z" fill="#40708a"/></marker></defs>
+<g font-family="Noto Sans CJK SC, Noto Sans, sans-serif" fill="#152838">
+<rect x="217" y="32" width="1007" height="623" rx="26" fill="white" stroke="#7898a3" stroke-width="2"/>
+<rect x="235" y="65" width="356" height="559" rx="37" fill="white" stroke="#7898a3" stroke-width="2"/>
+<text x="413" y="104" font-size="35" text-anchor="middle">发送者</text>
+<rect x="327" y="115" width="173" height="109" rx="27" fill="white" stroke="#7898a3" stroke-width="2"/>
+<text x="413" y="180" font-size="33" text-anchor="middle">业务逻辑</text>
+<rect x="327" y="259" width="173" height="110" rx="0" fill="white" stroke="#7898a3" stroke-width="2"/>
+<text x="413" y="302" font-size="31" text-anchor="middle">HL7</text>
+<text x="413" y="342" font-size="31" text-anchor="middle">MSG</text>
+<rect x="265" y="405" width="296" height="197" rx="35" fill="white" stroke="#7898a3" stroke-width="2"/>
+<text x="413" y="454" font-size="33" text-anchor="middle">发送适配器</text>
+<rect x="321" y="476" width="188" height="106" rx="30" fill="white" stroke="#7898a3" stroke-width="2"/>
+<text x="413" y="520" font-size="32" text-anchor="middle">Web代理</text>
+<text x="413" y="559" font-size="32" text-anchor="middle">服务器</text>
+<path d="M413 224V255" fill="none" stroke="#527989" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M413 370V400" fill="none" stroke="#527989" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="838" y="65" width="356" height="559" rx="37" fill="white" stroke="#7898a3" stroke-width="2"/>
+<text x="1016" y="104" font-size="35" text-anchor="middle">接收者</text>
+<rect x="930" y="115" width="173" height="109" rx="27" fill="white" stroke="#7898a3" stroke-width="2"/>
+<text x="1016" y="180" font-size="33" text-anchor="middle">业务逻辑</text>
+<rect x="930" y="259" width="173" height="110" rx="0" fill="white" stroke="#7898a3" stroke-width="2"/>
+<text x="1016" y="302" font-size="31" text-anchor="middle">HL7</text>
+<text x="1016" y="342" font-size="31" text-anchor="middle">MSG</text>
+<rect x="868" y="405" width="296" height="197" rx="35" fill="white" stroke="#7898a3" stroke-width="2"/>
+<text x="1016" y="454" font-size="33" text-anchor="middle">发送适配器</text>
+<rect x="924" y="476" width="188" height="106" rx="30" fill="white" stroke="#7898a3" stroke-width="2"/>
+<text x="1016" y="520" font-size="32" text-anchor="middle">Web代理</text>
+<text x="1016" y="559" font-size="32" text-anchor="middle">分支</text>
+<path d="M1016 224V255" fill="none" stroke="#527989" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M1016 370V400" fill="none" stroke="#527989" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="626" y="127" width="176" height="111" rx="0" fill="white" stroke="#7898a3" stroke-width="2"/>
+<text x="714" y="167" font-size="29" text-anchor="middle">HL7</text>
+<text x="714" y="208" font-size="29" text-anchor="middle">Message</text>
+<path d="M501 168h29v15h95" fill="none" stroke="#527989" stroke-width="2" stroke-dasharray="7 5"/>
+<path d="M802 182h36v-15h85" fill="none" stroke="#527989" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="217" y="693" width="1007" height="93" rx="28" fill="white" stroke="#7898a3" stroke-width="2"/>
+<text x="715" y="747" font-size="31" text-anchor="middle">WSE</text>
+<rect x="217" y="952" width="1007" height="94" rx="28" fill="white" stroke="#7898a3" stroke-width="2"/>
+<text x="716" y="1001" font-size="31" text-anchor="middle">HTTP,HTTPS,TCP……</text>
+<rect x="331" y="824" width="166" height="92" rx="0" fill="white" stroke="#7898a3" stroke-width="2"/>
+<text x="415" y="856" font-size="29" text-anchor="middle">SOAP</text>
+<text x="415" y="896" font-size="29" text-anchor="middle">MSG</text>
+<rect x="932" y="824" width="166" height="92" rx="0" fill="white" stroke="#7898a3" stroke-width="2"/>
+<text x="1016" y="856" font-size="29" text-anchor="middle">SOAP</text>
+<text x="1016" y="896" font-size="29" text-anchor="middle">MSG</text>
+<path d="M413 624V689" fill="none" stroke="#527989" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M413 787V820" fill="none" stroke="#527989" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M413 917V948" fill="none" stroke="#527989" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M1016 952V921" fill="none" stroke="#527989" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M1016 824V791" fill="none" stroke="#527989" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M1016 693V629" fill="none" stroke="#527989" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="115" y="362" font-size="36" text-anchor="middle">应用</text>
+<text x="116" y="734" font-size="33" text-anchor="middle">Web服务</text>
+<text x="116" y="774" font-size="33" text-anchor="middle">下层架构</text>
+<text x="116" y="1014" font-size="35" text-anchor="middle">传输</text>
+</g>
+</svg>

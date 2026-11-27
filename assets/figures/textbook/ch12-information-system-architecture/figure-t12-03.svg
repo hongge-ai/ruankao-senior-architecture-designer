@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1296 1197" role="img" aria-labelledby="title desc">
+<title id="title">表 12-3 架构愿景阶段活动的详细说明</title>
+<desc id="desc">入库教材 PDF 物理 429–430，合并跨页续表。两列两组，目标对应步骤，输入对应输出，保留项目从属。</desc>
+<g font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" fill="#15232c">
+<rect x="4" y="6" width="1288" height="49" fill="#edf4f8" stroke="none"/>
+<text x="331.0" y="38" text-anchor="middle" font-size="21" font-weight="bold" fill="#15232c">目标</text>
+<text x="975.0" y="38" text-anchor="middle" font-size="21" font-weight="bold" fill="#15232c">步骤</text>
+<line x1="4" y1="6" x2="1292" y2="6" stroke="#697883" stroke-width="1.5"/>
+<text x="20" y="85.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="85.0" text-anchor="start" font-size="18" fill="#15232c">获取管理层对这次特定的 ADM 循环的相关承诺。</text>
+<text x="20" y="114.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="114.0" text-anchor="start" font-size="18" fill="#15232c">制订一个架构开发周期。</text>
+<text x="20" y="143.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="143.0" text-anchor="start" font-size="18" fill="#15232c">确认业务原则、业务目标、驱动力和 KPI(key performance</text>
+<text x="40" y="170.0" text-anchor="start" font-size="18" fill="#15232c">indicators)。</text>
+<text x="20" y="199.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="199.0" text-anchor="start" font-size="18" fill="#15232c">定义基线架构的范围，明确其所包含的组件以及组件的优先级。</text>
+<text x="20" y="228.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="228.0" text-anchor="start" font-size="18" fill="#15232c">确认相关干系人、他们的关注点和目标。</text>
+<text x="20" y="257.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="257.0" text-anchor="start" font-size="18" fill="#15232c">定义架构工作所要解决的关键业务需求，以及必须应对的各项约束。</text>
+<text x="20" y="286.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="286.0" text-anchor="start" font-size="18" fill="#15232c">阐明架构愿景，并定制价值主张，这些价值主张被用来阐述对于那些需</text>
+<text x="40" y="313.0" text-anchor="start" font-size="18" fill="#15232c">求和约束的回应。</text>
+<text x="20" y="342.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="342.0" text-anchor="start" font-size="18" fill="#15232c">创建一个符合企业项目管理框架要求的综合计划。</text>
+<text x="20" y="371.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="371.0" text-anchor="start" font-size="18" fill="#15232c">取得继续下一个步骤工作的正式批准。</text>
+<text x="20" y="400.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="400.0" text-anchor="start" font-size="18" fill="#15232c">理解与其他并行的企业架构开发循环之间的相互影响。</text>
+<text x="674" y="97.5" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="694" y="97.5" text-anchor="start" font-size="18" fill="#15232c">成立架构项目。</text>
+<text x="674" y="126.5" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="694" y="126.5" text-anchor="start" font-size="18" fill="#15232c">识别干系人、关注点和业务需求。</text>
+<text x="674" y="155.5" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="694" y="155.5" text-anchor="start" font-size="18" fill="#15232c">确定并阐述业务目标、驱动力和约束。</text>
+<text x="674" y="184.5" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="694" y="184.5" text-anchor="start" font-size="18" fill="#15232c">评估业务能力。</text>
+<text x="674" y="213.5" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="694" y="213.5" text-anchor="start" font-size="18" fill="#15232c">评估业务转型的准备情况。</text>
+<text x="674" y="242.5" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="694" y="242.5" text-anchor="start" font-size="18" fill="#15232c">定义范围。</text>
+<text x="674" y="271.5" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="694" y="271.5" text-anchor="start" font-size="18" fill="#15232c">确认并阐述架构原则，包括业务原则。</text>
+<text x="674" y="300.5" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="694" y="300.5" text-anchor="start" font-size="18" fill="#15232c">开发架构愿景。</text>
+<text x="674" y="329.5" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="694" y="329.5" text-anchor="start" font-size="18" fill="#15232c">定义目标架构的价值主张和 KPI。</text>
+<text x="674" y="358.5" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="694" y="358.5" text-anchor="start" font-size="18" fill="#15232c">识别业务转型风险和应对措施。</text>
+<text x="674" y="387.5" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="694" y="387.5" text-anchor="start" font-size="18" fill="#15232c">开发企业架构计划和架构工作说明书，并确保被批准。</text>
+<line x1="4" y1="55" x2="1292" y2="55" stroke="#697883" stroke-width="1.5"/>
+<rect x="4" y="437" width="1288" height="49" fill="#edf4f8" stroke="none"/>
+<text x="331.0" y="469" text-anchor="middle" font-size="21" font-weight="bold" fill="#15232c">输入</text>
+<text x="975.0" y="469" text-anchor="middle" font-size="21" font-weight="bold" fill="#15232c">输出</text>
+<line x1="4" y1="437" x2="1292" y2="437" stroke="#697883" stroke-width="1.5"/>
+<text x="20" y="736.5" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="736.5" text-anchor="start" font-size="18" fill="#15232c">架构工作要求书。</text>
+<text x="20" y="765.5" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="765.5" text-anchor="start" font-size="18" fill="#15232c">业务原则、业务目标和驱动力。</text>
+<text x="20" y="794.5" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="794.5" text-anchor="start" font-size="18" fill="#15232c">企业架构的组织模型，包括受影响的组织范围、成熟度评测、差距及解</text>
+<text x="40" y="821.5" text-anchor="start" font-size="18" fill="#15232c">决办法、架构团队所担当的角色和职责。</text>
+<text x="20" y="850.5" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="850.5" text-anchor="start" font-size="18" fill="#15232c">定制的架构框架，包括定制的架构方法、架构内容、架构原则和配置部</text>
+<text x="40" y="877.5" text-anchor="start" font-size="18" fill="#15232c">署工具。</text>
+<text x="20" y="906.5" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="906.5" text-anchor="start" font-size="18" fill="#15232c">初具内容的架构资源库(包含初始的框架说明、架构描述和基线描述内</text>
+<text x="40" y="933.5" text-anchor="start" font-size="18" fill="#15232c">容)。</text>
+<text x="674" y="516.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="694" y="516.0" text-anchor="start" font-size="18" fill="#15232c">得到批准的架构工作说明书。</text>
+<text x="701" y="545.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="721" y="545.0" text-anchor="start" font-size="18" fill="#15232c">范围和约束。</text>
+<text x="701" y="574.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="721" y="574.0" text-anchor="start" font-size="18" fill="#15232c">架构工作计划。</text>
+<text x="701" y="603.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="721" y="603.0" text-anchor="start" font-size="18" fill="#15232c">角色和职责。</text>
+<text x="701" y="632.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="721" y="632.0" text-anchor="start" font-size="18" fill="#15232c">风险与应对措施。</text>
+<text x="701" y="661.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="721" y="661.0" text-anchor="start" font-size="18" fill="#15232c">工作产品效能评测。</text>
+<text x="701" y="690.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="721" y="690.0" text-anchor="start" font-size="18" fill="#15232c">业务案例与 KPI 指标。</text>
+<text x="674" y="719.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="694" y="719.0" text-anchor="start" font-size="18" fill="#15232c">改善的业务原则、业务目标和驱动力说明。</text>
+<text x="674" y="748.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="694" y="748.0" text-anchor="start" font-size="18" fill="#15232c">架构原则。</text>
+<text x="674" y="777.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="694" y="777.0" text-anchor="start" font-size="18" fill="#15232c">能力评估。</text>
+<text x="674" y="806.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="694" y="806.0" text-anchor="start" font-size="18" fill="#15232c">定制的架构框架(方法、内容、工具)。</text>
+<text x="674" y="835.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="694" y="835.0" text-anchor="start" font-size="18" fill="#15232c">架构愿景。</text>
+<text x="701" y="864.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="721" y="864.0" text-anchor="start" font-size="18" fill="#15232c">改善的关键高层次干系人的需求。</text>
+<text x="701" y="893.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="721" y="893.0" text-anchor="start" font-size="18" fill="#15232c">基线业务架构 0.1 版。</text>
+<text x="701" y="922.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="721" y="922.0" text-anchor="start" font-size="18" fill="#15232c">基线数据架构 0.1 版。</text>
+<text x="701" y="951.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="721" y="951.0" text-anchor="start" font-size="18" fill="#15232c">基线应用架构 0.1 版。</text>
+<text x="701" y="980.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="721" y="980.0" text-anchor="start" font-size="18" fill="#15232c">基线技术架构 0.1 版。</text>
+<text x="701" y="1009.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="721" y="1009.0" text-anchor="start" font-size="18" fill="#15232c">目标业务架构 0.1 版。</text>
+<text x="701" y="1038.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="721" y="1038.0" text-anchor="start" font-size="18" fill="#15232c">目标应用架构 0.1 版。</text>
+<text x="701" y="1067.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="721" y="1067.0" text-anchor="start" font-size="18" fill="#15232c">目标数据架构 0.1 版。</text>
+<text x="701" y="1096.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="721" y="1096.0" text-anchor="start" font-size="18" fill="#15232c">目标技术架构 0.1 版。</text>
+<text x="674" y="1125.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="694" y="1125.0" text-anchor="start" font-size="18" fill="#15232c">沟通计划。</text>
+<text x="674" y="1154.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="694" y="1154.0" text-anchor="start" font-size="18" fill="#15232c">纳入到架构资源库中的新增内容。</text>
+<line x1="4" y1="486" x2="1292" y2="486" stroke="#697883" stroke-width="1.5"/>
+<line x1="4" y1="1191" x2="1292" y2="1191" stroke="#697883" stroke-width="1.5"/>
+<line x1="658" y1="6" x2="658" y2="1191" stroke="#697883" stroke-width="1.5"/>
+</g>
+</svg>

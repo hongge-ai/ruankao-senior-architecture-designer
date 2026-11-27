@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1296 1172" role="img" aria-labelledby="title desc">
+<title id="title">表 12-5 信息系统架构设计阶段活动的详细说明(数据架构)</title>
+<desc id="desc">入库教材 PDF 物理 431–432，合并跨页续表。两列两组，目标对应步骤，输入对应输出，保留项目从属。</desc>
+<g font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" fill="#15232c">
+<rect x="4" y="6" width="1288" height="49" fill="#edf4f8" stroke="none"/>
+<text x="297.0" y="38" text-anchor="middle" font-size="21" font-weight="bold" fill="#15232c">目标</text>
+<text x="941.0" y="38" text-anchor="middle" font-size="21" font-weight="bold" fill="#15232c">步骤</text>
+<line x1="4" y1="6" x2="1292" y2="6" stroke="#697883" stroke-width="1.5"/>
+<text x="18" y="201.0" text-anchor="start" font-size="18" fill="#15232c">定义业务运行所需的数据源和数据类型。</text>
+<text x="606" y="85.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="626" y="85.0" text-anchor="start" font-size="18" fill="#15232c">选择参考模型、视角和工具。</text>
+<text x="606" y="114.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="626" y="114.0" text-anchor="start" font-size="18" fill="#15232c">开发基线数据架构 1.0 版。</text>
+<text x="606" y="143.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="626" y="143.0" text-anchor="start" font-size="18" fill="#15232c">开发目标数据架构 1.0 版。</text>
+<text x="606" y="172.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="626" y="172.0" text-anchor="start" font-size="18" fill="#15232c">执行差距分析。</text>
+<text x="606" y="201.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="626" y="201.0" text-anchor="start" font-size="18" fill="#15232c">定义组件。</text>
+<text x="606" y="230.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="626" y="230.0" text-anchor="start" font-size="18" fill="#15232c">分析对整个架构的影响。</text>
+<text x="606" y="259.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="626" y="259.0" text-anchor="start" font-size="18" fill="#15232c">评审；</text>
+<text x="606" y="288.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="626" y="288.0" text-anchor="start" font-size="18" fill="#15232c">确定最终的数据架构；</text>
+<text x="606" y="317.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="626" y="317.0" text-anchor="start" font-size="18" fill="#15232c">完善架构定义文档</text>
+<line x1="4" y1="55" x2="1292" y2="55" stroke="#697883" stroke-width="1.5"/>
+<rect x="4" y="354" width="1288" height="49" fill="#edf4f8" stroke="none"/>
+<text x="297.0" y="386" text-anchor="middle" font-size="21" font-weight="bold" fill="#15232c">输入</text>
+<text x="941.0" y="386" text-anchor="middle" font-size="21" font-weight="bold" fill="#15232c">输出</text>
+<line x1="4" y1="354" x2="1292" y2="354" stroke="#697883" stroke-width="1.5"/>
+<text x="20" y="433.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="433.0" text-anchor="start" font-size="18" fill="#15232c">架构工作要求书。</text>
+<text x="20" y="462.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="462.0" text-anchor="start" font-size="18" fill="#15232c">能力评估。</text>
+<text x="20" y="491.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="491.0" text-anchor="start" font-size="18" fill="#15232c">沟通计划。</text>
+<text x="20" y="520.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="520.0" text-anchor="start" font-size="18" fill="#15232c">企业架构的组织模型。</text>
+<text x="20" y="549.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="549.0" text-anchor="start" font-size="18" fill="#15232c">定制的架构框架。</text>
+<text x="20" y="578.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="578.0" text-anchor="start" font-size="18" fill="#15232c">数据原则(如果有的话)。</text>
+<text x="20" y="607.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="607.0" text-anchor="start" font-size="18" fill="#15232c">架构工作说明书。</text>
+<text x="20" y="636.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="636.0" text-anchor="start" font-size="18" fill="#15232c">架构资源库：</text>
+<text x="47" y="665.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="67" y="665.0" text-anchor="start" font-size="18" fill="#15232c">可重用的构件块</text>
+<text x="47" y="694.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="67" y="694.0" text-anchor="start" font-size="18" fill="#15232c">公开可得的参考模型</text>
+<text x="47" y="723.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="67" y="723.0" text-anchor="start" font-size="18" fill="#15232c">组织特定的参考模型</text>
+<text x="47" y="752.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="67" y="752.0" text-anchor="start" font-size="18" fill="#15232c">组织标准</text>
+<text x="20" y="781.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="781.0" text-anchor="start" font-size="18" fill="#15232c">架构定义文档草稿，包括：</text>
+<text x="47" y="810.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="67" y="810.0" text-anchor="start" font-size="18" fill="#15232c">基线业务架构1.0版</text>
+<text x="47" y="839.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="67" y="839.0" text-anchor="start" font-size="18" fill="#15232c">目标业务架构1.0版</text>
+<text x="47" y="868.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="67" y="868.0" text-anchor="start" font-size="18" fill="#15232c">基线数据架构0.1版</text>
+<text x="47" y="897.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="67" y="897.0" text-anchor="start" font-size="18" fill="#15232c">目标数据架构0.1版</text>
+<text x="47" y="926.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="67" y="926.0" text-anchor="start" font-size="18" fill="#15232c">基线应用架构（0.1或1.0版）</text>
+<text x="47" y="955.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="67" y="955.0" text-anchor="start" font-size="18" fill="#15232c">目标应用架构（0.1或1.0版）</text>
+<text x="47" y="984.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="67" y="984.0" text-anchor="start" font-size="18" fill="#15232c">基线技术架构（0.1版）</text>
+<text x="47" y="1013.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="67" y="1013.0" text-anchor="start" font-size="18" fill="#15232c">目标技术架构（0.1版）</text>
+<text x="20" y="1042.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="1042.0" text-anchor="start" font-size="18" fill="#15232c">架构需求说明书草稿，包括：</text>
+<text x="47" y="1071.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="67" y="1071.0" text-anchor="start" font-size="18" fill="#15232c">差距分析结果</text>
+<text x="47" y="1100.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="67" y="1100.0" text-anchor="start" font-size="18" fill="#15232c">适用于此阶段的相关技术需求</text>
+<text x="20" y="1129.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="1129.0" text-anchor="start" font-size="18" fill="#15232c">在架构路线图中的业务架构组件</text>
+<text x="606" y="520.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="626" y="520.0" text-anchor="start" font-size="18" fill="#15232c">经过改善或更新的架构愿景阶段中的各交付物。</text>
+<text x="633" y="549.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="653" y="549.0" text-anchor="start" font-size="18" fill="#15232c">架构工作说明(Update)。</text>
+<text x="633" y="578.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="653" y="578.0" text-anchor="start" font-size="18" fill="#15232c">经过验证的数据原则或新增的数据原则。</text>
+<text x="606" y="607.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="626" y="607.0" text-anchor="start" font-size="18" fill="#15232c">更新的架构定义文档草稿。</text>
+<text x="633" y="636.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="653" y="636.0" text-anchor="start" font-size="18" fill="#15232c">基线数据架构 1.0 版。</text>
+<text x="633" y="665.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="653" y="665.0" text-anchor="start" font-size="18" fill="#15232c">目标数据架构 1.0 版。</text>
+<text x="660" y="694.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="680" y="694.0" text-anchor="start" font-size="18" fill="#15232c">业务数据模型</text>
+<text x="660" y="723.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="680" y="723.0" text-anchor="start" font-size="18" fill="#15232c">逻辑数据模型</text>
+<text x="660" y="752.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="680" y="752.0" text-anchor="start" font-size="18" fill="#15232c">数据管理流程模型</text>
+<text x="660" y="781.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="680" y="781.0" text-anchor="start" font-size="18" fill="#15232c">数据实体/业务功能矩阵</text>
+<text x="633" y="810.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="653" y="810.0" text-anchor="start" font-size="18" fill="#15232c">主要涉众关注的数据架构视图。</text>
+<text x="606" y="839.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="626" y="839.0" text-anchor="start" font-size="18" fill="#15232c">更新的架构需求说明书。</text>
+<text x="633" y="868.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="653" y="868.0" text-anchor="start" font-size="18" fill="#15232c">差距分析结果</text>
+<text x="633" y="897.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="653" y="897.0" text-anchor="start" font-size="18" fill="#15232c">数据集成需求</text>
+<text x="633" y="926.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="653" y="926.0" text-anchor="start" font-size="18" fill="#15232c">适用于当前阶段的相关技术需求</text>
+<text x="633" y="955.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="653" y="955.0" text-anchor="start" font-size="18" fill="#15232c">对于下一步将要设计的技术架构的约束</text>
+<text x="633" y="984.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="653" y="984.0" text-anchor="start" font-size="18" fill="#15232c">更新的业务需求</text>
+<text x="633" y="1013.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="653" y="1013.0" text-anchor="start" font-size="18" fill="#15232c">更新的应用需求</text>
+<text x="606" y="1042.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="626" y="1042.0" text-anchor="start" font-size="18" fill="#15232c">架构路线图中的数据架构组件。</text>
+<line x1="4" y1="403" x2="1292" y2="403" stroke="#697883" stroke-width="1.5"/>
+<line x1="4" y1="1166" x2="1292" y2="1166" stroke="#697883" stroke-width="1.5"/>
+<line x1="590" y1="6" x2="590" y2="1166" stroke="#697883" stroke-width="1.5"/>
+</g>
+</svg>

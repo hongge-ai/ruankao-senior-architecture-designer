@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1296 1059" role="img" aria-labelledby="title desc">
+<title id="title">表 12-1 ADM架构设计方法各阶段主要活动</title>
+<desc id="desc">入库教材 PDF 物理 427–428，合并跨页续表。两列，保留各阶段共用活动单元格。</desc>
+<g font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" fill="#15232c">
+<rect x="4" y="6" width="1288" height="49" fill="#edf4f8" stroke="none"/>
+<text x="159.5" y="38" text-anchor="middle" font-size="21" font-weight="bold" fill="#15232c">ADM阶段</text>
+<text x="803.5" y="38" text-anchor="middle" font-size="21" font-weight="bold" fill="#15232c">ADM阶段内的活动</text>
+<line x1="4" y1="6" x2="1292" y2="6" stroke="#697883" stroke-width="1.5"/>
+<text x="18" y="85.0" text-anchor="start" font-size="18" fill="#15232c">准备阶段</text>
+<text x="329" y="85.0" text-anchor="start" font-size="18" fill="#15232c">为实施成功的企业架构项目做好准备，包括定义组织机构、特定的架构框架、架构原则和工具</text>
+<line x1="4" y1="55" x2="1292" y2="55" stroke="#697883" stroke-width="1.5"/>
+<text x="18" y="165.5" text-anchor="start" font-size="18" fill="#15232c">需求管理</text>
+<text x="329" y="152.0" text-anchor="start" font-size="18" fill="#15232c">完成需求的识别、保管和交付，相关联的ADM阶段则按优先级顺序对需求进行处理。TOGAF 项目的每个阶段，</text>
+<text x="329" y="179.0" text-anchor="start" font-size="18" fill="#15232c">都是建立在业务需求之上并且需要对需求进行确认</text>
+<line x1="4" y1="122" x2="1292" y2="122" stroke="#697883" stroke-width="1.5"/>
+<text x="18" y="304.0" text-anchor="start" font-size="18" fill="#15232c">阶段A：架构愿景</text>
+<text x="329" y="246.0" text-anchor="start" font-size="18" fill="#15232c">设置TOGAF项目的范围、约束和期望。创建架构愿景，包括：</text>
+<text x="331" y="275.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="351" y="275.0" text-anchor="start" font-size="18" fill="#15232c">定义利益相关者；</text>
+<text x="331" y="304.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="351" y="304.0" text-anchor="start" font-size="18" fill="#15232c">确认业务上下文环境；</text>
+<text x="331" y="333.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="351" y="333.0" text-anchor="start" font-size="18" fill="#15232c">创建架构工作说明书；</text>
+<text x="331" y="362.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="351" y="362.0" text-anchor="start" font-size="18" fill="#15232c">取得上级批准</text>
+<line x1="4" y1="216" x2="1292" y2="216" stroke="#697883" stroke-width="1.5"/>
+<text x="18" y="430.0" text-anchor="start" font-size="18" fill="#15232c">阶段B：业务架构</text>
+<text x="18" y="459.0" text-anchor="start" font-size="18" fill="#15232c">阶段C：信息系统架构(应用&amp;数</text>
+<text x="18" y="486.0" text-anchor="start" font-size="18" fill="#15232c">据)</text>
+<text x="18" y="515.0" text-anchor="start" font-size="18" fill="#15232c">阶段D：技术架构</text>
+<text x="329" y="429.0" text-anchor="start" font-size="18" fill="#15232c">从业务、信息系统和技术三个层面进行架构开发，在每一个层面分别完成以下活动：</text>
+<text x="331" y="458.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="351" y="458.0" text-anchor="start" font-size="18" fill="#15232c">开发基线架构描述；</text>
+<text x="331" y="487.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="351" y="487.0" text-anchor="start" font-size="18" fill="#15232c">开发目标架构描述；</text>
+<text x="331" y="516.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="351" y="516.0" text-anchor="start" font-size="18" fill="#15232c">执行差距分析</text>
+<line x1="4" y1="399" x2="1292" y2="399" stroke="#697883" stroke-width="1.5"/>
+<text x="18" y="655.5" text-anchor="start" font-size="18" fill="#15232c">阶段E：机会和解决方案</text>
+<text x="329" y="583.0" text-anchor="start" font-size="18" fill="#15232c">进行初步实施规划，并确认在前面阶段中确定的各种构建块的交付物形式；</text>
+<text x="331" y="612.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="351" y="612.0" text-anchor="start" font-size="18" fill="#15232c">确定主要实施项目；</text>
+<text x="331" y="641.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="351" y="641.0" text-anchor="start" font-size="18" fill="#15232c">对项目分组并纳入过渡架构；</text>
+<text x="331" y="670.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="351" y="670.0" text-anchor="start" font-size="18" fill="#15232c">决定途径(制造/购买/重用、外包、商用、开源)；</text>
+<text x="331" y="699.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="351" y="699.0" text-anchor="start" font-size="18" fill="#15232c">评估优先顺序；</text>
+<text x="331" y="728.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="351" y="728.0" text-anchor="start" font-size="18" fill="#15232c">识别相依性</text>
+<line x1="4" y1="553" x2="1292" y2="553" stroke="#697883" stroke-width="1.5"/>
+<text x="18" y="795.0" text-anchor="start" font-size="18" fill="#15232c">阶段F：迁移规划</text>
+<text x="329" y="795.0" text-anchor="start" font-size="18" fill="#15232c">对阶段E确定的项目进行绩效分析和风险评估，制订一个详细的实施和迁移计划</text>
+<line x1="4" y1="765" x2="1292" y2="765" stroke="#697883" stroke-width="1.5"/>
+<text x="18" y="905.5" text-anchor="start" font-size="18" fill="#15232c">阶段G：实施治理</text>
+<text x="329" y="862.0" text-anchor="start" font-size="18" fill="#15232c">定义实施项目的架构限制；</text>
+<text x="331" y="891.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="351" y="891.0" text-anchor="start" font-size="18" fill="#15232c">提供实施项目的架构监督；</text>
+<text x="331" y="920.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="351" y="920.0" text-anchor="start" font-size="18" fill="#15232c">发布实施项目的架构合同；</text>
+<text x="331" y="949.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="351" y="949.0" text-anchor="start" font-size="18" fill="#15232c">监测实施项目以确保符合架构要求</text>
+<line x1="4" y1="832" x2="1292" y2="832" stroke="#697883" stroke-width="1.5"/>
+<text x="18" y="1016.0" text-anchor="start" font-size="18" fill="#15232c">阶段H：架构变更管理</text>
+<text x="329" y="1016.0" text-anchor="start" font-size="18" fill="#15232c">提供持续监测和变更管理的流程，以确保架构可以响应企业的需求并且将架构对于业务的价值最大化</text>
+<line x1="4" y1="986" x2="1292" y2="986" stroke="#697883" stroke-width="1.5"/>
+<line x1="4" y1="1053" x2="1292" y2="1053" stroke="#697883" stroke-width="1.5"/>
+<line x1="315" y1="6" x2="315" y2="1053" stroke="#697883" stroke-width="1.5"/>
+</g>
+</svg>

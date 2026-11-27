@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1296 814" role="img" aria-labelledby="title desc">
+<title id="title">表 12-2 准备阶段活动的详细说明</title>
+<desc id="desc">入库教材 PDF 物理 428–429，合并跨页续表。两列两组，目标对应步骤，输入对应输出，保留项目从属。</desc>
+<g font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" fill="#15232c">
+<rect x="4" y="6" width="1288" height="49" fill="#edf4f8" stroke="none"/>
+<text x="372.0" y="38" text-anchor="middle" font-size="21" font-weight="bold" fill="#15232c">目标</text>
+<text x="1016.0" y="38" text-anchor="middle" font-size="21" font-weight="bold" fill="#15232c">步骤</text>
+<line x1="4" y1="6" x2="1292" y2="6" stroke="#697883" stroke-width="1.5"/>
+<text x="20" y="85.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="85.0" text-anchor="start" font-size="18" fill="#15232c">对进行企业架构活动的组织的背景和环境进行审查。</text>
+<text x="20" y="114.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="114.0" text-anchor="start" font-size="18" fill="#15232c">确认利益相关者、他们的需求、优先级和需要承担的义务。</text>
+<text x="20" y="143.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="143.0" text-anchor="start" font-size="18" fill="#15232c">确定并审视企业机构中受到影响的部分，并对其范围进行界定，定义约束条件和</text>
+<text x="40" y="170.0" text-anchor="start" font-size="18" fill="#15232c">假设条件，这一点在大型企业体系结构环境的大型机构中特别重要。</text>
+<text x="20" y="199.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="199.0" text-anchor="start" font-size="18" fill="#15232c">定义组织的“架构足迹”，包括确定执行架构开发工作的人是谁、他们在哪里以及</text>
+<text x="40" y="226.0" text-anchor="start" font-size="18" fill="#15232c">他们的责任是什么。</text>
+<text x="20" y="255.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="255.0" text-anchor="start" font-size="18" fill="#15232c">定义用于进行企业架构建设的框架和详细方法，这里通常是对ADM进行适应性的</text>
+<text x="40" y="282.0" text-anchor="start" font-size="18" fill="#15232c">改变。</text>
+<text x="20" y="311.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="311.0" text-anchor="start" font-size="18" fill="#15232c">确定一个治理和支持框架，用来在整个ADM过程中为架构治理提供业务流程和资</text>
+<text x="40" y="338.0" text-anchor="start" font-size="18" fill="#15232c">源方面的支持，此种框架将会确保目标架构的适用性(fitness for purpose</text>
+<text x="40" y="365.0" text-anchor="start" font-size="18" fill="#15232c">)，并对其在进行过程中的效能进行评测。</text>
+<text x="20" y="394.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="394.0" text-anchor="start" font-size="18" fill="#15232c">选择和落实用于支持架构活动的各种工具和基础设施。</text>
+<text x="20" y="423.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="423.0" text-anchor="start" font-size="18" fill="#15232c">定义架构原则，而这些原则将会成为约束架构工作的一个部分。</text>
+<text x="756" y="181.5" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="776" y="181.5" text-anchor="start" font-size="18" fill="#15232c">界定将要受到影响的企业组织的范围。</text>
+<text x="756" y="210.5" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="776" y="210.5" text-anchor="start" font-size="18" fill="#15232c">确定治理和支持框架。</text>
+<text x="756" y="239.5" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="776" y="239.5" text-anchor="start" font-size="18" fill="#15232c">建立企业架构团队。</text>
+<text x="756" y="268.5" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="776" y="268.5" text-anchor="start" font-size="18" fill="#15232c">定义架构原则。</text>
+<text x="756" y="297.5" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="776" y="297.5" text-anchor="start" font-size="18" fill="#15232c">选择架构框架并剪裁定制。</text>
+<text x="756" y="326.5" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="776" y="326.5" text-anchor="start" font-size="18" fill="#15232c">落实相关架构工具。</text>
+<line x1="4" y1="55" x2="1292" y2="55" stroke="#697883" stroke-width="1.5"/>
+<rect x="4" y="460" width="1288" height="49" fill="#edf4f8" stroke="none"/>
+<text x="372.0" y="492" text-anchor="middle" font-size="21" font-weight="bold" fill="#15232c">输入</text>
+<text x="1016.0" y="492" text-anchor="middle" font-size="21" font-weight="bold" fill="#15232c">输出</text>
+<line x1="4" y1="460" x2="1292" y2="460" stroke="#697883" stroke-width="1.5"/>
+<text x="20" y="539.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="539.0" text-anchor="start" font-size="18" fill="#15232c">TOGAF架构框架资料。</text>
+<text x="20" y="568.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="568.0" text-anchor="start" font-size="18" fill="#15232c">其他的架构框架资料。</text>
+<text x="20" y="597.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="597.0" text-anchor="start" font-size="18" fill="#15232c">业务原则、业务目标和驱动力。</text>
+<text x="20" y="626.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="626.0" text-anchor="start" font-size="18" fill="#15232c">架构治理策略。</text>
+<text x="20" y="655.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="655.0" text-anchor="start" font-size="18" fill="#15232c">IT战略。</text>
+<text x="20" y="684.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="684.0" text-anchor="start" font-size="18" fill="#15232c">当前企业架构组织模型。</text>
+<text x="20" y="713.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="713.0" text-anchor="start" font-size="18" fill="#15232c">当前企业架构框架。</text>
+<text x="20" y="742.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="742.0" text-anchor="start" font-size="18" fill="#15232c">当前企业架构原则。</text>
+<text x="20" y="771.0" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="40" y="771.0" text-anchor="start" font-size="18" fill="#15232c">当前企业架构资源库。</text>
+<text x="756" y="582.5" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="776" y="582.5" text-anchor="start" font-size="18" fill="#15232c">企业架构的组织模型。</text>
+<text x="756" y="611.5" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="776" y="611.5" text-anchor="start" font-size="18" fill="#15232c">定制的企业架构框架，包括架构原则。</text>
+<text x="756" y="640.5" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="776" y="640.5" text-anchor="start" font-size="18" fill="#15232c">企业架构资源库的雏形。</text>
+<text x="756" y="669.5" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="776" y="669.5" text-anchor="start" font-size="18" fill="#15232c">针对业务目标、原则和驱动力的声明或引用。</text>
+<text x="756" y="698.5" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="776" y="698.5" text-anchor="start" font-size="18" fill="#15232c">治理框架。</text>
+<text x="756" y="727.5" text-anchor="start" font-size="14" fill="#15232c">●</text>
+<text x="776" y="727.5" text-anchor="start" font-size="18" fill="#15232c">架构工作要求书。</text>
+<line x1="4" y1="509" x2="1292" y2="509" stroke="#697883" stroke-width="1.5"/>
+<line x1="4" y1="808" x2="1292" y2="808" stroke="#697883" stroke-width="1.5"/>
+<line x1="740" y1="6" x2="740" y2="808" stroke="#697883" stroke-width="1.5"/>
+</g>
+</svg>

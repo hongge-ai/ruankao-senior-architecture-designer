@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 725 110" role="img" aria-labelledby="title desc">
+  <title id="title">图 12-3 典型多层客户机/服务器架构</title>
+  <desc id="desc">据教材电子底本重绘。前台界面、Web 服务器、中间件/应用层、数据库水平排列，相邻节点间均双向连接。</desc>
+  <style>
+    rect, ellipse, path, polygon { fill: white; stroke: #416573; stroke-width: 2; }
+    line { stroke: #416573; stroke-width: 2; }
+    text { font: 22px "Noto Sans CJK SC", "Microsoft YaHei", sans-serif; fill: #16272e; text-anchor: middle; }
+  </style>
+  <defs><marker id="tip" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" style="fill:#416573;stroke:none"/></marker></defs>
+  <rect x="18" y="15" width="128" height="78" rx="12"/>
+<text x="82.0" y="46.0">前台</text>
+<text x="82.0" y="78.0">界面</text>
+  <line x1="147" y1="54" x2="203" y2="54" marker-end="url(#tip)" marker-start="url(#tip)"/>
+  <rect x="204" y="15" width="128" height="78" rx="12"/>
+<text x="268.0" y="46.0">Web</text>
+<text x="268.0" y="78.0">服务器</text>
+  <line x1="333" y1="54" x2="389" y2="54" marker-end="url(#tip)" marker-start="url(#tip)"/>
+  <rect x="390" y="15" width="128" height="78" rx="12"/>
+<text x="454.0" y="46.0">中间件/</text>
+<text x="454.0" y="78.0">应用层</text>
+  <line x1="519" y1="54" x2="575" y2="54" marker-end="url(#tip)" marker-start="url(#tip)"/>
+  <path d="M584 15 H695 a9 39.0 0 0 1 0 78 H584 a8 39.0 0 0 1 0 -78 Z"/>
+<ellipse cx="695" cy="54.0" rx="9" ry="39.0"/>
+<text x="637.0" y="62.0">数据库</text>
+</svg>
