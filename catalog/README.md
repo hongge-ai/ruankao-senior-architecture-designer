@@ -8,7 +8,7 @@
 |---|---|---|
 | [corpora.json](corpora.json) | 各语料（含 `study`）的目录归属、文档数量、来源 PDF 事实（页数、SHA-256、有无文本层） | `scripts/validate_knowledge_base.py`、将来的网页构建与 RAG 索引 |
 | [exams.json](exams.json) | 真题 manifest：36 份 canonical、90 份来源版本路径、17 组同名冲突映射 | 同上，另供人工核对 [历年真题总索引](../content/02-历年真题总索引.md) |
-| [errata.json](errata.json) | 勘误登记簿，逐条登记原书写法、勘正写法（如可确定）、PDF 物理页、印刷页与核查记录 | `scripts/validate_knowledge_base.py`、人工复核 |
+| [errata.json](errata.json) | 勘误登记簿，逐条登记修订前写法、勘正写法（如可确定）、PDF 物理页、印刷页与核查记录 | `scripts/validate_knowledge_base.py`、人工复核 |
 | [figures.json](figures.json) | 图表登记簿，逐图关联正文图题锚点、复原 SVG 资产与核查记录 | `scripts/validate_knowledge_base.py`、人工复核 |
 
 ## 约定

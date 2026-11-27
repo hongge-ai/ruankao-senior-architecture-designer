@@ -19,7 +19,7 @@ body:
         - OCR 错误
         - 结构或格式错误
         - 内容缺失
-        - 图表缺失
+        - 图表错误或缺失
         - 来源缺失或冲突
         - 答案争议
         - 其他
@@ -34,8 +34,8 @@ body:
   - type: textarea
     id: evidence
     attributes:
-      label: 建议修改与可复核证据
-      description: 请给出合法来源、版次、页码、URL 与访问日期；不要上传敏感证件或无权公开的材料。
+      label: 建议修改与可复核依据
+      description: 可填写入库 PDF 页码、OCR 片段、图表编号或可回查的上下文。涉及外部资料时附链接和访问日期。请勿上传敏感证件或无权公开的材料。
     validations:
       required: true
   - type: checkboxes
