@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1070 465" role="img" aria-labelledby="title desc">
 <title id="title">图 13-3 MVP设计模式</title>
 <desc id="desc">保留用户、View、Presenter、Model及编号1至7的方向和线型。</desc>
-<defs><marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#3e666f"/></marker></defs>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#3e666f"/></marker></defs>
 <g font-family="Noto Sans CJK SC, sans-serif" text-anchor="middle" fill="#172f38">
 <ellipse cx="550" cy="64" rx="101" ry="47" fill="#eff7f9" stroke="#4a7481" stroke-width="1.5"/>
 <text x="550" y="70.0" font-size="19" >Presenter</text>
