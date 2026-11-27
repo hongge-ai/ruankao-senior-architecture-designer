@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 430" width="780" height="430" role="img" aria-labelledby="fig07-11-title fig07-11-desc">
   <title id="fig07-11-title">图7-11 C/S体系结构风格</title>
-  <desc id="fig07-11-desc">复原自 sources/01-系统架构设计师教材 入库扫描件物理页 270（印刷页 261），图题：图7-11 C/S体系结构风格。结构要点：插画型简笔画——顶部一台主机（立式机箱＋显示器，机下横线示台面），左侧文字标签「OS:UNIX」，主机下方标签「主机」；下方三台终端简笔画（显示器＋底座），各标「终端」。主机底部引 3 条细直线呈放射状分别接三台终端顶部，均为无箭头素线，不画箭头。</desc>
+  <desc id="fig07-11-desc">一台 UNIX 主机与三台终端相连。</desc>
   <rect width="780" height="430" fill="#ffffff"/>
   <g font-family="SimSun, 'Noto Serif CJK SC', 'WenQuanYi Zen Hei', serif" fill="#000000">
     <!-- 主机：机箱 + 显示器 + 台面 -->
@@ -18,7 +18,7 @@
       <line x1="330" y1="157" x2="560" y2="157" stroke-width="1.8"/>
     </g>
     <text x="344" y="112" text-anchor="end" font-size="17">OS:UNIX</text>
-    <text x="472" y="187" text-anchor="middle" font-size="19">主机</text>
+    <text x="383" y="222" text-anchor="middle" font-size="19">主机</text>
     <!-- 放射素线：主机底 -> 三终端顶（无箭头） -->
     <g stroke="#000000" stroke-width="1.2">
       <line x1="437" y1="158" x2="148" y2="284"/>

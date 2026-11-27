@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 440" width="850" height="440" role="img" aria-labelledby="fig07-13-title fig07-13-desc">
   <title id="fig07-13-title">图7-13 仓库体系结构风格</title>
-  <desc id="fig07-13-desc">复原自 sources/01-系统架构设计师教材 入库扫描件物理页 271（印刷页 262），图题：图7-13　仓库体系结构风格。结构要点：中央圆角矩形内标「仓　库」（二字间空档，照录）；周围 8 个空椭圆（原书椭圆内无字，照录），布于上左、上中、上右、左中、右中、下左、下中、下右。每个椭圆与中央框之间各一条双向细箭头（两端均有实心小箭头）：上、下三列为斜向，左右两列为水平。无其他元素。</desc>
+  <desc id="fig07-13-desc">八个外部构件分别与中央仓库交换数据。</desc>
   <defs>
     <marker id="fig07-13-ah" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0.5,0.8 L9.5,5 L0.5,9.2 Z" fill="#000000"/></marker>
   </defs>

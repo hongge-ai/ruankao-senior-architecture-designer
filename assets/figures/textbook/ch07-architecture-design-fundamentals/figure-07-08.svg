@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 440" width="900" height="440" role="img" aria-labelledby="fig07-08-title fig07-08-desc">
   <title id="fig07-08-title">图7-8 管道/过滤器体系结构风格</title>
-  <desc id="fig07-08-desc">复原自 sources/01-系统架构设计师教材 入库扫描件物理页 269（印刷页 260），图题：图7-8　管道/过滤器体系结构风格。结构要点：六个矩形框全部无文字，六框原书空白照录，不得补写框内文字。拓扑：输入箭头入框 A；A 右侧出线经竖向分叉，上、下两支右向箭头分别进入上框 B1 与下框 B2 左缘（并联）；B1 右缘下行线与 B2 右缘上行线汇合为单线，右向箭头进入框 C；C 右向箭头入框 D；D 右缘引出端点箭头（输出一）；B2 右缘下端引长横线右行，自 C、D 框下方穿过，右向箭头进入右下框 E 左缘；E 右缘引出端点箭头（输出二）；回环自 E 底部近右端下行，沿图底长横线左行，左端上行后折右，以右向箭头进入 B2 底左角（E→B2 反馈回路，方向由 B2 底左角处箭头确定）。无双向箭头。</desc>
+  <desc id="fig07-08-desc">六个过滤器以有向管道连接，图中有分支、汇合和反馈。</desc>
   <defs>
     <marker id="fig07-08-ah" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0.5,0.8 L9.5,5 L0.5,9.2 Z" fill="#000000"/></marker>
   </defs>

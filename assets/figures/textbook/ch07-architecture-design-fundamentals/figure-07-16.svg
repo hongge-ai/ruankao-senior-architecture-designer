@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 460" width="900" height="460" role="img" aria-labelledby="fig07-16-title fig07-16-desc">
   <title id="fig07-16-title">图7-16 规则系统体系结构风格</title>
-  <desc id="fig07-16-desc">复原自 sources/01-系统架构设计师教材 入库扫描件物理页 273（印刷页 264），图题：图7-16　规则系统体系结构风格。结构要点：矩形「工作内存」（上中左）；右上双线外框上方标「知识库」，框内含两个并列矩形「规则集」「事实集」；圆角矩形「规则解释器」（下中左）；矩形「规则/数据选择」（下右），框内无『器』字照录（与正文「规则/数据选择器」不一致系原书自身不一致）。细线箭头与标签：「输入」右向入工作内存左缘；工作内存底引两根竖线，左线标「数据」下行箭头入规则解释器顶、右线标「更新」上行箭头入工作内存底；工作内存右缘引长斜线右下（线上方标「触发数据」）箭头入规则/数据选择框左上角；知识库外框底竖直下行（线右旁标「规则/事实」）箭头入规则/数据选择框顶缘；规则/数据选择左缘引水平线左行（线上下分标两行「被选择的规则」「被选择的数据」）箭头入规则解释器右缘；规则解释器左缘水平线左出，端点标「输出」。</desc>
+  <desc id="fig07-16-desc">知识库由规则集和事实集组成。工作内存及知识库向选择器提供信息，规则解释器读取选定的规则与数据，并更新工作内存。</desc>
   <defs>
     <marker id="fig07-16-ah" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0.5,0.8 L9.5,5 L0.5,9.2 Z" fill="#000000"/></marker>
   </defs>
@@ -32,7 +32,7 @@
     <text x="356" y="261" text-anchor="middle" font-size="19">更新</text>
     <line x1="326" y1="316" x2="326" y2="186" stroke="#000000" stroke-width="1.2" marker-end="url(#fig07-16-ah)"/>
     <!-- 触发数据 -->
-    <text x="576" y="212" text-anchor="middle" font-size="19">触发数据</text>
+    <text x="559" y="146" text-anchor="middle" font-size="19">触发数据</text>
     <line x1="499" y1="136" x2="631" y2="318" stroke="#000000" stroke-width="1.2" marker-end="url(#fig07-16-ah)"/>
     <!-- 规则/事实 -->
     <text x="830" y="288" text-anchor="middle" font-size="19">规则/事实</text>

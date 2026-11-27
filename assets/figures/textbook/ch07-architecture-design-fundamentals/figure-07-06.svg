@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="420" height="560" viewBox="0 0 420 560">
   <title>图7-6 体系结构演化过程</title>
-  <desc>复原自 sources/01-系统架构设计师教材 入库扫描件物理页 267（印刷页 258），图题：图7-6 体系结构演化过程。竖排七个矩形框自上而下以实线箭头直连：需求变化归类、体系结构演化计划、构件变动、更新构件的相互作用、构件组装与测试、技术评审、演化后的体系结构。右侧圆柱「构件库」一条实线箭头指入「构件变动」右边缘。左侧虚线回路自「技术评审」左边缘向左、向上，末端箭头指入「体系结构演化计划」左边缘，回路标注原书紧排作 0N，冒号不可辨，照录。无虚框。</desc>
+  <desc>需求变化归类后形成计划；技术评审可返回计划，构件库供构件变动使用。</desc>
   <defs>
     <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7.5" markerHeight="7.5" orient="auto-start-reverse">
       <path d="M0,0 L10,5 L0,10 Z" fill="#000"/>
@@ -43,5 +43,5 @@
     <path d="M325,172 V218 A40,9 0 0 0 405,218 V172"/>
   </g>
   <text x="365" y="204" font-family="sans-serif" font-size="16" fill="#000" text-anchor="middle">构件库</text>
-  <text x="52" y="272" font-family="sans-serif" font-size="16" fill="#000" text-anchor="end">0N</text>
+  <text x="52" y="272" font-family="sans-serif" font-size="16" fill="#000" text-anchor="end">0:N</text>
 </svg>
