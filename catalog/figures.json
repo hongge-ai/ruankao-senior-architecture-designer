@@ -148,13 +148,13 @@
    "corpus": "textbook",
    "file": "content/01-系统架构设计师教材-清洗版/第02章-计算机系统基础知识/第01节-计算机系统概述.md",
    "figure": "图 2-2",
-   "title": "两种计算机系统的分类示意",
+   "title": "计算机系统的分类示意",
    "kind": "svg",
-   "anchor": "> 图 2-2 两种计算机系统的分类示意",
+   "anchor": "> 图 2-2 计算机系统的分类示意",
    "asset": "assets/figures/textbook/ch02-computer-system-fundamentals/figure-02-02.svg",
    "physical_page": 34,
    "printed_page": 25,
-   "record": "verification/教材OCR纠错记录-第2章.md",
+   "record": "verification/教材新版第二轮独立盲核记录-第02章.md",
    "note": "树形：计算机系统→嵌入式计算机（电信设备[基站、网络交换、移动终端]、家用电子设备[视听设备、厨卫电器]、可穿戴电子设备、医疗设备、交通设备、国防设备、金融设备）与通用计算机（个人计算机[台式电脑、平板电脑]、网络服务器[云存储、云计算]、超级计算机）。首分支据下位设备与对侧类别校正。题首物理34仅见点状，无法回推纸书用字。"
   },
   {
@@ -168,7 +168,7 @@
    "asset": "assets/figures/textbook/ch02-computer-system-fundamentals/figure-02-03.svg",
    "physical_page": 35,
    "printed_page": 26,
-   "record": "verification/教材OCR纠错记录-第2章.md",
+   "record": "verification/教材新版第二轮独立盲核记录-第02章.md",
    "note": "指令部件三路分发至运算部件/寄存器组/存取部件；运算↔寄存器↔存取双向互连；结果汇流线入完成部件；完成部件左反馈、MMU 右反馈回指令部件；存取部件→MMU 部件；Cache 部件↔MMU 部件并双向挂接地址总线与数据总线。原图寄存器组框带下划线装饰、部分连线端点在重建图中较淡，按可见拓扑转录。"
   },
   {
@@ -392,8 +392,8 @@
    "asset": "assets/figures/textbook/ch02-computer-system-fundamentals/figure-02-19.svg",
    "physical_page": 73,
    "printed_page": 64,
-   "record": "verification/教材OCR纠错记录-第2章.md",
-   "note": "末支线接入总线，六个环节点均落到同一闭环上。"
+   "record": "verification/教材新版第二轮独立盲核记录-第02章.md",
+   "note": "末支线接入总线，六个环节点均落到同一闭环上。 五个分接点按电子页分别绘出。"
   },
   {
    "id": "tb-fig-0029",
@@ -476,8 +476,8 @@
    "asset": "assets/figures/textbook/ch02-computer-system-fundamentals/figure-02-25.svg",
    "physical_page": 90,
    "printed_page": 81,
-   "record": "verification/教材OCR纠错记录-第2章.md",
-   "note": "两行八种结构事物记法：类（名称/-属性/+方法() 三格框）、接口（棒糖圆圈与分格框两种）、协作（协作名虚线椭圆）、用例（用例名实线椭圆）、主动类（粗边框三格框）、构件（component 构件名带图标）、制品（artifact 制品名带文档图标）、结点（结点名三维立方体）。 本轮已将SVG实际栅格化，和同页渲染图独立目视对照。 本轮已将SVG实际栅格化，和同页渲染图独立目视对照。"
+   "record": "verification/教材新版第二轮独立盲核记录-第02章.md",
+   "note": "两行八种结构事物记法：类（名称/-属性/+方法() 三格框）、接口（棒糖圆圈与分格框两种）、协作（协作名虚线椭圆）、用例（用例名实线椭圆）、主动类（粗边框三格框）、构件（component 构件名带图标）、制品（artifact 制品名带文档图标）、结点（结点名三维立方体）。 本轮已将SVG实际栅格化，和同页渲染图独立目视对照。"
   },
   {
    "id": "tb-fig-0034",
@@ -490,8 +490,8 @@
    "asset": "assets/figures/textbook/ch02-computer-system-fundamentals/figure-02-26.svg",
    "physical_page": 90,
    "printed_page": 81,
-   "record": "verification/教材OCR纠错记录-第2章.md",
-   "note": "三种行为事物记法：消息（display 实线箭头）、状态（Waiting 圆角矩形）、动作（place order 矩形）。 本轮已将SVG实际栅格化，和同页渲染图独立目视对照。 本轮已将SVG实际栅格化，和同页渲染图独立目视对照。"
+   "record": "verification/教材新版第二轮独立盲核记录-第02章.md",
+   "note": "三种行为事物记法：消息（display 实线箭头）、状态（Waiting 圆角矩形）、动作（place order 圆角矩形）。 本轮已将SVG实际栅格化，和同页渲染图独立目视对照。"
   },
   {
    "id": "tb-fig-0035",
@@ -505,7 +505,7 @@
    "physical_page": 91,
    "printed_page": 82,
    "record": "verification/教材OCR纠错记录-第2章.md",
-   "note": "包记法：带左上标签页的文件夹形矩形；源图示例文字 Business rules。 本轮已将SVG实际栅格化，和同页渲染图独立目视对照。 本轮已将SVG实际栅格化，和同页渲染图独立目视对照。"
+   "note": "包记法：带左上标签页的文件夹形矩形；源图示例文字 Business rules。 本轮已将SVG实际栅格化，和同页渲染图独立目视对照。"
   },
   {
    "id": "tb-fig-0036",
@@ -519,7 +519,7 @@
    "physical_page": 91,
    "printed_page": 82,
    "record": "verification/教材OCR纠错记录-第2章.md",
-   "note": "注解记法：右上角折角的矩形（便签形）；源图示例文字 Return value。 本轮已将SVG实际栅格化，和同页渲染图独立目视对照。 本轮已将SVG实际栅格化，和同页渲染图独立目视对照。"
+   "note": "注解记法：右上角折角的矩形（便签形）；源图示例文字 Return value。 本轮已将SVG实际栅格化，和同页渲染图独立目视对照。"
   },
   {
    "id": "tb-fig-0037",
@@ -561,7 +561,7 @@
    "physical_page": 91,
    "printed_page": 82,
    "record": "verification/教材OCR纠错记录-第2章.md",
-   "note": "聚集记法：一端带空心菱形的实线；源图未标注具体整体和部分名称。 本轮已将SVG实际栅格化，和同页渲染图独立目视对照。 本轮已将SVG实际栅格化，和同页渲染图独立目视对照。"
+   "note": "聚集记法：一端带空心菱形的实线；源图未标注具体整体和部分名称。 本轮已将SVG实际栅格化，和同页渲染图独立目视对照。"
   },
   {
    "id": "tb-fig-0040",
@@ -575,7 +575,7 @@
    "physical_page": 91,
    "printed_page": 82,
    "record": "verification/教材OCR纠错记录-第2章.md",
-   "note": "泛化记法：带空心三角箭头的实线，箭头指向父元素。 本轮已将SVG实际栅格化，和同页渲染图独立目视对照。 本轮已将SVG实际栅格化，和同页渲染图独立目视对照。"
+   "note": "泛化记法：带空心三角箭头的实线，箭头指向父元素。 本轮已将SVG实际栅格化，和同页渲染图独立目视对照。"
   },
   {
    "id": "tb-fig-0041",
@@ -589,7 +589,7 @@
    "physical_page": 91,
    "printed_page": 82,
    "record": "verification/教材OCR纠错记录-第2章.md",
-   "note": "实现记法：带空心三角箭头的虚线，箭头从实现者指向所实现的契约/接口。 本轮已将SVG实际栅格化，和同页渲染图独立目视对照。 本轮已将SVG实际栅格化，和同页渲染图独立目视对照。"
+   "note": "实现记法：带空心三角箭头的虚线，箭头从实现者指向所实现的契约/接口。 本轮已将SVG实际栅格化，和同页渲染图独立目视对照。"
   },
   {
    "id": "tb-fig-0042",
@@ -714,8 +714,8 @@
    "asset": "assets/figures/textbook/ch02-computer-system-fundamentals/figure-02-35.svg",
    "physical_page": 97,
    "printed_page": 88,
-   "record": "verification/教材OCR纠错记录-第2章.md",
-   "note": "树形：多媒体系统→多媒体硬件（多媒体计算机[MPC、图形工作站等]、多媒体板卡[显示卡、音频卡、视频卡等]、多媒体外部设备[触摸屏、扫描仪、摄像头等]）与多媒体软件（多媒体系统软件[驱动程序、操作系统]、多媒体支持软件[素材制作工具、著作工具、编程语言]、多媒体应用软件）。 本轮已将SVG实际栅格化，和同页渲染图独立目视对照。 本轮已将SVG实际栅格化，和同页渲染图独立目视对照。"
+   "record": "verification/教材新版第二轮独立盲核记录-第02章.md",
+   "note": "树形：多媒体系统→多媒体硬件（多媒体计算机[MPC、图形工作站等]、多媒体板卡[显示卡、音频卡、视频卡等]、多媒体外部设备[触摸屏、扫描仪、摄像头等]）与多媒体软件（多媒体系统软件[驱动程序、操作系统]、多媒体支持软件[素材制作工具、著作工具、编程语言]、多媒体应用软件）。 本轮已将SVG实际栅格化，和同页渲染图独立目视对照。"
   },
   {
    "id": "tb-fig-0051",

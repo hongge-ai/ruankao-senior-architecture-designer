@@ -5,15 +5,15 @@
   <!-- (a) 总线结构 -->
   <g stroke="#9aa7b8" stroke-width="2.5">
     <line x1="90" y1="120" x2="362" y2="120"/>
-    <line x1="135" y1="120" x2="135" y2="70"/>
-    <line x1="235" y1="120" x2="235" y2="70"/>
+    <line x1="182" y1="120" x2="182" y2="70"/>
+    <line x1="282" y1="120" x2="282" y2="70"/>
     <line x1="135" y1="120" x2="135" y2="180"/>
     <line x1="235" y1="120" x2="235" y2="180"/>
     <line x1="335" y1="120" x2="335" y2="180"/>
   </g>
   <g fill="#eef3fb" stroke="#7d8da5" stroke-width="2.5">
-    <rect x="113" y="30" width="44" height="40"/>
-    <rect x="213" y="30" width="44" height="40"/>
+    <rect x="160" y="30" width="44" height="40"/>
+    <rect x="260" y="30" width="44" height="40"/>
     <rect x="113" y="180" width="44" height="40"/>
     <rect x="213" y="180" width="44" height="40"/>
     <rect x="313" y="180" width="44" height="40"/>
