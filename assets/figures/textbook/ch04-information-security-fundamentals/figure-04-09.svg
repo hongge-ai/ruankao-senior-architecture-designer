@@ -33,7 +33,7 @@
   <line x1="244" y1="128" x2="580" y2="252" stroke="#4a5568" stroke-width="1.4" stroke-dasharray="7 5" marker-end="url(#arr)"/>
   <text x="400" y="168" text-anchor="middle" font-size="13" font-style="italic" fill="#6b7280">信任关系</text>
   <line x1="244" y1="416" x2="580" y2="292" stroke="#4a5568" stroke-width="1.4" marker-end="url(#arr)"/>
-  <text x="400" y="372" text-anchor="middle" font-size="13" font-style="italic" fill="#6b7280">ARP报文</text>
+  <text x="400" y="343" text-anchor="middle" font-size="13" font-style="italic" fill="#6b7280">ARP报文</text>
 
   <line x1="200" y1="192" x2="200" y2="360" stroke="#b6bec9" stroke-width="1.2"/>
   <rect x="196" y="188" width="8" height="8" fill="#4a5568"/>

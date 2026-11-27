@@ -868,7 +868,7 @@
    "asset": "assets/figures/textbook/ch04-information-security-fundamentals/figure-04-09.svg",
    "physical_page": 172,
    "printed_page": 163,
-   "record": "verification/教材OCR纠错记录-第4章.md",
+   "record": "verification/教材新版第二轮独立盲核记录-第04章.md",
    "note": "三个主机、实线与虚线区分清楚；MAC标签为图中简写，不是完整地址。"
   },
   {
@@ -882,7 +882,7 @@
    "asset": "assets/figures/textbook/ch04-information-security-fundamentals/figure-04-10.svg",
    "physical_page": 173,
    "printed_page": 164,
-   "record": "verification/教材OCR纠错记录-第4章.md",
+   "record": "verification/教材新版第二轮独立盲核记录-第04章.md",
    "note": "物理173仅图面为局部扫描。图中客户端域名拼写与重建正文不同，无法归因原书正文。"
   },
   {
@@ -896,8 +896,8 @@
    "asset": "assets/figures/textbook/ch04-information-security-fundamentals/figure-04-11.svg",
    "physical_page": 181,
    "printed_page": 172,
-   "record": "verification/教材OCR纠错记录-第4章.md",
-   "note": "十个节点；恢复安全需求指向脆弱性的缓斜线箭头和两处关系标签，保留顶端“业务数据”。"
+   "record": "verification/教材新版第二轮独立盲核记录-第04章.md",
+   "note": "十个节点；恢复安全需求指向脆弱性的缓斜线箭头和两处关系标签，保留顶端“业务数据”。 顶端按正文和同构参考图校为“业务战略”。重建页可见“业务数据”，纸书该字样尚无扫描支持。"
   },
   {
    "id": "tb-fig-0064",

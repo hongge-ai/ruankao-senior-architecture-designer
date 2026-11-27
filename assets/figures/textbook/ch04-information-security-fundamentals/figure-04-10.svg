@@ -43,5 +43,5 @@
   <line x1="708" y1="252" x2="484" y2="124" stroke="#4a5568" stroke-width="1.4" marker-end="url(#arr)"/>
   <text x="612" y="176" text-anchor="middle" font-size="13" font-style="italic" fill="#6b7280">DNS查询</text>
   <line x1="488" y1="446" x2="716" y2="312" stroke="#4a5568" stroke-width="1.4" marker-end="url(#arr)"/>
-  <text x="588" y="398" text-anchor="middle" font-size="13" font-style="italic" fill="#6b7280">IP： 200.1.1.1</text>
+  <text x="588" y="366" text-anchor="middle" font-size="13" font-style="italic" fill="#6b7280">IP： 200.1.1.1</text>
 </svg>
