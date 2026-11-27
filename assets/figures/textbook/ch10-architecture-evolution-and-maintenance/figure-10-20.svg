@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" font-family="Liberation Serif, SimSun, 'Noto Serif CJK SC', 'WenQuanYi Zen Hei', 'Droid Sans Fallback', serif" font-size="17">
   <title>图 10-20 Web 读写程序组件图</title>
-  <desc>复原自《系统架构设计师教程（第2版）》印刷页364（物理页373）。UML组件图：外框左上角切角标签cmp Component；第一行 User—MainInterface—ClientApplication大框（内含sub1、sub2；ClientApplication框内右上角另有其自身的无标签组件图标；框内delegate接口指向sub1，sub2经接口连LocalDB，另有delegate虚线指向LocalDB）；第二行 User—WebInterface→WebApplication→User（虚线依赖+接口实线）；第三行 RemoteInterface→RemoteApplication→RSInterface→RSApplication→RemoteDB（虚线依赖+接口实线）。各组件矩形内的组件图标位于右下角（ClientApplication 的为框内右上角无标签大图标）；组件间连接处为 ball/socket 接口符号。</desc>
+  <desc>复原自《系统架构设计师教程（第2版）》印刷页364（物理页373）。UML组件图：外框左上角切角标签cmp Component；第一行 User—MainInterface—ClientApplication大框（内含sub1、sub2；ClientApplication框内右上角另有其自身的无标签组件图标；框内delegate接口指向sub1，sub2经接口连LocalDB，另有delegate虚线指向LocalDB）；第二行 User—WebInterface→WebApplication→User（虚线依赖+接口实线）；第三行 RemoteInterface、RemoteApplication、RSInterface、RSApplication、RemoteDB依次以接口相连；除RemoteApplication与RSInterface之间外，相邻两框另有向右的虚线依赖。各组件矩形内的组件图标位于右下角（ClientApplication 的为框内右上角无标签大图标）；组件间连接处为 ball/socket 接口符号。</desc>
   <defs>
     <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#000"/></marker>
     <g id="compicon">
@@ -46,7 +46,7 @@
     <use href="#ballsocket-v" x="225" y="192"/>
     <line x1="320" y1="215" x2="340" y2="172"/>
     <use href="#ballsocket-h" x="326" y="197"/>
-    <line x1="320" y1="267" x2="430" y2="198" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+    <line x1="320" y1="267" x2="440" y2="198" stroke-dasharray="7 5" marker-end="url(#ar)"/>
     <line x1="340" y1="172" x2="382" y2="172" marker-end="url(#ar)"/>
     <circle cx="396" cy="172" r="10"/>
     <line x1="406" y1="172" x2="440" y2="172"/>
@@ -77,7 +77,6 @@
     <line x1="246" y1="480" x2="270" y2="480" stroke-dasharray="7 5" marker-end="url(#ar)"/>
     <line x1="246" y1="508" x2="270" y2="508"/>
     <use href="#ballsocket-h" x="258" y="508"/>
-    <line x1="440" y1="480" x2="480" y2="480" stroke-dasharray="7 5" marker-end="url(#ar)"/>
     <line x1="440" y1="508" x2="480" y2="508"/>
     <use href="#ballsocket-h" x="460" y="508"/>
     <line x1="620" y1="480" x2="660" y2="480" stroke-dasharray="7 5" marker-end="url(#ar)"/>
@@ -104,13 +103,13 @@
   <use href="#compicon" x="815" y="520"/>
   <use href="#compicon" x="960" y="520"/>
   <g fill="#000" stroke="none">
-    <text x="115" y="68">cmp Component</text>
+    <text x="45" y="68">cmp Component</text>
     <text x="590" y="108" text-anchor="middle">ClientApplication</text>
     <text x="197" y="143">User</text>
     <text x="152" y="247">MainInterface</text>
     <text x="472" y="168" font-size="16">sub1</text>
     <text x="622" y="168" font-size="16">sub2</text>
-    <text x="842" y="150">LocalDB</text>
+    <text x="821" y="138">LocalDB</text>
     <text x="382" y="150" font-size="16">&lt;&lt;delegate&gt;&gt;</text>
     <text x="648" y="234" font-size="16">&lt;&lt;delegate&gt;&gt;</text>
     <text x="177" y="358">User</text>

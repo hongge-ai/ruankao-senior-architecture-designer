@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 660" font-family="Liberation Serif, SimSun, 'Noto Serif CJK SC', 'WenQuanYi Zen Hei', 'Droid Sans Fallback', serif" font-size="17">
   <title>表 10-4 Web 读写系统可维护性度量结果</title>
-  <desc>复原自《系统架构设计师教程（第2版）》印刷页366（物理页375）。表头 FFC/RFC/CBO/LCC/TCC，13 行组件度量结果（LCC/TCC 多为 not applied，仅 ClientApplication 为 3/3），底部汇总块：CCN=8、FFC=46.154、RFC=1.615、CBO=0.219、LCC=3、TCC=3。行名 RcmoteApplication、RcmotcInterface 与 DB、Browser 为印面怪字（原书如此）。</desc>
+  <desc>表10-4，物理375整页扫描。列出13个组件的FFC、RFC、CBO、LCC和TCC，下方汇总六个指标。其中两行Remote组件的拼写按表10-3纠正，RemoteInterface的RFC据S+E+R及图10-23校为2。DB、Browser在结果表有行，和输入组件的对应关系待核。</desc>
   <g fill="none" stroke="#000">
     <rect x="10" y="10" width="880" height="640" stroke-width="2"/>
     <line x1="10" y1="50" x2="890" y2="50" stroke-width="0.8"/>
@@ -34,8 +34,8 @@
     <text x="677" y="37">LCC</text>
     <text x="812" y="37">TCC</text>
     <text x="130" y="77">RSInterface</text>
-    <text x="130" y="117">RcmoteApplication</text>
-    <text x="130" y="157">RcmotcInterface</text>
+    <text x="130" y="117">RemoteApplication</text>
+    <text x="130" y="157">RemoteInterface</text>
     <text x="130" y="197">RemoteDB</text>
     <text x="130" y="237">LocalDB</text>
     <text x="130" y="277">RSApplication</text>
@@ -48,7 +48,7 @@
     <text x="130" y="557">Browser</text>
     <text x="320" y="77">32</text><text x="447" y="77">2</text><text x="562" y="77">0.231</text><text x="677" y="77">not applied</text><text x="812" y="77">not applied</text>
     <text x="320" y="117">32</text><text x="447" y="117">1</text><text x="562" y="117">0.231</text><text x="677" y="117">not applied</text><text x="812" y="117">not applied</text>
-    <text x="320" y="157">32</text><text x="447" y="157">1</text><text x="562" y="157">0.231</text><text x="677" y="157">not applied</text><text x="812" y="157">not applied</text>
+    <text x="320" y="157">32</text><text x="447" y="157">2</text><text x="562" y="157">0.231</text><text x="677" y="157">not applied</text><text x="812" y="157">not applied</text>
     <text x="320" y="197">8</text><text x="447" y="197">0</text><text x="562" y="197">0.154</text><text x="677" y="197">not applied</text><text x="812" y="197">not applied</text>
     <text x="320" y="237">8</text><text x="447" y="237">0</text><text x="562" y="237">0.154</text><text x="677" y="237">not applied</text><text x="812" y="237">not applied</text>
     <text x="320" y="277">128</text><text x="447" y="277">2</text><text x="562" y="277">0.308</text><text x="677" y="277">not applied</text><text x="812" y="277">not applied</text>

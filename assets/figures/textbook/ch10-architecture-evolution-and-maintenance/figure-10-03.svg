@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1760 2650" font-family="Liberation Serif, SimSun, 'Noto Serif CJK SC', 'WenQuanYi Zen Hei', 'Droid Sans Fallback', serif" font-size="17">
   <title>图 10-3 复合片段的演化说明</title>
-  <desc>复原自《系统架构设计师教程（第2版）》印刷页335（物理页344）。6个子图2列3排、虚线分隔：a)FCC 改变守护条件名（cond1→cond2，每个对象列为顶圆-条件虚线-底圆，右侧回环线标条件名，底圆下! (条件)）；b)AF(ref)/DF(ref) 在消息链中加入 ref 引用框，引用展开为含初态/空圆/终态的序列图 A₁、A₂；c)AF(ref)/DF(par) 引用展开为 par 并行框下 A₁、A₂ 两个竖排分支（含ρ(s_par)标注）；d)AF(loop)/DF(loop) 增加 s_b₁/s_b₂ 与 cond 回环线构成循环；e)AF(break)/DF(break) 增加 cond_b/! (cond_b) 两条路径，! (cond_b) 直接从第3元素引线到底；f)AF(alt)/DF(alt) 增加 ! (cond) 主路径与 cond 旁路直达线。</desc>
+  <desc>复原自《系统架构设计师教程（第2版）》印刷页335（物理页344）。6个子图2列3排、虚线分隔：a)FCC 改变守护条件名（cond1→cond2，每个对象列为顶圆-条件虚线-底圆，右侧回环线标条件名，底圆下! (条件)）；b)AF(ref)/DF(ref) 在消息链中加入 ref 引用框，引用展开为含初态/空圆/终态的序列图 A₁、A₂；c)AF(par)/DF(par) 展开为 par 并行框下 A₁、A₂ 两个竖排分支（含ρ(s_par)标注）；d)AF(loop)/DF(loop) 增加 s_b₁/s_b₂ 与 cond 回环线构成循环；e)AF(break)/DF(break) 增加 cond_b/! (cond_b) 两条路径，! (cond_b) 直接从第3元素引线到底；f)AF(alt)/DF(alt) 增加 ! (cond) 主路径与 cond 旁路直达线。</desc>
   <defs>
     <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#000"/></marker>
     <marker id="arh" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="none" stroke="#000" stroke-width="1.2"/></marker>
@@ -119,7 +119,7 @@
       <text x="1468" y="371">m2</text>
       <text x="1350" y="622">b)</text>
     </g>
-    <!-- ========== c) AF(ref)/DF(par) ========== -->
+    <!-- ========== c) AF(par)/DF(par) ========== -->
     <g transform="translate(0,660)">
       <!-- 行1 -->
       <circle cx="80" cy="90" r="38"/>
@@ -140,7 +140,7 @@
       <circle cx="332" cy="200" r="38"/>
       <line x1="370" y1="200" x2="447" y2="200" marker-end="url(#ar)"/>
       <circle cx="485" cy="200" r="38"/>
-      <!-- AF(ref) / DF(par) -->
+      <!-- AF(par) / DF(par) -->
       <line x1="255" y1="248" x2="255" y2="352" marker-end="url(#ar)"/>
       <line x1="445" y1="352" x2="445" y2="248" stroke-dasharray="6 4" marker-end="url(#arh)"/>
       <!-- 演化后行 -->
@@ -191,7 +191,7 @@
       <text x="244" y="205">m4</text>
       <text x="560" y="205" font-style="italic">obj2</text>
       <text x="700" y="145">演化前</text>
-      <text x="245" y="305" text-anchor="end">AF (ref)</text>
+      <text x="245" y="305" text-anchor="end">AF (par)</text>
       <text x="460" y="305">DF (par)</text>
       <text x="70" y="512" font-style="italic">obj1</text>
       <text x="322" y="430">m2</text>
@@ -414,6 +414,6 @@
     <!-- 分隔虚线 -->
     <line x1="12" y1="630" x2="1548" y2="630" stroke-dasharray="8 6" stroke-width="1"/>
     <line x1="12" y1="1570" x2="1548" y2="1570" stroke-dasharray="8 6" stroke-width="1"/>
-    <line x1="875" y1="12" x2="875" y2="2638" stroke-dasharray="8 6" stroke-width="1"/>
+    <path d="M810 12V1570 M875 1570V2638" stroke-dasharray="8 6" stroke-width="1"/>
   </g>
 </svg>

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1140 820" font-family="Liberation Serif, SimSun, 'Noto Serif CJK SC', 'WenQuanYi Zen Hei', 'Droid Sans Fallback', serif" font-size="19">
   <title>图 10-19 第十阶段网站架构</title>
-  <desc>复原自《系统架构设计师教程（第2版）》印刷页362（物理页371）。图体与图题同页，无跨页拼接。结构：左侧 CDN服务器1、反向代理服务器（原图此标签无「1」）、负载均衡调度服务器1 各3层堆叠。负载均衡调度服务器1 共发6支箭头：3支向上指向 B应用服务器1 的3层框左边，3支指向 A 应用服务器1 的3层框左边。中部偏上「B应用服务器1」前框右边发3支箭头，分别指向右侧「分布式服务」簇3层框顶边的右端；B应用服务器1 下方「消息队列服务器1」3层堆叠；「A 应用服务器1」簇上方以箭头指向消息队列服务器1 前框底边。「分布式服务」簇（标签为「分布式服务 ii服务器1」「分布式服务1服务器2.」「分布式服务 i 服务器1」，其中末行末尾句点、各行空格按原图照录）前框内含平行四边形「应用程序」、圆角框「统一数据（换行）访问模块)」、波浪底文件框「本地缓存」；「应用程序」以箭头指向「本地缓存」与「访问模块)」。右侧「分布式缓存服务器n/2/1」「分布式文件服务器n/2/1」「分布式数据库服务器n/2/1」及下方「搜索引擎服务器1」「NoSQL服务器1」各3层堆叠；「统一数据访问模块)」发出5支箭头分别指向缓存簇底边、文件簇左边、数据库簇顶边、搜索引擎顶边、NoSQL顶边。原图无「写操作」「读操作」标注，未补。</desc>
+  <desc>复原自《系统架构设计师教程（第2版）》印刷页362（物理页371）。图体与图题同页，无跨页拼接。结构：左侧 CDN服务器1、反向代理服务器1（重建页没有编号，依同构原型及相邻阶段补1）、负载均衡调度服务器1 各3层堆叠。负载均衡调度服务器1 共发6支箭头：3支向上指向 B应用服务器1 的3层框左边，3支指向 A 应用服务器1 的3层框左边。中部偏上「B应用服务器1」前框右边发3支箭头，分别指向右侧「分布式服务」簇3层框顶边的右端；B应用服务器1 向下连接消息队列服务器1，A应用服务器1 向右连接分布式服务簇的三层服务器；「A 应用服务器1」簇上方以箭头指向消息队列服务器1 前框底边。「分布式服务」簇（标签为「分布式服务 ii服务器1」「分布式服务1服务器2.」「分布式服务 i 服务器1」，重建页的文字有残形，同构原型《大型网站技术架构》图1.10可辨为分布式服务ii服务器1、分布式服务i服务器2、分布式服务i服务器1）前框内含平行四边形「应用程序」、圆角框「统一数据（换行）访问模块」、波浪底文件框「本地缓存」；「应用程序」以箭头指向「本地缓存」与「访问模块」。右侧「分布式缓存服务器n/2/1」「分布式文件服务器n/2/1」「分布式数据库服务器n/2/1」及下方「搜索引擎服务器1」「NoSQL服务器1」各3层堆叠；「统一数据访问模块」发出5支箭头分别指向缓存簇底边、文件簇左边、数据库簇顶边、搜索引擎顶边、NoSQL顶边。原图无「写操作」「读操作」标注，未补。</desc>
   <defs>
     <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#000"/></marker>
   </defs>
@@ -62,6 +62,10 @@
     <line x1="229" y1="484" x2="376" y2="480" marker-end="url(#ar)"/>
     <line x1="229" y1="490" x2="388" y2="494" marker-end="url(#ar)"/>
     <line x1="445" y1="440" x2="478" y2="372" marker-end="url(#ar)"/>
+    <line x1="449" y1="158" x2="450" y2="232" marker-end="url(#ar)"/>
+    <line x1="550" y1="460" x2="560" y2="377" marker-end="url(#ar)"/>
+    <line x1="550" y1="470" x2="572" y2="400" marker-end="url(#ar)"/>
+    <line x1="550" y1="480" x2="584" y2="425" marker-end="url(#ar)"/>
     <line x1="524" y1="96" x2="776" y2="220" marker-end="url(#ar)"/>
     <line x1="524" y1="112" x2="788" y2="246" marker-end="url(#ar)"/>
     <line x1="524" y1="128" x2="800" y2="272" marker-end="url(#ar)"/>
@@ -77,7 +81,7 @@
     <text x="136" y="148" text-anchor="middle">CDN</text>
     <text x="136" y="176" text-anchor="middle">服务器1</text>
     <text x="136" y="302" text-anchor="middle">反向代理</text>
-    <text x="136" y="330" text-anchor="middle">服务器</text>
+    <text x="136" y="330" text-anchor="middle">服务器1</text>
     <text x="141" y="458" text-anchor="middle">负载均衡调度</text>
     <text x="141" y="486" text-anchor="middle">服务器1</text>
     <text x="449" y="104" text-anchor="middle">B应用</text>
@@ -86,12 +90,12 @@
     <text x="474" y="350" text-anchor="middle">服务器1</text>
     <text x="470" y="482" text-anchor="middle">A 应用</text>
     <text x="470" y="510" text-anchor="middle">服务器1</text>
-    <text x="572" y="248" text-anchor="start">分布式服务 ii服务器1</text>
-    <text x="586" y="274" text-anchor="start">分布式服务1服务器2.</text>
-    <text x="598" y="300" text-anchor="start">分布式服务 i 服务器1</text>
+    <text x="572" y="248" text-anchor="start">分布式服务ii服务器1</text>
+    <text x="586" y="274" text-anchor="start">分布式服务i服务器2</text>
+    <text x="598" y="300" text-anchor="start">分布式服务i服务器1</text>
     <text x="642" y="352" text-anchor="middle">应用程序</text>
     <text x="751" y="364" text-anchor="middle">统一数据</text>
-    <text x="751" y="388" text-anchor="middle">访问模块)</text>
+    <text x="751" y="388" text-anchor="middle">访问模块</text>
     <text x="646" y="412" text-anchor="middle">本地缓存</text>
     <text x="447" y="672" text-anchor="middle">搜索引擎</text>
     <text x="447" y="700" text-anchor="middle">服务器1</text>

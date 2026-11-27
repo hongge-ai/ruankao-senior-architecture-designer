@@ -2000,10 +2000,10 @@
    "kind": "svg",
    "anchor": "> 图 10-3 复合片段的演化说明",
    "asset": "assets/figures/textbook/ch10-architecture-evolution-and-maintenance/figure-10-03.svg",
-   "physical_page": 343,
-   "printed_page": 334,
-   "record": "verification/教材首轮核查-第10章-软件架构的演化和维护.md",
-   "note": "6个子图2列3排、虚线分隔：a)FCC 改变守护条件名（cond1→cond2，每个对象列为顶圆-条件虚线-底圆，右侧回环线标条件名，底圆下! (条件)）；b)AF(ref)/DF(ref) 在消息链中加入 ref 引用框，引用展开为含初态/空圆/终态的序列图 A₁、A₂；c)AF(ref)/DF(par) 引用展开为 par 并行框下 A₁、A₂ 两个竖排分支（含ρ(s_par)标注）；d)AF(loop)/DF(loop) 增加 s_b₁/s_b₂ 与 cond 回环线构成循环；e)AF(break)/DF(break) 增加 cond_b/! (cond_b) 两条路径，! (cond_b) 直接从第3元素引线到底；f)AF(alt)/DF(alt) 增加 ! (cond) 主路径与 cond 旁路直达线。（blind-a PASS（首轮 FAIL，补圆内状态标注 24 处、括注与取反符号空格后 blind-a 复验 PASS））"
+   "physical_page": 344,
+   "printed_page": 335,
+   "record": "verification/教材第二轮独立盲核记录-第10章.md",
+   "note": "6个子图2列3排、虚线分隔：a)FCC 改变守护条件名（cond1→cond2，每个对象列为顶圆-条件虚线-底圆，右侧回环线标条件名，底圆下! (条件)）；b)AF(ref)/DF(ref) 在消息链中加入 ref 引用框，引用展开为含初态/空圆/终态的序列图 A₁、A₂；c)AF(par)/DF(par) 展开为 par 并行框下 A₁、A₂ 两个竖排分支（含ρ(s_par)标注）；d)AF(loop)/DF(loop) 增加 s_b₁/s_b₂ 与 cond 回环线构成循环；e)AF(break)/DF(break) 增加 cond_b/! (cond_b) 两条路径，! (cond_b) 直接从第3元素引线到底；f)AF(alt)/DF(alt) 增加 ! (cond) 主路径与 cond 旁路直达线。"
   },
   {
    "id": "tb-fig-0143",
@@ -2086,8 +2086,8 @@
    "asset": "assets/figures/textbook/ch10-architecture-evolution-and-maintenance/figure-10-07.svg",
    "physical_page": 355,
    "printed_page": 346,
-   "record": "verification/教材首轮核查-第10章-软件架构的演化和维护.md",
-   "note": "左大框「部署步骤」：左列 PuLSE初始化→PL基础设施构建→PL基础设施使用 依次向下箭头，右侧竖条框「PL基础设施演化和管理」竖排文字，左列三框与竖条之间三条双向细箭头；右大框「技术组件」纵列 6 框：用户定制（BC）、Scoping(Eco)、建模（CDA）、架构（DSSA）、Instantiating{1}（印面为花括号包数字1）、演化和管理（EM）；左右大框之间水平双向粗空心箭头；左大框底部向下双向粗空心箭头接底部大框「支持组件」：工程入口点、成熟度、组织事务，标题在框内底部。（blind-a PASS（首轮 FAIL，4 个中文标签改全角括号后复验 PASS））"
+   "record": "verification/教材第二轮独立盲核记录-第10章.md",
+   "note": "左大框「部署步骤」：左列 PuLSE初始化→PL基础设施构建→PL基础设施使用 依次向下箭头，右侧竖条框「PL基础设施演化和管理」竖排文字，左列三框与竖条之间三条双向细箭头；右大框「技术组件」纵列 6 框：用户定制（BC）、Scoping(Eco)、建模（CDA）、架构（DSSA）、Instantiating (I)、演化和管理（EM）；左右大框之间水平双向粗空心箭头；左大框底部向下双向粗空心箭头接底部大框「支持组件」：工程入口点、成熟度、组织事务，标题在框内底部。"
   },
   {
    "id": "tb-fig-0149",
@@ -2100,8 +2100,8 @@
    "asset": "assets/figures/textbook/ch10-architecture-evolution-and-maintenance/figure-10-08.svg",
    "physical_page": 361,
    "printed_page": 352,
-   "record": "verification/教材首轮核查-第10章-软件架构的演化和维护.md",
-   "note": "复原自入库教材扫描件物理页361（原书印刷页352）。三行：软件架构（A₀、A、A、…、A）、质量（可维护性/可靠性）（Q₀、Q、Q、…、Q）、距离（D(0,1)、D(0.2)、…、D(n-1,n)）。共五列，第 4 列为省略号列；A₀/Q₀ 的 0 为下标。每列由软件架构向下以空心粗箭头指向对应质量值，省略号列不画纵向箭头。相邻两列的质量值以斜向空心粗箭头向内汇聚到两列中点下方的距离值上方：第 1、2、4 对为左右两条，第 3 对（左侧为 Q、右侧为省略号列）在原图上只画左侧一条。距离行的「…」位于第 3、4 列中点。原图 D(0.2) 照录为 0.2（句点），未改为逗号。（blind-a PASS（首轮 FAIL，补字体栈、斜向箭头重画、D 行标签居中、下标与出界修复后复验 PASS））"
+   "record": "verification/教材第二轮独立盲核记录-第10章.md",
+   "note": "物理361/印刷352电子重建页。顶部、质量行分别按文中序列补齐A、Q的0、1、2、n下标；相邻两输入确定了第二个距离为D(1,2)。共四个向下箭头和七个斜箭头。正文恢复图在第二小目段后、第三小目前的位置。"
   },
   {
    "id": "tb-fig-0150",
@@ -2114,8 +2114,8 @@
    "asset": "assets/figures/textbook/ch10-architecture-evolution-and-maintenance/figure-10-09.svg",
    "physical_page": 363,
    "printed_page": 354,
-   "record": "verification/教材首轮核查-第10章-软件架构的演化和维护.md",
-   "note": "左列：演化前架构（文档形状）→架构度量→演化前架构度量结果（平行四边形）；右列同构。两个度量结果斜线汇入下方「比较」大框内的椭圆「架构质量属性变化」；椭圆左下经「推测」连线到椭圆「架构演化操作集合」，右下经「是否符合」连线到椭圆「架构演化驱动因素」；两下椭圆之间水平虚线，旁标「分析」。（blind-a PASS）"
+   "record": "verification/教材第二轮独立盲核记录-第10章.md",
+   "note": "物理363/印刷354电子重建页。前后架构两列的度量结果汇入比较框，左侧“推测”单向通往操作集合，右侧“是否符合”双向连接质量变化和驱动因素；两下椭圆之间有“分析”虚线。右栏浮动图在线性正文中置于相关段后。"
   },
   {
    "id": "tb-fig-0151",
@@ -2184,8 +2184,8 @@
    "asset": "assets/figures/textbook/ch10-architecture-evolution-and-maintenance/figure-10-14.svg",
    "physical_page": 366,
    "printed_page": 357,
-   "record": "verification/教材首轮核查-第10章-软件架构的演化和维护.md",
-   "note": "左侧圆角框「负载均衡调度服务器」（文字分两行），其右缘分出三条箭头指向三层错位应用服务器框（「应用服务器n」「应用服务器2」「应用服务器1」）左边缘。最前的「应用服务器1」框内含平行四边形「应用程序」、其下方波浪纸形「本地缓存」、右下方圆角「数据访问模块」（文字分两行）；「应用程序」向下有箭头指向「本地缓存」，其右侧顶点分出三条箭头：一条指向右上方三层错位缓存服务器框（最前框内为「远程分布式缓存」）的前框下边缘、一条指向「文件服务器」左缘（内含错位多张纸「文件」）、一条指向「数据访问模块」上边缘。「数据访问模块」左下角分出两条箭头：标「写操作」者指向「数据库服务器（主）」左缘，标「读操作」者指向「数据库服务器（从）」上边缘；「数据库服务器（主）」的圆柱下方另有一条曲线箭头标「主/从复制」指向「数据库服务器（从）」的圆柱右侧。原图中第三个缓存服务器框文字为「分布式缓存服务器」（无末尾数字），照录。两个数据库服务器框内均为圆柱「数据库」。（blind-new PASS（残留：标签行距偏挤；第三层缓存标签原图无编号，照录））"
+   "record": "verification/教材第二轮独立盲核记录-第10章.md",
+   "note": "复原自《系统架构设计师教程（第2版）》印刷页357（物理页366）。左侧圆角框「负载均衡调度服务器」（文字分两行），其右缘分出三条箭头指向三层错位应用服务器框（「应用服务器n」「应用服务器2」「应用服务器1」）左边缘。最前的「应用服务器1」框内含平行四边形「应用程序」、其下方波浪纸形「本地缓存」、右下方圆角「数据访问模块」（文字分两行）；「应用程序」向下有箭头指向「本地缓存」，其右侧顶点分出三条箭头：一条指向右上方三层错位缓存服务器框（最前框内为「远程分布式缓存」）的前框下边缘、一条指向「文件服务器」左缘（内含错位多张纸「文件」）、一条指向「数据访问模块」上边缘。「数据访问模块」左下角分出两条箭头：标「写操作」者指向「数据库服务器（主）」左缘，标「读操作」者指向「数据库服务器（从）」上边缘；「数据库服务器（主）」的圆柱下方另有一条曲线箭头标「主/从复制」指向「数据库服务器（从）」的圆柱右侧。重建页第三个缓存服务器框未见编号，依同图n、2及相邻阶段同组的n/2/1补末尾1。两个数据库服务器框内均为圆柱「数据库」。"
   },
   {
    "id": "tb-fig-0156",
@@ -2240,8 +2240,8 @@
    "asset": "assets/figures/textbook/ch10-architecture-evolution-and-maintenance/figure-10-18.svg",
    "physical_page": 370,
    "printed_page": 361,
-   "record": "verification/教材首轮核查-第10章-软件架构的演化和维护.md",
-   "note": "图体与图题同页，无跨页拼接。结构：左侧 CDN服务器1、反向代理服务器1、负载均衡调度服务器1 各3层堆叠；上部「B应用服务器1」「消息队列服务器1」各3层堆叠。负载均衡调度服务器1 共发6支箭头：3支向上指向 B应用服务器1 的3层框左边，3支指向中部 A应用服务器簇的3层框（A 应用服务器n/A 应用服务器2/A应用服务器1）。B应用服务器1 前框右边以箭头指向消息队列服务器1 簇左边；「应用程序」平行四边形右缘（位于「统一数据访问模块」左侧）以竖直箭头向上，指向消息队列服务器1 前框底边。A应用服务器1 框内含平行四边形「应用程序」、圆角框「统一数据访问模块」、波浪底文件框「本地缓存」；「应用程序」以箭头指向「本地缓存」与「统一数据访问模块」。右侧「分布式缓存服务器n/2/1」「分布式文件服务器n/2/1」「分布式数据库服务器n/2/1」及下方「搜索引擎服务器1」「NoSQL服务器1」，各3层堆叠；「统一数据访问模块」发出5支箭头分别指向缓存簇底边、文件簇左边、数据库簇顶边、搜索引擎顶边、NoSQL顶边。图内文字间距按原图照录：A 应用服务器n、A 应用服务器2 的 A 后有空格，A应用服务器1 无空格。原图无「写操作」「读操作」标注，未补。（blind-new PASS（首轮 FAIL，A 簇→消息队列箭头起点改为应用程序右缘后复验 PASS））"
+   "record": "verification/教材第二轮独立盲核记录-第10章.md",
+   "note": "复原自《系统架构设计师教程（第2版）》印刷页361（物理页370）。图体与图题同页，无跨页拼接。结构：左侧 CDN服务器1、反向代理服务器1、负载均衡调度服务器1 各3层堆叠；上部「B应用服务器1」「消息队列服务器1」各3层堆叠。负载均衡调度服务器1 共发6支箭头：3支向上指向 B应用服务器1 的3层框左边，3支指向中部 A应用服务器簇的3层框（A 应用服务器n/A 应用服务器2/A应用服务器1）。B应用服务器1 前框右边以箭头指向消息队列服务器1 簇左边；「应用程序」平行四边形右缘（位于「统一数据访问模块」左侧）以竖直箭头向上，指向消息队列服务器1 前框底边。A应用服务器1 框内含平行四边形「应用程序」、圆角框「统一数据访问模块」、波浪底文件框「本地缓存」；「应用程序」以箭头指向「本地缓存」与「统一数据访问模块」。右侧「分布式缓存服务器n/2/1」「分布式文件服务器n/2/1」「分布式数据库服务器n/2/1」及下方「搜索引擎服务器1」「NoSQL服务器1」，各3层堆叠；「统一数据访问模块」发出5支箭头分别指向缓存簇底边、文件簇左边、数据库簇顶边、搜索引擎顶边、NoSQL顶边。图内文字间距按原图照录：A 应用服务器n、A 应用服务器2 的 A 后有空格，A应用服务器1 无空格。原图无「写操作」「读操作」标注，未补。"
   },
   {
    "id": "tb-fig-0160",
@@ -2254,8 +2254,8 @@
    "asset": "assets/figures/textbook/ch10-architecture-evolution-and-maintenance/figure-10-19.svg",
    "physical_page": 371,
    "printed_page": 362,
-   "record": "verification/教材首轮核查-第10章-软件架构的演化和维护.md",
-   "note": "图体与图题同页，无跨页拼接。结构：左侧 CDN服务器1、反向代理服务器（原图此标签无「1」）、负载均衡调度服务器1 各3层堆叠。负载均衡调度服务器1 共发6支箭头：3支向上指向 B应用服务器1 的3层框左边，3支指向 A 应用服务器1 的3层框左边。中部偏上「B应用服务器1」前框右边发3支箭头，分别指向右侧「分布式服务」簇3层框顶边的右端；B应用服务器1 下方「消息队列服务器1」3层堆叠；「A 应用服务器1」簇上方以箭头指向消息队列服务器1 前框底边。「分布式服务」簇（标签为「分布式服务 ii服务器1」「分布式服务1服务器2.」「分布式服务 i 服务器1」，其中末行末尾句点、各行空格按原图照录）前框内含平行四边形「应用程序」、圆角框「统一数据（换行）访问模块)」、波浪底文件框「本地缓存」；「应用程序」以箭头指向「本地缓存」与「访问模块)」。右侧「分布式缓存服务器n/2/1」「分布式文件服务器n/2/1」「分布式数据库服务器n/2/1」及下方「搜索引擎服务器1」「NoSQL服务器1」各3层堆叠；「统一数据访问模块)」发出5支箭头分别指向缓存簇底边、文件簇左边、数据库簇顶边、搜索引擎顶边、NoSQL顶边。原图无「写操作」「读操作」标注，未补。（blind-new PASS（首轮 FAIL，簇框相交与箭尖入框修复后复验 PASS））"
+   "record": "verification/教材第二轮独立盲核记录-第10章.md",
+   "note": "复原自《系统架构设计师教程（第2版）》印刷页362（物理页371）。图体与图题同页，无跨页拼接。结构：左侧 CDN服务器1、反向代理服务器1（重建页没有编号，依同构原型及相邻阶段补1）、负载均衡调度服务器1 各3层堆叠。负载均衡调度服务器1 共发6支箭头：3支向上指向 B应用服务器1 的3层框左边，3支指向 A 应用服务器1 的3层框左边。中部偏上「B应用服务器1」前框右边发3支箭头，分别指向右侧「分布式服务」簇3层框顶边的右端；B应用服务器1 向下连接消息队列服务器1，A应用服务器1 向右连接分布式服务簇的三层服务器；「A 应用服务器1」簇上方以箭头指向消息队列服务器1 前框底边。「分布式服务」簇（标签为「分布式服务 ii服务器1」「分布式服务1服务器2.」「分布式服务 i 服务器1」，重建页的文字有残形，同构原型《大型网站技术架构》图1.10可辨为分布式服务ii服务器1、分布式服务i服务器2、分布式服务i服务器1）前框内含平行四边形「应用程序」、圆角框「统一数据（换行）访问模块」、波浪底文件框「本地缓存」；「应用程序」以箭头指向「本地缓存」与「访问模块」。右侧「分布式缓存服务器n/2/1」「分布式文件服务器n/2/1」「分布式数据库服务器n/2/1」及下方「搜索引擎服务器1」「NoSQL服务器1」各3层堆叠；「统一数据访问模块」发出5支箭头分别指向缓存簇底边、文件簇左边、数据库簇顶边、搜索引擎顶边、NoSQL顶边。原图无「写操作」「读操作」标注，未补。"
   },
   {
    "id": "tb-fig-0161",
@@ -2268,8 +2268,8 @@
    "asset": "assets/figures/textbook/ch10-architecture-evolution-and-maintenance/figure-10-20.svg",
    "physical_page": 373,
    "printed_page": 364,
-   "record": "verification/教材首轮核查-第10章-软件架构的演化和维护.md",
-   "note": "UML组件图：外框左上角切角标签cmp Component；第一行 User—MainInterface—ClientApplication大框（内含sub1、sub2；ClientApplication框内右上角另有其自身的无标签组件图标；框内delegate接口指向sub1，sub2经接口连LocalDB，另有delegate虚线指向LocalDB）；第二行 User—WebInterface→WebApplication→User（虚线依赖+接口实线）；第三行 RemoteInterface→RemoteApplication→RSInterface→RSApplication→RemoteDB（虚线依赖+接口实线）。各组件矩形内的组件图标位于右下角（ClientApplication 的为框内右上角无标签大图标）；组件间连接处为 ball/socket 接口符号。（blind-b PASS（首轮 FAIL，补组件图标与球/套接口符号等后 blind-b 复验 PASS））"
+   "record": "verification/教材第二轮独立盲核记录-第10章.md",
+   "note": "复原自《系统架构设计师教程（第2版）》印刷页364（物理页373）。UML组件图：外框左上角切角标签cmp Component；第一行 User—MainInterface—ClientApplication大框（内含sub1、sub2；ClientApplication框内右上角另有其自身的无标签组件图标；框内delegate接口指向sub1，sub2经接口连LocalDB，另有delegate虚线指向LocalDB）；第二行 User—WebInterface→WebApplication→User（虚线依赖+接口实线）；第三行 RemoteInterface、RemoteApplication、RSInterface、RSApplication、RemoteDB依次以接口相连；除RemoteApplication与RSInterface之间外，相邻两框另有向右的虚线依赖。各组件矩形内的组件图标位于右下角（ClientApplication 的为框内右上角无标签大图标）；组件间连接处为 ball/socket 接口符号。"
   },
   {
    "id": "tb-fig-0162",
@@ -2282,8 +2282,8 @@
    "asset": "assets/figures/textbook/ch10-architecture-evolution-and-maintenance/figure-t10-03.svg",
    "physical_page": 373,
    "printed_page": 364,
-   "record": "verification/教材首轮核查-第10章-软件架构的演化和维护.md",
-   "note": "原书表格跨页：第一段（物理页373）为指标表头 L/talalE/totalN（talalE 为扫描覆盖页 373 上的原书印刷，原书如此）及指标值 1/19/13，其下为 S/E/X/R/W 列名与 5 个组件行（sub2、sub1、RemoteDB、RSApplication、RSInterface）；第二段（物理页374）顶部标「（续表）」并重复指标表头 L/talalE/totalN，其下为 8 个组件行（RemoteApplication、RemoteInterface、WebApplication、WebInterface、LocalDB、ClientApplication、MainInterface、User），原书第二段不重复 S/E/X/R/W 列名。指标表头 L、talalE、totalN 各为合并格：L 对 S 列，talalE 横跨 E、X 两列，totalN 横跨 R、W 两列；S/E/X/R/W 列边界自其列名行起向下贯通，不穿过指标合并格。（blind-b PASS（首轮 FAIL，指标表头合并格与 373/374 两段续表修复后复验 PASS））"
+   "record": "verification/教材第二轮独立盲核记录-第10章.md",
+   "note": "扫描物理373–374。表分两段，先列全图 L、totalE、totalN 及其值 1、19、13，然后按 S、E、X、R、W 五列列出13个组件。首段表头原印talalE，据正文与算式改为totalE；续页原重复全图量表头，据前页组件表头和数据改为五列组件指标。"
   },
   {
    "id": "tb-fig-0163",
@@ -2296,8 +2296,8 @@
    "asset": "assets/figures/textbook/ch10-architecture-evolution-and-maintenance/figure-t10-04.svg",
    "physical_page": 375,
    "printed_page": 366,
-   "record": "verification/教材首轮核查-第10章-软件架构的演化和维护.md",
-   "note": "表头 FFC/RFC/CBO/LCC/TCC，13 行组件度量结果（LCC/TCC 多为 not applied，仅 ClientApplication 为 3/3），底部汇总块：CCN=8、FFC=46.154、RFC=1.615、CBO=0.219、LCC=3、TCC=3。行名 RcmoteApplication、RcmotcInterface 与 DB、Browser 为扫描覆盖页 375 上的原书印刷（原书如此）。（blind-b PASS（首轮 FAIL，汇总块网格与 TCC 列修复后复验 PASS））"
+   "record": "verification/教材第二轮独立盲核记录-第10章.md",
+   "note": "表10-4，物理375整页扫描。列出13个组件的FFC、RFC、CBO、LCC和TCC，下方汇总六个指标。其中两行Remote组件的拼写按表10-3纠正，RemoteInterface的RFC据S+E+R及图10-23校为2。DB、Browser在结果表有行，和输入组件的对应关系待核。"
   },
   {
    "id": "tb-fig-0164",
@@ -2310,8 +2310,8 @@
    "asset": "assets/figures/textbook/ch10-architecture-evolution-and-maintenance/figure-10-21.svg",
    "physical_page": 376,
    "printed_page": 367,
-   "record": "verification/教材首轮核查-第10章-软件架构的演化和维护.md",
-   "note": "的 FFC 柱状图：13 个模块按度量值从高到低排列，MainInterface=128、RSApplication=128、WebApplication=128、ClientApplication=32、RSInterface=32、RemoteInterface=32、WebInterface=32、Browser=32、RemoteApplication=32、RemoteDB=8、LocalDB=8、DB=8、User=0。（blind-b PASS（首轮 FAIL，title、viewBox 裁切与刻度修复后复验 PASS））"
+   "record": "verification/教材第二轮独立盲核记录-第10章.md",
+   "note": "复原自《系统架构设计师教程（第2版）》的 FFC 柱状图：13 个模块按度量值从高到低排列，MainInterface=128、RSApplication=128、WebApplication=128、ClientApplication=32、RSInterface=32、RemoteInterface=32、WebInterface=32、Browser=32、RemoteApplication=32、RemoteDB=8、LocalDB=8、DB=8、User=0。"
   },
   {
    "id": "tb-fig-0165",
@@ -2324,8 +2324,8 @@
    "asset": "assets/figures/textbook/ch10-architecture-evolution-and-maintenance/figure-10-22.svg",
    "physical_page": 376,
    "printed_page": 367,
-   "record": "verification/教材首轮核查-第10章-软件架构的演化和维护.md",
-   "note": "的 CBO 柱状图：13 个模块按度量值从高到低排列，MainInterface=0.308、RSApplication=0.308、WebApplication=0.308、ClientApplication=0.231、RSInterface=0.231、RemoteInterface=0.231、WebInterface=0.231、Browser=0.231、RemoteApplication=0.231、RemoteDB=0.154、LocalDB=0.154、DB=0.154、User=0.077。（blind-b PASS（同上））"
+   "record": "verification/教材第二轮独立盲核记录-第10章.md",
+   "note": "复原自《系统架构设计师教程（第2版）》的 CBO 柱状图：13 个模块按度量值从高到低排列，MainInterface=0.308、RSApplication=0.308、WebApplication=0.308、ClientApplication=0.231、RSInterface=0.231、RemoteInterface=0.231、WebInterface=0.231、Browser=0.231、RemoteApplication=0.231、RemoteDB=0.154、LocalDB=0.154、DB=0.154、User=0.077。"
   },
   {
    "id": "tb-fig-0166",
@@ -2338,8 +2338,8 @@
    "asset": "assets/figures/textbook/ch10-architecture-evolution-and-maintenance/figure-10-23.svg",
    "physical_page": 377,
    "printed_page": 368,
-   "record": "verification/教材首轮核查-第10章-软件架构的演化和维护.md",
-   "note": "（blind-b PASS（首轮 FAIL，title、横轴标签顺序与 viewBox 修复后复验 PASS））"
+   "record": "verification/教材第二轮独立盲核记录-第10章.md",
+   "note": "复原自《系统架构设计师教程（第2版）》印刷页368（物理页377）的 RFC 柱状图：13 个模块按度量值从高到低排列（左→右），ClientApplication=4、MainInterface=3、RSApplication=2、WebApplication=2、RSInterface=2、RemoteInterface=2、WebInterface=2、Browser=2、RemoteApplication=1、User=1、RemoteDB=0、LocalDB=0、DB=0。"
   },
   {
    "corpus": "textbook",

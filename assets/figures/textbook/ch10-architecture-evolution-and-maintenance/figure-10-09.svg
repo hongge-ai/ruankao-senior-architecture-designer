@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 950" font-family="Liberation Serif, SimSun, 'Noto Serif CJK SC', 'WenQuanYi Zen Hei', 'Droid Sans Fallback', serif" font-size="19">
   <title>图 10-9 演化过程未知时的架构演化评估过程示意图</title>
-  <desc>复原自《系统架构设计师教程（第2版）》印刷页354（物理页363）。左列：演化前架构（文档形状）→架构度量→演化前架构度量结果（平行四边形）；右列同构。两个度量结果斜线汇入下方「比较」大框内的椭圆「架构质量属性变化」；椭圆左下经「推测」连线到椭圆「架构演化操作集合」，右下经「是否符合」连线到椭圆「架构演化驱动因素」；两下椭圆之间水平虚线，旁标「分析」。</desc>
+  <desc>复原自《系统架构设计师教程（第2版）》印刷页354（物理页363）。左列：演化前架构（文档形状）→架构度量→演化前架构度量结果（平行四边形）；右列同构。两个度量结果斜线汇入下方「比较」大框内的椭圆「架构质量属性变化」；椭圆左下经「推测」连线到椭圆「架构演化操作集合」，右下经「是否符合」双向箭头连接椭圆「架构演化驱动因素」；两下椭圆之间水平虚线，旁标「分析」。</desc>
   <defs>
     <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#000"/></marker>
   </defs>
@@ -18,7 +18,7 @@
     <line x1="700" y1="266" x2="700" y2="323" marker-end="url(#ar)"/>
     <polygon points="590,325 870,325 810,425 530,425"/>
     <!-- 比较大框 -->
-    <rect x="80" y="470" width="760" height="460"/>
+    <rect x="70" y="470" width="770" height="460"/>
     <!-- 汇入斜线 -->
     <line x1="220" y1="425" x2="392" y2="562" marker-end="url(#ar)"/>
     <line x1="700" y1="425" x2="468" y2="562" marker-end="url(#ar)"/>
@@ -28,7 +28,7 @@
     <ellipse cx="612" cy="852" rx="155" ry="72"/>
     <!-- 推测 / 是否符合 连线 -->
     <line x1="342" y1="708" x2="268" y2="778" marker-end="url(#ar)"/>
-    <line x1="520" y1="708" x2="594" y2="778" marker-end="url(#ar)"/>
+    <line x1="531" y1="713" x2="594" y2="778" marker-start="url(#ar)" marker-end="url(#ar)"/>
     <!-- 分析虚线 -->
     <line x1="385" y1="852" x2="457" y2="852" stroke-dasharray="6 5" stroke-width="1"/>
   </g>
@@ -44,8 +44,8 @@
     <text x="460" y="465">比较</text>
     <text x="430" y="637">架构质量</text>
     <text x="430" y="665">属性变化</text>
-    <text x="316" y="748">推测</text>
-    <text x="600" y="748">是否符合</text>
+    <text x="277" y="742">推测</text>
+    <text x="615" y="738">是否符合</text>
     <text x="230" y="844">架构演化</text>
     <text x="230" y="872">操作集合</text>
     <text x="420" y="836">分析</text>
