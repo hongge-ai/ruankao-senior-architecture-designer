@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "updated_at": "2026-11-27",
- "note": "勘误登记簿。教材正文页中有 23 页整页扫描覆盖，另有 9 页局部覆盖；按可辨的扫描区域登记。typo 记录已勘正的写法，noted 记录照录且存疑的写法。第 1–9 章原有 137 条登记已逐项复核，9 条有扫描证据，128 条已撤销原书归因。依据及旧记录快照见 verification/教材errata待重核清单.md 和各章迁移记录。第 10 章试点迁移另见 verification/教材errata迁移记录-第10章.md。anchor 是现行正文中的唯一锚点。",
+ "note": "勘误登记簿。typo 记录已勘正的写法，noted 记录保留的存疑写法，anchor 是现行正文中的唯一锚点。历史登记的复核与迁移见 verification/教材errata待重核清单.md 及各章记录；当前校对口径见 AGENTS.md。",
  "entries": [
   {
    "id": "tb-0009",
