@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1100" height="710" viewBox="0 0 1100 710">
   <title>表8-5 易用性质量属性场景描述</title>
-  <desc>复原自 sources/01-系统架构设计师教材 入库扫描件物理页 285(印刷页 276),表题:表8-5 易用性质量属性场景描述。结构:两列(场景要素/可能的情况),表头加粗;响应格11行,含(1)-(5)编号分项与引导行,分行照印面;引号为全角、「(或)」括号为半角,照录;响应度量格2行。</desc>
+  <desc>复原自 sources/01-系统架构设计师教材 入库电子重建页，物理页 285(印刷页 276),表题:表8-5 易用性质量属性场景描述。结构:两列(场景要素/可能的情况),表头加粗;响应格11行,含(1)-(5)编号分项与引导行,分行照印面;引号为全角、「(或)」括号为半角,照录;响应度量格2行。</desc>
   <rect x="0" y="0" width="1100" height="710" fill="#ffffff"/>
   <rect x="40" y="44" width="1020" height="652" fill="none" stroke="#000000" stroke-width="1.5"/>
   <line x1="210" y1="44" x2="210" y2="696" stroke="#000000" stroke-width="1"/>
@@ -26,10 +26,10 @@
   <text x="224" y="393" font-family="WenQuanYi Zen Hei, sans-serif" font-size="15" fill="#000000">数据和(或)命令的聚合；已输入的数据和(或)命令的重用；支持在界面中的有效导航；</text>
   <text x="224" y="423" font-family="WenQuanYi Zen Hei, sans-serif" font-size="15" fill="#000000">具有一致操作的不同视图；全面搜索；多个同时进行的活动</text>
   <text x="224" y="453" font-family="WenQuanYi Zen Hei, sans-serif" font-size="15" fill="#000000">(3)系统提供以下一个或多个响应来“使错误的影响最低”：</text>
-  <text x="224" y="483" font-family="WenQuanYi Zen Hei, sans-serif" font-size="15" fill="#000000">撤销；取消；从系统故障中恢复；识别并纠正用户错误；检索忘记的密码；验证系统资源</text>
+  <text x="224" y="483" font-family="WenQuanYi Zen Hei, sans-serif" font-size="15" fill="#000000">撤销；取消；从系统故障中恢复；识别并纠正用户错误；通过密码重置恢复访问；验证系统资源</text>
   <text x="224" y="513" font-family="WenQuanYi Zen Hei, sans-serif" font-size="15" fill="#000000">(4)系统提供以下一个或多个响应来“适配系统”：</text>
   <text x="224" y="543" font-family="WenQuanYi Zen Hei, sans-serif" font-size="15" fill="#000000">定制能力；国际化</text>
-  <text x="224" y="573" font-family="WenQuanYi Zen Hei, sans-serif" font-size="15" fill="#000000">(5)系统提供以下一个或多个响应来使客户“对系统的满意”：</text>
+  <text x="224" y="573" font-family="WenQuanYi Zen Hei, sans-serif" font-size="15" fill="#000000">(5)系统提供以下一个或多个响应来提高用户对系统的满意度：</text>
   <text x="224" y="603" font-family="WenQuanYi Zen Hei, sans-serif" font-size="15" fill="#000000">显示系统状态；与客户的节奏合拍</text>
   <line x1="40" y1="620" x2="1060" y2="620" stroke="#000000" stroke-width="1"/>
   <text x="125" y="664" text-anchor="middle" font-family="WenQuanYi Zen Hei, sans-serif" font-size="15" fill="#000000">响应度量</text>
