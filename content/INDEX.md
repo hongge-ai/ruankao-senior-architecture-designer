@@ -46,7 +46,7 @@ AI 知识库索引的唯一取数根目录。原始材料在 [`sources/`](../sou
 | `order` | 章节序号，前言为 0；节为章内序号；学习手册为建议学习顺序 | 大纲、教材、学习手册 |
 | `derivation` / `authority` | 学习资料固定为 `ai-assisted` / `unofficial`，包括系列索引 | 核心考点精要 |
 | `parent` | 所属章的 `id` | 教材节 |
-| `source_pages` | 原书印刷页范围，可回溯核对 | 教材章、节 |
+| `source_pages` | 印刷页范围，可回溯核对 | 教材章、节 |
 | `year` / `session` / `subject` | 年份、场次（`h1`/`h2`）、科目（`comprehensive`/`case-analysis`/`essay`） | 真题 |
 
 字段取值由 [catalog/corpora.json](../catalog/corpora.json) 约束，并由
@@ -56,7 +56,7 @@ AI 知识库索引的唯一取数根目录。原始材料在 [`sources/`](../sou
 
 第三方清洗稿来自 OCR 与人工整理；核心考点精要是 AI 辅助编写的学习摘要。它们**不是官方教材、官方题库或官方答案**，可能含错字、断句、
 题量差异与未经确认的答案。教材正文引用的 343 幅复原 SVG 已入库，并登记于[图表登记簿](../catalog/figures.json)。
-未复原或缺少原图的位置只保留图题与正文说明。
+无法从现有 PDF、OCR 文本和上下文确定图表整体结构时，保留图题与正文说明。
 
 权利边界见 [AGENTS.md 的「内容与权利政策」](../AGENTS.md#内容与权利政策)，
 来源与派生关系见 [DATA_SOURCES.md](../DATA_SOURCES.md)。
