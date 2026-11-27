@@ -28,9 +28,9 @@ ISBN `978-7-302-61992-5`）的**源 PDF**。该文件已按 2026-09 治理决定
 - **多数页面不是扫描图像**：页面可见文字是 OCR 文本层重排结果，不是原书扫描字迹；抽样页的背景栅格图只含插图线条与页角装饰（如物理 340/343 为空白，364 只有图形线条）。因此该 PDF 的多数页面只能作为「OCR 重建文本」使用，不能作为教材「清洗稿 vs 扫描件图像」核查的证据。
 - **正文页扫描覆盖范围**：整页覆盖 23 页（物理 23、112、129、163、168、238、240、294、295、316、317、319、341、342、344、373、374、375、468、469、564、706、708）；局部覆盖 9 页（物理 165、173、224、234、235、237、239、464、657），仅图像对象内可辨区域可作扫描证据。详见 [verification/源文件身份核查-教材PDF为OCR重建文本.md](../../verification/源文件身份核查-教材PDF为OCR重建文本.md)。
 - 本文件已归档到维护者私有仓库
-  [ruankao-senior-architecture-designer-sources](https://github.com/YoungHong1992/ruankao-senior-architecture-designer-sources)
+  [ruankao-senior-architecture-designer-sources](https://github.com/hongge-ai/ruankao-senior-architecture-designer-sources)
   的 `01-系统架构设计师教程(第2版).pdf`，固定提交号见 DATA_SOURCES.md 的「源 PDF 私有归档清单」。
-- 页内插图以整页图像形式存在，可按页裁切；补画图表的前置条件见
+- 页内插图线条来自页面背景栅格图，图内标签为 OCR 文本。复原时须对照页面渲染图逐项核对并标注不确定性。补画图表的前置条件见
   [AGENTS.md 的「图表与公式处理」](../../AGENTS.md#图表与公式处理)与
   [verification/待重画图表清单.md](../../verification/待重画图表清单.md)。
 

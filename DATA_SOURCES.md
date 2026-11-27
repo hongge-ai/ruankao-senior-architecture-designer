@@ -48,7 +48,7 @@
 
 ### 源 PDF 私有归档清单
 
-`PDF文档资料/` 下 13 个本地源 PDF 已归档到维护者私有仓库 [YoungHong1992/ruankao-senior-architecture-designer-sources](https://github.com/YoungHong1992/ruankao-senior-architecture-designer-sources)（固定提交 `ec48c6382ae94d41969905ab4f5c9191e9bafd7c`，2026-09-21 记录）。下表校验值对应该提交中的文件字节；除已注明者外，11 份辅导材料的精确来源未记录，后续找到证据时再补录。
+`PDF文档资料/` 下 13 个本地源 PDF 已归档到维护者私有仓库 [hongge-ai/ruankao-senior-architecture-designer-sources](https://github.com/hongge-ai/ruankao-senior-architecture-designer-sources)（固定提交 `ec48c6382ae94d41969905ab4f5c9191e9bafd7c`，2026-09-21 记录）。下表校验值对应该提交中的文件字节；除已注明者外，11 份辅导材料的精确来源未记录，后续找到证据时再补录。
 
 `00-` 与 `01-` 两份已于 2026-09-21 替换为删除冗余页与重复页后的修订版，与上文「当前持有的源 PDF」表指向同一文件。被替换的旧版校验值为 `0fb39827f11b636847f4969a49732134fd984eddbba09cb8ecc9bfa727986a3b`（大纲 75 页）与 `bc654a2c2cc8f7bcc81920d726955d959570062101570c564e19421b3e144cf4`（教材），仅作历史记录，归档仓库中已不再保留这两份旧文件。
 

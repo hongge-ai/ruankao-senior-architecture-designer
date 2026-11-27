@@ -33,7 +33,7 @@
 
 - `content/INDEX.md` — 正文层根导航，链接各语料的 `INDEX.md` 与真题总索引。
 - `content/02-历年真题总索引.md` — 人工/AI 查询真题的统一入口，规定每卷的“首选文件”。
-- `catalog/corpora.json`（schema 1）— 语料总清单：层根、各语料的 content_root/source_roots、各 `kind` 的期望文档数、真题不变量（36/17/90/53）、已入库源 PDF 的路径、字节数与 SHA-256。教材的 `blind_checked_chapters` 指定同父标题不得重号的门禁范围，目前列入第 1–9 章。完整复核进度见[教材逐章核查结果](verification/README.md#教材逐章核查结果)。**数量类断言一律从总清单读取。**
+- `catalog/corpora.json`（schema 1）— 语料总清单：层根、各语料的 content_root/source_roots、各 `kind` 的期望文档数、真题不变量（36/17/90/53）、已入库源 PDF 的路径、字节数与 SHA-256。教材的 `blind_checked_chapters` 指定同父标题不得重号的门禁范围，目前已覆盖全书第 1–20 章。完整复核进度见[教材逐章核查结果](verification/README.md#教材逐章核查结果)。**数量类断言一律从总清单读取。**
 - `catalog/exams.json`（schema 4）— 真题 manifest：36 份 canonical、90 份 source_versions 路径、来源目录与同名冲突映射。校验器断言 manifest、两份索引、正文与 frontmatter 的 `id` 彼此一致。
 - `catalog/errata.json`（schema 1）登记原书写法、勘正写法、物理页与印刷页以及核查记录。证据要求和存疑项处理见[内容治理红线](#内容治理红线)。
 - `catalog/figures.json`（schema 1）— 图表登记簿：核查时对照源 PDF 页面原图逐项转录复原的图（图号、标题、表示形式 `svg`、物理页/印刷页、核查记录链接）；校验器断言每条锚点（图题）在正文中恰好出现一次。
