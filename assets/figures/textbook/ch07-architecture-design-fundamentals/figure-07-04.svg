@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="420" height="490" viewBox="0 0 420 490">
   <title>图7-4体系结构设计过程</title>
-  <desc>复原自 sources/01-系统架构设计师教材 入库扫描件物理页 265（印刷页 256），图题：图7-4体系结构设计过程（原书编号后无空格）。竖排五个矩形框自上而下以实线箭头直连：提出体系结构模型、映射构件、分析构件相互作用、产生体系结构、设计评审。左侧虚线回路自「设计评审」左边缘向左、向上，末端箭头指入「映射构件」左边缘，回路中段标注 0:N。无虚框、无圆柱、无其他记号。</desc>
+  <desc>五项设计活动顺次执行，设计评审可返回映射构件。</desc>
   <defs>
     <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7.5" markerHeight="7.5" orient="auto-start-reverse">
       <path d="M0,0 L10,5 L0,10 Z" fill="#000"/>

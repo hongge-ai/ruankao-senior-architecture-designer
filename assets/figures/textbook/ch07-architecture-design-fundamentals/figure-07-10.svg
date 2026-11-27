@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 520" width="640" height="520" role="img" aria-labelledby="fig07-10-title fig07-10-desc">
   <title id="fig07-10-title">图7-10 层次型体系结构风格</title>
-  <desc id="fig07-10-desc">复原自 sources/01-系统架构设计师教材 入库扫描件物理页 270（印刷页 261），图题：图7-10　层次型体系结构风格。结构要点：三重同心圆细线，由外至内标注「用户系统」（文字横跨外环顶部，环线断开让字）、「基本工具」（横跨中环顶部，断开）、「核心层」（居内环内部，内环顶部断开）。右上标签「过程调用」引 2 条平行斜细线左下向，箭头分别止于基本工具右侧（中环顶部）与内环顶部偏右；右下标签「各种构件」引 3 条平行斜细线左上向，箭头分别止于内环右侧近核心层、中环内下、中环外缘底部。无其他连线，无双向箭头。</desc>
+  <desc id="fig07-10-desc">三个同心层：用户系统、基本工具和核心层。右侧标出过程调用与各种构件。</desc>
   <defs>
     <marker id="fig07-10-ah" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0.5,0.8 L9.5,5 L0.5,9.2 Z" fill="#000000"/></marker>
   </defs>

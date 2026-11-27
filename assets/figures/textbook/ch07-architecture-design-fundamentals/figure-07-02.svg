@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="420" height="530" viewBox="0 0 420 530">
   <title>图7-2 体系结构开发模型</title>
-  <desc>复原自 sources/01-系统架构设计师教材 入库扫描件物理页 264（印刷页 255），图题：图7-2 体系结构开发模型。竖排六个矩形框自上而下以实线箭头直连：体系结构需求、体系结构设计、体系结构文档化、体系结构复审、体系结构实现、体系结构演化。左侧虚线自「体系结构需求」左边缘水平引出、沿左向下接入「体系结构演化」左边缘，中段标注 0:M；右侧虚线自「体系结构设计」右边缘引出、沿右向下接入「体系结构复审」右边缘，中段标注 0:N。两条虚线回路原书未印箭头，照录无箭头。</desc>
+  <desc>六阶段由上到下。复审可返回设计，演化可返回需求；两个虚线回路分别标有 0:N 和 0:M。</desc>
   <defs>
     <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7.5" markerHeight="7.5" orient="auto-start-reverse">
       <path d="M0,0 L10,5 L0,10 Z" fill="#000"/>
@@ -13,10 +13,10 @@
     <line x1="210" y1="242" x2="210" y2="276" marker-end="url(#ah)"/>
     <line x1="210" y1="322" x2="210" y2="356" marker-end="url(#ah)"/>
     <line x1="210" y1="402" x2="210" y2="436" marker-end="url(#ah)"/>
-    <!-- 左虚线回路：需求至演化，两端无箭头 -->
-    <path d="M110,61 H62 V461 H110" stroke-dasharray="6,4"/>
-    <!-- 右虚线回路：设计至复审，两端无箭头 -->
-    <path d="M310,141 H358 V301 H310" stroke-dasharray="6,4"/>
+    <!-- 左虚线回路：需求至演化，回到左侧起点 -->
+    <path d="M110,461 H62 V61 H108" stroke-dasharray="6,4" marker-end="url(#ah)"/>
+    <!-- 右虚线回路：设计至复审，回到左侧起点 -->
+    <path d="M310,301 H358 V141 H312" stroke-dasharray="6,4" marker-end="url(#ah)"/>
   </g>
   <g fill="none" stroke="#000" stroke-width="1.4">
     <rect x="110" y="40" width="200" height="42"/>

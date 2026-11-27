@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 550" width="880" height="550" role="img" aria-labelledby="fig07-12-title fig07-12-desc">
   <title id="fig07-12-title">图7-12 三层 C/S 体系结构风格</title>
-  <desc id="fig07-12-desc">复原自 sources/01-系统架构设计师教材 入库扫描件物理页 271（印刷页 262），图题：图7-12　三层 C/S 体系结构风格（C/S 两侧有空格）。结构要点：顶部数据库圆柱内标「数据库」；其下垂直素线下接水平母线，母线两端下行分别接两台服务器塔（机箱简笔画，塔身绘左右分栏与格栅细节），塔下标签「应用服务器1」「应用服务器2」（阿拉伯数字 1、2）；每台服务器下另有小母线分接 3 台工作站简笔画，各标「工作站」共 6 处。全部连线为无箭头素线。</desc>
+  <desc id="fig07-12-desc">一个数据库、两台应用服务器，每台应用服务器各连接三个工作站。</desc>
   <rect width="880" height="550" fill="#ffffff"/>
   <g font-family="SimSun, 'Noto Serif CJK SC', 'WenQuanYi Zen Hei', serif" fill="#000000">
     <!-- 数据库圆柱 -->

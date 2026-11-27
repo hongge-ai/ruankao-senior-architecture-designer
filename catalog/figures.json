@@ -1344,8 +1344,8 @@
    "asset": "assets/figures/textbook/ch07-architecture-design-fundamentals/figure-07-01.svg",
    "physical_page": 263,
    "printed_page": 254,
-   "record": "verification/教材首轮核查-第07章-系统架构设计基础知识.md",
-   "note": "三层树形+右下图例：顶层大圆（左标签「系统」）；第2层 2 圆（标签「概念子系统」）+1 矩形（右标签「模板」）；第3层 4 圆（标签「概念构件」）+1 矩形（标签「模板」，两矩形空框照录）。圆—圆连线子端实心点、父端箭头（继承式）；矩形端空心圈、父端箭头（聚合式）；上下矩形竖连线上端实心点、下端空心点、无箭头；第3层 4 圆各引虚线下穿横贯实线、箭头朝下指「实际构件」。图例区：标题「图示」+聚合/继承/进化三行样例。正文图引为「设计元素如图7-1所示」，图题却作「ABSD方法过程」，原书自身不一，照录。干净上下文盲比 PASS（图题行按仓库惯例留在正文）。"
+   "record": "verification/教材OCR纠错记录-第7章.md",
+   "note": "系统下分两概念子系统和模板，概念子系统下有四个概念构件，分隔线下表示实际构件。图例区分聚合、继承和进化。"
   },
   {
    "id": "tb-fig-0096",
@@ -1358,8 +1358,8 @@
    "asset": "assets/figures/textbook/ch07-architecture-design-fundamentals/figure-07-02.svg",
    "physical_page": 264,
    "printed_page": 255,
-   "record": "verification/教材首轮核查-第07章-系统架构设计基础知识.md",
-   "note": "6 框竖排实线箭头直下：体系结构需求→设计→文档化→复审→实现→演化。左侧虚线连需求—演化（标注 0:M）、右侧虚线连设计—复审（标注 0:N），两端均无箭头——原书未印箭头、回路方向图面不可辨，照录不补（无法判定项，SVG desc 已注明）。盲比 PASS。"
+   "record": "verification/教材OCR纠错记录-第7章.md",
+   "note": "六阶段由上到下。复审可返回设计，演化可返回需求；两个虚线回路分别标有 0:N 和 0:M。"
   },
   {
    "id": "tb-fig-0097",
@@ -1372,8 +1372,8 @@
    "asset": "assets/figures/textbook/ch07-architecture-design-fundamentals/figure-07-03.svg",
    "physical_page": 265,
    "printed_page": 256,
-   "record": "verification/教材首轮核查-第07章-系统架构设计基础知识.md",
-   "note": "5 框竖排箭头直下：需求获取→生成类图→对类进行分组→把类打包成构件→需求评审；右上圆柱「需求库」箭头指入需求获取右缘；中部虚框套中间三框、右侧竖排标签「标识构件」；左虚线回路自需求评审指入需求获取，标注 0:N。盲比 PASS。"
+   "record": "verification/教材OCR纠错记录-第7章.md",
+   "note": "需求库连向需求获取；虚框内先生成类图，再分组、打包。需求评审可返回需求获取。"
   },
   {
    "id": "tb-fig-0098",
@@ -1386,8 +1386,8 @@
    "asset": "assets/figures/textbook/ch07-architecture-design-fundamentals/figure-07-04.svg",
    "physical_page": 265,
    "printed_page": 256,
-   "record": "verification/教材首轮核查-第07章-系统架构设计基础知识.md",
-   "note": "5 框竖排箭头直下：提出体系结构模型→映射构件→分析构件相互作用→产生体系结构→设计评审；左虚线回路自设计评审指入映射构件，标注 0:N。原书图题「图7-4」后无空格。盲比 PASS。"
+   "record": "verification/教材OCR纠错记录-第7章.md",
+   "note": "五项设计活动顺次执行，设计评审可返回映射构件。"
   },
   {
    "id": "tb-fig-0099",
@@ -1400,8 +1400,8 @@
    "asset": "assets/figures/textbook/ch07-architecture-design-fundamentals/figure-07-05.svg",
    "physical_page": 267,
    "printed_page": 258,
-   "record": "verification/教材首轮核查-第07章-系统架构设计基础知识.md",
-   "note": "顶框「复审后的文档化的/体系结构」→虚框套 4 框（分析与设计→构件实现→构件组装→系统测试）→底框「体系结构演化」；「构件库」圆柱整体位于虚框内部（首版误画在框外，盲比 FAIL 后按原书改正复验 PASS），两箭头分别指入分析与设计、构件组装，不与虚框相交。原书图题编号后无空格。"
+   "record": "verification/教材OCR纠错记录-第7章.md",
+   "note": "复审后的体系结构说明指导分析设计、构件实现、构件组装和系统测试；构件库支持分析设计与组装。"
   },
   {
    "id": "tb-fig-0100",
@@ -1414,8 +1414,8 @@
    "asset": "assets/figures/textbook/ch07-architecture-design-fundamentals/figure-07-06.svg",
    "physical_page": 267,
    "printed_page": 258,
-   "record": "verification/教材首轮核查-第07章-系统架构设计基础知识.md",
-   "note": "7 框竖排箭头直下：需求变化归类→体系结构演化计划→构件变动→更新构件的相互作用→构件组装与测试→技术评审→演化后的体系结构；右「构件库」圆柱箭头指入构件变动；左虚线回路自技术评审指入演化计划，回路标注原书紧排印作「0N」（0 与 N 粘连，是否印有冒号 20× 复测不可辨，照录不补写 0:N）。盲比 PASS。"
+   "record": "verification/教材OCR纠错记录-第7章.md",
+   "note": "需求变化归类后形成计划；技术评审可返回计划，构件库供构件变动使用。"
   },
   {
    "id": "tb-fig-0101",
@@ -1428,8 +1428,8 @@
    "asset": "assets/figures/textbook/ch07-architecture-design-fundamentals/figure-07-07.svg",
    "physical_page": 269,
    "printed_page": 260,
-   "record": "verification/教材首轮核查-第07章-系统架构设计基础知识.md",
-   "note": "主线：磁带→验证→磁带→排序→磁带→更新→磁带→打印→输出（框间磁带标签+右向箭头）；顶部「数据转换」3 条下行斜箭头入排序/更新/打印框顶左；底部「数据流」3 条上行斜箭头停于主链水平线段（验证左侧输入段、验证—排序段、排序—更新段近框左缘处）——首版误落框底，盲比 FAIL 后按原书改正，复验 PASS。"
+   "record": "verification/教材OCR纠错记录-第7章.md",
+   "note": "验证、排序、更新和打印串联，各步之间经磁带传递数据。"
   },
   {
    "id": "tb-fig-0102",
@@ -1442,8 +1442,8 @@
    "asset": "assets/figures/textbook/ch07-architecture-design-fundamentals/figure-07-08.svg",
    "physical_page": 269,
    "printed_page": 260,
-   "record": "verification/教材首轮核查-第07章-系统架构设计基础知识.md",
-   "note": "清洗稿原注「原图略」系误判，原书实有此图（40× 复核）。6 个矩形框内全部空白（原书形态照录，不补写文字）：输入→A→分叉并联 B1/B2→汇合→C→D→输出①；B2 右缘引长横线自 C、D 框下方穿过→E→输出②；E 底部回环沿图底左行、上行后以右向箭头入 B2 底左角（E→B2 反馈）。盲比 PASS（回环挂接角扫描模糊，拓扑一致）。"
+   "record": "verification/教材OCR纠错记录-第7章.md",
+   "note": "六个过滤器以有向管道连接，图中有分支、汇合和反馈。"
   },
   {
    "id": "tb-fig-0103",
@@ -1456,8 +1456,8 @@
    "asset": "assets/figures/textbook/ch07-architecture-design-fundamentals/figure-07-09.svg",
    "physical_page": 270,
    "printed_page": 261,
-   "record": "verification/教材首轮核查-第07章-系统架构设计基础知识.md",
-   "note": "5 个「对象」圆+2 支空心块箭头（抽象数据类型→右上圆右下缘；过程调用→止于中央与左下圆间空白）。细箭头经三轮盲比/复验定案共 7 支：左上→右上水平 1；左上→中央平行斜线 2（入左缘上、下两点）；左上底部→右下对象平行斜线 2（穿过中央对象下方）；中央底部→左下对象平行斜线 2；下行线在中央左下方交叉成 X。原书图题「图7-9」后无空格。复验 PASS（bv2）。"
+   "record": "verification/教材OCR纠错记录-第7章.md",
+   "note": "五个对象、七条过程调用箭头。左上对象调用右上及中央对象；中央对象分别调用左下和右下对象。两支空心箭头标示对象类型与过程调用。"
   },
   {
    "id": "tb-fig-0104",
@@ -1470,8 +1470,8 @@
    "asset": "assets/figures/textbook/ch07-architecture-design-fundamentals/figure-07-10.svg",
    "physical_page": 270,
    "printed_page": 261,
-   "record": "verification/教材首轮核查-第07章-系统架构设计基础知识.md",
-   "note": "三重同心圆（环线断开让字：用户系统/基本工具/核心层）；右上「过程调用」2 条斜线箭头、右下「各种构件」3 条斜线箭头分别射入各环。盲比 PASS（内圈开口弧长与最深箭头落点深度为版式差异不计）。"
+   "record": "verification/教材OCR纠错记录-第7章.md",
+   "note": "三个同心层：用户系统、基本工具和核心层。右侧标出过程调用与各种构件。"
   },
   {
    "id": "tb-fig-0105",
@@ -1484,8 +1484,8 @@
    "asset": "assets/figures/textbook/ch07-architecture-design-fundamentals/figure-07-11.svg",
    "physical_page": 270,
    "printed_page": 261,
-   "record": "verification/教材首轮核查-第07章-系统架构设计基础知识.md",
-   "note": "插画型：主机简笔画（标签 OS:UNIX/主机）+3 台终端简笔画（各标「终端」），3 条无箭头素线放射连接。盲比 PASS。"
+   "record": "verification/教材OCR纠错记录-第7章.md",
+   "note": "一台 UNIX 主机与三台终端相连。"
   },
   {
    "id": "tb-fig-0106",
@@ -1498,8 +1498,8 @@
    "asset": "assets/figures/textbook/ch07-architecture-design-fundamentals/figure-07-12.svg",
    "physical_page": 271,
    "printed_page": 262,
-   "record": "verification/教材首轮核查-第07章-系统架构设计基础知识.md",
-   "note": "数据库圆柱→母线→双服务器塔（应用服务器1/2，阿拉伯数字照录）→各 3 台工作站（共 6，各标「工作站」）；全部连线为无箭头素线。盲比 PASS（服务器—工作站竖线原书被标签遮挡，无法判定，渲染连续画法与残段吻合）。"
+   "record": "verification/教材OCR纠错记录-第7章.md",
+   "note": "一个数据库、两台应用服务器，每台应用服务器各连接三个工作站。"
   },
   {
    "id": "tb-fig-0107",
@@ -1512,8 +1512,8 @@
    "asset": "assets/figures/textbook/ch07-architecture-design-fundamentals/figure-07-13.svg",
    "physical_page": 271,
    "printed_page": 262,
-   "record": "verification/教材首轮核查-第07章-系统架构设计基础知识.md",
-   "note": "中央圆角框内「仓 库」（二字间空档照录）+周围 8 个空椭圆（原书无字照录），每椭圆与中央框间一条双向细箭头（上下三列斜向、左右两列水平）。盲比 PASS。"
+   "record": "verification/教材OCR纠错记录-第7章.md",
+   "note": "八个外部构件分别与中央仓库交换数据。"
   },
   {
    "id": "tb-fig-0108",
@@ -1526,8 +1526,8 @@
    "asset": "assets/figures/textbook/ch07-architecture-design-fundamentals/figure-07-14.svg",
    "physical_page": 272,
    "printed_page": 263,
-   "record": "verification/教材首轮核查-第07章-系统架构设计基础知识.md",
-   "note": "带左右厚侧板的黑板框，内两行「黑板」「(共享数据)」；四周 4 个「知识源」胶囊，上/左/右三向双向细箭头，下胶囊悬空无连线（原书如此）；「计算」发 2 条细单箭头（入上胶囊右缘、右胶囊顶缘）；「直接存取」「内存」各 1 支空心块箭头抵黑板右上/右下角。原书图题编号后无空格。盲比 PASS。"
+   "record": "verification/教材OCR纠错记录-第7章.md",
+   "note": "中央黑板保存共享数据，四周为知识源。左、上、右三个知识源画有双向存取连接，底部知识源在页图中未画连接线。"
   },
   {
    "id": "tb-fig-0109",
@@ -1540,8 +1540,8 @@
    "asset": "assets/figures/textbook/ch07-architecture-design-fundamentals/figure-07-15.svg",
    "physical_page": 272,
    "printed_page": 263,
-   "record": "verification/教材首轮核查-第07章-系统架构设计基础知识.md",
-   "note": "矩形「程序执行的当前状态」（左上）、「被解释执行的程序」（右上）、「解释器引擎的内部状态」（右下）、圆「解释器引擎」（中下）；细箭头含状态框↔引擎双竖线对（左线上行、右线下行）、「输入」入状态框、引擎→「输出」、状态框→内部状态框长斜线、被解释的程序→内部状态框竖线、「选择的指令/选择的数据」左箭头入引擎右缘+右素线接内部状态框；空心块箭头 4 支（计算状态机、存储器×2、下方大箭头）；标签「数据存储」「获取/存储」。原书图题编号后无空格。盲比 PASS（中部空心箭头杆身倾角为版式差异；数据存储/获取存储间极小浅色记号无法判定，未转录）。"
+   "record": "verification/教材新版第二轮独立盲核记录-第07章.md",
+   "note": "解释引擎与程序当前状态交换数据，内部状态向引擎提供选定的指令和数据。存储器标签以三支粗箭头分别指出程序状态、被解释程序和引擎内部状态。 右上方的短线标注存储位置。"
   },
   {
    "id": "tb-fig-0110",
@@ -1554,8 +1554,8 @@
    "asset": "assets/figures/textbook/ch07-architecture-design-fundamentals/figure-07-16.svg",
    "physical_page": 273,
    "printed_page": 264,
-   "record": "verification/教材首轮核查-第07章-系统架构设计基础知识.md",
-   "note": "「工作内存」矩形；右上知识库双线外框内含并列矩形「规则集」「事实集」；圆角矩形「规则解释器」；矩形「规则/数据选择」——框内无「器」字，与正文「规则/数据选择器」不一致，原书原貌照录。连线：输入→工作内存；数据↓/更新↑（工作内存↔规则解释器）；触发数据（工作内存→规则/数据选择）；规则/事实（知识库→规则/数据选择）；被选择的规则/被选择的数据（规则/数据选择→规则解释器）；输出（规则解释器左出）。盲比 PASS。"
+   "record": "verification/教材OCR纠错记录-第7章.md",
+   "note": "知识库由规则集和事实集组成。工作内存及知识库向选择器提供信息，规则解释器读取选定的规则与数据，并更新工作内存。"
   },
   {
    "id": "tb-fig-0111",
@@ -1568,8 +1568,8 @@
    "asset": "assets/figures/textbook/ch07-architecture-design-fundamentals/figure-07-17.svg",
    "physical_page": 274,
    "printed_page": 265,
-   "record": "verification/教材首轮核查-第07章-系统架构设计基础知识.md",
-   "note": "圆「事件源/Event/Source」→(发布)→椭圆「事件Event」→圆柱「事件管理器/Event Manager」→(分发/或/通知)三线扇出、各经椭圆「事件Event」入 3 个处理器圆（圆内文字照录：「事件/处理器，」全角逗号、「Event/Handler」、「Event/Handler,」半角逗号——原书如此）；原书圆左上星形装饰及右列圆右上灰色装饰形不转录。原书图题编号后无空格。盲比 PASS。"
+   "record": "verification/教材新版第二轮独立盲核记录-第07章.md",
+   "note": "事件源发布事件，事件管理器将其分发给三个处理器。星形、三角形、圆角矩形和六边形是页图中区分节点的标记。 管理器按页图绘为横向圆柱。"
   },
   {
    "id": "tb-fig-0112",
@@ -1582,8 +1582,8 @@
    "asset": "assets/figures/textbook/ch07-architecture-design-fundamentals/figure-07-18.svg",
    "physical_page": 275,
    "printed_page": 266,
-   "record": "verification/教材首轮核查-第07章-系统架构设计基础知识.md",
-   "note": "三节点同一水平中线：左椭圆「构造可复用资产」→中部网格纹圆柱「可复用资产库」（柱身叠白底标签框）→右椭圆「复用这些资产」；两条水平向右单箭头，标签「入库」「选择/定制/组装」（斜杠均在，30× 核）在箭头上方；无虚框无分叉。圆柱填充纹理精确图案与线条灰阶无法判定，按浅灰近似复原。盲比 PASS。"
+   "record": "verification/教材OCR纠错记录-第7章.md",
+   "note": "三节点：构造可复用资产、可复用资产库、复用这些资产，两箭头从左向右，分别标入库、选择/定制/组装。第二箭头已实接椭圆；浅色纹理为近似。"
   },
   {
    "id": "tb-fig-0113",
@@ -1596,8 +1596,8 @@
    "asset": "assets/figures/textbook/ch07-architecture-design-fundamentals/figure-07-19.svg",
    "physical_page": 279,
    "printed_page": 270,
-   "record": "verification/教材首轮核查-第07章-系统架构设计基础知识.md",
-   "note": "三个实线椭圆纵排：领域开发环境／领域特定的应用开发环境／应用执行环境（底层数字 28× 核为「执行」）；左列「领域构架师」（第 3–4 字原书叠印，按图内「构架」标签同版字形判读）／应用工程师／操作员各水平右向单箭头指入对应椭圆左顶点；顶两椭圆间 5 条竖直向下单箭头、左侧竖排标签自左向右：参考结构/参考需求/构架/领域模型/开发工具；中下椭圆间 1 条向下单箭头、右侧两行标签「实例化的体/系结构」；无虚框无双向箭头。盲比 PASS。"
+   "record": "verification/教材OCR纠错记录-第7章.md",
+   "note": "三个环境、三个角色及五条向下输入线，另有一条实例化体系结构下行线；已实际栅格化。重建页首条竖签作“参考结核”，按上下文保留成品“参考结构”；左上部分文字重叠，按图内“构架”读作“领域构架师”。"
   },
   {
    "id": "tb-fig-0114",
