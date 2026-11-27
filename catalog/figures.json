@@ -826,8 +826,8 @@
    "asset": "assets/figures/textbook/ch03-information-system-fundamentals/figure-03-04.svg",
    "physical_page": 128,
    "printed_page": 119,
-   "record": "verification/教材OCR纠错记录-第3章.md",
-   "note": "四个信息部件，管理者与处理器双向。"
+   "record": "verification/教材新版第二轮独立盲核记录-第03章.md",
+   "note": "四个信息部件，管理者与处理器双向。 两条斜线均含返回管理节点的箭头。"
   },
   {
    "id": "tb-fig-0059",
@@ -980,7 +980,7 @@
    "asset": "assets/figures/textbook/ch03-information-system-fundamentals/figure-03-03.svg",
    "physical_page": 126,
    "printed_page": 117,
-   "record": "verification/教材OCR纠错记录-第3章.md",
+   "record": "verification/教材新版第二轮独立盲核记录-第03章.md",
    "note": "叠层文档（账目）左行折角下行入「自动输入/并分类」框顶；框→事务文件圆柱→对账处理框（「账」字经 10× 字形比对确认）→储户文件（右上斜）、其他报表（近水平略上斜）；主文件圆柱顶垂直上行入框底；框右下角斜入「修改后的/主文件」圆柱。七条线全实线单箭头。文档叠层与圆柱以简化图形表示。账目凭证前页的波浪形下缘已补回。"
   },
   {
@@ -1022,8 +1022,8 @@
    "asset": "assets/figures/textbook/ch03-information-system-fundamentals/figure-03-08.svg",
    "physical_page": 129,
    "printed_page": 120,
-   "record": "verification/教材OCR纠错记录-第3章.md",
-   "note": "三个计划阶段向外的双端箭头，十二个编号子系统，8为工厂监督。"
+   "record": "verification/教材新版第二轮独立盲核记录-第03章.md",
+   "note": "三个计划阶段向外的双端箭头，十二个编号子系统，8为工厂监督。 从 1 至 5 的竖线穿过横线，交叉处无连接点。"
   },
   {
    "id": "tb-fig-0073",
@@ -1134,7 +1134,7 @@
    "asset": "assets/figures/textbook/ch03-information-system-fundamentals/figure-03-16.svg",
    "physical_page": 146,
    "printed_page": 137,
-   "record": "verification/教材OCR纠错记录-第3章.md",
+   "record": "verification/教材新版第二轮独立盲核记录-第03章.md",
    "note": "实渲比对：外部顶、底各5框，内部左列3框、计划链3框、管理4框。顶底与主框双向，内部支线和计划链的方向与页图吻合。中行第二框只可辨“级生产计划”，保留可辨部分，并在正文图下提示。"
   },
   {
