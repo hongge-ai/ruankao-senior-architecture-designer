@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1180" height="780" viewBox="0 0 1180 780" font-family="sans-serif">
   <title>图 1-1 传统MIS系统软件架构</title>
-  <desc>复原自《系统架构设计师教程（第2版）》印刷页 7（物理页 16）插图。MIS系统含四个子系统列（OCRM系统、资金管理系统、资产风险系统、……系统），各列自上而下为业务流程、业务构件、EOS 系中间件与平台层；四列经 ESB-WebSphere Message Broker（传输服务、事件服务、中转服务、服务路由目录库）连接主机、交易系统与服务注册管理中心，连线均为双向箭头。业务流程与业务构件区内的示意性图形未转录。</desc>
+  <desc>复原自《系统架构设计师教程（第2版）》印刷页 7（物理页 16）插图。MIS系统含四个子系统列（OCRM系统、资金管理系统、资产风险系统、……系统），各列自上而下为业务流程、业务构件、EOS 系中间件与平台层；四列经 ESB-WebSphere Message Broker（传输服务、事件服务、中转服务、服务路由目录库）连接主机、交易系统与服务注册管理中心，连线均为双向箭头。列中复原业务流程、分支和业务构件示意块。</desc>
   <rect width="1180" height="780" fill="#ffffff"/>
 
   <!-- MIS 系统总框 -->
@@ -98,4 +98,70 @@
   <rect x="908" y="640" width="140" height="110" fill="#eef3fb" stroke="#7d8da5" stroke-width="1.5"/>
   <text x="978" y="687" text-anchor="middle" font-size="17" fill="#1f2937">服务注册</text>
   <text x="978" y="714" text-anchor="middle" font-size="17" fill="#1f2937">管理中心</text>
+  <path d="M142 170L162 170" stroke="#567689" fill="none"/>
+  <path d="M158 167l4 3 -4 3" fill="none" stroke="#567689"/>
+  <rect x="130" y="163" width="12" height="14" rx="2" fill="#dceaf4" stroke="#638398"/>
+  <path d="M174 170L194 170" stroke="#567689" fill="none"/>
+  <path d="M190 167l4 3 -4 3" fill="none" stroke="#567689"/>
+  <rect x="162" y="163" width="12" height="14" rx="2" fill="#dceaf4" stroke="#638398"/>
+  <rect x="194" y="163" width="12" height="14" rx="2" fill="#dceaf4" stroke="#638398"/>
+  <path d="M245 144h19 l16 -12h36l14 12h30 M264 144l16 12h36l14 -12" fill="none" stroke="#567689"/>
+  <rect x="245" y="139" width="10" height="10" rx="2" fill="#dceaf4" stroke="#638398"/>
+  <rect x="289" y="127" width="10" height="10" rx="2" fill="#dceaf4" stroke="#638398"/>
+  <rect x="289" y="151" width="10" height="10" rx="2" fill="#dceaf4" stroke="#638398"/>
+  <rect x="358" y="139" width="10" height="10" rx="2" fill="#dceaf4" stroke="#638398"/>
+  <path d="M264 137l7 7 -7 7 -7 -7Z" fill="none" stroke="#567689"/>
+  <path d="M330 137l7 7 -7 7 -7 -7Z" fill="none" stroke="#567689"/>
+  <rect x="124" y="251" width="79" height="33" rx="2" fill="#dceaf4" stroke="#638398"/>
+  <rect x="124" y="254" width="26" height="7" rx="2" fill="#dceaf4" stroke="#638398"/>
+  <rect x="124" y="269" width="26" height="7" rx="2" fill="#dceaf4" stroke="#638398"/>
+  <rect x="208" y="251" width="79" height="33" rx="2" fill="#dceaf4" stroke="#638398"/>
+  <rect x="208" y="254" width="26" height="7" rx="2" fill="#dceaf4" stroke="#638398"/>
+  <rect x="208" y="269" width="26" height="7" rx="2" fill="#dceaf4" stroke="#638398"/>
+  <rect x="292" y="251" width="79" height="33" rx="2" fill="#dceaf4" stroke="#638398"/>
+  <rect x="292" y="254" width="26" height="7" rx="2" fill="#dceaf4" stroke="#638398"/>
+  <rect x="292" y="269" width="26" height="7" rx="2" fill="#dceaf4" stroke="#638398"/>
+  <path d="M467 170L487 170" stroke="#567689" fill="none"/>
+  <path d="M483 167l4 3 -4 3" fill="none" stroke="#567689"/>
+  <rect x="455" y="163" width="12" height="14" rx="2" fill="#dceaf4" stroke="#638398"/>
+  <path d="M499 170L519 170" stroke="#567689" fill="none"/>
+  <path d="M515 167l4 3 -4 3" fill="none" stroke="#567689"/>
+  <rect x="487" y="163" width="12" height="14" rx="2" fill="#dceaf4" stroke="#638398"/>
+  <rect x="519" y="163" width="12" height="14" rx="2" fill="#dceaf4" stroke="#638398"/>
+  <path d="M547 144h19 l16 -12h36l14 12h30 M566 144l16 12h36l14 -12" fill="none" stroke="#567689"/>
+  <rect x="547" y="139" width="10" height="10" rx="2" fill="#dceaf4" stroke="#638398"/>
+  <rect x="591" y="127" width="10" height="10" rx="2" fill="#dceaf4" stroke="#638398"/>
+  <rect x="591" y="151" width="10" height="10" rx="2" fill="#dceaf4" stroke="#638398"/>
+  <rect x="660" y="139" width="10" height="10" rx="2" fill="#dceaf4" stroke="#638398"/>
+  <path d="M566 137l7 7 -7 7 -7 -7Z" fill="none" stroke="#567689"/>
+  <path d="M632 137l7 7 -7 7 -7 -7Z" fill="none" stroke="#567689"/>
+  <rect x="449" y="251" width="72" height="33" rx="2" fill="#dceaf4" stroke="#638398"/>
+  <rect x="449" y="254" width="24" height="7" rx="2" fill="#dceaf4" stroke="#638398"/>
+  <rect x="449" y="269" width="24" height="7" rx="2" fill="#dceaf4" stroke="#638398"/>
+  <rect x="526" y="251" width="72" height="33" rx="2" fill="#dceaf4" stroke="#638398"/>
+  <rect x="526" y="254" width="24" height="7" rx="2" fill="#dceaf4" stroke="#638398"/>
+  <rect x="526" y="269" width="24" height="7" rx="2" fill="#dceaf4" stroke="#638398"/>
+  <rect x="603" y="251" width="72" height="33" rx="2" fill="#dceaf4" stroke="#638398"/>
+  <rect x="603" y="254" width="24" height="7" rx="2" fill="#dceaf4" stroke="#638398"/>
+  <rect x="603" y="269" width="24" height="7" rx="2" fill="#dceaf4" stroke="#638398"/>
+  <path d="M759 170L779 170" stroke="#567689" fill="none"/>
+  <path d="M775 167l4 3 -4 3" fill="none" stroke="#567689"/>
+  <rect x="747" y="163" width="12" height="14" rx="2" fill="#dceaf4" stroke="#638398"/>
+  <path d="M791 170L811 170" stroke="#567689" fill="none"/>
+  <path d="M807 167l4 3 -4 3" fill="none" stroke="#567689"/>
+  <rect x="779" y="163" width="12" height="14" rx="2" fill="#dceaf4" stroke="#638398"/>
+  <rect x="811" y="163" width="12" height="14" rx="2" fill="#dceaf4" stroke="#638398"/>
+  <rect x="741" y="251" width="93" height="33" rx="2" fill="#dceaf4" stroke="#638398"/>
+  <rect x="741" y="254" width="31" height="7" rx="2" fill="#dceaf4" stroke="#638398"/>
+  <rect x="741" y="269" width="31" height="7" rx="2" fill="#dceaf4" stroke="#638398"/>
+  <path d="M928 170L948 170" stroke="#567689" fill="none"/>
+  <path d="M944 167l4 3 -4 3" fill="none" stroke="#567689"/>
+  <rect x="916" y="163" width="12" height="14" rx="2" fill="#dceaf4" stroke="#638398"/>
+  <path d="M960 170L980 170" stroke="#567689" fill="none"/>
+  <path d="M976 167l4 3 -4 3" fill="none" stroke="#567689"/>
+  <rect x="948" y="163" width="12" height="14" rx="2" fill="#dceaf4" stroke="#638398"/>
+  <rect x="980" y="163" width="12" height="14" rx="2" fill="#dceaf4" stroke="#638398"/>
+  <rect x="910" y="251" width="97" height="33" rx="2" fill="#dceaf4" stroke="#638398"/>
+  <rect x="910" y="254" width="32" height="7" rx="2" fill="#dceaf4" stroke="#638398"/>
+  <rect x="910" y="269" width="32" height="7" rx="2" fill="#dceaf4" stroke="#638398"/>
 </svg>
