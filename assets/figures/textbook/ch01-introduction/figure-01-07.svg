@@ -298,7 +298,7 @@
   <text stroke="white" stroke-width="3" stroke-linejoin="round" paint-order="stroke fill" x="1058.4" y="369" text-anchor="middle" font-size="15" fill="#1f2937">BAPO/CAFCR</text>
   <text stroke="white" stroke-width="3" stroke-linejoin="round" paint-order="stroke fill" x="1058.4" y="399.6" text-anchor="middle" font-size="13" fill="#6b7280">2000</text>
   <text stroke="white" stroke-width="3" stroke-linejoin="round" paint-order="stroke fill" x="846.3" y="459" text-anchor="middle" font-size="15" fill="#1f2937">xArch</text>
-  <text stroke="white" stroke-width="3" stroke-linejoin="round" paint-order="stroke fill" x="861" y="309.6" text-anchor="middle" font-size="15" fill="#1f2937">xADL 3.0</text>
+  <text stroke="white" stroke-width="3" stroke-linejoin="round" paint-order="stroke fill" x="861" y="309.6" text-anchor="middle" font-size="15" fill="#1f2937">xADL（版本不清）</text>
   <text stroke="white" stroke-width="3" stroke-linejoin="round" paint-order="stroke fill" x="1285.2" y="304.2" text-anchor="middle" font-size="15" fill="#1f2937">WebAPI</text>
   <text stroke="white" stroke-width="3" stroke-linejoin="round" paint-order="stroke fill" x="1285.2" y="334.8" text-anchor="middle" font-size="13" fill="#6b7280">2002</text>
   <text stroke="white" stroke-width="3" stroke-linejoin="round" paint-order="stroke fill" x="1799.7" y="912.6" text-anchor="middle" font-size="15" fill="#1f2937">分层架构</text>

@@ -84,7 +84,7 @@
    "asset": "assets/figures/textbook/ch01-introduction/figure-01-06.svg",
    "physical_page": 21,
    "printed_page": 12,
-   "record": "verification/教材OCR纠错记录-第1章.md",
+   "record": "verification/教材新版第二轮独立盲核记录-第01章.md",
    "note": "三个处理单元横向双向连通，各自与虚拟中间件双向连通。三个单元内部流程、数据与底部小构件已补。"
   },
   {
@@ -98,7 +98,7 @@
    "asset": "assets/figures/textbook/ch01-introduction/figure-01-07.svg",
    "physical_page": 23,
    "printed_page": 14,
-   "record": "verification/教材OCR纠错记录-第1章.md",
+   "record": "verification/教材新版第二轮独立盲核记录-第01章.md",
    "note": "印14整页扫描。保留有依据的拓扑和箭头，拉开图签间距。Clean年代显示19?0s，一条“模块化编程→构件技术”虚线保留待核。"
   },
   {

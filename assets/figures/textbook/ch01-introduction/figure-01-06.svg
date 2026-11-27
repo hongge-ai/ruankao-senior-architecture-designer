@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="780" height="500" viewBox="0 0 780 500" font-family="sans-serif">
   <title>图 1-6 云架构</title>
-  <desc>复原自《系统架构设计师教程（第2版）》印刷页 12（物理页 21）插图。三个 ProcessingUnit 水平相连并各自与 Virtualized Middleware（Messaging Grid、Data Grid、Processing Grid、Deployment Manager）双向连接。电子页识别标题 ProcessingUnit 与 Processing Unit 两种写法并存，照录；右侧省略号表示更多处理单元；三个处理单元均含三块相连的流程、数据存储与网格及底部模块。</desc>
+  <desc>复原自《系统架构设计师教程（第2版）》印刷页 12（物理页 21）插图。三个 Processing Unit 水平相连并各自与 Virtualized Middleware（Messaging Grid、Data Grid、Processing Grid、Deployment Manager）双向连接。电子页的三个同类节点统一标作 Processing Unit；右侧省略号表示更多处理单元；三个处理单元均含三块相连的流程、数据存储与网格及底部模块。</desc>
   <rect width="780" height="500" fill="#ffffff"/>
   <defs>
     <marker id="ah6" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5.5" markerHeight="5.5" orient="auto">
@@ -12,9 +12,9 @@
   </defs>
 
   <rect x="40" y="30" width="190" height="150" rx="10" fill="#eef3fb" stroke="#7d8da5" stroke-width="2"/>
-  <text x="135" y="58" text-anchor="middle" font-size="17" fill="#1f2937">ProcessingUnit</text>
+  <text x="135" y="58" text-anchor="middle" font-size="17" fill="#1f2937">Processing Unit</text>
   <rect x="295" y="30" width="190" height="150" rx="10" fill="#eef3fb" stroke="#7d8da5" stroke-width="2"/>
-  <text x="390" y="58" text-anchor="middle" font-size="17" fill="#1f2937">ProcessingUnit</text>
+  <text x="390" y="58" text-anchor="middle" font-size="17" fill="#1f2937">Processing Unit</text>
   <rect x="550" y="30" width="190" height="150" rx="10" fill="#eef3fb" stroke="#7d8da5" stroke-width="2"/>
   <text x="645" y="58" text-anchor="middle" font-size="17" fill="#1f2937">Processing Unit</text>
   <text x="762" y="115" text-anchor="end" font-size="22" fill="#1f2937">……</text>
