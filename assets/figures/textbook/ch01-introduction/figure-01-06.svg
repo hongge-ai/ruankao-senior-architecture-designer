@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="780" height="500" viewBox="0 0 780 500" font-family="sans-serif">
   <title>图 1-6 云架构</title>
-  <desc>复原自《系统架构设计师教程（第2版）》印刷页 12（物理页 21）插图。三个 ProcessingUnit 水平相连并各自与 Virtualized Middleware（Messaging Grid、Data Grid、Processing Grid、Deployment Manager）双向连接。图内标题原印 ProcessingUnit 与 Processing Unit 两种写法并存，照录；右侧省略号表示更多处理单元；处理单元内部示意性小构件未转录。</desc>
+  <desc>复原自《系统架构设计师教程（第2版）》印刷页 12（物理页 21）插图。三个 ProcessingUnit 水平相连并各自与 Virtualized Middleware（Messaging Grid、Data Grid、Processing Grid、Deployment Manager）双向连接。电子页识别标题 ProcessingUnit 与 Processing Unit 两种写法并存，照录；右侧省略号表示更多处理单元；三个处理单元均含三块相连的流程、数据存储与网格及底部模块。</desc>
   <rect width="780" height="500" fill="#ffffff"/>
   <defs>
     <marker id="ah6" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5.5" markerHeight="5.5" orient="auto">
@@ -19,8 +19,8 @@
   <text x="645" y="58" text-anchor="middle" font-size="17" fill="#1f2937">Processing Unit</text>
   <text x="762" y="115" text-anchor="end" font-size="22" fill="#1f2937">……</text>
 
-  <line x1="230" y1="150" x2="295" y2="150" stroke="#4a5568" stroke-width="5"/>
-  <line x1="485" y1="150" x2="550" y2="150" stroke="#4a5568" stroke-width="5"/>
+  <line x1="222" y1="150" x2="302" y2="150" stroke="#4a5568" stroke-width="1.6" marker-end="url(#ah6)" marker-start="url(#ah6s)"/>
+  <line x1="477" y1="150" x2="557" y2="150" stroke="#4a5568" stroke-width="1.6" marker-end="url(#ah6)" marker-start="url(#ah6s)"/>
 
   <line x1="135" y1="184" x2="135" y2="256" stroke="#4a5568" stroke-width="3.5" marker-end="url(#ah6)" marker-start="url(#ah6s)"/>
   <line x1="390" y1="184" x2="390" y2="256" stroke="#4a5568" stroke-width="3.5" marker-end="url(#ah6)" marker-start="url(#ah6s)"/>
@@ -40,4 +40,61 @@
   <rect x="575" y="315" width="140" height="80" fill="#e3ebf6" stroke="#9db0c9" stroke-width="1"/>
   <text x="645" y="348" text-anchor="middle" font-size="16" fill="#1f2937">Deployment</text>
   <text x="645" y="372" text-anchor="middle" font-size="16" fill="#1f2937">Manager</text>
+  <path d="M75 77L193 77" stroke="#567689" fill="none"/>
+  <rect x="58" y="70" width="36" height="15" rx="2" fill="#dceaf4" stroke="#638398"/>
+  <rect x="113" y="70" width="36" height="15" rx="2" fill="#dceaf4" stroke="#638398"/>
+  <rect x="168" y="70" width="36" height="15" rx="2" fill="#dceaf4" stroke="#638398"/>
+  <path d="M184 85L184 101" stroke="#567689" fill="none"/>
+  <rect x="52" y="95" width="165" height="37" rx="2" fill="#dceaf4" stroke="#638398"/>
+  <rect x="115" y="104" width="91" height="20" rx="2" fill="#dceaf4" stroke="#638398"/>
+  <path d="M128 104L128 124" stroke="#567689" fill="none"/>
+  <path d="M141 104L141 124" stroke="#567689" fill="none"/>
+  <path d="M154 104L154 124" stroke="#567689" fill="none"/>
+  <path d="M167 104L167 124" stroke="#567689" fill="none"/>
+  <path d="M180 104L180 124" stroke="#567689" fill="none"/>
+  <path d="M193 104L193 124" stroke="#567689" fill="none"/>
+  <path d="M115 114L206 114" stroke="#567689" fill="none"/>
+  <rect x="66" y="102" width="25" height="21" rx="2" fill="#dceaf4" stroke="#638398"/>
+<ellipse cx="78.5" cy="103" rx="12.5" ry="4" fill="#bbd3e5" stroke="#638398"/>
+  <path d="M91 114L114 114" stroke="#567689" fill="none"/>
+  <path d="M135 132L135 142" stroke="#567689" fill="none"/>
+  <rect x="49" y="142" width="171" height="17" rx="2" fill="#dceaf4" stroke="#638398"/>
+  <path d="M330 77L448 77" stroke="#567689" fill="none"/>
+  <rect x="313" y="70" width="36" height="15" rx="2" fill="#dceaf4" stroke="#638398"/>
+  <rect x="368" y="70" width="36" height="15" rx="2" fill="#dceaf4" stroke="#638398"/>
+  <rect x="423" y="70" width="36" height="15" rx="2" fill="#dceaf4" stroke="#638398"/>
+  <path d="M439 85L439 101" stroke="#567689" fill="none"/>
+  <rect x="307" y="95" width="165" height="37" rx="2" fill="#dceaf4" stroke="#638398"/>
+  <rect x="370" y="104" width="91" height="20" rx="2" fill="#dceaf4" stroke="#638398"/>
+  <path d="M383 104L383 124" stroke="#567689" fill="none"/>
+  <path d="M396 104L396 124" stroke="#567689" fill="none"/>
+  <path d="M409 104L409 124" stroke="#567689" fill="none"/>
+  <path d="M422 104L422 124" stroke="#567689" fill="none"/>
+  <path d="M435 104L435 124" stroke="#567689" fill="none"/>
+  <path d="M448 104L448 124" stroke="#567689" fill="none"/>
+  <path d="M370 114L461 114" stroke="#567689" fill="none"/>
+  <rect x="321" y="102" width="25" height="21" rx="2" fill="#dceaf4" stroke="#638398"/>
+<ellipse cx="333.5" cy="103" rx="12.5" ry="4" fill="#bbd3e5" stroke="#638398"/>
+  <path d="M346 114L369 114" stroke="#567689" fill="none"/>
+  <path d="M390 132L390 142" stroke="#567689" fill="none"/>
+  <rect x="304" y="142" width="171" height="17" rx="2" fill="#dceaf4" stroke="#638398"/>
+  <path d="M585 77L703 77" stroke="#567689" fill="none"/>
+  <rect x="568" y="70" width="36" height="15" rx="2" fill="#dceaf4" stroke="#638398"/>
+  <rect x="623" y="70" width="36" height="15" rx="2" fill="#dceaf4" stroke="#638398"/>
+  <rect x="678" y="70" width="36" height="15" rx="2" fill="#dceaf4" stroke="#638398"/>
+  <path d="M694 85L694 101" stroke="#567689" fill="none"/>
+  <rect x="562" y="95" width="165" height="37" rx="2" fill="#dceaf4" stroke="#638398"/>
+  <rect x="625" y="104" width="91" height="20" rx="2" fill="#dceaf4" stroke="#638398"/>
+  <path d="M638 104L638 124" stroke="#567689" fill="none"/>
+  <path d="M651 104L651 124" stroke="#567689" fill="none"/>
+  <path d="M664 104L664 124" stroke="#567689" fill="none"/>
+  <path d="M677 104L677 124" stroke="#567689" fill="none"/>
+  <path d="M690 104L690 124" stroke="#567689" fill="none"/>
+  <path d="M703 104L703 124" stroke="#567689" fill="none"/>
+  <path d="M625 114L716 114" stroke="#567689" fill="none"/>
+  <rect x="576" y="102" width="25" height="21" rx="2" fill="#dceaf4" stroke="#638398"/>
+<ellipse cx="588.5" cy="103" rx="12.5" ry="4" fill="#bbd3e5" stroke="#638398"/>
+  <path d="M601 114L624 114" stroke="#567689" fill="none"/>
+  <path d="M645 132L645 142" stroke="#567689" fill="none"/>
+  <rect x="559" y="142" width="171" height="17" rx="2" fill="#dceaf4" stroke="#638398"/>
 </svg>

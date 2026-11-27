@@ -14,8 +14,8 @@
    "asset": "assets/figures/textbook/ch01-introduction/figure-01-01.svg",
    "physical_page": 16,
    "printed_page": 7,
-   "record": "verification/教材首轮核查-第01章-绪论.md",
-   "note": "MIS系统含 4 个子系统列（OCRM/资金管理/资产风险/……系统，各含业务流程、业务构件、EOS 系中间件、平台四层），经 ESB-WebSphere Message Broker（传输服务/事件服务/中转服务/服务路由目录库）连接主机、交易系统与服务注册管理中心，双向箭头。取代早期部分转录表。业务流程/业务构件区内为示意性图形，未逐一转录；图内平台行原印 Websphere、ESB 标签原印 WebSphere（原书大小写不一，照录）；「……系统」原图作「．．系统」。"
+   "record": "verification/教材OCR纠错记录-第1章.md",
+   "note": "四列的业务流程、业务构件示意图形已补回，业务流程分支和下方总线箭头保留。电子页平台行作Websphere、总线作WebSphere，保留底本可见拼法。"
   },
   {
    "id": "tb-fig-0002",
@@ -28,8 +28,8 @@
    "asset": "assets/figures/textbook/ch01-introduction/figure-01-02.svg",
    "physical_page": 19,
    "printed_page": 10,
-   "record": "verification/教材首轮核查-第01章-绪论.md",
-   "note": "四层堆叠：表现层/业务层/持久层各含 3 个组件框，数据库层含 4 个数据库圆柱；以 Markdown 表格按层序转录。"
+   "record": "verification/教材OCR纠错记录-第1章.md",
+   "note": "四层、每层三个组件、数据库四个圆柱均与页图相符，保留现有SVG。"
   },
   {
    "id": "tb-fig-0003",
@@ -42,8 +42,8 @@
    "asset": "assets/figures/textbook/ch01-introduction/figure-01-03.svg",
    "physical_page": 19,
    "printed_page": 10,
-   "record": "verification/教材首轮核查-第01章-绪论.md",
-   "note": "事件→事件队列→分发器→3 条事件通道→5 个事件处理器（左通道连 2 个、中通道连 1 个、右通道连 2 个）。每个事件处理器内绘有若干「模块」小块，属示意性细节，数量不一，未逐一转录。"
+   "record": "verification/教材OCR纠错记录-第1章.md",
+   "note": "三条通道分别向2、1、2个处理器扇出，每个处理器有四个模块。"
   },
   {
    "id": "tb-fig-0004",
@@ -56,8 +56,8 @@
    "asset": "assets/figures/textbook/ch01-introduction/figure-01-04.svg",
    "physical_page": 20,
    "printed_page": 11,
-   "record": "verification/教材首轮核查-第01章-绪论.md",
-   "note": "6 个「即插组件」（左右各 3）与中央「内核系统」以无箭头连线直连。"
+   "record": "verification/教材OCR纠错记录-第1章.md",
+   "note": "内核与左右各三个即插组件连线，维持原图。"
   },
   {
    "id": "tb-fig-0005",
@@ -70,8 +70,8 @@
    "asset": "assets/figures/textbook/ch01-introduction/figure-01-05.svg",
    "physical_page": 20,
    "printed_page": 11,
-   "record": "verification/教材首轮核查-第01章-绪论.md",
-   "note": "3 个「客户需求」与 3 个「服务组件」经「用户接口层」双向箭头连接。服务组件内绘有若干「模块」小块，属示意性细节，数量不一，未逐一转录。"
+   "record": "verification/教材OCR纠错记录-第1章.md",
+   "note": "三组需求与接口层双向相连，三个服务组件分别含四、二、三个模块。"
   },
   {
    "id": "tb-fig-0006",
@@ -84,8 +84,8 @@
    "asset": "assets/figures/textbook/ch01-introduction/figure-01-06.svg",
    "physical_page": 21,
    "printed_page": 12,
-   "record": "verification/教材首轮核查-第01章-绪论.md",
-   "note": "3 个 ProcessingUnit 水平相连并各自与 Virtualized Middleware（Messaging Grid/Data Grid/Processing Grid/Deployment Manager）双向连接。图内标题原印 ProcessingUnit×2 与 Processing Unit×1 两种写法（照录）；右侧省略号表示更多处理单元，未作节点；处理单元内部为示意性小构件图，未逐一转录。"
+   "record": "verification/教材OCR纠错记录-第1章.md",
+   "note": "三个处理单元横向双向连通，各自与虚拟中间件双向连通。三个单元内部流程、数据与底部小构件已补。"
   },
   {
    "id": "tb-fig-0007",
@@ -98,8 +98,8 @@
    "asset": "assets/figures/textbook/ch01-introduction/figure-01-07.svg",
    "physical_page": 23,
    "printed_page": 14,
-   "record": "verification/教材首轮核查-第01章-绪论.md",
-   "note": "原图为带年份轴的密集技术路线图，以脚本由实测坐标生成 SVG 取代早期两张转录表。2026-09-26 表格逐格核验：表一 41 行全核（软件度量→1960s、软件重构/虚拟化技术→未单列年份）、表二 25 行检视（9 段重叠箭头无法逐段确认）；2026-09-27 干净子代理比对复核：DevOps 工具链年份经 14× 放大确认为 2015（此前 2013 低置信判读有误，已改），Cloud Native/Microservice→流式微服务 入线经 14× 确认实线；9 段重叠箭头仍以虚线绘制并登记备查。早期草稿日志「软件度量 1980s」与入库件不符（入库件为 1960s），已按入库件勘正。"
+   "record": "verification/教材OCR纠错记录-第1章.md",
+   "note": "印14整页扫描。保留有依据的拓扑和箭头，拉开图签间距。Clean年代显示19?0s，一条“模块化编程→构件技术”虚线保留待核。"
   },
   {
    "id": "tb-fig-0008",
@@ -112,7 +112,7 @@
    "asset": "assets/figures/textbook/ch01-introduction/figure-01-08.svg",
    "physical_page": 24,
    "printed_page": 15,
-   "record": "verification/教材首轮核查-第01章-绪论.md",
+   "record": "verification/教材OCR纠错记录-第1章.md",
    "note": "三角形三节点：架构设计师—执行—架构设计、架构设计师—创建—架构、架构设计—生成—架构；原图连线无箭头，以带标签无向连线转录。"
   },
   {
@@ -126,8 +126,8 @@
    "asset": "assets/figures/textbook/ch01-introduction/figure-01-09.svg",
    "physical_page": 27,
    "printed_page": 18,
-   "record": "verification/教材首轮核查-第01章-绪论.md",
-   "note": "6 个角色特质（沟通专家/领导者/战略技术专家/开发者/企业家/系统综合者）经虚线辐条自无字中心放射，中心以空节点表示（原图如此）；各特质旁的装饰性小图标未转录。"
+   "record": "verification/教材OCR纠错记录-第1章.md",
+   "note": "沿用既有SVG，双人直接目读印18页图并栅格化核对。六轴和六个角色标签相符，中心为无字交点；省略装饰图标，点线为简化示意。源图没有可辨的能力评分。"
   },
   {
    "id": "tb-fig-0010",
