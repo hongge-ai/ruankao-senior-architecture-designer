@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 790 441" role="img" aria-labelledby="title desc">
+<title id="title">图 16-9 微内核嵌入式操作系统结构</title><desc id="desc">微内核用户空间的服务与应用进程，内核的四类代码和硬件平台。</desc>
+<defs><marker id="ar" markerWidth="5" markerHeight="5" viewBox="0 0 10 10" refX="9" refY="5" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#416c79"/></marker></defs>
+<g font-family="Noto Sans CJK SC, sans-serif" fill="#183640">
+<rect x="10" y="9" width="770" height="322" rx="12" fill="white" stroke="#517782" stroke-width="1.5"/>
+<text x="397" y="35" text-anchor="middle" font-size="17">用户空间</text>
+<rect x="11.0" y="46" width="40" height="218" rx="0" fill="#f3f8fa" stroke="#517782" stroke-width="1.5"/>
+<text x="30.0" y="67" text-anchor="middle" font-size="15">内</text>
+<text x="30.0" y="87" text-anchor="middle" font-size="15">存</text>
+<text x="30.0" y="107" text-anchor="middle" font-size="15">管</text>
+<text x="30.0" y="127" text-anchor="middle" font-size="15">理</text>
+<text x="30.0" y="147" text-anchor="middle" font-size="15">服</text>
+<text x="30.0" y="167" text-anchor="middle" font-size="15">务</text>
+<text x="30.0" y="187" text-anchor="middle" font-size="15">进</text>
+<text x="30.0" y="207" text-anchor="middle" font-size="15">程</text>
+<path d="M30.0 265v27" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)"/>
+<rect x="132.66666666666669" y="46" width="40" height="218" rx="0" fill="#f3f8fa" stroke="#517782" stroke-width="1.5"/>
+<text x="151.66666666666669" y="67" text-anchor="middle" font-size="15">进</text>
+<text x="151.66666666666669" y="87" text-anchor="middle" font-size="15">程</text>
+<text x="151.66666666666669" y="107" text-anchor="middle" font-size="15">管</text>
+<text x="151.66666666666669" y="127" text-anchor="middle" font-size="15">理</text>
+<text x="151.66666666666669" y="147" text-anchor="middle" font-size="15">服</text>
+<text x="151.66666666666669" y="167" text-anchor="middle" font-size="15">务</text>
+<text x="151.66666666666669" y="187" text-anchor="middle" font-size="15">进</text>
+<text x="151.66666666666669" y="207" text-anchor="middle" font-size="15">程</text>
+<path d="M151.66666666666669 265v27" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)"/>
+<rect x="254.33333333333337" y="46" width="40" height="218" rx="0" fill="#f3f8fa" stroke="#517782" stroke-width="1.5"/>
+<text x="273.33333333333337" y="67" text-anchor="middle" font-size="15">文</text>
+<text x="273.33333333333337" y="87" text-anchor="middle" font-size="15">件</text>
+<text x="273.33333333333337" y="107" text-anchor="middle" font-size="15">管</text>
+<text x="273.33333333333337" y="127" text-anchor="middle" font-size="15">理</text>
+<text x="273.33333333333337" y="147" text-anchor="middle" font-size="15">服</text>
+<text x="273.33333333333337" y="167" text-anchor="middle" font-size="15">务</text>
+<text x="273.33333333333337" y="187" text-anchor="middle" font-size="15">进</text>
+<text x="273.33333333333337" y="207" text-anchor="middle" font-size="15">程</text>
+<path d="M273.33333333333337 265v27" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)"/>
+<rect x="376.0" y="46" width="40" height="218" rx="0" fill="#f3f8fa" stroke="#517782" stroke-width="1.5"/>
+<text x="395.0" y="67" text-anchor="middle" font-size="15">设</text>
+<text x="395.0" y="87" text-anchor="middle" font-size="15">备</text>
+<text x="395.0" y="107" text-anchor="middle" font-size="15">管</text>
+<text x="395.0" y="127" text-anchor="middle" font-size="15">理</text>
+<text x="395.0" y="147" text-anchor="middle" font-size="15">服</text>
+<text x="395.0" y="167" text-anchor="middle" font-size="15">务</text>
+<text x="395.0" y="187" text-anchor="middle" font-size="15">进</text>
+<text x="395.0" y="207" text-anchor="middle" font-size="15">程</text>
+<path d="M395.0 265v27" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)"/>
+<rect x="497.66666666666674" y="46" width="40" height="218" rx="0" fill="#f3f8fa" stroke="#517782" stroke-width="1.5"/>
+<text x="516.6666666666667" y="67" text-anchor="middle" font-size="15">各</text>
+<text x="516.6666666666667" y="87" text-anchor="middle" font-size="15">驱</text>
+<text x="516.6666666666667" y="107" text-anchor="middle" font-size="15">动</text>
+<text x="516.6666666666667" y="127" text-anchor="middle" font-size="15">程</text>
+<text x="516.6666666666667" y="147" text-anchor="middle" font-size="15">序</text>
+<text x="516.6666666666667" y="167" text-anchor="middle" font-size="15">服</text>
+<text x="516.6666666666667" y="187" text-anchor="middle" font-size="15">务</text>
+<text x="516.6666666666667" y="207" text-anchor="middle" font-size="15">进</text>
+<text x="516.6666666666667" y="227" text-anchor="middle" font-size="15">程</text>
+<text x="516.6666666666667" y="247" text-anchor="middle" font-size="15">…</text>
+<path d="M516.6666666666667 265v27" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)"/>
+<rect x="619.3333333333334" y="46" width="40" height="218" rx="0" fill="#f3f8fa" stroke="#517782" stroke-width="1.5"/>
+<text x="638.3333333333334" y="67" text-anchor="middle" font-size="15">应</text>
+<text x="638.3333333333334" y="87" text-anchor="middle" font-size="15">用</text>
+<text x="638.3333333333334" y="107" text-anchor="middle" font-size="15">程</text>
+<text x="638.3333333333334" y="127" text-anchor="middle" font-size="15">序</text>
+<text x="638.3333333333334" y="147" text-anchor="middle" font-size="15">进</text>
+<text x="638.3333333333334" y="167" text-anchor="middle" font-size="15">程</text>
+<path d="M638.3333333333334 265v27" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)"/>
+<rect x="741.0" y="46" width="40" height="218" rx="0" fill="#f3f8fa" stroke="#517782" stroke-width="1.5"/>
+<text x="760.0" y="67" text-anchor="middle" font-size="15">应</text>
+<text x="760.0" y="87" text-anchor="middle" font-size="15">用</text>
+<text x="760.0" y="107" text-anchor="middle" font-size="15">程</text>
+<text x="760.0" y="127" text-anchor="middle" font-size="15">序</text>
+<text x="760.0" y="147" text-anchor="middle" font-size="15">进</text>
+<text x="760.0" y="167" text-anchor="middle" font-size="15">程</text>
+<text x="760.0" y="187" text-anchor="middle" font-size="15">…</text>
+<path d="M760.0 265v27" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)"/>
+<rect x="10" y="295" width="770" height="40" rx="15" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="395.0" y="321.0" text-anchor="middle" font-size="17">内核空间</text>
+<rect x="10.0" y="344" width="190.5" height="53" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="105.25" y="376.5" text-anchor="middle" font-size="15">进程调度器代码</text>
+<rect x="202.5" y="344" width="190.5" height="53" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="297.75" y="376.5" text-anchor="middle" font-size="15">内存空间映射代码</text>
+<rect x="395.0" y="344" width="190.5" height="53" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="490.25" y="376.5" text-anchor="middle" font-size="15">中断处理代码</text>
+<rect x="587.5" y="344" width="190.5" height="53" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="682.75" y="376.5" text-anchor="middle" font-size="15">进程间通信代码</text>
+<text x="395" y="427" text-anchor="middle" font-size="17">硬件平台</text>
+</g></svg>

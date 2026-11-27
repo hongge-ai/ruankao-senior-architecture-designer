@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 728 160" role="img" aria-labelledby="title desc">
+<title id="title">图 16-11 抢占的EDF调度算法示例</title><desc id="desc">电子页的EDF示意采用到达、执行及期限标记，未另行推导或补画全程甘特图。</desc>
+<defs><marker id="ar" markerWidth="5" markerHeight="5" viewBox="0 0 10 10" refX="9" refY="5" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#416c79"/></marker></defs>
+<g font-family="Noto Sans CJK SC, sans-serif" fill="#183640">
+<path d="M37 142H714" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)"/>
+<text x="356" y="23" text-anchor="middle" font-size="17">到达时间、执行时间和最后期限</text>
+<path d="M43 137V87" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)"/>
+<text x="68" y="111" text-anchor="middle" font-size="17">A₁</text>
+<path d="M107 115v-26" fill="none" stroke="#416c79" stroke-width="1.8"/>
+<text x="169" y="76" text-anchor="middle" font-size="17">A₁</text>
+<path d="M172 137V87" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)"/>
+<text x="197" y="111" text-anchor="middle" font-size="17">A₂</text>
+<path d="M236 115v-26" fill="none" stroke="#416c79" stroke-width="1.8"/>
+<text x="298" y="76" text-anchor="middle" font-size="17">A₂</text>
+<path d="M301 137V87" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)"/>
+<text x="326" y="111" text-anchor="middle" font-size="17">A₃</text>
+<path d="M365 115v-26" fill="none" stroke="#416c79" stroke-width="1.8"/>
+<text x="427" y="76" text-anchor="middle" font-size="17">A₃</text>
+<path d="M430 137V87" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)"/>
+<text x="455" y="111" text-anchor="middle" font-size="17">A₄</text>
+<path d="M494 115v-26" fill="none" stroke="#416c79" stroke-width="1.8"/>
+<text x="556" y="76" text-anchor="middle" font-size="17">A₄</text>
+<path d="M559 137V87" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)"/>
+<text x="584" y="111" text-anchor="middle" font-size="17">A₅</text>
+<path d="M623 115v-26" fill="none" stroke="#416c79" stroke-width="1.8"/>
+<path d="M364 47v39" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)"/>
+<text x="364" y="42" text-anchor="middle" font-size="17">B₁</text>
+<path d="M688 47v39" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)"/>
+<text x="688" y="42" text-anchor="middle" font-size="17">B₂</text>
+<rect x="43" y="122" width="60" height="20" rx="0" fill="#abd7de" stroke="#517782" stroke-width="1.5"/>
+<rect x="172" y="122" width="60" height="20" rx="0" fill="#abd7de" stroke="#517782" stroke-width="1.5"/>
+<rect x="363" y="122" width="51" height="20" rx="0" fill="#abd7de" stroke="#517782" stroke-width="1.5"/>
+<rect x="478" y="122" width="54" height="20" rx="0" fill="#abd7de" stroke="#517782" stroke-width="1.5"/>
+<text x="706" y="105" text-anchor="middle" font-size="17">A₅</text>
+<text x="131" y="140" text-anchor="middle" font-size="17">B₁</text>
+<text x="454" y="140" text-anchor="middle" font-size="17">B₂</text>
+</g></svg>

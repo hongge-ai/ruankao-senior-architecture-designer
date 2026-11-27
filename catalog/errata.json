@@ -1753,6 +1753,19 @@
    "printed_page": 461,
    "record": "verification/教材第二轮独立盲核记录-第13章.md",
    "note": "经整页扫描确认大小写不一致。图题所引 SVG 依图内印面转录，正文按同页正文保留。"
+  },
+  {
+   "id": "tb-0155",
+   "corpus": "textbook",
+   "kind": "typo",
+   "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第02节-嵌入式系统软件架构原理与特征.md",
+   "anchor": "P₂在时间75ms完成CPU执行",
+   "original": "P₁在时间75ms完成CPU执行",
+   "corrected": "P₂在时间75ms完成CPU执行",
+   "physical_page": 564,
+   "printed_page": 557,
+   "record": "verification/教材OCR纠错记录-第16章.md",
+   "note": "整页扫描覆盖。图 16-13 下方印作 P₁，同时图中 70–75 ms 为 P₂。P₂ 已于 20–50 ms 执行 30 ms，补足 5 ms 后满足本例的 35 ms 需求。清洗稿按图保留 P₂。"
   }
  ]
 }

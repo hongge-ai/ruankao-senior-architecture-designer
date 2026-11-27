@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="274" viewBox="0 0 700 274" role="img" aria-labelledby="title"><title id="title">构件的四类基于消息接口</title>
+<defs><marker id="a" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 8 4 0 8Z" fill="#477786"/></marker></defs>
+<rect width="700" height="274" fill="white"/>
+<rect x="239" y="104" width="219" height="63" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="348.5" y="141.96" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#173c48">构件</text>
+<line x1="200" y1="109" x2="238" y2="109" stroke="#477786" stroke-width="1.6" marker-start="url(#a)" marker-end="url(#a)"/>
+<line x1="200" y1="118" x2="238" y2="118" stroke="#477786" stroke-width="1.6" marker-start="url(#a)" marker-end="url(#a)"/>
+<line x1="200" y1="127" x2="238" y2="127" stroke="#477786" stroke-width="1.6" marker-start="url(#a)" marker-end="url(#a)"/>
+<line x1="200" y1="136" x2="238" y2="136" stroke="#477786" stroke-width="1.6" marker-start="url(#a)" marker-end="url(#a)"/>
+<line x1="200" y1="145" x2="238" y2="145" stroke="#477786" stroke-width="1.6" marker-start="url(#a)" marker-end="url(#a)"/>
+<line x1="200" y1="154" x2="238" y2="154" stroke="#477786" stroke-width="1.6" marker-start="url(#a)" marker-end="url(#a)"/>
+<line x1="200" y1="163" x2="238" y2="163" stroke="#477786" stroke-width="1.6" marker-start="url(#a)" marker-end="url(#a)"/>
+<line x1="348" y1="66" x2="348" y2="103" stroke="#477786" stroke-width="1.6" marker-start="url(#a)" marker-end="url(#a)"/>
+<line x1="348" y1="168" x2="348" y2="207" stroke="#477786" stroke-width="1.6" marker-start="url(#a)" marker-end="url(#a)"/>
+<line x1="459" y1="136" x2="505" y2="136" stroke="#477786" stroke-width="1.6" marker-start="url(#a)" marker-end="url(#a)"/>
+<text x="345" y="27" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">技术相关的接口（TDI）</text>
+<text x="345" y="49" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">（如：内部仿真）</text>
+<text x="105" y="129" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">局部接口（LI）</text>
+<text x="105" y="151" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">如处理输入输出</text>
+<text x="594" y="129" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">连接口（LIF）</text>
+<text x="594" y="151" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">（组件接口）</text>
+<text x="348" y="230" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">技术无关接口（TII）</text>
+<text x="348" y="252" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">（构件配置和资源管理）</text>
+</svg>

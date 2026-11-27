@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400" role="img" aria-labelledby="title"><title id="title">HarmonyOS架构的设备证书认证流程</title>
+<defs><marker id="a" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 8 4 0 8Z" fill="#477786"/></marker></defs>
+<rect width="800" height="400" fill="white"/>
+<text x="176" y="25" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">证书中心</text>
+<path d="M144 68 Q127 65 134 50 Q136 42 149 43 Q163 19 179 39 Q194 30 204 43 Q229 45 223 60 Q222 68 209 68 Z" fill="#eff8fa" stroke="#477786" stroke-width="1.6"/>
+<rect x="166" y="53" width="23" height="29" fill="white" stroke="#477786" stroke-width="1.5"/>
+<line x1="170" y1="59" x2="185" y2="59" stroke="#477786" stroke-width="1.6"/>
+<line x1="170" y1="63" x2="183" y2="63" stroke="#477786" stroke-width="1.6"/>
+<ellipse cx="180" cy="74" rx="4" ry="4" fill="#cbe8ef" stroke="#477786" stroke-width="1.6"/>
+<line x1="177" y1="83" x2="177" y2="149" stroke="#477786" stroke-width="1.6" marker-end="url(#a)" stroke-dasharray="5 4"/>
+<text x="93" y="115" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">颁发证书</text>
+<rect x="191" y="94" width="23" height="29" fill="white" stroke="#477786" stroke-width="1.5"/>
+<line x1="195" y1="100" x2="210" y2="100" stroke="#477786" stroke-width="1.6"/>
+<line x1="195" y1="104" x2="208" y2="104" stroke="#477786" stroke-width="1.6"/>
+<ellipse cx="205" cy="115" rx="4" ry="4" fill="#cbe8ef" stroke="#477786" stroke-width="1.6"/>
+<ellipse cx="229" cy="110" rx="5" ry="5" fill="#cbe8ef" stroke="#477786" stroke-width="1.6"/>
+<path d="M234 110 h13 v4 h-3 v-4" fill="none" stroke="#477786" stroke-width="1.6"/>
+<rect x="159" y="149" width="37" height="54" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<rect x="166" y="156" width="24" height="10" fill="white" stroke="#477786" stroke-width="1.5"/>
+<line x1="166" y1="172" x2="191" y2="172" stroke="#477786" stroke-width="1.6"/>
+<ellipse cx="178" cy="193" rx="3" ry="3" fill="white" stroke="#477786" stroke-width="1.6"/>
+<line x1="177" y1="203" x2="177" y2="263" stroke="#477786" stroke-width="1.6" marker-end="url(#a)" stroke-dasharray="5 4"/>
+<text x="89" y="238" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">发放设备证书</text>
+<rect x="192" y="217" width="23" height="29" fill="white" stroke="#477786" stroke-width="1.5"/>
+<line x1="196" y1="223" x2="211" y2="223" stroke="#477786" stroke-width="1.6"/>
+<line x1="196" y1="227" x2="209" y2="227" stroke="#477786" stroke-width="1.6"/>
+<ellipse cx="206" cy="238" rx="4" ry="4" fill="#cbe8ef" stroke="#477786" stroke-width="1.6"/>
+<ellipse cx="232" cy="232" rx="5" ry="5" fill="#cbe8ef" stroke="#477786" stroke-width="1.6"/>
+<path d="M237 232 h13 v4 h-3 v-4" fill="none" stroke="#477786" stroke-width="1.6"/>
+<rect x="113" y="263" width="38" height="57" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<line x1="125.92" y1="268" x2="138.08" y2="268" stroke="#477786" stroke-width="1.6"/>
+<rect x="158" y="263" width="38" height="57" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<line x1="170.92000000000002" y1="268" x2="183.08" y2="268" stroke="#477786" stroke-width="1.6"/>
+<rect x="203" y="263" width="38" height="57" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<line x1="215.92000000000002" y1="268" x2="228.08" y2="268" stroke="#477786" stroke-width="1.6"/>
+<rect x="90" y="327" width="176" height="24" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<ellipse cx="104" cy="339" rx="9" ry="9" fill="white" stroke="#477786" stroke-width="1.6"/>
+<ellipse cx="140" cy="339" rx="9" ry="9" fill="white" stroke="#477786" stroke-width="1.6"/>
+<ellipse cx="176" cy="339" rx="9" ry="9" fill="white" stroke="#477786" stroke-width="1.6"/>
+<ellipse cx="212" cy="339" rx="9" ry="9" fill="white" stroke="#477786" stroke-width="1.6"/>
+<ellipse cx="248" cy="339" rx="9" ry="9" fill="white" stroke="#477786" stroke-width="1.6"/>
+<path d="M252 296 H317 V120" fill="none" stroke="#477786" stroke-width="1.6" stroke-dasharray="5 4"/>
+<text x="392" y="126" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">预置设备证书</text>
+<rect x="465" y="108" width="23" height="29" fill="white" stroke="#477786" stroke-width="1.5"/>
+<line x1="469" y1="114" x2="484" y2="114" stroke="#477786" stroke-width="1.6"/>
+<line x1="469" y1="118" x2="482" y2="118" stroke="#477786" stroke-width="1.6"/>
+<ellipse cx="479" cy="129" rx="4" ry="4" fill="#cbe8ef" stroke="#477786" stroke-width="1.6"/>
+<ellipse cx="508" cy="124" rx="5" ry="5" fill="#cbe8ef" stroke="#477786" stroke-width="1.6"/>
+<path d="M513 124 h13 v4 h-3 v-4" fill="none" stroke="#477786" stroke-width="1.6"/>
+<line x1="526" y1="124" x2="558" y2="124" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="559" y="95" width="39" height="63" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<line x1="572.26" y1="100" x2="584.74" y2="100" stroke="#477786" stroke-width="1.6"/>
+<text x="392" y="304" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">设备证书</text>
+<rect x="465" y="286" width="23" height="29" fill="white" stroke="#477786" stroke-width="1.5"/>
+<line x1="469" y1="292" x2="484" y2="292" stroke="#477786" stroke-width="1.6"/>
+<line x1="469" y1="296" x2="482" y2="296" stroke="#477786" stroke-width="1.6"/>
+<ellipse cx="479" cy="307" rx="4" ry="4" fill="#cbe8ef" stroke="#477786" stroke-width="1.6"/>
+<ellipse cx="508" cy="302" rx="5" ry="5" fill="#cbe8ef" stroke="#477786" stroke-width="1.6"/>
+<path d="M513 302 h13 v4 h-3 v-4" fill="none" stroke="#477786" stroke-width="1.6"/>
+<line x1="526" y1="302" x2="558" y2="302" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="559" y="273" width="39" height="63" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<line x1="572.26" y1="278" x2="584.74" y2="278" stroke="#477786" stroke-width="1.6"/>
+<text x="579" y="223" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="25" fill="#173c48">⋮</text>
+<path d="M768 123 H598" fill="none" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M768 123 V301 H598" fill="none" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<text x="692" y="211" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">①可信环境证明</text>
+<text x="692" y="237" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">②敏感数据传输</text>
+</svg>

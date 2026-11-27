@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="790" height="365" viewBox="0 0 790 365" role="img" aria-labelledby="title"><title id="title">GENESYS腰型架构示意图</title>
+<defs><marker id="a" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 8 4 0 8Z" fill="#477786"/></marker></defs>
+<rect width="790" height="365" fill="white"/>
+<rect x="456" y="8" width="70" height="32" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="491.0" y="29.44" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">App.</text>
+<path d="M273 40 320 82 H479 L526 40" fill="#eff8fa" stroke="#477786" stroke-width="1.6"/>
+<path d="M338 40 356 82 M403 40 V82 M467 40 446 82" fill="none" stroke="#477786" stroke-width="1.6"/>
+<text x="481" y="58" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="13" fill="#173c48">M W</text>
+<path d="M320 82 H479 L443 123 H356 Z" fill="#a5d4df" stroke="#477786" stroke-width="1.6"/>
+<rect x="356" y="123" width="87" height="37" fill="white" stroke="#477786" stroke-width="1.5"/>
+<text x="399.5" y="146.6" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">D S C</text>
+<path d="M174 160 H443 L392 209 H226 Z" fill="#eff8fa" stroke="#477786" stroke-width="1.6"/>
+<path d="M243 160 267 209 M308 160 V209 M356 160 335 209" fill="none" stroke="#477786" stroke-width="1.6"/>
+<path d="M226 209 H392 L353 247 H264 Z" fill="#a5d4df" stroke="#477786" stroke-width="1.6"/>
+<rect x="264" y="247" width="89" height="37" fill="white" stroke="#477786" stroke-width="1.5"/>
+<text x="308.5" y="270.94" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">核心</text>
+<path d="M264 284 H353 L442 353 H177 Z" fill="#a5d4df" stroke="#477786" stroke-width="1.6"/>
+<text x="309" y="326" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">不同执行选择</text>
+<text x="162" y="29" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">应用专用服务（包含中间件）</text>
+<text x="170" y="106" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">领域专用选择服务</text>
+<text x="170" y="147" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">领域专用中心服务</text>
+<text x="155" y="232" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">选择服务</text>
+<text x="155" y="271" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">核心服务</text>
+<text x="512" y="148" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">如：CAN总线</text>
+<text x="438" y="267" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">如：全局时间、</text>
+<text x="457" y="288" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">消息传输</text>
+<path d="M570 40 q10 0 10 10 v62 q0 10 8 12 q-8 2 -8 12 v62 q0 10 -10 10" fill="none" stroke="#477786" stroke-width="1.6"/>
+<text x="661" y="129.0" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">领域专用服务</text>
+<path d="M570 211 q10 0 10 10 v49 q0 10 8 12 q-8 2 -8 12 v49 q0 10 -10 10" fill="none" stroke="#477786" stroke-width="1.6"/>
+<text x="661" y="287.0" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">领域无关服务</text>
+</svg>

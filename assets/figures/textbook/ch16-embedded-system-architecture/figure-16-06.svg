@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 507 226" role="img" aria-labelledby="title desc">
+<title id="title">图 16-6 递归模式架构的示意图</title><desc id="desc">元素与从属接口的递归包含关系。</desc>
+<defs><marker id="ar" markerWidth="5" markerHeight="5" viewBox="0 0 10 10" refX="9" refY="5" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#416c79"/></marker></defs>
+<g font-family="Noto Sans CJK SC, sans-serif" fill="#183640">
+<rect x="216" y="27" width="275" height="154" rx="0" fill="white" stroke="#517782" stroke-width="1.5"/>
+<text x="353.5" y="110.0" text-anchor="middle" font-size="17">元素</text>
+<text x="225" y="22" text-anchor="middle" font-size="17"></text>
+<path d="M74 105H216" fill="none" stroke="#416c79" stroke-width="1.8"/>
+<circle cx="73" cy="105" r="7" fill="#377a91"/>
+<text x="72" y="83" text-anchor="middle" font-size="17">从属</text>
+<path d="M72 112v100h196v-29" fill="none" stroke="#416c79" stroke-width="1.8" stroke-dasharray="5 4"/>
+<path d="M268 173l8 8-8 8-8-8z" fill="#377a91"/>
+</g></svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 445 213" role="img" aria-labelledby="title desc">
+<title id="title">图 16-3 简单的嵌入式软件架构</title><desc id="desc">应用软件、含板级支持包的实时操作系统和硬件层。</desc>
+<defs><marker id="ar" markerWidth="5" markerHeight="5" viewBox="0 0 10 10" refX="9" refY="5" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#416c79"/></marker></defs>
+<g font-family="Noto Sans CJK SC, sans-serif" fill="#183640">
+<rect x="12" y="10" width="420" height="40" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="222.0" y="36.0" text-anchor="middle" font-size="17">应用软件</text>
+<rect x="12" y="59" width="420" height="92" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="222.0" y="100.5" text-anchor="middle" font-size="17">嵌入式（实时）操作系统</text>
+<text x="222.0" y="121.5" text-anchor="middle" font-size="17">（RTOS）</text>
+<rect x="231" y="124" width="191" height="27" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="326.5" y="143.5" text-anchor="middle" font-size="15">板级支持包（BSP）</text>
+<rect x="12" y="161" width="420" height="40" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="222.0" y="187.0" text-anchor="middle" font-size="17">硬件层</text>
+</g></svg>

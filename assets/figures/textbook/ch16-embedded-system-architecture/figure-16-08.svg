@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 790 444" role="img" aria-labelledby="title desc">
+<title id="title">图 16-8 宏内核嵌入式操作系统结构</title><desc id="desc">宏内核的应用程序进程、系统API及内核空间的五类功能代码。</desc>
+<defs><marker id="ar" markerWidth="5" markerHeight="5" viewBox="0 0 10 10" refX="9" refY="5" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#416c79"/></marker></defs>
+<g font-family="Noto Sans CJK SC, sans-serif" fill="#183640">
+<rect x="10" y="9" width="770" height="322" rx="12" fill="white" stroke="#517782" stroke-width="1.5"/>
+<text x="397" y="35" text-anchor="middle" font-size="17">用户空间</text>
+<rect x="11.0" y="46" width="40" height="218" rx="0" fill="#f3f8fa" stroke="#517782" stroke-width="1.5"/>
+<text x="30.0" y="67" text-anchor="middle" font-size="15">应</text>
+<text x="30.0" y="87" text-anchor="middle" font-size="15">用</text>
+<text x="30.0" y="107" text-anchor="middle" font-size="15">程</text>
+<text x="30.0" y="127" text-anchor="middle" font-size="15">序</text>
+<text x="30.0" y="147" text-anchor="middle" font-size="15">进</text>
+<text x="30.0" y="167" text-anchor="middle" font-size="15">程</text>
+<path d="M30.0 265v27" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)"/>
+<rect x="254.33333333333337" y="46" width="40" height="218" rx="0" fill="#f3f8fa" stroke="#517782" stroke-width="1.5"/>
+<text x="273.33333333333337" y="67" text-anchor="middle" font-size="15">应</text>
+<text x="273.33333333333337" y="87" text-anchor="middle" font-size="15">用</text>
+<text x="273.33333333333337" y="107" text-anchor="middle" font-size="15">程</text>
+<text x="273.33333333333337" y="127" text-anchor="middle" font-size="15">序</text>
+<text x="273.33333333333337" y="147" text-anchor="middle" font-size="15">进</text>
+<text x="273.33333333333337" y="167" text-anchor="middle" font-size="15">程</text>
+<path d="M273.33333333333337 265v27" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)"/>
+<rect x="497.66666666666674" y="46" width="40" height="218" rx="0" fill="#f3f8fa" stroke="#517782" stroke-width="1.5"/>
+<text x="516.6666666666667" y="67" text-anchor="middle" font-size="15">应</text>
+<text x="516.6666666666667" y="87" text-anchor="middle" font-size="15">用</text>
+<text x="516.6666666666667" y="107" text-anchor="middle" font-size="15">程</text>
+<text x="516.6666666666667" y="127" text-anchor="middle" font-size="15">序</text>
+<text x="516.6666666666667" y="147" text-anchor="middle" font-size="15">进</text>
+<text x="516.6666666666667" y="167" text-anchor="middle" font-size="15">程</text>
+<path d="M516.6666666666667 265v27" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)"/>
+<rect x="741.0" y="46" width="40" height="218" rx="0" fill="#f3f8fa" stroke="#517782" stroke-width="1.5"/>
+<text x="760.0" y="67" text-anchor="middle" font-size="15">应</text>
+<text x="760.0" y="87" text-anchor="middle" font-size="15">用</text>
+<text x="760.0" y="107" text-anchor="middle" font-size="15">程</text>
+<text x="760.0" y="127" text-anchor="middle" font-size="15">序</text>
+<text x="760.0" y="147" text-anchor="middle" font-size="15">进</text>
+<text x="760.0" y="167" text-anchor="middle" font-size="15">程</text>
+<text x="760.0" y="187" text-anchor="middle" font-size="15">…</text>
+<path d="M760.0 265v27" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)"/>
+<rect x="10" y="295" width="770" height="40" rx="15" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="395.0" y="321.0" text-anchor="middle" font-size="17">系统API</text>
+<rect x="10" y="335" width="770" height="43" rx="15" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="395.0" y="362.5" text-anchor="middle" font-size="17">内核空间</text>
+<rect x="10.0" y="381" width="152.0" height="53" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="86.0" y="413.5" text-anchor="middle" font-size="15">进程管理功能代码</text>
+<rect x="164.0" y="381" width="152.0" height="53" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="240.0" y="413.5" text-anchor="middle" font-size="15">内存管理功能代码</text>
+<rect x="318.0" y="381" width="152.0" height="53" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="394.0" y="413.5" text-anchor="middle" font-size="15">设备管理功能代码</text>
+<rect x="472.0" y="381" width="152.0" height="53" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="548.0" y="413.5" text-anchor="middle" font-size="15">文件管理功能代码</text>
+<rect x="626.0" y="381" width="152.0" height="53" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="702.0" y="403.0" text-anchor="middle" font-size="15">驱动程序及</text>
+<text x="702.0" y="424.0" text-anchor="middle" font-size="15">其他功能代码</text>
+</g></svg>

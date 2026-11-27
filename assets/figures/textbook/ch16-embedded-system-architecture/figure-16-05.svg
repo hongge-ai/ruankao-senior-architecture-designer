@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 507 202" role="img" aria-labelledby="title desc">
+<title id="title">图 16-5 层次化模式架构的示意图</title><desc id="desc">包、域与接口，示意更抽象的域依赖更具体的域。</desc>
+<defs><marker id="ar" markerWidth="5" markerHeight="5" viewBox="0 0 10 10" refX="9" refY="5" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#416c79"/></marker></defs>
+<g font-family="Noto Sans CJK SC, sans-serif" fill="#183640">
+<rect x="216" y="27" width="275" height="154" rx="0" fill="white" stroke="#517782" stroke-width="1.5"/>
+<text x="225" y="22" text-anchor="middle" font-size="17">包</text>
+<path d="M74 105H216" fill="none" stroke="#416c79" stroke-width="1.8"/>
+<circle cx="73" cy="105" r="7" fill="#377a91"/>
+<text x="103" y="54" text-anchor="middle" font-size="17">（更抽象的域只依赖</text>
+<text x="103" y="76" text-anchor="middle" font-size="17">于更具体的域）</text>
+<path d="M72 80v18" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)" stroke-dasharray="5 4"/>
+<text x="354" y="160" text-anchor="middle" font-size="17">《域》</text>
+</g></svg>

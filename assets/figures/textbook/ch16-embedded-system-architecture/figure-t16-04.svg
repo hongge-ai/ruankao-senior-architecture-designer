@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="287" viewBox="0 0 880 287" role="img" aria-labelledby="title"><title id="title">某嵌入式系统可用性质量属性的一般场景</title>
+<defs><marker id="a" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 8 4 0 8Z" fill="#477786"/></marker></defs>
+<rect width="880" height="287" fill="white"/>
+<rect x="7" y="7" width="115" height="43" fill="#cbe8ef" stroke="#477786" stroke-width="1.5"/>
+<text x="64.5" y="33.94" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">场景</text>
+<rect x="122" y="7" width="748" height="43" fill="#cbe8ef" stroke="#477786" stroke-width="1.5"/>
+<text x="496.0" y="33.94" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">可能的值</text>
+<rect x="7" y="50" width="115" height="43" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="64.5" y="76.94" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">刺激源</text>
+<rect x="122" y="50" width="748" height="43" fill="white" stroke="#477786" stroke-width="1.5"/>
+<text x="496.0" y="76.94" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">系统内部、外部</text>
+<rect x="7" y="93" width="115" height="43" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="64.5" y="119.94" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">刺激</text>
+<rect x="122" y="93" width="748" height="43" fill="white" stroke="#477786" stroke-width="1.5"/>
+<text x="496.0" y="119.94" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">错误：疏忽（未响应）、崩溃、时间（超出）、响应（不正确）</text>
+<rect x="7" y="136" width="115" height="43" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="64.5" y="162.94" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">制品</text>
+<rect x="122" y="136" width="748" height="43" fill="white" stroke="#477786" stroke-width="1.5"/>
+<text x="496.0" y="162.94" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">系统处理器、信道、持久存储、进程</text>
+<rect x="7" y="179" width="115" height="58" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="64.5" y="213.44" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">响应</text>
+<rect x="122" y="179" width="748" height="58" fill="white" stroke="#477786" stroke-width="1.5"/>
+<text x="496.0" y="203.94" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">记录故障、通知适当的各方（用户及其他系统）、根据已定义的规则禁止事件源、</text>
+<text x="496.0" y="222.94" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">在一定的时间间隔内不可用</text>
+<rect x="7" y="237" width="115" height="43" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="64.5" y="263.94" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">响应度量</text>
+<rect x="122" y="237" width="748" height="43" fill="white" stroke="#477786" stroke-width="1.5"/>
+<text x="496.0" y="263.94" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">系统必须有可用时间间隔、可用时间、降级模式下运行的时间间隔、修复时间</text>
+</svg>

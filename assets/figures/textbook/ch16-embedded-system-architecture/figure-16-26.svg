@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="535" height="340" viewBox="0 0 535 340" role="img" aria-labelledby="title"><title id="title">任务架构图表示法</title>
+<defs><marker id="a" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 8 4 0 8Z" fill="#477786"/></marker></defs>
+<rect width="535" height="340" fill="white"/>
+<path d="M40 12 H138 L115 52 H17 Z" fill="#eff8fa" stroke="#477786" stroke-width="1.6"/>
+<rect x="20" y="72" width="110" height="37" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="164" y="40" text-anchor="start" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">任务</text>
+<text x="164" y="93" text-anchor="start" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">信息隐藏模块</text>
+<text x="164" y="146" text-anchor="start" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">松散耦合消息通信：消息队列</text>
+<text x="164" y="199" text-anchor="start" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">无回复紧凑耦合消息通信</text>
+<text x="164" y="252" text-anchor="start" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">紧凑耦合消息通信：消息/回复</text>
+<text x="164" y="305" text-anchor="start" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">事件</text>
+<line x1="21" y1="142" x2="134" y2="142" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="21" y1="195" x2="134" y2="195" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="21" y1="248" x2="134" y2="248" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M42 126 H111 V158 H42 M70 126 V158 M91 126 V158" fill="none" stroke="#477786" stroke-width="1.6"/>
+<path d="M44 180 H108 V210 H44" fill="none" stroke="#477786" stroke-width="1.6"/>
+<path d="M53 232 H99 V253 H60 V269 H99" fill="none" stroke="#477786" stroke-width="1.6"/>
+<path d="M20 294 H100 L56 314 H134" fill="none" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+</svg>
