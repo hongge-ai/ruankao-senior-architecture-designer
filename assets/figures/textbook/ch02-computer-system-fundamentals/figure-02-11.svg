@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560" font-family="sans-serif">
   <title>图 2-11 基于ARM处理器的嵌入式计算机硬件组成</title>
-  <desc>复原自《系统架构设计师教程（第2版）》印刷页 48（物理页 57）插图。中央为基于ARM架构的32位微处理器 Samsung S3C44BOX，左接 1M线性Flash(BIOS)、8MB SDRAM(系统内存)、16MB非线性Flash(硬盘)，右接 USB接口(USBN9603)、两个RS-232串行通信接口、JTAG调试端口，上接 LCD显示，下接键盘输入，并经竖直汇流线连接 TCP/IP协议与 CAN BUS；各连接均为双向箭头。</desc>
+  <desc>复原自《系统架构设计师教程（第2版）》印刷页 48（物理页 57）插图。中央为基于ARM架构的32位微处理器 Samsung S3C44B0X，左接 1M线性Flash(BIOS)、8MB SDRAM(系统内存)、16MB非线性Flash(硬盘)，右接 USB接口(USBN9603)、两个RS-232串行通信接口、JTAG调试端口，上接 LCD显示，下接键盘输入，并经竖直汇流线连接 TCP/IP协议与 CAN BUS；各连接均为双向箭头。</desc>
   <rect width="900" height="560" fill="#ffffff"/>
   <g fill="#eef3fb" stroke="#9aa7b8" stroke-width="2">
     <rect x="310" y="150" width="250" height="180"/>
@@ -19,7 +19,7 @@
     <text x="435" y="205" text-anchor="middle">基于ARM架构的32位</text>
     <text x="435" y="230" text-anchor="middle">微处理器</text>
     <text x="435" y="255" text-anchor="middle">Samsung</text>
-    <text x="435" y="280" text-anchor="middle">S3C44BOX</text>
+    <text x="435" y="280" text-anchor="middle">S3C44B0X</text>
     <text x="430" y="61" text-anchor="middle">LCD显示</text>
     <text x="170" y="152" text-anchor="middle">1M线性Flash</text>
     <text x="170" y="177" text-anchor="middle">(BIOS)</text>

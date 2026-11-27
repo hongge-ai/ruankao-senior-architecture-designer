@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="720" height="340" viewBox="0 0 720 340" font-family="sans-serif">
   <title>表 2-2 存取控制矩阵</title>
-  <desc>复原自《系统架构设计师教程（第2版）》印刷页 40-41（物理页 49-50）表格。行：张军、王伟、赵凌、李晓钢、…；列：ALPHA、BETA、REPORT、SQRT、…；单元格为存取权限（RWX/R-X/—）。跨页续表行经扫描件核对。</desc>
+  <desc>复原自《系统架构设计师教程（第2版）》印刷页 40-41（物理页 49-50）表格。行：张军、王伟、赵凌、李晓钢、…；列：ALPHA、BETA、REPORT、SQRT、…；单元格为存取权限（RWX/R-X/—）。跨页续表行经电子重建页核对。</desc>
   <rect width="720" height="340" fill="#ffffff"/>
   <rect x="50" y="30" width="610" height="201" fill="#f6f9fd" stroke="#556070" stroke-width="1.5"/>
   <rect x="50" y="30" width="610" height="36" fill="#dce6f3" stroke="#556070" stroke-width="1.5"/>

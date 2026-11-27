@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620" font-family="sans-serif">
   <title>表 2-3 通用应用软件的主要类别和功能</title>
-  <desc>复原自《系统架构设计师教程（第2版）》印刷页 46（物理页 55）表格。三列：类别、功能、流行软件举例；九行通用软件类别。单元格内容经扫描件逐格核对。</desc>
+  <desc>复原自《系统架构设计师教程（第2版）》印刷页 46（物理页 55）表格。三列：类别、功能、流行软件举例；九行通用软件类别。单元格内容经电子重建页逐格核对。</desc>
   <rect width="900" height="620" fill="#ffffff"/>
   <rect x="40" y="30" width="780" height="468" fill="#f6f9fd" stroke="#556070" stroke-width="1.5"/>
   <rect x="40" y="30" width="780" height="36" fill="#dce6f3" stroke="#556070" stroke-width="1.5"/>
@@ -32,7 +32,7 @@
   <text x="550" y="239" text-anchor="start" font-size="15" fill="#1f2937">Microsoft Media Player、RealPlayer 等</text>
   <text x="125" y="287" text-anchor="middle" font-size="15" fill="#1f2937">网络通信软件</text>
   <text x="220" y="287" text-anchor="start" font-size="15" fill="#1f2937">电子邮件、聊天、 IP电话、微博、微信等</text>
-  <text x="550" y="287" text-anchor="start" font-size="15" fill="#1f2937">Outlook、Express、MSN、QQ、ICQ 等</text>
+  <text x="550" y="287" text-anchor="start" font-size="15" fill="#1f2937">Outlook Express、MSN、QQ、ICQ 等</text>
   <text x="125" y="335" text-anchor="middle" font-size="15" fill="#1f2937">演示软件</text>
   <text x="220" y="335" text-anchor="start" font-size="15" fill="#1f2937">投影片制作与播放</text>
   <text x="550" y="335" text-anchor="start" font-size="15" fill="#1f2937">PowerPoint 等</text>

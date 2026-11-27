@@ -46,7 +46,7 @@
   </g>
   <g font-size="16" fill="#1f2937">
     <text x="62" y="72">应用层</text>
-    <text x="196" y="66" text-anchor="middle">工业控制应用</text>
+    <text x="250" y="66" text-anchor="middle">工业控制应用</text>
     <text x="410" y="66" text-anchor="middle">军事应用</text>
     <text x="570" y="66" text-anchor="middle">物联网应用</text>
     <text x="668" y="66" text-anchor="middle">…</text>
@@ -66,18 +66,18 @@
     <text x="62" y="416">系</text>
     <text x="62" y="440">统</text>
     <text x="62" y="464">层</text>
-    <text x="410" y="366">文件系统</text>
-    <text x="410" y="390">设备管理</text>
-    <text x="410" y="414">运行时库</text>
-    <text x="680" y="366">图形用户接口</text>
-    <text x="680" y="390">网络管理</text>
-    <text x="680" y="414">Agent管理</text>
-    <text x="825" y="384">可配置组件</text>
-    <text x="287" y="474">任务管理</text>
-    <text x="422" y="474">存储管理</text>
-    <text x="557" y="474">通信管理</text>
-    <text x="692" y="474">时间管理</text>
-    <text x="480" y="528">嵌入式(实时)操作系统(E(RT)OS)</text>
+    <text x="410" y="366" text-anchor="middle">文件系统</text>
+    <text x="410" y="390" text-anchor="middle">设备管理</text>
+    <text x="410" y="414" text-anchor="middle">运行时库</text>
+    <text x="680" y="366" text-anchor="middle">图形用户接口</text>
+    <text x="680" y="390" text-anchor="middle">网络管理</text>
+    <text x="680" y="414" text-anchor="middle">Agent管理</text>
+    <text x="841" y="384" text-anchor="middle" font-size="14">可配置组件</text>
+    <text x="287" y="474" text-anchor="middle">任务管理</text>
+    <text x="422" y="474" text-anchor="middle">存储管理</text>
+    <text x="557" y="474" text-anchor="middle">通信管理</text>
+    <text x="692" y="474" text-anchor="middle">时间管理</text>
+    <text x="480" y="528" text-anchor="middle">嵌入式(实时)操作系统(E(RT)OS)</text>
     <text x="60" y="622">抽象层</text>
     <text x="380" y="623" text-anchor="middle">硬件抽象(HAL)</text>
     <text x="717" y="623" text-anchor="middle">板级支持包 (BSP)</text>

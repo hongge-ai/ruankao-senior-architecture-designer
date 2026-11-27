@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560" font-family="sans-serif">
   <title>图 2-4 二维表表示</title>
-  <desc>复原自《系统架构设计师教程（第2版）》印刷页 33（物理页 42）插图。(a) 学生关系、(b) 课程关系、(c) 选课关系三张二维表，(a)(b) 在左列、(c) 在右列。单元格内容经与扫描件逐格核对（含原书选课关系 S4|C1 的印刷值"8"）。</desc>
+  <desc>复原自《系统架构设计师教程（第2版）》印刷页 33（物理页 42）插图。(a) 学生关系、(b) 课程关系、(c) 选课关系三张二维表，(a)(b) 在左列、(c) 在右列。单元格内容已与电子重建页逐格核对（选课关系 S4|C1 可见分数为 8）。</desc>
   <rect width="900" height="560" fill="#ffffff"/>
   <rect x="40" y="30" width="380" height="168" fill="#f6f9fd" stroke="#556070" stroke-width="1.5"/>
   <rect x="40" y="30" width="380" height="36" fill="#dce6f3" stroke="#556070" stroke-width="1.5"/>

@@ -4,7 +4,7 @@
   <rect width="760" height="330" fill="#ffffff"/>
   <!-- (a) 总线结构 -->
   <g stroke="#9aa7b8" stroke-width="2.5">
-    <line x1="90" y1="120" x2="330" y2="120"/>
+    <line x1="90" y1="120" x2="362" y2="120"/>
     <line x1="135" y1="120" x2="135" y2="70"/>
     <line x1="235" y1="120" x2="235" y2="70"/>
     <line x1="135" y1="120" x2="135" y2="180"/>
@@ -24,10 +24,10 @@
   <g fill="#eef3fb" stroke="#7d8da5" stroke-width="2.5">
     <rect x="558" y="3" width="44" height="36"/>
     <rect x="665" y="63" width="40" height="36"/>
-    <rect x="655" y="185" width="40" height="36"/>
-    <rect x="558" y="240" width="44" height="36"/>
-    <rect x="450" y="185" width="40" height="36"/>
-    <rect x="448" y="63" width="40" height="36"/>
+    <rect x="646" y="185" width="40" height="36"/>
+    <rect x="558" y="217" width="44" height="36"/>
+    <rect x="476" y="181" width="40" height="36"/>
+    <rect x="469" y="63" width="40" height="36"/>
   </g>
   <text x="580" y="320" text-anchor="middle" font-size="17" fill="#1f2937">(b) 环形结构</text>
 </svg>

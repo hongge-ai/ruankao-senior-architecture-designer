@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560" font-family="sans-serif">
   <title>表 2-6 ISO/OSI模型与TCP/IP模型的对比</title>
-  <desc>复原自《系统架构设计师教程（第2版）》印刷页 72-73（物理页 81-82）表格，跨页续印，含合并单元格。左列应用层/表示层/会话层为三个独立行，五个协议格与右列应用层纵跨此三行；传输层 TCP/UDP；网络层 IP、ICMP 与 ARP RARP 同格，对应网际层；数据链路层与物理层两行上，Enternet IEEE 802.3（原书如此，疑为 Ethernet）、FDDI、Token-Ring/IEEE 802.3 硬件层、ARCnet 四格纵跨两行且中间无横线，PPP/SLIP 窄格切入右列下方，右列对应网络接口层与硬件层两行。</desc>
+  <desc>复原自《系统架构设计师教程（第2版）》印刷页 72-73（物理页 81-82）表格，跨页续印，含合并单元格。左列应用层/表示层/会话层为三个独立行，五个协议格与右列应用层纵跨此三行；传输层 TCP/UDP；网络层 IP、ICMP 与 ARP RARP 同格，对应网际层；数据链路层与物理层两行上，Ethernet IEEE 802.3、FDDI、Token-Ring/IEEE 802.5 硬件层、ARCnet 四格纵跨两行且中间无横线，PPP/SLIP 窄格切入右列下方，右列对应网络接口层与硬件层两行。</desc>
   <rect width="960" height="560" fill="#ffffff"/>
   <rect x="30" y="30" width="900" height="480" fill="#f6f9fd" stroke="#556070" stroke-width="1.8"/>
   <g fill="#dce6f3" stroke="#556070" stroke-width="1.8">
@@ -88,10 +88,10 @@
 
   <!-- 数据链路层/物理层（四格纵跨两行，PPP/SLIP 切入右列） -->
   <g font-size="15" fill="#1f2937" text-anchor="middle">
-    <text x="234" y="422">Enternet</text>
+    <text x="234" y="422">Ethernet</text>
     <text x="234" y="448">IEEE 802.3</text>
     <text x="345" y="438">FDDI</text>
-    <text x="510" y="422">Token-Ring/IEEE 802.3</text>
+    <text x="510" y="422">Token-Ring/IEEE 802.5</text>
     <text x="510" y="448">硬件层</text>
     <text x="672" y="438">ARCnet</text>
     <text x="753" y="422">PPP/</text>

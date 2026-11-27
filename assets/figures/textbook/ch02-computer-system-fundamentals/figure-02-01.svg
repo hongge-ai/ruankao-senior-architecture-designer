@@ -4,24 +4,15 @@
   <rect width="760" height="560" fill="#ffffff"/>
   <g stroke="#7d8da5" stroke-width="1.5" fill="none">
     <!-- 根到两大类 -->
-    <path d="M96 280 H150 V168 H178"/>
-    <path d="M96 280 H150 V424 H178"/>
-    <!-- 硬件脊线 -->
-    <path d="M262 168 H290 V56 H318 M290 168 V296 H318"/>
-    <!-- 中央处理器 -->
-    <path d="M430 56 H440 V40 H470 M440 56 V72 H470"/>
-    <!-- 存储器 -->
-    <path d="M430 120 H440 V104 H470 M440 120 V136 H470"/>
-    <!-- 输入设备 -->
-    <path d="M430 200 H440 V168 H470 M440 200 V232 H470"/>
-    <!-- 输出设备 -->
-    <path d="M430 280 H440 V264 H470 M440 280 V296 H470"/>
-    <!-- 软件脊线 -->
-    <path d="M262 424 H290 V376 H318 M290 424 V472 H318"/>
-    <!-- 系统软件 -->
-    <path d="M430 376 H440 V360 H470 M440 376 V392 H470"/>
-    <!-- 应用软件 -->
-    <path d="M430 472 H440 V456 H470 M440 472 V488 H470"/>
+    <path d="M125 280 H145 M145 168 V424 M145 168 H173 M145 424 H173"/>
+    <path d="M215 168 H238 M238 56 V280 M238 56 H259 M238 120 H259 M238 200 H259 M238 280 H259"/>
+    <path d="M215 424 H238 M238 376 V472 M238 376 H259 M238 472 H259"/>
+    <path d="M345 56 H405 M405 40 V72 M405 40 H470 M405 72 H470"/>
+    <path d="M314 120 H405 M405 104 V136 M405 104 H470 M405 136 H470"/>
+    <path d="M330 200 H405 M405 168 V232 M405 168 H470 M405 200 H470 M405 232 H470"/>
+    <path d="M330 280 H405 M405 264 V296 M405 264 H470 M405 296 H470"/>
+    <path d="M330 376 H405 M405 360 V424 M405 360 H470 M405 392 H470 M405 424 H470"/>
+    <path d="M330 472 H405 M405 456 V520 M405 456 H470 M405 488 H470 M405 520 H470"/>
   </g>
   <g fill="#eef3fb" stroke="#9db0c9" stroke-width="1.2">
     <rect x="470" y="28" width="110" height="26" rx="4"/>
@@ -32,11 +23,13 @@
     <rect x="470" y="188" width="110" height="26" rx="4"/>
     <rect x="470" y="220" width="110" height="26" rx="4"/>
     <rect x="470" y="252" width="110" height="26" rx="4"/>
+    <rect x="470" y="284" width="110" height="26" rx="4"/>
     <rect x="470" y="348" width="110" height="26" rx="4"/>
     <rect x="470" y="380" width="110" height="26" rx="4"/>
     <rect x="470" y="412" width="110" height="26" rx="4"/>
     <rect x="470" y="444" width="110" height="26" rx="4"/>
     <rect x="470" y="476" width="110" height="26" rx="4"/>
+    <rect x="470" y="508" width="110" height="26" rx="4"/>
   </g>
   <g font-size="15" fill="#1f2937">
     <text x="40" y="286" font-size="16">计算机系统</text>

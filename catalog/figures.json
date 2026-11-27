@@ -140,7 +140,7 @@
    "asset": "assets/figures/textbook/ch02-computer-system-fundamentals/figure-02-01.svg",
    "physical_page": 33,
    "printed_page": 24,
-   "record": "verification/教材首轮核查-第02章-计算机系统基础知识.md",
+   "record": "verification/教材OCR纠错记录-第2章.md",
    "note": "树形：计算机系统→硬件（中央处理器[运算单元、控制单元]、存储器[主存(内存)、外存]、输入设备[键盘、鼠标、……]、输出设备[显示器、……]）与软件（系统软件[操作系统、编译工具、……]、应用软件[办公软件、娱乐软件、……]）。原图的省略占位框以「……」转录。"
   },
   {
@@ -154,8 +154,8 @@
    "asset": "assets/figures/textbook/ch02-computer-system-fundamentals/figure-02-02.svg",
    "physical_page": 34,
    "printed_page": 25,
-   "record": "verification/教材首轮核查-第02章-计算机系统基础知识.md",
-   "note": "树形：计算机系统→嵌入式计算机（电信设备[基站、网络交换、移动终端]、家用电子设备[视听设备、厨卫电器]、可穿戴电子设备、医疗设备、交通设备、国防设备、金融设备）与通用计算机（个人计算机[台式电脑、平板电脑]、网络服务器[云存储、云计算]、超级计算机）。原书首分支印作「族入式计算机（「嵌」字位误植）」，「族」为衍字（12× 放大确认为印刷字），据分支内容与对侧「通用计算机」勘正为「嵌入式计算机」；图题「•种」勘正见 tb-0014。原图节点旁装饰性底纹未转录。"
+   "record": "verification/教材OCR纠错记录-第2章.md",
+   "note": "树形：计算机系统→嵌入式计算机（电信设备[基站、网络交换、移动终端]、家用电子设备[视听设备、厨卫电器]、可穿戴电子设备、医疗设备、交通设备、国防设备、金融设备）与通用计算机（个人计算机[台式电脑、平板电脑]、网络服务器[云存储、云计算]、超级计算机）。首分支据下位设备与对侧类别校正。题首物理34仅见点状，无法回推纸书用字。"
   },
   {
    "id": "tb-fig-0012",
@@ -168,8 +168,8 @@
    "asset": "assets/figures/textbook/ch02-computer-system-fundamentals/figure-02-03.svg",
    "physical_page": 35,
    "printed_page": 26,
-   "record": "verification/教材首轮核查-第02章-计算机系统基础知识.md",
-   "note": "指令部件三路分发至运算部件/寄存器组/存取部件；运算↔寄存器↔存取双向互连；结果汇流线入完成部件；完成部件左反馈、MMU 右反馈回指令部件；存取部件→MMU 部件；Cache 部件↔MMU 部件并双向挂接地址总线与数据总线。原图寄存器组框带下划线装饰、部分连线端点被扫描弱化，按可见拓扑转录。"
+   "record": "verification/教材OCR纠错记录-第2章.md",
+   "note": "指令部件三路分发至运算部件/寄存器组/存取部件；运算↔寄存器↔存取双向互连；结果汇流线入完成部件；完成部件左反馈、MMU 右反馈回指令部件；存取部件→MMU 部件；Cache 部件↔MMU 部件并双向挂接地址总线与数据总线。原图寄存器组框带下划线装饰、部分连线端点在重建图中较淡，按可见拓扑转录。"
   },
   {
    "id": "tb-fig-0013",
@@ -182,8 +182,8 @@
    "asset": "assets/figures/textbook/ch02-computer-system-fundamentals/figure-02-04.svg",
    "physical_page": 42,
    "printed_page": 33,
-   "record": "verification/教材首轮核查-第02章-计算机系统基础知识.md",
-   "note": "三张关系表：(a) 学生关系（S1-S4，姓名/年龄/系别）、(b) 课程关系（C1-C4，课程名/学分）、(c) 选课关系（10 行，含原书印刷值 S4|C1|\"8\"）。单元格内容经与扫描件逐格核对一致；原书排布为 (a)(b) 左列、(c) 右列，子图题 (a)(b)(c)。此前正文中的 Markdown 转写表由本 SVG 取代。"
+   "record": "verification/教材OCR纠错记录-第2章.md",
+   "note": "三张关系表：(a) 学生关系（S1-S4，姓名/年龄/系别）、(b) 课程关系（C1-C4，课程名/学分）、(c) 选课关系（10 行，含重建页可见值 S4|C1|\"8\"）。单元格内容经与电子重建页逐格核对一致；重建页排布为 (a)(b) 左列、(c) 右列，子图题 (a)(b)(c)。此前正文中的 Markdown 转写表由本 SVG 取代。"
   },
   {
    "id": "tb-fig-0014",
@@ -196,8 +196,8 @@
    "asset": "assets/figures/textbook/ch02-computer-system-fundamentals/figure-02-05.svg",
    "physical_page": 43,
    "printed_page": 34,
-   "record": "verification/教材首轮核查-第02章-计算机系统基础知识.md",
-   "note": "纵向主流程：需求分析→概念结构设计→逻辑结构设计→物理结构设计，相邻步骤标注需求说明书、用户的数据模式（即与DBMS无关的概念模型）、视图概念模式及应用处理说明书。输入标注：顶部左「当前和未来应用的数据要求」引入需求分析；顶部右「数据处理要求」经右侧竖线分别引入概念/逻辑/物理结构设计；左侧「转换规则、规范化理论」引入逻辑结构设计，「DBMS特性」「硬件、OS特性」引入物理结构设计。2026-09-27 维护者指出初版漏画两个顶部输入、右侧竖线起点误接需求分析，已按原图重画。"
+   "record": "verification/教材OCR纠错记录-第2章.md",
+   "note": "纵向主流程：需求分析→概念结构设计→逻辑结构设计→物理结构设计，相邻步骤标注需求说明书、用户的数据模式（即与DBMS无关的概念模型）、视图、概念模式及应用处理说明书。输入标注：顶部左「当前和未来应用的数据要求」引入需求分析；顶部右「数据处理要求」经右侧竖线分别引入概念/逻辑/物理结构设计；左侧「转换规则、规范化理论」引入逻辑结构设计，「DBMS特性」「硬件、OS特性」引入物理结构设计。2026-09-27 维护者指出初版漏画两个顶部输入、右侧竖线起点误接需求分析，已按原图重画。"
   },
   {
    "id": "tb-fig-0015",
@@ -210,7 +210,7 @@
    "asset": "assets/figures/textbook/ch02-computer-system-fundamentals/figure-02-06.svg",
    "physical_page": 44,
    "printed_page": 35,
-   "record": "verification/教材首轮核查-第02章-计算机系统基础知识.md",
+   "record": "verification/教材OCR纠错记录-第2章.md",
    "note": "四层结构：全局外层（三个全局视图，两侧以斜线汇入）→全局概念层（全局概念模式、分片模式、分配模式，中央垂直连线贯通）→局部概念层（三个局部概念模式）→局部内层（三个局部内模式，各自下接局部数据库圆柱）；层间以虚线分界。"
   },
   {
@@ -224,8 +224,8 @@
    "asset": "assets/figures/textbook/ch02-computer-system-fundamentals/figure-02-07.svg",
    "physical_page": 48,
    "printed_page": 39,
-   "record": "verification/教材首轮核查-第02章-计算机系统基础知识.md",
-   "note": "位示图位串网格：第0字至第3字与第n-1字共五行，每行九格（含省略号格），行间为省略行。位串逐格与扫描件核对一致。此前正文中的 Markdown 转写表与推导列表（含原书没有的\"32(n-1)～32n-1\"推算列）已删除。"
+   "record": "verification/教材OCR纠错记录-第2章.md",
+   "note": "位示图位串网格：第0字至第3字与第n-1字共五行，每行九格（含省略号格），行间为省略行。位串逐格与电子重建页核对一致。此前正文中的 Markdown 转写表与推导列表（含重建页未列的\"32(n-1)～32n-1\"推算列）已删除。"
   },
   {
    "id": "tb-fig-0017",
@@ -238,7 +238,7 @@
    "asset": "assets/figures/textbook/ch02-computer-system-fundamentals/figure-02-08.svg",
    "physical_page": 50,
    "printed_page": 41,
-   "record": "verification/教材首轮核查-第02章-计算机系统基础知识.md",
+   "record": "verification/教材OCR纠错记录-第2章.md",
    "note": "四层叠放：应用（左、右，中间省略号）—中间件(分布式系统服务)横带—操作系统（左、右，中间省略号）—网络、数据库横带，层间竖线相连。"
   },
   {
@@ -252,7 +252,7 @@
    "asset": "assets/figures/textbook/ch02-computer-system-fundamentals/figure-02-09.svg",
    "physical_page": 53,
    "printed_page": 44,
-   "record": "verification/教材首轮核查-第02章-计算机系统基础知识.md",
+   "record": "verification/教材OCR纠错记录-第2章.md",
    "note": "线性四步流程：设计构件组装→建立构件库→构建应用软件→测试与发布。"
   },
   {
@@ -266,8 +266,8 @@
    "asset": "assets/figures/textbook/ch02-computer-system-fundamentals/figure-02-10.svg",
    "physical_page": 56,
    "printed_page": 47,
-   "record": "verification/教材首轮核查-第02章-计算机系统基础知识.md",
-   "note": "操作者经人机接口与嵌入式计算机双向交互；嵌入式计算机经数字/模拟接口与受控对象双向交互。"
+   "record": "verification/教材OCR纠错记录-第2章.md",
+   "note": "三节点及两组双向通路与重建页相符，图描述不再泛称原书。"
   },
   {
    "id": "tb-fig-0020",
@@ -280,8 +280,8 @@
    "asset": "assets/figures/textbook/ch02-computer-system-fundamentals/figure-02-11.svg",
    "physical_page": 57,
    "printed_page": 48,
-   "record": "verification/教材首轮核查-第02章-计算机系统基础知识.md",
-   "note": "中央为基于ARM架构的32位微处理器 Samsung S3C44BOX；左接 1M线性Flash(BIOS)、8MB SDRAM(系统内存)、16MB非线性Flash(硬盘)，右接 USB接口(USBN9603)、两个RS-232串行通信接口、JTAG调试端口，上接 LCD显示，下接键盘输入，并经竖直汇流线双向连接 TCP/IP协议与 CAN BUS。"
+   "record": "verification/教材OCR纠错记录-第2章.md",
+   "note": "ARM芯片标签重建页与原图字号下O/0形近；S3C44B0X厂商型号和驱动命名含数字0。"
   },
   {
    "id": "tb-fig-0021",
@@ -294,8 +294,8 @@
    "asset": "assets/figures/textbook/ch02-computer-system-fundamentals/figure-02-12.svg",
    "physical_page": 58,
    "printed_page": 49,
-   "record": "verification/教材首轮核查-第02章-计算机系统基础知识.md",
-   "note": "三圆韦恩图：安全攸关系统（上）、嵌入式系统（左下）、实时系统（右下）；两两交集为嵌入式安全攸关系统、安全攸关实时系统、嵌入式实时系统，三者共同交集为嵌入式安全攸关实时系统。此前正文中的交集转写表由本 SVG 取代。"
+   "record": "verification/教材OCR纠错记录-第2章.md",
+   "note": "将三者共用标签放回三圆交集，各两两交集区分。"
   },
   {
    "id": "tb-fig-0022",
@@ -308,8 +308,8 @@
    "asset": "assets/figures/textbook/ch02-computer-system-fundamentals/figure-02-13.svg",
    "physical_page": 58,
    "printed_page": 49,
-   "record": "verification/教材首轮核查-第02章-计算机系统基础知识.md",
-   "note": "原图为实物照片（宿主机 PC 与目标机板卡），以标注框转录结构：宿主机（通用计算机）经串口/网络/JTAG 连接目标机。照片细节不转录。"
+   "record": "verification/教材OCR纠错记录-第2章.md",
+   "note": "宿主与目标机、串口/网络/JTAG接点及折线齐全。"
   },
   {
    "id": "tb-fig-0023",
@@ -322,8 +322,8 @@
    "asset": "assets/figures/textbook/ch02-computer-system-fundamentals/figure-02-14.svg",
    "physical_page": 59,
    "printed_page": 50,
-   "record": "verification/教材首轮核查-第02章-计算机系统基础知识.md",
-   "note": "五层架构：应用层（工业控制应用、军事应用、物联网应用、…、移动设备应用）；中间件层（DDS/CORBA、Hadoop、数据库(DB)、OpenGL、JAVA、虚拟机）；操作系统层（可配置组件[文件系统/设备管理/运行时库；图形用户接口/网络管理/Agent管理]，嵌入式(实时)操作系统(E(RT)OS)下辖任务管理、存储管理、通信管理、时间管理，层左有双向大箭头）；抽象层（硬件抽象(HAL)、板级支持包(BSP)）；硬件层（A/D、D/A、I/O、微嵌入式处理器、通用接口、ROM、SDRAM、人机交互接口）。此前正文中的层次转写表由本 SVG 取代。"
+   "record": "verification/教材OCR纠错记录-第2章.md",
+   "note": "五层及各业务框对齐，工业控制应用、可配置组件和管理子框标签居中。"
   },
   {
    "id": "tb-fig-0024",
@@ -336,8 +336,8 @@
    "asset": "assets/figures/textbook/ch02-computer-system-fundamentals/figure-02-15.svg",
    "physical_page": 63,
    "printed_page": 54,
-   "record": "verification/教材首轮核查-第02章-计算机系统基础知识.md",
-   "note": "系统需求、高层需求、软件架构、底层需求、源程序代码、可执行目标代码六要素；软件架构与底层需求同处一个容器框（软件生存周期过程）；要素间以弧线箭头连接，单头/双头经第二轮复盲逐条核定：竖直主线为单向下箭头（正向派生），软件架构、底层需求与高层需求之间为双头弧（反向验证），系统需求—高层需求为单头弧，逐条走向见 SVG desc。"
+   "record": "verification/教材OCR纠错记录-第2章.md",
+   "note": "按页图重辨四处单自环、目标代码两处自环、七处向上反馈及自顶向下主线。"
   },
   {
    "id": "tb-fig-0025",
@@ -350,8 +350,8 @@
    "asset": "assets/figures/textbook/ch02-computer-system-fundamentals/figure-02-16.svg",
    "physical_page": 64,
    "printed_page": 55,
-   "record": "verification/教材首轮核查-第02章-计算机系统基础知识.md",
-   "note": "顶部系统生命周期框下接虚线层界（原书印作「系纳需录/软件级别」，照录）；三处列顶标注：系统需求×2、软件需求数据。左列软件计划进程纵箱纵贯全图；软件开发进程容器内竖直顺序链：软件需求/设计/编码进程、集成进程及链上数据项（源代术码为原书怪字），容器底标注软件开发进程；验证容器内软件需求/设计/编码验证、集成进程验证、测试及链上标注（口目标代码、测试用列为原书怪字），容器底标注验证活动，由软件验证计划驱动；分析容器内需求覆盖率分析×2、结构覆盖率分析、源/目标代码追踪、测试结果分析，容器底标注验证的验证，各框右缘输出分析报告。开发列四项数据横入验证列，验证列输出测试用例×2 与测试结果；底部三条横向进程（软件配置管理/软件质量保证/审定联络）各接计划输入。此前正文中的转写表由本 SVG 取代。"
+   "record": "verification/教材OCR纠错记录-第2章.md",
+   "note": "补齐软件计划到四开发子过程的箭头；据同图订正系统需求、源代码、测试用例及目标代码。"
   },
   {
    "id": "tb-fig-0026",
@@ -364,8 +364,8 @@
    "asset": "assets/figures/textbook/ch02-computer-system-fundamentals/figure-02-17.svg",
    "physical_page": 72,
    "printed_page": 63,
-   "record": "verification/教材首轮核查-第02章-计算机系统基础知识.md",
-   "note": "中心结点与六个外围结点以连线相连（上、左上、右上、左下、右下、下）。"
+   "record": "verification/教材OCR纠错记录-第2章.md",
+   "note": "确认中心节点和六条辐射支路。"
   },
   {
    "id": "tb-fig-0027",
@@ -378,8 +378,8 @@
    "asset": "assets/figures/textbook/ch02-computer-system-fundamentals/figure-02-18.svg",
    "physical_page": 72,
    "printed_page": 63,
-   "record": "verification/教材首轮核查-第02章-计算机系统基础知识.md",
-   "note": "根结点下接第二层三个结点；第二层左结点下接一个叶子，右结点下接两个叶子，共 7 个结点。"
+   "record": "verification/教材OCR纠错记录-第2章.md",
+   "note": "确认一根、三个二级子节点和三个下级节点；分支与源图吻合。"
   },
   {
    "id": "tb-fig-0028",
@@ -392,8 +392,8 @@
    "asset": "assets/figures/textbook/ch02-computer-system-fundamentals/figure-02-19.svg",
    "physical_page": 73,
    "printed_page": 64,
-   "record": "verification/教材首轮核查-第02章-计算机系统基础知识.md",
-   "note": "双图：(a) 总线结构（一根水平总线，五个结点设备分接其上下[上2下3]）；(b) 环形结构（六个结点设备沿封闭圆环均布）。"
+   "record": "verification/教材OCR纠错记录-第2章.md",
+   "note": "末支线接入总线，六个环节点均落到同一闭环上。"
   },
   {
    "id": "tb-fig-0029",
@@ -406,8 +406,8 @@
    "asset": "assets/figures/textbook/ch02-computer-system-fundamentals/figure-02-20.svg",
    "physical_page": 73,
    "printed_page": 64,
-   "record": "verification/教材首轮核查-第02章-计算机系统基础知识.md",
-   "note": "以太帧五个字段依次为 DMAC、SMAC、Length/Type、DATA/PAD、FCS。此前正文中的字段转写表由本 SVG 取代。"
+   "record": "verification/教材OCR纠错记录-第2章.md",
+   "note": "目的地址、源地址、长度/类型、数据/填充、FCS 五字段顺序相符。"
   },
   {
    "id": "tb-fig-0030",
@@ -420,8 +420,8 @@
    "asset": "assets/figures/textbook/ch02-computer-system-fundamentals/figure-02-21.svg",
    "physical_page": 78,
    "printed_page": 69,
-   "record": "verification/教材首轮核查-第02章-计算机系统基础知识.md",
-   "note": "上排六个控制面网元 NSSF/NEF/NRF/PCF/UDM/AF 经服务化接口（Nnssf/Nnef/Nnrf/Npcf/Nudm/Naf）接入水平服务化总线；AUSF/AMF/SMF 经 Nausf/Namf/Nsmf 接入同一总线；下排 UE—(R)AN—UPF—DN 经 N1/N2/N3/N4/N6 相连（UE 经 N1 至 AMF，AMF 经 N2 至 (R)AN，SMF 经 N4 至 UPF），UPF 有 N9 环回。此前正文中的接口转写表由本 SVG 取代。"
+   "record": "verification/教材OCR纠错记录-第2章.md",
+   "note": "AF经Naf接入总线，N9自回线标签移出边线；N1、N2、N3、N4与N6端点逐个复查。图面回线表示不同UPF实例间的N9。"
   },
   {
    "id": "tb-fig-0031",
@@ -434,8 +434,8 @@
    "asset": "assets/figures/textbook/ch02-computer-system-fundamentals/figure-02-22.svg",
    "physical_page": 79,
    "printed_page": 70,
-   "record": "verification/教材首轮核查-第02章-计算机系统基础知识.md",
-   "note": "中央 5G网络云（内含 eMBB切片、mMTC切片、uRLLC切片）；左侧业务群体移动宽带/海量物联网/关键性任务物联网（虚线连接，原图带设备图标未转录）；右侧应用示例框：通信互联网、物流农业气候等、无人驾驶工厂等（实线连接）。此前正文中的转写表由本 SVG 取代。"
+   "record": "verification/教材OCR纠错记录-第2章.md",
+   "note": "三种业务/切片/应用逐行相应，5G网络标签下移，URLLC与正文同写。"
   },
   {
    "id": "tb-fig-0032",
@@ -448,8 +448,8 @@
    "asset": "assets/figures/textbook/ch02-computer-system-fundamentals/figure-02-23.svg",
    "physical_page": 80,
    "printed_page": 71,
-   "record": "verification/教材首轮核查-第02章-计算机系统基础知识.md",
-   "note": "左右两台主机各七层协议栈（层间双向箭头），中间两台 IMP 各含网络层/数据链路层/物理层（外有子网协议虚框）；上四层对等层虚线标注应用层/表示层/会话层/传输层协议，主机与 IMP 按三层虚线相连；底部三条标注（网络层/数据链路层/物理层主机——IMP协议）。此前正文中的层次转写表由本 SVG 取代。"
+   "record": "verification/教材OCR纠错记录-第2章.md",
+   "note": "双侧各七层，子网两中间节点各三层，对等协议虚线和层间线均有。"
   },
   {
    "id": "tb-fig-0033",
@@ -462,8 +462,8 @@
    "asset": "assets/figures/textbook/ch02-computer-system-fundamentals/figure-02-24.svg",
    "physical_page": 89,
    "printed_page": 80,
-   "record": "verification/教材首轮核查-第02章-计算机系统基础知识.md",
-   "note": "阶梯时间线：Booch方法、OMT 汇入 Unified Method 0.8（1995），OOSE 汇入 0.9（1996），其后依次 1.0（1997年1月最初提交给OMG）、1.1（1997年9月最后提交给OMG）、1.2（1998）、1.3（1999）、1.4（2001）、2.0（2001）。"
+   "record": "verification/教材OCR纠错记录-第2章.md",
+   "note": "阶梯时间线：Booch方法、OMT 汇入 Unified Method 0.8（1995），OOSE 汇入 0.9（1996），其后依次 1.0（1997年1月最初提交给OMG）、1.1（1997年9月最后提交给OMG）、1.2（1998）、1.3（1999）、1.4（2001）、2.0（2001）。 本轮已将SVG实际栅格化，和同页渲染图独立目视对照。 修整箭头端点或标签后再次实渲通过。 本轮已将SVG实际栅格化，和同页渲染图独立目视对照。 修整箭头端点或标签后再次实渲通过。"
   },
   {
    "id": "tb-fig-0025b",
@@ -476,8 +476,8 @@
    "asset": "assets/figures/textbook/ch02-computer-system-fundamentals/figure-02-25.svg",
    "physical_page": 90,
    "printed_page": 81,
-   "record": "verification/教材首轮核查-第02章-计算机系统基础知识.md",
-   "note": "两行八种结构事物记法：类（名称/-属性/+方法() 三格框）、接口（棒糖圆圈与分格框两种）、协作（协作名虚线椭圆）、用例（用例名实线椭圆）、主动类（粗边框三格框）、构件（component 构件名带图标）、制品（artifact 制品名带文档图标）、结点（结点名三维立方体）。"
+   "record": "verification/教材OCR纠错记录-第2章.md",
+   "note": "两行八种结构事物记法：类（名称/-属性/+方法() 三格框）、接口（棒糖圆圈与分格框两种）、协作（协作名虚线椭圆）、用例（用例名实线椭圆）、主动类（粗边框三格框）、构件（component 构件名带图标）、制品（artifact 制品名带文档图标）、结点（结点名三维立方体）。 本轮已将SVG实际栅格化，和同页渲染图独立目视对照。 本轮已将SVG实际栅格化，和同页渲染图独立目视对照。"
   },
   {
    "id": "tb-fig-0034",
@@ -490,8 +490,8 @@
    "asset": "assets/figures/textbook/ch02-computer-system-fundamentals/figure-02-26.svg",
    "physical_page": 90,
    "printed_page": 81,
-   "record": "verification/教材首轮核查-第02章-计算机系统基础知识.md",
-   "note": "三种行为事物记法：消息（display 实线箭头）、状态（Waiting 圆角矩形）、动作（place order 矩形）。"
+   "record": "verification/教材OCR纠错记录-第2章.md",
+   "note": "三种行为事物记法：消息（display 实线箭头）、状态（Waiting 圆角矩形）、动作（place order 矩形）。 本轮已将SVG实际栅格化，和同页渲染图独立目视对照。 本轮已将SVG实际栅格化，和同页渲染图独立目视对照。"
   },
   {
    "id": "tb-fig-0035",
@@ -504,8 +504,8 @@
    "asset": "assets/figures/textbook/ch02-computer-system-fundamentals/figure-02-27.svg",
    "physical_page": 91,
    "printed_page": 82,
-   "record": "verification/教材首轮核查-第02章-计算机系统基础知识.md",
-   "note": "包记法：带左上标签页的文件夹形矩形；源图示例文字 Business rules。"
+   "record": "verification/教材OCR纠错记录-第2章.md",
+   "note": "包记法：带左上标签页的文件夹形矩形；源图示例文字 Business rules。 本轮已将SVG实际栅格化，和同页渲染图独立目视对照。 本轮已将SVG实际栅格化，和同页渲染图独立目视对照。"
   },
   {
    "id": "tb-fig-0036",
@@ -518,8 +518,8 @@
    "asset": "assets/figures/textbook/ch02-computer-system-fundamentals/figure-02-28.svg",
    "physical_page": 91,
    "printed_page": 82,
-   "record": "verification/教材首轮核查-第02章-计算机系统基础知识.md",
-   "note": "注解记法：右上角折角的矩形（便签形）；源图示例文字 Return value。"
+   "record": "verification/教材OCR纠错记录-第2章.md",
+   "note": "注解记法：右上角折角的矩形（便签形）；源图示例文字 Return value。 本轮已将SVG实际栅格化，和同页渲染图独立目视对照。 本轮已将SVG实际栅格化，和同页渲染图独立目视对照。"
   },
   {
    "id": "tb-fig-0037",
@@ -532,8 +532,8 @@
    "asset": "assets/figures/textbook/ch02-computer-system-fundamentals/figure-02-29.svg",
    "physical_page": 91,
    "printed_page": 82,
-   "record": "verification/教材首轮核查-第02章-计算机系统基础知识.md",
-   "note": "依赖记法：一条可能带方向的虚线箭头，需要方向时箭头指入依赖事物一端；源图结构关系为独立事物-.->依赖事物。"
+   "record": "verification/教材OCR纠错记录-第2章.md",
+   "note": "页图为一条无端点名称、向右的虚线箭头，保留此记法。 本轮已将SVG实际栅格化，和同页渲染图独立目视对照。"
   },
   {
    "id": "tb-fig-0038",
@@ -546,8 +546,8 @@
    "asset": "assets/figures/textbook/ch02-computer-system-fundamentals/figure-02-30.svg",
    "physical_page": 91,
    "printed_page": 82,
-   "record": "verification/教材首轮核查-第02章-计算机系统基础知识.md",
-   "note": "关联记法：employer（重数 0..1）以两端无箭头的实线连向 employee（重数 0..*）。"
+   "record": "verification/教材OCR纠错记录-第2章.md",
+   "note": "关联记法：employer（重数 0..1）以两端无箭头的实线连向 employee（重数 0..*）。 本轮已将SVG实际栅格化，和同页渲染图独立目视对照。 修整箭头端点或标签后再次实渲通过。 本轮已将SVG实际栅格化，和同页渲染图独立目视对照。 修整箭头端点或标签后再次实渲通过。"
   },
   {
    "id": "tb-fig-0039",
@@ -560,8 +560,8 @@
    "asset": "assets/figures/textbook/ch02-computer-system-fundamentals/figure-02-31.svg",
    "physical_page": 91,
    "printed_page": 82,
-   "record": "verification/教材首轮核查-第02章-计算机系统基础知识.md",
-   "note": "聚集记法：一端带空心菱形的实线；源图未标注具体整体和部分名称。"
+   "record": "verification/教材OCR纠错记录-第2章.md",
+   "note": "聚集记法：一端带空心菱形的实线；源图未标注具体整体和部分名称。 本轮已将SVG实际栅格化，和同页渲染图独立目视对照。 本轮已将SVG实际栅格化，和同页渲染图独立目视对照。"
   },
   {
    "id": "tb-fig-0040",
@@ -574,8 +574,8 @@
    "asset": "assets/figures/textbook/ch02-computer-system-fundamentals/figure-02-32.svg",
    "physical_page": 91,
    "printed_page": 82,
-   "record": "verification/教材首轮核查-第02章-计算机系统基础知识.md",
-   "note": "泛化记法：带空心三角箭头的实线，箭头指向父元素。"
+   "record": "verification/教材OCR纠错记录-第2章.md",
+   "note": "泛化记法：带空心三角箭头的实线，箭头指向父元素。 本轮已将SVG实际栅格化，和同页渲染图独立目视对照。 本轮已将SVG实际栅格化，和同页渲染图独立目视对照。"
   },
   {
    "id": "tb-fig-0041",
@@ -588,8 +588,8 @@
    "asset": "assets/figures/textbook/ch02-computer-system-fundamentals/figure-02-33.svg",
    "physical_page": 91,
    "printed_page": 82,
-   "record": "verification/教材首轮核查-第02章-计算机系统基础知识.md",
-   "note": "实现记法：带空心三角箭头的虚线，箭头从实现者指向所实现的契约/接口。"
+   "record": "verification/教材OCR纠错记录-第2章.md",
+   "note": "实现记法：带空心三角箭头的虚线，箭头从实现者指向所实现的契约/接口。 本轮已将SVG实际栅格化，和同页渲染图独立目视对照。 本轮已将SVG实际栅格化，和同页渲染图独立目视对照。"
   },
   {
    "id": "tb-fig-0042",
@@ -602,8 +602,8 @@
    "asset": "assets/figures/textbook/ch02-computer-system-fundamentals/figure-02-34.svg",
    "physical_page": 92,
    "printed_page": 83,
-   "record": "verification/教材首轮核查-第02章-计算机系统基础知识.md",
-   "note": "系统边界框内两个用例（执行安全检查、登记家庭成员），框外参与者学生与国际留学生（间为泛化空心三角实线）；用例间 include/extend 虚线；学生与执行安全检查关联实线；含参与者/用例/系统边界/扩展关系/泛化关系引线标注。"
+   "record": "verification/教材OCR纠错记录-第2章.md",
+   "note": "登记系统边界内有入学登记、研讨会登记、执行安全检查和登记家庭成员四个用例。学生关联入学登记；国际留学生关联入学登记和执行安全检查，并泛化到学生。四用例之间另有包含、扩展和泛化。 本轮已将SVG实际栅格化，和同页渲染图独立目视对照。 修整箭头端点或标签后再次实渲通过。"
   },
   {
    "id": "tb-fig-0043",
@@ -616,8 +616,8 @@
    "asset": "assets/figures/textbook/ch02-computer-system-fundamentals/figure-t02-01.svg",
    "physical_page": 48,
    "printed_page": 39,
-   "record": "verification/教材首轮核查-第02章-计算机系统基础知识.md",
-   "note": "四列：序号、第1个空闲块号、空闲块数、状态；三行可用（18/5、29/8、105/19）与一行未用（—/—）。单元格经扫描件逐格核对（R3 轮）；此前正文 Markdown 表由 SVG 取代。"
+   "record": "verification/教材OCR纠错记录-第2章.md",
+   "note": "四列：序号、第1个空闲块号、空闲块数、状态；三行可用（18/5、29/8、105/19）与一行未用（—/—）。单元格经电子重建页逐格核对（R3 轮）；此前正文 Markdown 表由 SVG 取代。"
   },
   {
    "id": "tb-fig-0044",
@@ -630,8 +630,8 @@
    "asset": "assets/figures/textbook/ch02-computer-system-fundamentals/figure-t02-02.svg",
    "physical_page": 49,
    "printed_page": 40,
-   "record": "verification/教材首轮核查-第02章-计算机系统基础知识.md",
-   "note": "行：张军、王伟、赵凌、李晓钢、…；列：ALPHA、BETA、REPORT、SQRT、…；单元格为 RWX/R-X/—。跨页续表行经扫描件核对；此前正文 Markdown 表由 SVG 取代。"
+   "record": "verification/教材OCR纠错记录-第2章.md",
+   "note": "行：张军、王伟、赵凌、李晓钢、…；列：ALPHA、BETA、REPORT、SQRT、…；单元格为 RWX/R-X/—。跨页续表行经电子重建页核对；此前正文 Markdown 表由 SVG 取代。"
   },
   {
    "id": "tb-fig-0045",
@@ -644,8 +644,8 @@
    "asset": "assets/figures/textbook/ch02-computer-system-fundamentals/figure-t02-03.svg",
    "physical_page": 55,
    "printed_page": 46,
-   "record": "verification/教材首轮核查-第02章-计算机系统基础知识.md",
-   "note": "三列：类别、功能、流行软件举例；九行通用软件。单元格经扫描件逐格核对（本会话 zoom_p055_t23）；此前正文 Markdown 表由 SVG 取代。"
+   "record": "verification/教材OCR纠错记录-第2章.md",
+   "note": "三列：类别、功能、流行软件举例；九行通用软件。单元格经电子重建页逐格核对（本会话 zoom_p055_t23）；此前正文 Markdown 表由 SVG 取代。网络通信软件 Outlook Express 合为一个产品名称。"
   },
   {
    "id": "tb-fig-0046",
@@ -658,8 +658,8 @@
    "asset": "assets/figures/textbook/ch02-computer-system-fundamentals/figure-t02-04.svg",
    "physical_page": 62,
    "printed_page": 53,
-   "record": "verification/教材首轮核查-第02章-计算机系统基础知识.md",
-   "note": "四列：等级（A～E）、失效状态、简要说明、目标数量（66/65/56/28/0）。单元格经扫描件逐格核对（本会话 zoom_p062_t24/t24L）；此前正文 Markdown 表由 SVG 取代。"
+   "record": "verification/教材OCR纠错记录-第2章.md",
+   "note": "A至E为66、65、57、28、0；C据附录A重算，见ch2b-027。"
   },
   {
    "id": "tb-fig-0047",
@@ -672,8 +672,8 @@
    "asset": "assets/figures/textbook/ch02-computer-system-fundamentals/figure-t02-05.svg",
    "physical_page": 81,
    "printed_page": 72,
-   "record": "verification/教材首轮核查-第02章-计算机系统基础知识.md",
-   "note": "含合并单元格：应用层行 VT/DS/FTMA/CNIP-CMIS/MHS 标签与 ACSE,RTSE,ROSE,CCR 子行；ANS.1 独立列纵跨应用层至会话层；网络层分 ES-IS,IS-IS 与 X.25 PLP/CLNP 两子行；数据链路层行 IEEE 802.2/HDLC PAP-B；物理层行 802.3 802.4 802.5 FDDI／RS-232 RS-449 X-21 V.35 ISDN，全表单页完整。原书排印 FTMA/ANS.1/TPO 照录（疑为 FTAM/ASN.1/TP0，已记录）；此前正文简化 Markdown 表由本 SVG 取代。"
+   "record": "verification/教材OCR纠错记录-第2章.md",
+   "note": "核三层合并边框与应用层中的两排协议；FTAM、CMIP、ASN.1、TP0、LAPB等从错拼修复。ASN.1格止于应用层底。"
   },
   {
    "id": "tb-fig-0048",
@@ -686,8 +686,8 @@
    "asset": "assets/figures/textbook/ch02-computer-system-fundamentals/figure-t02-06.svg",
    "physical_page": 81,
    "printed_page": 72,
-   "record": "verification/教材首轮核查-第02章-计算机系统基础知识.md",
-   "note": "跨页续表，含合并单元格：左列应用层/表示层/会话层为三个独立行，五个协议格（文件传输协议FTP/远程登录协议Telnet/电子邮件协议SMTP/网络文件服务协议NFS/网络管理协议SNMP）与右列应用层纵跨此三行；传输层 TCP/UDP；网络层 IP、ICMP 与 ARP RARP 同格，对网际层；数据链路层与物理层两行上 Enternet IEEE 802.3〔原书如此〕、FDDI、Token-Ring/IEEE 802.3 硬件层、ARCnet 四格纵跨两行，PPP/SLIP 窄格切入右列下方，右列对应网络接口层/硬件层两行。此前正文 Markdown 表由本 SVG 取代。"
+   "record": "verification/教材OCR纠错记录-第2章.md",
+   "note": "跨页合并；修正Ethernet名称和Token Ring的IEEE 802.5编号，保持两行下部栏位。"
   },
   {
    "id": "tb-fig-0049",
@@ -700,8 +700,8 @@
    "asset": "assets/figures/textbook/ch02-computer-system-fundamentals/figure-t02-07.svg",
    "physical_page": 100,
    "printed_page": 91,
-   "record": "verification/教材首轮核查-第02章-计算机系统基础知识.md",
-   "note": "三列：名称、定义、特点；四行：桌面式VR、分布式VR、沉浸式VR、增强式VR（AR）。单元格经扫描件逐格核对（R12 轮 + 本会话）；此前正文 Markdown 表由 SVG 取代。"
+   "record": "verification/教材OCR纠错记录-第2章.md",
+   "note": "名称、定义和特点三列，桌面式、分布式、沉浸式和增强式四行；物理100为重建页，首行放大后可辨“三维交互场景”。 本轮已将SVG实际栅格化，和同页渲染图独立目视对照。"
   },
   {
    "id": "tb-fig-0050",
@@ -714,8 +714,8 @@
    "asset": "assets/figures/textbook/ch02-computer-system-fundamentals/figure-02-35.svg",
    "physical_page": 97,
    "printed_page": 88,
-   "record": "verification/教材首轮核查-第02章-计算机系统基础知识.md",
-   "note": "树形：多媒体系统→多媒体硬件（多媒体计算机[MPC、图形工作站等]、多媒体板卡[显示卡、音频卡、视频卡等]、多媒体外部设备[触摸屏、扫描仪、摄像头等]）与多媒体软件（多媒体系统软件[驱动程序、操作系统]、多媒体支持软件[素材制作工具、著作工具、编程语言]、多媒体应用软件）。"
+   "record": "verification/教材OCR纠错记录-第2章.md",
+   "note": "树形：多媒体系统→多媒体硬件（多媒体计算机[MPC、图形工作站等]、多媒体板卡[显示卡、音频卡、视频卡等]、多媒体外部设备[触摸屏、扫描仪、摄像头等]）与多媒体软件（多媒体系统软件[驱动程序、操作系统]、多媒体支持软件[素材制作工具、著作工具、编程语言]、多媒体应用软件）。 本轮已将SVG实际栅格化，和同页渲染图独立目视对照。 本轮已将SVG实际栅格化，和同页渲染图独立目视对照。"
   },
   {
    "id": "tb-fig-0051",

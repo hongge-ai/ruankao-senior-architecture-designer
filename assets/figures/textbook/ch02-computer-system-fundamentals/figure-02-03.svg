@@ -63,7 +63,7 @@
     <line x1="40" y1="450" x2="860" y2="450" marker-end="url(#a23)" marker-start="url(#a23s)"/>
   </g>
   <g font-size="17" fill="#1f2937">
-    <text x="370" y="391">地址总线</text>
-    <text x="370" y="456">数据总线</text>
+    <text x="370" y="376">地址总线</text>
+    <text x="370" y="441">数据总线</text>
   </g>
 </svg>
