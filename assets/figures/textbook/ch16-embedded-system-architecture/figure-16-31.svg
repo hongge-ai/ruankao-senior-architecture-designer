@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="812" height="397" viewBox="0 0 812 397" role="img" aria-labelledby="title"><title id="title">FreeRTOS软件架构</title>
+<defs><marker id="a" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 8 4 0 8Z" fill="#477786"/></marker></defs>
+<rect width="812" height="397" fill="white"/>
+<rect x="8.0" y="7" width="794.0" height="48" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="405.0" y="36.44" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">嵌入式应用程序</text>
+<rect x="8.0" y="62" width="154.0" height="48" fill="#cbe8ef" stroke="#477786" stroke-width="1.5"/>
+<text x="85.0" y="91.44" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">MQTT</text>
+<rect x="168.0" y="62" width="154.0" height="48" fill="#cbe8ef" stroke="#477786" stroke-width="1.5"/>
+<text x="245.0" y="91.44" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">HTTPS</text>
+<rect x="328.0" y="62" width="154.0" height="48" fill="#cbe8ef" stroke="#477786" stroke-width="1.5"/>
+<text x="405.0" y="81.94" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">Device</text>
+<text x="405.0" y="100.94" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">Defender</text>
+<rect x="488.0" y="62" width="154.0" height="48" fill="#cbe8ef" stroke="#477786" stroke-width="1.5"/>
+<text x="565.0" y="81.94" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">Greengrass</text>
+<text x="565.0" y="100.94" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">Discovery</text>
+<rect x="648.0" y="62" width="154.0" height="48" fill="#cbe8ef" stroke="#477786" stroke-width="1.5"/>
+<text x="725.0" y="81.94" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">Device</text>
+<text x="725.0" y="100.94" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">Shadow</text>
+<rect x="8.0" y="117" width="260.6666666666667" height="48" fill="white" stroke="#477786" stroke-width="1.5"/>
+<text x="138.33333333333334" y="146.44" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">OTA Updates</text>
+<rect x="274.6666666666667" y="117" width="260.6666666666667" height="48" fill="white" stroke="#477786" stroke-width="1.5"/>
+<text x="405.0" y="146.44" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">PKCS#11</text>
+<rect x="541.3333333333334" y="117" width="260.6666666666667" height="48" fill="white" stroke="#477786" stroke-width="1.5"/>
+<text x="671.6666666666667" y="136.94" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">Secure</text>
+<text x="671.6666666666667" y="155.94" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">Sockets</text>
+<rect x="8.0" y="172" width="154.0" height="48" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="85.0" y="201.44" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">Wi-Fi</text>
+<rect x="168.0" y="172" width="154.0" height="48" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="245.0" y="201.44" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">BLE</text>
+<rect x="328.0" y="172" width="154.0" height="48" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="405.0" y="201.44" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">+POSIX</text>
+<rect x="488.0" y="172" width="154.0" height="48" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="565.0" y="201.44" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">+TCP</text>
+<rect x="648.0" y="172" width="154.0" height="48" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="725.0" y="201.44" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">TLS</text>
+<rect x="8.0" y="227" width="394.0" height="48" fill="#a5d4df" stroke="#477786" stroke-width="1.5"/>
+<text x="205.0" y="256.44" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">FreeRTOS内核</text>
+<rect x="408.0" y="227" width="394.0" height="48" fill="#a5d4df" stroke="#477786" stroke-width="1.5"/>
+<text x="605.0" y="246.94" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">FreeRTOS</text>
+<text x="605.0" y="265.94" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">内部库</text>
+<rect x="8.0" y="282" width="794.0" height="48" fill="#cbe8ef" stroke="#477786" stroke-width="1.5"/>
+<text x="405.0" y="311.44" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">供应商驱动程序</text>
+<rect x="8.0" y="337" width="794.0" height="48" fill="#a5d4df" stroke="#477786" stroke-width="1.5"/>
+<text x="405.0" y="366.44" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">硬件</text>
+</svg>

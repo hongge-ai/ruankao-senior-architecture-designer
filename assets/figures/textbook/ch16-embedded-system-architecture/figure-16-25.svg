@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="350" viewBox="0 0 500 350" role="img" aria-labelledby="title"><title id="title">软件质量理想模型结构图</title>
+<defs><marker id="a" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 8 4 0 8Z" fill="#477786"/></marker></defs>
+<rect width="500" height="350" fill="white"/>
+<ellipse cx="181" cy="171" rx="149" ry="149" fill="#a5d4df" stroke="#477786" stroke-width="1.6"/>
+<ellipse cx="181" cy="171" rx="108" ry="108" fill="#cbe8ef" stroke="#477786" stroke-width="1.6"/>
+<ellipse cx="181" cy="171" rx="67" ry="67" fill="#eff8fa" stroke="#477786" stroke-width="1.6"/>
+<ellipse cx="132" cy="110" rx="50" ry="19" fill="white" stroke="#477786" stroke-width="1.6"/>
+<text x="132" y="116" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">理想模型</text>
+<ellipse cx="222" cy="138" rx="22" ry="22" fill="white" stroke="#477786" stroke-width="1.6"/>
+<text x="222" y="144" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="13" fill="#173c48">M I</text>
+<ellipse cx="244" cy="251" rx="27" ry="23" fill="white" stroke="#477786" stroke-width="1.6"/>
+<text x="244" y="256" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="12" fill="#173c48">RGM）</text>
+<text x="178" y="177" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#173c48">定义模型</text>
+<text x="175" y="207" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">ISO 9126</text>
+<path d="M235 56 255 40 H344" fill="none" stroke="#477786" stroke-width="1.6"/>
+<text x="398" y="46" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">预测模型</text>
+<path d="M271 165 286 142 H347" fill="none" stroke="#477786" stroke-width="1.6"/>
+<text x="399" y="149" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">评估模型</text>
+</svg>

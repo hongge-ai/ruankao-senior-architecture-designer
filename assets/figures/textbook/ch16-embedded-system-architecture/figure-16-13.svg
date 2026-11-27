@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 138" role="img" aria-labelledby="title desc">
+<title id="title">图 16-13 RMS法原理示例</title><desc id="desc">扫描页时间轴0–200ms，两轮各执行P₁、P₂、P₁、P₂，空闲至下一个100ms边界。</desc>
+<defs><marker id="ar" markerWidth="5" markerHeight="5" viewBox="0 0 10 10" refX="9" refY="5" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#416c79"/></marker></defs>
+<g font-family="Noto Sans CJK SC, sans-serif" fill="#183640">
+<path d="M36 99H838" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)"/>
+<text x="39" y="122" text-anchor="middle" font-size="14">0</text>
+<text x="78" y="122" text-anchor="middle" font-size="14">10</text>
+<text x="117" y="122" text-anchor="middle" font-size="14">20</text>
+<text x="156" y="122" text-anchor="middle" font-size="14">30</text>
+<text x="195" y="122" text-anchor="middle" font-size="14">40</text>
+<text x="234" y="122" text-anchor="middle" font-size="14">50</text>
+<text x="273" y="122" text-anchor="middle" font-size="14">60</text>
+<text x="312" y="122" text-anchor="middle" font-size="14">70</text>
+<text x="351" y="122" text-anchor="middle" font-size="14">80</text>
+<text x="390" y="122" text-anchor="middle" font-size="14">90</text>
+<text x="429" y="122" text-anchor="middle" font-size="14">100</text>
+<text x="468" y="122" text-anchor="middle" font-size="14">110</text>
+<text x="507" y="122" text-anchor="middle" font-size="14">120</text>
+<text x="546" y="122" text-anchor="middle" font-size="14">130</text>
+<text x="585" y="122" text-anchor="middle" font-size="14">140</text>
+<text x="624" y="122" text-anchor="middle" font-size="14">150</text>
+<text x="663" y="122" text-anchor="middle" font-size="14">160</text>
+<text x="702" y="122" text-anchor="middle" font-size="14">170</text>
+<text x="741" y="122" text-anchor="middle" font-size="14">180</text>
+<text x="780" y="122" text-anchor="middle" font-size="14">190</text>
+<text x="819" y="122" text-anchor="middle" font-size="14">200</text>
+<rect x="39.0" y="73" width="78.0" height="25" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="78.0" y="91.5" text-anchor="middle" font-size="14">P₁</text>
+<rect x="117.0" y="73" width="117.0" height="25" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="175.5" y="91.5" text-anchor="middle" font-size="14">P₂</text>
+<rect x="234.0" y="73" width="78.0" height="25" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="273.0" y="91.5" text-anchor="middle" font-size="14">P₁</text>
+<rect x="312.0" y="73" width="19.5" height="25" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="321.75" y="91.5" text-anchor="middle" font-size="14">P₂</text>
+<rect x="429.0" y="73" width="78.0" height="25" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="468.0" y="91.5" text-anchor="middle" font-size="14">P₁</text>
+<rect x="507.0" y="73" width="117.0" height="25" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="565.5" y="91.5" text-anchor="middle" font-size="14">P₂</text>
+<rect x="624.0" y="73" width="78.0" height="25" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="663.0" y="91.5" text-anchor="middle" font-size="14">P₁</text>
+<rect x="702.0" y="73" width="19.5" height="25" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="711.75" y="91.5" text-anchor="middle" font-size="14">P₂</text>
+<path d="M234.0 39v29" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)"/>
+<text x="234.0" y="33" text-anchor="middle" font-size="17">P₁</text>
+<path d="M429.0 39v29" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)"/>
+<text x="429.0" y="33" text-anchor="middle" font-size="17">P₁, P₂</text>
+<path d="M624.0 39v29" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)"/>
+<text x="624.0" y="33" text-anchor="middle" font-size="17">P₁</text>
+<path d="M819.0 39v29" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)"/>
+<text x="819.0" y="33" text-anchor="middle" font-size="17">P₁, P₂</text>
+<text x="85" y="37" text-anchor="middle" font-size="17">截止期限</text>
+</g></svg>

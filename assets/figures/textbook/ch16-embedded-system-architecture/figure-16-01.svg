@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 755 420" role="img" aria-labelledby="title desc">
+<title id="title">图 16-1 典型嵌入式系统硬件组成结构</title><desc id="desc">高性能总线通过两个总线桥连接网络接口及外围总线，图中保留两处网络接口。</desc>
+<defs><marker id="ar" markerWidth="5" markerHeight="5" viewBox="0 0 10 10" refX="9" refY="5" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#416c79"/></marker></defs>
+<g font-family="Noto Sans CJK SC, sans-serif" fill="#183640">
+<rect x="45" y="8" width="115" height="49" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="102.5" y="38.5" text-anchor="middle" font-size="17">仲裁器</text>
+<path d="M102 58V92" fill="none" stroke="#416c79" stroke-width="1.8"/>
+<rect x="200" y="8" width="115" height="49" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="257.5" y="28.0" text-anchor="middle" font-size="17">嵌入式</text>
+<text x="257.5" y="49.0" text-anchor="middle" font-size="17">微处理器核</text>
+<path d="M257 58V92" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)" marker-start="url(#ar)"/>
+<rect x="365" y="8" width="115" height="49" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="422.5" y="38.5" text-anchor="middle" font-size="17">SDRAM</text>
+<path d="M422 58V92" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)" marker-start="url(#ar)"/>
+<rect x="600" y="8" width="115" height="49" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="657.5" y="38.5" text-anchor="middle" font-size="17">Flash ROM</text>
+<path d="M657 58V92" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)" marker-start="url(#ar)"/>
+<path d="M20 93H745" fill="none" stroke="#416c79" stroke-width="1.8"/>
+<text x="390" y="117" text-anchor="middle" font-size="17">高性能总线</text>
+<rect x="130" y="122" width="100" height="38" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="180.0" y="147.0" text-anchor="middle" font-size="17">总线桥</text>
+<path d="M180 94V122 M180 160v27" fill="none" stroke="#416c79" stroke-width="1.8"/>
+<rect x="480" y="122" width="100" height="38" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="530.0" y="147.0" text-anchor="middle" font-size="17">总线桥</text>
+<path d="M530 94V122 M530 160v27" fill="none" stroke="#416c79" stroke-width="1.8"/>
+<path d="M20 188H268q6 -12 12 0h40" fill="none" stroke="#416c79" stroke-width="1.8"/>
+<path d="M274 176v32" fill="none" stroke="#416c79" stroke-width="1.8"/>
+<path d="M530 185v210" fill="none" stroke="#416c79" stroke-width="1.8"/>
+<text x="641" y="183" text-anchor="middle" font-size="17">高性能外围总线</text>
+<rect x="20" y="229" width="100" height="40" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="70.0" y="255.0" text-anchor="middle" font-size="17">网络接口</text>
+<path d="M70 189V229" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)" marker-start="url(#ar)"/>
+<path d="M70 272v44" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)" marker-start="url(#ar)"/>
+<rect x="130" y="229" width="100" height="40" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="180.0" y="255.0" text-anchor="middle" font-size="17">网络接口</text>
+<path d="M180 189V229" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)" marker-start="url(#ar)"/>
+<path d="M180 272v44" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)" marker-start="url(#ar)"/>
+<rect x="222" y="229" width="100" height="40" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="272.0" y="255.0" text-anchor="middle" font-size="17">仲裁器</text>
+<rect x="382" y="195" width="100" height="36" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="432.0" y="219.0" text-anchor="middle" font-size="17">仲裁器</text>
+<path d="M482 213H529" fill="none" stroke="#416c79" stroke-width="1.8"/>
+<rect x="382" y="247" width="100" height="36" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="432.0" y="271.0" text-anchor="middle" font-size="17">JTAG</text>
+<path d="M482 265H529" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)" marker-start="url(#ar)"/>
+<rect x="382" y="299" width="100" height="36" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="432.0" y="323.0" text-anchor="middle" font-size="17">INTC</text>
+<path d="M482 317H529" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)" marker-start="url(#ar)"/>
+<rect x="382" y="351" width="100" height="36" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="432.0" y="375.0" text-anchor="middle" font-size="17">Timer</text>
+<path d="M482 369H529" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)" marker-start="url(#ar)"/>
+<rect x="571" y="215" width="95" height="36" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="618.5" y="239.0" text-anchor="middle" font-size="17">GPIO</text>
+<path d="M531 233h39" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)" marker-start="url(#ar)"/>
+<path d="M670 233h64" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)" marker-start="url(#ar)"/>
+<rect x="571" y="267" width="95" height="36" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="618.5" y="291.0" text-anchor="middle" font-size="17">USB</text>
+<path d="M531 285h39" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)" marker-start="url(#ar)"/>
+<path d="M670 285h64" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)" marker-start="url(#ar)"/>
+<rect x="571" y="319" width="95" height="36" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="618.5" y="343.0" text-anchor="middle" font-size="17">RTC</text>
+<path d="M531 337h39" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)" marker-start="url(#ar)"/>
+<rect x="571" y="371" width="95" height="36" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="618.5" y="395.0" text-anchor="middle" font-size="17">UART</text>
+<path d="M531 389h39" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)" marker-start="url(#ar)"/>
+<path d="M670 389h64" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)" marker-start="url(#ar)"/>
+</g></svg>

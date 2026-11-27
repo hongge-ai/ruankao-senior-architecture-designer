@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 713 563" role="img" aria-labelledby="title desc">
+<title id="title">图 16-7 一般嵌入式操作系统的体系结构</title><desc id="desc">软件应用与内核、驱动及板级支持包、硬件控制器与四种处理器。</desc>
+<defs><marker id="ar" markerWidth="5" markerHeight="5" viewBox="0 0 10 10" refX="9" refY="5" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#416c79"/></marker></defs>
+<g font-family="Noto Sans CJK SC, sans-serif" fill="#183640">
+<rect x="8" y="10" width="692" height="261" rx="0" fill="white" stroke="#517782" stroke-width="1.5"/>
+<text x="358" y="34" text-anchor="middle" font-size="17">与硬件无关的软件</text>
+<rect x="27" y="49" width="655" height="38" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="354.5" y="74.0" text-anchor="middle" font-size="17">应用程序</text>
+<rect x="68" y="114" width="125" height="39" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="130.5" y="139.5" text-anchor="middle" font-size="17">I/O系统</text>
+<rect x="274" y="114" width="189" height="39" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="368.5" y="139.5" text-anchor="middle" font-size="17">操作系统可配置库</text>
+<rect x="528" y="114" width="133" height="39" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="594.5" y="139.5" text-anchor="middle" font-size="17">网络系统</text>
+<rect x="28" y="205" width="140" height="39" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="98.0" y="230.5" text-anchor="middle" font-size="17">文件系统</text>
+<rect x="221" y="205" width="247" height="39" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="344.5" y="230.5" text-anchor="middle" font-size="17">操作系统内核</text>
+<rect x="490" y="205" width="123" height="39" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="551.5" y="230.5" text-anchor="middle" font-size="17">调试代理</text>
+<rect x="8" y="283" width="692" height="100" rx="0" fill="white" stroke="#517782" stroke-width="1.5"/>
+<text x="357" y="307" text-anchor="middle" font-size="17">与硬件相关的软件</text>
+<rect x="26" y="329" width="148" height="38" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="100.0" y="354.0" text-anchor="middle" font-size="17">SCSI驱动程序</text>
+<rect x="192" y="329" width="303" height="38" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="343.5" y="354.0" text-anchor="middle" font-size="17">BSP</text>
+<rect x="509" y="329" width="172" height="38" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="595.0" y="354.0" text-anchor="middle" font-size="17">LAN驱动程序</text>
+<rect x="8" y="396" width="692" height="156" rx="0" fill="white" stroke="#517782" stroke-width="1.5"/>
+<text x="360" y="421" text-anchor="middle" font-size="17">硬件</text>
+<rect x="23" y="441" width="123" height="37" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="84.5" y="465.5" text-anchor="middle" font-size="15">SCSI控制器</text>
+<rect x="158" y="441" width="123" height="37" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="219.5" y="465.5" text-anchor="middle" font-size="15">SCC</text>
+<rect x="293" y="441" width="123" height="37" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="354.5" y="465.5" text-anchor="middle" font-size="15">中断控制器</text>
+<rect x="428" y="441" width="123" height="37" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="489.5" y="465.5" text-anchor="middle" font-size="15">定时器</text>
+<rect x="563" y="441" width="123" height="37" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="624.5" y="465.5" text-anchor="middle" font-size="15">以太网控制器</text>
+<rect x="24" y="495" width="136" height="39" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="92.0" y="520.5" text-anchor="middle" font-size="17">ARM</text>
+<rect x="196" y="495" width="136" height="39" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="264.0" y="520.5" text-anchor="middle" font-size="17">PowerPC</text>
+<rect x="368" y="495" width="136" height="39" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="436.0" y="520.5" text-anchor="middle" font-size="17">MIPS</text>
+<rect x="540" y="495" width="136" height="39" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="608.0" y="520.5" text-anchor="middle" font-size="17">Pentium</text>
+<path d="M42 88V204" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)"/>
+<path d="M61 204V88" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)"/>
+<path d="M110 88V113" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)"/>
+<path d="M130 154V204" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)"/>
+<path d="M154 204V154" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)"/>
+<path d="M231 88V203" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)"/>
+<path d="M247 204V88" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)"/>
+<path d="M351 88V112" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)"/>
+<path d="M367 154V204" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)"/>
+<path d="M385 204V154" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)"/>
+<path d="M595 88V113" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)"/>
+<path d="M614 113V88" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)"/>
+<path d="M75 245V328" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)"/>
+<path d="M141 328V245" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)"/>
+<path d="M188 154V328" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)"/>
+<path d="M207 328V154" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)"/>
+<path d="M554 245V328" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)"/>
+<path d="M574 328V245" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)"/>
+<path d="M634 154V328" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)"/>
+<path d="M657 328V154" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)"/>
+<path d="M65 368V440" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)"/>
+<path d="M140 440V368" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)"/>
+<path d="M231 368V440" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)"/>
+<path d="M260 440V368" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)"/>
+<path d="M458 368V440" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)"/>
+<path d="M485 440V368" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)"/>
+<path d="M607 368V440" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)"/>
+<path d="M651 440V368" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)"/>
+<path d="M170 223h49" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)" marker-start="url(#ar)"/>
+<path d="M469 223h20" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)" marker-start="url(#ar)"/>
+</g></svg>

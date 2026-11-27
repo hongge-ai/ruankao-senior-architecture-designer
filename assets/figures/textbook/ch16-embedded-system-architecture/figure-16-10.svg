@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 552 244" role="img" aria-labelledby="title desc">
+<title id="title">图 16-10 任务三种状态的转换</title><desc id="desc">执行、就绪和阻塞三态，四条有向转换。</desc>
+<defs><marker id="ar" markerWidth="5" markerHeight="5" viewBox="0 0 10 10" refX="9" refY="5" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#416c79"/></marker></defs>
+<g font-family="Noto Sans CJK SC, sans-serif" fill="#183640">
+<rect x="225" y="12" width="110" height="45" rx="22" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="280.0" y="40.5" text-anchor="middle" font-size="17">执行态</text>
+<rect x="23" y="181" width="115" height="45" rx="22" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="80.5" y="209.5" text-anchor="middle" font-size="17">阻塞态</text>
+<rect x="414" y="181" width="115" height="45" rx="22" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="471.5" y="209.5" text-anchor="middle" font-size="17">就绪态</text>
+<path d="M241 56L93 179" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)"/>
+<path d="M314 54L471 179" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)"/>
+<path d="M449 179L293 58" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)"/>
+<path d="M140 204H412" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)"/>
+<text x="92" y="94" text-anchor="middle" font-size="17">进程因等待</text>
+<text x="92" y="117" text-anchor="middle" font-size="17">输入阻塞</text>
+<text x="265" y="128" text-anchor="middle" font-size="17">调度器选择本进程</text>
+<text x="464" y="84" text-anchor="middle" font-size="17">调度器选择</text>
+<text x="464" y="106" text-anchor="middle" font-size="17">另一个进程</text>
+<text x="274" y="229" text-anchor="middle" font-size="17">输入数据到达</text>
+</g></svg>

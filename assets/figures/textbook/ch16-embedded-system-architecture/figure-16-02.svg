@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 670 430" role="img" aria-labelledby="title desc">
+<title id="title">图 16-2 各类总线在嵌入式系统的位置</title><desc id="desc">处理器、I/O桥、主存、I/O总线、扩展槽及三种设备控制器。</desc>
+<defs><marker id="ar" markerWidth="5" markerHeight="5" viewBox="0 0 10 10" refX="9" refY="5" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#416c79"/></marker></defs>
+<g font-family="Noto Sans CJK SC, sans-serif" fill="#183640">
+<rect x="10" y="20" width="282" height="165" rx="0" fill="white" stroke="#517782" stroke-width="1.5"/>
+<rect x="20" y="65" width="50" height="38" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="45.0" y="90.0" text-anchor="middle" font-size="17">PC</text>
+<rect x="82" y="49" width="95" height="68" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="129.5" y="78.5" text-anchor="middle" font-size="17">Register</text>
+<text x="129.5" y="99.5" text-anchor="middle" font-size="17">file</text>
+<rect x="210" y="55" width="67" height="56" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="243.5" y="89.0" text-anchor="middle" font-size="17">ALU</text>
+<rect x="28" y="139" width="159" height="35" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="107.5" y="162.5" text-anchor="middle" font-size="17">Memory interface</text>
+<path d="M178 66h30" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)"/>
+<path d="M209 92h-31" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)"/>
+<path d="M125 119v18" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)"/>
+<rect x="356" y="131" width="90" height="55" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="401.0" y="154.0" text-anchor="middle" font-size="17">I/O</text>
+<text x="401.0" y="175.0" text-anchor="middle" font-size="17">bridge</text>
+<rect x="549" y="131" width="100" height="55" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="599.0" y="154.0" text-anchor="middle" font-size="17">Main</text>
+<text x="599.0" y="175.0" text-anchor="middle" font-size="17">memory</text>
+<path d="M190 158h164" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)" marker-start="url(#ar)"/>
+<path d="M447 158h100" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)" marker-start="url(#ar)"/>
+<text x="329" y="110" text-anchor="middle" font-size="17">System bus</text>
+<text x="503" y="110" text-anchor="middle" font-size="17">Memory bus</text>
+<text x="488" y="39" text-anchor="middle" font-size="17">北桥芯片组把处理器、存储器和总线</text>
+<text x="488" y="63" text-anchor="middle" font-size="17">分成两个总线</text>
+<path d="M22 230H653" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)" marker-start="url(#ar)"/>
+<path d="M400 228v-42" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)"/>
+<text x="405" y="255" text-anchor="middle" font-size="17">I/O bus</text>
+<path d="M129 231v42" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)"/>
+<rect x="79" y="275" width="107" height="56" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="132.5" y="298.5" text-anchor="middle" font-size="17">USB</text>
+<text x="132.5" y="319.5" text-anchor="middle" font-size="17">controller</text>
+<path d="M102 355v-23" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)"/>
+<path d="M153 355v-23" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)"/>
+<path d="M308 231v42" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)"/>
+<rect x="258" y="275" width="107" height="56" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="311.5" y="298.5" text-anchor="middle" font-size="17">Graphics</text>
+<text x="311.5" y="319.5" text-anchor="middle" font-size="17">adapter</text>
+<path d="M312 355v-23" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)"/>
+<path d="M519 231v42" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)"/>
+<rect x="469" y="275" width="107" height="56" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="522.5" y="298.5" text-anchor="middle" font-size="17">Disk</text>
+<text x="522.5" y="319.5" text-anchor="middle" font-size="17">controller</text>
+<path d="M523 355v-23" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)" marker-start="url(#ar)"/>
+<text x="66" y="379" text-anchor="middle" font-size="17">Mouse</text>
+<text x="145" y="379" text-anchor="middle" font-size="17">Keyboard</text>
+<text x="311" y="379" text-anchor="middle" font-size="17">Display</text>
+<text x="525" y="379" text-anchor="middle" font-size="17">Disk</text>
+<rect x="580" y="220" width="10" height="20" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<rect x="600" y="220" width="10" height="20" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<rect x="620" y="220" width="10" height="20" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="605" y="270" text-anchor="middle" font-size="17">Expansion</text>
+<text x="605" y="291" text-anchor="middle" font-size="17">slots</text>
+<text x="326" y="415" text-anchor="middle" font-size="17">I/O接口</text>
+<path d="M281 395L174 332" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)" stroke-dasharray="5 4"/>
+<path d="M327 392L344 332" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)" stroke-dasharray="5 4"/>
+<path d="M370 395L472 333" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)" stroke-dasharray="5 4"/>
+</g></svg>

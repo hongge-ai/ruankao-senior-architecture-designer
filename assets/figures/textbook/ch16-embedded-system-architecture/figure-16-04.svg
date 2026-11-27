@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 482" role="img" aria-labelledby="title desc">
+<title id="title">图 16-4 SAE AS4893定义的一种GOA架构</title><desc id="desc">两个对称的应用、系统服务、资源访问与物理资源结构，标注层内与跨层关系。</desc>
+<defs><marker id="ar" markerWidth="5" markerHeight="5" viewBox="0 0 10 10" refX="9" refY="5" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#416c79"/></marker></defs>
+<g font-family="Noto Sans CJK SC, sans-serif" fill="#183640">
+<rect x="54" y="12" width="148" height="40" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="128.0" y="38.0" text-anchor="middle" font-size="17">应用软件</text>
+<rect x="12" y="74" width="256" height="162" rx="0" fill="white" stroke="#517782" stroke-width="1.5"/>
+<text x="214" y="96" text-anchor="middle" font-size="17">系统服务</text>
+<rect x="109" y="111" width="125" height="39" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="171.5" y="136.5" text-anchor="middle" font-size="17">XOS服务</text>
+<rect x="24" y="178" width="160" height="39" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="104.0" y="203.5" text-anchor="middle" font-size="17">操作系统服务</text>
+<rect x="24" y="268" width="228" height="42" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="138.0" y="295.0" text-anchor="middle" font-size="16">资源访问服务（驱动程序）</text>
+<rect x="16" y="351" width="110" height="43" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="71.0" y="378.5" text-anchor="middle" font-size="17">物理资源</text>
+<rect x="153" y="351" width="110" height="43" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="208.0" y="378.5" text-anchor="middle" font-size="17">物理资源</text>
+<path d="M74 53V177" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)" marker-start="url(#ar)"/>
+<text x="89" y="120.0" text-anchor="middle" font-size="13">4D</text>
+<path d="M169 53V110" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)" marker-start="url(#ar)"/>
+<text x="149" y="86.5" text-anchor="middle" font-size="13">4D</text>
+<path d="M137 150V177" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)" marker-start="url(#ar)" stroke-dasharray="5 4"/>
+<text x="121" y="168.5" text-anchor="middle" font-size="13">3X</text>
+<path d="M177 151V268" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)" marker-start="url(#ar)"/>
+<text x="192" y="214.5" text-anchor="middle" font-size="13">3D</text>
+<path d="M90 218V268" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)" marker-start="url(#ar)"/>
+<text x="105" y="248.0" text-anchor="middle" font-size="13">3D</text>
+<path d="M70 310V351" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)" marker-start="url(#ar)" stroke-dasharray="5 4"/>
+<text x="85" y="335.5" text-anchor="middle" font-size="13">2D</text>
+<path d="M200 310V351" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)" marker-start="url(#ar)" stroke-dasharray="5 4"/>
+<text x="215" y="335.5" text-anchor="middle" font-size="13">2D</text>
+<path d="M128 373h24" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)" marker-start="url(#ar)" stroke-dasharray="5 4"/>
+<text x="141" y="395" text-anchor="middle" font-size="13">1L</text>
+<path d="M71 395v20h137v-20" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)" marker-start="url(#ar)"/>
+<text x="139" y="433" text-anchor="middle" font-size="13">1D</text>
+<rect x="589" y="12" width="148" height="40" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="663.0" y="38.0" text-anchor="middle" font-size="17">应用软件</text>
+<rect x="547" y="74" width="256" height="162" rx="0" fill="white" stroke="#517782" stroke-width="1.5"/>
+<text x="749" y="96" text-anchor="middle" font-size="17">系统服务</text>
+<rect x="570" y="111" width="125" height="39" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="632.5" y="136.5" text-anchor="middle" font-size="17">XOS服务</text>
+<rect x="630" y="178" width="160" height="39" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="710.0" y="203.5" text-anchor="middle" font-size="17">操作系统服务</text>
+<rect x="559" y="268" width="228" height="42" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="673.0" y="295.0" text-anchor="middle" font-size="16">资源访问服务（驱动程序）</text>
+<rect x="551" y="351" width="110" height="43" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="606.0" y="378.5" text-anchor="middle" font-size="17">物理资源</text>
+<rect x="688" y="351" width="110" height="43" rx="0" fill="#edf6f7" stroke="#517782" stroke-width="1.5"/>
+<text x="743.0" y="378.5" text-anchor="middle" font-size="17">物理资源</text>
+<path d="M716 53V177" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)" marker-start="url(#ar)"/>
+<text x="731" y="120.0" text-anchor="middle" font-size="13">4D</text>
+<path d="M633 53V110" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)" marker-start="url(#ar)"/>
+<text x="613" y="86.5" text-anchor="middle" font-size="13">4D</text>
+<path d="M661 150V177" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)" marker-start="url(#ar)" stroke-dasharray="5 4"/>
+<text x="645" y="168.5" text-anchor="middle" font-size="13">3X</text>
+<path d="M606 151V268" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)" marker-start="url(#ar)"/>
+<text x="621" y="214.5" text-anchor="middle" font-size="13">3D</text>
+<path d="M731 218V268" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)" marker-start="url(#ar)"/>
+<text x="746" y="248.0" text-anchor="middle" font-size="13">3D</text>
+<path d="M663 373h24" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)" marker-start="url(#ar)" stroke-dasharray="5 4"/>
+<text x="676" y="395" text-anchor="middle" font-size="13">1L</text>
+<path d="M606 395v20h137v-20" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)" marker-start="url(#ar)"/>
+<text x="674" y="433" text-anchor="middle" font-size="13">1D</text>
+<path d="M203 30H588" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)" marker-start="url(#ar)" stroke-dasharray="5 4"/>
+<rect x="388" y="18" width="40" height="25" rx="0" fill="white" stroke="#517782" stroke-width="1.5"/>
+<text x="408.0" y="36.5" text-anchor="middle" font-size="15">4L</text>
+<path d="M269 158H545" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)" marker-start="url(#ar)" stroke-dasharray="5 4"/>
+<rect x="388" y="146" width="40" height="25" rx="0" fill="white" stroke="#517782" stroke-width="1.5"/>
+<text x="408.0" y="164.5" text-anchor="middle" font-size="15">3L</text>
+<path d="M254 289H557" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)" marker-start="url(#ar)" stroke-dasharray="5 4"/>
+<rect x="388" y="277" width="40" height="25" rx="0" fill="white" stroke="#517782" stroke-width="1.5"/>
+<text x="408.0" y="295.5" text-anchor="middle" font-size="15">2L</text>
+<path d="M264 373H550" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)" marker-start="url(#ar)" stroke-dasharray="5 4"/>
+<rect x="388" y="361" width="40" height="25" rx="0" fill="white" stroke="#517782" stroke-width="1.5"/>
+<text x="408.0" y="379.5" text-anchor="middle" font-size="15">1L</text>
+<path d="M202 395v57h407v-57" fill="none" stroke="#416c79" stroke-width="1.8" marker-end="url(#ar)" marker-start="url(#ar)"/>
+<text x="402" y="472" text-anchor="middle" font-size="15">1D</text>
+</g></svg>
