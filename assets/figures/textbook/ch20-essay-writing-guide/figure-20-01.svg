@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="617" viewBox="0 0 520 617" role="img" aria-labelledby="title desc"><title id="title">论文答题纸样式1</title><desc id="desc">每行25格。第1页分摘要16行及正文12行。</desc><rect width="520" height="617" fill="white"/>
+<text x="60" y="34" text-anchor="start" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#203e45">摘要</text>
+<path d="M60 48v256 M76 48v256 M92 48v256 M108 48v256 M124 48v256 M140 48v256 M156 48v256 M172 48v256 M188 48v256 M204 48v256 M220 48v256 M236 48v256 M252 48v256 M268 48v256 M284 48v256 M300 48v256 M316 48v256 M332 48v256 M348 48v256 M364 48v256 M380 48v256 M396 48v256 M412 48v256 M428 48v256 M444 48v256 M460 48v256 M60 48h400 M60 64h400 M60 80h400 M60 96h400 M60 112h400 M60 128h400 M60 144h400 M60 160h400 M60 176h400 M60 192h400 M60 208h400 M60 224h400 M60 240h400 M60 256h400 M60 272h400 M60 288h400 M60 304h400" fill="none" stroke="#447c85" stroke-width="0.9"/>
+<text x="37" y="240" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#203e45">300</text>
+<text x="483" y="240" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#203e45">300</text>
+<text x="60" y="348" text-anchor="start" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#203e45">正文</text>
+<path d="M60 364v192 M76 364v192 M92 364v192 M108 364v192 M124 364v192 M140 364v192 M156 364v192 M172 364v192 M188 364v192 M204 364v192 M220 364v192 M236 364v192 M252 364v192 M268 364v192 M284 364v192 M300 364v192 M316 364v192 M332 364v192 M348 364v192 M364 364v192 M380 364v192 M396 364v192 M412 364v192 M428 364v192 M444 364v192 M460 364v192 M60 364h400 M60 380h400 M60 396h400 M60 412h400 M60 428h400 M60 444h400 M60 460h400 M60 476h400 M60 492h400 M60 508h400 M60 524h400 M60 540h400 M60 556h400" fill="none" stroke="#447c85" stroke-width="0.9"/>
+<text x="37" y="556" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#203e45">300</text>
+<text x="483" y="556" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#203e45">300</text>
+<text x="260" y="591" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#203e45">第1页</text>
+</svg>

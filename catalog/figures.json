@@ -4776,6 +4776,34 @@
    "note": "整页扫描双人复核，五项应用、过滤与模型计算各四步、三条B端数据输入及计算存储组件；跨层上箭位于两库间，未强配某一库。",
    "id": "tb-fig-0340",
    "record": "verification/教材OCR纠错记录-第19章.md"
+  },
+  {
+   "corpus": "textbook",
+   "file": "content/01-系统架构设计师教材-清洗版/第20章-系统架构设计师论文写作要点/第01节-写作注意事项.md",
+   "figure": "图 20-1",
+   "title": "论文答题纸样式1",
+   "kind": "svg",
+   "anchor": "> 图 20-1 论文答题纸样式1",
+   "asset": "assets/figures/textbook/ch20-essay-writing-guide/figure-20-01.svg",
+   "physical_page": 711,
+   "printed_page": 704,
+   "note": "第1页，摘要16×25格、正文12×25格；两部分第12行左右标300。图内识别为“正方”的字据页内说明还原为正文。",
+   "id": "tb-fig-0341",
+   "record": "verification/教材OCR纠错记录-第20章.md"
+  },
+  {
+   "corpus": "textbook",
+   "file": "content/01-系统架构设计师教材-清洗版/第20章-系统架构设计师论文写作要点/第01节-写作注意事项.md",
+   "figure": "图 20-2",
+   "title": "论文答题纸样式2",
+   "kind": "svg",
+   "anchor": "> 图 20-2 论文答题纸样式2",
+   "asset": "assets/figures/textbook/ch20-essay-writing-guide/figure-20-02.svg",
+   "physical_page": 711,
+   "printed_page": 704,
+   "note": "第2页，正文36×25格；左右同时标出300、600、900。与首图相同依据校正“正方”。",
+   "id": "tb-fig-0342",
+   "record": "verification/教材OCR纠错记录-第20章.md"
   }
  ]
 }
