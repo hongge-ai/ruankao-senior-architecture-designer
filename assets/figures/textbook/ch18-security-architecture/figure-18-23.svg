@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="945" height="810" viewBox="0 0 945 810" role="img" aria-labelledby="title"><title id="title">IBM的软件缺陷分类法</title>
+<defs><marker id="a" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 8 4 0 8Z" fill="#477786"/></marker></defs>
+<rect width="945" height="810" fill="white"/>
+<line x1="101" y1="394.0" x2="113.0" y2="394.0" stroke="#477786" stroke-width="1.6"/>
+<line x1="113.0" y1="142.0" x2="113.0" y2="543.0" stroke="#477786" stroke-width="1.6"/>
+<line x1="113.0" y1="142.0" x2="125" y2="142.0" stroke="#477786" stroke-width="1.6"/>
+<line x1="113.0" y1="543.0" x2="125" y2="543.0" stroke="#477786" stroke-width="1.6"/>
+<line x1="212" y1="142.0" x2="237.0" y2="142.0" stroke="#477786" stroke-width="1.6"/>
+<line x1="237.0" y1="69.0" x2="237.0" y2="187.0" stroke="#477786" stroke-width="1.6"/>
+<line x1="237.0" y1="69.0" x2="262" y2="69.0" stroke="#477786" stroke-width="1.6"/>
+<line x1="237.0" y1="187.0" x2="262" y2="187.0" stroke="#477786" stroke-width="1.6"/>
+<line x1="212" y1="543.0" x2="237.0" y2="543.0" stroke="#477786" stroke-width="1.6"/>
+<line x1="237.0" y1="351.0" x2="237.0" y2="770.0" stroke="#477786" stroke-width="1.6"/>
+<line x1="237.0" y1="351.0" x2="262" y2="351.0" stroke="#477786" stroke-width="1.6"/>
+<line x1="237.0" y1="492.0" x2="262" y2="492.0" stroke="#477786" stroke-width="1.6"/>
+<line x1="237.0" y1="585.0" x2="262" y2="585.0" stroke="#477786" stroke-width="1.6"/>
+<line x1="237.0" y1="679.0" x2="262" y2="679.0" stroke="#477786" stroke-width="1.6"/>
+<line x1="237.0" y1="770.0" x2="262" y2="770.0" stroke="#477786" stroke-width="1.6"/>
+<line x1="414" y1="69.0" x2="439.5" y2="69.0" stroke="#477786" stroke-width="1.6"/>
+<line x1="439.5" y1="29.0" x2="439.5" y2="85.0" stroke="#477786" stroke-width="1.6"/>
+<line x1="439.5" y1="29.0" x2="465" y2="29.0" stroke="#477786" stroke-width="1.6"/>
+<line x1="439.5" y1="85.0" x2="465" y2="85.0" stroke="#477786" stroke-width="1.6"/>
+<line x1="414" y1="187.0" x2="439.5" y2="187.0" stroke="#477786" stroke-width="1.6"/>
+<line x1="439.5" y1="157.0" x2="439.5" y2="203.0" stroke="#477786" stroke-width="1.6"/>
+<line x1="439.5" y1="157.0" x2="465" y2="157.0" stroke="#477786" stroke-width="1.6"/>
+<line x1="439.5" y1="203.0" x2="465" y2="203.0" stroke="#477786" stroke-width="1.6"/>
+<line x1="414" y1="351.0" x2="439.5" y2="351.0" stroke="#477786" stroke-width="1.6"/>
+<line x1="439.5" y1="267.0" x2="439.5" y2="411.0" stroke="#477786" stroke-width="1.6"/>
+<line x1="439.5" y1="267.0" x2="465" y2="267.0" stroke="#477786" stroke-width="1.6"/>
+<line x1="439.5" y1="315.0" x2="465" y2="315.0" stroke="#477786" stroke-width="1.6"/>
+<line x1="439.5" y1="363.0" x2="465" y2="363.0" stroke="#477786" stroke-width="1.6"/>
+<line x1="439.5" y1="411.0" x2="465" y2="411.0" stroke="#477786" stroke-width="1.6"/>
+<line x1="414" y1="492.0" x2="439.5" y2="492.0" stroke="#477786" stroke-width="1.6"/>
+<line x1="439.5" y1="467.0" x2="439.5" y2="513.0" stroke="#477786" stroke-width="1.6"/>
+<line x1="439.5" y1="467.0" x2="465" y2="467.0" stroke="#477786" stroke-width="1.6"/>
+<line x1="439.5" y1="513.0" x2="465" y2="513.0" stroke="#477786" stroke-width="1.6"/>
+<line x1="414" y1="585.0" x2="439.5" y2="585.0" stroke="#477786" stroke-width="1.6"/>
+<line x1="439.5" y1="560.0" x2="439.5" y2="606.0" stroke="#477786" stroke-width="1.6"/>
+<line x1="439.5" y1="560.0" x2="465" y2="560.0" stroke="#477786" stroke-width="1.6"/>
+<line x1="439.5" y1="606.0" x2="465" y2="606.0" stroke="#477786" stroke-width="1.6"/>
+<line x1="414" y1="679.0" x2="439.5" y2="679.0" stroke="#477786" stroke-width="1.6"/>
+<line x1="439.5" y1="653.0" x2="439.5" y2="699.0" stroke="#477786" stroke-width="1.6"/>
+<line x1="439.5" y1="653.0" x2="465" y2="653.0" stroke="#477786" stroke-width="1.6"/>
+<line x1="439.5" y1="699.0" x2="465" y2="699.0" stroke="#477786" stroke-width="1.6"/>
+<line x1="414" y1="770.0" x2="439.5" y2="770.0" stroke="#477786" stroke-width="1.6"/>
+<line x1="439.5" y1="746.0" x2="439.5" y2="792.0" stroke="#477786" stroke-width="1.6"/>
+<line x1="439.5" y1="746.0" x2="465" y2="746.0" stroke="#477786" stroke-width="1.6"/>
+<line x1="439.5" y1="792.0" x2="465" y2="792.0" stroke="#477786" stroke-width="1.6"/>
+<line x1="691" y1="85.0" x2="734.5" y2="85.0" stroke="#477786" stroke-width="1.6"/>
+<line x1="734.5" y1="54.5" x2="734.5" y2="101.5" stroke="#477786" stroke-width="1.6"/>
+<line x1="734.5" y1="54.5" x2="778" y2="54.5" stroke="#477786" stroke-width="1.6"/>
+<line x1="734.5" y1="101.5" x2="778" y2="101.5" stroke="#477786" stroke-width="1.6"/>
+<rect x="10" y="372" width="91" height="44" fill="#cbe8ef" stroke="#477786" stroke-width="1.5"/>
+<text x="55.5" y="399.1" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">软件缺陷</text>
+<rect x="125" y="120" width="87" height="44" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="168.5" y="147.1" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">有意的</text>
+<rect x="125" y="521" width="87" height="44" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="168.5" y="548.1" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">无意的</text>
+<rect x="262" y="48" width="152" height="42" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="338.0" y="74.1" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">恶意的</text>
+<rect x="262" y="166" width="152" height="42" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="338.0" y="192.1" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">非恶意的</text>
+<rect x="262" y="330" width="152" height="42" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="338.0" y="356.1" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">验证错误</text>
+<rect x="262" y="471" width="152" height="42" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="338.0" y="497.1" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">抽象错误</text>
+<rect x="262" y="564" width="152" height="42" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="338.0" y="590.1" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">异步错误</text>
+<rect x="262" y="658" width="152" height="42" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="338.0" y="684.1" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">子组件误用／失败</text>
+<rect x="262" y="749" width="152" height="42" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="338.0" y="775.1" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">功能性错误</text>
+<rect x="465" y="13" width="226" height="32" fill="white" stroke="#477786" stroke-width="1.5"/>
+<text x="578.0" y="34.1" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">陷阱</text>
+<rect x="465" y="69" width="226" height="32" fill="white" stroke="#477786" stroke-width="1.5"/>
+<text x="578.0" y="90.1" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">逻辑／时间炸弹</text>
+<rect x="465" y="141" width="226" height="32" fill="white" stroke="#477786" stroke-width="1.5"/>
+<text x="578.0" y="162.1" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">隐蔽通道</text>
+<rect x="465" y="187" width="226" height="32" fill="white" stroke="#477786" stroke-width="1.5"/>
+<text x="578.0" y="208.1" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">不一致的访问控制途径</text>
+<rect x="465" y="251" width="226" height="32" fill="white" stroke="#477786" stroke-width="1.5"/>
+<text x="578.0" y="272.1" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">寻址错误</text>
+<rect x="465" y="299" width="226" height="32" fill="white" stroke="#477786" stroke-width="1.5"/>
+<text x="578.0" y="320.1" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">不充分的参数值验证</text>
+<rect x="465" y="347" width="226" height="32" fill="white" stroke="#477786" stroke-width="1.5"/>
+<text x="578.0" y="368.1" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">不正确的检测位置</text>
+<rect x="465" y="395" width="226" height="32" fill="white" stroke="#477786" stroke-width="1.5"/>
+<text x="578.0" y="416.1" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">不充分鉴定／认证</text>
+<rect x="465" y="451" width="226" height="32" fill="white" stroke="#477786" stroke-width="1.5"/>
+<text x="578.0" y="472.1" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">对象重用缺陷</text>
+<rect x="465" y="497" width="226" height="32" fill="white" stroke="#477786" stroke-width="1.5"/>
+<text x="578.0" y="518.1" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">内部表示暴露</text>
+<rect x="465" y="544" width="226" height="32" fill="white" stroke="#477786" stroke-width="1.5"/>
+<text x="578.0" y="565.1" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">并发（包括TOCTTOU）</text>
+<rect x="465" y="590" width="226" height="32" fill="white" stroke="#477786" stroke-width="1.5"/>
+<text x="578.0" y="611.1" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">别名</text>
+<rect x="465" y="637" width="226" height="32" fill="white" stroke="#477786" stroke-width="1.5"/>
+<text x="578.0" y="658.1" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">资源泄露</text>
+<rect x="465" y="683" width="226" height="32" fill="white" stroke="#477786" stroke-width="1.5"/>
+<text x="578.0" y="704.1" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">功能的错误理解</text>
+<rect x="465" y="730" width="226" height="32" fill="white" stroke="#477786" stroke-width="1.5"/>
+<text x="578.0" y="751.1" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">错误处理故障</text>
+<rect x="465" y="776" width="226" height="32" fill="white" stroke="#477786" stroke-width="1.5"/>
+<text x="578.0" y="797.1" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">其他安全缺陷</text>
+<rect x="778" y="39" width="99" height="31" fill="white" stroke="#477786" stroke-width="1.5"/>
+<text x="827.5" y="59.6" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">存储</text>
+<rect x="778" y="86" width="99" height="31" fill="white" stroke="#477786" stroke-width="1.5"/>
+<text x="827.5" y="106.6" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">定时</text>
+</svg>

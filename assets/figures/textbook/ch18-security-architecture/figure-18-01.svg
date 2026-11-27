@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="930" height="475" viewBox="0 0 930 475" role="img" aria-labelledby="title"><title id="title">信息系统受到的安全威胁</title>
+<defs><marker id="a" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 8 4 0 8Z" fill="#477786"/></marker></defs>
+<rect width="930" height="475" fill="white"/>
+<path d="M420 60 L420 83 L166 83 L166 109" fill="none" stroke="#477786" stroke-width="1.6"/>
+<path d="M420 60 L420 83 L429 83 L429 109" fill="none" stroke="#477786" stroke-width="1.6"/>
+<path d="M420 60 L420 83 L620 83 L620 109" fill="none" stroke="#477786" stroke-width="1.6"/>
+<path d="M420 60 L420 83 L819 83 L819 109" fill="none" stroke="#477786" stroke-width="1.6"/>
+<rect x="300" y="17" width="240" height="44" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="420.0" y="45.46" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#173c48">网络与信息安全风险</text>
+<rect x="88" y="110" width="156" height="43" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="166.0" y="137.28" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">人为蓄意破坏</text>
+<rect x="351" y="110" width="156" height="43" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="429.0" y="137.28" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">灾害性攻击</text>
+<rect x="542" y="110" width="156" height="43" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="620.0" y="137.28" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">系统故障</text>
+<rect x="741" y="110" width="156" height="43" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="819.0" y="137.28" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">人员无意识行为</text>
+<path d="M166 153 L166 172 L83 172 L83 191" fill="none" stroke="#477786" stroke-width="1.6"/>
+<path d="M166 153 L166 172 L250 172 L250 191" fill="none" stroke="#477786" stroke-width="1.6"/>
+<rect x="10" y="192" width="146" height="49" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="83.0" y="222.28" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">被动型攻击</text>
+<line x1="83" y1="241" x2="83" y2="258" stroke="#477786" stroke-width="1.6"/>
+<rect x="10" y="258" width="146" height="90" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="83.0" y="288.78" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">网络监听</text>
+<text x="83.0" y="308.78" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">非法登录</text>
+<text x="83.0" y="328.78" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">信息截取</text>
+<rect x="177" y="192" width="146" height="49" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="250.0" y="222.28" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">主动型攻击</text>
+<line x1="250" y1="241" x2="250" y2="258" stroke="#477786" stroke-width="1.6"/>
+<rect x="177" y="258" width="146" height="168" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="250.0" y="297.78" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">数据篡改</text>
+<text x="250.0" y="317.78" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">假冒身份</text>
+<text x="250.0" y="337.78" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">拒绝服务</text>
+<text x="250.0" y="357.78" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">重放攻击</text>
+<text x="250.0" y="377.78" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">散播病毒</text>
+<text x="250.0" y="397.78" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">主观抵赖</text>
+<line x1="429" y1="153" x2="429" y2="174" stroke="#477786" stroke-width="1.6"/>
+<rect x="362" y="174" width="134" height="142" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="429.0" y="210.78" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">水灾</text>
+<text x="429.0" y="230.78" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">火灾</text>
+<text x="429.0" y="250.78" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">地震</text>
+<text x="429.0" y="270.78" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">雷击</text>
+<text x="429.0" y="290.78" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">战争</text>
+<line x1="620" y1="153" x2="620" y2="174" stroke="#477786" stroke-width="1.6"/>
+<rect x="553" y="174" width="134" height="112" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="620.0" y="205.78" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">硬件故障</text>
+<text x="620.0" y="225.78" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">软件故障</text>
+<text x="620.0" y="245.78" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">链路故障</text>
+<text x="620.0" y="265.78" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">供电故障</text>
+<line x1="819" y1="153" x2="819" y2="174" stroke="#477786" stroke-width="1.6"/>
+<rect x="752" y="174" width="134" height="94" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="819.0" y="206.78" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">编程错误</text>
+<text x="819.0" y="226.78" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">操作错误</text>
+<text x="819.0" y="246.78" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">无意泄密</text>
+</svg>

@@ -1,0 +1,3467 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-27",
+  "chapter": "第18章-安全架构设计理论与实践",
+  "scope": "章导语及各节全文",
+  "base_commit": "fe27d6e7b8c2fe5a0f064442dc9d9522008deb17",
+  "entries": [
+    {
+      "id": "ch18a-01",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/INDEX.md",
+      "loc": "物理 640 / 印刷 633，章导语",
+      "ocr": "信息化技术发展已经深入到各行各业",
+      "current": "信息化技术发展已经深入到各行各业",
+      "final": "信息技术已深入各行各业",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "清除“技术发展深入到”搭配不当，保留章导语所述范围。",
+      "sources": [
+        "入库教材 PDF 物理 640 / 印刷 633，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch18a-02",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第01节-安全架构概述.md",
+      "loc": "物理 640 / 印刷 633，18.1",
+      "ocr": "在当今以计算机",
+      "current": "在当今以计算机",
+      "final": "当今，以计算机",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "去掉悬空介词，使主语为数字化服务。",
+      "sources": [
+        "入库教材 PDF 物理 640 / 印刷 633，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch18a-03",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第01节-安全架构概述.md",
+      "loc": "物理 640 / 印刷 633，18.1",
+      "ocr": "与之而来的计算机犯罪呈现指数上升趋势",
+      "current": "与之而来的计算机犯罪呈现指数上升趋势",
+      "final": "随之而来的计算机犯罪威胁也日益突出",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "本节未提供“指数”增长所需统计指标与期间；保留教材对安全威胁趋势的定性说明。",
+      "sources": [
+        "入库教材 PDF 物理 640 / 印刷 633，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch18a-04",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第01节-安全架构概述.md",
+      "loc": "物理 640 / 印刷 633，18.1",
+      "ocr": "被较高层的人非法利用",
+      "current": "被较高层的人非法利用",
+      "final": "被技术水平较高的人非法利用",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "上文谈对计算机知识的掌握程度，此处“高层”无职级上下文。",
+      "sources": [
+        "入库教材 PDF 物理 640 / 印刷 633，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch18a-05",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第01节-安全架构概述.md",
+      "loc": "物理 641 / 印刷 634，18.1",
+      "ocr": "对信息或其他资源的合法访问被无条件地阻止",
+      "current": "对信息或其他资源的合法访问被无条件地阻止",
+      "final": "对信息或其他资源的合法访问受到阻止或延误",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "可用性丧失或降低均会影响合法访问。RFC 4949、RFC 4732均将拒绝服务描述为阻止或减弱服务。",
+      "sources": [
+        "入库教材 PDF 物理 641 / 印刷 634，模型目读电子页。",
+        "https://raw.githubusercontent.com/AlexMelanFromRingo/rfc-library/main/rfc/04500-04999/rfc4949.txt（2026-11-27核阅）",
+        "https://raw.githubusercontent.com/AlexMelanFromRingo/rfc-library/main/rfc/04500-04999/rfc4732.txt（2026-11-27核阅）"
+      ]
+    },
+    {
+      "id": "ch18a-06",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第01节-安全架构概述.md",
+      "loc": "物理 641 / 印刷 634，18.1",
+      "ocr": "系统“特性”。\n利用这些“特性”,",
+      "current": "系统“特性”。\n利用这些“特性”,",
+      "final": "系统“特性”。利用这些“特性”，",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "依页内边界及中文行文统一断段、编号或标点。",
+      "sources": [
+        "入库教材 PDF 物理 641 / 印刷 634，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch18a-07",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第01节-安全架构概述.md",
+      "loc": "物理 641 / 印刷 634，18.1",
+      "ocr": "内部。\n\n9.",
+      "current": "内部。\n\n9.",
+      "final": "内部。\n9.",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "依页内边界及中文行文统一断段、编号或标点。",
+      "sources": [
+        "入库教材 PDF 物理 641 / 印刷 634，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch18a-08",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第01节-安全架构概述.md",
+      "loc": "物理 642 / 印刷 635，18.1",
+      "ocr": "安全策略。\n\n12.",
+      "current": "安全策略。\n\n12.",
+      "final": "安全策略。\n12.",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "依页内边界及中文行文统一断段、编号或标点。",
+      "sources": [
+        "入库教材 PDF 物理 642 / 印刷 635，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch18a-09",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第01节-安全架构概述.md",
+      "loc": "物理 641 / 印刷 634，18.1",
+      "ocr": "软件中含有一个察觉不出的或者无害的程序段，当它被执行时，会破坏用户的安全。这种应用程序称为特洛伊木马 (Trojan Horse)。",
+      "current": "软件中含有一个察觉不出的或者无害的程序段，当它被执行时，会破坏用户的安全。这种应用程序称为特洛伊木马 (Trojan Horse)。",
+      "final": "表面具有正常功能，却隐藏了有害功能的程序，称为特洛伊木马（Trojan horse）。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "页内“无害”与紧接的破坏安全矛盾，词汇表定义表面有用而隐含潜在恶意功能。",
+      "sources": [
+        "入库教材 PDF 物理 641 / 印刷 634，模型目读电子页。",
+        "https://raw.githubusercontent.com/AlexMelanFromRingo/rfc-library/main/rfc/04500-04999/rfc4949.txt（2026-11-27核阅）"
+      ]
+    },
+    {
+      "id": "ch18a-10",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第01节-安全架构概述.md",
+      "loc": "物理 642 / 印刷 635，18.1",
+      "ocr": "风险。\n安全架构应",
+      "current": "风险。\n安全架构应",
+      "final": "风险。\n\n安全架构应",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "依页内边界及中文行文统一断段、编号或标点。",
+      "sources": [
+        "入库教材 PDF 物理 642 / 印刷 635，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch18a-11",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第01节-安全架构概述.md",
+      "loc": "物理 642 / 印刷 635，18.1",
+      "ocr": "要防止系统的数据和资源丢失",
+      "current": "要防止系统的数据和资源丢失",
+      "final": "确保授权实体在需要时可以访问和使用系统的数据和资源",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "本章18.2列出服务连续性等要求，17.4给出服务可用时间占比。同核两种独立出处RFC 4949、RFC 2196，前者列出被授权实体按需可用。",
+      "sources": [
+        "入库教材 PDF 物理 642 / 印刷 635，模型目读电子页。",
+        "https://raw.githubusercontent.com/AlexMelanFromRingo/rfc-library/main/rfc/04500-04999/rfc4949.txt（2026-11-27核阅）",
+        "https://raw.githubusercontent.com/AlexMelanFromRingo/rfc-library/main/rfc/02000-02499/rfc2196.txt（2026-11-27核阅）"
+      ]
+    },
+    {
+      "id": "ch18a-12",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第01节-安全架构概述.md",
+      "loc": "物理 643 / 印刷 636，18.1",
+      "ocr": "公布。\n\n2. 信息技术",
+      "current": "公布。\n\n2. 信息技术",
+      "final": "公布。\n2. 信息技术",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "依页内边界及中文行文统一断段、编号或标点。",
+      "sources": [
+        "入库教材 PDF 物理 643 / 印刷 636，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch18a-13",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第01节-安全架构概述.md",
+      "loc": "物理 643 / 印刷 636，18.1",
+      "ocr": "等国编制，1993年",
+      "current": "等国编制，1993年",
+      "final": "等国自1993年起共同研制",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "RFC 4949记载1993年开始研制；图18-2明确CC 1.0年份为1996。",
+      "sources": [
+        "入库教材 PDF 物理 643 / 印刷 636，模型目读电子页。",
+        "https://raw.githubusercontent.com/AlexMelanFromRingo/rfc-library/main/rfc/04500-04999/rfc4949.txt（2026-11-27核阅）"
+      ]
+    },
+    {
+      "id": "ch18a-14",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第01节-安全架构概述.md",
+      "loc": "物理 643 / 印刷 636，18.1",
+      "ocr": "ISO/IEC 7498-2, 信息处理系统，开放系统互联，基本参考模型。第2部分：安全结构 (Information Processing System; Open System Intercommection; base reference model;Part2:SecurityArchitecture)",
+      "current": "ISO/IEC 7498-2, 信息处理系统，开放系统互联，基本参考模型。第2部分：安全结构 (Information Processing System; Open System Intercommection; base reference model;Part2:SecurityArchitecture)",
+      "final": "ISO 7498-2:1989，信息处理系统 开放系统互连 基本参考模型 第2部分：安全体系结构（Information processing systems — Open Systems Interconnection — Basic Reference Model — Part 2: Security architecture）",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "GB/T 15843.1-2017参考文献[2]和独立书目均列ISO 7498-2:1989与完整英文题名。",
+      "sources": [
+        "入库教材 PDF 物理 643 / 印刷 636，模型目读电子页。",
+        "https://github.com/yyy1mu/cryptography-standards-markdown/blob/b668028c1bf1c39fd20c7fbd78872a7b07546db1/output/GBT_密码国家标准/GBT_15843.1-2017_信息技术_安全技术_实体鉴别_第1部分_总则.md（2026-11-27核阅）",
+        "https://github.com/vlsergey/infosec/blob/24f713fdfb5f49736ad3bac62456a51312b1e0f1/bibliography.bib（2026-11-27核阅）"
+      ]
+    },
+    {
+      "id": "ch18a-15",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第01节-安全架构概述.md",
+      "loc": "物理 643 / 印刷 636，18.1",
+      "ocr": "Infornation Assurance Technical Framework,IATF",
+      "current": "Infornation Assurance Technical Framework,IATF",
+      "final": "Information Assurance Technical Framework, IATF",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "缩写IATF中的第一个词为Information，校正n/m。",
+      "sources": [
+        "入库教材 PDF 物理 643 / 印刷 636，模型目读电子页。",
+        "https://raw.githubusercontent.com/AlexMelanFromRingo/rfc-library/main/rfc/04500-04999/rfc4949.txt（2026-11-27核阅）"
+      ]
+    },
+    {
+      "id": "ch18a-16",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第01节-安全架构概述.md",
+      "loc": "物理 643 / 印刷 636，18.1",
+      "ocr": "ISO/IEC 15408-1999, 信息技术安全技术信息技术安全性评估准则，替代原CC标准。\n由国际标准化组织 (ISO) 发布，1999年。",
+      "current": "ISO/IEC 15408-1999, 信息技术安全技术信息技术安全性评估准则，替代原CC标准。\n由国际标准化组织 (ISO) 发布，1999年。",
+      "final": "ISO/IEC 15408:1999，信息技术 安全技术 信息技术安全性评估准则。该系列于1999年将通用准则（CC）纳入国际标准。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "同页与图18-2的沿革表示由CC发展为国际标准，RFC 4949亦明确两者关系。",
+      "sources": [
+        "入库教材 PDF 物理 643 / 印刷 636，模型目读电子页。",
+        "https://raw.githubusercontent.com/AlexMelanFromRingo/rfc-library/main/rfc/04500-04999/rfc4949.txt（2026-11-27核阅）",
+        "https://github.com/bundestag/gesetze/blob/77abca2ceea3b7b89ea70afb13b5dd55415eb124/f/fpersv/index.md（2026-11-27核阅）"
+      ]
+    },
+    {
+      "id": "ch18a-17",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第01节-安全架构概述.md",
+      "loc": "物理 643 / 印刷 636，18.1",
+      "ocr": "### 1. 标准缩写含义",
+      "current": "### 1. 标准缩写含义",
+      "final": "1）标准缩写含义",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "依页内边界及中文行文统一断段、编号或标点。",
+      "sources": [
+        "入库教材 PDF 物理 643 / 印刷 636，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch18a-18",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第01节-安全架构概述.md",
+      "loc": "物理 643 / 印刷 636，18.1",
+      "ocr": "### 2. 主要技术标准",
+      "current": "### 2. 主要技术标准",
+      "final": "2）主要技术标准",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "依页内边界及中文行文统一断段、编号或标点。",
+      "sources": [
+        "入库教材 PDF 物理 643 / 印刷 636，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch18a-19",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第01节-安全架构概述.md",
+      "loc": "物理 643 / 印刷 636，18.1",
+      "ocr": "GA: 国家安全行业标准规范。由中国安全技术防范认证中心组织发布。",
+      "current": "GA: 国家安全行业标准规范。由中国安全技术防范认证中心组织发布。",
+      "final": "GA：公共安全行业标准代号。",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "GA标准封面列“中华人民共和国公共安全行业标准”与公安部发布，另有公安部部门规章独立确认行业规范名称；原稿将认证中心笼统写成发布主体。",
+      "sources": [
+        "入库教材 PDF 物理 643 / 印刷 636，模型目读电子页。",
+        "https://github.com/duoleshi/0606-klb/blob/ae5400788edc214135d6a5252f7128655317508a/方案审核依据/专业法律法规标准规范审核依据/房屋建筑工程/安全类方案审核/2危大工程专项方案/6暗挖工程/GA991-2012《爆破作业项目管理要求》.md（2026-11-27核阅）",
+        "https://github.com/LawRefBook/Laws/blob/8cb05f0dfd02c442b28e3fa1299014246aa7d3da/部门规章/公安部/机动车驾驶证申领和使用规定(2004-04-30).md（2026-11-27核阅）"
+      ]
+    },
+    {
+      "id": "ch18a-20",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第01节-安全架构概述.md",
+      "loc": "物理 643 / 印刷 636，18.1",
+      "ocr": "GB 15834-1995信息处理数据加密实体鉴别机制。",
+      "current": "GB 15834-1995信息处理数据加密实体鉴别机制。",
+      "final": "GB/T 15843 系列，信息技术 安全技术 实体鉴别。",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "GB 15834-1995为《标点符号用法》；GB/T 15843.1标准前言确认1995年以来实体鉴别分册沿革，独立国家标准目录列有多种机制。正文只列能确认的系列，不能由电子页确定具体分册。",
+      "sources": [
+        "入库教材 PDF 物理 643 / 印刷 636，模型目读电子页。",
+        "https://github.com/Li-Wenhui/HeuThesis/blob/001958a57847d43d2cf486f33ccc48e72a10ba41/examples/book/master/back/AppendixA.tex（2026-11-27核阅）",
+        "https://github.com/yyy1mu/cryptography-standards-markdown/blob/b668028c1bf1c39fd20c7fbd78872a7b07546db1/output/GBT_密码国家标准/GBT_15843.1-2017_信息技术_安全技术_实体鉴别_第1部分_总则.md（2026-11-27核阅）",
+        "https://github.com/hhhparty/security/blob/4bfbae540262f340e44d62f53a33d08037c200df/courses/entsecinaction/lectures/信息安全国家标准目录.md（2026-11-27核阅）"
+      ]
+    },
+    {
+      "id": "ch18a-21",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第01节-安全架构概述.md",
+      "loc": "物理 643 / 印刷 636，18.1",
+      "ocr": "信息系统安全保障评估框。",
+      "current": "信息系统安全保障评估框。",
+      "final": "信息系统安全保障评估框架 第1部分：简介和一般模型。",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "2006年国家标准目录与高校网络空间安全课件完整列出同一分册题名。",
+      "sources": [
+        "入库教材 PDF 物理 643 / 印刷 636，模型目读电子页。",
+        "https://github.com/hhhparty/security/blob/4bfbae540262f340e44d62f53a33d08037c200df/courses/entsecinaction/lectures/信息安全国家标准目录.md（2026-11-27核阅）",
+        "https://github.com/Czk6664/swjtu-cs-23/blob/2ba5a32cc248846d34ad8bc477984b7163fcaa73/大三下/网络空间安全技术（保研排名课）/课件/ch3_raw.txt（2026-11-27核阅）"
+      ]
+    },
+    {
+      "id": "ch18a-22",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第01节-安全架构概述.md",
+      "loc": "物理 644 / 印刷 637，18.1",
+      "ocr": "记法。\n\n13.",
+      "current": "记法。\n\n13.",
+      "final": "记法。\n13.",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "依页内边界及中文行文统一断段、编号或标点。",
+      "sources": [
+        "入库教材 PDF 物理 644 / 印刷 637，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch18a-23",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第01节-安全架构概述.md",
+      "loc": "物理 644 / 印刷 637，18.1",
+      "ocr": "发布。\n当然，上述",
+      "current": "发布。\n当然，上述",
+      "final": "发布。\n\n当然，上述",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "依页内边界及中文行文统一断段、编号或标点。",
+      "sources": [
+        "入库教材 PDF 物理 644 / 印刷 637，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch18a-24",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第01节-安全架构概述.md",
+      "loc": "物理 644 / 印刷 637，18.1",
+      "ocr": "Do-254",
+      "current": "Do-254",
+      "final": "DO-254",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "同体系标准在相邻处为全大写DO。",
+      "sources": [
+        "入库教材 PDF 物理 644 / 印刷 637，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch18a-25",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第01节-安全架构概述.md",
+      "loc": "物理 644 / 印刷 637，18.1",
+      "ocr": "### 1. 国际标准化组织 (ISO)",
+      "current": "### 1. 国际标准化组织 (ISO)",
+      "final": "1）国际标准化组织（ISO）",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "依页内边界及中文行文统一断段、编号或标点。",
+      "sources": [
+        "入库教材 PDF 物理 644 / 印刷 637，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch18a-26",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第01节-安全架构概述.md",
+      "loc": "物理 645 / 印刷 638，18.1",
+      "ocr": "### 2. 国际电工委员会(IEC)",
+      "current": "### 2. 国际电工委员会(IEC)",
+      "final": "2）国际电工委员会（IEC）",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "依页内边界及中文行文统一断段、编号或标点。",
+      "sources": [
+        "入库教材 PDF 物理 645 / 印刷 638，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch18a-27",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第01节-安全架构概述.md",
+      "loc": "物理 645 / 印刷 638，18.1",
+      "ocr": "### 3. 中国国家标准化管理委员会(SAC)",
+      "current": "### 3. 中国国家标准化管理委员会(SAC)",
+      "final": "3）中国国家标准化管理委员会（SAC）",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "依页内边界及中文行文统一断段、编号或标点。",
+      "sources": [
+        "入库教材 PDF 物理 645 / 印刷 638，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch18a-28",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第01节-安全架构概述.md",
+      "loc": "物理 645 / 印刷 638，18.1",
+      "ocr": "### 4. 全国信息技术标准化技术委员",
+      "current": "### 4. 全国信息技术标准化技术委员",
+      "final": "4）全国信息技术标准化技术委员会",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "依页内边界及中文行文统一断段、编号或标点。",
+      "sources": [
+        "入库教材 PDF 物理 645 / 印刷 638，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch18a-29",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第01节-安全架构概述.md",
+      "loc": "物理 645 / 印刷 638，18.1",
+      "ocr": "1947年作为一个电工部门并入国际标准化组织 (ISO),1976年又从ISO中分立出来。",
+      "current": "1947年作为一个电工部门并入国际标准化组织 (ISO),1976年又从ISO中分立出来。",
+      "final": null,
+      "class": "C3",
+      "confidence": "低",
+      "evidence": "该两段历史隶属关系仍无独立机构档案互证；正文仅保留两组织合作的可证事实（见本节前一小目及RFC 4949的Common Criteria条），此条留作后续查证。",
+      "sources": [
+        "入库教材 PDF 物理 645 / 印刷 638，模型目读电子页。",
+        "https://raw.githubusercontent.com/AlexMelanFromRingo/rfc-library/main/rfc/04500-04999/rfc4949.txt（2026-11-27核阅）"
+      ]
+    },
+    {
+      "id": "ch18a-30",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第01节-安全架构概述.md",
+      "loc": "物理 645 / 印刷 638，18.1",
+      "ocr": "该委员会的目标是：\n\n有效满足",
+      "current": "该委员会的目标是：\n\n有效满足",
+      "final": "该委员会的目标是：有效满足",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "依页内边界及中文行文统一断段、编号或标点。",
+      "sources": [
+        "入库教材 PDF 物理 645 / 印刷 638，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch18a-31",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第01节-安全架构概述.md",
+      "loc": "物理 645 / 印刷 638，18.1",
+      "ocr": "评定计划；\n\n评定并提高",
+      "current": "评定计划；\n\n评定并提高",
+      "final": "评定计划；评定并提高",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "依页内边界及中文行文统一断段、编号或标点。",
+      "sources": [
+        "入库教材 PDF 物理 645 / 印刷 638，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch18a-32",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第02节-安全模型.md",
+      "loc": "物理 645 / 印刷 638，18.2",
+      "ocr": "的访问。\n\n作为信息系统安全目标",
+      "current": "的访问。\n\n作为信息系统安全目标",
+      "final": "的访问。作为信息系统安全目标",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "依页内边界及中文行文统一断段、编号或标点。",
+      "sources": [
+        "入库教材 PDF 物理 645 / 印刷 638，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch18a-33",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第02节-安全模型.md",
+      "loc": "物理 646 / 印刷 639，18.2",
+      "ocr": "实现安全管理。\n安全模型",
+      "current": "实现安全管理。\n安全模型",
+      "final": "实现安全管理。\n\n安全模型",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "依页内边界及中文行文统一断段、编号或标点。",
+      "sources": [
+        "入库教材 PDF 物理 646 / 印刷 639，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch18a-34",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第02节-安全模型.md",
+      "loc": "物理 646 / 印刷 639，18.2",
+      "ocr": "使系统集成后评估它的基准",
+      "current": "使系统集成后评估它的基准",
+      "final": "也是系统集成后进行评估的基准",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "原句缺少能与“基准”搭配的谓语。",
+      "sources": [
+        "入库教材 PDF 物理 646 / 印刷 639，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch18a-35",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第02节-安全模型.md",
+      "loc": "物理 646 / 印刷 639，18.2",
+      "ocr": "(Role-Based Access Control)当前比较被公认的模型有：",
+      "current": "(Role-Based Access Control)当前比较被公认的模型有：",
+      "final": "(Role-Based Access Control)。\n\n当前比较公认的模型有：",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "依页内边界及中文行文统一断段、编号或标点。",
+      "sources": [
+        "入库教材 PDF 物理 646 / 印刷 639，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch18a-36",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第02节-安全模型.md",
+      "loc": "物理 646 / 印刷 639，18.2",
+      "ocr": "ChineseWall模型，以及信息流模型",
+      "current": "ChineseWall模型，以及信息流模型",
+      "final": "Chinese Wall模型（又称Brewer–Nash模型），以及信息流模型",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "18.2.5说明两者为同一模型，分类清单合并别名。",
+      "sources": [
+        "入库教材 PDF 物理 646 / 印刷 639，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch18a-37",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第02节-安全模型.md",
+      "loc": "物理 646 / 印刷 639，18.2",
+      "ocr": "、Brewer and Nash模型和Graham-Denning模型",
+      "current": "、Brewer and Nash模型和Graham-Denning模型",
+      "final": "和Graham-Denning模型",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "同一模型已按18.2.5列为别名，原清单重复计列。",
+      "sources": [
+        "入库教材 PDF 物理 646 / 印刷 639，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch18a-38",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第02节-安全模型.md",
+      "loc": "物理 646 / 印刷 639，18.2",
+      "ocr": "状态机模型描述了一种无论处于何种状态都是安全的系统。",
+      "current": "状态机模型描述了一种无论处于何种状态都是安全的系统。",
+      "final": "安全状态机模型描述系统如何从安全的初始状态出发，经由允许的转换保持安全。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "下段明确安全性依赖初始状态及允许的迁移，此处限定为安全状态机。",
+      "sources": [
+        "入库教材 PDF 物理 646 / 印刷 639，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch18a-39",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第02节-安全模型.md",
+      "loc": "物理 646 / 印刷 639，18.2",
+      "ocr": "是处于系统在特定时刻的一个快照",
+      "current": "是处于系统在特定时刻的一个快照",
+      "final": "是系统在特定时刻的一个快照",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "“处于……快照”搭配错误。",
+      "sources": [
+        "入库教材 PDF 物理 646 / 印刷 639，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch18a-40",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第02节-安全模型.md",
+      "loc": "物理 647 / 印刷 640，18.2",
+      "ocr": "## 18.2.2 Bell-LaPadula模型\n\n> 图 18-4 状态机模型工作原理图\n\n强制访问控制模型，以敏感度来划分安全级别。",
+      "current": "## 18.2.2 Bell-LaPadula模型\n\n> 图 18-4 状态机模型工作原理图\n\n强制访问控制模型，以敏感度来划分安全级别。",
+      "final": "Bell-LaPadula模型是David Bell和Len LaPadula于1973年提出的早期形式化安全模型。",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "电子页18.2.2开篇写明提出者、年份以及模型归属；图18-4在18.2.1中。页称“第一个”未指明比较范围，用“早期”限定。",
+      "sources": [
+        "入库教材 PDF 物理 647 / 印刷 640，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch18a-41",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第02节-安全模型.md",
+      "loc": "物理 648 / 印刷 641，18.2",
+      "ocr": "也不能调用主体的任何程序和服务",
+      "current": "也不能调用主体的任何程序和服务",
+      "final": "也不能调用更高完整性级别主体的程序或服务",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "18.2.3末条列明由低向高调用受限，不能解释为主体不能调用自己的程序。",
+      "sources": [
+        "入库教材 PDF 物理 648 / 印刷 641，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch18a-42",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第02节-安全模型.md",
+      "loc": "物理 649 / 印刷 642，18.2",
+      "ocr": "一个完整性级别低的主体不能从级别高的客体调用程序或服务",
+      "current": "一个完整性级别低的主体不能从级别高的客体调用程序或服务",
+      "final": "一个完整性级别低的主体不能调用完整性级别高的主体",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "与前段调用含义一致，调用关系涉及发起和被调用的主体；数据客体参与读写。",
+      "sources": [
+        "入库教材 PDF 物理 649 / 印刷 642，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch18a-43",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第02节-安全模型.md",
+      "loc": "物理 649 / 印刷 642，18.2",
+      "ocr": "简称为CWM , 这个模型实现了成型的事务处理机制",
+      "current": "简称为CWM , 这个模型实现了成型的事务处理机制",
+      "final": "简称为CWM。该模型以良构事务维护数据完整性",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "同节TP要求数据从有效状态转移到有效状态，说明其事务约束含义。",
+      "sources": [
+        "入库教材 PDF 物理 649 / 印刷 642，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch18a-44",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第02节-安全模型.md",
+      "loc": "物理 650 / 印刷 643，18.2",
+      "ocr": "不同的User;\n\n6.",
+      "current": "不同的User;\n\n6.",
+      "final": "不同的用户；\n6.",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "依页内边界及中文行文统一断段、编号或标点。",
+      "sources": [
+        "入库教材 PDF 物理 650 / 印刷 643，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch18a-45",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第02节-安全模型.md",
+      "loc": "物理 650 / 印刷 643，18.2",
+      "ocr": "则可能存在欺骗。\n从而使得",
+      "current": "则可能存在欺骗。\n从而使得",
+      "final": "则可能存在欺骗，从而使得",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "依页内边界及中文行文统一断段、编号或标点。",
+      "sources": [
+        "入库教材 PDF 物理 650 / 印刷 643，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch18a-46",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第02节-安全模型.md",
+      "loc": "物理 650 / 印刷 643，18.2",
+      "ocr": "Subject/Program /Object",
+      "current": "Subject/Program /Object",
+      "final": "Subject/Program/Object",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "三元组的斜杠间距统一。",
+      "sources": [
+        "入库教材 PDF 物理 650 / 印刷 643，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch18a-47",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第02节-安全模型.md",
+      "loc": "物理 650 / 印刷 643，18.2",
+      "ocr": "将要害功能分为有2个或多个Subject完成",
+      "current": "将要害功能分为有2个或多个Subject完成",
+      "final": "将要害功能划分为由两个或多个主体分别完成的部分",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "“有”同音误作“由”；职责分离要求不同主体分别完成。",
+      "sources": [
+        "入库教材 PDF 物理 650 / 印刷 643，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch18a-48",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第02节-安全模型.md",
+      "loc": "物理 650 / 印刷 643，18.2",
+      "ocr": "Brew and Nash模型",
+      "current": "Brew and Nash模型",
+      "final": "Brewer–Nash模型",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "同一句明确作者为Brewer和Nash。",
+      "sources": [
+        "入库教材 PDF 物理 650 / 印刷 643，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch18a-49",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第02节-安全模型.md",
+      "loc": "物理 650 / 印刷 643，18.2",
+      "ocr": "但他可以访问所有客户的信息。因此，应当制止该银行家访问其他客户的数据。",
+      "current": "但他可以访问所有客户的信息。因此，应当制止该银行家访问其他客户的数据。",
+      "final": "如果他可以访问所有客户的信息，就可能出现利益冲突。因此，应当限制他访问同一利益冲突类中其他客户的数据。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "定理2与图18-8只限制该主体在同一利益冲突类内的访问。",
+      "sources": [
+        "入库教材 PDF 物理 650 / 印刷 643，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch18a-50",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第02节-安全模型.md",
+      "loc": "物理 650 / 印刷 643，18.2",
+      "ocr": "而这个银行出于对这两个客户的商业机密的保护就只能为其中一个客户提供服务。",
+      "current": "而这个银行出于对这两个客户的商业机密的保护就只能为其中一个客户提供服务。",
+      "final": "为保护两家客户的商业机密，同一位银行家只能访问其中一家的受保护资料。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "图18-8的主体是银行家，18.2.5定理1、2规定的是主体访问范围。",
+      "sources": [
+        "入库教材 PDF 物理 650 / 印刷 643，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch18a-51",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第02节-安全模型.md",
+      "loc": "物理 650 / 印刷 643，18.2",
+      "ocr": "一旦选定，他就只能为该客户工作",
+      "current": "一旦选定，他就只能为该客户工作",
+      "final": "一旦访问某客户的受保护资料，他就不能再访问同一利益冲突类中其他客户的受保护资料",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "按访问历史建立限制，其他利益冲突类仍可访问，由本节定理1、2内证。",
+      "sources": [
+        "入库教材 PDF 物理 650 / 印刷 643，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch18a-52",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第02节-安全模型.md",
+      "loc": "物理 651 / 印刷 644，18.2",
+      "ocr": "进行过访问。\n定理1:",
+      "current": "进行过访问。\n定理1:",
+      "final": "进行过访问。\n\n定理1：",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "依页内边界及中文行文统一断段、编号或标点。",
+      "sources": [
+        "入库教材 PDF 物理 651 / 印刷 644，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch18a-53",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第02节-安全模型.md",
+      "loc": "物理 651 / 印刷 644，18.2",
+      "ocr": "定理2:",
+      "current": "定理2:",
+      "final": "定理2：",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "两个定理标签统一中文标点。",
+      "sources": [
+        "入库教材 PDF 物理 651 / 印刷 644，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch18a-54",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第03节-系统安全体系架构规划框架.md",
+      "loc": "物理 652 / 印刷 645，18.3",
+      "ocr": "Andrew S.Tanenbau",
+      "current": "Andrew S.Tanenbau",
+      "final": "Andrew S. Tanenbaum",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "校正作者姓末m和英文姓名的空格。RFC 1983与OSSU书目均列Tanenbaum。",
+      "sources": [
+        "入库教材 PDF 物理 652 / 印刷 645，模型目读电子页。",
+        "https://raw.githubusercontent.com/AlexMelanFromRingo/rfc-library/main/rfc/01500-01999/rfc1983.txt（2026-11-27核阅）",
+        "https://raw.githubusercontent.com/ossu/computer-science/master/extras/readings.md（2026-11-27核阅）"
+      ]
+    },
+    {
+      "id": "ch18a-55",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第03节-系统安全体系架构规划框架.md",
+      "loc": "物理 652 / 印刷 645，18.3",
+      "ocr": "虽然主机和存储系统都属于应用层，但本模型由于其重要性，特将其单列为一个层次，因此根据网络中风险威胁的存在实体划分出5个层次的实体对象",
+      "current": "虽然主机和存储系统都属于应用层，但本模型由于其重要性，特将其单列为一个层次，因此根据网络中风险威胁的存在实体划分出5个层次的实体对象",
+      "final": "因此，本模型将主机和存储系统单列为评估对象，根据风险所涉及的实体区分五类对象",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "同段的协议五层与末尾五类评估对象分别列举；硬件实体不能一概归到协议的应用层。",
+      "sources": [
+        "入库教材 PDF 物理 652 / 印刷 645，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch18a-56",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第03节-系统安全体系架构规划框架.md",
+      "loc": "物理 652 / 印刷 645，18.3",
+      "ocr": "整体的发展规划工作。\n\n图 18-10",
+      "current": "整体的发展规划工作。\n\n图 18-10",
+      "final": "整体的发展规划工作。图 18-10",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "依页内边界及中文行文统一断段、编号或标点。",
+      "sources": [
+        "入库教材 PDF 物理 652 / 印刷 645，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch18a-57",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第03节-系统安全体系架构规划框架.md",
+      "loc": "物理 653 / 印刷 646，18.3",
+      "ocr": "信息系统安全规划的层次方法与步骤可以有不同，但是规划内容与层次应该是相同。",
+      "current": "信息系统安全规划的层次方法与步骤可以有不同，但是规划内容与层次应该是相同。",
+      "final": "信息系统安全规划的方法与步骤可以不同，但应覆盖相同的规划内容和层次。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "避免前后同时断言层次相同和不同；本节列出通用框架。",
+      "sources": [
+        "入库教材 PDF 物理 653 / 印刷 646，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch18a-58",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第03节-系统安全体系架构规划框架.md",
+      "loc": "物理 654 / 印刷 647，18.3",
+      "ocr": "信息系统安全规划工作的一种建设原则、建设内容、建设思路。",
+      "current": "信息系统安全规划工作的一种建设原则、建设内容、建设思路。",
+      "final": "作为信息系统安全规划工作在建设原则、建设内容和建设思路上的参考。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "句子缺谓语，前句已明确此处给出框架与方法。",
+      "sources": [
+        "入库教材 PDF 物理 654 / 印刷 647，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch18a-59",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第01节-安全架构概述.md",
+      "loc": "物理 641 / 印刷 634，18.1",
+      "ocr": "> 图 18-1 信息系统受到的安全威胁",
+      "current": "> 图 18-1 信息系统受到的安全威胁",
+      "final": "![图 18-1 信息系统受到的安全威胁](../../../assets/figures/textbook/ch18-security-architecture/figure-18-01.svg)",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "树含四类风险，人为蓄意破坏下再分两类。",
+      "sources": [
+        "入库教材 PDF 物理 641 / 印刷 634，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch18a-60",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第01节-安全架构概述.md",
+      "loc": "物理 644 / 印刷 637，18.1",
+      "ocr": "> 图 18-2 系统安全性评估方法的相关标准的发展历程",
+      "current": "> 图 18-2 系统安全性评估方法的相关标准的发展历程",
+      "final": "![图 18-2 系统安全性评估方法的相关标准的发展历程](../../../assets/figures/textbook/ch18-security-architecture/figure-18-02.svg)",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "14个框，保留两个同名同年的ISO 15408节点和国内分支。",
+      "sources": [
+        "入库教材 PDF 物理 644 / 印刷 637，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch18a-61",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第02节-安全模型.md",
+      "loc": "物理 646 / 印刷 639，18.2",
+      "ocr": "> 图 18-3 安全模型的分类方法",
+      "current": "> 图 18-3 安全模型的分类方法",
+      "final": "![图 18-3 安全模型的分类方法](../../../assets/figures/textbook/ch18-security-architecture/figure-18-03.svg)",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "HRU及机密性、完整性两支，MAC下分BLP、Chinese Wall。",
+      "sources": [
+        "入库教材 PDF 物理 646 / 印刷 639，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch18a-62",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第02节-安全模型.md",
+      "loc": "物理 647 / 印刷 640，18.2",
+      "ocr": "> 图 18-4 状态机模型工作原理图",
+      "current": "> 图 18-4 状态机模型工作原理图",
+      "final": "![图 18-4 状态机模型工作原理图](../../../assets/figures/textbook/ch18-security-architecture/figure-18-04.svg)",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "三帧状态、用户、默认值与红蓝颜色变更。",
+      "sources": [
+        "入库教材 PDF 物理 647 / 印刷 640，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch18a-63",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第02节-安全模型.md",
+      "loc": "物理 647 / 印刷 640，18.2",
+      "ocr": "> 图 18-5 Bell-LaPadula模型基本原理图",
+      "current": "> 图 18-5 Bell-LaPadula模型基本原理图",
+      "final": "![图 18-5 Bell-LaPadula模型基本原理图](../../../assets/figures/textbook/ch18-security-architecture/figure-18-05.svg)",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "机密主体分别对应三级客体，三级标签与箭头均保留。",
+      "sources": [
+        "入库教材 PDF 物理 647 / 印刷 640，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch18a-64",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第02节-安全模型.md",
+      "loc": "物理 648 / 印刷 641，18.2",
+      "ocr": "> 图 18-6 Biba模型基本原理",
+      "current": "> 图 18-6 Biba模型基本原理",
+      "final": "![图 18-6 Biba模型基本原理](../../../assets/figures/textbook/ch18-security-architecture/figure-18-06.svg)",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "中完整性向高只读、向低只写。",
+      "sources": [
+        "入库教材 PDF 物理 648 / 印刷 641，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch18a-65",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第02节-安全模型.md",
+      "loc": "物理 649 / 印刷 642，18.2",
+      "ocr": "> 图 18-7 CWM模型基本原理图",
+      "current": "> 图 18-7 CWM模型基本原理图",
+      "final": "![图 18-7 CWM模型基本原理图](../../../assets/figures/textbook/ch18-security-architecture/figure-18-07.svg)",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "用户至应用服务器至数据库服务器；TP、IVP与CDI分工。",
+      "sources": [
+        "入库教材 PDF 物理 649 / 印刷 642，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch18a-66",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第02节-安全模型.md",
+      "loc": "物理 650 / 印刷 643，18.2",
+      "ocr": "> 图 18-8 Chinese Wall模型的基本原理图",
+      "current": "> 图 18-8 Chinese Wall模型的基本原理图",
+      "final": "![图 18-8 Chinese Wall模型的基本原理图](../../../assets/figures/textbook/ch18-security-architecture/figure-18-08.svg)",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "每家四块资料，银行家至竞争公司B的访问用叉标出。",
+      "sources": [
+        "入库教材 PDF 物理 650 / 印刷 643，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch18a-67",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第03节-系统安全体系架构规划框架.md",
+      "loc": "物理 652 / 印刷 645，18.3",
+      "ocr": "> 图 18-9 信息技术系统分析模型",
+      "current": "> 图 18-9 信息技术系统分析模型",
+      "final": "![图 18-9 信息技术系统分析模型](../../../assets/figures/textbook/ch18-security-architecture/figure-18-09.svg)",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "左右设施及局域网、公共与专用网络、两侧电话和无线基站。",
+      "sources": [
+        "入库教材 PDF 物理 652 / 印刷 645，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch18a-68",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第03节-系统安全体系架构规划框架.md",
+      "loc": "物理 653 / 印刷 646，18.3",
+      "ocr": "> 图 18-10 信息系统安全体系",
+      "current": "> 图 18-10 信息系统安全体系",
+      "final": "![图 18-10 信息系统安全体系](../../../assets/figures/textbook/ch18-security-architecture/figure-18-10.svg)",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "对应管理、技术及组织体系的矩阵，保留格间从属。",
+      "sources": [
+        "入库教材 PDF 物理 653 / 印刷 646，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch18a-69",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第03节-系统安全体系架构规划框架.md",
+      "loc": "物理 653 / 印刷 646，18.3",
+      "ocr": "> 图 18-11 信息系统安全规划框架",
+      "current": "> 图 18-11 信息系统安全规划框架",
+      "final": "![图 18-11 信息系统安全规划框架](../../../assets/figures/textbook/ch18-security-architecture/figure-18-11.svg)",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "战略、系统、资源、安全规划四块，双向横联及反馈路径。",
+      "sources": [
+        "入库教材 PDF 物理 653 / 印刷 646，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch18a-70",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第01节-安全架构概述.md",
+      "loc": "物理 645 / 印刷 638，18.1",
+      "ocr": "1947年作为一个电工部门并入国际标准化组织 (ISO),1976年又从ISO中分立出来。",
+      "current": "1947年作为一个电工部门并入国际标准化组织 (ISO),1976年又从ISO中分立出来。",
+      "final": "IEC与ISO合作开展国际标准化工作，例如通过ISO/IEC联合技术委员会（JTC 1）制定信息技术标准。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "电子页前一小目已经交代JTC 1，明确可证的合作方式，历史年份另记待核。",
+      "sources": [
+        "入库教材 PDF 物理 645 / 印刷 638，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch18a-71",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第01节-安全架构概述.md",
+      "loc": "物理 644 / 印刷 637，18.1",
+      "ocr": "GB/T18336-2015信息系统信息技术安全评估准则。",
+      "current": "GB/T18336-2015信息系统信息技术安全评估准则。",
+      "final": "GB/T 18336 系列（2015年版），信息技术 安全技术 信息技术安全评估准则。",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "三分册均有独立编号，两个目录列出2015版及系列名。",
+      "sources": [
+        "入库教材 PDF 物理 644 / 印刷 637，模型目读电子页。",
+        "https://github.com/hhhparty/security/blob/4bfbae540262f340e44d62f53a33d08037c200df/courses/entsecinaction/lectures/信息安全国家标准目录.md（2026-11-27核阅）",
+        "https://github.com/cainiaoprogram/cainiaoprogram.github.io/blob/860e09dcac7a12543834e0255a43975f648f7fa6/posts/ca7f8e8d733df2dc301916eccb93a123/index.html（2026-11-27核阅）"
+      ]
+    },
+    {
+      "id": "ch18a-72",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第01节-安全架构概述.md",
+      "loc": "物理 641 / 印刷 634，18.1",
+      "ocr": "> 图 18-1 信息系统受到的安全威胁",
+      "current": "> 图 18-1 信息系统受到的安全威胁",
+      "final": null,
+      "class": "C3",
+      "confidence": "低",
+      "evidence": "电子页将“非法登录”列在被动型攻击下；监听与主动登录有别，但无法判断图中是否拟指对登录信息的监听，所以保留图中位置。",
+      "sources": [
+        "入库教材 PDF 物理 641 / 印刷 634，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch18a-73",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第01节-安全架构概述.md",
+      "loc": "物理 644 / 印刷 637，18.1",
+      "ocr": "> 图 18-2 系统安全性评估方法的相关标准的发展历程",
+      "current": "> 图 18-2 系统安全性评估方法的相关标准的发展历程",
+      "final": null,
+      "class": "C3",
+      "confidence": "低",
+      "evidence": "电子图相邻两节点都标ISO 15408／1999；无法据页图唯一还原拟表达的标准版本，不自行改写其中一项。",
+      "sources": [
+        "入库教材 PDF 物理 644 / 印刷 637，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch18a-74",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第01节-安全架构概述.md",
+      "loc": "物理 643 / 印刷 636，18.1",
+      "ocr": "GB 15834-1995信息处理数据加密实体鉴别机制。",
+      "current": "GB 15834-1995信息处理数据加密实体鉴别机制。",
+      "final": null,
+      "class": "C3",
+      "confidence": "低",
+      "evidence": "标准号与题名错配，正文已限定为GB/T 15843实体鉴别系列；教材拟指1995年哪一分册或哪几种机制不能确定。",
+      "sources": [
+        "入库教材 PDF 物理 643 / 印刷 636，模型目读电子页。",
+        "https://github.com/hhhparty/security/blob/4bfbae540262f340e44d62f53a33d08037c200df/courses/entsecinaction/lectures/信息安全国家标准目录.md（2026-11-27核阅）",
+        "https://github.com/yyy1mu/cryptography-standards-markdown/blob/b668028c1bf1c39fd20c7fbd78872a7b07546db1/output/GBT_密码国家标准/GBT_15843.1-2017_信息技术_安全技术_实体鉴别_第1部分_总则.md（2026-11-27核阅）"
+      ]
+    },
+    {
+      "id": "ch18b-001",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第04节-信息安全整体架构设计(WPDRRC模型).md",
+      "loc": "物理 655，印刷 648，18.4",
+      "ocr": "Waring",
+      "current": "Waring〔原书如此，当为 Warning〕",
+      "final": "Warning",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "W是预警，英文Warning缺字母n；衍生页不能支持“原书如此”的归因。",
+      "sources": [
+        "教材 PDF 物理页 655（印刷页 648），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch18b-002",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第04节-信息安全整体架构设计(WPDRRC模型).md",
+      "loc": "物理 655，印刷 648，18.4",
+      "ocr": "Protect/Detect/React/React/Restore",
+      "current": "Protect/Detect/React/React/Restore〔原书如此，第二个 React 当为 Restore〕",
+      "final": "Protect/Detect/React/Restore",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "下段逐一列明PDRR四环，删重出的React；已有Restore，不再添加。",
+      "sources": [
+        "教材 PDF 物理页 655（印刷页 648），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch18b-003",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第04节-信息安全整体架构设计(WPDRRC模型).md",
+      "loc": "物理 655，印刷 648，18.4",
+      "ocr": "。\n\n针对网络安全防护问题",
+      "current": "。\n\n针对网络安全防护问题",
+      "final": "。针对网络安全防护问题",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "此句在页图虽另行但与上句共段，自行换行不保留。",
+      "sources": [
+        "教材 PDF 物理页 655（印刷页 648），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch18b-004",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第04节-信息安全整体架构设计(WPDRRC模型).md",
+      "loc": "物理 655，印刷 648，18.4",
+      "ocr": "WPDRRC模型有6个环节和3大要素。\n\n6个环节",
+      "current": "WPDRRC模型有6个环节和3大要素。\n\n6个环节",
+      "final": "WPDRRC模型有6个环节和3大要素。\n\n6个环节",
+      "class": "K",
+      "confidence": "A",
+      "evidence": "小段与六环展开分开。",
+      "sources": [
+        "教材 PDF 物理页 655（印刷页 648），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch18b-005",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第04节-信息安全整体架构设计(WPDRRC模型).md",
+      "loc": "物理 656，印刷 649，18.4",
+      "ocr": "奖励报告协调机制",
+      "current": "奖励报告协调机制",
+      "final": "建立报告协调机制",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "与“形成动态检测的制度”“提高检测的实时性”并列，建立机制可完整表达该处动宾关系。",
+      "sources": [
+        "教材 PDF 物理页 656（印刷页 649），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch18b-006",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第04节-信息安全整体架构设计(WPDRRC模型).md",
+      "loc": "物理 656，印刷 649，18.4",
+      "ocr": "R. 恢复灾难恢复系统是当前网络、数据、服务受到黑客攻击并遭到破坏或影响后，通过必要技术手段，在尽可能短的时间内使系统恢复正常。",
+      "current": "R. 恢复灾难恢复系统是当前网络、数据、服务受到黑客攻击并遭到破坏或影响后，通过必要技术手段，在尽可能短的时间内使系统恢复正常。",
+      "final": "R. 恢复是指当网络、数据、服务受到攻击并遭到破坏或影响后，通过必要的技术手段，在尽可能短的时间内使系统恢复正常。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "六环节按环节释义，“恢复灾难恢复系统是当前”误将环节与系统、条件与时间混作主语；仅保留原释义。",
+      "sources": [
+        "教材 PDF 物理页 656（印刷页 649），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch18b-007",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第04节-信息安全整体架构设计(WPDRRC模型).md",
+      "loc": "物理 656，印刷 649，18.4",
+      "ocr": "PDP",
+      "current": "PDP〔原书如此，当为PDR〕",
+      "final": "PDR",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "表18-1第一行模型名直接为PDR，移除无纸书支持的归因夹注。",
+      "sources": [
+        "教材 PDF 物理页 656（印刷页 649），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch18b-008",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第04节-信息安全整体架构设计(WPDRRC模型).md",
+      "loc": "物理 656，印刷 649，18.4",
+      "ocr": "重点考虑两个方面；其一",
+      "current": "重点考虑两个方面；其一",
+      "final": "重点考虑两个方面：其一",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "冒号引出随后列举的两方面。",
+      "sources": [
+        "教材 PDF 物理页 656（印刷页 649），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch18b-009",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第04节-信息安全整体架构设计(WPDRRC模型).md",
+      "loc": "物理 657，印刷 650，18.4",
+      "ocr": "除了采用一些技术措施之外，加强网络安全管理",
+      "current": "除了采用一些技术措施之外，加强网络安全管理",
+      "final": "除了采用一些技术措施之外，还要加强网络安全管理",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "补“除了……还……”的主句。",
+      "sources": [
+        "教材 PDF 物理页 657（印刷页 650），图18-13有局部覆图；正文为衍生层"
+      ]
+    },
+    {
+      "id": "ch18b-010",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第04节-信息安全整体架构设计(WPDRRC模型).md",
+      "loc": "物理 657，印刷 650，18.4",
+      "ocr": "安全管理遵循国家标准ISO 17799,它",
+      "current": "安全管理遵循国家标准ISO 17799,它",
+      "final": "本节引用的信息安全管理国际标准为ISO/IEC 17799，该标准",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "ISO/IEC 17799:2005为信息安全管理实践指南，非中国国家标准。ISO目录显示其后继为ISO/IEC 27002。本页正文不在局部原扫描覆图中，仅登记教材衍生页的技术订正。 FFHS管理安全课程讲义另以该编号讨论信息安全管理实务。",
+      "sources": [
+        "教材 PDF 物理页 657（印刷页 650），图18-13有局部覆图；正文为衍生层",
+        "https://www.iso.org/standard/39612.html",
+        "https://github.com/chgro/ffhs-MITSec/blob/886730726222eea659f0fc0f6d782d8531206995/README.md"
+      ]
+    },
+    {
+      "id": "ch18b-011",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第04节-信息安全整体架构设计(WPDRRC模型).md",
+      "loc": "物理 657，印刷 650，18.4",
+      "ocr": "通信与操作的安全、访问控制、系统开发与维护，以支撑",
+      "current": "通信与操作的安全、访问控制、系统开发与维护，以支撑",
+      "final": "通信与操作安全、访问控制、系统开发与维护等问题，以支撑",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "原句“解决……系统开发与维护”缺少问题之类的中心词。",
+      "sources": [
+        "教材 PDF 物理页 657（印刷页 650），图18-13有局部覆图；正文为衍生层"
+      ]
+    },
+    {
+      "id": "ch18b-012",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第04节-信息安全整体架构设计(WPDRRC模型).md",
+      "loc": "物理 657，印刷 650，18.4",
+      "ocr": "做到多人负责、任期有限、职责分离的原则",
+      "current": "做到多人负责、任期有限、职责分离的原则",
+      "final": "遵循多人负责、任期有限、职责分离的原则",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "“做到……的原则”搭配不成立。",
+      "sources": [
+        "教材 PDF 物理页 657（印刷页 650），图18-13有局部覆图；正文为衍生层"
+      ]
+    },
+    {
+      "id": "ch18b-013",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第04节-信息安全整体架构设计(WPDRRC模型).md",
+      "loc": "物理 657，印刷 650，18.4",
+      "ocr": "应急响应机制主要由管理人员和技术人员共同参与的内部机制",
+      "current": "应急响应机制主要由管理人员和技术人员共同参与的内部机制",
+      "final": "应急响应机制是主要由管理人员和技术人员共同参与的内部机制",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "名词谓语缺判断词。",
+      "sources": [
+        "教材 PDF 物理页 657（印刷页 650），图18-13有局部覆图；正文为衍生层"
+      ]
+    },
+    {
+      "id": "ch18b-014",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第04节-信息安全整体架构设计(WPDRRC模型).md",
+      "loc": "物理 657，印刷 650，18.4",
+      "ocr": "应用层、传输层、网络层、链路层、物理层",
+      "current": "应用层、表示层、会话层、传输层、网络层、链路层、物理层",
+      "final": "应用层、传输层、网络层、链路层、物理层",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "物理657的局部原扫描图18-13左轴确实只列五层。清洗稿额外补了OSI的表示层、会话层。",
+      "sources": [
+        "教材 PDF 物理页 657（印刷页 650），图18-13有局部覆图；正文为衍生层"
+      ]
+    },
+    {
+      "id": "ch18b-015",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第04节-信息安全整体架构设计(WPDRRC模型).md",
+      "loc": "物理 658，印刷 651，18.4",
+      "ocr": "1）物理安全",
+      "current": "### 1. 物理安全",
+      "final": "1）物理安全",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "页图为普通编号小目，恢复从属层级。",
+      "sources": [
+        "教材 PDF 物理页 658（印刷页 651），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch18b-016",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第04节-信息安全整体架构设计(WPDRRC模型).md",
+      "loc": "物理 658，印刷 651，18.4",
+      "ocr": "2）系统安全",
+      "current": "### 2. 系统安全",
+      "final": "2）系统安全",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "页图为普通编号小目，恢复从属层级。",
+      "sources": [
+        "教材 PDF 物理页 658（印刷页 651），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch18b-017",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第04节-信息安全整体架构设计(WPDRRC模型).md",
+      "loc": "物理 658，印刷 651，18.4",
+      "ocr": "3）网络安全",
+      "current": "### 3. 网络安全",
+      "final": "3）网络安全",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "页图为普通编号小目，恢复从属层级。",
+      "sources": [
+        "教材 PDF 物理页 658（印刷页 651），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch18b-018",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第04节-信息安全整体架构设计(WPDRRC模型).md",
+      "loc": "物理 658，印刷 651，18.4",
+      "ocr": "4）应用安全",
+      "current": "### 4. 应用安全",
+      "final": "4）应用安全",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "页图为普通编号小目，恢复从属层级。",
+      "sources": [
+        "教材 PDF 物理页 658（印刷页 651），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch18b-019",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第04节-信息安全整体架构设计(WPDRRC模型).md",
+      "loc": "物理 659，印刷 652，18.4",
+      "ocr": "5）安全管理",
+      "current": "### 5. 安全管理",
+      "final": "5）安全管理",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "页图为普通编号小目，恢复从属层级。",
+      "sources": [
+        "教材 PDF 物理页 659（印刷页 652），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch18b-020",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第05节-网络安全体系架构设计.md",
+      "loc": "物理 661，印刷 654，18.5",
+      "ocr": "1）多点技术防御",
+      "current": "### 1. 多点技术防御",
+      "final": "1）多点技术防御",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "页图为普通编号小目，恢复从属层级。",
+      "sources": [
+        "教材 PDF 物理页 661（印刷页 654），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch18b-021",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第05节-网络安全体系架构设计.md",
+      "loc": "物理 661，印刷 654，18.5",
+      "ocr": "2）分层技术防御",
+      "current": "### 2. 分层技术防御",
+      "final": "2）分层技术防御",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "页图为普通编号小目，恢复从属层级。",
+      "sources": [
+        "教材 PDF 物理页 661（印刷页 654），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch18b-022",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第05节-网络安全体系架构设计.md",
+      "loc": "物理 662，印刷 655，18.5",
+      "ocr": "3）支撑性基础设施",
+      "current": "### 3. 支撑性基础设施",
+      "final": "3）支撑性基础设施",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "页图为普通编号小目，恢复从属层级。",
+      "sources": [
+        "教材 PDF 物理页 662（印刷页 655），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch18b-023",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第05节-网络安全体系架构设计.md",
+      "loc": "物理 665，印刷 658，18.5",
+      "ocr": "1）通过禁止访问提供机密性",
+      "current": "### 1. 通过禁止访问提供机密性",
+      "final": "1）通过禁止访问提供机密性",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "页图为普通编号小目，恢复从属层级。",
+      "sources": [
+        "教材 PDF 物理页 665（印刷页 658），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch18b-024",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第05节-网络安全体系架构设计.md",
+      "loc": "物理 666，印刷 659，18.5",
+      "ocr": "2）通过加密提供机密性",
+      "current": "### 2. 通过加密提供机密性",
+      "final": "2）通过加密提供机密性",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "页图为普通编号小目，恢复从属层级。",
+      "sources": [
+        "教材 PDF 物理页 666（印刷页 659），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch18b-025",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第05节-网络安全体系架构设计.md",
+      "loc": "物理 667，印刷 660，18.5",
+      "ocr": "1）证据生成",
+      "current": "### 1. 证据生成",
+      "final": "1）证据生成",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "页图为普通编号小目，恢复从属层级。",
+      "sources": [
+        "教材 PDF 物理页 667（印刷页 660），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch18b-026",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第05节-网络安全体系架构设计.md",
+      "loc": "物理 667，印刷 660，18.5",
+      "ocr": "2）证据传输、存储及恢复",
+      "current": "### 2. 证据传输、存储及恢复",
+      "final": "2）证据传输、存储及恢复",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "页图为普通编号小目，恢复从属层级。",
+      "sources": [
+        "教材 PDF 物理页 667（印刷页 660），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch18b-027",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第05节-网络安全体系架构设计.md",
+      "loc": "物理 667，印刷 660，18.5",
+      "ocr": "3）证据验证",
+      "current": "### 3. 证据验证",
+      "final": "3）证据验证",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "页图为普通编号小目，恢复从属层级。",
+      "sources": [
+        "教材 PDF 物理页 667（印刷页 660），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch18b-028",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第05节-网络安全体系架构设计.md",
+      "loc": "物理 668，印刷 661，18.5",
+      "ocr": "4）解决纠纷",
+      "current": "### 4. 解决纠纷",
+      "final": "4）解决纠纷",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "页图为普通编号小目，恢复从属层级。",
+      "sources": [
+        "教材 PDF 物理页 668（印刷页 661），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch18b-029",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第04节-信息安全整体架构设计(WPDRRC模型).md",
+      "loc": "物理 658，印刷 651，18.4",
+      "ocr": "具体在安全控制系统",
+      "current": "具体在安全控制系统",
+      "final": "具体到安全控制系统",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "“具体到”引出实例。",
+      "sources": [
+        "教材 PDF 物理页 658（印刷页 651），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch18b-030",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第04节-信息安全整体架构设计(WPDRRC模型).md",
+      "loc": "物理 658，印刷 651，18.4",
+      "ocr": "免受地震、水灾、火灾等环境事故以及人为操作失误或错误及各种计算机犯罪行为导致的破坏过程",
+      "current": "免受地震、水灾、火灾等环境事故以及人为操作失误或错误及各种计算机犯罪行为导致的破坏过程",
+      "final": "免受地震、水灾、火灾等环境事故，以及人为操作失误和各种计算机犯罪行为所造成破坏的过程",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "“过程”修饰保护行为，“失误或错误”同义重复。",
+      "sources": [
+        "教材 PDF 物理页 658（印刷页 651），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch18b-031",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第04节-信息安全整体架构设计(WPDRRC模型).md",
+      "loc": "物理 658，印刷 651，18.4",
+      "ocr": "《权限管理制定》",
+      "current": "《权限管理制定》",
+      "final": "《权限管理制度》",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "枚举项均为管理办法的名称，“制定”不能作该名词中心语。",
+      "sources": [
+        "教材 PDF 物理页 658（印刷页 651），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch18b-032",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第04节-信息安全整体架构设计(WPDRRC模型).md",
+      "loc": "物理 658，印刷 651，18.4",
+      "ocr": "网路安全",
+      "current": "网路安全",
+      "final": "网络安全",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "统一同段“网络安全”的用字。",
+      "sources": [
+        "教材 PDF 物理页 658（印刷页 651），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch18b-033",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第04节-信息安全整体架构设计(WPDRRC模型).md",
+      "loc": "物理 658，印刷 651，18.4",
+      "ocr": "防火墙可以是实现",
+      "current": "防火墙可以是实现",
+      "final": "防火墙可以实现",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "删多余的“是”，后接动词“实现”。",
+      "sources": [
+        "教材 PDF 物理页 658（印刷页 651），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch18b-034",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第04节-信息安全整体架构设计(WPDRRC模型).md",
+      "loc": "物理 658，印刷 651，18.4",
+      "ocr": "(阻断、报警、发送E-mail)。从而",
+      "current": "(阻断、报警、发送E-mail)。从而",
+      "final": "（阻断、报警、发送E-mail），从而",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "“从而”接续上句响应措施的效果。",
+      "sources": [
+        "教材 PDF 物理页 658（印刷页 651），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch18b-035",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第04节-信息安全整体架构设计(WPDRRC模型).md",
+      "loc": "物理 658，印刷 651，18.4",
+      "ocr": "病毒防护是网络安全的常用手段，由于在网络环境下，计算机病毒有不可估量的威胁性和破坏力。",
+      "current": "病毒防护是网络安全的常用手段，由于在网络环境下，计算机病毒有不可估量的威胁性和破坏力。",
+      "final": "病毒防护是网络安全的常用手段，因为在网络环境下，计算机病毒有不可估量的威胁性和破坏力。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "“由于”作为后置原因结果悬空，改作原因说明。",
+      "sources": [
+        "教材 PDF 物理页 658（印刷页 651），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch18b-036",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第04节-信息安全整体架构设计(WPDRRC模型).md",
+      "loc": "物理 659，印刷 652，18.4",
+      "ocr": "整体安全方法意识",
+      "current": "整体安全方法意识",
+      "final": "整体安全防范意识",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "同句上文两次写安全防范意识，纠近形词。",
+      "sources": [
+        "教材 PDF 物理页 659（印刷页 652），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch18b-037",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第04节-信息安全整体架构设计(WPDRRC模型).md",
+      "loc": "物理 660，印刷 653，18.4",
+      "ocr": "可信性监控",
+      "current": "可信性监控",
+      "final": "系统可用性监控",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "直接对应图18-14功能层左栏标题及其下告警、故障关联等项目。",
+      "sources": [
+        "教材 PDF 物理页 660（印刷页 653），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch18b-038",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第04节-信息安全整体架构设计(WPDRRC模型).md",
+      "loc": "物理 660，印刷 653，18.4",
+      "ocr": "分为数据层、功能层和展现层。",
+      "current": "分为数据层、功能层和展现层。",
+      "final": "其主体分为数据处理层、功能层和展现层。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "图中主体三层名为数据处理层、功能层、展现层，两端还绘有数据源、用户接入。",
+      "sources": [
+        "教材 PDF 物理页 660（印刷页 653），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch18b-039",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第04节-信息安全整体架构设计(WPDRRC模型).md",
+      "loc": "物理 660，印刷 653，18.4",
+      "ocr": "数据层主要对",
+      "current": "数据层主要对",
+      "final": "数据处理层主要对",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "与图18-14左侧层名统一。",
+      "sources": [
+        "教材 PDF 物理页 660（印刷页 653），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch18b-040",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第05节-网络安全体系架构设计.md",
+      "loc": "物理 660，印刷 653，18.5",
+      "ocr": "OSI(Open System Interconnection/Reference Mode,OSI/RM) 是由国际化标准组织制定的开放式通信系统互联模型 (ISO 7498-2), 国家标准GB/T 9387.2—1995 《信息处理系统工程开放系统互联基本参考模型—第二部分：安全体系结构》等同于ISO 7498-2。OSI目的在于保证开放系统进程与进程之间远距离安全交换信息。",
+      "current": "OSI(Open System Interconnection/Reference Mode,OSI/RM) 是由国际化标准组织制定的开放式通信系统互联模型 (ISO 7498-2), 国家标准GB/T 9387.2—1995 《信息处理系统工程开放系统互联基本参考模型—第二部分：安全体系结构》等同于ISO 7498-2。OSI目的在于保证开放系统进程与进程之间远距离安全交换信息。",
+      "final": "开放系统互连基本参考模型（Open Systems Interconnection Basic Reference Model，OSI/RM）由国际标准化组织制定。ISO 7498-2规定该模型的安全体系结构。国家标准GB/T 9387.2—1995《信息处理系统 开放系统互连基本参考模型 第2部分：安全体系结构》等同采用ISO 7498-2。该安全体系结构的目的在于保障开放系统进程间的信息交换。",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "本书18.1标准清单有国标题名，18.3有ISO组织中文名。ISO 7498-2标题和ITU-T X.800等同文本确认本标准仅指安全体系结构部分。",
+      "sources": [
+        "教材 PDF 物理页 660（印刷页 653），OCR衍生页直接目读",
+        "教材18.1标准清单、18.3.1国际标准化组织",
+        "https://www.iso.org/standard/14256.html",
+        "https://www.itu.int/rec/T-REC-X.800-199103-I/en"
+      ]
+    },
+    {
+      "id": "ch18b-041",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第05节-网络安全体系架构设计.md",
+      "loc": "物理 660，印刷 653，18.5",
+      "ocr": "强度的要求。\nGB/T",
+      "current": "强度的要求。\nGB/T",
+      "final": "强度的要求。\n\nGB/T",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "三点清单后另段介绍国家标准。",
+      "sources": [
+        "教材 PDF 物理页 660（印刷页 653），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch18b-042",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第05节-网络安全体系架构设计.md",
+      "loc": "物理 660，印刷 653，18.5",
+      "ocr": "安全服务和安全机制的对应关系如图",
+      "current": "安全服务和安全机制的对应关系如图",
+      "final": "图中列举的安全服务和安全机制的部分对应关系如图",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "图18-16每服务只列少量机制，例如仅列公证支持抗抵赖，不能用作穷尽关系表。",
+      "sources": [
+        "教材 PDF 物理页 660（印刷页 653），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch18b-043",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第05节-网络安全体系架构设计.md",
+      "loc": "物理 661，印刷 654，18.5",
+      "ocr": "OSI定义分层多点安全技术体系架构，也称为深度防御安全技术体系架构",
+      "current": "OSI定义分层多点安全技术体系架构，也称为深度防御安全技术体系架构",
+      "final": "分层多点安全技术体系架构也称为深度防御安全技术体系架构",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "本节前三项具体列网络边界、计算环境和PKI，与前段ISO 7498-2的五类服务和具体机制属于不同概念，不把该架构归为OSI的定义。",
+      "sources": [
+        "教材 PDF 物理页 661（印刷页 654），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch18b-044",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第05节-网络安全体系架构设计.md",
+      "loc": "物理 661，印刷 654，18.5",
+      "ocr": "达到抵御所有方式的攻击目的",
+      "current": "达到抵御所有方式的攻击目的",
+      "final": "以应对来自不同方向的攻击",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "同节明确“即使最好的……产品也有弱点”，不作可抵御所有攻击的绝对保证。",
+      "sources": [
+        "教材 PDF 物理页 661（印刷页 654），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch18b-045",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第05节-网络安全体系架构设计.md",
+      "loc": "物理 662，印刷 655，18.5",
+      "ocr": "支撑性基础设施为网络、边界和计算环境中信息保障机制运行基础的支撑性基础设施",
+      "current": "支撑性基础设施为网络、边界和计算环境中信息保障机制运行基础的支撑性基础设施",
+      "final": "支撑性基础设施为网络、边界和计算环境中的信息保障机制提供运行基础",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "删除循环定义，保留本句支撑对象和下文两类基础设施。",
+      "sources": [
+        "教材 PDF 物理页 662（印刷页 655），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch18b-046",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第05节-网络安全体系架构设计.md",
+      "loc": "物理 662，印刷 655，18.5",
+      "ocr": "新的发展趋势。\n这里",
+      "current": "新的发展趋势。\n这里",
+      "final": "新的发展趋势。\n\n这里",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "技术与非技术防御手段总结是清单后的独立段。",
+      "sources": [
+        "教材 PDF 物理页 662（印刷页 655），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch18b-047",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第05节-网络安全体系架构设计.md",
+      "loc": "物理 663，印刷 656，18.5",
+      "ocr": "鉴别方式主要基于以下5种信息。",
+      "current": "鉴别方式主要基于以下5种信息。",
+      "final": "\n\n鉴别方式主要基于以下5种信息。",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "页图在图18-18引句后另起段引出五种鉴别依据。",
+      "sources": [
+        "教材 PDF 物理页 663（印刷页 656），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch18b-048",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第05节-网络安全体系架构设计.md",
+      "loc": "物理 663，印刷 656，18.5",
+      "ocr": "地址等)。\n鉴别信息",
+      "current": "地址等)。\n鉴别信息",
+      "final": "地址等)。\n\n鉴别信息",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "第五类之后另起鉴别信息定义段。",
+      "sources": [
+        "教材 PDF 物理页 663（印刷页 656），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch18b-049",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第05节-网络安全体系架构设计.md",
+      "loc": "物理 663，印刷 656，18.5",
+      "ocr": "鉴别信息是指申请者要求鉴别到鉴别过程结束所生成",
+      "current": "鉴别信息是指申请者要求鉴别到鉴别过程结束所生成",
+      "final": "鉴别信息是指从申请者要求鉴别到鉴别过程结束所生成",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "句法需要标明起点“从……到……”。",
+      "sources": [
+        "教材 PDF 物理页 663（印刷页 656），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch18b-050",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第05节-网络安全体系架构设计.md",
+      "loc": "物理 664，印刷 657，18.5",
+      "ocr": "在重新激活阶段，使在停活阶段建立的状态将被终止",
+      "current": "在重新激活阶段，使在停活阶段建立的状态将被终止",
+      "final": "在重新激活阶段，停活阶段建立的状态将被终止",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "删去多余使役词后主谓完整。",
+      "sources": [
+        "教材 PDF 物理页 664（印刷页 657），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch18b-051",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第05节-网络安全体系架构设计.md",
+      "loc": "物理 664，印刷 657，18.5",
+      "ocr": "访问控制 (Access Control) 决定开放系统环境中允许使用哪些资源、在什么地方适合阻止未授权访问的过程。",
+      "current": "访问控制 (Access Control) 决定开放系统环境中允许使用哪些资源、在什么地方适合阻止未授权访问的过程。",
+      "final": "访问控制 (Access Control) 是决定开放系统环境中允许使用哪些资源、在什么地方应阻止未授权访问的过程。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "补定义句的谓语“是”。",
+      "sources": [
+        "教材 PDF 物理页 664（印刷页 657），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch18b-052",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第05节-网络安全体系架构设计.md",
+      "loc": "物理 664，印刷 657，18.5",
+      "ocr": "目标代表被试图访问或由发起者访问的，基于计算机或通信的实体。",
+      "current": "目标代表被试图访问或由发起者访问的，基于计算机或通信的实体。",
+      "final": "目标代表发起者访问或试图访问的、基于计算机或通信的实体。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "上句发起者的定义提供动作主体，消除“被试图访问”错误被动。",
+      "sources": [
+        "教材 PDF 物理页 664（印刷页 657），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch18b-053",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第05节-网络安全体系架构设计.md",
+      "loc": "物理 664，印刷 657，18.5",
+      "ocr": "ADF需要一个判决来做出决定",
+      "current": "ADF需要一个判决来做出决定",
+      "final": "ADF需要就此访问请求作出判决",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "去除“判决来做出决定”的同义重复。",
+      "sources": [
+        "教材 PDF 物理页 664（印刷页 657），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch18b-054",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第05节-网络安全体系架构设计.md",
+      "loc": "物理 664，印刷 657，18.5",
+      "ocr": "访问控制判决信息（ADI）",
+      "current": "访问控制判决信息\n1.",
+      "final": "访问控制判决信息（ADI）：\n\n1.",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "页图把（ADI）换至独立行，基线漏字，复原至引句并留清单空行。",
+      "sources": [
+        "教材 PDF 物理页 664（印刷页 657），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch18b-055",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第05节-网络安全体系架构设计.md",
+      "loc": "物理 664，印刷 657，18.5",
+      "ocr": "请求的ACI导出)。\nADF",
+      "current": "请求的ACI导出)。\nADF",
+      "final": "请求的ACI导出)。\n\nADF",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "3项判决信息后另段列ADF的其他输入。",
+      "sources": [
+        "教材 PDF 物理页 664（印刷页 657），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch18b-056",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第05节-网络安全体系架构设计.md",
+      "loc": "物理 665，印刷 658，18.5",
+      "ocr": "存在性、创建的数据、数据大小、最后一次更新的日期",
+      "current": "存在性、创建的数据、数据大小、最后一次更新的日期",
+      "final": "存在性、创建日期、数据大小、最后一次更新的日期",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "并列项都是数据的属性，创建日期与更新日期相对，“创建的数据”本身不属于元数据属性。",
+      "sources": [
+        "教材 PDF 物理页 665（印刷页 658），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch18b-057",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第05节-网络安全体系架构设计.md",
+      "loc": "物理 665，印刷 658，18.5",
+      "ocr": "通过禁止访问的机密性能通过在ITU-T Rec.812或ISO/IEC 10181-3中描述的访问控制获得，以及通过物理媒体保护和路由选择控制获得。",
+      "current": "通过禁止访问的机密性能通过在ITU-T Rec.812或ISO/IEC 10181-3中描述的访问控制获得，以及通过物理媒体保护和路由选择控制获得。",
+      "final": "通过禁止访问提供的机密性，可借助ITU-T X.812或ISO/IEC 10181-3描述的访问控制，也可通过物理媒体保护和路由选择控制获得。",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "ITU-T X.812与ISO/IEC 10181-3为等同的访问控制框架，补齐系列字母X。",
+      "sources": [
+        "教材 PDF 物理页 665（印刷页 658），OCR衍生页直接目读",
+        "https://www.itu.int/rec/T-REC-X.812-199511-I/en",
+        "https://www.iso.org/standard/18199.html"
+      ]
+    },
+    {
+      "id": "ch18b-058",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第05节-网络安全体系架构设计.md",
+      "loc": "物理 666，印刷 659，18.5",
+      "ocr": "防止数据泄露在传输或存储中",
+      "current": "防止数据泄露在传输或存储中",
+      "final": "防止数据在传输或存储中泄露",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "恢复状语位置。",
+      "sources": [
+        "教材 PDF 物理页 666（印刷页 659），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch18b-059",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第05节-网络安全体系架构设计.md",
+      "loc": "物理 666，印刷 659，18.5",
+      "ocr": "基于对称的加密机制和基于非对称加密的机密机制",
+      "current": "基于对称的加密机制和基于非对称加密的机密机制",
+      "final": "对称加密机制和非对称加密机制",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "本小目“通过加密提供机密性”及上一句的加密机制均区分技术与安全属性。",
+      "sources": [
+        "教材 PDF 物理页 666（印刷页 659），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch18b-060",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第05节-网络安全体系架构设计.md",
+      "loc": "物理 666，印刷 659，18.5",
+      "ocr": "除了以下两种机密性机制外",
+      "current": "除了以下两种机密性机制外",
+      "final": "除了以上两种机密性机制外",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "指刚叙述的禁止访问与加密两小目。",
+      "sources": [
+        "教材 PDF 物理页 666（印刷页 659），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch18b-061",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第05节-网络安全体系架构设计.md",
+      "loc": "物理 666，印刷 659，18.5",
+      "ocr": "消息序列号。\n按照保护强度",
+      "current": "消息序列号。\n按照保护强度",
+      "final": "消息序列号。\n\n按照保护强度",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "“按照保护强度”不属于上一清单第2项。",
+      "sources": [
+        "教材 PDF 物理页 666（印刷页 659），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch18b-062",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第05节-网络安全体系架构设计.md",
+      "loc": "物理 667，印刷 660，18.5",
+      "ocr": "可在试图抵赖的事件中使用的设备",
+      "current": "可在试图抵赖的事件中使用的设备",
+      "final": "可在试图抵赖的事件中使用的功能",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "后面列证据生成、记录、验证、恢复等功能，没有列实体设备。",
+      "sources": [
+        "教材 PDF 物理页 667（印刷页 660），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch18b-063",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第05节-网络安全体系架构设计.md",
+      "loc": "物理 667，印刷 660，18.5",
+      "ocr": "证据生成；证据传输、存储及恢复；证据验证和解决纠纷。\n\n如图 18-21所示。",
+      "current": "证据生成；证据传输、存储及恢复；证据验证和解决纠纷。\n\n如图 18-21所示。",
+      "final": "证据生成，证据传输、存储及恢复，证据验证，以及解决纠纷。前三个阶段涉及的实体如图 18-21所示。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "四小目对应四个独立阶段；图18-21显示前三个阶段，最后一个阶段单列图18-22。",
+      "sources": [
+        "教材 PDF 物理页 667（印刷页 660），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch18b-064",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第05节-网络安全体系架构设计.md",
+      "loc": "物理 667，印刷 660，18.5",
+      "ocr": "证据可由证据实体，或可能与可信第三方的服务一起生成，或者单独由可信第三方生成。",
+      "current": "证据可由证据实体，或可能与可信第三方的服务一起生成，或者单独由可信第三方生成。",
+      "final": "证据可由证据实体生成，由证据实体在可信第三方协助下生成，或由可信第三方单独生成。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "同时保留三种生成安排，补齐首项谓语和次项主语。",
+      "sources": [
+        "教材 PDF 物理页 667（印刷页 660），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch18b-065",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第04节-信息安全整体架构设计(WPDRRC模型).md",
+      "loc": "物理 655，印刷 648，18.4",
+      "ocr": "生信息内容命　物，保护／彻底等",
+      "current": "图18-12仅留图注",
+      "final": null,
+      "class": "C3",
+      "confidence": "低～中",
+      "evidence": "核心内环的生命周期、安全属性等标签残缺或错位，无法唯一还原，图中只呈现可辨字。",
+      "sources": [
+        "教材 PDF 物理页 655（印刷页 648），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch18b-066",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第05节-网络安全体系架构设计.md",
+      "loc": "物理 661，印刷 654，18.5",
+      "ocr": "其他层都不宜配置安全服务。",
+      "current": "其他层都不宜配置安全服务。",
+      "final": null,
+      "class": "C3",
+      "confidence": "低～中",
+      "evidence": "页图称其他层“不宜配置”，本句紧接“除第5层外，每一层均能提供”，具体服务的适用层需按标准分别核定。",
+      "sources": [
+        "教材 PDF 物理页 661（印刷页 654），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch18b-067",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第05节-网络安全体系架构设计.md",
+      "loc": "物理 662，印刷 655，18.5",
+      "ocr": "对成功攻击的可承担性",
+      "current": "对成功攻击的可承担性",
+      "final": null,
+      "class": "C3",
+      "confidence": "低～中",
+      "evidence": "可能指提高攻击者成本或降低攻击成功后的影响，现有句法难以唯一判断，不擅改。",
+      "sources": [
+        "教材 PDF 物理页 662（印刷页 655），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch18b-068",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第05节-网络安全体系架构设计.md",
+      "loc": "物理 663，印刷 656，18.5",
+      "ocr": "验证者内：申请AI",
+      "current": "图18-18仅留图注",
+      "final": "验证AI",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "页图把验证者内部框误排为申请AI；本页下文明确验证者用验证鉴别信息核对交换鉴别信息。",
+      "sources": [
+        "教材 PDF 物理页 663（印刷页 656），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch18b-069",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第05节-网络安全体系架构设计.md",
+      "loc": "物理 664，印刷 657，18.5",
+      "ocr": "访问请求ADI",
+      "current": "图18-20仅留图注",
+      "final": "访问请求ADI",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "图内左侧一项形似“访问请求ADI”，与同页列举的三类ADI一致。",
+      "sources": [
+        "教材 PDF 物理页 664（印刷页 657），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch18b-070",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第05节-网络安全体系架构设计.md",
+      "loc": "物理 667，印刷 660，18.5",
+      "ocr": "证据生成请求者（右）",
+      "current": "图18-21仅留图注",
+      "final": "证据验证请求者",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "其箭头写“请求验证”并指向证据验证者，结合下方第3阶段可确证。",
+      "sources": [
+        "教材 PDF 物理页 667（印刷页 660），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch18b-071",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第05节-网络安全体系架构设计.md",
+      "loc": "物理 667，印刷 660，18.5",
+      "ocr": "注：本图是示意图，并非定义。",
+      "current": "图18-21仅留图注",
+      "final": "注：本图是示意图，并非定义。",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "页图图18-21下原有图注附记，基线只保留图18-22的附记。",
+      "sources": [
+        "教材 PDF 物理页 667（印刷页 660），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch18b-072",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第04节-信息安全整体架构设计(WPDRRC模型).md",
+      "loc": "物理 655，印刷 648，18.4",
+      "ocr": "WPDRRC模型是我国“八六三”信息安全专家组提出的",
+      "current": "WPDRRC模型是我国“八六三”信息安全专家组提出的",
+      "final": null,
+      "class": "C3",
+      "confidence": "低～中",
+      "evidence": "文段陈述模型来源，未附专家组可核的原始文件或日期。作为教材原述留待核实，不把归属作为新验证事实。",
+      "sources": [
+        "教材 PDF 物理页 655（印刷页 648），OCR衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-01",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第06节-数据库系统的安全设计.md",
+      "loc": "物理 668 / 印刷 661，18.6",
+      "ocr": "或无意地破坏。不会发生数据的外泄",
+      "current": "或无意地破坏。不会发生数据的外泄",
+      "final": "或无意地破坏，防止发生数据外泄",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "并列防护目标应连贯。",
+      "sources": [
+        "入库教材PDF物理 668 / 印刷 661，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-02",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第06节-数据库系统的安全设计.md",
+      "loc": "物理 669 / 印刷 662，18.6",
+      "ocr": "作为模式的一部分存入数据库中。\n\n通过DBMS",
+      "current": "作为模式的一部分存入数据库中。\n\n通过DBMS",
+      "final": "作为模式的一部分存入数据库中。通过DBMS",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "“通过DBMS”居下一行顶格，接续同段。",
+      "sources": [
+        "入库教材PDF物理 669 / 印刷 662，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-03",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第06节-数据库系统的安全设计.md",
+      "loc": "物理 669 / 印刷 662，18.6",
+      "ocr": "Before型语句级触发器",
+      "current": "Before型语句级触发器",
+      "final": "BEFORE型语句级触发器",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "SQL关键字大小写规范。",
+      "sources": [
+        "入库教材PDF物理 669 / 印刷 662，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-04",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第06节-数据库系统的安全设计.md",
+      "loc": "物理 669 / 印刷 662，18.6",
+      "ocr": "下画线等组合",
+      "current": "下画线等组合",
+      "final": "下划线等组合",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "符号名常用写法。",
+      "sources": [
+        "入库教材PDF物理 669 / 印刷 662，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-05",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第06节-数据库系统的安全设计.md",
+      "loc": "物理 669 / 印刷 662，18.6",
+      "ocr": "只要在装载之前临时使基于DBMS的数据库完整性约束失效，此后再使其生效，就能保证既不影响数据装载的效率又能保证数据库的完整性",
+      "current": "只要在装载之前临时使基于DBMS的数据库完整性约束失效，此后再使其生效，就能保证既不影响数据装载的效率又能保证数据库的完整性",
+      "final": "可在受控条件下暂时停用约束以降低装载开销，装载后重新启用约束并验证已有数据，处理所有违规记录后才能确认数据满足约束",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "仅重新启用约束不能推出已有数据均通过校验，装载期间可能出现违规记录；原文对效率也无测试条件。",
+      "sources": [
+        "入库教材PDF物理 669 / 印刷 662，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-06",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第06节-数据库系统的安全设计.md",
+      "loc": "物理 670 / 印刷 663，18.6",
+      "ocr": "如表 18-2所示。\n> 表",
+      "current": "如表 18-2所示。\n> 表",
+      "final": "如表 18-2所示。\n\n![表 18-2",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "表前说明和表题分开。",
+      "sources": [
+        "入库教材PDF物理 670 / 印刷 663，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-07",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第06节-数据库系统的安全设计.md",
+      "loc": "物理 670 / 印刷 663，18.6",
+      "ocr": "关系级动态约束可以通过调用包含事务的存储过程来实现。如果出现性能问题，需要改由应用软件来实现",
+      "current": "关系级动态约束可以通过调用包含事务的存储过程来实现。如果出现性能问题，需要改由应用软件来实现",
+      "final": "关系级动态约束可以通过调用包含事务的存储过程来实现。出现性能问题时，需要评估是否改由应用软件实现。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "本页说明应结合体系结构、性能要求与测试选择实现方式，限缩改用应用层的绝对表述。",
+      "sources": [
+        "入库教材PDF物理 670 / 印刷 663，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-08",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第06节-数据库系统的安全设计.md",
+      "loc": "物理 670 / 印刷 663，18.6",
+      "ocr": "概念结构设计阶段是将依据需求分析的结果转换成",
+      "current": "概念结构设计阶段是将依据需求分析的结果转换成",
+      "final": "概念结构设计阶段是将需求分析的结果转换成",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "“将……结果转换成”中多出“依据”。",
+      "sources": [
+        "入库教材PDF物理 670 / 印刷 663，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-09",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第06节-数据库系统的安全设计.md",
+      "loc": "物理 670 / 印刷 663，18.6",
+      "ocr": "Entity-Relationship Diagram,ERD",
+      "current": "Entity-Relationship Diagram,ERD",
+      "final": "Entity-Relationship Diagram, ERD",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "英文释名缩写分隔。",
+      "sources": [
+        "入库教材PDF物理 670 / 印刷 663，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-10",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第07节-系统架构的脆弱性分析.md",
+      "loc": "物理 671 / 印刷 664，18.7",
+      "ocr": "事先缺陷",
+      "current": "事先缺陷",
+      "final": "实现缺陷",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "紧接“系统设计或者实现上”，与“设计缺陷”对举。",
+      "sources": [
+        "入库教材PDF物理 671 / 印刷 664，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-11",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第07节-系统架构的脆弱性分析.md",
+      "loc": "物理 671 / 印刷 664，18.7",
+      "ocr": "网络协议簇",
+      "current": "网络协议簇",
+      "final": "网络协议族",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "网络协议集合的通用名为协议族。",
+      "sources": [
+        "入库教材PDF物理 671 / 印刷 664，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-12",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第07节-系统架构的脆弱性分析.md",
+      "loc": "物理 671 / 印刷 664，18.7",
+      "ocr": "协议定了网络上",
+      "current": "协议定了网络上",
+      "final": "协议规定了网络上",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "“规定规则”语法搭配。",
+      "sources": [
+        "入库教材PDF物理 671 / 印刷 664，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-13",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第07节-系统架构的脆弱性分析.md",
+      "loc": "物理 671 / 印刷 664，18.7",
+      "ocr": "没用进行成功/失败检查",
+      "current": "没用进行成功/失败检查",
+      "final": "没有进行成功/失败检查",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "与上一项“没有进行……检查”平行。",
+      "sources": [
+        "入库教材PDF物理 671 / 印刷 664，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-14",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第07节-系统架构的脆弱性分析.md",
+      "loc": "物理 672 / 印刷 665，18.7",
+      "ocr": "目前，软件脆弱性目前还没有",
+      "current": "目前，软件脆弱性目前还没有",
+      "final": "目前，软件脆弱性还没有",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "相邻重复“目前”。",
+      "sources": [
+        "入库教材PDF物理 672 / 印刷 665，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-15",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第07节-系统架构的脆弱性分析.md",
+      "loc": "物理 672 / 印刷 665，18.7",
+      "ocr": "状态),系统运行",
+      "current": "状态),系统运行",
+      "final": "状态），系统运行",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "中文括注及标点。",
+      "sources": [
+        "入库教材PDF物理 672 / 印刷 665，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-16",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第07节-系统架构的脆弱性分析.md",
+      "loc": "物理 672 / 印刷 665，18.7",
+      "ocr": "状态组成的(如授权状态",
+      "current": "状态组成的(如授权状态",
+      "final": "状态组成的（如授权状态",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "中文括注。",
+      "sources": [
+        "入库教材PDF物理 672 / 印刷 665，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-17",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第07节-系统架构的脆弱性分析.md",
+      "loc": "物理 672 / 印刷 665，18.7",
+      "ocr": "长期存在。\n软件脆弱性可以",
+      "current": "长期存在。\n软件脆弱性可以",
+      "final": "长期存在。\n\n软件脆弱性可以",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "四项特点后的正文另起。",
+      "sources": [
+        "入库教材PDF物理 672 / 印刷 665，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-18",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第07节-系统架构的脆弱性分析.md",
+      "loc": "物理 673 / 印刷 666，18.7",
+      "ocr": "(有意的或无意的),引入的时间",
+      "current": "(有意的或无意的),引入的时间",
+      "final": "（有意的或无意的）、引入的时间",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "同层分类维度列举。",
+      "sources": [
+        "入库教材PDF物理 673 / 印刷 666，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-19",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第07节-系统架构的脆弱性分析.md",
+      "loc": "物理 674 / 印刷 667，18.7",
+      "ocr": "脆弱性的引入阶段：引入软件脆弱性的原因有：",
+      "current": "脆弱性的引入阶段：引入软件脆弱性的原因有：",
+      "final": "在脆弱性的引入阶段，引入软件脆弱性的原因有：",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "消除同一句双冒号。",
+      "sources": [
+        "入库教材PDF物理 674 / 印刷 667，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-20",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第07节-系统架构的脆弱性分析.md",
+      "loc": "物理 674 / 印刷 667，18.7",
+      "ocr": "其他错误。\n产生破坏效果节段：主要包括：",
+      "current": "其他错误。\n产生破坏效果节段：主要包括：",
+      "final": "其他错误。\n\n产生破坏效果阶段主要包括：",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "据段首“阶段”与上项“引入阶段”纠同音错，编号外引导另起。",
+      "sources": [
+        "入库教材PDF物理 674 / 印刷 667，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-21",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第07节-系统架构的脆弱性分析.md",
+      "loc": "物理 674 / 印刷 667，18.7",
+      "ocr": "拒绝服务攻击。\n修补阶段：主要包括：",
+      "current": "拒绝服务攻击。\n修补阶段：主要包括：",
+      "final": "拒绝服务攻击。\n\n修补阶段主要包括：",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "修补阶段另起段并消除双冒号。",
+      "sources": [
+        "入库教材PDF物理 674 / 印刷 667，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-22",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第07节-系统架构的脆弱性分析.md",
+      "loc": "物理 674 / 印刷 667，18.7",
+      "ocr": "名字伪造等);",
+      "current": "名字伪造等);",
+      "final": "名字伪造等）；",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "中文括注与分号。",
+      "sources": [
+        "入库教材PDF物理 674 / 印刷 667，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-23",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第07节-系统架构的脆弱性分析.md",
+      "loc": "物理 674 / 印刷 667，18.7",
+      "ocr": "删除伪造实体(如",
+      "current": "删除伪造实体(如",
+      "final": "删除伪造实体（如",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "中文括注。",
+      "sources": [
+        "入库教材PDF物理 674 / 印刷 667，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-24",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第07节-系统架构的脆弱性分析.md",
+      "loc": "物理 674 / 印刷 667，18.7",
+      "ocr": "提供方法与手段。\n\n软件脆弱性分析可从",
+      "current": "提供方法与手段。\n\n软件脆弱性分析可从",
+      "final": "提供方法与手段。软件脆弱性分析可从",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "“软件脆弱性分析可从”在页图顶格续前段。",
+      "sources": [
+        "入库教材PDF物理 674 / 印刷 667，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-25",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第07节-系统架构的脆弱性分析.md",
+      "loc": "物理 674 / 印刷 667，18.7",
+      "ocr": "转化为安全故障。\n软件脆弱性分析首先",
+      "current": "转化为安全故障。\n软件脆弱性分析首先",
+      "final": "转化为安全故障。\n\n软件脆弱性分析首先",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "三项分析角度后另起概述段。",
+      "sources": [
+        "入库教材PDF物理 674 / 印刷 667，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-26",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第07节-系统架构的脆弱性分析.md",
+      "loc": "物理 675 / 印刷 668，18.7",
+      "ocr": "脆弱性组成的。\n\n脆弱性分析就是",
+      "current": "脆弱性组成的。\n\n脆弱性分析就是",
+      "final": "脆弱性组成的。脆弱性分析就是",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "页图“脆弱性分析就是”顶格续写。",
+      "sources": [
+        "入库教材PDF物理 675 / 印刷 668，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-27",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第07节-系统架构的脆弱性分析.md",
+      "loc": "物理 676 / 印刷 669，18.7",
+      "ocr": "4个层次：\n\n即表示层",
+      "current": "4个层次：\n\n即表示层",
+      "final": "4个层次，即表示层",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "枚举同段无二次缩进。",
+      "sources": [
+        "入库教材PDF物理 676 / 印刷 669，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-28",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第07节-系统架构的脆弱性分析.md",
+      "loc": "物理 676 / 印刷 669，18.7",
+      "ocr": "数据溢出，空指针",
+      "current": "数据溢出，空指针",
+      "final": "数据溢出、空指针",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "并列风险举例。",
+      "sources": [
+        "入库教材PDF物理 676 / 印刷 669，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-29",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第07节-系统架构的脆弱性分析.md",
+      "loc": "物理 676 / 印刷 669，18.7",
+      "ocr": "它们只见大量的消息交互",
+      "current": "它们只见大量的消息交互",
+      "final": "它们之间大量的消息交互",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "语境为对象彼此交互。",
+      "sources": [
+        "入库教材PDF物理 676 / 印刷 669，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-30",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第07节-系统架构的脆弱性分析.md",
+      "loc": "物理 676 / 印刷 669，18.7",
+      "ocr": "只要安装了特定客户端软件的用户才可以",
+      "current": "只要安装了特定客户端软件的用户才可以",
+      "final": "只有安装了特定客户端软件的用户才可以",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "“只有……才”搭配。",
+      "sources": [
+        "入库教材PDF物理 676 / 印刷 669，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-31",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第07节-系统架构的脆弱性分析.md",
+      "loc": "物理 676 / 印刷 669，18.7",
+      "ocr": "在客户端包括了数据的用户名，密码等致命的信息",
+      "current": "在客户端包括了数据的用户名，密码等致命的信息",
+      "final": "客户端可能保存数据库用户名、密码等敏感信息",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "本项具体谈及二层客户端访问后端数据库；账户信息是敏感信息。",
+      "sources": [
+        "入库教材PDF物理 676 / 印刷 669，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-32",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第07节-系统架构的脆弱性分析.md",
+      "loc": "物理 676 / 印刷 669，18.7",
+      "ocr": "一台能上网的计算机即刻",
+      "current": "一台能上网的计算机即刻",
+      "final": "一台能上网的计算机即可",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "此处说明足以满足条件。",
+      "sources": [
+        "入库教材PDF物理 676 / 印刷 669，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-33",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第07节-系统架构的脆弱性分析.md",
+      "loc": "物理 676 / 印刷 669，18.7",
+      "ocr": "所以不存在数据不一致现象",
+      "current": "所以不存在数据不一致现象",
+      "final": "因而有助于减少数据不一致现象",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "本章18.6已经说明数据库仍需要约束来维护一致性，集中存储不构成充分保证。",
+      "sources": [
+        "入库教材PDF物理 676 / 印刷 669，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-34",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第07节-系统架构的脆弱性分析.md",
+      "loc": "物理 677 / 印刷 670，18.7",
+      "ocr": "其他组件及各组建的执行顺序",
+      "current": "其他组件及各组建的执行顺序",
+      "final": "其他组件及各组件的执行顺序",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "“组件”与前文同指。",
+      "sources": [
+        "入库教材PDF物理 677 / 印刷 670，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-35",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第07节-系统架构的脆弱性分析.md",
+      "loc": "物理 677 / 印刷 670，18.7",
+      "ocr": "5. MVC架构。MVC架构是",
+      "current": "5. MVC架构。MVC架构是",
+      "final": "### 5. MVC架构\n\nMVC架构是",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "页图黑体“5. MVC架构”与其他架构标题同级、另行起段。",
+      "sources": [
+        "入库教材PDF物理 677 / 印刷 670，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-36",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第07节-系统架构的脆弱性分析.md",
+      "loc": "物理 677 / 印刷 670，18.7",
+      "ocr": "控制层。\nMVC架构的脆弱性",
+      "current": "控制层。\nMVC架构的脆弱性",
+      "final": "控制层。\n\nMVC架构的脆弱性",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "概述和小项引导另起。",
+      "sources": [
+        "入库教材PDF物理 677 / 印刷 670，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-37",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第07节-系统架构的脆弱性分析.md",
+      "loc": "物理 677 / 印刷 670，18.7",
+      "ocr": "相互分离但确是联系紧密",
+      "current": "相互分离但确是联系紧密",
+      "final": "相互分离却又联系紧密",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "转折关系顺读。",
+      "sources": [
+        "入库教材PDF物理 677 / 印刷 670，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-38",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第07节-系统架构的脆弱性分析.md",
+      "loc": "物理 677 / 印刷 670，18.7",
+      "ocr": "损害操作性能。\n可以说",
+      "current": "损害操作性能。\n可以说",
+      "final": "损害操作性能。\n\n可以说",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "三项后总结语另起一段。",
+      "sources": [
+        "入库教材PDF物理 677 / 印刷 670，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-39",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第07节-系统架构的脆弱性分析.md",
+      "loc": "物理 678 / 印刷 671，18.7",
+      "ocr": "将通常与内核集成在一起的系统服务层被分离出来，变成可以根据需求加入选，达到系统的可扩展性、更好地适应环境要求",
+      "current": "将通常与内核集成在一起的系统服务层被分离出来，变成可以根据需求加入选，达到系统的可扩展性、更好地适应环境要求",
+      "final": "将通常与内核集成在一起的系统服务分离出来，可根据需求选择和加入这些服务，以提高系统的可扩展性，更好地适应环境要求",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "“将……被”杂糅；原句同时讲“需求”“加入”“选”，保留可按需选择的含义。",
+      "sources": [
+        "入库教材PDF物理 678 / 印刷 671，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-40",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第07节-系统架构的脆弱性分析.md",
+      "loc": "物理 678 / 印刷 671，18.7",
+      "ocr": "局部实效问题",
+      "current": "局部实效问题",
+      "final": "局部失效问题",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "上下文为传递延迟、服务不可用，所指为失效。",
+      "sources": [
+        "入库教材PDF物理 678 / 印刷 671，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-41",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第08节-安全架构设计案例分析.md",
+      "loc": "物理 678 / 印刷 671，18.8",
+      "ocr": "一个具体的电子商务系统——高性能的RADIUS, 来",
+      "current": "一个具体的电子商务系统——高性能的RADIUS, 来",
+      "final": "电子商务系统中的高性能RADIUS服务为例，来",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "下一段明确其提供网络接入AAA服务，不能把RADIUS协议本身称为完整电子商务系统；补中文标点。",
+      "sources": [
+        "入库教材PDF物理 678 / 印刷 671，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-42",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第08节-安全架构设计案例分析.md",
+      "loc": "物理 678 / 印刷 671，18.8",
+      "ocr": "访问网络服务器?如何",
+      "current": "访问网络服务器?如何",
+      "final": "访问网络服务器？如何",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "中文问句。",
+      "sources": [
+        "入库教材PDF物理 678 / 印刷 671，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-43",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第08节-安全架构设计案例分析.md",
+      "loc": "物理 678 / 印刷 671，18.8",
+      "ocr": "进行记账?下面",
+      "current": "进行记账?下面",
+      "final": "进行记账？下面",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "中文问句。",
+      "sources": [
+        "入库教材PDF物理 678 / 印刷 671，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-44",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第08节-安全架构设计案例分析.md",
+      "loc": "物理 678 / 印刷 671，18.8",
+      "ocr": "1. 认证 (Authentication): 验证用户是否可以获得访问权",
+      "current": "1. 认证 (Authentication): 验证用户是否可以获得访问权",
+      "final": "1. 认证（Authentication）：验证用户的身份",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "下一项授权才决定能够使用哪些服务，区分身份认证和授权。",
+      "sources": [
+        "入库教材PDF物理 678 / 印刷 671，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-45",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第08节-安全架构设计案例分析.md",
+      "loc": "物理 678 / 印刷 671，18.8",
+      "ocr": "2. 授权 (Authorization): 授权用户可以使用哪些服务",
+      "current": "2. 授权 (Authorization): 授权用户可以使用哪些服务",
+      "final": "2. 授权（Authorization）：决定用户可以使用哪些服务",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "授权是决定被允许的服务种类；修正“授权……哪些服务”的动词搭配。",
+      "sources": [
+        "入库教材PDF物理 678 / 印刷 671，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-46",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第08节-安全架构设计案例分析.md",
+      "loc": "物理 679 / 印刷 672，18.8",
+      "ocr": "用户可以允许使用哪些服务",
+      "current": "用户可以允许使用哪些服务",
+      "final": "用户获准使用哪些服务",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "用户是被授权方，并非许可方。",
+      "sources": [
+        "入库教材PDF物理 679 / 印刷 672，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-47",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第08节-安全架构设计案例分析.md",
+      "loc": "物理 679 / 印刷 672，18.8",
+      "ocr": "电信数据业务的开展随着我国宽带业务的开展，在宽带接入方式、宽带业务管理等诸多方面均会发生变化",
+      "current": "电信数据业务的开展随着我国宽带业务的开展，在宽带接入方式、宽带业务管理等诸多方面均会发生变化",
+      "final": "随着我国宽带业务的发展，电信数据业务在宽带接入方式、宽带业务管理等诸多方面均会发生变化",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "消除连续“开展”，明确发生变化的主体。",
+      "sources": [
+        "入库教材PDF物理 679 / 印刷 672，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-48",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第08节-安全架构设计案例分析.md",
+      "loc": "物理 680 / 印刷 673，18.8",
+      "ocr": "起到分发处理的内容分发到不同的协议处理过程中",
+      "current": "起到分发处理的内容分发到不同的协议处理过程中",
+      "final": "将待处理的内容分发到不同的协议处理进程中",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "“分发……分发”重复；下段明确指协议处理进程。",
+      "sources": [
+        "入库教材PDF物理 680 / 印刷 673，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-49",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第08节-安全架构设计案例分析.md",
+      "loc": "物理 680 / 印刷 673，18.8",
+      "ocr": "原来的成果。\n\nBAS和RADIUS",
+      "current": "原来的成果。\n\nBAS和RADIUS",
+      "final": "原来的成果。BAS和RADIUS",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "“BAS和RADIUS”在页图顶格，承上段。",
+      "sources": [
+        "入库教材PDF物理 680 / 印刷 673，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-50",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第08节-安全架构设计案例分析.md",
+      "loc": "物理 680 / 印刷 673，18.8",
+      "ocr": "单点失效。\n当同时在线",
+      "current": "单点失效。\n当同时在线",
+      "final": "单点失效。\n\n当同时在线",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "负载均衡五项后另起正文。",
+      "sources": [
+        "入库教材PDF物理 680 / 印刷 673，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-51",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第08节-安全架构设计案例分析.md",
+      "loc": "物理 681 / 印刷 674，18.8",
+      "ocr": "架构内部?哪些可以放到混合云中?",
+      "current": "架构内部?哪些可以放到混合云中?",
+      "final": "架构内部？哪些可以放到混合云中？",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "中文问句。",
+      "sources": [
+        "入库教材PDF物理 681 / 印刷 674，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-52",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第08节-安全架构设计案例分析.md",
+      "loc": "物理 681 / 印刷 674，18.8",
+      "ocr": "实际上混合云架构大量数据都是开放的，所有Web页面以及公司公共站点上的大多数数据都可以放在公有混合云架构上，需求时能够进行扩展",
+      "current": "实际上混合云架构大量数据都是开放的，所有Web页面以及公司公共站点上的大多数数据都可以放在公有混合云架构上，需求时能够进行扩展",
+      "final": "对于可公开的数据，例如面向公众的Web页面和公司公共站点上的公开信息，可以部署在公有云上，并根据需求进行扩展",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "同段要求区分保留内部和允许公开的数据，收窄对所有Web页面都开放的断言。",
+      "sources": [
+        "入库教材PDF物理 681 / 印刷 674，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-53",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第08节-安全架构设计案例分析.md",
+      "loc": "物理 681 / 印刷 674，18.8",
+      "ocr": "架构由三层组成，设备层、控制层、设计管理层和应用层",
+      "current": "架构由三层组成，设备层、控制层、设计管理层和应用层",
+      "final": "架构由四层组成，即设备层、控制层、设计管理层和应用层",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "后文依次说明四层，图18-25亦有四层。",
+      "sources": [
+        "入库教材PDF物理 681 / 印刷 674，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-54",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第08节-安全架构设计案例分析.md",
+      "loc": "物理 681 / 印刷 674，18.8",
+      "ocr": "系统 (PLM); 应用层",
+      "current": "系统 (PLM); 应用层",
+      "final": "系统（PLM）；应用层",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "中文分句标点。",
+      "sources": [
+        "入库教材PDF物理 681 / 印刷 674，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-55",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第08节-安全架构设计案例分析.md",
+      "loc": "物理 681 / 印刷 674，18.8",
+      "ocr": "一是“数据”,应用层",
+      "current": "一是“数据”,应用层",
+      "final": "一是“数据”，应用层",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "中文分句标点。",
+      "sources": [
+        "入库教材PDF物理 681 / 印刷 674，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-56",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第08节-安全架构设计案例分析.md",
+      "loc": "物理 681 / 印刷 674，18.8",
+      "ocr": "二是“应用”,仅仅",
+      "current": "二是“应用”,仅仅",
+      "final": "二是“应用”，仅仅",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "中文分句标点。",
+      "sources": [
+        "入库教材PDF物理 681 / 印刷 674，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-57",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第08节-安全架构设计案例分析.md",
+      "loc": "物理 681 / 印刷 674，18.8",
+      "ocr": "5个方面的安全问题。设备安全",
+      "current": "5个方面的安全问题。设备安全",
+      "final": "5个方面的安全问题：设备安全",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "冒号引出五项列举。",
+      "sources": [
+        "入库教材PDF物理 681 / 印刷 674，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-58",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第08节-安全架构设计案例分析.md",
+      "loc": "物理 682 / 印刷 675，18.8",
+      "ocr": "人员健康安全和财产免受顺势",
+      "current": "人员健康安全和财产免受顺势",
+      "final": "人员健康安全和财产免受损失",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "与前文防止事故造成的人员、财产损失对应。",
+      "sources": [
+        "入库教材PDF物理 682 / 印刷 675，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-59",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第08节-安全架构设计案例分析.md",
+      "loc": "物理 682 / 印刷 675，18.8",
+      "ocr": "尽量把事故消失在萌芽状态",
+      "current": "尽量把事故消失在萌芽状态",
+      "final": "尽量把事故消灭在萌芽状态",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "“把……消灭”是可带宾语的搭配。",
+      "sources": [
+        "入库教材PDF物理 682 / 印刷 675，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-60",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第08节-安全架构设计案例分析.md",
+      "loc": "物理 682 / 印刷 675，18.8",
+      "ocr": "保证数据的在收集",
+      "current": "保证数据的在收集",
+      "final": "保证数据在收集",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "“在”前结构助词冗余。",
+      "sources": [
+        "入库教材PDF物理 682 / 印刷 675，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-61",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第08节-安全架构设计案例分析.md",
+      "loc": "物理 682 / 印刷 675，18.8",
+      "ocr": "主要包括对立的两方面",
+      "current": "主要包括对立的两方面",
+      "final": "主要包括两个方面",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "数据本身保护和存储防护相辅相成，无对立关系。",
+      "sources": [
+        "入库教材PDF物理 682 / 印刷 675，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-62",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第08节-安全架构设计案例分析.md",
+      "loc": "物理 682 / 印刷 675，18.8",
+      "ocr": "和共有云的数据存储安全",
+      "current": "和共有云的数据存储安全",
+      "final": "和公有云的数据存储安全",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "同页图及前段统一称公有云。",
+      "sources": [
+        "入库教材PDF物理 682 / 印刷 675，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-63",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第06节-数据库系统的安全设计.md",
+      "loc": "物理 670 / 印刷 663，18.6",
+      "ocr": "1）需求分析阶段",
+      "current": "### 1. 需求分析阶段",
+      "final": "1）需求分析阶段",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "数据库完整性设计示例的普通编号小目；母标题为黑体。",
+      "sources": [
+        "入库教材PDF物理 670 / 印刷 663，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-64",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第06节-数据库系统的安全设计.md",
+      "loc": "物理 670 / 印刷 663，18.6",
+      "ocr": "2）概念结构设计阶段",
+      "current": "### 2. 概念结构设计阶段",
+      "final": "2）概念结构设计阶段",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "数据库完整性设计示例的普通编号小目；母标题为黑体。",
+      "sources": [
+        "入库教材PDF物理 670 / 印刷 663，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-65",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第06节-数据库系统的安全设计.md",
+      "loc": "物理 671 / 印刷 664，18.6",
+      "ocr": "3）逻辑结构设计阶段",
+      "current": "### 3. 逻辑结构设计阶段",
+      "final": "3）逻辑结构设计阶段",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "数据库完整性设计示例的普通编号小目；母标题为黑体。",
+      "sources": [
+        "入库教材PDF物理 671 / 印刷 664，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-66",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第06节-数据库系统的安全设计.md",
+      "loc": "物理 668 / 印刷 661，18.6",
+      "ocr": "在当前各国制定和采用的标准中，最重要的是1985年美国国防部颁布的可信计算机系统评估标准 (Trusted Computer System Evaluation Criteria,TCSEC) 桔皮书(简称为DoD85)。",
+      "current": "在当前各国制定和采用的标准中，最重要的是1985年美国国防部颁布的可信计算机系统评估标准 (Trusted Computer System Evaluation Criteria,TCSEC) 桔皮书(简称为DoD85)。",
+      "final": "具有历史代表性的标准之一是美国国防部1985年颁布的《可信计算机系统评估标准》（Trusted Computer System Evaluation Criteria，TCSEC），又称“橙皮书”（DoD 5200.28-STD）。",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "美国国防部原件封面列标准编号和1985年12月日期；RFC 4949词条说明Orange Book名称和历史地位。",
+      "sources": [
+        "入库教材PDF物理 668 / 印刷 661，页图直接目读",
+        "https://raw.githubusercontent.com/da5ch0/Security_Gospel_per_DoD/HEAD/orange_book.pdf（2026-11-27 核阅）",
+        "https://raw.githubusercontent.com/AlexMelanFromRingo/rfc-library/main/rfc/04500-04999/rfc4949.txt（2026-11-27 核阅）"
+      ]
+    },
+    {
+      "id": "ch18c-67",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第06节-数据库系统的安全设计.md",
+      "loc": "物理 668 / 印刷 661，18.6",
+      "ocr": "The National Computer Seaurity Center,NCSC",
+      "current": "The National Computer Seaurity Center,NCSC",
+      "final": "National Computer Security Center, NCSC",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "1985年原件致谢页与RFC 4949机构名一致。",
+      "sources": [
+        "入库教材PDF物理 668 / 印刷 661，页图直接目读",
+        "https://raw.githubusercontent.com/da5ch0/Security_Gospel_per_DoD/HEAD/orange_book.pdf（2026-11-27 核阅）",
+        "https://raw.githubusercontent.com/AlexMelanFromRingo/rfc-library/main/rfc/04500-04999/rfc4949.txt（2026-11-27 核阅）"
+      ]
+    },
+    {
+      "id": "ch18c-68",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第06节-数据库系统的安全设计.md",
+      "loc": "物理 668 / 印刷 661，18.6",
+      "ocr": "按照TCSEC标准，D 类产品是基本没有安全保护措施的产品，C 类产品只提供了安全保护措施，一般不称为安全产品。B 类以上产品是实行强制存取控制的产品，也是真正意义上的安全产品。所谓安全产品均是指安全级别在B1以上的产品，而安全数据库研究原型一般是指安全级别在B1级以上的以科研为目的，尚未产品化的数据库管理系统原型。",
+      "current": "按照TCSEC标准，D 类产品是基本没有安全保护措施的产品，C 类产品只提供了安全保护措施，一般不称为安全产品。B 类以上产品是实行强制存取控制的产品，也是真正意义上的安全产品。所谓安全产品均是指安全级别在B1以上的产品，而安全数据库研究原型一般是指安全级别在B1级以上的以科研为目的，尚未产品化的数据库管理系统原型。",
+      "final": "按照TCSEC标准，D类为经过评估但未满足更高等级要求的系统；C类提供自主保护；B类提供强制保护；A类提供经验证的保护。本文讨论的安全数据库研究原型是以科研为目的、按B1级或更高等级要求设计、尚未产品化的数据库管理系统。",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "TCSEC原件目录列明四类及七个等级；RFC 4949对D类明确以未达到更高等级为条件。标准没有把“安全产品”统一限定在B1以上。",
+      "sources": [
+        "入库教材PDF物理 668 / 印刷 661，页图直接目读",
+        "https://raw.githubusercontent.com/da5ch0/Security_Gospel_per_DoD/HEAD/orange_book.pdf（2026-11-27 核阅）",
+        "https://raw.githubusercontent.com/AlexMelanFromRingo/rfc-library/main/rfc/04500-04999/rfc4949.txt（2026-11-27 核阅）"
+      ]
+    },
+    {
+      "id": "ch18c-69",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第06节-数据库系统的安全设计.md",
+      "loc": "物理 670 / 印刷 663，18.6",
+      "ocr": "通过唯一性索引来实现",
+      "current": "通过唯一性索引来实现",
+      "final": "由索引支持，也可复用合适的已有索引",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "Oracle语法USING INDEX可指定已有索引；SQLAlchemy Oracle文档说明唯一约束通常与唯一索引对应，但并非总是必须新建唯一索引。",
+      "sources": [
+        "入库教材PDF物理 670 / 印刷 663，页图直接目读",
+        "https://raw.githubusercontent.com/antlr/grammars-v4/master/sql/plsql/PlSqlParser.g4（2026-11-27 核阅）",
+        "https://raw.githubusercontent.com/sqlalchemy/sqlalchemy/main/lib/sqlalchemy/dialects/oracle/base.py（2026-11-27 核阅）"
+      ]
+    },
+    {
+      "id": "ch18c-70",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第06节-数据库系统的安全设计.md",
+      "loc": "物理 670 / 印刷 663，18.6",
+      "ocr": "可定义5种不同的动作：Restrict、Set to Null、Set to Default、Cascade、No Action",
+      "current": "可定义5种不同的动作：Restrict、Set to Null、Set to Default、Cascade、No Action",
+      "final": "默认阻止删除仍被引用的父行；可指定 ON DELETE CASCADE 或 ON DELETE SET NULL",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "Oracle外键声明语法仅列CASCADE或SET NULL两种显式ON DELETE动作；Oracle方言也识别默认NO ACTION。",
+      "sources": [
+        "入库教材PDF物理 670 / 印刷 663，页图直接目读",
+        "https://raw.githubusercontent.com/antlr/grammars-v4/master/sql/plsql/PlSqlParser.g4（2026-11-27 核阅）",
+        "https://raw.githubusercontent.com/sqlalchemy/sqlalchemy/main/lib/sqlalchemy/dialects/oracle/base.py（2026-11-27 核阅）"
+      ]
+    },
+    {
+      "id": "ch18c-71",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第06节-数据库系统的安全设计.md",
+      "loc": "物理 670 / 印刷 663，18.6",
+      "ocr": "非空约束 (Not Null)",
+      "current": "非空约束 (Not Null)",
+      "final": "非空约束（NOT NULL）",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "规范约束名称、列级和表级措辞，与重绘表同步。",
+      "sources": [
+        "入库教材PDF物理 670 / 印刷 663，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-72",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第06节-数据库系统的安全设计.md",
+      "loc": "物理 670 / 印刷 663，18.6",
+      "ocr": "唯一码约束 (Unique Key)",
+      "current": "唯一码约束 (Unique Key)",
+      "final": "唯一码约束（UNIQUE）",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "规范约束名称、列级和表级措辞，与重绘表同步。",
+      "sources": [
+        "入库教材PDF物理 670 / 印刷 663，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-73",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第06节-数据库系统的安全设计.md",
+      "loc": "物理 670 / 印刷 663，18.6",
+      "ocr": "主键约束 (Primary Key)",
+      "current": "主键约束 (Primary Key)",
+      "final": "主键约束（PRIMARY KEY）",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "规范约束名称、列级和表级措辞，与重绘表同步。",
+      "sources": [
+        "入库教材PDF物理 670 / 印刷 663，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-74",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第06节-数据库系统的安全设计.md",
+      "loc": "物理 670 / 印刷 663，18.6",
+      "ocr": "引用完整性约束 (Referential)",
+      "current": "引用完整性约束 (Referential)",
+      "final": "引用完整性约束（REFERENTIAL）",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "规范约束名称、列级和表级措辞，与重绘表同步。",
+      "sources": [
+        "入库教材PDF物理 670 / 印刷 663，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-75",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第06节-数据库系统的安全设计.md",
+      "loc": "物理 670 / 印刷 663，18.6",
+      "ocr": "检查约束 (Check)",
+      "current": "检查约束 (Check)",
+      "final": "检查约束（CHECK）",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "规范约束名称、列级和表级措辞，与重绘表同步。",
+      "sources": [
+        "入库教材PDF物理 670 / 印刷 663，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-76",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第06节-数据库系统的安全设计.md",
+      "loc": "物理 670 / 印刷 663，18.6",
+      "ocr": "可定义在列或表上",
+      "current": "可定义在列或表上",
+      "final": "可在列级或表级定义",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "规范约束名称、列级和表级措辞，与重绘表同步。",
+      "sources": [
+        "入库教材PDF物理 670 / 印刷 663，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-77",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第06节-数据库系统的安全设计.md",
+      "loc": "物理 670 / 印刷 663，18.6",
+      "ocr": "通过触发器来实现的约束",
+      "current": "通过触发器来实现的约束",
+      "final": "通过触发器实现的约束",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "规范约束名称、列级和表级措辞，与重绘表同步。",
+      "sources": [
+        "入库教材PDF物理 670 / 印刷 663，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-78",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第07节-系统架构的脆弱性分析.md",
+      "loc": "物理 677 / 印刷 670，18.7",
+      "ocr": "系统如果使用HTTP协议，B/S架构相对C/S架构而言更容易被病毒入侵，虽然最新的HTTP协议在安全性方面有所提升，但还是弱于C/S。",
+      "current": "系统如果使用HTTP协议，B/S架构相对C/S架构而言更容易被病毒入侵，虽然最新的HTTP协议在安全性方面有所提升，但还是弱于C/S。",
+      "final": "使用未加密的HTTP通信时，传输内容缺乏机密性和完整性保护；采用HTTPS可保护通信。系统整体安全性还取决于身份认证、访问控制等设计，不能仅凭B/S或C/S的名称判定。",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "RFC 9110区分HTTP与HTTPS方案；RFC 8446说明TLS的机密性、完整性和认证目标。架构名称不足以推断病毒风险。",
+      "sources": [
+        "入库教材PDF物理 677 / 印刷 670，页图直接目读",
+        "https://raw.githubusercontent.com/AlexMelanFromRingo/rfc-library/main/rfc/09000-09499/rfc9110.txt（2026-11-27 核阅）",
+        "https://raw.githubusercontent.com/AlexMelanFromRingo/rfc-library/main/rfc/08000-08499/rfc8446.txt（2026-11-27 核阅）"
+      ]
+    },
+    {
+      "id": "ch18c-79",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第08节-安全架构设计案例分析.md",
+      "loc": "物理 678 / 印刷 671，18.8",
+      "ocr": "认证、授权和审计 (Authentication Authorization and Accounting,AAA) 是运行于宽带网络接入服务器上的客户端程序。AAA提供了一个用来对认证、授权和审计三种安全功能进行配置的一致的框架",
+      "current": "认证、授权和审计 (Authentication Authorization and Accounting,AAA) 是运行于宽带网络接入服务器上的客户端程序。AAA提供了一个用来对认证、授权和审计三种安全功能进行配置的一致的框架",
+      "final": "AAA（Authentication, Authorization and Accounting）是认证、授权和记账的框架。在本例中，宽带网络接入服务器（BAS）充当RADIUS客户端。AAA为认证、授权和记账三项功能提供一致的框架",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "RFC 2903说明AAA架构，RFC 2865第2节明确NAS充当RADIUS客户端；Accounting指资源使用记账。",
+      "sources": [
+        "入库教材PDF物理 678 / 印刷 671，页图直接目读",
+        "https://raw.githubusercontent.com/AlexMelanFromRingo/rfc-library/main/rfc/02500-02999/rfc2903.txt（2026-11-27 核阅）",
+        "https://raw.githubusercontent.com/AlexMelanFromRingo/rfc-library/main/rfc/02500-02999/rfc2865.txt（2026-11-27 核阅）",
+        "https://raw.githubusercontent.com/AlexMelanFromRingo/rfc-library/main/rfc/02500-02999/rfc2866.txt（2026-11-27 核阅）"
+      ]
+    },
+    {
+      "id": "ch18c-80",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第08节-安全架构设计案例分析.md",
+      "loc": "物理 679 / 印刷 672，18.8",
+      "ocr": "\n\n3. 审计 (Accounting): 记录用户使用网络资源的情况，用户IP地址、MAC地址掩码等。\nRADIUS服务器负责接收用户的连接请求，完成验证并把用户所需的配置信息返回给BAS建立连接，从而可以获得访问其他网络的权限时，BAS就起到了认证用户的作用。BAS负责把用户之间的验证信息传递通过密钥的参与来完成。用户的密码加密以后才能在网上传递，以避免用户的密码在不安全的网络上被窃取。",
+      "current": "\n\n3. 审计 (Accounting): 记录用户使用网络资源的情况，用户IP地址、MAC地址掩码等。\nRADIUS服务器负责接收用户的连接请求，完成验证并把用户所需的配置信息返回给BAS建立连接，从而可以获得访问其他网络的权限时，BAS就起到了认证用户的作用。BAS负责把用户之间的验证信息传递通过密钥的参与来完成。用户的密码加密以后才能在网上传递，以避免用户的密码在不安全的网络上被窃取。",
+      "final": "\n3. 记账（Accounting）：记录用户使用网络资源的情况，例如用户IP地址、会话时长和传输的数据量。\n\nBAS向RADIUS服务器发送用户的接入请求。服务器验证后返回处理结果；接受请求时，还可返回建立服务所需的配置。BAS据此决定是否允许接入。传统RADIUS利用共享密钥保护特定字段，并不加密整个通信过程。",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "RFC 2866列举会话标识、时长、流量等属性，RFC 2865定义Access-Request/Accept/Reject及User-Password字段保护。原页“MAC地址掩码”无法作规范字段。",
+      "sources": [
+        "入库教材PDF物理 679 / 印刷 672，页图直接目读",
+        "https://raw.githubusercontent.com/AlexMelanFromRingo/rfc-library/main/rfc/02500-02999/rfc2865.txt（2026-11-27 核阅）",
+        "https://raw.githubusercontent.com/AlexMelanFromRingo/rfc-library/main/rfc/02500-02999/rfc2866.txt（2026-11-27 核阅）"
+      ]
+    },
+    {
+      "id": "ch18c-81",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第08节-安全架构设计案例分析.md",
+      "loc": "物理 679 / 印刷 672，18.8",
+      "ocr": "用户A 通过拨号进入BAS, 然后BAS按配置好的验证方式(如PPP、PAP和CHAP等)要求用户A 输入用户名和密码等信息。用户A 终端出现提示，用户按提示输入。通过与BAS的连接，BAS得到这些信息。",
+      "current": "用户A 通过拨号进入BAS, 然后BAS按配置好的验证方式(如PPP、PAP和CHAP等)要求用户A 输入用户名和密码等信息。用户A 终端出现提示，用户按提示输入。通过与BAS的连接，BAS得到这些信息。",
+      "final": "用户A通过拨号接入BAS后，可在PPP连接上按协商的PAP或CHAP方式完成身份验证。BAS取得相应的认证信息。",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "RFC 1661将认证定义为PPP可选阶段；RFC 1334和RFC 1994区分PAP与CHAP的凭据交换。避免把三者视为平行方法，亦避免称CHAP直接传递用户密码。",
+      "sources": [
+        "入库教材PDF物理 679 / 印刷 672，页图直接目读",
+        "https://raw.githubusercontent.com/AlexMelanFromRingo/rfc-library/main/rfc/01500-01999/rfc1661.txt（2026-11-27 核阅）",
+        "https://raw.githubusercontent.com/AlexMelanFromRingo/rfc-library/main/rfc/01000-01499/rfc1334.txt（2026-11-27 核阅）",
+        "https://raw.githubusercontent.com/AlexMelanFromRingo/rfc-library/main/rfc/01500-01999/rfc1994.txt（2026-11-27 核阅）"
+      ]
+    },
+    {
+      "id": "ch18c-82",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第08节-安全架构设计案例分析.md",
+      "loc": "物理 680 / 印刷 673，18.8",
+      "ocr": "在信息加密方面从传统的MD5、PAP和CHAP方式增加了EAP-tls、P-ttls和EAP-sim等多种格式。",
+      "current": "在信息加密方面从传统的MD5、PAP和CHAP方式增加了EAP-tls、P-ttls和EAP-sim等多种格式。",
+      "final": "认证方式从传统的PAP、CHAP等扩展到EAP-TLS、EAP-TTLS和EAP-SIM等方法。",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "RFC 3748说明EAP身份认证框架；三项独立规范分别明确方法名。这些是认证方式而非一列加密格式。",
+      "sources": [
+        "入库教材PDF物理 680 / 印刷 673，页图直接目读",
+        "https://raw.githubusercontent.com/AlexMelanFromRingo/rfc-library/main/rfc/03500-03999/rfc3748.txt（2026-11-27 核阅）",
+        "https://raw.githubusercontent.com/AlexMelanFromRingo/rfc-library/main/rfc/05000-05499/rfc5216.txt（2026-11-27 核阅）",
+        "https://raw.githubusercontent.com/AlexMelanFromRingo/rfc-library/main/rfc/05000-05499/rfc5281.txt（2026-11-27 核阅）",
+        "https://raw.githubusercontent.com/AlexMelanFromRingo/rfc-library/main/rfc/04000-04499/rfc4186.txt（2026-11-27 核阅）"
+      ]
+    },
+    {
+      "id": "ch18c-83",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第08节-安全架构设计案例分析.md",
+      "loc": "物理 681 / 印刷 674，18.8",
+      "ocr": "顺序控制系统 (PLC)",
+      "current": "顺序控制系统 (PLC)",
+      "final": "可编程逻辑控制器（PLC）",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "第11章vPLC展开与OpenPLC项目的Programmable Logic Controller相符。",
+      "sources": [
+        "入库教材PDF物理 681 / 印刷 674，页图直接目读",
+        "content/01-系统架构设计师教材-清洗版/第11章-未来信息综合技术/第04节-边缘计算概述.md（2026-11-27 核阅）",
+        "https://raw.githubusercontent.com/thiagoralves/OpenPLC_v3/master/README.md（2026-11-27 核阅）"
+      ]
+    },
+    {
+      "id": "ch18c-84",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第08节-安全架构设计案例分析.md",
+      "loc": "物理 681 / 印刷 674，18.8",
+      "ocr": "企业生产信息化管理系统 (MES)",
+      "current": "企业生产信息化管理系统 (MES)",
+      "final": "制造执行系统（MES）",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "MES通行释名为Manufacturing Execution System，语境是工厂的设计与管理层。",
+      "sources": [
+        "入库教材PDF物理 681 / 印刷 674，页图直接目读",
+        "https://raw.githubusercontent.com/metaxk-company/free-mes/master/README.md（2026-11-27 核阅）",
+        "https://raw.githubusercontent.com/Mes-Open/OpenMes/main/README.md（2026-11-27 核阅）"
+      ]
+    },
+    {
+      "id": "ch18c-85",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第06节-数据库系统的安全设计.md",
+      "loc": "物理 669 / 印刷 662，18.6",
+      "ocr": "最好使用Before型语句级触发器",
+      "current": "最好使用Before型语句级触发器",
+      "final": null,
+      "class": "C3",
+      "confidence": "低",
+      "evidence": "触发时机和行级／语句级选择取决于业务规则，教材未列具体约束，保留为个案建议，待核。",
+      "sources": [
+        "入库教材PDF物理 669 / 印刷 662，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-86",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第07节-系统架构的脆弱性分析.md",
+      "loc": "物理 672 / 印刷 665，18.7",
+      "ocr": "ISOS分类法",
+      "current": "ISOS分类法",
+      "final": null,
+      "class": "C3",
+      "confidence": "低",
+      "evidence": "疑指历史RISOS研究计划；页图两处均缺R，未找到足够独立来源说明作者所指。",
+      "sources": [
+        "入库教材PDF物理 672 / 印刷 665，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-87",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第07节-系统架构的脆弱性分析.md",
+      "loc": "物理 673 / 印刷 666，18.7",
+      "ocr": "最小数量",
+      "current": "最小数量",
+      "final": null,
+      "class": "C3",
+      "confidence": "低",
+      "evidence": "Bishop分类维度未附原始引文，含义与原词待核。",
+      "sources": [
+        "入库教材PDF物理 673 / 印刷 666，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-88",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第07节-系统架构的脆弱性分析.md",
+      "loc": "物理 674 / 印刷 667，18.7",
+      "ocr": "美国雪城大学的Wenliang",
+      "current": "美国雪城大学的Wenliang",
+      "final": null,
+      "class": "C3",
+      "confidence": "低",
+      "evidence": "只给名字和机构，1998年工作的作者、所属机构和成果需原文献确认。",
+      "sources": [
+        "入库教材PDF物理 674 / 印刷 667，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-89",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第07节-系统架构的脆弱性分析.md",
+      "loc": "物理 674 / 印刷 667，18.7",
+      "ocr": "写该实体不正确的位置",
+      "current": "写该实体不正确的位置",
+      "final": null,
+      "class": "C3",
+      "confidence": "低",
+      "evidence": "页图同样含混，无法判定是改写内容还是纠正位置。",
+      "sources": [
+        "入库教材PDF物理 674 / 印刷 667，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-90",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第08节-安全架构设计案例分析.md",
+      "loc": "物理 679 / 印刷 672，18.8",
+      "ocr": "RADIUS软件架构核心逻辑性",
+      "current": "RADIUS软件架构核心逻辑性",
+      "final": null,
+      "class": "C3",
+      "confidence": "低",
+      "evidence": "图题末字在页图清楚为“性”，虽疑似“图”或“结构”，故不臆改。",
+      "sources": [
+        "入库教材PDF物理 679 / 印刷 672，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-91",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第08节-安全架构设计案例分析.md",
+      "loc": "物理 682 / 印刷 675，18.8",
+      "ocr": "网络板杀毒产品",
+      "current": "网络版杀毒产品",
+      "final": "网络版杀毒产品",
+      "class": "K",
+      "confidence": "A",
+      "evidence": "底本误作“网络板”，清洗稿“网络版”与产品部署语境一致。",
+      "sources": [
+        "入库教材PDF物理 682 / 印刷 675，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-92",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第06节-数据库系统的安全设计.md",
+      "loc": "物理 670 / 印刷 663，18.6",
+      "ocr": "表 18-2 Oracle支持的基于DBMS的完整性约束",
+      "current": "> 表 18-2 Oracle支持的基于DBMS的完整性约束",
+      "final": "![表 18-2 Oracle支持的基于DBMS的完整性约束](../../../assets/figures/textbook/ch18-security-architecture/figure-t18-02.svg)",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "Oracle约束三栏六行；SQL外键删除动作按Oracle声明语法订正。表和可检索Markdown逐项同步。",
+      "sources": [
+        "入库教材PDF物理 670 / 印刷 663，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-93",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第07节-系统架构的脆弱性分析.md",
+      "loc": "物理 673 / 印刷 666，18.7",
+      "ocr": "图中“存储、定时”连在“逻辑／时间炸弹”",
+      "current": "> 图 18-23 IBM的软件缺陷分类法",
+      "final": "图中“存储”和“定时”的连线按底本保留。按照安全术语的通常定义，存储通道和定时通道是隐蔽通道的两类。",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "页图接线可辨，RFC 4949分别定义covert storage channel和covert timing channel；NIST SP 800-53 SC-31涉及两类隐蔽通道。保留原图并明示术语。",
+      "sources": [
+        "入库教材PDF物理 673 / 印刷 666，页图直接目读",
+        "https://raw.githubusercontent.com/AlexMelanFromRingo/rfc-library/main/rfc/04500-04999/rfc4949.txt（2026-11-27 核阅）",
+        "https://raw.githubusercontent.com/usnistgov/oscal-content/main/nist.gov/SP800-53/rev5/json/NIST_SP-800-53_rev5_catalog.json（2026-11-27 核阅）"
+      ]
+    },
+    {
+      "id": "ch18c-94",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第07节-系统架构的脆弱性分析.md",
+      "loc": "物理 673 / 印刷 666，18.7",
+      "ocr": "图 18-23 IBM的软件缺陷分类法",
+      "current": "> 图 18-23 IBM的软件缺陷分类法",
+      "final": "![图 18-23 IBM的软件缺陷分类法](../../../assets/figures/textbook/ch18-security-architecture/figure-18-23.svg)",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "软件缺陷树按页图还原。“存储／定时”在图中接至逻辑／时间炸弹，图下注明隐蔽通道术语的标准含义。",
+      "sources": [
+        "入库教材PDF物理 673 / 印刷 666，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-95",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第08节-安全架构设计案例分析.md",
+      "loc": "物理 679 / 印刷 672，18.8",
+      "ocr": "图 18-24 RADIUS软件架构核心逻辑性",
+      "current": "> 图 18-24 RADIUS软件架构核心逻辑性",
+      "final": "![图 18-24 RADIUS软件架构核心逻辑性](../../../assets/figures/textbook/ch18-security-architecture/figure-18-24.svg)",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "三层RADIUS进程结构。一个转发、三个协议、四个认证逻辑、一个数据库代理、两个DB Server，计费引擎与网管独立；局部重叠线依可见端点复原。",
+      "sources": [
+        "入库教材PDF物理 679 / 印刷 672，页图直接目读"
+      ]
+    },
+    {
+      "id": "ch18c-96",
+      "file": "content/01-系统架构设计师教材-清洗版/第18章-安全架构设计理论与实践/第08节-安全架构设计案例分析.md",
+      "loc": "物理 682 / 印刷 675，18.8",
+      "ocr": "图 18-25 基于混合云的安全生产管理系统架构",
+      "current": "> 图 18-25 基于混合云的安全生产管理系统架构",
+      "final": "![图 18-25 基于混合云的安全生产管理系统架构](../../../assets/figures/textbook/ch18-security-architecture/figure-18-25.svg)",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "智能工厂边界、公有与私有工业云、三项上层业务以及五个安全重点。图示虚线表达跨层的数据安全范围。",
+      "sources": [
+        "入库教材PDF物理 682 / 印刷 675，页图直接目读"
+      ]
+    }
+  ],
+  "counts": {
+    "C1": 94,
+    "C2": 24,
+    "N": 74,
+    "C3": 14,
+    "R": 34,
+    "K": 2
+  }
+}

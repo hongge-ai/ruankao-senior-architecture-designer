@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="910" height="492" viewBox="0 0 910 492" role="img" aria-labelledby="title"><title id="title">信息系统安全体系</title>
+<defs><marker id="a" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 8 4 0 8Z" fill="#477786"/></marker></defs>
+<rect width="910" height="492" fill="white"/>
+<rect x="22" y="14" width="866" height="48" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="455.0" y="45.14" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#173c48">信息系统安全体系框架</text>
+<rect x="22" y="76" width="72" height="387" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="58.0" y="274.94" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">管理体系</text>
+<rect x="94" y="76" width="76" height="129" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="132.0" y="146.28" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">法律</text>
+<rect x="94" y="205" width="76" height="129" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="132.0" y="275.28" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">制度</text>
+<rect x="94" y="334" width="76" height="129" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="132.0" y="404.28" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">培训</text>
+<rect x="192" y="76" width="70" height="119" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="227.0" y="131.28" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">物理</text>
+<text x="227.0" y="151.28" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">安全</text>
+<rect x="262" y="76" width="70" height="119" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="297.0" y="131.28" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">环境</text>
+<text x="297.0" y="151.28" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">安全</text>
+<rect x="332" y="76" width="70" height="119" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="367.0" y="131.28" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">系统</text>
+<text x="367.0" y="151.28" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">安全</text>
+<rect x="402" y="76" width="70" height="119" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="437.0" y="131.28" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">信息</text>
+<text x="437.0" y="151.28" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">安全</text>
+<rect x="472" y="76" width="186" height="119" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="565.0" y="111.28" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">安全服务</text>
+<text x="565.0" y="131.28" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">体系规范</text>
+<text x="565.0" y="151.28" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">实施细则</text>
+<text x="565.0" y="171.28" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">安全评估</text>
+<rect x="658" y="76.0" width="115" height="59.5" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="715.5" y="101.69" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">状态</text>
+<text x="715.5" y="120.69" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">监测</text>
+<rect x="773" y="76.0" width="115" height="59.5" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="830.5" y="101.69" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">安全</text>
+<text x="830.5" y="120.69" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">策略</text>
+<rect x="658" y="135.5" width="115" height="59.5" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="715.5" y="161.19" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">入侵</text>
+<text x="715.5" y="180.19" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">监控</text>
+<rect x="773" y="135.5" width="115" height="59.5" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="830.5" y="161.19" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">密钥</text>
+<text x="830.5" y="180.19" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">管理</text>
+<rect x="192" y="195" width="140" height="65" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="262.0" y="233.28" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">网络环境</text>
+<rect x="332" y="195" width="140" height="65" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="402.0" y="233.28" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">信息环境</text>
+<rect x="472" y="195" width="186" height="65" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="565.0" y="233.28" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">ISO 标准</text>
+<rect x="658" y="195" width="115" height="65" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="715.5" y="233.28" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">审计</text>
+<rect x="773" y="195" width="115" height="65" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="830.5" y="233.28" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">策略</text>
+<rect x="192" y="260" width="280" height="47" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="332.0" y="289.28" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">安全技术</text>
+<rect x="472" y="260" width="416" height="47" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="680.0" y="289.28" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">技术管理</text>
+<rect x="192" y="307" width="696" height="48" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="540.0" y="336.78" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">技术体系安全框架</text>
+<rect x="192" y="365" width="232" height="49" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="308.0" y="395.28" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">机构</text>
+<rect x="424" y="365" width="232" height="49" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="540.0" y="395.28" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">岗位</text>
+<rect x="656" y="365" width="232" height="49" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="772.0" y="395.28" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">人事</text>
+<rect x="192" y="414" width="696" height="49" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="540.0" y="444.28" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">组织体系</text>
+</svg>

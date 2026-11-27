@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 635" role="img" aria-labelledby="title desc">
+<title id="title">图 18-14 一种面向企业的安全控制系统安全架构设计</title><desc id="desc">用户接入、展现、功能、数据处理、数据源五行及辅助工具，功能层分三个管理组。</desc>
+<defs><marker id="arr" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto-start-reverse"><path d="M0 0L7 3.5L0 7Z" fill="#3f7586"/></marker></defs>
+<style>text{font-family:"Noto Sans CJK SC",sans-serif;fill:#153744;text-anchor:middle;dominant-baseline:central}.line{stroke:#3f7586;stroke-width:1.5;fill:none}</style>
+<text x="60.0" y="62.0" font-size="16">用户接入</text>
+<text x="60.0" y="171.0" font-size="16">展现层</text>
+<text x="60.0" y="350.0" font-size="16">功能层</text>
+<text x="60.0" y="533.0" font-size="16">数据处理层</text>
+<text x="60.0" y="600.0" font-size="16">数据源</text>
+<path class="line" d="M12 117 H1009" stroke-dasharray="5 4"/>
+<path class="line" d="M12 223 H1009" stroke-dasharray="5 4"/>
+<path class="line" d="M12 473 H1009" stroke-dasharray="5 4"/>
+<path class="line" d="M12 571 H1009" stroke-dasharray="5 4"/>
+<path class="line" d="M535 102 L535 133" marker-end="url(#arr)" marker-start="url(#arr)"/>
+<path class="line" d="M535 204 L535 243" marker-end="url(#arr)" marker-start="url(#arr)"/>
+<path class="line" d="M535 458 L535 488" marker-end="url(#arr)" marker-start="url(#arr)"/>
+<path class="line" d="M535 557 L535 578" marker-end="url(#arr)" marker-start="url(#arr)"/>
+<rect x="315.0" y="8.0" width="440.0" height="87.0" fill="#e2f2f5" stroke="#7598a1" stroke-width="1.4"/>
+<rect x="326.0" y="15.0" width="132.0" height="32.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="392.0" y="31.0" font-size="16">运维人员</text>
+<rect x="467.0" y="15.0" width="132.0" height="32.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="533.0" y="31.0" font-size="16">管理人员</text>
+<rect x="608.0" y="15.0" width="132.0" height="32.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="674.0" y="31.0" font-size="16">客户</text>
+<text x="535.0" y="71.0" font-size="16">WEB / PDA / 即时通信 / 电话</text>
+<rect x="134.0" y="148.0" width="132.0" height="43.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="200.0" y="169.5" font-size="16">总控室</text>
+<rect x="266.0" y="148.0" width="132.0" height="43.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="332.0" y="169.5" font-size="16">运维门户网站</text>
+<rect x="398.0" y="148.0" width="132.0" height="43.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="464.0" y="169.5" font-size="16">客户管理</text>
+<rect x="530.0" y="148.0" width="132.0" height="43.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="596.0" y="169.5" font-size="16">报表管理</text>
+<rect x="662.0" y="148.0" width="132.0" height="43.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="728.0" y="169.5" font-size="16">决策支持</text>
+<rect x="794.0" y="148.0" width="132.0" height="43.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="860.0" y="169.5" font-size="16">资产管理</text>
+<rect x="115.0" y="249.0" width="246.0" height="204.0" fill="#d6edf2" stroke="#7598a1" stroke-width="1.4"/>
+<text x="238.0" y="269.0" font-size="16">系统可用性监控</text>
+<rect x="119.0" y="286.0" width="238.0" height="38.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="238.0" y="305.0" font-size="16">告警管理</text>
+<rect x="119.0" y="325.0" width="119.0" height="38.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="178.5" y="344.0" font-size="16">拓扑监控</text>
+<rect x="238.0" y="325.0" width="119.0" height="38.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="297.5" y="344.0" font-size="16">网络监控</text>
+<rect x="119.0" y="364.0" width="119.0" height="38.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="178.5" y="383.0" font-size="16">应用监控</text>
+<rect x="238.0" y="364.0" width="119.0" height="38.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="297.5" y="383.0" font-size="16">其他监控</text>
+<rect x="119.0" y="403.0" width="238.0" height="38.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="238.0" y="422.0" font-size="16">故障关联分析</text>
+<rect x="409.0" y="249.0" width="246.0" height="204.0" fill="#d6edf2" stroke="#7598a1" stroke-width="1.4"/>
+<text x="532.0" y="269.0" font-size="16">服务支持</text>
+<rect x="413.0" y="286.0" width="238.0" height="38.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="532.0" y="305.0" font-size="16">服务台</text>
+<rect x="413.0" y="325.0" width="119.0" height="38.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="472.5" y="344.0" font-size="16">事件管理</text>
+<rect x="532.0" y="325.0" width="119.0" height="38.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="591.5" y="344.0" font-size="16">请求管理</text>
+<rect x="413.0" y="364.0" width="119.0" height="38.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="472.5" y="383.0" font-size="16">问题管理</text>
+<rect x="532.0" y="364.0" width="119.0" height="38.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="591.5" y="383.0" font-size="16">变更管理</text>
+<rect x="413.0" y="403.0" width="119.0" height="38.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="472.5" y="422.0" font-size="16">配置管理</text>
+<rect x="532.0" y="403.0" width="119.0" height="38.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="591.5" y="422.0" font-size="16">知识库管理</text>
+<rect x="702.0" y="249.0" width="246.0" height="204.0" fill="#d6edf2" stroke="#7598a1" stroke-width="1.4"/>
+<text x="825.0" y="269.0" font-size="16">系统安全性监控</text>
+<rect x="706.0" y="286.0" width="238.0" height="38.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="825.0" y="305.0" font-size="16">安全事件处理流程管理</text>
+<rect x="706.0" y="325.0" width="119.0" height="38.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="765.5" y="344.0" font-size="16">实时监控</text>
+<rect x="825.0" y="325.0" width="119.0" height="38.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="884.5" y="344.0" font-size="16">威胁追溯</text>
+<rect x="706.0" y="364.0" width="119.0" height="38.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="765.5" y="383.0" font-size="16">安全域</text>
+<rect x="825.0" y="364.0" width="119.0" height="38.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="884.5" y="383.0" font-size="16">风险管理</text>
+<rect x="706.0" y="403.0" width="238.0" height="38.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="825.0" y="422.0" font-size="16">安全事件关联分析</text>
+<path class="line" d="M362 349 L406 349" marker-end="url(#arr)" marker-start="url(#arr)"/>
+<path class="line" d="M655 349 L699 349" marker-end="url(#arr)" marker-start="url(#arr)"/>
+<path class="line" d="M949 349 L973 349" marker-end="url(#arr)" marker-start="url(#arr)"/>
+<rect x="979.0" y="299.0" width="47.0" height="104.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="1002.5" y="322.5" font-size="16">辅</text>
+<text x="1002.5" y="341.5" font-size="16">助</text>
+<text x="1002.5" y="360.5" font-size="16">工</text>
+<text x="1002.5" y="379.5" font-size="16">具</text>
+<rect x="316.0" y="493.0" width="437.0" height="59.0" fill="#e2f2f5" stroke="#7598a1" stroke-width="1.4"/>
+<rect x="320.0" y="496.0" width="108.0" height="27.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="374.0" y="509.5" font-size="16">监控数据</text>
+<rect x="428.0" y="496.0" width="108.0" height="27.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="482.0" y="509.5" font-size="16">管理数据</text>
+<rect x="536.0" y="496.0" width="108.0" height="27.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="590.0" y="509.5" font-size="16">系统数据</text>
+<rect x="644.0" y="496.0" width="108.0" height="27.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="698.0" y="509.5" font-size="16">文档数据</text>
+<text x="535.0" y="538.0" font-size="16">数据采集（自动／人工）</text>
+<text x="535.0" y="605.0" font-size="16">网络　主机　存储　数据库　应用系统　机房环境　资产　文档</text>
+</svg>

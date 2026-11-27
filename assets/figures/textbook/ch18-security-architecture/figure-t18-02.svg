@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1020" height="440" viewBox="0 0 1020 440" role="img" aria-labelledby="title"><title id="title">Oracle支持的基于DBMS的完整性约束</title>
+<defs><marker id="a" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 8 4 0 8Z" fill="#477786"/></marker></defs>
+<rect width="1020" height="440" fill="white"/>
+<rect x="8" y="7" width="267" height="46" fill="#cbe8ef" stroke="#477786" stroke-width="1.5"/>
+<text x="141.5" y="35.1" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">Oracle支持的完整性约束</text>
+<rect x="275" y="7" width="215" height="46" fill="#cbe8ef" stroke="#477786" stroke-width="1.5"/>
+<text x="382.5" y="35.1" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">对应的完整性约束类型</text>
+<rect x="490" y="7" width="523" height="46" fill="#cbe8ef" stroke="#477786" stroke-width="1.5"/>
+<text x="751.5" y="35.1" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">备注</text>
+<rect x="8" y="53" width="267" height="40" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="141.5" y="78.1" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">非空约束（NOT NULL）</text>
+<rect x="275" y="53" width="215" height="40" fill="white" stroke="#477786" stroke-width="1.5"/>
+<text x="382.5" y="78.1" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">列级静态约束</text>
+<rect x="490" y="53" width="523" height="40" fill="white" stroke="#477786" stroke-width="1.5"/>
+<text x="751.5" y="78.1" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48"></text>
+<rect x="8" y="93" width="267" height="60" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="141.5" y="128.1" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">唯一码约束（UNIQUE）</text>
+<rect x="275" y="93" width="215" height="60" fill="white" stroke="#477786" stroke-width="1.5"/>
+<text x="382.5" y="119.1" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">列级静态约束</text>
+<text x="382.5" y="137.1" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">元组级静态约束</text>
+<rect x="490" y="93" width="523" height="60" fill="white" stroke="#477786" stroke-width="1.5"/>
+<text x="751.5" y="128.1" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">由索引支持，也可复用合适的已有索引</text>
+<rect x="8" y="153" width="267" height="40" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="141.5" y="178.1" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">主键约束（PRIMARY KEY）</text>
+<rect x="275" y="153" width="215" height="40" fill="white" stroke="#477786" stroke-width="1.5"/>
+<text x="382.5" y="178.1" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">关系级静态约束</text>
+<rect x="490" y="153" width="523" height="40" fill="white" stroke="#477786" stroke-width="1.5"/>
+<text x="751.5" y="178.1" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48"></text>
+<rect x="8" y="193" width="267" height="80" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="141.5" y="229.1" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">引用完整性约束</text>
+<text x="141.5" y="247.1" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">（REFERENTIAL）</text>
+<rect x="275" y="193" width="215" height="80" fill="white" stroke="#477786" stroke-width="1.5"/>
+<text x="382.5" y="238.1" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">关系级静态约束</text>
+<rect x="490" y="193" width="523" height="80" fill="white" stroke="#477786" stroke-width="1.5"/>
+<text x="751.5" y="229.1" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">默认阻止删除仍被引用的父行；可指定</text>
+<text x="751.5" y="247.1" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">ON DELETE CASCADE 或 ON DELETE SET NULL</text>
+<rect x="8" y="273" width="267" height="65" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="141.5" y="310.6" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">检查约束（CHECK）</text>
+<rect x="275" y="273" width="215" height="65" fill="white" stroke="#477786" stroke-width="1.5"/>
+<text x="382.5" y="301.6" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">列级静态约束</text>
+<text x="382.5" y="319.6" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">元组级静态约束</text>
+<rect x="490" y="273" width="523" height="65" fill="white" stroke="#477786" stroke-width="1.5"/>
+<text x="751.5" y="310.6" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">可在列级或表级定义</text>
+<rect x="8" y="338" width="267" height="85" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="141.5" y="385.6" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">通过触发器实现的约束</text>
+<rect x="275" y="338" width="215" height="85" fill="white" stroke="#477786" stroke-width="1.5"/>
+<text x="382.5" y="385.6" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">全部6类完整性约束</text>
+<rect x="490" y="338" width="523" height="85" fill="white" stroke="#477786" stroke-width="1.5"/>
+<text x="751.5" y="376.6" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">关系级动态约束可以通过调用包含事务的存储过程来实现。</text>
+<text x="751.5" y="394.6" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">出现性能问题时，需要评估是否改由应用软件实现。</text>
+</svg>

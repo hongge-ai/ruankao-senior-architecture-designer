@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="990" height="310" viewBox="0 0 990 310" role="img" aria-labelledby="title"><title id="title">CWM 模型基本原理图</title>
+<defs><marker id="a" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 8 4 0 8Z" fill="#477786"/></marker></defs>
+<rect width="990" height="310" fill="white"/>
+<rect x="15" y="170" width="181" height="67" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="105.5" y="209.28" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">用户</text>
+<rect x="391" y="170" width="181" height="67" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="481.5" y="209.28" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">应用程序服务器</text>
+<rect x="784" y="170" width="181" height="67" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="874.5" y="209.28" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">数据库服务器</text>
+<line x1="197" y1="203" x2="387" y2="203" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="575" y1="203" x2="778" y2="203" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<text x="289" y="160" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">用户提交订单</text>
+<text x="289" y="182" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">（UDI）</text>
+<text x="675" y="183" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">提交 CDI 2、CDI 3</text>
+<rect x="332" y="15" width="266" height="116" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="465.0" y="49.94" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">转换程序 TP</text>
+<text x="465.0" y="68.94" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">TP 转换 UDI 为 CDI 1</text>
+<text x="465.0" y="87.94" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">TP 基于 CDI 1 更新 CDI 2</text>
+<text x="465.0" y="106.94" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">（订单）与 CDI 3（账单）</text>
+<rect x="719" y="15" width="266" height="116" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="852.0" y="59.44" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">验证过程 IVP</text>
+<text x="852.0" y="78.44" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">检查 CDI 2（订单）</text>
+<text x="852.0" y="97.44" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">与 CDI 3（账单）</text>
+</svg>

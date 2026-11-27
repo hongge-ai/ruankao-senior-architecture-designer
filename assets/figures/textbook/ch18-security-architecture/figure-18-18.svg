@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 797 341" role="img" aria-labelledby="title desc">
+<title id="title">图 18-18 申请者、验证者、可信第三方之间的关系及三种鉴别信息类型</title><desc id="desc">虚线为潜在信息流；申请者、验证者与可选的可信第三方之间交换鉴别信息。</desc>
+<defs><marker id="arr" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto-start-reverse"><path d="M0 0L7 3.5L0 7Z" fill="#3f7586"/></marker></defs>
+<style>text{font-family:"Noto Sans CJK SC",sans-serif;fill:#153744;text-anchor:middle;dominant-baseline:central}.line{stroke:#3f7586;stroke-width:1.5;fill:none}</style>
+<rect x="72.0" y="50.0" width="151.0" height="68.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<rect x="88.0" y="64.0" width="118.0" height="35.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="147.0" y="81.5" font-size="16">申请AI</text>
+<rect x="570.0" y="50.0" width="151.0" height="68.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<rect x="586.0" y="64.0" width="118.0" height="35.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="645.0" y="81.5" font-size="16">验证AI</text>
+<text x="148.0" y="31.0" font-size="16">申请者</text>
+<text x="648.0" y="31.0" font-size="16">验证者</text>
+<path class="line" d="M224 85 L569 85" marker-end="url(#arr)" marker-start="url(#arr)" stroke-dasharray="5 4"/>
+<rect x="341.0" y="45.0" width="102.0" height="32.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="392.0" y="61.0" font-size="16">交换AI</text>
+<path class="line" d="M193 119 L267 203" marker-end="url(#arr)" marker-start="url(#arr)" stroke-dasharray="5 4"/>
+<path class="line" d="M529 203 L596 119" marker-end="url(#arr)" marker-start="url(#arr)" stroke-dasharray="5 4"/>
+<rect x="80.0" y="146.0" width="107.0" height="37.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="133.5" y="164.5" font-size="16">交换AI</text>
+<rect x="610.0" y="139.0" width="138.0" height="49.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="679.0" y="154.0" font-size="16">交换AI和／或</text>
+<text x="679.0" y="173.0" font-size="16">验证AI</text>
+<rect x="264.0" y="207.0" width="267.0" height="77.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<rect x="272.0" y="229.0" width="107.0" height="37.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="325.5" y="247.5" font-size="16">申请AI</text>
+<rect x="416.0" y="229.0" width="107.0" height="37.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="469.5" y="247.5" font-size="16">验证AI</text>
+<text x="398.0" y="185.0" font-size="16">可信第三方</text>
+<path class="line" d="M573 248 L676 248" marker-end="url(#arr)" marker-start="url(#arr)" stroke-dasharray="5 4"/>
+<text x="625.0" y="273.0" font-size="14">潜在的信息流</text>
+<text x="399.0" y="314.0" font-size="14">注：在某些情况下可不涉及可信第三方。验证AI可属于主体，也可属于可信第三方。</text>
+</svg>

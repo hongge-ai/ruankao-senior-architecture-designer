@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="525" viewBox="0 0 1000 525" role="img" aria-labelledby="title"><title id="title">系统安全性评估方法的相关标准的发展历程</title>
+<defs><marker id="a" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 8 4 0 8Z" fill="#477786"/></marker></defs>
+<rect width="1000" height="525" fill="white"/>
+<path d="M89 256 L89 97 L185 50" fill="none" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="119.46875" y1="257.0" x2="214.53125" y2="179.0" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="148.0" y1="282.0" x2="186.0" y2="282.0" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="148.0" y1="263.5625" x2="350.0" y2="200.4375" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="275.82706766917295" y1="74.0" x2="378.17293233082705" y2="157.0" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="304.0" y1="164.0731707317073" x2="350.0" y2="171.9268292682927" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="286.0" y1="257.0" x2="368.0" y2="207.0" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="468.0" y1="182.0" x2="512.0" y2="182.0" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="409.0" y1="207.0" x2="409.0" y2="257.0" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="571.0" y1="207.0" x2="571.0" y2="257.0" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="468.0" y1="282.0" x2="512.0" y2="282.0" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="630.0" y1="282.0" x2="679.0" y2="282.0" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="797.0" y1="282.0" x2="850.0" y2="282.0" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="139.15822784810126" y1="307.0" x2="355.84177215189874" y2="415.0" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="148.0" y1="293.0701030927835" x2="515.0" y2="361.9298969072165" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="736.9010989010989" y1="307.0" x2="735.0989010989011" y2="348.0" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="782.8888888888889" y1="398.0" x2="861.1111111111111" y2="438.0" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="909.1381215469613" y1="307.0" x2="909.8618784530387" y2="438.0" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="29" y="256" width="120" height="52" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="89.0" y="277.94" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">TCSEC</text>
+<text x="89.0" y="296.94" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">1985</text>
+<rect x="185" y="23" width="120" height="52" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="245.0" y="44.94" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">ITSEC</text>
+<text x="245.0" y="63.94" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">1991</text>
+<rect x="185" y="128" width="120" height="52" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="245.0" y="149.94" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">CTCPEC</text>
+<text x="245.0" y="168.94" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">1993</text>
+<rect x="185" y="256" width="120" height="52" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="245.0" y="277.94" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">FC</text>
+<text x="245.0" y="296.94" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">1992</text>
+<rect x="349" y="156" width="120" height="52" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="409.0" y="177.94" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">CC 1.0</text>
+<text x="409.0" y="196.94" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">1996</text>
+<rect x="511" y="156" width="120" height="52" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="571.0" y="177.94" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">CC 2.0</text>
+<text x="571.0" y="196.94" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">1998</text>
+<rect x="349" y="256" width="120" height="52" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="409.0" y="277.94" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">CD</text>
+<text x="409.0" y="296.94" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">1997</text>
+<rect x="511" y="256" width="120" height="52" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="571.0" y="277.94" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">FCD</text>
+<text x="571.0" y="296.94" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">1998</text>
+<rect x="678" y="256" width="120" height="52" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="738.0" y="277.94" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">ISO 15408</text>
+<text x="738.0" y="296.94" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">1999</text>
+<rect x="849" y="256" width="120" height="52" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="909.0" y="277.94" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">ISO 15408</text>
+<text x="909.0" y="296.94" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">1999</text>
+<rect x="346" y="414" width="120" height="52" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="406.0" y="435.94" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">GJB 2646</text>
+<text x="406.0" y="454.94" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">1996</text>
+<rect x="514" y="347" width="120" height="52" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="574.0" y="368.94" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">GB 17859</text>
+<text x="574.0" y="387.94" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">1999</text>
+<rect x="674" y="347" width="120" height="52" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="734.0" y="368.94" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">GB/T 18336</text>
+<text x="734.0" y="387.94" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">2001</text>
+<rect x="850" y="437" width="120" height="52" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="910.0" y="458.94" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">GB/T 18336</text>
+<text x="910.0" y="477.94" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">2015</text>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="740" height="435" viewBox="0 0 740 435" role="img" aria-labelledby="title"><title id="title">状态机模型工作原理图</title>
+<defs><marker id="a" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 8 4 0 8Z" fill="#477786"/></marker></defs>
+<rect width="740" height="435" fill="white"/>
+<rect x="387" y="13" width="303" height="126" fill="#cbe8ef" stroke="#477786" stroke-width="1.5"/>
+<rect x="411" y="23" width="255" height="79" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="538.5" y="48.94" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">应用程序</text>
+<text x="538.5" y="67.94" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">变量</text>
+<text x="538.5" y="86.94" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">（Name, value）</text>
+<text x="539" y="126" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">操作系统</text>
+<text x="324" y="78" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">（1）</text>
+<rect x="387" y="152" width="303" height="126" fill="#cbe8ef" stroke="#477786" stroke-width="1.5"/>
+<rect x="411" y="162" width="255" height="79" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="538.5" y="187.94" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">应用程序</text>
+<text x="538.5" y="206.94" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">变量</text>
+<text x="538.5" y="225.94" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">（Color, Red）</text>
+<text x="539" y="265" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">操作系统</text>
+<text x="324" y="217" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">（2）～（5）</text>
+<rect x="387" y="291" width="303" height="126" fill="#cbe8ef" stroke="#477786" stroke-width="1.5"/>
+<rect x="411" y="301" width="255" height="79" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="538.5" y="326.94" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">应用程序</text>
+<text x="538.5" y="345.94" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">变量</text>
+<text x="538.5" y="364.94" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">（Color, Blue）</text>
+<text x="539" y="404" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">操作系统</text>
+<text x="324" y="356" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">（6）</text>
+<text x="133" y="209" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">用户</text>
+<line x1="165" y1="204" x2="247" y2="204" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<text x="150" y="372" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">重复（1）～（5）步骤</text>
+<text x="150" y="397" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">会导致另一次状态变化</text>
+</svg>

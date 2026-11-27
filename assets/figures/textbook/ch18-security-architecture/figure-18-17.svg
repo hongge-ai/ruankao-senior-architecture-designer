@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1030 588" role="img" aria-labelledby="title desc">
+<title id="title">图 18-17 分层多点安全技术体系架构</title><desc id="desc">本地三区经边界保护接入不同网络，含运营商、远程用户、PBX和底部支撑性基础设施。</desc>
+<defs><marker id="arr" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto-start-reverse"><path d="M0 0L7 3.5L0 7Z" fill="#3f7586"/></marker></defs>
+<style>text{font-family:"Noto Sans CJK SC",sans-serif;fill:#153744;text-anchor:middle;dominant-baseline:central}.line{stroke:#3f7586;stroke-width:1.5;fill:none}</style>
+<rect x="9.0" y="45.0" width="260.0" height="404.0" fill="#e0eff4" stroke="#7598a1" stroke-width="1.4"/>
+<rect x="670.0" y="48.0" width="302.0" height="400.0" fill="#d1e8f2" stroke="#7598a1" stroke-width="1.4"/>
+<text x="138.0" y="24.0" font-size="16">本地计算环境</text>
+<text x="822.0" y="24.0" font-size="16">网络基础设施</text>
+<rect x="29.0" y="61.0" width="217.0" height="83.0" fill="#eaf6f8" stroke="#7598a1" stroke-width="1.4"/>
+<rect x="33.0" y="64.0" width="209.0" height="77.0" fill="#f7fbfc" stroke="#7598a1" stroke-width="1.4"/>
+<text x="138.0" y="76.0" font-size="16">带密级网络的边界</text>
+<rect x="53.0" y="114.0" width="31.0" height="15.0" fill="#c3dce4" stroke="#7598a1" stroke-width="1.4"/>
+<rect x="114.0" y="114.0" width="31.0" height="15.0" fill="#c3dce4" stroke="#7598a1" stroke-width="1.4"/>
+<rect x="175.0" y="114.0" width="31.0" height="15.0" fill="#c3dce4" stroke="#7598a1" stroke-width="1.4"/>
+<path class="line" d="M68 114 V97 H190 V114 M129 97 V114"/>
+<rect x="233.0" y="96.0" width="17.0" height="12.0" fill="#d5e7ec" stroke="#7598a1" stroke-width="1.4"/>
+<text x="246.0" y="129.0" font-size="17">＋</text>
+<rect x="29.0" y="159.0" width="217.0" height="83.0" fill="#eaf6f8" stroke="#7598a1" stroke-width="1.4"/>
+<rect x="33.0" y="162.0" width="209.0" height="77.0" fill="#f7fbfc" stroke="#7598a1" stroke-width="1.4"/>
+<text x="138.0" y="174.0" font-size="16">专用网络的边界</text>
+<rect x="53.0" y="212.0" width="31.0" height="15.0" fill="#c3dce4" stroke="#7598a1" stroke-width="1.4"/>
+<rect x="114.0" y="212.0" width="31.0" height="15.0" fill="#c3dce4" stroke="#7598a1" stroke-width="1.4"/>
+<rect x="175.0" y="212.0" width="31.0" height="15.0" fill="#c3dce4" stroke="#7598a1" stroke-width="1.4"/>
+<path class="line" d="M68 212 V195 H190 V212 M129 195 V212"/>
+<rect x="233.0" y="194.0" width="17.0" height="12.0" fill="#d5e7ec" stroke="#7598a1" stroke-width="1.4"/>
+<text x="246.0" y="227.0" font-size="17">＋</text>
+<rect x="29.0" y="257.0" width="217.0" height="83.0" fill="#eaf6f8" stroke="#7598a1" stroke-width="1.4"/>
+<rect x="33.0" y="260.0" width="209.0" height="77.0" fill="#f7fbfc" stroke="#7598a1" stroke-width="1.4"/>
+<text x="138.0" y="272.0" font-size="16">公共网络的边界</text>
+<rect x="53.0" y="310.0" width="31.0" height="15.0" fill="#c3dce4" stroke="#7598a1" stroke-width="1.4"/>
+<rect x="114.0" y="310.0" width="31.0" height="15.0" fill="#c3dce4" stroke="#7598a1" stroke-width="1.4"/>
+<rect x="175.0" y="310.0" width="31.0" height="15.0" fill="#c3dce4" stroke="#7598a1" stroke-width="1.4"/>
+<path class="line" d="M68 310 V293 H190 V310 M129 293 V310"/>
+<rect x="233.0" y="292.0" width="17.0" height="12.0" fill="#d5e7ec" stroke="#7598a1" stroke-width="1.4"/>
+<text x="246.0" y="325.0" font-size="17">＋</text>
+<rect x="683.0" y="77.0" width="274.0" height="47.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="820.0" y="100.5" font-size="16">密级网络</text>
+<path class="line" d="M957 101 L990 101"/>
+<rect x="683.0" y="145.0" width="274.0" height="47.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="820.0" y="168.5" font-size="16">专网</text>
+<path class="line" d="M957 169 L990 169"/>
+<rect x="683.0" y="213.0" width="274.0" height="47.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="820.0" y="236.5" font-size="16">公网（Internet）</text>
+<path class="line" d="M957 237 L990 237"/>
+<rect x="683.0" y="287.0" width="274.0" height="47.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="820.0" y="310.5" font-size="16">Internet服务供应商</text>
+<path class="line" d="M957 311 L990 311"/>
+<rect x="683.0" y="348.0" width="274.0" height="47.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="820.0" y="371.5" font-size="16">公共电话网／公共移动网</text>
+<path class="line" d="M957 372 L990 372"/>
+<text x="1002.0" y="182.0" font-size="16">连</text>
+<text x="1002.0" y="201.0" font-size="16">接</text>
+<text x="1002.0" y="220.0" font-size="16">至</text>
+<text x="1002.0" y="239.0" font-size="16">其</text>
+<text x="1002.0" y="258.0" font-size="16">他</text>
+<text x="1002.0" y="277.0" font-size="16">边</text>
+<text x="1002.0" y="296.0" font-size="16">界</text>
+<path class="line" d="M250 102 H625 V101 H683"/>
+<rect x="290.0" y="124.0" width="104.0" height="39.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="342.0" y="143.5" font-size="16">电信运营商</text>
+<rect x="442.0" y="124.0" width="128.0" height="39.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="506.0" y="143.5" font-size="16">远程用户</text>
+<path class="line" d="M250 131 L290 140"/>
+<path class="line" d="M394 141 L442 141"/>
+<text x="427.0" y="135.0" font-size="16">＋</text>
+<path class="line" d="M250 200 H625 V169 H683"/>
+<rect x="290.0" y="222.0" width="104.0" height="39.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="342.0" y="241.5" font-size="16">电信运营商</text>
+<rect x="442.0" y="222.0" width="128.0" height="39.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="506.0" y="241.5" font-size="16">远程用户</text>
+<path class="line" d="M250 229 L290 238"/>
+<path class="line" d="M394 239 L442 239"/>
+<text x="427.0" y="233.0" font-size="16">＋</text>
+<path class="line" d="M250 298 H305 V283 H624 V237 H683"/>
+<rect x="422.0" y="309.0" width="115.0" height="31.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="479.5" y="324.5" font-size="16">远程用户</text>
+<text x="545.0" y="328.0" font-size="16">＋</text>
+<path class="line" d="M550 327 H625 V311 H683"/>
+<rect x="442.0" y="345.0" width="115.0" height="31.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="499.5" y="360.5" font-size="16">远程用户</text>
+<text x="565.0" y="364.0" font-size="16">＋</text>
+<path class="line" d="M570 363 H632 V339 H683"/>
+<rect x="462.0" y="381.0" width="115.0" height="31.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="519.5" y="396.5" font-size="16">远程用户</text>
+<text x="585.0" y="400.0" font-size="16">＋</text>
+<path class="line" d="M590 399 H639 V367 H683"/>
+<rect x="127.0" y="378.0" width="85.0" height="27.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="169.5" y="391.5" font-size="16">PBX</text>
+<path class="line" d="M212 392 H301 V412 H680 M80 427 H380 l11 -9 H680"/>
+<path class="line" d="M10 457 V469 H972 V457"/>
+<text x="600.0" y="490.0" font-size="16">支撑性基础设施</text>
+<text x="602.0" y="519.0" font-size="16">PKI 公钥基础设施、检测和响应基础设施</text>
+<path class="line" d="M12 543 L39 543"/>
+<path class="line" d="M12 549 L39 549"/>
+<text x="64.0" y="546.0" font-size="14">边界</text>
+<rect x="103.0" y="540.0" width="14.0" height="11.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="245.0" y="546.0" font-size="14">边界保护（隔离器、防火墙等）</text>
+<text x="221.0" y="569.0" font-size="14">＋　远程访问保护（VPN、加密等）</text>
+</svg>

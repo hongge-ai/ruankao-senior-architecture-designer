@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 690 488" role="img" aria-labelledby="title desc">
+<title id="title">图 18-15 信息安全体系结构示意图</title><desc id="desc">OSI七层、五类安全服务和八种具体安全机制沿三条轴排列。</desc>
+<defs><marker id="arr" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto-start-reverse"><path d="M0 0L7 3.5L0 7Z" fill="#3f7586"/></marker></defs>
+<style>text{font-family:"Noto Sans CJK SC",sans-serif;fill:#153744;text-anchor:middle;dominant-baseline:central}.line{stroke:#3f7586;stroke-width:1.5;fill:none}</style>
+<path class="line" d="M269 266 V30" marker-end="url(#arr)"/>
+<path class="line" d="M269 266 H658" marker-end="url(#arr)"/>
+<path class="line" d="M269 266 L45 447" marker-end="url(#arr)"/>
+<path class="line" d="M247 245 L269 245"/>
+<text x="226.0" y="245.0" font-size="16">1</text>
+<text x="319.0" y="245.0" font-size="16">物理层</text>
+<path class="line" d="M247 216 L269 216"/>
+<text x="226.0" y="216.0" font-size="16">2</text>
+<text x="319.0" y="216.0" font-size="16">链路层</text>
+<path class="line" d="M247 187 L269 187"/>
+<text x="226.0" y="187.0" font-size="16">3</text>
+<text x="319.0" y="187.0" font-size="16">网络层</text>
+<path class="line" d="M247 158 L269 158"/>
+<text x="226.0" y="158.0" font-size="16">4</text>
+<text x="319.0" y="158.0" font-size="16">运输层</text>
+<path class="line" d="M247 129 L269 129"/>
+<text x="226.0" y="129.0" font-size="16">5</text>
+<text x="319.0" y="129.0" font-size="16">会话层</text>
+<path class="line" d="M247 100 L269 100"/>
+<text x="226.0" y="100.0" font-size="16">6</text>
+<text x="319.0" y="100.0" font-size="16">表示层</text>
+<path class="line" d="M247 71 L269 71"/>
+<text x="226.0" y="71.0" font-size="16">7</text>
+<text x="319.0" y="71.0" font-size="16">应用层</text>
+<path class="line" d="M226 284 L246 284"/>
+<text x="170.0" y="284.0" font-size="16">鉴别服务</text>
+<path class="line" d="M190 313 L210 313"/>
+<text x="134.0" y="313.0" font-size="16">访问控制</text>
+<path class="line" d="M154 342 L174 342"/>
+<text x="98.0" y="342.0" font-size="16">数据完整性</text>
+<path class="line" d="M118 371 L138 371"/>
+<text x="62.0" y="371.0" font-size="16">数据机密性</text>
+<path class="line" d="M82 400 L102 400"/>
+<text x="26.0" y="400.0" font-size="16">抗抵赖</text>
+<path class="line" d="M300 266 L300 280"/>
+<text x="300.0" y="291.0" font-size="15">加</text>
+<text x="300.0" y="309.0" font-size="15">密</text>
+<path class="line" d="M344 266 L344 280"/>
+<text x="344.0" y="291.0" font-size="15">数</text>
+<text x="344.0" y="309.0" font-size="15">字</text>
+<text x="344.0" y="327.0" font-size="15">签</text>
+<text x="344.0" y="345.0" font-size="15">名</text>
+<path class="line" d="M388 266 L388 280"/>
+<text x="388.0" y="291.0" font-size="15">访</text>
+<text x="388.0" y="309.0" font-size="15">问</text>
+<text x="388.0" y="327.0" font-size="15">控</text>
+<text x="388.0" y="345.0" font-size="15">制</text>
+<path class="line" d="M432 266 L432 280"/>
+<text x="432.0" y="291.0" font-size="15">数</text>
+<text x="432.0" y="309.0" font-size="15">据</text>
+<text x="432.0" y="327.0" font-size="15">完</text>
+<text x="432.0" y="345.0" font-size="15">整</text>
+<text x="432.0" y="363.0" font-size="15">性</text>
+<path class="line" d="M476 266 L476 280"/>
+<text x="476.0" y="291.0" font-size="15">鉴</text>
+<text x="476.0" y="309.0" font-size="15">别</text>
+<text x="476.0" y="327.0" font-size="15">交</text>
+<text x="476.0" y="345.0" font-size="15">换</text>
+<path class="line" d="M520 266 L520 280"/>
+<text x="520.0" y="291.0" font-size="15">业</text>
+<text x="520.0" y="309.0" font-size="15">务</text>
+<text x="520.0" y="327.0" font-size="15">流</text>
+<text x="520.0" y="345.0" font-size="15">填</text>
+<text x="520.0" y="363.0" font-size="15">充</text>
+<path class="line" d="M564 266 L564 280"/>
+<text x="564.0" y="291.0" font-size="15">路</text>
+<text x="564.0" y="309.0" font-size="15">由</text>
+<text x="564.0" y="327.0" font-size="15">控</text>
+<text x="564.0" y="345.0" font-size="15">制</text>
+<path class="line" d="M608 266 L608 280"/>
+<text x="608.0" y="291.0" font-size="15">公</text>
+<text x="608.0" y="309.0" font-size="15">证</text>
+<text x="271.0" y="13.0" font-size="16">网络通信</text>
+<text x="626.0" y="242.0" font-size="16">安全机制</text>
+<text x="58.0" y="469.0" font-size="16">安全服务</text>
+</svg>

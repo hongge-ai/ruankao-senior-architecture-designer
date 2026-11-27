@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 355" role="img" aria-labelledby="title desc">
+<title id="title">图 18-16 安全服务和安全机制的对应关系</title><desc id="desc">五类安全服务连至对应机制，依页图保留八条具体对应连线。</desc>
+<defs><marker id="arr" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto-start-reverse"><path d="M0 0L7 3.5L0 7Z" fill="#3f7586"/></marker></defs>
+<style>text{font-family:"Noto Sans CJK SC",sans-serif;fill:#153744;text-anchor:middle;dominant-baseline:central}.line{stroke:#3f7586;stroke-width:1.5;fill:none}</style>
+<path class="line" d="M225 28 L225 326"/>
+<path class="line" d="M358 28 L358 326"/>
+<path class="line" d="M20 325 L571 325"/>
+<path class="line" d="M225 47 L358 47"/>
+<path class="line" d="M225 47 L358 79"/>
+<path class="line" d="M225 112 L358 112"/>
+<path class="line" d="M225 112 L358 145"/>
+<path class="line" d="M225 177 L358 177"/>
+<path class="line" d="M225 177 L358 205"/>
+<path class="line" d="M225 221 L358 239"/>
+<path class="line" d="M225 287 L358 287"/>
+<text x="132.0" y="47.0" font-size="16">鉴别服务</text>
+<text x="132.0" y="112.0" font-size="16">访问控制服务</text>
+<text x="132.0" y="177.0" font-size="16">数据机密性服务</text>
+<text x="132.0" y="221.0" font-size="16">数据完整性服务</text>
+<text x="132.0" y="287.0" font-size="16">抗否认性服务</text>
+<text x="458.0" y="47.0" font-size="16">认证机制</text>
+<text x="458.0" y="79.0" font-size="16">数字签名机制</text>
+<text x="458.0" y="112.0" font-size="16">访问控制机制</text>
+<text x="458.0" y="145.0" font-size="16">路由控制机制</text>
+<text x="458.0" y="177.0" font-size="16">加密机制</text>
+<text x="458.0" y="205.0" font-size="16">业务流填充机制</text>
+<text x="458.0" y="239.0" font-size="16">数据完整性机制</text>
+<text x="458.0" y="287.0" font-size="16">公证机制</text>
+<text x="224.0" y="341.0" font-size="16">安全服务</text>
+<text x="360.0" y="341.0" font-size="16">安全机制</text>
+</svg>

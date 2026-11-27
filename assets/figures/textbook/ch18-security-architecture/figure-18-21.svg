@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 910 496" role="img" aria-labelledby="title desc">
+<title id="title">图 18-21 参与生成、传输、存储及恢复和证实阶段的实体</title><desc id="desc">策略约束下的证据请求、生成、传输、存储、验证及可信第三方的证据与信息流。</desc>
+<defs><marker id="arr" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto-start-reverse"><path d="M0 0L7 3.5L0 7Z" fill="#3f7586"/></marker></defs>
+<style>text{font-family:"Noto Sans CJK SC",sans-serif;fill:#153744;text-anchor:middle;dominant-baseline:central}.line{stroke:#3f7586;stroke-width:1.5;fill:none}</style>
+<rect x="55.0" y="10.0" width="804.0" height="45.0" fill="#e9f4f6" stroke="#7598a1" stroke-width="1.4"/>
+<text x="457.0" y="32.5" font-size="16">抗抵赖安全策略</text>
+<rect x="60.0" y="86.0" width="121.0" height="55.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="120.5" y="113.5" font-size="16">证据主体</text>
+<rect x="308.0" y="86.0" width="132.0" height="55.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="374.0" y="104.0" font-size="16">证据生成</text>
+<text x="374.0" y="123.0" font-size="16">请求者</text>
+<rect x="552.0" y="86.0" width="130.0" height="55.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="617.0" y="104.0" font-size="16">证据验证</text>
+<text x="617.0" y="123.0" font-size="16">请求者</text>
+<rect x="746.0" y="86.0" width="126.0" height="55.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="809.0" y="113.5" font-size="16">证据使用者</text>
+<rect x="193.0" y="276.0" width="135.0" height="59.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="260.5" y="305.5" font-size="16">证据生成器</text>
+<rect x="645.0" y="276.0" width="135.0" height="59.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="712.5" y="305.5" font-size="16">证据验证者</text>
+<rect x="370.0" y="405.0" width="172.0" height="48.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="456.0" y="429.0" font-size="16">可信任第三方</text>
+<path class="line" d="M182 99 L307 99" marker-end="url(#arr)"/>
+<path class="line" d="M307 127 L182 127" marker-end="url(#arr)"/>
+<text x="244.0" y="80.0" font-size="16">有关信息</text>
+<text x="245.0" y="147.0" font-size="16">观察</text>
+<path class="line" d="M87 142 L204 275" marker-end="url(#arr)"/>
+<path class="line" d="M237 275 L145 142" marker-end="url(#arr)"/>
+<text x="107.0" y="217.0" font-size="16">有关信息</text>
+<text x="212.0" y="195.0" font-size="16">观察</text>
+<path class="line" d="M364 142 L299 275" marker-end="url(#arr)"/>
+<text x="366.0" y="210.0" font-size="16">请求生成</text>
+<path class="line" d="M650 142 L671 275" marker-end="url(#arr)"/>
+<text x="595.0" y="205.0" font-size="16">请求验证</text>
+<path class="line" d="M741 275 L800 142" marker-end="url(#arr)"/>
+<text x="806.0" y="215.0" font-size="16">是／否</text>
+<path class="line" d="M328 305 L399 305" marker-end="url(#arr)"/>
+<path class="line" d="M526 305 L644 305" marker-end="url(#arr)"/>
+<text x="364.0" y="285.0" font-size="16">证据</text>
+<text x="587.0" y="285.0" font-size="16">证据</text>
+<text x="465.0" y="297.5" font-size="16">传输和</text>
+<text x="465.0" y="316.5" font-size="16">存储／检索</text>
+<path class="line" d="M267 336 L373 404" marker-end="url(#arr)" marker-start="url(#arr)"/>
+<path class="line" d="M686 336 L544 404" marker-end="url(#arr)" marker-start="url(#arr)"/>
+<text x="239.0" y="386.0" font-size="16">证据和其他信息</text>
+<text x="710.0" y="386.0" font-size="16">证据和其他信息</text>
+<text x="452.0" y="476.0" font-size="14">注：本图是示意图，并非定义。</text>
+</svg>
