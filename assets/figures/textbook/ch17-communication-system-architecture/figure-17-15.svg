@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 595 184" role="img" aria-labelledby="title desc">
+<title id="title">图 17-15 网络连接存储</title>
+<desc id="desc">每侧两项及省略号代表多台设备。NAS设施和客户机通过共享数据网络连接。</desc>
+<style>text{font-family:"Noto Sans CJK SC",sans-serif;font-size:15px;fill:#183846;text-anchor:middle;dominant-baseline:central}.node{fill:#fff;stroke:#578894;stroke-width:1.4}.net{fill:#e3f5f7;stroke:#588e9c;stroke-width:1.6}.link{fill:none;stroke:#55717a;stroke-width:1.5}</style>
+<path class="link" d="M65 36 L296.0 91 L527 36 M65 145 L296.0 91 L527 145"/>
+<g transform="translate(201.0 38) scale(1.9 1.08)"><path class="net" vector-effect="non-scaling-stroke" d="M19 86 C0 85 -3 58 10 49 Q7 33 23 30 Q23 12 39 19 Q52 0 62 13 Q77 -1 84 20 Q102 22 94 44 Q109 62 94 74 Q92 94 75 88 Q61 104 48 91 Q34 101 27 87 Z"/></g>
+<text x="296.0" y="163.0">LAN/WAN/5G等网络</text>
+<rect class="node" x="7" y="19" width="116" height="34"/>
+<text x="65.0" y="36.0">NAS设施</text>
+<rect class="node" x="7" y="128" width="116" height="34"/>
+<text x="65.0" y="145.0">NAS设施</text>
+<text x="65" y="91.0">⋮</text>
+<rect class="node" x="469" y="19" width="116" height="34"/>
+<text x="527.0" y="36.0">客户机</text>
+<rect class="node" x="469" y="128" width="116" height="34"/>
+<text x="527.0" y="145.0">客户机</text>
+<text x="527" y="91.0">⋮</text>
+</svg>

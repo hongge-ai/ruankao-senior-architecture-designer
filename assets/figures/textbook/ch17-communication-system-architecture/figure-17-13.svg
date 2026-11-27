@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 165" role="img" aria-labelledby="title desc">
+<title id="title">图 17-13 UE通过5GS非透明接入DN原理图</title>
+<desc id="desc">直接接入与经过外部IP网络的间接接入，左右两图均标出UPF和N6。</desc>
+<style>text{font-family:"Noto Sans CJK SC",sans-serif;font-size:15px;fill:#183846;text-anchor:middle;dominant-baseline:central}.node{fill:#fff;stroke:#578894;stroke-width:1.4}.net{fill:#e3f5f7;stroke:#588e9c;stroke-width:1.6}.link{fill:none;stroke:#55717a;stroke-width:1.5}</style>
+<ellipse class="net" cx="93" cy="83" rx="82" ry="48"/>
+<text x="53" y="81.0">5GS</text>
+<rect class="node" x="78" y="68" width="62" height="32"/>
+<text x="109.0" y="84.0">UPF</text>
+<ellipse class="net" cx="485" cy="83" rx="82" ry="48"/>
+<text x="445" y="81.0">5GS</text>
+<rect class="node" x="470" y="68" width="62" height="32"/>
+<text x="501.0" y="84.0">UPF</text>
+<path class="link" d="M183 47 V124" stroke-dasharray="5 4"/>
+<text x="183" y="31.0">N6</text>
+<path class="link" d="M578 47 V124" stroke-dasharray="5 4"/>
+<text x="578" y="31.0">N6</text>
+<ellipse class="net" cx="293" cy="83" rx="82" ry="48"/>
+<text x="293" y="61.0">ISP/Intranet</text>
+<rect class="node" x="231" y="83" width="124" height="30"/>
+<text x="293.0" y="98.0">App Server</text>
+<ellipse class="net" cx="910" cy="83" rx="82" ry="48"/>
+<text x="910" y="61.0">ISP/Intranet</text>
+<rect class="node" x="848" y="83" width="124" height="30"/>
+<text x="910.0" y="98.0">App Server</text>
+<path class="link" d="M175 83 H211 M567 83 H609 M787 83 H828"/>
+<ellipse class="net" cx="698" cy="83" rx="89" ry="46"/>
+<text x="698" y="64.0">External IP</text>
+<text x="698" y="83.0">Network</text>
+<text x="698" y="102.0">（如 Internet）</text>
+<text x="195" y="149.0">(a) 直接接入</text>
+<text x="695" y="149.0">(b) 间接接入</text>
+</svg>

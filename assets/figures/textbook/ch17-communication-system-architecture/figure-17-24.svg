@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="410" viewBox="0 0 900 410" role="img" aria-labelledby="title"><title id="title">基于 5G 网络的智能电网架构</title>
+<defs><marker id="a" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 8 4 0 8Z" fill="#477786"/></marker></defs>
+<rect width="900" height="410" fill="white"/>
+<rect x="275" y="15" width="120" height="42" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="335.0" y="41.78" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">输电业务</text>
+<rect x="418" y="15" width="120" height="42" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="478.0" y="41.78" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">配电业务</text>
+<rect x="561" y="15" width="120" height="42" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="621.0" y="41.78" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">综合能源</text>
+<text x="112" y="43" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">电网应用</text>
+<text x="112" y="112" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">物联网平台</text>
+<line x1="496" y1="140" x2="496" y2="224" stroke="#477786" stroke-width="1.6"/>
+<line x1="490" y1="267" x2="162" y2="326" stroke="#477786" stroke-width="1.6" stroke-dasharray="5 4"/>
+<line x1="490" y1="267" x2="367" y2="326" stroke="#477786" stroke-width="1.6" stroke-dasharray="5 4"/>
+<line x1="490" y1="267" x2="570" y2="326" stroke="#477786" stroke-width="1.6" stroke-dasharray="5 4"/>
+<line x1="490" y1="267" x2="772" y2="326" stroke="#477786" stroke-width="1.6" stroke-dasharray="5 4"/>
+<path d="M409.3 150.9 C371.3 148.17000000000002 371.3 97.21000000000001 409.3 94.48 Q416.9 69 451.1 79.92 Q481.5 58.99 504.3 79.92 Q538.5 69.91 546.1 99.03 C582.2 113.59 567 153.63 529.0 151.81 Q470.1 169.10000000000002 409.3 150.9Z" fill="#cbe8ef" stroke="#477786" stroke-width="1.6"/>
+<path d="M256.15 259.6 C217.15 256.48 217.15 198.24 256.15 195.12 Q263.95 166 299.05 178.48 Q330.25 154.56 353.65 178.48 Q388.75 167.04 396.55 200.32 C433.6 216.96 418 262.72 379.0 260.64 Q318.55 280.4 256.15 259.6Z" fill="#cbe8ef" stroke="#477786" stroke-width="1.6"/>
+<path d="M409.63 285.3 C361.83 282.09000000000003 361.83 222.17000000000002 409.63 218.96 Q419.19 189 462.21000000000004 201.84 Q500.45000000000005 177.23 529.13 201.84 Q572.15 190.07 581.71 224.31 C627.12 241.43 608 288.51 560.2 286.37 Q486.11 306.7 409.63 285.3Z" fill="#cbe8ef" stroke="#477786" stroke-width="1.6"/>
+<rect x="300" y="82" width="117" height="33" fill="white" stroke="#477786" stroke-width="1.5"/>
+<text x="358.5" y="103.6" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">数据采集</text>
+<rect x="500" y="107" width="148" height="33" fill="white" stroke="#477786" stroke-width="1.5"/>
+<text x="574.0" y="128.6" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">AI 训练、推理</text>
+<rect x="168" y="176" width="112" height="33" fill="white" stroke="#477786" stroke-width="1.5"/>
+<text x="224.0" y="197.6" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">电网监控</text>
+<text x="309" y="239" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">边缘计算</text>
+<text x="489" y="252" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">5G 网络</text>
+<text x="49" y="347" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="14" fill="#173c48">智能感知</text>
+<rect x="95" y="322" width="165" height="40" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="177.5" y="347.1" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">新能源、传统电源</text>
+<text x="177.5" y="391" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">电源侧</text>
+<rect x="286" y="322" width="163" height="40" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="367.5" y="347.1" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">输变电、配用电</text>
+<text x="367.5" y="391" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">电网侧</text>
+<rect x="481" y="322" width="178" height="40" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="570.0" y="347.1" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">电动汽车、储能</text>
+<text x="570.0" y="391" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">用户侧</text>
+<rect x="700" y="322" width="145" height="40" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="772.5" y="347.1" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">供应商</text>
+<text x="772.5" y="391" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">供应链</text>
+</svg>

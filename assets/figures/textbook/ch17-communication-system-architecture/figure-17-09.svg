@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 565 768" role="img" aria-labelledby="title desc">
+<title id="title">图 17-9 对等子域广域网</title><desc id="desc">上下两个对等子域，各含七台路由设备；上域右下和左下两设备分别连接下域右上设备。</desc>
+<ellipse cx="272" cy="203" rx="237" ry="188" fill="#fcfdfc" stroke="#789191" stroke-width="1.6"/>
+<ellipse cx="290" cy="558" rx="237" ry="188" fill="#fcfdfc" stroke="#789191" stroke-width="1.6"/>
+<g fill="none" stroke="#567c85" stroke-width="1.8">
+<path d="M168 99L148 175"/>
+<path d="M148 175L381 99"/>
+<path d="M381 99L403 175"/>
+<path d="M148 175L403 175"/>
+<path d="M148 175L219 246"/>
+<path d="M219 246L403 175"/>
+<path d="M403 175L377 296"/>
+<path d="M219 246L377 296"/>
+<path d="M219 246L216 324"/>
+<path d="M216 324L377 296"/>
+<path d="M186 454L166 530"/>
+<path d="M166 530L399 454"/>
+<path d="M399 454L421 530"/>
+<path d="M166 530L421 530"/>
+<path d="M166 530L237 601"/>
+<path d="M237 601L421 530"/>
+<path d="M421 530L395 651"/>
+<path d="M237 601L395 651"/>
+<path d="M237 601L234 679"/>
+<path d="M234 679L395 651"/>
+<path d="M216 324L399 454"/>
+<path d="M377 296L399 454"/></g>
+<g font-family="Noto Sans CJK SC, sans-serif" fill="#173643">
+<rect x="96.0" y="83" width="144" height="32" rx="2" fill="#edf6f8" stroke="#66848b" stroke-width="1.6"/>
+<text x="168" y="105" text-anchor="middle" font-size="17">广域网路由设备</text>
+<rect x="309.0" y="83" width="144" height="32" rx="2" fill="#edf6f8" stroke="#66848b" stroke-width="1.6"/>
+<text x="381" y="105" text-anchor="middle" font-size="17">广域网路由设备</text>
+<rect x="76.0" y="159" width="144" height="32" rx="2" fill="#edf6f8" stroke="#66848b" stroke-width="1.6"/>
+<text x="148" y="181" text-anchor="middle" font-size="17">广域网路由设备</text>
+<rect x="331.0" y="159" width="144" height="32" rx="2" fill="#edf6f8" stroke="#66848b" stroke-width="1.6"/>
+<text x="403" y="181" text-anchor="middle" font-size="17">广域网路由设备</text>
+<rect x="147.0" y="230" width="144" height="32" rx="2" fill="#edf6f8" stroke="#66848b" stroke-width="1.6"/>
+<text x="219" y="252" text-anchor="middle" font-size="17">广域网路由设备</text>
+<rect x="305.0" y="280" width="144" height="32" rx="2" fill="#edf6f8" stroke="#66848b" stroke-width="1.6"/>
+<text x="377" y="302" text-anchor="middle" font-size="17">广域网路由设备</text>
+<rect x="144.0" y="308" width="144" height="32" rx="2" fill="#edf6f8" stroke="#66848b" stroke-width="1.6"/>
+<text x="216" y="330" text-anchor="middle" font-size="17">广域网路由设备</text>
+<rect x="114.0" y="438" width="144" height="32" rx="2" fill="#edf6f8" stroke="#66848b" stroke-width="1.6"/>
+<text x="186" y="460" text-anchor="middle" font-size="17">广域网路由设备</text>
+<rect x="327.0" y="438" width="144" height="32" rx="2" fill="#edf6f8" stroke="#66848b" stroke-width="1.6"/>
+<text x="399" y="460" text-anchor="middle" font-size="17">广域网路由设备</text>
+<rect x="94.0" y="514" width="144" height="32" rx="2" fill="#edf6f8" stroke="#66848b" stroke-width="1.6"/>
+<text x="166" y="536" text-anchor="middle" font-size="17">广域网路由设备</text>
+<rect x="349.0" y="514" width="144" height="32" rx="2" fill="#edf6f8" stroke="#66848b" stroke-width="1.6"/>
+<text x="421" y="536" text-anchor="middle" font-size="17">广域网路由设备</text>
+<rect x="165.0" y="585" width="144" height="32" rx="2" fill="#edf6f8" stroke="#66848b" stroke-width="1.6"/>
+<text x="237" y="607" text-anchor="middle" font-size="17">广域网路由设备</text>
+<rect x="323.0" y="635" width="144" height="32" rx="2" fill="#edf6f8" stroke="#66848b" stroke-width="1.6"/>
+<text x="395" y="657" text-anchor="middle" font-size="17">广域网路由设备</text>
+<rect x="162.0" y="663" width="144" height="32" rx="2" fill="#edf6f8" stroke="#66848b" stroke-width="1.6"/>
+<text x="234" y="685" text-anchor="middle" font-size="17">广域网路由设备</text></g>
+</svg>

@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 630" role="img" aria-labelledby="title desc">
+<title id="title">图 17-14 5G 网络边缘计算架构</title>
+<desc id="desc">两处边缘云均有应用、MEP和UPF；上侧流向边缘应用，下侧业务经中心UPF到中心DN。</desc>
+<style>text{font-family:"Noto Sans CJK SC",sans-serif;font-size:15px;fill:#183846;text-anchor:middle;dominant-baseline:central}.node{fill:#fff;stroke:#578894;stroke-width:1.4}.net{fill:#e3f5f7;stroke:#588e9c;stroke-width:1.6}.link{fill:none;stroke:#55717a;stroke-width:1.5}</style>
+<g transform="translate(154 38) scale(3.03 1.81)"><path class="net" vector-effect="non-scaling-stroke" d="M19 86 C0 85 -3 58 10 49 Q7 33 23 30 Q23 12 39 19 Q52 0 62 13 Q77 -1 84 20 Q102 22 94 44 Q109 62 94 74 Q92 94 75 88 Q61 104 48 91 Q34 101 27 87 Z"/></g>
+<g transform="translate(152 404) scale(3.05 1.63)"><path class="net" vector-effect="non-scaling-stroke" d="M19 86 C0 85 -3 58 10 49 Q7 33 23 30 Q23 12 39 19 Q52 0 62 13 Q77 -1 84 20 Q102 22 94 44 Q109 62 94 74 Q92 94 75 88 Q61 104 48 91 Q34 101 27 87 Z"/></g>
+<g transform="translate(467 228) scale(4.09 1.8)"><path class="net" vector-effect="non-scaling-stroke" d="M19 86 C0 85 -3 58 10 49 Q7 33 23 30 Q23 12 39 19 Q52 0 62 13 Q77 -1 84 20 Q102 22 94 44 Q109 62 94 74 Q92 94 75 88 Q61 104 48 91 Q34 101 27 87 Z"/></g>
+<g transform="translate(933 376) scale(0.88 0.47)"><path class="net" vector-effect="non-scaling-stroke" d="M19 86 C0 85 -3 58 10 49 Q7 33 23 30 Q23 12 39 19 Q52 0 62 13 Q77 -1 84 20 Q102 22 94 44 Q109 62 94 74 Q92 94 75 88 Q61 104 48 91 Q34 101 27 87 Z"/></g>
+<text x="304" y="21.0">Mobile Edge Cloud（移动边缘云）</text>
+<text x="665" y="208.0">Mobile Central Cloud</text>
+<text x="306" y="390.0">Mobile Edge Cloud</text>
+<path class="link" d="M258 87 V111 M359 87 V111"/>
+<rect class="node" x="208" y="45" width="106" height="46"/>
+<text x="261.0" y="58.5">App1 Service</text>
+<text x="261.0" y="77.5">（应用服务1）</text>
+<rect class="node" x="316" y="45" width="106" height="46"/>
+<text x="369.0" y="58.5">App2 Service</text>
+<text x="369.0" y="77.5">（应用服务2）</text>
+<rect class="node" x="194" y="111" width="246" height="64"/>
+<text x="317.0" y="124.0">MEP</text>
+<text x="317.0" y="143.0">Mobile Edge Platform</text>
+<text x="317.0" y="162.0">移动边缘平台</text>
+<path class="link" d="M258 450 V474 M359 450 V474"/>
+<rect class="node" x="208" y="408" width="106" height="46"/>
+<text x="261.0" y="431.0">App1 Service</text>
+<rect class="node" x="316" y="408" width="106" height="46"/>
+<text x="369.0" y="431.0">App2 Service</text>
+<rect class="node" x="194" y="474" width="246" height="64"/>
+<text x="317.0" y="496.5">MEP</text>
+<text x="317.0" y="515.5">Mobile Edge Platform</text>
+<path class="link" d="M318 175 V206 M318 538 V568 M42 218 H340 L397 248 L550 398 L665 398 H964 M40 577 H429 L666 398 M490 267 V290 H861 M608 267 V290 M724 267 V290 M848 267 V290 M670 290 V398"/>
+<path class="link" d="M42 230 H266 V179 H187 V98 H229 M42 587 H350 L678 411 H957" stroke-dasharray="5 4"/>
+<rect class="node" x="8" y="196" width="84" height="46"/>
+<text x="50.0" y="209.5">UE</text>
+<text x="50.0" y="228.5">（用户设备）</text>
+<rect class="node" x="110" y="196" width="106" height="46"/>
+<text x="163.0" y="209.5">5G-AN</text>
+<text x="163.0" y="228.5">（5G接入网）</text>
+<rect class="node" x="247" y="196" width="148" height="46"/>
+<text x="321.0" y="209.5">UPF</text>
+<text x="321.0" y="228.5">（用户面功能）</text>
+<rect class="node" x="8" y="553" width="84" height="46"/>
+<text x="50.0" y="576.0">UE</text>
+<rect class="node" x="110" y="553" width="106" height="46"/>
+<text x="163.0" y="576.0">5G-AN</text>
+<rect class="node" x="247" y="553" width="148" height="46"/>
+<text x="321.0" y="576.0">UPF</text>
+<rect class="node" x="433" y="221" width="122" height="56"/>
+<text x="494.0" y="230.0">AMF</text>
+<text x="494.0" y="249.0">接入移动性</text>
+<text x="494.0" y="268.0">管理功能</text>
+<rect class="node" x="564" y="221" width="103" height="56"/>
+<text x="615.5" y="239.5">PCF</text>
+<text x="615.5" y="258.5">策略控制功能</text>
+<rect class="node" x="674" y="221" width="109" height="56"/>
+<text x="728.5" y="230.0">NEF</text>
+<text x="728.5" y="249.0">网络能力</text>
+<text x="728.5" y="268.0">开放功能</text>
+<rect class="node" x="792" y="221" width="110" height="56"/>
+<text x="847.0" y="239.5">AF</text>
+<text x="847.0" y="258.5">应用功能</text>
+<rect class="node" x="593" y="312" width="153" height="41"/>
+<text x="669.5" y="323.0">SMF</text>
+<text x="669.5" y="342.0">（会话管理功能）</text>
+<rect class="node" x="593" y="378" width="153" height="41"/>
+<text x="669.5" y="389.0">UPF</text>
+<text x="669.5" y="408.0">（用户面功能）</text>
+<text x="974" y="433.5">Central DN</text>
+<text x="974" y="452.5">（中心DN）</text>
+<text x="200" y="266.5">Traffic Flow (to Edge App)</text>
+<text x="200" y="285.5">业务流（到边缘应用）</text>
+<text x="235" y="610.0">Traffic Flow (to Central App) · 业务流（到中心应用）</text>
+</svg>

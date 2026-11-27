@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 595 213" role="img" aria-labelledby="title desc">
+<title id="title">图 17-6 双核心广域网</title><desc id="desc">各局域网分别接至两个相互连接的核心。</desc>
+
+<g fill="none" stroke="#567c85" stroke-width="1.8">
+<path d="M184 176L66 100"/>
+<path d="M184 176L184 46"/>
+<path d="M184 176L420 46"/>
+<path d="M184 176L555 102"/>
+<path d="M405 176L66 100"/>
+<path d="M405 176L184 46"/>
+<path d="M405 176L420 46"/>
+<path d="M405 176L555 102"/>
+<path d="M184 176L405 176"/></g>
+<g font-family="Noto Sans CJK SC, sans-serif" fill="#173643">
+<rect x="13.5" y="84" width="105" height="32" rx="2" fill="#f6f9ee" stroke="#66848b" stroke-width="1.6"/>
+<text x="66" y="106" text-anchor="middle" font-size="17">局域网X</text>
+<rect x="131.5" y="30" width="105" height="32" rx="2" fill="#f6f9ee" stroke="#66848b" stroke-width="1.6"/>
+<text x="184" y="52" text-anchor="middle" font-size="17">局域网Y</text>
+<rect x="367.5" y="30" width="105" height="32" rx="2" fill="#f6f9ee" stroke="#66848b" stroke-width="1.6"/>
+<text x="420" y="52" text-anchor="middle" font-size="17">局域网Z</text>
+<text x="555" y="108" text-anchor="middle" font-size="17">……</text>
+<rect x="108.5" y="160" width="151" height="32" rx="2" fill="#edf6f8" stroke="#66848b" stroke-width="1.6"/>
+<text x="184" y="182" text-anchor="middle" font-size="17">核心路由设备1</text>
+<rect x="329.5" y="160" width="151" height="32" rx="2" fill="#edf6f8" stroke="#66848b" stroke-width="1.6"/>
+<text x="405" y="182" text-anchor="middle" font-size="17">核心路由设备2</text></g>
+</svg>

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 630 415" role="img" aria-labelledby="title desc">
+<title id="title">图 17-4 层次局域网模型</title><desc id="desc">核心、汇聚、接入和用户层，核心互连，两组汇聚和接入成对交叉上联。</desc>
+<rect x="64" y="8" width="446" height="58" rx="2" fill="#f8fafb" stroke="#66848b" stroke-width="1.6"/>
+<g fill="none" stroke="#567c85" stroke-width="1.8">
+<path d="M190 118L408 118"/>
+<path d="M190 118L140 37"/>
+<path d="M190 118L285 37"/>
+<path d="M190 118L440 37"/>
+<path d="M408 118L140 37"/>
+<path d="M408 118L285 37"/>
+<path d="M190 118L165 204"/>
+<path d="M190 118L405 204"/>
+<path d="M408 118L165 204"/>
+<path d="M408 118L405 204"/>
+<path d="M165 204L173 293"/>
+<path d="M165 204L405 293"/>
+<path d="M405 204L173 293"/>
+<path d="M405 204L405 293"/>
+<path d="M173 293L57 379"/>
+<path d="M173 293L170 379"/>
+<path d="M173 293L266 379"/>
+<path d="M405 293L360 379"/>
+<path d="M405 293L478 379"/>
+<path d="M405 293L590 379"/></g>
+<g font-family="Noto Sans CJK SC, sans-serif" fill="#173643">
+<rect x="84.0" y="21" width="112" height="32" rx="2" fill="#edf6f8" stroke="#66848b" stroke-width="1.6"/>
+<text x="140" y="43" text-anchor="middle" font-size="17">业务服务器</text>
+<rect x="229.0" y="21" width="112" height="32" rx="2" fill="#edf6f8" stroke="#66848b" stroke-width="1.6"/>
+<text x="285" y="43" text-anchor="middle" font-size="17">业务服务器</text>
+<text x="440" y="43" text-anchor="middle" font-size="17">……</text>
+<rect x="126.5" y="102" width="127" height="32" rx="2" fill="#edf6f8" stroke="#66848b" stroke-width="1.6"/>
+<text x="190" y="124" text-anchor="middle" font-size="17">核心交换设备</text>
+<rect x="344.5" y="102" width="127" height="32" rx="2" fill="#edf6f8" stroke="#66848b" stroke-width="1.6"/>
+<text x="408" y="124" text-anchor="middle" font-size="17">核心交换设备</text>
+<rect x="101.5" y="188" width="127" height="32" rx="2" fill="#edf6f8" stroke="#66848b" stroke-width="1.6"/>
+<text x="165" y="210" text-anchor="middle" font-size="17">汇聚交换设备</text>
+<rect x="341.5" y="188" width="127" height="32" rx="2" fill="#edf6f8" stroke="#66848b" stroke-width="1.6"/>
+<text x="405" y="210" text-anchor="middle" font-size="17">汇聚交换设备</text>
+<text x="580" y="210" text-anchor="middle" font-size="17">……</text>
+<text x="580" y="299" text-anchor="middle" font-size="17">……</text>
+<rect x="109.0" y="277" width="128" height="32" rx="2" fill="#edf6f8" stroke="#66848b" stroke-width="1.6"/>
+<text x="173" y="299" text-anchor="middle" font-size="17">接入交换设备</text>
+<rect x="341.0" y="277" width="128" height="32" rx="2" fill="#edf6f8" stroke="#66848b" stroke-width="1.6"/>
+<text x="405" y="299" text-anchor="middle" font-size="17">接入交换设备</text>
+<rect x="5.5" y="363" width="103" height="32" rx="2" fill="#edf6f8" stroke="#66848b" stroke-width="1.6"/>
+<text x="57" y="385" text-anchor="middle" font-size="17">用户设备</text>
+<rect x="118.5" y="363" width="103" height="32" rx="2" fill="#edf6f8" stroke="#66848b" stroke-width="1.6"/>
+<text x="170" y="385" text-anchor="middle" font-size="17">用户设备</text>
+<text x="266" y="385" text-anchor="middle" font-size="17">……</text>
+<rect x="308.5" y="363" width="103" height="32" rx="2" fill="#edf6f8" stroke="#66848b" stroke-width="1.6"/>
+<text x="360" y="385" text-anchor="middle" font-size="17">用户设备</text>
+<rect x="426.5" y="363" width="103" height="32" rx="2" fill="#edf6f8" stroke="#66848b" stroke-width="1.6"/>
+<text x="478" y="385" text-anchor="middle" font-size="17">用户设备</text>
+<text x="590" y="385" text-anchor="middle" font-size="17">……</text></g>
+</svg>
