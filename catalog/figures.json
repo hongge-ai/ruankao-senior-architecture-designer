@@ -1302,8 +1302,8 @@
    "asset": "assets/figures/textbook/ch06-database-design-fundamentals/figure-06-01.svg",
    "physical_page": 232,
    "printed_page": 223,
-   "record": "verification/教材首轮核查-第06章-数据库设计基础知识.md",
-   "note": "三级模式体系结构：顶部 5 个用户框（首标签印面即作「用户A?」，印刷问号照录；框内两行「主语」「+DML」）、外部视图A/B（左旁注 外模式）、外模式/概念模式映象A/B（印面「映象」照录）、概念视图（左旁注 概念模式）、概念模式/内模式映象、底部 6 圆柱数据库框（左旁注 内模式）、右侧 DBMS 大圆、左侧花括号旁注「由数据库管理员建立和维护」、三条水平虚线分层（视图层/逻辑层/物理层）。13 组连线及双/单向箭头逐条放大核对后描绘。干净上下文盲比：17 条连线数量、起止、汇聚、箭头方向逐条一致，文字逐字一致（图题行按仓库惯例留在正文，SVG 内不含题行）。"
+   "record": "verification/教材新版第二轮独立盲核记录-第06章.md",
+   "note": "五个用户框按A1/A2/A3及B1/B2分组，均为“主语言 + DML”；两外部视图、概念视图、六圆柱内部视图、DBMS、三条层次分隔、两级映射循电子页。首用户末字符形似问号，按同组序号订为1。"
   },
   {
    "id": "tb-fig-0093",
@@ -1316,8 +1316,8 @@
    "asset": "assets/figures/textbook/ch06-database-design-fundamentals/figure-t06-01.svg",
    "physical_page": 236,
    "printed_page": 227,
-   "record": "verification/教材首轮核查-第06章-数据库设计基础知识.md",
-   "note": "无边框四列布局（运算符/含义/运算符/含义）+分组标签照录。原书排印原貌照录：∩ 与「差」同行、交/连接/非/与/或 五格符号位空白留空；「并」行符号印面为方角 U 形（照录 U，不写 ∪）；「选择」行符号印面为正圆环形、无 σ 尾迹（照录 o；疑为 σ 退化印，见 errata tb-0061/勘误登记口径）。干净上下文盲比后修正两处符号字形（∪→U、σ→o）并复渲染。第二轮盲核发现原稿 × 行含义列作「笛卡尔积」，印面实为「笛卡儿积」（10× NEAREST；原书表内作「儿」、散文作「尔」），SVG 已改照录并复渲染。"
+   "record": "verification/教材OCR纠错记录-第6章.md",
+   "note": "两侧四组符号对照，重建页缺损依正文定义恢复。"
   },
   {
    "id": "tb-fig-0094",
@@ -1330,8 +1330,8 @@
    "asset": "assets/figures/textbook/ch06-database-design-fundamentals/figure-t06-02.svg",
    "physical_page": 241,
    "printed_page": 232,
-   "record": "verification/教材首轮核查-第06章-数据库设计基础知识.md",
-   "note": "三线表（顶粗线/表头细线/底粗线，5 条竖分隔线，无外侧竖边框），6 列 8 行数据逐格对照：S1/S2/S3/S4 与 精益/盛锡/东方红/泰达、200/300/480/168/500/300/280/460 全部核符。表题印面误拼 FITST，正文按勘误口径作 FIRST（errata tb-0074）。干净上下文盲比：表体逐格一致，题行按仓库惯例留在正文。"
+   "record": "verification/教材OCR纠错记录-第6章.md",
+   "note": "六列八个元组，按页图复核各字段及八行供应记录。"
   },
   {
    "id": "tb-fig-0095",
