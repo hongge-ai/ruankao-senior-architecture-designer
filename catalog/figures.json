@@ -1904,8 +1904,8 @@
    "asset": "assets/figures/textbook/ch09-software-reliability-fundamentals/figure-t09-01.svg",
    "physical_page": 318,
    "printed_page": 309,
-   "record": "verification/教材首轮核查-第09章-软件可靠性基础知识.md",
-   "note": "印面为一张表、左右两组并排4列(失效严重程度类|定义(人民币万元)×2),组间双竖线,左组行1/2/3、右组行4/5,右组第3行两格原书即空格;比较符>、<、≤逐格照录。清洗稿原拉直为2列5行MD表且无题注行,首轮补题注并复原。d1 批绘制,渲染自检通过。"
+   "record": "verification/教材OCR纠错记录-第9章.md",
+   "note": "四列五级；重建页中第5档上界为<，按相邻档闭上界一致规则补含0.1。"
   },
   {
    "id": "tb-fig-0136",
@@ -1918,8 +1918,8 @@
    "asset": "assets/figures/textbook/ch09-software-reliability-fundamentals/figure-t09-02.svg",
    "physical_page": 318,
    "printed_page": 309,
-   "record": "verification/教材首轮核查-第09章-软件可靠性基础知识.md",
-   "note": "两列4行;首列第1行印面仅存极淡短横残迹(30×不可辨,e91b-p318-30x-t92-r1c1-mark.png),按残迹照录留空,不得据文义补「1」;待高清复核。d1 批绘制,渲染自检通过。"
+   "record": "verification/教材OCR纠错记录-第9章.md",
+   "note": "两列四级；重建页首格残缺，依随后的2、3、4补1。"
   },
   {
    "id": "tb-fig-0137",
@@ -1932,8 +1932,8 @@
    "asset": "assets/figures/textbook/ch09-software-reliability-fundamentals/figure-t09-03.svg",
    "physical_page": 319,
    "printed_page": 310,
-   "record": "verification/教材首轮核查-第09章-软件可靠性基础知识.md",
-   "note": "四列4行;失效强度列负指数上标(10⁻⁶/10⁻⁴/10⁻¹)经22×–40×终读照录,第4行「1」无幂;行3「4 天」右下原书极小墨点不构成字符,未补写。d1 批绘制,渲染自检通过。第二轮盲核复验:行1上标仅存约6×8px墨迹、碗底闭口笔未显影,经页内全部数字字形结构比对仍定−6(−5/−9/−0等形态均有硬伤),残缺情况照录待高清复核。"
+   "record": "verification/教材OCR纠错记录-第9章.md",
+   "note": "整页原扫对象3667，四档可靠度及平均时间保留；在明示模型与1小时口径下，失效率列以每小时近似值呈现。"
   },
   {
    "id": "tb-fig-0138",
@@ -1946,8 +1946,8 @@
    "asset": "assets/figures/textbook/ch09-software-reliability-fundamentals/figure-09-01.svg",
    "physical_page": 320,
    "printed_page": 311,
-   "record": "verification/教材首轮核查-第09章-软件可靠性基础知识.md",
-   "note": "流程图:15矩形+2椭圆(实施测试、可靠性模型),五输入汇入实施测试,实施测试→测试问题集→排错后右侧回流线指回;测试数据→可靠性数据箭头旁注「分析」;无框区域标注「狭义的软件可靠性测试」「广义的软件可靠性测试」。清洗稿原以编者添加的图解读散文替代原图,随SVG落地移除。d1 批绘制,渲染自检通过。"
+   "record": "verification/教材OCR纠错记录-第9章.md",
+   "note": "电子重建页流程图，五项输入、实施测试、排错反馈、数据分析、建模及评价方向逐线复核。"
   },
   {
    "id": "tb-fig-0139",
@@ -1960,8 +1960,8 @@
    "asset": "assets/figures/textbook/ch09-software-reliability-fundamentals/figure-t09-04.svg",
    "physical_page": 333,
    "printed_page": 324,
-   "record": "verification/教材首轮核查-第09章-软件可靠性基础知识.md",
-   "note": "三列5行;行5描述格印面为「异常情况包括:」+圆点分行三项(硬件故障/网络故障/部分软件模块失效),末尾无「等」字(r-95 F44 裁决);行1两处「的」、行4三处「的」照印面。清洗稿原 MD 表行5合并三项并增「等」。d2 批绘制,渲染自检通过。"
+   "record": "verification/教材OCR纠错记录-第9章.md",
+   "note": "表9-4按印刷324重建页比对，三列、五项，异常情况细分三类。第二行提示的对象和第四行输入校验的作用已经澄清；成品实际栅格化。"
   },
   {
    "id": "tb-fig-0140",
