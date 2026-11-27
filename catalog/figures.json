@@ -1540,8 +1540,8 @@
    "asset": "assets/figures/textbook/ch07-architecture-design-fundamentals/figure-07-15.svg",
    "physical_page": 272,
    "printed_page": 263,
-   "record": "verification/教材OCR纠错记录-第7章.md",
-   "note": "解释引擎与程序当前状态交换数据，内部状态向引擎提供选定的指令和数据。存储器标签以三支粗箭头分别指出程序状态、被解释程序和引擎内部状态。"
+   "record": "verification/教材新版第二轮独立盲核记录-第07章.md",
+   "note": "解释引擎与程序当前状态交换数据，内部状态向引擎提供选定的指令和数据。存储器标签以三支粗箭头分别指出程序状态、被解释程序和引擎内部状态。 右上方的短线标注存储位置。"
   },
   {
    "id": "tb-fig-0110",
@@ -1568,8 +1568,8 @@
    "asset": "assets/figures/textbook/ch07-architecture-design-fundamentals/figure-07-17.svg",
    "physical_page": 274,
    "printed_page": 265,
-   "record": "verification/教材OCR纠错记录-第7章.md",
-   "note": "事件源发布事件，事件管理器将其分发给三个处理器。星形、三角形、圆角矩形和六边形是页图中区分节点的标记。"
+   "record": "verification/教材新版第二轮独立盲核记录-第07章.md",
+   "note": "事件源发布事件，事件管理器将其分发给三个处理器。星形、三角形、圆角矩形和六边形是页图中区分节点的标记。 管理器按页图绘为横向圆柱。"
   },
   {
    "id": "tb-fig-0112",

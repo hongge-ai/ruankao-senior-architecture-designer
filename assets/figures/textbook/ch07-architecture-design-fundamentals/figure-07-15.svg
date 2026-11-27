@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 570" width="900" height="570" role="img" aria-labelledby="fig07-15-title fig07-15-desc">
   <title id="fig07-15-title">图7-15 解释器体系结构风格</title>
-  <desc id="fig07-15-desc">解释引擎与程序当前状态交换数据，内部状态向引擎提供选定的指令和数据。存储器标签以三支粗箭头分别指出程序状态、被解释程序和引擎内部状态。</desc>
+  <desc id="fig07-15-desc">解释引擎与程序当前状态交换数据，内部状态向引擎提供选定的指令和数据。存储器标签以三支粗箭头分别指出程序状态、被解释程序和引擎内部状态。“数据存储”旁有一条朝右上方的短指示线。</desc>
   <defs>
     <marker id="fig07-15-ah" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0.5,0.8 L9.5,5 L0.5,9.2 Z" fill="#000000"/></marker>
   </defs>
@@ -49,6 +49,7 @@
     <!-- 下方大空心块箭头：左上向 -->
     <polygon points="509.9,438.9 487.1,333.4 493.9,331.9 478,315 470.5,337.1 477.3,335.7 500.1,441.1" fill="#ffffff" stroke="#000000" stroke-width="1.2"/>
     <!-- 数据存储、获取/存储 -->
+    <path d="M 482 519 L 529 505" fill="none" stroke="#555" stroke-width="2" marker-end="url(#fig07-15-ah)"/>
     <text x="475" y="546" text-anchor="middle" font-size="19">数据存储</text>
     <text x="600" y="546" text-anchor="middle" font-size="19">获取/存储</text>
   </g>
