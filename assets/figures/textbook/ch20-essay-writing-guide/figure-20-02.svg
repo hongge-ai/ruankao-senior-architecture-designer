@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="661" viewBox="0 0 520 661" role="img" aria-labelledby="title desc"><title id="title">论文答题纸样式2</title><desc id="desc">每行25格。第2页正文36行，两侧提示300、600、900字。</desc><rect width="520" height="661" fill="white"/>
+<text x="60" y="34" text-anchor="start" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#203e45">正文</text>
+<path d="M60 46v576 M76 46v576 M92 46v576 M108 46v576 M124 46v576 M140 46v576 M156 46v576 M172 46v576 M188 46v576 M204 46v576 M220 46v576 M236 46v576 M252 46v576 M268 46v576 M284 46v576 M300 46v576 M316 46v576 M332 46v576 M348 46v576 M364 46v576 M380 46v576 M396 46v576 M412 46v576 M428 46v576 M444 46v576 M460 46v576 M60 46h400 M60 62h400 M60 78h400 M60 94h400 M60 110h400 M60 126h400 M60 142h400 M60 158h400 M60 174h400 M60 190h400 M60 206h400 M60 222h400 M60 238h400 M60 254h400 M60 270h400 M60 286h400 M60 302h400 M60 318h400 M60 334h400 M60 350h400 M60 366h400 M60 382h400 M60 398h400 M60 414h400 M60 430h400 M60 446h400 M60 462h400 M60 478h400 M60 494h400 M60 510h400 M60 526h400 M60 542h400 M60 558h400 M60 574h400 M60 590h400 M60 606h400 M60 622h400" fill="none" stroke="#447c85" stroke-width="0.9"/>
+<text x="37" y="238" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#203e45">300</text>
+<text x="483" y="238" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#203e45">300</text>
+<text x="37" y="430" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#203e45">600</text>
+<text x="483" y="430" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#203e45">600</text>
+<text x="37" y="622" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#203e45">900</text>
+<text x="483" y="622" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#203e45">900</text>
+<text x="260" y="650" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#203e45">第2页</text>
+</svg>
