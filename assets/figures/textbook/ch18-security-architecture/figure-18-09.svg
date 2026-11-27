@@ -33,13 +33,13 @@
 <line x1="187" y1="288" x2="187" y2="312" stroke="#477786" stroke-width="1.6"/>
 <rect x="173" y="272" width="29" height="17" fill="#cbe8ef" stroke="#477786" stroke-width="1.5"/>
 <rect x="173" y="312" width="29" height="17" fill="#cbe8ef" stroke="#477786" stroke-width="1.5"/>
-<line x1="77" y1="236" x2="77" y2="272" stroke="#477786" stroke-width="1.6"/>
+<line x1="75" y1="235" x2="75" y2="251" stroke="#477786" stroke-width="1.6"/>
 <rect x="52" y="383" width="75" height="35" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
 <text x="89.5" y="405.26" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="14" fill="#173c48">电话</text>
 <rect x="123" y="447" width="102" height="35" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
 <text x="174.0" y="469.26" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="14" fill="#173c48">移动终端</text>
-<rect x="152" y="316" width="77" height="35" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
-<text x="190.5" y="338.26" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="14" fill="#173c48">计算机</text>
+<rect x="260" y="334" width="77" height="35" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="298.5" y="356.26" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="14" fill="#173c48">计算机</text>
 <text x="858" y="34" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">设施（包括局域网）</text>
 <rect x="746" y="55" width="228" height="448" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
 <line x1="778" y1="109" x2="945" y2="109" stroke="#477786" stroke-width="1.6"/>
@@ -72,13 +72,13 @@
 <line x1="910" y1="288" x2="910" y2="312" stroke="#477786" stroke-width="1.6"/>
 <rect x="896" y="272" width="29" height="17" fill="#cbe8ef" stroke="#477786" stroke-width="1.5"/>
 <rect x="896" y="312" width="29" height="17" fill="#cbe8ef" stroke="#477786" stroke-width="1.5"/>
-<line x1="800" y1="236" x2="800" y2="272" stroke="#477786" stroke-width="1.6"/>
+<line x1="910" y1="235" x2="910" y2="251" stroke="#477786" stroke-width="1.6"/>
 <rect x="775" y="383" width="75" height="35" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
 <text x="812.5" y="405.26" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="14" fill="#173c48">电话</text>
 <rect x="846" y="447" width="102" height="35" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
 <text x="897.0" y="469.26" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="14" fill="#173c48">移动终端</text>
-<rect x="875" y="316" width="77" height="35" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
-<text x="913.5" y="338.26" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="14" fill="#173c48">计算机</text>
+<rect x="662" y="334" width="77" height="35" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="700.5" y="356.26" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="14" fill="#173c48">计算机</text>
 <text x="500" y="34" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">网络连接设施</text>
 <rect x="356" y="55" width="288" height="448" fill="#cbe8ef" stroke="#477786" stroke-width="1.5"/>
 <rect x="370" y="78" width="260" height="41" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
@@ -100,7 +100,7 @@
 <path d="M215 203 L321 203 L321 204 L356 204" fill="none" stroke="#477786" stroke-width="1.6"/>
 <path d="M215 297 L312 297 L312 265 L356 265" fill="none" stroke="#477786" stroke-width="1.6"/>
 <path d="M215 297 L303 297 L303 325 L356 325" fill="none" stroke="#477786" stroke-width="1.6"/>
-<path d="M215 317 L293 369 L356 369" fill="none" stroke="#477786" stroke-width="1.6"/>
+<path d="M187 329 C192 377 263 389 338 389 H346 V424 H356" fill="none" stroke="#477786" stroke-width="1.6"/>
 <path d="M127 400 L322 400 L356 444" fill="none" stroke="#477786" stroke-width="1.6"/>
 <path d="M225 464 L326 464 L326 489 L356 489" fill="none" stroke="#477786" stroke-width="1.6"/>
 <path d="M314 491 L318 472 L322 491 Z" fill="#cbe8ef" stroke="#477786" stroke-width="1.6"/>
@@ -110,10 +110,11 @@
 <path d="M784 203 L679 203 L679 204 L644 204" fill="none" stroke="#477786" stroke-width="1.6"/>
 <path d="M784 297 L688 297 L688 265 L644 265" fill="none" stroke="#477786" stroke-width="1.6"/>
 <path d="M784 297 L697 297 L697 325 L644 325" fill="none" stroke="#477786" stroke-width="1.6"/>
-<path d="M784 317 L707 369 L644 369" fill="none" stroke="#477786" stroke-width="1.6"/>
+<path d="M798 329 C793 377 738 389 661 389 H654 V424 H644" fill="none" stroke="#477786" stroke-width="1.6"/>
 <path d="M775 400 L678 400 L644 444" fill="none" stroke="#477786" stroke-width="1.6"/>
 <path d="M846 464 L674 464 L674 489 L644 489" fill="none" stroke="#477786" stroke-width="1.6"/>
 <path d="M662 491 L666 472 L670 491 Z" fill="#cbe8ef" stroke="#477786" stroke-width="1.6"/>
 <path d="M670 491 L674 472 L678 491 Z" fill="#cbe8ef" stroke="#477786" stroke-width="1.6"/>
 <path d="M678 491 L682 472 L686 491 Z" fill="#cbe8ef" stroke="#477786" stroke-width="1.6"/>
+<path d="M75 251 H131 V272 M910 251 H854 V272" fill="none" stroke="#477786" stroke-width="1.6"/>
 </svg>

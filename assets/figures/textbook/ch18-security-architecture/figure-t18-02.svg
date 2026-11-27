@@ -46,6 +46,6 @@
 <rect x="275" y="338" width="215" height="85" fill="white" stroke="#477786" stroke-width="1.5"/>
 <text x="382.5" y="385.6" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">全部6类完整性约束</text>
 <rect x="490" y="338" width="523" height="85" fill="white" stroke="#477786" stroke-width="1.5"/>
-<text x="751.5" y="376.6" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">关系级动态约束可以通过调用包含事务的存储过程来实现。</text>
+<text x="751.5" y="376.6" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">触发器可调用存储过程检查关系级动态约束。</text>
 <text x="751.5" y="394.6" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">出现性能问题时，需要评估是否改由应用软件实现。</text>
 </svg>

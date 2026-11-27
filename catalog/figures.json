@@ -4285,7 +4285,7 @@
    "printed_page": 645,
    "note": "左右设施及局域网、公共与专用网络、两侧电话和无线基站。",
    "id": "tb-fig-0305",
-   "record": "verification/教材OCR纠错记录-第18章.md"
+   "record": "verification/教材第二轮独立盲核记录-第18章.md"
   },
   {
    "corpus": "textbook",
@@ -4493,7 +4493,7 @@
    "asset": "assets/figures/textbook/ch18-security-architecture/figure-t18-02.svg",
    "physical_page": 670,
    "printed_page": 663,
-   "record": "verification/教材OCR纠错记录-第18章.md",
+   "record": "verification/教材第二轮独立盲核记录-第18章.md",
    "note": "Oracle约束三栏六行；SQL外键删除动作按Oracle声明语法订正。表和可检索Markdown逐项同步。",
    "id": "tb-fig-0320"
   },
