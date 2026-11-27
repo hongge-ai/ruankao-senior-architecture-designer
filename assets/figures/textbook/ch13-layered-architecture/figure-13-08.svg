@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 715 169" role="img" aria-labelledby="title desc">
+  <title id="title">图 13-8 用于Product业务逻辑层实体的通用DataSet</title>
+  <desc id="desc">Product DataTable 及主键约束。扫描图约束标签作 UniqueConStraint，正文中的 API 名为 UniqueConstraint。</desc>
+  <style>
+    rect, ellipse, path, polygon {fill:#fff;stroke:#416573;stroke-width:2}
+    line {stroke:#416573;stroke-width:2}
+    text {font:20px "Noto Sans CJK SC","Microsoft YaHei",sans-serif;text-anchor:middle;fill:#16272e}
+  </style>
+  <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" style="stroke:none;fill:#416573"/></marker></defs>
+  <rect x="5" y="5" width="705" height="157" rx="20"/>
+  <rect x="30" y="21" width="181" height="124" rx="0"/>
+  <text x="120" y="44.0">Product DataTable</text>
+  <line x1="30" y1="52" x2="211" y2="52"/>
+  <line x1="30" y1="83" x2="211" y2="83"/>
+  <line x1="30" y1="114" x2="211" y2="114"/>
+  <rect x="306" y="59" width="181" height="51" rx="24"/><text x="396.5" y="91.5">UniqueConStraint</text>
+  <line x1="305" y1="84" x2="212" y2="84" marker-end="url(#a)"/>
+  <text x="598" y="57.0">将ProductID定义为</text><text x="598" y="82.0">Product Data Table</text><text x="598" y="107.0">中的主键</text>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 745 330" role="img" aria-labelledby="title desc">
+<title id="title">图 13-4 MVVM设计模式</title>
+<desc id="desc">保留View、ViewModel、Model及两组反向连线，DOM事件监听与DataBinding分列。</desc>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#3e666f"/></marker></defs>
+<g font-family="Noto Sans CJK SC, sans-serif" text-anchor="middle" fill="#172f38">
+<rect x="266" y="12" width="235" height="62" rx="2" fill="#eff7f9" stroke="#4a7481" stroke-width="1.5"/>
+<text x="383.5" y="37.0" font-size="19" >视图、观察者</text>
+<text x="383.5" y="61.0" font-size="19" >(View)</text>
+<rect x="12" y="238" width="210" height="66" rx="2" fill="#eff7f9" stroke="#4a7481" stroke-width="1.5"/>
+<text x="117.0" y="265.0" font-size="19" >视图模型</text>
+<text x="117.0" y="289.0" font-size="19" >(ViewModel)</text>
+<rect x="525" y="238" width="206" height="66" rx="2" fill="#eff7f9" stroke="#4a7481" stroke-width="1.5"/>
+<text x="628.0" y="265.0" font-size="19" >模型、被观察者</text>
+<text x="628.0" y="289.0" font-size="19" >(Model)</text>
+<path d="M276 75L107 234" fill="none" stroke="#3e666f" stroke-width="2" marker-end="url(#arr)"/>
+<path d="M159 234L316 77" fill="none" stroke="#3e666f" stroke-width="2" marker-end="url(#arr)"/>
+<text x="153" y="123.0" font-size="17" transform="rotate(-42 153 123)">DOM事件监听</text>
+<text x="246" y="178.0" font-size="17" transform="rotate(-42 246 178)">DataBinding</text>
+<path d="M222 260H520" fill="none" stroke="#3e666f" stroke-width="2" marker-end="url(#arr)"/>
+<path d="M525 282H226" fill="none" stroke="#3e666f" stroke-width="2" marker-end="url(#arr)"/>
+</g>
+</svg>

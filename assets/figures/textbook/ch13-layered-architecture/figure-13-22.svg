@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 696" role="img" aria-labelledby="title desc">
+<title id="title">图 13-22 电子小票物联网架构</title><desc id="desc">应用层各三种服务，网络层六项基础服务，感知层三项；两组互联网和一组 Wi-Fi/GPRS 均有双向箭头。</desc>
+<defs><marker id="a" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#456b7a"/></marker></defs>
+<g font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" fill="#192d38">
+<rect x="12" y="12" width="932" height="281" fill="white" stroke="#638797" stroke-width="1.4"/>
+<rect x="12" y="12" width="70" height="281" fill="#f8fcfd" stroke="#638797" stroke-width="1.4"/>
+<text x="47.0" y="135.6" text-anchor="middle" font-size="19">应</text>
+<text x="47.0" y="158.6" text-anchor="middle" font-size="19">用</text>
+<text x="47.0" y="181.6" text-anchor="middle" font-size="19">层</text>
+<polyline points="515,12 515,293" fill="none" stroke="#456b7a" stroke-width="1.8"/>
+<text x="293" y="48.7" text-anchor="middle" font-size="21">云平台小票服务</text>
+<rect x="158" y="67" width="270" height="58" fill="#f8fcfd" stroke="#638797" stroke-width="1.4"/>
+<text x="293.0" y="102.1" text-anchor="middle" font-size="19">小票实时推送</text>
+<rect x="158" y="138" width="270" height="58" fill="#f8fcfd" stroke="#638797" stroke-width="1.4"/>
+<text x="293.0" y="173.1" text-anchor="middle" font-size="19">历史小票查询</text>
+<rect x="158" y="209" width="270" height="58" fill="#f8fcfd" stroke="#638797" stroke-width="1.4"/>
+<text x="293.0" y="244.1" text-anchor="middle" font-size="19">会员积分查询</text>
+<text x="732" y="48.7" text-anchor="middle" font-size="21">云平台数据服务</text>
+<rect x="597" y="67" width="270" height="58" fill="#f8fcfd" stroke="#638797" stroke-width="1.4"/>
+<text x="732.0" y="90.6" text-anchor="middle" font-size="19">可视化经营</text>
+<text x="732.0" y="113.6" text-anchor="middle" font-size="19">数据管理</text>
+<rect x="597" y="138" width="270" height="58" fill="#f8fcfd" stroke="#638797" stroke-width="1.4"/>
+<text x="732.0" y="173.1" text-anchor="middle" font-size="19">用户精准推荐</text>
+<rect x="597" y="209" width="270" height="58" fill="#f8fcfd" stroke="#638797" stroke-width="1.4"/>
+<text x="732.0" y="244.1" text-anchor="middle" font-size="19">区域畅销品排名</text>
+<polyline points="290,294 290,354" fill="none" stroke="#456b7a" stroke-width="1.8" marker-end="url(#a)" marker-start="url(#a)"/>
+<text x="337" y="328.1" text-anchor="middle" font-size="16">互联网</text>
+<polyline points="733,294 733,354" fill="none" stroke="#456b7a" stroke-width="1.8" marker-end="url(#a)" marker-start="url(#a)"/>
+<text x="780" y="328.1" text-anchor="middle" font-size="16">互联网</text>
+<rect x="12" y="355" width="932" height="136" fill="white" stroke="#638797" stroke-width="1.4"/>
+<rect x="12" y="355" width="70" height="136" fill="#f8fcfd" stroke="#638797" stroke-width="1.4"/>
+<text x="47.0" y="406.1" text-anchor="middle" font-size="19">网</text>
+<text x="47.0" y="429.1" text-anchor="middle" font-size="19">络</text>
+<text x="47.0" y="452.1" text-anchor="middle" font-size="19">层</text>
+<text x="508" y="388.7" text-anchor="middle" font-size="21">电子小票云平台基础服务</text>
+<rect x="96" y="405" width="127" height="68" fill="#f8fcfd" stroke="#638797" stroke-width="1.4"/>
+<text x="159.5" y="433.9" text-anchor="middle" font-size="17">数据传输</text>
+<text x="159.5" y="454.9" text-anchor="middle" font-size="17">与处理</text>
+<rect x="237" y="405" width="127" height="68" fill="#f8fcfd" stroke="#638797" stroke-width="1.4"/>
+<text x="300.5" y="444.4" text-anchor="middle" font-size="17">数据存储</text>
+<rect x="378" y="405" width="127" height="68" fill="#f8fcfd" stroke="#638797" stroke-width="1.4"/>
+<text x="441.5" y="433.9" text-anchor="middle" font-size="17">智能硬件</text>
+<text x="441.5" y="454.9" text-anchor="middle" font-size="17">设备管理</text>
+<rect x="519" y="405" width="127" height="68" fill="#f8fcfd" stroke="#638797" stroke-width="1.4"/>
+<text x="582.5" y="444.4" text-anchor="middle" font-size="17">商家管理</text>
+<rect x="660" y="405" width="127" height="68" fill="#f8fcfd" stroke="#638797" stroke-width="1.4"/>
+<text x="723.5" y="444.4" text-anchor="middle" font-size="17">会员管理</text>
+<rect x="801" y="405" width="127" height="68" fill="#f8fcfd" stroke="#638797" stroke-width="1.4"/>
+<text x="864.5" y="444.4" text-anchor="middle" font-size="17">商品管理</text>
+<polyline points="493,492 493,551" fill="none" stroke="#456b7a" stroke-width="1.8" marker-end="url(#a)" marker-start="url(#a)"/>
+<text x="586" y="525.4" text-anchor="middle" font-size="17">Wi-Fi / GPRS传输</text>
+<rect x="12" y="552" width="932" height="128" fill="white" stroke="#638797" stroke-width="1.4"/>
+<rect x="12" y="552" width="70" height="128" fill="#f8fcfd" stroke="#638797" stroke-width="1.4"/>
+<text x="47.0" y="599.1" text-anchor="middle" font-size="19">感</text>
+<text x="47.0" y="622.1" text-anchor="middle" font-size="19">知</text>
+<text x="47.0" y="645.1" text-anchor="middle" font-size="19">层</text>
+<text x="512" y="582.1" text-anchor="middle" font-size="19">小票智能硬件（采集收银机待打印的购物小票）</text>
+<rect x="170" y="602" width="166" height="55" fill="#f8fcfd" stroke="#638797" stroke-width="1.4"/>
+<text x="253.0" y="635.6" text-anchor="middle" font-size="19">系统设计</text>
+<rect x="437" y="602" width="166" height="55" fill="#f8fcfd" stroke="#638797" stroke-width="1.4"/>
+<text x="520.0" y="635.6" text-anchor="middle" font-size="19">驱动程序</text>
+<rect x="705" y="602" width="166" height="55" fill="#f8fcfd" stroke="#638797" stroke-width="1.4"/>
+<text x="788.0" y="635.6" text-anchor="middle" font-size="19">控制程序</text>
+</g></svg>

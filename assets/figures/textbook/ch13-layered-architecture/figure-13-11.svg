@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 515 565" role="img" aria-labelledby="title desc">
+  <title id="title">图 13-11 在线访问模式</title>
+  <desc id="desc">两个客户端间的四组跨界往返。与相邻 DTO 图互证补全 getter 括号。</desc>
+  <style>
+    rect, ellipse, path, polygon {fill:#fff;stroke:#416573;stroke-width:2}
+    line {stroke:#416573;stroke-width:2}
+    text {font:20px "Noto Sans CJK SC","Microsoft YaHei",sans-serif;text-anchor:middle;fill:#16272e}
+  </style>
+  <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" style="stroke:none;fill:#416573"/></marker></defs>
+  <rect x="15" y="52" width="115" height="45" rx="0"/><text x="72.5" y="81.5">aClient</text>
+  <rect x="380" y="52" width="115" height="45" rx="0"/><text x="437.5" y="81.5">:aClient</text>
+  <line x1="73" y1="98" x2="73" y2="549"/>
+  <line x1="437" y1="98" x2="437" y2="549"/>
+  <line x1="333" y1="41" x2="333" y2="545"/>
+  <text x="333" y="27.0">进程边界</text>
+  <rect x="63" y="141" width="20" height="376" rx="0"/>
+  <rect x="427" y="141" width="20" height="45" rx="0"/>
+  <line x1="84" y1="141" x2="426" y2="141" marker-end="url(#a)"/>
+  <line x1="426" y1="186" x2="84" y2="186" marker-end="url(#a)"/>
+  <text x="211" y="131.0">GetTitle()</text>
+  <rect x="427" y="251" width="20" height="45" rx="0"/>
+  <line x1="84" y1="251" x2="426" y2="251" marker-end="url(#a)"/>
+  <line x1="426" y1="296" x2="84" y2="296" marker-end="url(#a)"/>
+  <text x="211" y="241.0">GetFirstName()</text>
+  <rect x="427" y="361" width="20" height="45" rx="0"/>
+  <line x1="84" y1="361" x2="426" y2="361" marker-end="url(#a)"/>
+  <line x1="426" y1="406" x2="84" y2="406" marker-end="url(#a)"/>
+  <text x="211" y="351.0">GetMiddleName()</text>
+  <rect x="427" y="471" width="20" height="45" rx="0"/>
+  <line x1="84" y1="471" x2="426" y2="471" marker-end="url(#a)"/>
+  <line x1="426" y1="516" x2="84" y2="516" marker-end="url(#a)"/>
+  <text x="211" y="461.0">GetLastName()</text>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1025 457" role="img" aria-labelledby="title desc">
+<title id="title">图 13-20 业务逻辑层的模块结构图</title><desc id="desc">BLL 依赖 IBLLStrategy、DALFactory、IDAL、Model；两个折角说明框解释策略和核心业务。</desc>
+<defs><marker id="a" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#456b7a"/></marker></defs>
+<g font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" fill="#192d38">
+<rect x="85" y="52" width="80.64" height="16" fill="white" stroke="#638797" stroke-width="1.4"/>
+<rect x="85" y="68" width="252" height="95" fill="#f8fcfd" stroke="#638797" stroke-width="1.4"/>
+<text x="211.0" y="121.6" text-anchor="middle" font-size="19">IBLLStrategy</text>
+<rect x="443" y="193" width="62.72" height="16" fill="white" stroke="#638797" stroke-width="1.4"/>
+<rect x="443" y="209" width="196" height="80" fill="#f8fcfd" stroke="#638797" stroke-width="1.4"/>
+<text x="541.0" y="255.1" text-anchor="middle" font-size="19">BLL</text>
+<rect x="20" y="360" width="72.0" height="16" fill="white" stroke="#638797" stroke-width="1.4"/>
+<rect x="20" y="376" width="225" height="62" fill="#f8fcfd" stroke="#638797" stroke-width="1.4"/>
+<text x="132.5" y="413.1" text-anchor="middle" font-size="19">DALFactory</text>
+<rect x="435" y="360" width="65.6" height="16" fill="white" stroke="#638797" stroke-width="1.4"/>
+<rect x="435" y="376" width="205" height="62" fill="#f8fcfd" stroke="#638797" stroke-width="1.4"/>
+<text x="537.5" y="413.1" text-anchor="middle" font-size="19">IDAL</text>
+<rect x="845" y="360" width="51.84" height="16" fill="white" stroke="#638797" stroke-width="1.4"/>
+<rect x="845" y="376" width="162" height="62" fill="#f8fcfd" stroke="#638797" stroke-width="1.4"/>
+<text x="926.0" y="413.1" text-anchor="middle" font-size="19">Model</text>
+<polyline points="443,250 383,250 383,139 230,139" fill="none" stroke="#456b7a" stroke-width="1.8" marker-end="url(#a)" stroke-dasharray="5 4"/>
+<polyline points="466,289 466,321 125,321 125,375" fill="none" stroke="#456b7a" stroke-width="1.8" marker-end="url(#a)" stroke-dasharray="5 4"/>
+<polyline points="539,289 539,331 539,331 539,375" fill="none" stroke="#456b7a" stroke-width="1.8" marker-end="url(#a)" stroke-dasharray="5 4"/>
+<polyline points="616,289 616,321 921,321 921,375" fill="none" stroke="#456b7a" stroke-width="1.8" marker-end="url(#a)" stroke-dasharray="5 4"/>
+<path d="M249 11 h292 l15 15 v56 h-307 z M541 11 v15 h15" stroke="#618592" fill="#f2f8fa"/>
+<text x="402.5" y="41.4" text-anchor="middle" font-size="17">业务逻辑层对业务</text>
+<text x="402.5" y="62.4" text-anchor="middle" font-size="17">策略的抽象封装</text>
+<path d="M588 143 h397 l15 15 v53 h-412 z M985 143 v15 h15" stroke="#618592" fill="#f2f8fa"/>
+<text x="794.0" y="171.9" text-anchor="middle" font-size="17">业务逻辑层。核心的业</text>
+<text x="794.0" y="192.9" text-anchor="middle" font-size="17">务代码都在本模块中</text>
+</g></svg>

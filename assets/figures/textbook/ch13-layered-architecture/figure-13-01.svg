@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 695 333" role="img" aria-labelledby="title desc">
+<title id="title">图 13-1 常用的层次式架构</title>
+<desc id="desc">Request依次穿过四个封闭层，上三层各四组件，下层四个数据存储。</desc>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#3e666f"/></marker></defs>
+<g font-family="Noto Sans CJK SC, sans-serif" text-anchor="middle" fill="#172f38">
+<text x="123" y="26.0" font-size="19" >Request</text>
+<rect x="10" y="45" width="675" height="55" rx="2" fill="#dceff2" stroke="#4a7481" stroke-width="1.5"/>
+<text x="63" y="78.0" font-size="19" >表现层</text>
+<text x="645" y="79.0" font-size="19" >封闭</text>
+<rect x="162" y="55" width="87" height="35" rx="2" fill="white" stroke="#4a7481" stroke-width="1.5"/>
+<text x="205.5" y="78.5" font-size="19" >组件</text>
+<rect x="273" y="55" width="87" height="35" rx="2" fill="white" stroke="#4a7481" stroke-width="1.5"/>
+<text x="316.5" y="78.5" font-size="19" >组件</text>
+<rect x="384" y="55" width="87" height="35" rx="2" fill="white" stroke="#4a7481" stroke-width="1.5"/>
+<text x="427.5" y="78.5" font-size="19" >组件</text>
+<rect x="495" y="55" width="87" height="35" rx="2" fill="white" stroke="#4a7481" stroke-width="1.5"/>
+<text x="538.5" y="78.5" font-size="19" >组件</text>
+<rect x="10" y="118" width="675" height="55" rx="2" fill="#dceff2" stroke="#4a7481" stroke-width="1.5"/>
+<text x="63" y="151.0" font-size="19" >中间层</text>
+<text x="645" y="152.0" font-size="19" >封闭</text>
+<rect x="162" y="128" width="87" height="35" rx="2" fill="white" stroke="#4a7481" stroke-width="1.5"/>
+<text x="205.5" y="151.5" font-size="19" >组件</text>
+<rect x="273" y="128" width="87" height="35" rx="2" fill="white" stroke="#4a7481" stroke-width="1.5"/>
+<text x="316.5" y="151.5" font-size="19" >组件</text>
+<rect x="384" y="128" width="87" height="35" rx="2" fill="white" stroke="#4a7481" stroke-width="1.5"/>
+<text x="427.5" y="151.5" font-size="19" >组件</text>
+<rect x="495" y="128" width="87" height="35" rx="2" fill="white" stroke="#4a7481" stroke-width="1.5"/>
+<text x="538.5" y="151.5" font-size="19" >组件</text>
+<rect x="10" y="191" width="675" height="55" rx="2" fill="#dceff2" stroke="#4a7481" stroke-width="1.5"/>
+<text x="63" y="224.0" font-size="19" >访问层</text>
+<text x="645" y="225.0" font-size="19" >封闭</text>
+<rect x="162" y="201" width="87" height="35" rx="2" fill="white" stroke="#4a7481" stroke-width="1.5"/>
+<text x="205.5" y="224.5" font-size="19" >组件</text>
+<rect x="273" y="201" width="87" height="35" rx="2" fill="white" stroke="#4a7481" stroke-width="1.5"/>
+<text x="316.5" y="224.5" font-size="19" >组件</text>
+<rect x="384" y="201" width="87" height="35" rx="2" fill="white" stroke="#4a7481" stroke-width="1.5"/>
+<text x="427.5" y="224.5" font-size="19" >组件</text>
+<rect x="495" y="201" width="87" height="35" rx="2" fill="white" stroke="#4a7481" stroke-width="1.5"/>
+<text x="538.5" y="224.5" font-size="19" >组件</text>
+<rect x="10" y="264" width="675" height="55" rx="2" fill="#dceff2" stroke="#4a7481" stroke-width="1.5"/>
+<text x="63" y="297.0" font-size="19" >数据层</text>
+<text x="645" y="298.0" font-size="19" >封闭</text>
+<path d="M170 282a35 6 0 0 1 70 0v20a35 6 0 0 1 -70 0z" fill="#f5fafb" stroke="#4a7481"/><ellipse cx="205" cy="282" rx="35" ry="6" fill="#e0eff1" stroke="#4a7481"/><path d="M281 282a35 6 0 0 1 70 0v20a35 6 0 0 1 -70 0z" fill="#f5fafb" stroke="#4a7481"/><ellipse cx="316" cy="282" rx="35" ry="6" fill="#e0eff1" stroke="#4a7481"/><path d="M392 282a35 6 0 0 1 70 0v20a35 6 0 0 1 -70 0z" fill="#f5fafb" stroke="#4a7481"/><ellipse cx="427" cy="282" rx="35" ry="6" fill="#e0eff1" stroke="#4a7481"/><path d="M503 282a35 6 0 0 1 70 0v20a35 6 0 0 1 -70 0z" fill="#f5fafb" stroke="#4a7481"/><ellipse cx="538" cy="282" rx="35" ry="6" fill="#e0eff1" stroke="#4a7481"/><path d="M123 31V73" fill="none" stroke="#3e666f" stroke-width="2" marker-end="url(#arr)"/>
+<path d="M123 98V146" fill="none" stroke="#3e666f" stroke-width="2" marker-end="url(#arr)"/>
+<path d="M123 171V219" fill="none" stroke="#3e666f" stroke-width="2" marker-end="url(#arr)"/>
+<path d="M123 244V292" fill="none" stroke="#3e666f" stroke-width="2" marker-end="url(#arr)"/>
+</g>
+</svg>

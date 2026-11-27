@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1070 465" role="img" aria-labelledby="title desc">
+<title id="title">图 13-3 MVP设计模式</title>
+<desc id="desc">保留用户、View、Presenter、Model及编号1至7的方向和线型。</desc>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#3e666f"/></marker></defs>
+<g font-family="Noto Sans CJK SC, sans-serif" text-anchor="middle" fill="#172f38">
+<ellipse cx="550" cy="64" rx="101" ry="47" fill="#eff7f9" stroke="#4a7481" stroke-width="1.5"/>
+<text x="550" y="70.0" font-size="19" >Presenter</text>
+<ellipse cx="309" cy="358" rx="90" ry="49" fill="#eff7f9" stroke="#4a7481" stroke-width="1.5"/>
+<text x="309" y="364.0" font-size="19" >View</text>
+<ellipse cx="862" cy="358" rx="90" ry="49" fill="#eff7f9" stroke="#4a7481" stroke-width="1.5"/>
+<text x="862" y="364.0" font-size="19" >Model</text>
+<g fill="none" stroke="#446c75" stroke-width="2"><circle cx="47" cy="307" r="12"/><path d="M47 319v60m-20-42h40m-20 42l-17 30m17-30 17 30"/></g><path d="M75 339H220" fill="none" stroke="#3e666f" stroke-width="2" marker-end="url(#arr)"/>
+<text x="149" y="325.0" font-size="16" >1: makes action</text>
+<path d="M220 380H78" fill="none" stroke="#3e666f" stroke-width="2" marker-end="url(#arr)" stroke-dasharray="5 4"/>
+<text x="148" y="404.0" font-size="16" >7: rendered output</text>
+<path d="M278 310L462 84" fill="none" stroke="#3e666f" stroke-width="2" marker-end="url(#arr)" stroke-dasharray="5 4"/>
+<text x="285" y="163.5" font-size="16" >2: action</text>
+<text x="285" y="184.5" font-size="16" >notification</text>
+<path d="M506 107L337 306" fill="none" stroke="#3e666f" stroke-width="2" marker-end="url(#arr)" stroke-dasharray="5 4"/>
+<text x="443" y="163.5" font-size="16" paint-order="stroke" stroke="white" stroke-width="6">5: notification of</text>
+<text x="443" y="184.5" font-size="16" paint-order="stroke" stroke="white" stroke-width="6">Model changes</text>
+<path d="M392 335L572 114" fill="none" stroke="#3e666f" stroke-width="2" marker-end="url(#arr)" stroke-dasharray="5 4"/>
+<text x="474" y="303.0" font-size="16" >6: rendering</text>
+<path d="M648 78L869 306" fill="none" stroke="#3e666f" stroke-width="2" marker-end="url(#arr)"/>
+<text x="870" y="147.0" font-size="16" >3: updates the model</text>
+<text x="870" y="168.0" font-size="16" >(use View as a</text>
+<text x="870" y="189.0" font-size="16" >change’s store)</text>
+<path d="M797 320L604 105" fill="none" stroke="#3e666f" stroke-width="2" marker-end="url(#arr)"/>
+<text x="652" y="244.5" font-size="16" >4: gets updated</text>
+<text x="652" y="265.5" font-size="16" >data</text>
+</g>
+</svg>

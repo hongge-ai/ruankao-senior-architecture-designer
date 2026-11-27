@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 373" role="img" aria-labelledby="title desc">
+<title id="title">图 13-16 PetShop 2.0的体系架构</title><desc id="desc">两层框内列 C# 构件、企业服务器和 DAAB，底部两组 SQL Server 2000；电子底本无可见的上下数据库箭头。</desc>
+<defs><marker id="a" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#456b7a"/></marker></defs>
+<g font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" fill="#192d38">
+<rect x="14" y="14" width="669" height="243" fill="white" stroke="#638797" stroke-width="1.4"/>
+<text x="103" y="73.1" text-anchor="middle" font-size="19">表示层</text>
+<text x="103" y="173.1" text-anchor="middle" font-size="19">业务逻辑层</text>
+<rect x="195" y="35" width="456" height="64" fill="#f8fcfd" stroke="#638797" stroke-width="1.4"/>
+<text x="423.0" y="73.1" text-anchor="middle" font-size="19">ASP.NET Web Forms</text>
+<rect x="216" y="95" width="415" height="105" fill="white" stroke="#638797" stroke-width="1.4"/>
+<text x="422" y="126.1" text-anchor="middle" font-size="19">C#构件</text>
+<rect x="232" y="145" width="234" height="40" fill="#f8fcfd" stroke="#638797" stroke-width="1.4"/>
+<text x="349.0" y="171.1" text-anchor="middle" font-size="19">企业服务器</text>
+<rect x="502" y="199" width="129" height="57" fill="#f8fcfd" stroke="#638797" stroke-width="1.4"/>
+<text x="566.5" y="233.6" text-anchor="middle" font-size="19">DAAB</text>
+<rect x="149" y="279" width="236" height="76" fill="#f8fcfd" stroke="#638797" stroke-width="1.4"/>
+<text x="267.0" y="311.6" text-anchor="middle" font-size="19">SQL Server 2000</text>
+<text x="267.0" y="334.6" text-anchor="middle" font-size="19">账目，产品</text>
+<rect x="422" y="279" width="236" height="76" fill="#f8fcfd" stroke="#638797" stroke-width="1.4"/>
+<text x="540.0" y="311.6" text-anchor="middle" font-size="19">SQL Server 2000</text>
+<text x="540.0" y="334.6" text-anchor="middle" font-size="19">订单</text>
+</g></svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 279 255" role="img" aria-labelledby="title desc">
+<title id="title">图 13-21 表示层的模块结构</title><desc id="desc">Web Component 到 BLL 的向下虚线单箭头。</desc>
+<defs><marker id="a" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#456b7a"/></marker></defs>
+<g font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" fill="#192d38">
+<rect x="32" y="13" width="69.44" height="16" fill="white" stroke="#638797" stroke-width="1.4"/>
+<rect x="32" y="29" width="217" height="66" fill="#f8fcfd" stroke="#638797" stroke-width="1.4"/>
+<text x="140.5" y="68.1" text-anchor="middle" font-size="19">Web Component</text>
+<rect x="70" y="161" width="45.76" height="16" fill="white" stroke="#638797" stroke-width="1.4"/>
+<rect x="70" y="177" width="143" height="63" fill="#f8fcfd" stroke="#638797" stroke-width="1.4"/>
+<text x="141.5" y="214.6" text-anchor="middle" font-size="19">BLL</text>
+<polyline points="141,95 141,176" fill="none" stroke="#456b7a" stroke-width="1.8" marker-end="url(#a)" stroke-dasharray="5 4"/>
+</g></svg>
