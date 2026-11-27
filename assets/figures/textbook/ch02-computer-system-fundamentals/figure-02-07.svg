@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="700" height="330" viewBox="0 0 700 330" font-family="sans-serif">
   <title>图 2-7 位示图例</title>
-  <desc>复原自《系统架构设计师教程（第2版）》印刷页 39（物理页 48）插图。位示图示例：第0字至第3字与第n-1字共五行，每行九个格位（含省略号格），格内为 0/1 位串；第3字与第n-1字之间为省略行。位串经与扫描件逐格核对。</desc>
+  <desc>复原自《系统架构设计师教程（第2版）》印刷页 39（物理页 48）插图。位示图示例：第0字至第3字与第n-1字共五行，每行九个格位（含省略号格），格内为 0/1 位串；第3字与第n-1字之间为省略行。位串经与电子重建页逐格核对。</desc>
   <rect width="700" height="330" fill="#ffffff"/>
   <g fill="none" stroke="#7d8da5" stroke-width="1.8">
     <rect x="110" y="30" width="468" height="184"/>

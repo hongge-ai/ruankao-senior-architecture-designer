@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="880" height="360" viewBox="0 0 880 360" font-family="sans-serif">
   <title>图 2-22 5G网络切片组成</title>
-  <desc>复原自《系统架构设计师教程（第2版）》印刷页 70（物理页 79）插图。中央 5G网络云（内含 eMBB切片、mMTC切片、uRLLC切片三个标签）；左侧三个业务群体：移动宽带、海量物联网、关键性任务物联网；右侧三个应用示例框：通信、互联网；物流、农业、气候等；无人驾驶、工厂等。业务群体与云之间为虚线，云与应用示例之间为实线。</desc>
+  <desc>复原自《系统架构设计师教程（第2版）》印刷页 70（物理页 79）插图。中央 5G网络云（内含 eMBB切片、mMTC切片、URLLC切片三个标签）；左侧三个业务群体：移动宽带、海量物联网、关键性任务物联网；右侧三个应用示例框：通信、互联网；物流、农业、气候等；无人驾驶、工厂等。业务群体与云之间为虚线，云与应用示例之间为实线。</desc>
   <rect width="880" height="360" fill="#ffffff"/>
   <!-- 5G 网络（云形） -->
   <path d="M400 90 C340 80 300 110 310 145 C270 150 260 200 300 220 C290 260 340 285 390 270 C420 300 500 300 530 270 C590 285 640 255 625 215 C670 195 660 130 610 120 C615 80 545 60 505 85 C475 60 420 65 400 90 Z"
@@ -13,9 +13,9 @@
   <g font-size="16" fill="#1f2937" text-anchor="middle">
     <text x="495" y="113">eMBB切片</text>
     <text x="505" y="168">mMTC切片</text>
-    <text x="495" y="223">uRLLC切片</text>
+    <text x="495" y="223">URLLC切片</text>
   </g>
-  <text x="480" y="300" text-anchor="middle" font-size="16" fill="#1f2937">5G网络</text>
+  <text x="480" y="317" text-anchor="middle" font-size="16" fill="#1f2937">5G网络</text>
   <!-- 左侧业务群体 -->
   <g font-size="17" fill="#1f2937">
     <text x="255" y="70" text-anchor="end">移动宽带</text>

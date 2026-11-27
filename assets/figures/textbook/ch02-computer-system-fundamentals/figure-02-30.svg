@@ -5,6 +5,6 @@
   <line x1="150" y1="75" x2="410" y2="75" stroke="#556070" stroke-width="2"/>
   <text x="205" y="45" font-size="16" fill="#1f2937">0..1</text>
   <text x="392" y="45" font-size="16" fill="#1f2937">0..*</text>
-  <text x="130" y="82" font-size="17" fill="#1f2937">employer</text>
-  <text x="408" y="82" font-size="17" fill="#1f2937">employee</text>
+  <text x="130" y="100" font-size="17" fill="#1f2937">employer</text>
+  <text x="408" y="100" font-size="17" fill="#1f2937">employee</text>
 </svg>

@@ -49,8 +49,8 @@
     <line x1="392" y1="338" x2="392" y2="319" marker-end="url(#e24)"/>
     <line x1="453" y1="268" x2="474" y2="250" marker-end="url(#e24)"/>
     <line x1="499" y1="198" x2="550" y2="179" marker-end="url(#e24)"/>
-    <line x1="572" y1="128" x2="626" y2="62" marker-end="url(#e24)"/>
-    <line x1="679" y1="58" x2="716" y2="-9" marker-end="url(#e24)"/>
+    <line x1="572" y1="128" x2="602" y2="106" marker-end="url(#e24)"/>
+    <line x1="679" y1="58" x2="698" y2="36" marker-end="url(#e24)"/>
   </g>
   <!-- 三方法汇入 -->
   <g stroke="#7d8da5" stroke-width="2" fill="none">

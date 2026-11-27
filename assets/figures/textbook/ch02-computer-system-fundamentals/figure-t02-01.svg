@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="680" height="300" viewBox="0 0 680 300" font-family="sans-serif">
   <title>表 2-1 空闲区表</title>
-  <desc>复原自《系统架构设计师教程（第2版）》印刷页 39（物理页 48）表格。四列：序号、第1个空闲块号、空闲块数、状态；三行可用（18/5、29/8、105/19）与一行未用（—/—）。单元格内容经扫描件逐格核对。</desc>
+  <desc>复原自《系统架构设计师教程（第2版）》印刷页 39（物理页 48）表格。四列：序号、第1个空闲块号、空闲块数、状态；三行可用（18/5、29/8、105/19）与一行未用（—/—）。单元格内容经电子重建页逐格核对。</desc>
   <rect width="680" height="300" fill="#ffffff"/>
   <rect x="40" y="30" width="590" height="168" fill="#f6f9fd" stroke="#556070" stroke-width="1.5"/>
   <rect x="40" y="30" width="590" height="36" fill="#dce6f3" stroke="#556070" stroke-width="1.5"/>

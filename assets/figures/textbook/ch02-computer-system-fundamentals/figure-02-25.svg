@@ -75,7 +75,7 @@
     <rect x="555" y="245" width="180" height="105"/>
   </g>
   <g font-size="16" fill="#1f2937">
-    <text x="575" y="282">&lt;&lt;artifact&gt;&gt;[</text>
+    <text x="575" y="282">&lt;&lt;artifact&gt;&gt;</text>
     <text x="605" y="312">制品名</text>
   </g>
   <g fill="#ffffff" stroke="#556070" stroke-width="2">

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560" font-family="sans-serif">
   <title>图 2-21 5G网络的系统架构</title>
-  <desc>复原自《系统架构设计师教程（第2版）》印刷页 69（物理页 78）插图。上排六个控制面网元 NSSF、NEF、NRF、PCF、UDM、AF 经各自服务化接口（Nnssf、Nnef、Nnrf、Npcf、Nudm、Naf）接入一条水平服务化接口总线；AUSF、AMF、SMF 经 Nausf、Namf、Nsmf 接入同一总线。下排 UE—(R)AN—UPF—DN 依次经 N1、N2、N3、N4、N6 接口相连（UE 经 N1 至 AMF，AMF 经 N2 至 (R)AN，SMF 经 N4 至 UPF），UPF 下有 N9 环回。</desc>
+  <desc>复原自《系统架构设计师教程（第2版）》印刷页 69（物理页 78）插图。上排六个控制面网元 NSSF、NEF、NRF、PCF、UDM、AF 经各自服务化接口（Nnssf、Nnef、Nnrf、Npcf、Nudm、Naf）接入一条水平服务化接口总线；AUSF、AMF、SMF 经 Nausf、Namf、Nsmf 接入同一总线。下排 UE—(R)AN—UPF—DN 依次经 N1、N2、N3、N4、N6 接口相连（UE 经 N1 至 AMF，AMF 经 N2 至 (R)AN，SMF 经 N4 至 UPF），图中以回线表示 N9，其含义是不同 UPF 实例之间的参考点。</desc>
   <rect width="960" height="560" fill="#ffffff"/>
   <g fill="#eef3fb" stroke="#7d8da5" stroke-width="2">
     <rect x="130" y="55" width="105" height="50"/>
@@ -8,7 +8,7 @@
     <rect x="450" y="55" width="105" height="50"/>
     <rect x="610" y="55" width="105" height="50"/>
     <rect x="760" y="55" width="105" height="50"/>
-    <rect x="862" y="55" width="90" height="50"/>
+    <rect x="879" y="55" width="70" height="50"/>
     <rect x="250" y="230" width="100" height="50"/>
     <rect x="390" y="230" width="100" height="50"/>
     <rect x="640" y="230" width="100" height="50"/>
@@ -19,7 +19,7 @@
   </g>
   <g stroke="#556070" stroke-width="2" fill="none">
     <!-- 服务化总线 -->
-    <line x1="150" y1="165" x2="905" y2="165"/>
+    <line x1="150" y1="165" x2="914" y2="165"/>
     <!-- 上排网元接入总线 -->
     <line x1="182" y1="105" x2="182" y2="165"/>
     <line x1="342" y1="105" x2="342" y2="165"/>
@@ -74,6 +74,6 @@
     <text x="488" y="398">N3</text>
     <text x="700" y="340">N4</text>
     <text x="744" y="398">N6</text>
-    <text x="612" y="472">N9</text>
+    <text x="625" y="482">N9</text>
   </g>
 </svg>
