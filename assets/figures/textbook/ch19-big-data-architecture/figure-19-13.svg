@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc" viewBox="0 0 920 815"><title id="title">图 19-13 某网奥运中的Lambda架构</title><desc id="desc">五层结构，从下往上依次为采集、集成、存储、计算和展现。</desc>
+<defs><marker id="a" markerUnits="userSpaceOnUse" refX="6" refY="3" markerWidth="7" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L6 3 L0 6Z" fill="#356071"/></marker></defs><g font-family="Noto Sans CJK SC, sans-serif" fill="#15323c" text-anchor="middle">
+<rect x="8" y="8" width="904" height="85" fill="#eff6f7" stroke="#63818c"/>
+<text x="17" y="27" text-anchor="start" font-size="16">数据展现层</text>
+<rect x="8" y="101" width="904" height="207" fill="#eff6f7" stroke="#63818c"/>
+<text x="17" y="120" text-anchor="start" font-size="16">数据计算层</text>
+<rect x="8" y="316" width="904" height="112" fill="#eff6f7" stroke="#63818c"/>
+<text x="17" y="335" text-anchor="start" font-size="16">数据存储层</text>
+<rect x="8" y="436" width="904" height="279" fill="#eff6f7" stroke="#63818c"/>
+<text x="17" y="455" text-anchor="start" font-size="16">数据集成层</text>
+<rect x="8" y="723" width="904" height="82" fill="#eff6f7" stroke="#63818c"/>
+<text x="17" y="742" text-anchor="start" font-size="16">数据采集层</text>
+<rect x="48" y="165" width="180" height="125" fill="#eff6f7" stroke="#63818c"/>
+<text x="57" y="184" text-anchor="start" font-size="16">实时计算</text>
+<rect x="246" y="165" width="182" height="125" fill="#eff6f7" stroke="#63818c"/>
+<text x="255" y="184" text-anchor="start" font-size="16">合并计算</text>
+<rect x="458" y="147" width="421" height="148" fill="#eff6f7" stroke="#63818c"/>
+<text x="467" y="166" text-anchor="start" font-size="16">离线计算</text>
+<rect x="45" y="470" width="505" height="226" fill="#eff6f7" stroke="#63818c"/>
+<text x="54" y="489" text-anchor="start" font-size="16">实时数据集成</text>
+<rect x="597" y="470" width="273" height="226" fill="#eff6f7" stroke="#63818c"/>
+<text x="606" y="489" text-anchor="start" font-size="16">离线数据集成</text>
+<rect x="224" y="42" width="133" height="33" fill="#f7fbfc" stroke="#63818c"/>
+<text x="290.5" y="64.1" text-anchor="middle" font-size="16">当日概览</text>
+<rect x="503" y="42" width="133" height="33" fill="#f7fbfc" stroke="#63818c"/>
+<text x="569.5" y="64.1" text-anchor="middle" font-size="16">赛事回顾</text>
+<rect x="729" y="42" width="133" height="33" fill="#f7fbfc" stroke="#63818c"/>
+<text x="795.5" y="64.1" text-anchor="middle" font-size="16">……</text>
+<rect x="70" y="223" width="137" height="42" fill="#f7fbfc" stroke="#63818c"/>
+<text x="138.5" y="249.6" text-anchor="middle" font-size="16">Spark Streaming</text>
+<rect x="271" y="223" width="132" height="42" fill="#f7fbfc" stroke="#63818c"/>
+<text x="337.0" y="249.6" text-anchor="middle" font-size="16">Spark</text>
+<rect x="504" y="190" width="107" height="32" fill="#f7fbfc" stroke="#63818c"/>
+<text x="557.5" y="211.6" text-anchor="middle" font-size="16">Impala</text>
+<rect x="725" y="190" width="107" height="32" fill="#f7fbfc" stroke="#63818c"/>
+<text x="778.5" y="211.6" text-anchor="middle" font-size="16">Hive</text>
+<rect x="505" y="250" width="106" height="32" fill="#f7fbfc" stroke="#63818c"/>
+<text x="558.0" y="271.6" text-anchor="middle" font-size="16">Spark</text>
+<rect x="727" y="250" width="105" height="32" fill="#f7fbfc" stroke="#63818c"/>
+<text x="779.5" y="271.6" text-anchor="middle" font-size="16">M-R</text>
+<path d="M138 165 L274 75" stroke="#356071" fill="none" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M338 165 L307 75" stroke="#356071" fill="none" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M665 147 L571 75" stroke="#356071" fill="none" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M558 222 L558 250" stroke="#356071" fill="none" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M584 222 L753 250" stroke="#356071" fill="none" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M778 222 L778 250" stroke="#356071" fill="none" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="152" y="363" width="116" height="43" fill="#f7fbfc" stroke="#63818c"/>
+<text x="210.0" y="390.1" text-anchor="middle" font-size="16">MemSQL</text>
+<rect x="420" y="363" width="116" height="43" fill="#f7fbfc" stroke="#63818c"/>
+<text x="478.0" y="390.1" text-anchor="middle" font-size="16">HBase</text>
+<rect x="704" y="363" width="116" height="43" fill="#f7fbfc" stroke="#63818c"/>
+<text x="762.0" y="390.1" text-anchor="middle" font-size="16">HDFS</text>
+<path d="M143 265 L191 363" stroke="#356071" fill="none" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M220 363 L315 265" stroke="#356071" fill="none" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M354 265 L468 363" stroke="#356071" fill="none" stroke-width="1.6" marker-end="url(#a)" marker-start="url(#a)"/>
+<path d="M544 282 L488 363" stroke="#356071" fill="none" stroke-width="1.6" marker-end="url(#a)" marker-start="url(#a)"/>
+<path d="M763 282 L506 363" stroke="#356071" fill="none" stroke-width="1.6" marker-end="url(#a)" marker-start="url(#a)"/>
+<path d="M571 282 L750 363" stroke="#356071" fill="none" stroke-width="1.6" marker-end="url(#a)" marker-start="url(#a)"/>
+<path d="M794 282 L777 363" stroke="#356071" fill="none" stroke-width="1.6" marker-end="url(#a)" marker-start="url(#a)"/>
+<rect x="75" y="513" width="99" height="32" fill="#f7fbfc" stroke="#63818c"/>
+<text x="124.5" y="534.6" text-anchor="middle" font-size="16">Kafka</text>
+<rect x="376" y="502" width="140" height="32" fill="#f7fbfc" stroke="#63818c"/>
+<text x="446.0" y="523.6" text-anchor="middle" font-size="16">ZooKeeper</text>
+<rect x="84" y="572" width="104" height="32" fill="#f7fbfc" stroke="#63818c"/>
+<text x="136.0" y="593.6" text-anchor="middle" font-size="16">Flume</text>
+<rect x="234" y="572" width="104" height="32" fill="#f7fbfc" stroke="#63818c"/>
+<text x="286.0" y="593.6" text-anchor="middle" font-size="16">Flume</text>
+<rect x="383" y="572" width="104" height="32" fill="#f7fbfc" stroke="#63818c"/>
+<text x="435.0" y="593.6" text-anchor="middle" font-size="16">Flume</text>
+<rect x="148" y="640" width="111" height="32" fill="#f7fbfc" stroke="#63818c"/>
+<text x="203.5" y="661.6" text-anchor="middle" font-size="16">Nginx</text>
+<rect x="313" y="640" width="111" height="32" fill="#f7fbfc" stroke="#63818c"/>
+<text x="368.5" y="661.6" text-anchor="middle" font-size="16">Nginx</text>
+<rect x="662" y="546" width="142" height="37" fill="#f7fbfc" stroke="#63818c"/>
+<text x="733.0" y="570.1" text-anchor="middle" font-size="16">Sqoop</text>
+<rect x="662" y="628" width="142" height="37" fill="#f7fbfc" stroke="#63818c"/>
+<text x="733.0" y="652.1" text-anchor="middle" font-size="16">ETL</text>
+<path d="M200 640 L135 604" stroke="#356071" fill="none" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M211 640 L283 604" stroke="#356071" fill="none" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M363 640 L298 604" stroke="#356071" fill="none" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M378 640 L433 604" stroke="#356071" fill="none" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M136 572 L125 545" stroke="#356071" fill="none" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M286 572 L125 545" stroke="#356071" fill="none" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M435 572 L125 545" stroke="#356071" fill="none" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M75 528 H16 V286 H138 V265" stroke="#356071" fill="none" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M733 628 L733 583" stroke="#356071" fill="none" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M690 546 H578 L481 406" stroke="#356071" fill="none" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M765 546 L761 406" stroke="#356071" fill="none" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="164" y="765" width="110" height="30" fill="#f7fbfc" stroke="#63818c"/>
+<text x="219.0" y="785.6" text-anchor="middle" font-size="16">PC端</text>
+<rect x="408" y="765" width="110" height="30" fill="#f7fbfc" stroke="#63818c"/>
+<text x="463.0" y="785.6" text-anchor="middle" font-size="16">App端</text>
+<rect x="685" y="765" width="110" height="30" fill="#f7fbfc" stroke="#63818c"/>
+<text x="740.0" y="785.6" text-anchor="middle" font-size="16">TV端</text>
+<path d="M205 722 L205 672" stroke="#356071" fill="none" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M367 722 L367 672" stroke="#356071" fill="none" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M733 722 L733 665" stroke="#356071" fill="none" stroke-width="1.6" marker-end="url(#a)"/>
+</g></svg>

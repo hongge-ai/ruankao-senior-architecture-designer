@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="710" height="270" viewBox="0 0 710 270" role="img" aria-labelledby="title"><title id="title">技术选型</title>
+<defs><marker id="a" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 8 4 0 8Z" fill="#477786"/></marker></defs>
+<rect width="710" height="270" fill="white"/>
+<rect x="15" y="100" width="164" height="76" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<rect x="29" y="119" width="136" height="39" fill="white" stroke="#477786" stroke-width="1.5"/>
+<text x="97.0" y="143.94" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">Kafka_Topic</text>
+<text x="97" y="86" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">Kafka</text>
+<rect x="267" y="30" width="171" height="63" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="352" y="21" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">Spark</text>
+<rect x="280" y="42" width="144" height="39" fill="white" stroke="#477786" stroke-width="1.5"/>
+<text x="352.0" y="66.94" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">Processing_Job</text>
+<line x1="177" y1="139" x2="277" y2="62" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="267" y="187" width="171" height="63" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="352" y="178" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">Hadoop</text>
+<rect x="280" y="199" width="144" height="39" fill="white" stroke="#477786" stroke-width="1.5"/>
+<text x="352.0" y="223.94" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">Processing_Job</text>
+<line x1="177" y1="139" x2="277" y2="219" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="525" y="78" width="166" height="126" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="608" y="64" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">HBase</text>
+<rect x="531" y="98" width="152" height="39" fill="white" stroke="#477786" stroke-width="1.5"/>
+<text x="607.0" y="122.94" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">Speed_Table</text>
+<rect x="531" y="149" width="152" height="39" fill="white" stroke="#477786" stroke-width="1.5"/>
+<text x="607.0" y="173.94" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">Batch Table</text>
+<line x1="438" y1="62" x2="529" y2="117" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="438" y1="219" x2="529" y2="169" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+</svg>

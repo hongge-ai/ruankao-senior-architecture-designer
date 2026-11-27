@@ -1766,6 +1766,71 @@
    "printed_page": 557,
    "record": "verification/教材OCR纠错记录-第16章.md",
    "note": "整页扫描覆盖。图 16-13 下方印作 P₁，同时图中 70–75 ms 为 P₂。P₂ 已于 20–50 ms 执行 30 ms，补足 5 ms 后满足本例的 35 ms 需求。清洗稿按图保留 P₂。"
+  },
+  {
+   "id": "tb-0156",
+   "corpus": "textbook",
+   "kind": "typo",
+   "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+   "anchor": "并输出到Elasticsearch与OpenTSDB中存储",
+   "original": "ElasticSearch（应用效果首段两处）",
+   "corrected": "Elasticsearch",
+   "physical_page": 706,
+   "printed_page": 699,
+   "note": "两人分别目读整页扫描并核对对应印刷区域。产品官方拼写为Elasticsearch，两处统一。",
+   "record": "verification/教材OCR纠错记录-第19章.md"
+  },
+  {
+   "id": "tb-0157",
+   "corpus": "textbook",
+   "kind": "typo",
+   "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+   "anchor": "通过YARN分配资源执行计算",
+   "original": "通过Yarn分配资源执行计算",
+   "corrected": "通过YARN分配资源执行计算",
+   "physical_page": 706,
+   "printed_page": 699,
+   "note": "两人分别目读整页扫描并核对对应印刷区域。Hadoop和Spark文档均用YARN。",
+   "record": "verification/教材OCR纠错记录-第19章.md"
+  },
+  {
+   "id": "tb-0158",
+   "corpus": "textbook",
+   "kind": "typo",
+   "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+   "anchor": "服务端计算完成后会通过ZooKeeper通知客户端",
+   "original": "通过Zookeeper通知客户端",
+   "corrected": "通过ZooKeeper通知客户端",
+   "physical_page": 708,
+   "printed_page": 701,
+   "note": "两人分别目读整页扫描并核对对应印刷区域。整页扫描末段实印Zookeeper，Apache项目固定拼写为ZooKeeper。",
+   "record": "verification/教材OCR纠错记录-第19章.md"
+  },
+  {
+   "id": "tb-0159",
+   "corpus": "textbook",
+   "kind": "typo",
+   "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+   "anchor": "当天产生的数据无法实时地参与计算",
+   "original": "无法实时的参与计算",
+   "corrected": "无法实时地参与计算",
+   "physical_page": 708,
+   "printed_page": 701,
+   "note": "两人分别目读整页扫描并核对对应印刷区域。本句修饰动词“参与”，应使用状语标记“地”。",
+   "record": "verification/教材OCR纠错记录-第19章.md"
+  },
+  {
+   "id": "tb-0160",
+   "corpus": "textbook",
+   "kind": "typo",
+   "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+   "anchor": "客户端会拉取最新参数存储到本地",
+   "original": "存储的到本地",
+   "corrected": "存储到本地",
+   "physical_page": 708,
+   "printed_page": 701,
+   "note": "两人分别目读整页扫描并核对对应印刷区域。整页扫描末段确认多出“的”。",
+   "record": "verification/教材OCR纠错记录-第19章.md"
   }
  ]
 }

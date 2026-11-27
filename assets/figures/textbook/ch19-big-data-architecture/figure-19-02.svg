@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="595" height="198" viewBox="0 0 595 198" role="img" aria-labelledby="title"><title id="title">读写分离技术架构</title>
+<defs><marker id="a" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 8 4 0 8Z" fill="#477786"/></marker></defs>
+<rect width="595" height="198" fill="white"/>
+<rect x="19" y="78" width="114" height="44" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="76.0" y="105.78" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">服务器</text>
+<rect x="193" y="78" width="139" height="44" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="262.5" y="105.78" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">工作处理层</text>
+<line x1="134" y1="100" x2="192" y2="100" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<ellipse cx="508" cy="45" rx="56" ry="33" fill="#eff8fa" stroke="#477786" stroke-width="1.6"/>
+<text x="508" y="51" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">主机</text>
+<line x1="332" y1="100" x2="453" y2="45" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<ellipse cx="508" cy="154" rx="56" ry="33" fill="#eff8fa" stroke="#477786" stroke-width="1.6"/>
+<text x="508" y="160" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">从机</text>
+<line x1="332" y1="100" x2="453" y2="154" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="508" y1="80" x2="508" y2="119" stroke="#477786" stroke-width="1.6" marker-start="url(#a)" marker-end="url(#a)"/>
+</svg>

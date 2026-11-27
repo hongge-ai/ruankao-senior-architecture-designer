@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc" viewBox="0 0 1060 562"><title id="title">图 19-16 某电商智能决策大数据系统架构</title><desc id="desc">展现或应用、逻辑处理和存储计算三个层次。</desc>
+<defs><marker id="a" markerUnits="userSpaceOnUse" refX="6" refY="3" markerWidth="7" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L6 3 L0 6Z" fill="#356071"/></marker></defs><g font-family="Noto Sans CJK SC, sans-serif" fill="#15323c" text-anchor="middle">
+<rect x="9" y="8" width="1035" height="86" fill="#eff6f7" stroke="#63818c"/>
+<text x="18" y="27" text-anchor="start" font-size="16">应用层</text>
+<rect x="9" y="104" width="1035" height="303" fill="#eff6f7" stroke="#63818c"/>
+<text x="18" y="123" text-anchor="start" font-size="16">逻辑处理层</text>
+<rect x="9" y="417" width="1035" height="135" fill="#eff6f7" stroke="#63818c"/>
+<text x="18" y="436" text-anchor="start" font-size="16">存储计算层</text>
+<rect x="62" y="43" width="170" height="34" fill="#f7fbfc" stroke="#63818c"/>
+<text x="147.0" y="65.6" text-anchor="middle" font-size="16">结果本地存储</text>
+<rect x="255" y="43" width="170" height="34" fill="#f7fbfc" stroke="#63818c"/>
+<text x="340.0" y="65.6" text-anchor="middle" font-size="16">决策结果展示</text>
+<rect x="448" y="43" width="170" height="34" fill="#f7fbfc" stroke="#63818c"/>
+<text x="533.0" y="65.6" text-anchor="middle" font-size="16">参数更新</text>
+<rect x="641" y="43" width="170" height="34" fill="#f7fbfc" stroke="#63818c"/>
+<text x="726.0" y="65.6" text-anchor="middle" font-size="16">配置分发</text>
+<rect x="834" y="43" width="170" height="34" fill="#f7fbfc" stroke="#63818c"/>
+<text x="919.0" y="65.6" text-anchor="middle" font-size="16">模型验证</text>
+<rect x="70" y="200" width="151" height="144" fill="#f7fbfc" stroke="#63818c"/>
+<text x="145.5" y="277.6" text-anchor="middle" font-size="16">B端实时流数据</text>
+<rect x="293" y="200" width="151" height="144" fill="#f7fbfc" stroke="#63818c"/>
+<text x="368.5" y="277.6" text-anchor="middle" font-size="16">Kafka缓存</text>
+<path d="M221 229 L293 229" stroke="#356071" fill="none" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M221 270 L293 270" stroke="#356071" fill="none" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M221 312 L293 312" stroke="#356071" fill="none" stroke-width="1.6" marker-end="url(#a)"/>
+<text x="630" y="145" text-anchor="middle" font-size="16">参数过滤</text>
+<text x="879" y="145" text-anchor="middle" font-size="16">模型计算</text>
+<rect x="539" y="161" width="180" height="39" fill="#f7fbfc" stroke="#63818c"/>
+<text x="629.0" y="185.75" text-anchor="middle" font-size="15">数据获取</text>
+<rect x="539" y="219" width="180" height="39" fill="#f7fbfc" stroke="#63818c"/>
+<text x="629.0" y="243.75" text-anchor="middle" font-size="15">脚本解析</text>
+<path d="M629.0 200 L629.0 219" stroke="#356071" fill="none" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="539" y="277" width="180" height="39" fill="#f7fbfc" stroke="#63818c"/>
+<text x="629.0" y="301.75" text-anchor="middle" font-size="15">作业编译</text>
+<path d="M629.0 258 L629.0 277" stroke="#356071" fill="none" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="539" y="335" width="180" height="39" fill="#f7fbfc" stroke="#63818c"/>
+<text x="629.0" y="359.75" text-anchor="middle" font-size="15">任务提交／基于Flink</text>
+<path d="M629.0 316 L629.0 335" stroke="#356071" fill="none" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="788" y="161" width="180" height="39" fill="#f7fbfc" stroke="#63818c"/>
+<text x="878.0" y="185.75" text-anchor="middle" font-size="15">参数获取</text>
+<rect x="788" y="219" width="180" height="39" fill="#f7fbfc" stroke="#63818c"/>
+<text x="878.0" y="243.75" text-anchor="middle" font-size="15">数据计算</text>
+<path d="M878.0 200 L878.0 219" stroke="#356071" fill="none" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="788" y="277" width="180" height="39" fill="#f7fbfc" stroke="#63818c"/>
+<text x="878.0" y="301.75" text-anchor="middle" font-size="15">模型更新</text>
+<path d="M878.0 258 L878.0 277" stroke="#356071" fill="none" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="788" y="335" width="180" height="39" fill="#f7fbfc" stroke="#63818c"/>
+<text x="878.0" y="359.75" text-anchor="middle" font-size="15">参数存储</text>
+<path d="M878.0 316 L878.0 335" stroke="#356071" fill="none" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M444 272 L512 272" stroke="#356071" fill="none" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M725 77 V102 H629 V127" stroke="#356071" fill="none" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M919 77 V102 H878 V127" stroke="#356071" fill="none" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="331" y="464" width="172" height="56" fill="#f7fbfc" stroke="#63818c"/>
+<text x="417.0" y="488.1" text-anchor="middle" font-size="16">计算集群</text>
+<text x="417.0" y="507.1" text-anchor="middle" font-size="16">CDH</text>
+<rect x="568" y="464" width="172" height="56" fill="#f7fbfc" stroke="#63818c"/>
+<text x="654.0" y="488.1" text-anchor="middle" font-size="16">日志库</text>
+<text x="654.0" y="507.1" text-anchor="middle" font-size="16">Hive</text>
+<rect x="779" y="464" width="172" height="56" fill="#f7fbfc" stroke="#63818c"/>
+<text x="865.0" y="488.1" text-anchor="middle" font-size="16">实时计算</text>
+<text x="865.0" y="507.1" text-anchor="middle" font-size="16">数据Tair</text>
+<path d="M503 492 L559 492" stroke="#356071" fill="none" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M761 464 L761 406" stroke="#356071" fill="none" stroke-width="1.6" marker-end="url(#a)"/>
+</g></svg>
