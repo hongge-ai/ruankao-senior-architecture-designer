@@ -44,6 +44,7 @@
 <text x="295.0" y="284.6" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">交换设备</text>
 <rect x="388" y="261" width="96" height="37" fill="#cbe8ef" stroke="#477786" stroke-width="1.5"/>
 <text x="436.0" y="284.6" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">交换设备</text>
+<ellipse cx="121.5" cy="388" rx="63" ry="31" fill="none" stroke="#477786" stroke-width="1.5" stroke-dasharray="5 4"/>
 <rect x="82" y="366" width="65" height="30" fill="#cbe8ef" stroke="#477786" stroke-width="1.5"/>
 <rect x="89" y="373" width="65" height="30" fill="#cbe8ef" stroke="#477786" stroke-width="1.5"/>
 <rect x="96" y="380" width="65" height="30" fill="#cbe8ef" stroke="#477786" stroke-width="1.5"/>

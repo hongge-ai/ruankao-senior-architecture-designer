@@ -3,15 +3,16 @@
 <desc id="desc">UE经接入网、UPF到达DN；SMF连至UPF，N6标在网界。下方两辅助服务按页图单列。</desc>
 <style>text{font-family:"Noto Sans CJK SC",sans-serif;font-size:15px;fill:#183846;text-anchor:middle;dominant-baseline:central}.node{fill:#fff;stroke:#578894;stroke-width:1.4}.net{fill:#e3f5f7;stroke:#588e9c;stroke-width:1.6}.link{fill:none;stroke:#55717a;stroke-width:1.5}</style>
 <ellipse class="net" cx="343" cy="105" rx="197" ry="87"/>
+<ellipse class="net" cx="712" cy="98" rx="111" ry="54"/>
 <ellipse class="net" cx="705" cy="108" rx="111" ry="54"/>
-<path class="link" d="M87 120 H625 M345 60 L436 112"/>
+<path class="link" d="M87 120 H595 M345 60 L436 112"/>
 <path class="link" d="M560 75 V165" stroke-dasharray="5 4"/>
-<text x="573" y="48.0">N6（UPF连接数据网接口）</text>
+<text x="573" y="14.0">N6（UPF连接数据网接口）</text>
 <rect class="node" x="14" y="99" width="88" height="45"/>
 <text x="58.0" y="112.0">UE</text>
 <text x="58.0" y="131.0">（用户设备）</text>
 <rect class="node" x="190" y="99" width="101" height="45"/>
-<text x="240.5" y="112.0">MG=RAN</text>
+<text x="240.5" y="112.0">NG-RAN</text>
 <text x="240.5" y="131.0">（接入网）</text>
 <rect class="node" x="395" y="99" width="118" height="45"/>
 <text x="454.0" y="112.0">UPF</text>

@@ -3851,7 +3851,7 @@
    "printed_page": 601,
    "note": "四个核心节点与省略号构成环形示意，依衍生页保留底部回线和右端的可见端点，不猜补缺口。",
    "id": "tb-fig-0274",
-   "record": "verification/教材OCR纠错记录-第17章.md"
+   "record": "verification/教材第二轮独立盲核记录-第17章.md"
   },
   {
    "corpus": "textbook",
@@ -3961,9 +3961,9 @@
    "asset": "assets/figures/textbook/ch17-communication-system-architecture/figure-17-11.svg",
    "physical_page": 614,
    "printed_page": 607,
-   "note": "UE经接入网、UPF到达DN；SMF连至UPF，N6标在网界。下方两辅助服务按页图单列。",
+   "note": "UE经接入网、UPF到达DN；SMF连至UPF，N6标在网界。下方两辅助服务按页图单列。 NG-RAN 名称据 3GPP 文献校正，DN 双层轮廓按页图复原。",
    "id": "tb-fig-0282",
-   "record": "verification/教材OCR纠错记录-第17章.md"
+   "record": "verification/教材第二轮独立盲核记录-第17章.md"
   },
   {
    "corpus": "textbook",
@@ -4087,8 +4087,8 @@
    "asset": "assets/figures/textbook/ch17-communication-system-architecture/figure-17-20.svg",
    "physical_page": 633,
    "printed_page": 626,
-   "record": "verification/教材OCR纠错记录-第17章.md",
-   "note": "双核心、双汇聚、三接入，刀片服务器的经接入与直连汇聚两种路径分别保留。",
+   "record": "verification/教材第二轮独立盲核记录-第17章.md",
+   "note": "双核心、双汇聚、三接入，刀片服务器的经接入与直连汇聚两种路径分别保留。 接入设备遮挡处的斜线端点待核。",
    "id": "tb-fig-0291"
   },
   {
@@ -4101,7 +4101,7 @@
    "asset": "assets/figures/textbook/ch17-communication-system-architecture/figure-17-21.svg",
    "physical_page": 634,
    "printed_page": 627,
-   "record": "verification/教材OCR纠错记录-第17章.md",
+   "record": "verification/教材第二轮独立盲核记录-第17章.md",
    "note": "四种二层物理拓扑。模型二L3汇聚互联；接入之间的遮挡链路依据U形名称及续表的接入间故障说明复原。",
    "id": "tb-fig-0292"
   },
