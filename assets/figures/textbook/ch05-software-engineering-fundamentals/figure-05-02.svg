@@ -23,10 +23,9 @@
     <path d="M 670 462 H 705 V 508"/>
   </g>
   <g fill="none" stroke="#8a8a8a" stroke-width="1.8" stroke-dasharray="6 6" stroke-linejoin="round" marker-end="url(#arrow)">
-    <path d="M 65 66 H 100"/>
-    <path d="M 65 66 V 430 H 135"/>
-    <path d="M 230 132 V 430 H 285"/>
-    <path d="M 360 198 V 430 H 285"/>
+    <path d="M 98 66 H 65 V 430 H 131" marker-start="url(#arrow)"/>
+    <path d="M 167 132 H 152 V 402" marker-start="url(#arrow)"/>
+    <path d="M 237 198 H 223 V 402" marker-start="url(#arrow)"/>
   </g>
   <g fill="#fff" stroke="#858585" stroke-width="1.5" filter="url(#soft-shadow)">
     <rect x="100" y="42" width="150" height="48"/>

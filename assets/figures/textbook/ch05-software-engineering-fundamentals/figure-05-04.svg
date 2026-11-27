@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="520" viewBox="0 0 1000 520" role="img" aria-labelledby="title desc">
   <title id="title">图5-4 “4+1”视图模型</title>
-  <desc id="desc">Four outlined rectangular view boxes surround an overlapping central ellipse. The center's English label is reproduced as visibly printed: “Usc Case View.”</desc>
+  <desc id="desc">Four outlined rectangular view boxes surround an overlapping central ellipse. The central ellipse identifies the use case view.</desc>
   <rect x="0" y="0" width="1000" height="520" fill="#fff"/>
   <g fill="#fff" stroke="#858585" stroke-width="2">
     <rect x="70" y="55" width="370" height="150"/>
@@ -22,7 +22,7 @@
       <text x="745" y="158">(Implementation View)</text>
       <text x="255" y="419">(Process View)</text>
       <text x="745" y="419">(Deployment View)</text>
-      <text x="500" y="291" font-size="27">(Usc Case View)</text>
+      <text x="500" y="291" font-size="27">(Use Case View)</text>
     </g>
   </g>
 </svg>

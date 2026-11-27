@@ -1162,8 +1162,8 @@
    "asset": "assets/figures/textbook/ch05-software-engineering-fundamentals/figure-05-05.svg",
    "physical_page": 196,
    "printed_page": 187,
-   "record": "verification/教材首轮核查-第05章-软件工程基础知识.md",
-   "note": "需求管理父框连接变更控制、版本控制、需求跟踪、需求状态跟踪四个活动框；各框的标签和项目符号按原图转录，连接线无箭头。渲染后由独立干净上下文逐项核对标签、数量、包含关系、连接与相对布局，通过。"
+   "record": "verification/教材新版第二轮独立盲核记录-第05章.md",
+   "note": "四分支无箭头；版本控制区分单个需求和文档，需求跟踪维护与其他需求和系统元素的追踪链接。"
   },
   {
    "id": "tb-fig-0083",
@@ -1176,7 +1176,7 @@
    "asset": "assets/figures/textbook/ch05-software-engineering-fundamentals/figure-05-06.svg",
    "physical_page": 199,
    "printed_page": 190,
-   "record": "verification/教材首轮核查-第05章-软件工程基础知识.md",
+   "record": "verification/教材OCR纠错记录-第5章.md",
    "note": "从“识别出问题”开始，经过问题分析和变更描述、变更分析和成本计算、变更实现，右向输出“修改后的需求”；箭头依原图逐段复原。渲染后由独立干净上下文逐项核对节点、标签、连接拓扑、箭头方向与相对布局，通过。"
   },
   {
@@ -1190,7 +1190,7 @@
    "asset": "assets/figures/textbook/ch05-software-engineering-fundamentals/figure-05-01.svg",
    "physical_page": 185,
    "printed_page": 176,
-   "record": "verification/教材首轮核查-第05章-软件工程基础知识.md",
+   "record": "verification/教材OCR纠错记录-第5章.md",
    "note": "八个阶段框从左上向右下排列，依次为需求分析、系统设计、程序设计、编码实现、单元测试、集成测试、系统测试、运行维护；七段向下递进箭头。独立盲比通过。"
   },
   {
@@ -1204,8 +1204,8 @@
    "asset": "assets/figures/textbook/ch05-software-engineering-fundamentals/figure-05-02.svg",
    "physical_page": 186,
    "printed_page": 177,
-   "record": "verification/教材首轮核查-第05章-软件工程基础知识.md",
-   "note": "八个主流程阶段及左下方“原型开发”框；主流程为实线箭头，原型反馈为虚线。独立盲比通过；扫描中部分虚线接点较淡，位置按可见关系近似复原。"
+   "record": "verification/教材OCR纠错记录-第5章.md",
+   "note": "八个阶段由实线箭头顺序连接；原型与需求分析、系统设计、程序设计之间各有双向虚线。"
   },
   {
    "id": "tb-fig-0086",
@@ -1218,8 +1218,8 @@
    "asset": "assets/figures/textbook/ch05-software-engineering-fundamentals/figure-05-03.svg",
    "physical_page": 187,
    "printed_page": 178,
-   "record": "verification/教材首轮核查-第05章-软件工程基础知识.md",
-   "note": "按原图转录螺旋轮廓、阶段标签、虚线分隔及成本⁴标记。主体标签、轮廓和主要导向关系经独立盲比通过；内侧曲线与下方浅色分隔线的若干交点和端点在扫描中无法判定，未将这些细线交点作为已确认拓扑。"
+   "record": "verification/教材新版第二轮独立盲核记录-第05章.md",
+   "note": "风险驱动的连续扩展螺旋，费用轴以向上箭头封顶。电子底本叠有类似4的残形，无指数说明。淡色细线的精确交点仍不明。"
   },
   {
    "id": "tb-fig-0087",
@@ -1232,8 +1232,8 @@
    "asset": "assets/figures/textbook/ch05-software-engineering-fundamentals/figure-05-04.svg",
    "physical_page": 193,
    "printed_page": 184,
-   "record": "verification/教材首轮核查-第05章-软件工程基础知识.md",
-   "note": "四个外围视图矩形围绕中央用例视图椭圆，形状数量、标签及相对位置经独立盲比通过。中心英文按扫描字形照录为“Usc Case View”。"
+   "record": "verification/教材OCR纠错记录-第5章.md",
+   "note": "四个外围视图环绕中央用例视图，中央英文据本节术语校为 Use Case View。"
   },
   {
    "id": "tb-fig-0088",
@@ -1242,12 +1242,12 @@
    "figure": "表 5-1",
    "title": "模块的耦合类型",
    "kind": "svg",
-   "anchor": "> 表5-1 模块的耦合类型",
+   "anchor": "> 表 5-1 模块的耦合类型",
    "asset": "assets/figures/textbook/ch05-software-engineering-fundamentals/figure-t05-01.svg",
    "physical_page": 205,
    "printed_page": 196,
-   "record": "verification/教材首轮核查-第05章-软件工程基础知识.md",
-   "note": "表格本体为 2 列 8 行（表头及 7 类耦合）。单元格内容、行列结构和表线经扫描件逐项核对；独立盲比通过。"
+   "record": "verification/教材OCR纠错记录-第5章.md",
+   "note": "两列七项，逐行对照页图并重新栅格化；表内技术订正列入分诊。"
   },
   {
    "id": "tb-fig-0089",
@@ -1256,12 +1256,12 @@
    "figure": "表 5-2",
    "title": "模块的内聚类型",
    "kind": "svg",
-   "anchor": "> 表5-2模块的内聚类型",
+   "anchor": "> 表 5-2 模块的内聚类型",
    "asset": "assets/figures/textbook/ch05-software-engineering-fundamentals/figure-t05-02.svg",
    "physical_page": 206,
    "printed_page": 197,
-   "record": "verification/教材首轮核查-第05章-软件工程基础知识.md",
-   "note": "表格本体为 2 列 8 行（表头及 7 类内聚）。单元格内容、行列结构和表线经扫描件逐项核对；独立盲比通过。"
+   "record": "verification/教材OCR纠错记录-第5章.md",
+   "note": "两列七项，逐行对照页图并重新栅格化；表内技术订正列入分诊。"
   },
   {
    "id": "tb-fig-0090",
@@ -1274,8 +1274,8 @@
    "asset": "assets/figures/textbook/ch05-software-engineering-fundamentals/figure-05-07.svg",
    "physical_page": 223,
    "printed_page": 214,
-   "record": "verification/教材首轮核查-第05章-软件工程基础知识.md",
-   "note": "独立盲比通过：12 个框（软件系统 1、子系统/组件 3、功能模块 8）及 11 条无箭头连接的树形层级、组间位置与扫描图相符。"
+   "record": "verification/教材OCR纠错记录-第5章.md",
+   "note": "实渲WBS树，一根三支，下层3+2+3个工作包，独立框留白。"
   },
   {
    "id": "tb-fig-0091",
@@ -1288,8 +1288,8 @@
    "asset": "assets/figures/textbook/ch05-software-engineering-fundamentals/figure-05-08.svg",
    "physical_page": 224,
    "printed_page": 215,
-   "record": "verification/教材首轮核查-第05章-软件工程基础知识.md",
-   "note": "独立盲比确认可辨的三角分区、底部“产品运行”标签及左侧 4 项、下方 6 项和右侧 3 项问题文字与扫描图对应。盲比指出三角形两斜面标签及右侧问题前 3 个模糊字块未转录；回看物理页 224 放大图仍无法辨认，按规程留空，不依正文猜补。不可辨标签的具体字形及其在 SVG 中的表达不作通过结论。"
+   "record": "verification/教材OCR纠错记录-第5章.md",
+   "note": "物理224对象2580为局部扫描，仅三角和邻接字形；三类名称据三角、提问及正文综合确认。右侧三个问句保留，模糊名称以方括号释义，非纸书逐字转录。"
   },
   {
    "id": "tb-fig-0092",
