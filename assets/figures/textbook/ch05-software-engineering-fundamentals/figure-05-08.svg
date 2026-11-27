@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1460" height="610" viewBox="0 0 1460 610" role="img" xml:lang="zh-CN">
+<svg xmlns="http://www.w3.org/2000/svg" width="1540" height="610" viewBox="0 0 1540 610" role="img" xml:lang="zh-CN">
   <title>图5-8 影响软件质量的三个主要因素关系图</title>
-  <desc>中心三角形分为三个区域，底部区域文字可辨为“产品运行”；另外两处斜排标签在扫描图中无法判定，未转录。左侧四项因素及问题、底部六项因素及问题按扫描图可辨文字转录。右侧三项问题可辨，但对应因素名称在扫描图中有模糊遮盖，留空未补。</desc>
-  <rect width="1460" height="610" fill="#fff" />
+  <desc>物理224仅对象2580所在局部为扫描图。三角形中的产品修改、产品转移、产品运行由局部笔画、两侧提问和相邻正文互证。左右及下方文字结合重建页对读。右侧三个名称的原字不全，括号内提问保留重建页文字，方括号标明按提问补充的释义。</desc>
+  <rect width="1540" height="610" fill="#fff" />
   <g fill="none" stroke="#9a9a9a" stroke-width="2">
     <path d="M710 22 L520 268 L900 268 Z" />
     <path d="M710 22 V160 L520 268 M710 160 L900 268" />
@@ -12,10 +12,12 @@
     <text x="28" y="154">灵活性（我能改变它吗？）</text>
     <text x="28" y="196">可测试性（我能测试它吗？）</text>
 
-    <text x="920" y="70">（我能在另一台机器上使用它吗？）</text>
-    <text x="920" y="112">（我能再用它的某些部分吗？）</text>
-    <text x="920" y="154">（我能把它和另一个系统结合吗？）</text>
+    <text x="920" y="70">〔可移植性〕（我能在另一台机器上使用它吗？）</text>
+    <text x="920" y="112">〔可复用性〕（我能再用它的某些部分吗？）</text>
+    <text x="920" y="154">〔互操作性〕（我能把它和另一个系统结合吗？）</text>
 
+    <text x="649" y="170" text-anchor="middle" transform="rotate(-52 649 170)">产品修改</text>
+    <text x="771" y="170" text-anchor="middle" transform="rotate(52 771 170)">产品转移</text>
     <text x="710" y="250" text-anchor="middle">产品运行</text>
 
     <text x="390" y="330">正确性（它按我的需要工作吗？）</text>

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1120" height="280" viewBox="0 0 1120 280" role="img" xml:lang="zh-CN">
   <title>图5-7 WBS示意图</title>
-  <desc>软件系统树形分解：一个软件系统连接三个子系统/组件，三个父节点分别连接三个、两个、三个功能模块。连接线无箭头。</desc>
+  <desc>软件系统树形分解：一个软件系统连接三个子系统/组件，三个父节点分别连接三个、两个、三个功能模块；底部工作包框逐个留出间隙。连接线无箭头。</desc>
   <rect width="1120" height="280" fill="#fff" />
   <g fill="none" stroke="#858585" stroke-width="1.6">
     <path d="M560 62 V82 H250 V100 M560 82 V100 M560 82 H870 V100" />
@@ -11,14 +11,14 @@
     <rect x="175" y="100" width="150" height="48" fill="#fff" />
     <rect x="485" y="100" width="150" height="48" fill="#fff" />
     <rect x="795" y="100" width="150" height="48" fill="#fff" />
-    <rect x="60" y="210" width="120" height="46" fill="#fff" />
-    <rect x="190" y="210" width="120" height="46" fill="#fff" />
-    <rect x="320" y="210" width="120" height="46" fill="#fff" />
-    <rect x="440" y="210" width="120" height="46" fill="#fff" />
-    <rect x="560" y="210" width="120" height="46" fill="#fff" />
-    <rect x="680" y="210" width="120" height="46" fill="#fff" />
-    <rect x="810" y="210" width="120" height="46" fill="#fff" />
-    <rect x="940" y="210" width="120" height="46" fill="#fff" />
+    <rect x="67" y="210" width="106" height="46" fill="#fff" />
+    <rect x="197" y="210" width="106" height="46" fill="#fff" />
+    <rect x="327" y="210" width="106" height="46" fill="#fff" />
+    <rect x="447" y="210" width="106" height="46" fill="#fff" />
+    <rect x="567" y="210" width="106" height="46" fill="#fff" />
+    <rect x="687" y="210" width="106" height="46" fill="#fff" />
+    <rect x="817" y="210" width="106" height="46" fill="#fff" />
+    <rect x="947" y="210" width="106" height="46" fill="#fff" />
   </g>
   <g fill="#222" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" text-anchor="middle" dominant-baseline="middle">
     <text x="560" y="38" font-size="23">软件系统</text>
