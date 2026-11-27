@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "updated_at": "2026-11-27",
- "note": "勘误登记簿：正文书勘误后的正确内容。教材侧条目分两种状态：(a) 经真实扫描件（含 23 页整页覆盖及 9 页的局部图像覆盖区域）证实——正文已勘正（kind=typo）或照录原书（kind=noted）；(b) 依据入库 OCR 重建文本登记、待真实扫描件重核（第 1–9 章原有 137 条，另有 112 条待复核）——不得表述为「原书印错」，状态与处置见 verification/教材errata待重核清单.md。第 10 章 3 条 noted 属 (a)，另有 11 条已撤销，快照见 verification/教材errata撤销记录-第10章.json。anchor 为现行正文中的唯一锚点，校验器逐条核对以防漂移。不设数量与覆盖率目标。",
+ "note": "勘误登记簿：正文书勘误后的正确内容。教材侧条目分两种状态：(a) 经真实扫描件（含 23 页整页覆盖及 9 页的局部图像覆盖区域）证实——正文已勘正（kind=typo）或照录原书（kind=noted）；(b) 依据入库 OCR 重建文本登记、待真实扫描件重核（第 1–9 章原有 137 条，另有 107 条待复核）——不得表述为「原书印错」，状态与处置见 verification/教材errata待重核清单.md。第 10 章 3 条 noted 属 (a)，另有 11 条已撤销，快照见 verification/教材errata撤销记录-第10章.json。anchor 为现行正文中的唯一锚点，校验器逐条核对以防漂移。不设数量与覆盖率目标。",
  "entries": [
   {
    "id": "tb-0009",
@@ -75,71 +75,6 @@
    "printed_page": 168,
    "record": "verification/教材首轮核查-第04章-信息安全技术基础知识.md",
    "note": "扫描件图像清晰印为“Ping of Dcath”；疑为原书英文拼写错误，正文照录，不凭外部知识改写。"
-  },
-  {
-   "id": "tb-0031",
-   "corpus": "textbook",
-   "kind": "typo",
-   "file": "content/01-系统架构设计师教材-清洗版/第03章-信息系统基础知识/第02节-业务处理系统(TPS).md",
-   "anchor": "OLTP方式主要依赖于网络来实现事务终端",
-   "original": "OLIP方式主要依赖于网络",
-   "corrected": "OLTP方式主要依赖于网络",
-   "physical_page": 126,
-   "printed_page": 117,
-   "record": "verification/教材第二轮独立盲核记录-第03-04章.md",
-   "note": "原书同页标记行括注与展开词 OnLine Transaction Processing 均作 OLTP，正文两处印 OLIP（40× 逐字母：T 仅顶横、I 顶底双横），原书同页自相矛盾，据以勘正。"
-  },
-  {
-   "id": "tb-0032",
-   "corpus": "textbook",
-   "kind": "typo",
-   "file": "content/01-系统架构设计师教材-清洗版/第03章-信息系统基础知识/第02节-业务处理系统(TPS).md",
-   "anchor": "OLTP方式的优点是当事务数据产生时",
-   "original": "OLIP方式的优点是",
-   "corrected": "OLTP方式的优点是",
-   "physical_page": 126,
-   "printed_page": 117,
-   "record": "verification/教材第二轮独立盲核记录-第03-04章.md",
-   "note": "同 tb-0031。"
-  },
-  {
-   "id": "tb-0033",
-   "corpus": "textbook",
-   "kind": "typo",
-   "file": "content/01-系统架构设计师教材-清洗版/第03章-信息系统基础知识/第07节-企业资源规划(ERP).md",
-   "anchor": "(Manufacturing Resource Planning II,MRP II)",
-   "original": "Manufacturing Resource Planning Ⅱ I",
-   "corrected": "Manufacturing Resource Planning II",
-   "physical_page": 145,
-   "printed_page": 136,
-   "record": "verification/教材第二轮独立盲核记录-第03-04章.md",
-   "note": "原书 Planning 后印罗马数字Ⅱ字形加独立竖笔 I（「ⅡI」排印奇点，同 tb-0023 先例）；同括注逗号后与 p148 项(1) 均印干净「MRPⅡ」，为原书内部正确写法，据以归一。"
-  },
-  {
-   "id": "tb-0034",
-   "corpus": "textbook",
-   "kind": "typo",
-   "file": "content/01-系统架构设计师教材-清洗版/第03章-信息系统基础知识/第07节-企业资源规划(ERP).md",
-   "anchor": "ERP理论与系统是从MRP II 发展而来的。MRP II 的核心是物流",
-   "original": "MRP-ⅡI（两处）",
-   "corrected": "MRP II",
-   "physical_page": 145,
-   "printed_page": 136,
-   "record": "verification/教材第二轮独立盲核记录-第03-04章.md",
-   "note": "原书本行两处印「MRP-ⅡI」（连字符+Ⅱ+独立 I）；原书 p145 括注逗号后与 p148 项(1) 均印「MRPⅡ」，据以归一。"
-  },
-  {
-   "id": "tb-0035",
-   "corpus": "textbook",
-   "kind": "typo",
-   "file": "content/01-系统架构设计师教材-清洗版/第03章-信息系统基础知识/第07节-企业资源规划(ERP).md",
-   "anchor": "ERP打破了MRP II 只局限在传统制造业的格局",
-   "original": "MRP-ⅡI只局限在",
-   "corrected": "MRP II 只局限在",
-   "physical_page": 148,
-   "printed_page": 139,
-   "record": "verification/教材第二轮独立盲核记录-第03-04章.md",
-   "note": "同 tb-0034。"
   },
   {
    "id": "tb-0036",
@@ -1539,6 +1474,19 @@
    "printed_page": 103,
    "note": "两位核查人分别目读整页扫描首段，并与同页式（2-3）、（2-4）及“两个因素”核对；应使用可增强部分占原执行时间的比例与局部加速比，出现频率本身不足以替代。",
    "record": "verification/教材OCR纠错记录-第2章.md"
+  },
+  {
+   "id": "tb-0162",
+   "corpus": "textbook",
+   "kind": "typo",
+   "file": "content/01-系统架构设计师教材-清洗版/第03章-信息系统基础知识/第03节-管理信息系统(MIS).md",
+   "anchor": "这里的子系统按管理职能命名。",
+   "original": "这里子系统的名称所标注的是管理的功能或职称，而不是计算机的名词。",
+   "corrected": "这里的子系统按管理职能命名。",
+   "physical_page": 129,
+   "printed_page": 120,
+   "note": "核查人与独立复核人分别直读对象1499（794×1012）整页彩色扫描。图3-7列出的市场、财会、人事、生产、供运是职能，紧接的“职能的完成往往是通过‘过程’实现”亦可互证。",
+   "record": "verification/教材OCR纠错记录-第3章.md"
   }
  ]
 }

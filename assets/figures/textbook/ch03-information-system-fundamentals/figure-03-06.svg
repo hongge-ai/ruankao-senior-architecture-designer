@@ -27,5 +27,5 @@
   <text x="544" y="322" font-size="14" fill="#1f2937" text-anchor="middle">生</text>
   <text x="544" y="350" font-size="14" fill="#1f2937" text-anchor="middle">产</text>
   <text x="586" y="339" font-size="14" fill="#1f2937" text-anchor="middle" transform="rotate(79.2,586,339)">财务与会计</text>
-  <text x="656" y="339" font-size="14" fill="#1f2937" text-anchor="middle" transform="rotate(60.3,656,339)">其他</text>
+  <text x="680" y="339" font-size="14" fill="#1f2937" text-anchor="middle" transform="rotate(60.3,680,339)">其他</text>
 </svg>
