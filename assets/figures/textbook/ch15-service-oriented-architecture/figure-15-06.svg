@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1165 479" role="img" aria-labelledby="title desc">
+<title id="title">图 15-6 ESB示意图</title><desc id="desc">五类服务无箭头接入同一 ESB；下方企业应用与企业数据各有一个连接及五个未命名示意图标。</desc>
+<defs><marker id="arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#4b7787"/></marker></defs>
+<g font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" text-anchor="middle" fill="#17363f">
+<path d="M24 22 l12 -12 h207 v138 l-12 12 H24Z" fill="#d3e8ed" stroke="#567c8a"/>
+<rect x="24" y="22" width="207" height="138" rx="1" fill="#f1f8fa" stroke="#567c8a" stroke-width="1.65"/>
+<polyline points="231.00,22.00 243.00,10.00" fill="none" stroke="#4b7787" stroke-width="2"/>
+<text x="127.5" y="72.1" font-size="21">User</text>
+<text x="127.5" y="98.1" font-size="21">Interaction</text>
+<text x="127.5" y="124.1" font-size="21">Service</text>
+<rect x="115" y="160" width="28" height="47" rx="11" fill="#dfedf1" stroke="#567c8a" stroke-width="1.65"/>
+<path d="M247 22 l12 -12 h207 v138 l-12 12 H247Z" fill="#d3e8ed" stroke="#567c8a"/>
+<rect x="247" y="22" width="207" height="138" rx="1" fill="#f1f8fa" stroke="#567c8a" stroke-width="1.65"/>
+<polyline points="454.00,22.00 466.00,10.00" fill="none" stroke="#4b7787" stroke-width="2"/>
+<text x="350.5" y="85.1" font-size="21">Application</text>
+<text x="350.5" y="111.1" font-size="21">Service</text>
+<rect x="338" y="160" width="28" height="47" rx="11" fill="#dfedf1" stroke="#567c8a" stroke-width="1.65"/>
+<path d="M470 22 l12 -12 h207 v138 l-12 12 H470Z" fill="#d3e8ed" stroke="#567c8a"/>
+<rect x="470" y="22" width="207" height="138" rx="1" fill="#f1f8fa" stroke="#567c8a" stroke-width="1.65"/>
+<polyline points="677.00,22.00 689.00,10.00" fill="none" stroke="#4b7787" stroke-width="2"/>
+<text x="573.5" y="85.1" font-size="21">Information</text>
+<text x="573.5" y="111.1" font-size="21">Service</text>
+<rect x="561" y="160" width="28" height="47" rx="11" fill="#dfedf1" stroke="#567c8a" stroke-width="1.65"/>
+<path d="M693 22 l12 -12 h207 v138 l-12 12 H693Z" fill="#d3e8ed" stroke="#567c8a"/>
+<rect x="693" y="22" width="207" height="138" rx="1" fill="#f1f8fa" stroke="#567c8a" stroke-width="1.65"/>
+<polyline points="900.00,22.00 912.00,10.00" fill="none" stroke="#4b7787" stroke-width="2"/>
+<text x="796.5" y="85.1" font-size="21">Process</text>
+<text x="796.5" y="111.1" font-size="21">Service</text>
+<rect x="784" y="160" width="28" height="47" rx="11" fill="#dfedf1" stroke="#567c8a" stroke-width="1.65"/>
+<path d="M916 22 l12 -12 h207 v138 l-12 12 H916Z" fill="#d3e8ed" stroke="#567c8a"/>
+<rect x="916" y="22" width="207" height="138" rx="1" fill="#f1f8fa" stroke="#567c8a" stroke-width="1.65"/>
+<polyline points="1123.00,22.00 1135.00,10.00" fill="none" stroke="#4b7787" stroke-width="2"/>
+<text x="1019.5" y="72.1" font-size="21">Community</text>
+<text x="1019.5" y="98.1" font-size="21">Integration</text>
+<text x="1019.5" y="124.1" font-size="21">Service</text>
+<rect x="1007" y="160" width="28" height="47" rx="11" fill="#dfedf1" stroke="#567c8a" stroke-width="1.65"/>
+<rect x="13" y="198" width="1134" height="63" rx="25" fill="#d9eef4" stroke="#567c8a" stroke-width="1.65"/>
+<ellipse cx="1126" cy="229.5" rx="20" ry="31" fill="#eaf4f7" stroke="#567c8a"/>
+<text x="571" y="238.5" font-size="25">Enterprise Service Bus</text>
+<rect x="277" y="262" width="29" height="47" rx="11" fill="#dfedf1" stroke="#567c8a" stroke-width="1.65"/>
+<path d="M30 315 l12 -12 h534 v98 l-12 12 H30Z" fill="#d3e8ed" stroke="#567c8a"/>
+<rect x="30" y="315" width="534" height="98" rx="1" fill="#f1f8fa" stroke="#567c8a" stroke-width="1.65"/>
+<polyline points="564.00,315.00 576.00,303.00" fill="none" stroke="#4b7787" stroke-width="2"/>
+<text x="297.0" y="371.1" font-size="21"></text>
+<rect x="45" y="336" width="92" height="63" rx="1" fill="#fff" stroke="#567c8a" stroke-width="1.65"/>
+<rect x="60" y="347" width="62" height="40" rx="1" fill="#fff" stroke="#567c8a" stroke-width="1.65"/>
+<rect x="65" y="352" width="52" height="30" rx="1" fill="#fff" stroke="#567c8a" stroke-width="1.65"/>
+<rect x="70" y="357" width="42" height="20" rx="1" fill="#fff" stroke="#567c8a" stroke-width="1.65"/>
+<rect x="148" y="336" width="92" height="63" rx="1" fill="#fff" stroke="#567c8a" stroke-width="1.65"/>
+<circle cx="194" cy="368" r="19" fill="#e1eef1" stroke="#567c8a" stroke-width="1.65"/>
+<polyline points="194.00,354.00 187.00,372.00 202.00,372.00 197.00,363.00" fill="none" stroke="#4b7787" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="251" y="336" width="92" height="63" rx="1" fill="#fff" stroke="#567c8a" stroke-width="1.65"/>
+<rect x="288" y="346" width="33" height="43" rx="1" fill="#f4f9fb" stroke="#567c8a" stroke-width="1.65"/>
+<polyline points="267.00,359.00 288.00,359.00" fill="none" stroke="#4b7787" stroke-width="2"/>
+<polyline points="267.00,375.00 288.00,375.00" fill="none" stroke="#4b7787" stroke-width="2"/>
+<rect x="354" y="336" width="92" height="63" rx="1" fill="#fff" stroke="#567c8a" stroke-width="1.65"/>
+<polyline points="400.00,368.00 383.00,380.00" fill="none" stroke="#4b7787" stroke-width="2"/>
+<circle cx="383" cy="380" r="6" fill="#d8ecf1" stroke="#567c8a" stroke-width="1.65"/>
+<polyline points="400.00,368.00 400.00,353.00" fill="none" stroke="#4b7787" stroke-width="2"/>
+<circle cx="400" cy="353" r="6" fill="#d8ecf1" stroke="#567c8a" stroke-width="1.65"/>
+<polyline points="400.00,368.00 417.00,380.00" fill="none" stroke="#4b7787" stroke-width="2"/>
+<circle cx="417" cy="380" r="6" fill="#d8ecf1" stroke="#567c8a" stroke-width="1.65"/>
+<circle cx="400" cy="368" r="6" fill="#d8ecf1" stroke="#567c8a" stroke-width="1.65"/>
+<rect x="457" y="336" width="92" height="63" rx="1" fill="#fff" stroke="#567c8a" stroke-width="1.65"/>
+<rect x="482" y="360" width="16" height="16" rx="1" fill="#f4f9fb" stroke="#567c8a" stroke-width="1.65"/>
+<rect x="508" y="360" width="16" height="16" rx="1" fill="#f4f9fb" stroke="#567c8a" stroke-width="1.65"/>
+<rect x="495" y="347" width="16" height="16" rx="1" fill="#f4f9fb" stroke="#567c8a" stroke-width="1.65"/>
+<rect x="495" y="373" width="16" height="16" rx="1" fill="#f4f9fb" stroke="#567c8a" stroke-width="1.65"/>
+<text x="295" y="455.1" font-size="21">Enterprise Application</text>
+<rect x="847" y="262" width="29" height="47" rx="11" fill="#dfedf1" stroke="#567c8a" stroke-width="1.65"/>
+<path d="M600 315 l12 -12 h534 v98 l-12 12 H600Z" fill="#d3e8ed" stroke="#567c8a"/>
+<rect x="600" y="315" width="534" height="98" rx="1" fill="#f1f8fa" stroke="#567c8a" stroke-width="1.65"/>
+<polyline points="1134.00,315.00 1146.00,303.00" fill="none" stroke="#4b7787" stroke-width="2"/>
+<text x="867.0" y="371.1" font-size="21"></text>
+<rect x="615" y="336" width="92" height="63" rx="1" fill="#fff" stroke="#567c8a" stroke-width="1.65"/>
+<ellipse cx="677" cy="368" rx="18" ry="24" fill="#f5fafb" stroke="#567c8a"/>
+<rect x="624" y="348" width="38" height="39" rx="1" fill="#f4f9fb" stroke="#567c8a" stroke-width="1.65"/>
+<circle cx="643" cy="363" r="7" fill="#779ea8" stroke="#567c8a" stroke-width="1.65"/>
+<polyline points="632.00,378.00 653.00,378.00" fill="none" stroke="#4b7787" stroke-width="2"/>
+<rect x="718" y="336" width="92" height="63" rx="1" fill="#fff" stroke="#567c8a" stroke-width="1.65"/>
+<ellipse cx="780" cy="368" rx="18" ry="24" fill="#f5fafb" stroke="#567c8a"/>
+<circle cx="747" cy="368" r="17" fill="#d2e8ee" stroke="#567c8a" stroke-width="1.65"/>
+<polyline points="733.00,359.00 749.00,368.00 762.00,368.00" fill="none" stroke="#4b7787" stroke-width="2"/>
+<rect x="821" y="336" width="92" height="63" rx="1" fill="#fff" stroke="#567c8a" stroke-width="1.65"/>
+<ellipse cx="883" cy="368" rx="18" ry="24" fill="#f5fafb" stroke="#567c8a"/>
+<circle cx="845" cy="354" r="6" fill="#d2e8ee" stroke="#567c8a" stroke-width="1.65"/>
+<circle cx="845" cy="368" r="6" fill="#d2e8ee" stroke="#567c8a" stroke-width="1.65"/>
+<circle cx="845" cy="382" r="6" fill="#d2e8ee" stroke="#567c8a" stroke-width="1.65"/>
+<circle cx="834" cy="382" r="6" fill="#d2e8ee" stroke="#567c8a" stroke-width="1.65"/>
+<circle cx="856" cy="382" r="6" fill="#d2e8ee" stroke="#567c8a" stroke-width="1.65"/>
+<rect x="924" y="336" width="92" height="63" rx="1" fill="#fff" stroke="#567c8a" stroke-width="1.65"/>
+<ellipse cx="986" cy="368" rx="18" ry="24" fill="#f5fafb" stroke="#567c8a"/>
+<rect x="932" y="354" width="40" height="30" rx="1" fill="#f4f9fb" stroke="#567c8a" stroke-width="1.65"/>
+<polyline points="933.00,384.00 970.00,353.00" fill="none" stroke="#4b7787" stroke-width="2"/>
+<rect x="1027" y="336" width="92" height="63" rx="1" fill="#fff" stroke="#567c8a" stroke-width="1.65"/>
+<ellipse cx="1089" cy="368" rx="18" ry="24" fill="#f5fafb" stroke="#567c8a"/>
+<rect x="1035" y="354" width="40" height="30" rx="1" fill="#f4f9fb" stroke="#567c8a" stroke-width="1.65"/>
+<polyline points="1036.00,354.00 1072.00,384.00" fill="none" stroke="#4b7787" stroke-width="2"/>
+<polyline points="1036.00,384.00 1072.00,354.00" fill="none" stroke="#4b7787" stroke-width="2"/>
+<text x="865" y="455.1" font-size="21">Enterprise Data</text>
+</g></svg>

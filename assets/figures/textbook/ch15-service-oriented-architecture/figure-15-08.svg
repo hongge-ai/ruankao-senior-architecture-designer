@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1029 498" role="img" aria-labelledby="title desc">
+<title id="title">图 15-8 单体架构与微服务架构</title><desc id="desc">左侧三格按页图同为展示层，单体应用连接共用数据库；右侧展示层分派给服务A、服务B、服务C，各连独立数据库。右下副标签以图题及紧邻正文订为微服务架构。</desc>
+<defs><marker id="arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#4b7787"/></marker></defs>
+<g font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" text-anchor="middle" fill="#17363f">
+<rect x="14" y="15" width="435" height="465" rx="1" fill="#fff" stroke="#567c8a" stroke-width="1.65"/>
+<rect x="32" y="34" width="397" height="272" rx="1" fill="#fff" stroke="#567c8a" stroke-width="1.65"/>
+<rect x="66" y="61" width="328" height="59" rx="1" fill="#f4f9fb" stroke="#567c8a" stroke-width="1.65"/>
+<text x="230.0" y="97.6" font-size="21">展示层</text>
+<rect x="66" y="140" width="328" height="59" rx="1" fill="#f4f9fb" stroke="#567c8a" stroke-width="1.65"/>
+<text x="230.0" y="176.6" font-size="21">展示层</text>
+<rect x="66" y="219" width="328" height="59" rx="1" fill="#f4f9fb" stroke="#567c8a" stroke-width="1.65"/>
+<text x="230.0" y="255.6" font-size="21">展示层</text>
+<polyline points="232.00,307.00 232.00,356.00" fill="none" stroke="#4b7787" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="93" y="359" width="277" height="60" rx="27" fill="#f4f9fb" stroke="#567c8a" stroke-width="1.65"/>
+<text x="231.5" y="396.1" font-size="21">数据库</text>
+<text x="232" y="458.8" font-size="23">单体应用架构</text>
+<rect x="468" y="15" width="545" height="465" rx="1" fill="#fff" stroke="#567c8a" stroke-width="1.65"/>
+<rect x="597" y="51" width="282" height="65" rx="1" fill="#f4f9fb" stroke="#567c8a" stroke-width="1.65"/>
+<text x="738.0" y="90.6" font-size="21">展示层</text>
+<polyline points="738.00,116.00 543.00,182.00" fill="none" stroke="#4b7787" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="504" y="185" width="78" height="112" rx="1" fill="#f4f9fb" stroke="#567c8a" stroke-width="1.65"/>
+<text x="543.0" y="223.5" font-size="19">服</text>
+<text x="543.0" y="247.5" font-size="19">务</text>
+<text x="543.0" y="271.5" font-size="19">A</text>
+<polyline points="543.00,298.00 543.00,351.00" fill="none" stroke="#4b7787" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="473" y="354" width="140" height="62" rx="26" fill="#f4f9fb" stroke="#567c8a" stroke-width="1.65"/>
+<text x="543.0" y="391.5" font-size="19">数据库</text>
+<polyline points="738.00,116.00 738.00,182.00" fill="none" stroke="#4b7787" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="699" y="185" width="78" height="112" rx="1" fill="#f4f9fb" stroke="#567c8a" stroke-width="1.65"/>
+<text x="738.0" y="223.5" font-size="19">服</text>
+<text x="738.0" y="247.5" font-size="19">务</text>
+<text x="738.0" y="271.5" font-size="19">B</text>
+<polyline points="738.00,298.00 738.00,351.00" fill="none" stroke="#4b7787" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="668" y="354" width="140" height="62" rx="26" fill="#f4f9fb" stroke="#567c8a" stroke-width="1.65"/>
+<text x="738.0" y="391.5" font-size="19">数据库</text>
+<polyline points="738.00,116.00 933.00,182.00" fill="none" stroke="#4b7787" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="894" y="185" width="78" height="112" rx="1" fill="#f4f9fb" stroke="#567c8a" stroke-width="1.65"/>
+<text x="933.0" y="223.5" font-size="19">服</text>
+<text x="933.0" y="247.5" font-size="19">务</text>
+<text x="933.0" y="271.5" font-size="19">C</text>
+<polyline points="933.00,298.00 933.00,351.00" fill="none" stroke="#4b7787" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="863" y="354" width="140" height="62" rx="26" fill="#f4f9fb" stroke="#567c8a" stroke-width="1.65"/>
+<text x="933.0" y="391.5" font-size="19">数据库</text>
+<text x="738" y="458.8" font-size="23">微服务架构</text>
+</g></svg>

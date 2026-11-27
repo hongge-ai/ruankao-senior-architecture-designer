@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 435" role="img" aria-labelledby="title desc">
+<title id="title">图 15-3 一个典型的企业服务总线</title>
+<desc id="desc">教材物理页525。上下各三个Service与总线插槽相对，内部三行分别有6个功能、3个Web服务规范与4个传输项。</desc>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#396b7a"/></marker></defs>
+<g font-family="Noto Sans CJK SC, sans-serif" fill="#17333e">
+<path d="M85 12h192v27h-22v24h-51v26h-46v-26h-51v-24h-22z" fill="#e7f5f8" stroke="#4d7580" stroke-width="1.7"/>
+<text x="181" y="51" text-anchor="middle" font-size="19">Service</text>
+<path d="M85 418h192v-27h-22v-24h-51v-26h-46v26h-51v24h-22z" fill="#e7f5f8" stroke="#4d7580" stroke-width="1.7"/>
+<text x="181" y="387" text-anchor="middle" font-size="19">Service</text>
+<path d="M335 12h192v27h-22v24h-51v26h-46v-26h-51v-24h-22z" fill="#e7f5f8" stroke="#4d7580" stroke-width="1.7"/>
+<text x="431" y="51" text-anchor="middle" font-size="19">Service</text>
+<path d="M335 418h192v-27h-22v-24h-51v-26h-46v26h-51v24h-22z" fill="#e7f5f8" stroke="#4d7580" stroke-width="1.7"/>
+<text x="431" y="387" text-anchor="middle" font-size="19">Service</text>
+<path d="M585 12h192v27h-22v24h-51v26h-46v-26h-51v-24h-22z" fill="#e7f5f8" stroke="#4d7580" stroke-width="1.7"/>
+<text x="681" y="51" text-anchor="middle" font-size="19">Service</text>
+<path d="M585 418h192v-27h-22v-24h-51v-26h-46v26h-51v24h-22z" fill="#e7f5f8" stroke="#4d7580" stroke-width="1.7"/>
+<text x="681" y="387" text-anchor="middle" font-size="19">Service</text>
+<path d="M50 75H105V102H153V132H209V102H257V75H355V102H403V132H459V102H507V75H605V102H653V132H709V102H757V75H810V355H757V328H709V298H653V328H605V355H507V328H459V298H403V328H355V355H257V328H209V298H153V328H105V355H50Z" fill="#daeff3" stroke="#4d7580" stroke-width="1.7"/>
+<rect x="98.0" y="145" width="104" height="37" rx="0" fill="#eff7f9" stroke="#4d7580" stroke-width="1.6"/><text x="150.0" y="169.16666666666666" text-anchor="middle" font-size="17">Transport</text>
+<rect x="210.0" y="145" width="104" height="37" rx="0" fill="#eff7f9" stroke="#4d7580" stroke-width="1.6"/><text x="262.0" y="169.16666666666666" text-anchor="middle" font-size="17">Transform</text>
+<rect x="322.0" y="145" width="104" height="37" rx="0" fill="#eff7f9" stroke="#4d7580" stroke-width="1.6"/><text x="374.0" y="169.16666666666666" text-anchor="middle" font-size="17">Route</text>
+<rect x="434.0" y="145" width="104" height="37" rx="0" fill="#eff7f9" stroke="#4d7580" stroke-width="1.6"/><text x="486.0" y="169.16666666666666" text-anchor="middle" font-size="17">WS-BPEL</text>
+<rect x="546.0" y="145" width="104" height="37" rx="0" fill="#eff7f9" stroke="#4d7580" stroke-width="1.6"/><text x="598.0" y="169.16666666666666" text-anchor="middle" font-size="17">Rules</text>
+<rect x="658.0" y="145" width="104" height="37" rx="0" fill="#eff7f9" stroke="#4d7580" stroke-width="1.6"/><text x="710.0" y="169.16666666666666" text-anchor="middle" font-size="17">Failover</text>
+<rect x="266.0" y="197" width="104" height="37" rx="0" fill="#eff7f9" stroke="#4d7580" stroke-width="1.6"/><text x="318.0" y="221.16666666666666" text-anchor="middle" font-size="17">SOAP</text>
+<rect x="378.0" y="197" width="104" height="37" rx="0" fill="#eff7f9" stroke="#4d7580" stroke-width="1.6"/><text x="430.0" y="221.16666666666666" text-anchor="middle" font-size="17">WSDL</text>
+<rect x="490.0" y="197" width="104" height="37" rx="0" fill="#eff7f9" stroke="#4d7580" stroke-width="1.6"/><text x="542.0" y="221.16666666666666" text-anchor="middle" font-size="17">UDDI</text>
+<rect x="210.0" y="247" width="104" height="37" rx="0" fill="#eff7f9" stroke="#4d7580" stroke-width="1.6"/><text x="262.0" y="271.1666666666667" text-anchor="middle" font-size="17">HTTP(S)</text>
+<rect x="322.0" y="247" width="104" height="37" rx="0" fill="#eff7f9" stroke="#4d7580" stroke-width="1.6"/><text x="374.0" y="271.1666666666667" text-anchor="middle" font-size="17">JMS</text>
+<rect x="434.0" y="247" width="104" height="37" rx="0" fill="#eff7f9" stroke="#4d7580" stroke-width="1.6"/><text x="486.0" y="271.1666666666667" text-anchor="middle" font-size="17">FTP</text>
+<rect x="546.0" y="247" width="104" height="37" rx="0" fill="#eff7f9" stroke="#4d7580" stroke-width="1.6"/><text x="598.0" y="271.1666666666667" text-anchor="middle" font-size="17">SMTP</text>
+</g></svg>

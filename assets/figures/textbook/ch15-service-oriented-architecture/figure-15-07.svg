@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1018 621" role="img" aria-labelledby="title desc">
+<title id="title">图 15-7 SynchroESB层次结构图</title><desc id="desc">四层从应用工具到服务总线；中间六节点先分支再汇合，适配器、无字组件、省略号及数据转换并列；底层消息说明与 JMS 分两行。</desc>
+<defs><marker id="arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#4b7787"/></marker></defs>
+<g font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" text-anchor="middle" fill="#17363f">
+<polyline points="12.00,130.00 1002.00,130.00" fill="none" stroke="#4b7787" stroke-width="2" stroke-dasharray="6 5"/>
+<polyline points="12.00,316.00 1002.00,316.00" fill="none" stroke="#4b7787" stroke-width="2" stroke-dasharray="6 5"/>
+<polyline points="12.00,457.00 1002.00,457.00" fill="none" stroke="#4b7787" stroke-width="2" stroke-dasharray="6 5"/>
+<text x="105" y="92.1" font-size="21">应用工具层</text>
+<path d="M252 33 l12 -12 h224 v70 l-12 12 H252Z" fill="#d3e8ed" stroke="#567c8a"/>
+<rect x="252" y="33" width="224" height="70" rx="1" fill="#f1f8fa" stroke="#567c8a" stroke-width="1.65"/>
+<polyline points="476.00,33.00 488.00,21.00" fill="none" stroke="#4b7787" stroke-width="2"/>
+<text x="364.0" y="62.1" font-size="21">Process</text>
+<text x="364.0" y="88.1" font-size="21">Orchestration</text>
+<path d="M555 33 l12 -12 h224 v70 l-12 12 H555Z" fill="#d3e8ed" stroke="#567c8a"/>
+<rect x="555" y="33" width="224" height="70" rx="1" fill="#f1f8fa" stroke="#567c8a" stroke-width="1.65"/>
+<polyline points="779.00,33.00 791.00,21.00" fill="none" stroke="#4b7787" stroke-width="2"/>
+<text x="667.0" y="75.1" font-size="21">ESB管理</text>
+<text x="105" y="259.1" font-size="21">流程控制层</text>
+<rect x="216" y="151" width="758" height="138" rx="22" fill="#edf7f9" stroke="#567c8a" stroke-width="1.65"/>
+<polyline points="288.10,213.07 363.99,189.52" fill="none" stroke="#4b7787" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="288.10,224.93 363.99,248.48" fill="none" stroke="#4b7787" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="404.14,188.79 482.94,212.63" fill="none" stroke="#4b7787" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="404.14,249.21 482.94,225.37" fill="none" stroke="#4b7787" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="524.00,219.00 622.00,219.00" fill="none" stroke="#4b7787" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="664.00,219.00 766.00,219.00" fill="none" stroke="#4b7787" stroke-width="2" marker-end="url(#arrow)"/>
+<circle cx="269" cy="219" r="20" fill="#d5edf2" stroke="#567c8a" stroke-width="1.65"/>
+<circle cx="385" cy="183" r="20" fill="#d5edf2" stroke="#567c8a" stroke-width="1.65"/>
+<circle cx="385" cy="255" r="20" fill="#d5edf2" stroke="#567c8a" stroke-width="1.65"/>
+<circle cx="504" cy="219" r="20" fill="#d5edf2" stroke="#567c8a" stroke-width="1.65"/>
+<circle cx="644" cy="219" r="20" fill="#d5edf2" stroke="#567c8a" stroke-width="1.65"/>
+<circle cx="788" cy="219" r="20" fill="#d5edf2" stroke="#567c8a" stroke-width="1.65"/>
+<text x="104" y="383.1" font-size="21">数据转换与</text>
+<text x="104" y="409.1" font-size="21">适配器层</text>
+<rect x="348" y="361" width="40" height="17" rx="1" fill="#b8dce5" stroke="#567c8a" stroke-width="1.65"/>
+<rect x="348" y="393" width="40" height="17" rx="1" fill="#b8dce5" stroke="#567c8a" stroke-width="1.65"/>
+<rect x="258" y="347" width="101" height="77" rx="1" fill="#e0eff4" stroke="#567c8a" stroke-width="1.65"/>
+<rect x="265" y="355" width="101" height="77" rx="1" fill="#f2f8fa" stroke="#567c8a" stroke-width="1.65"/>
+<text x="314" y="400.1" font-size="21">适配器</text>
+<rect x="583" y="361" width="40" height="17" rx="1" fill="#b8dce5" stroke="#567c8a" stroke-width="1.65"/>
+<rect x="583" y="393" width="40" height="17" rx="1" fill="#b8dce5" stroke="#567c8a" stroke-width="1.65"/>
+<rect x="493" y="347" width="101" height="77" rx="1" fill="#e0eff4" stroke="#567c8a" stroke-width="1.65"/>
+<rect x="500" y="355" width="101" height="77" rx="1" fill="#f2f8fa" stroke="#567c8a" stroke-width="1.65"/>
+<text x="549" y="400.1" font-size="21"></text>
+<rect x="899" y="361" width="40" height="17" rx="1" fill="#b8dce5" stroke="#567c8a" stroke-width="1.65"/>
+<rect x="899" y="393" width="40" height="17" rx="1" fill="#b8dce5" stroke="#567c8a" stroke-width="1.65"/>
+<rect x="809" y="347" width="101" height="77" rx="1" fill="#e0eff4" stroke="#567c8a" stroke-width="1.65"/>
+<rect x="816" y="355" width="101" height="77" rx="1" fill="#f2f8fa" stroke="#567c8a" stroke-width="1.65"/>
+<text x="865" y="400.1" font-size="21">数据转换</text>
+<text x="713" y="398.8" font-size="26">…</text>
+<text x="106" y="546.1" font-size="21">服务总线层</text>
+<rect x="214" y="481" width="758" height="122" rx="35" fill="#d9eef4" stroke="#567c8a" stroke-width="1.65"/>
+<rect x="243" y="499" width="700" height="40" rx="8" fill="#f4f9fb" stroke="#567c8a" stroke-width="1.65"/>
+<text x="593.0" y="525.8" font-size="20">Reliable Asynchronous Secure Messaging</text>
+<rect x="241" y="546" width="694" height="36" rx="8" fill="#f4f9fb" stroke="#567c8a" stroke-width="1.65"/>
+<text x="588.0" y="570.8" font-size="20">JMS</text>
+</g></svg>
