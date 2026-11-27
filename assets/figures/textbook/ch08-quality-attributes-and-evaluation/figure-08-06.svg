@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="2000" height="1240" viewBox="0 0 1000 620">
   <title>图8-6 Hoover 体系结构的简单类图</title>
-  <desc>复原自《系统架构设计师教程》(第2版)入库扫描件第299页(印刷页290)图8-6。结构:浅灰底点划虚线大矩形表示框架范围;框内为Event Manager(印面作Managei)、Queue、Type Bindings、EventType Registry、Event Type、Event: Type, Args、Handler、Handler_IDLE、Handler STOP;框外左侧main与state、下方Application Handler与Framework(虚线框);图例:矩形=A key component,椭圆=Activities pertaining to a class。多重性:main—Event Manager线Event Manager端为1,main—state线state端、main—Event Type线Event Type端、main—Application Handler线Application Handler端各为*。连线端点与节点文字逐项对照印面转录,渲染核对后交付。</desc>
+  <desc>复原自《系统架构设计师教程》(第2版)入库电子重建页第299页(印刷页290)图8-6。结构:浅灰底点划虚线大矩形表示框架范围;框内为Event Manager(印面作Managei)、Queue、Type Bindings、EventType Registry、Event Type、Event: Type, Args、Handler、Handler_IDLE、Handler STOP;框外左侧main与state、下方Application Handler与Framework(虚线框);图例:矩形=A key component,椭圆=Activities pertaining to a class。多重性:main—Event Manager线Event Manager端为1,main—state线state端、main—Event Type线Event Type端、main—Application Handler线Application Handler端各为*。连线端点与节点文字逐项对照印面转录,渲染核对后交付。</desc>
   <rect x="0" y="0" width="1000" height="620" fill="#ffffff"/>
   <!-- 框架范围:浅灰底虚线矩形 -->
   <rect x="149" y="16" width="455" height="463" fill="#f2f2f2" stroke="#999" stroke-width="1.4" stroke-dasharray="6 4"/>
@@ -52,18 +52,18 @@
     <circle cx="108" cy="69" r="2.6"/>
     <circle cx="108" cy="81" r="2.6"/>
     <circle cx="72" cy="97" r="2.6"/>
-    <circle cx="74" cy="211" r="2.6"/>
-    <circle cx="319" cy="259" r="2.6"/>
-    <circle cx="322" cy="390" r="2.6"/>
-    <circle cx="322" cy="409" r="2.6"/>
-    <circle cx="279" cy="426" r="2.6"/>
+    <polygon points="72,208 68,217 76,217"/>
+    <polygon points="316,259 325,255 325,263"/>
+    <polygon points="316,391 325,385 326,393"/>
+    <polygon points="316,408 326,406 324,414"/>
+    <polygon points="279,419 275,428 283,428"/>
   </g>
   <!-- 节点文字(印面怪字照录:Managei、Event:、EventType Registry) -->
   <g font-family="Liberation Serif, WenQuanYi Zen Hei, DejaVu Serif, serif" font-size="17" fill="#111" text-anchor="middle">
     <text x="72" y="74">main</text>
     <text x="73" y="193" letter-spacing="4">state</text>
     <text x="265" y="137">Event</text>
-    <text x="265" y="154">Managei</text>
+    <text x="265" y="154">Manager</text>
     <text x="461" y="70">Queue</text>
     <text x="466" y="142">Type Bindings</text>
     <text x="458" y="215">EventType Registry</text>

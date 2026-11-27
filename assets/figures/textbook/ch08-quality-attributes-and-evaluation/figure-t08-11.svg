@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="984" height="1064" viewBox="0 0 984 1064">
 <title>表8-11 编号方案的列表、类型以及所代表的质量属性</title>
-<desc>复原自《系统架构设计师教程》(第2版)扫描件物理页308-309(印刷页299-300)表8-11,309页右上印有「(续表)」,合并复原为单表。4列(场景分类/场景/质量属性/场景编号,编号在末列)×16数据行;组标签跨行单元格:Use case 用例场景覆盖行1-4,Growth Scenarios 增长场景覆盖行5-14,Exploratory Scenarios 探索性场景覆盖行15-16;行13质量属性格带原表修订标记「(此处有修改)」,照录;行5质量属性行5在308/309两页重复出现且英文拼写不一致(308页「Modifability」,309页「Modifiability」),本图取309页(增长场景组内)写法;中英双行单元格照录。</desc>
+<desc>复原自《系统架构设计师教程》(第2版)电子重建物理页308-309(印刷页299-300)表8-11,309页右上印有「(续表)」,合并复原为单表。4列(场景分类/场景/质量属性/场景编号,编号在末列)×16数据行;组标签跨行单元格:Use case 用例场景覆盖行1-5,Growth Scenarios 增长场景覆盖行6-14,Exploratory Scenarios 探索性场景覆盖行15-16;行13质量属性格带原表修订标记「(此处有修改)」,照录;行5质量属性行5在308/309两页重复出现且英文拼写不一致(308页「Modifability」,309页「Modifiability」),本图采用标准拼写;中英双行单元格照录。</desc>
 <rect x="0" y="0" width="984" height="1064" fill="#ffffff"/>
 <line x1="12" y1="4" x2="12" y2="1056" stroke="#000000" stroke-width="1"/>
 <line x1="162" y1="4" x2="162" y2="1056" stroke="#000000" stroke-width="1"/>
@@ -13,8 +13,8 @@
 <line x1="162" y1="142" x2="972" y2="142" stroke="#000000" stroke-width="1"/>
 <line x1="162" y1="200" x2="972" y2="200" stroke="#000000" stroke-width="1"/>
 <line x1="162" y1="258" x2="972" y2="258" stroke="#000000" stroke-width="1"/>
-<line x1="12" y1="316" x2="972" y2="316" stroke="#000000" stroke-width="1"/>
-<line x1="162" y1="374" x2="972" y2="374" stroke="#000000" stroke-width="1"/>
+<line x1="162" y1="316" x2="972" y2="316" stroke="#000000" stroke-width="1"/>
+<line x1="12" y1="374" x2="972" y2="374" stroke="#000000" stroke-width="1"/>
 <line x1="162" y1="432" x2="972" y2="432" stroke="#000000" stroke-width="1"/>
 <line x1="162" y1="490" x2="972" y2="490" stroke="#000000" stroke-width="1"/>
 <line x1="162" y1="548" x2="972" y2="548" stroke="#000000" stroke-width="1"/>

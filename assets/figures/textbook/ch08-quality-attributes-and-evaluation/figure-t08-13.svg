@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="984" height="582" viewBox="0 0 984 582">
 <title>表8-13 示例统计结果</title>
-<desc>复原自《系统架构设计师教程》(第2版)扫描件物理页310-311(印刷页301-302)表8-13,311页右上印有「(续表)」,合并复原为单表,标记照录于表上方。3列(Sc# 场景编号/Scenario 场景/Quality Attribute 质量属性)×8数据行(8/13/14/4/5/1/2/6);行8/13/14质量属性为跨行合并单元格,仅印「Functionality 功能性」一次,不重复、不带「概念上的完整性」;行5/14场景句末英文句点照录。</desc>
+<desc>复原自《系统架构设计师教程》(第2版)电子重建物理页310-311(印刷页301-302)表8-13,311页右上印有「(续表)」,合并复原为单表,删除跨页排版标记。3列(Sc# 场景编号/Scenario 场景/Quality Attribute 质量属性)×8数据行(8/13/14/4/5/1/2/6);行8/13/14质量属性为跨行合并单元格,仅印「Functionality 功能性」一次,不重复、不带「概念上的完整性」;行5/14场景句末英文句点照录。</desc>
 <rect x="0" y="0" width="984" height="582" fill="#ffffff"/>
-<text x="972" y="20" font-family="serif" font-size="14" text-anchor="end" fill="#000000">(续表)</text>
+
 <line x1="12" y1="30" x2="12" y2="574" stroke="#000000" stroke-width="1"/>
 <line x1="82" y1="30" x2="82" y2="574" stroke="#000000" stroke-width="1"/>
 <line x1="722" y1="30" x2="722" y2="574" stroke="#000000" stroke-width="1"/>

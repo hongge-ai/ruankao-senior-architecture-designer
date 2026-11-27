@@ -1610,8 +1610,8 @@
    "asset": "assets/figures/textbook/ch08-quality-attributes-and-evaluation/figure-t08-01.svg",
    "physical_page": 283,
    "printed_page": 274,
-   "record": "verification/教材首轮核查-第08章-系统质量属性与架构评估.md",
-   "note": "跨页表:283 表头+刺激源/刺激/环境/制品/响应行,284 右上「(续表)」+重复表头+响应度量行,一幅内连续呈现。照录印面:刺激行「疏忽、错误、崩溃、时间」(20× 核 e81-p283-20x-shijian.png,「时间」疑误照录);响应格「系统应该检测事件、并进行」(20× 核)、「根据已定义的规则」;「故障的事件源」与「在一段…」之间印面无标点(换行分项,SVG 按行呈现);「刺　激」「制　品」字间空隙照录。干净上下文绘制(d1 批,0 无法判定)+渲染自检通过,盲比收口情况见表后补记。"
+   "record": "verification/教材OCR纠错记录-第8章.md",
+   "note": "物理283–284跨页两列表，保留续表标识与六项要素。刺激校为故障类型，并理清响应中的中断时限与运行模式。"
   },
   {
    "id": "tb-fig-0115",
@@ -1624,8 +1624,8 @@
    "asset": "assets/figures/textbook/ch08-quality-attributes-and-evaluation/figure-t08-02.svg",
    "physical_page": 284,
    "printed_page": 275,
-   "record": "verification/教材首轮核查-第08章-系统质量属性与架构评估.md",
-   "note": "两列表。照录:响应格「对所做的修改进行测试，部署所做的修改」(无「并」);响应度量格「根据所影响元素的数量度量的成本」;「刺　激」「制　品」字间空隙照录。d1 批绘制,自检通过。"
+   "record": "verification/教材OCR纠错记录-第8章.md",
+   "note": "两列六项，修正变更请求和成本度量表述。"
   },
   {
    "id": "tb-fig-0116",
@@ -1638,8 +1638,8 @@
    "asset": "assets/figures/textbook/ch08-quality-attributes-and-evaluation/figure-t08-03.svg",
    "physical_page": 284,
    "printed_page": 275,
-   "record": "verification/教材首轮核查-第08章-系统质量属性与架构评估.md",
-   "note": "两列表,逐格与印面一致;环境行全角「（Overload）」照录。d1 批绘制,自检通过。"
+   "record": "verification/教材OCR纠错记录-第8章.md",
+   "note": "两列六项，刺激源为用户或其他系统。"
   },
   {
    "id": "tb-fig-0117",
@@ -1652,8 +1652,8 @@
    "asset": "assets/figures/textbook/ch08-quality-attributes-and-evaluation/figure-t08-04.svg",
    "physical_page": 285,
    "printed_page": 276,
-   "record": "verification/教材首轮核查-第08章-系统质量属性与架构评估.md",
-   "note": "两列表;响应度量格首行「已执行的可执行语句的百分比」照印面。d1 批绘制,自检通过。"
+   "record": "verification/教材OCR纠错记录-第8章.md",
+   "note": "两列六项，响应度量五项；区别缺陷存在与测试暴露缺陷。"
   },
   {
    "id": "tb-fig-0118",
@@ -1666,8 +1666,8 @@
    "asset": "assets/figures/textbook/ch08-quality-attributes-and-evaluation/figure-t08-05.svg",
    "physical_page": 285,
    "printed_page": 276,
-   "record": "verification/教材首轮核查-第08章-系统质量属性与架构评估.md",
-   "note": "响应格为印面 (1)–(5) 编号分行列表照录(清洗稿曾拼为一段);「使错误的影响最低」「对系统的满意」「与客户的节奏合拍」「用户知识的获得」「所占的比例」「损失的时间/丢失的数据量」(斜杠照录)均按 20× 终读转录。d1 批绘制,自检通过。"
+   "record": "verification/教材OCR纠错记录-第8章.md",
+   "note": "两列六项，响应含五个分项；忘记密码的场景以重置恢复访问。"
   },
   {
    "id": "tb-fig-0119",
@@ -1680,8 +1680,8 @@
    "asset": "assets/figures/textbook/ch08-quality-attributes-and-evaluation/figure-t08-06.svg",
    "physical_page": 286,
    "printed_page": 277,
-   "record": "verification/教材首轮核查-第08章-系统质量属性与架构评估.md",
-   "note": "斜杠列举照录(内部/外部、授权/未授权、改变/删除、有限的资源/大量资源);「经过了授权/未授权它访问了」照录;响应度量格「确定攻击或访问」无「者」(20× 核 e81-p286-20x-gongji.png,疑脱字照录);「修改数据、服务」顿号照录;响应末行行首一字缩进照录。d1 批绘制,自检通过。"
+   "record": "verification/教材OCR纠错记录-第8章.md",
+   "note": "两列六项，分开身份识别与授权状态；恢复数据或服务按所需时间度量。"
   },
   {
    "id": "tb-fig-0120",
@@ -1694,8 +1694,8 @@
    "asset": "assets/figures/textbook/ch08-quality-attributes-and-evaluation/figure-08-05.svg",
    "physical_page": 298,
    "printed_page": 289,
-   "record": "verification/教材首轮核查-第08章-系统质量属性与架构评估.md",
-   "note": "纵向流程框图,四阶段结构照印面;节点文字逐项放大转录。稿原题注漏「阶段划分」三字,已照印面补全。d3 批绘制,渲染自检通过。"
+   "record": "verification/教材OCR纠错记录-第8章.md",
+   "note": "九步四组；去掉重叠图题，步骤4、6、7、8名称按正文明确为架构方法与场景排序。 电子重建页直接目读，成品独立栅格化复验。"
   },
   {
    "id": "tb-fig-0121",
@@ -1708,8 +1708,8 @@
    "asset": "assets/figures/textbook/ch08-quality-attributes-and-evaluation/figure-08-06.svg",
    "physical_page": 299,
    "printed_page": 290,
-   "record": "verification/教材首轮核查-第08章-系统质量属性与架构评估.md",
-   "note": "UML 类图。原书怪字照录:事件管理器框「Event/Managei」(末字 i,20× 核)、事件框「Event:/Type, Args」(冒号)、注册表「EventType Registry」(空格分词)、图例「A key component」。多重性:main—Event Manager 线 EM 端「1」,state/Event Type/Application Handler 端「*」,照印面。框架虚线框与灰色背景阴影区域照录。印面 EM 框顶/底边中段淡出、图例椭圆右弧中断,按完整矩形/椭圆复原(d3-p299-fig86-embox.png、legend2.png);AH 左侧 * 的几何归属照印面位置、语义不裁决。稿内人工核对表/事件流段为清洗阶段添加,随 SVG 落地移除。d3 批绘制,渲染自检通过。"
+   "record": "verification/教材OCR纠错记录-第8章.md",
+   "note": "按图补应用处理程序指向state、Event Type处及三个Handler方向箭头，按正文校为Event Manager。 电子重建页直接目读，成品独立栅格化复验。"
   },
   {
    "id": "tb-fig-0122",
@@ -1722,22 +1722,22 @@
    "asset": "assets/figures/textbook/ch08-quality-attributes-and-evaluation/figure-08-07.svg",
    "physical_page": 300,
    "printed_page": 291,
-   "record": "verification/教材首轮核查-第08章-系统质量属性与架构评估.md",
-   "note": "UML 类图。原书怪字照录:图例「Akey component」(A 后无空格)、「Type Binding」(无 s)。EM—main 线上端照印面止于 EM 框左下角外空白、不接触(d3-p300-fig87-em-main-corner.png);Handler 框与 Application 框顶边印面缺段,按完整矩形复原(d3-p300-fig87-handler-region.png)。稿内人工核对表为清洗阶段添加,随 SVG 落地移除。d3 批绘制,渲染自检通过。"
+   "record": "verification/教材OCR纠错记录-第8章.md",
+   "note": "恢复三个标准处理程序指向Handler的箭头；图例A key component添空格。 电子重建页直接目读，成品独立栅格化复验。"
   },
   {
    "id": "tb-fig-0123",
    "corpus": "textbook",
    "file": "content/01-系统架构设计师教材-清洗版/第08章-系统质量属性与架构评估/第03节-ATAM方法架构评估实践.md",
    "figure": "表 8-9",
-   "title": "与利益相关者有关的情景和其代表的质量属性",
+   "title": "与利益相关者有关的场景和其代表的质量属性",
    "kind": "svg",
-   "anchor": "> 表 8-9 与利益相关者有关的情景和其代表的质量属性",
+   "anchor": "> 表 8-9 与利益相关者有关的场景和其代表的质量属性",
    "asset": "assets/figures/textbook/ch08-quality-attributes-and-evaluation/figure-t08-09.svg",
    "physical_page": 302,
    "printed_page": 293,
-   "record": "verification/教材首轮核查-第08章-系统质量属性与架构评估.md",
-   "note": "三列 14 行。表题「情景」照录(见 tb-0116);行3「失效发生后应该立即回复」照录(12× 核「回复」非「恢复」,d3-p302-tab89-r03-tail.png,疑原书误排);行10/行12 质量属性均「可移植性」照录(行12 6× 核 d3-p302-tab89-qa-r12c.png)。d3 批绘制,渲染自检通过。"
+   "record": "verification/教材OCR纠错记录-第8章.md",
+   "note": "三列、14场景。阻止未授权访问及失效后恢复，分别据表8-11相同场景补正。 电子重建页直接目读，成品独立栅格化复验。"
   },
   {
    "id": "tb-fig-0124",
@@ -1750,8 +1750,8 @@
    "asset": "assets/figures/textbook/ch08-quality-attributes-and-evaluation/figure-t08-07.svg",
    "physical_page": 287,
    "printed_page": 278,
-   "record": "verification/教材首轮核查-第08章-系统质量属性与架构评估.md",
-   "note": "跨页表（287–288 / 印刷 278–279）:287 表题+表头+「系统生产者」组+「系统消费者」组起头,288 右上「(续表)」+任务专家行+「系统服务人员」「其他人员」组,一幅内连续呈现;4 个通栏分组行照印面复原(清洗稿原缺失,F15)。原书怪字照录:「负责构件集成和□组装」之「□」为印面虚缺号(20×–56× 不辨,d2-p287-40x-jihe-glyph2.png 等)、「受限藕合」(藕)、「简单裁减机制」「可裁减性」「中和调停」。印面条目行为 20 行。d2 批绘制,渲染自检通过。"
+   "record": "verification/教材OCR纠错记录-第8章.md",
+   "note": "跨印刷278–279页的利益相关者与关注问题，两段合为一表。"
   },
   {
    "id": "tb-fig-0125",
@@ -1764,8 +1764,8 @@
    "asset": "assets/figures/textbook/ch08-quality-attributes-and-evaluation/figure-08-01.svg",
    "physical_page": 289,
    "printed_page": 280,
-   "record": "verification/教材首轮核查-第08章-系统质量属性与架构评估.md",
-   "note": "流程图:左列三椭圆(问题描述/需求说明/体系结构描述)→SAAM 框,箭头标注「需求分析」「体系结构设计」;右侧「场景」组含场景开发⇄体系结构描述(迭代双向箭头)、AND、单个场景评估、场景交互评估、OR、总体评估,旁注「比较多个体系结构」「单个体系结构评估」。原书图文不一照录:图内椭圆「需求说明」,正文作「需求声明」。11 条连线含迭代双向箭头,方向逐条对照印面。d2 批绘制,渲染自检通过。"
+   "record": "verification/教材OCR纠错记录-第8章.md",
+   "note": "三项输入、迭代与五项评估活动。"
   },
   {
    "id": "tb-fig-0126",
@@ -1778,8 +1778,8 @@
    "asset": "assets/figures/textbook/ch08-quality-attributes-and-evaluation/figure-08-02.svg",
    "physical_page": 290,
    "printed_page": 281,
-   "record": "verification/教材首轮核查-第08章-系统质量属性与架构评估.md",
-   "note": "环形四象限图:象限编号 1→2→3→4→5→6→7 环形排布(1.收集场景/2.收集需求/约束/环境;3.描述体系结构视图/4.实现场景,——尾逗号照录;5.特定属性分析(优秀的单一理论);7.标志折中/6.标志敏感度);四阶段外标(阶段1 场景和需求收集、阶段2 体系结构视图和场景实现、阶段3 属性模型构造和分析、阶段4 折中);3 段外弧箭头(3点向下/6点向左/9点向上)。顶部框「行□计划」第二字叠影套印不可辨(e82a-p290-20x-topbox.png、d2-p290-24x-topbox-enh.png),照录「□」不补字。d2 批绘制,渲染自检通过。"
+   "record": "verification/教材OCR纠错记录-第8章.md",
+   "note": "四象限、七编号步骤。右上框第二字无法唯一识别，原图留疑。"
   },
   {
    "id": "tb-fig-0127",
@@ -1792,8 +1792,8 @@
    "asset": "assets/figures/textbook/ch08-quality-attributes-and-evaluation/figure-t08-08.svg",
    "physical_page": 293,
    "printed_page": 284,
-   "record": "verification/教材首轮核查-第08章-系统质量属性与架构评估.md",
-   "note": "印面为一张表:表题下三组跨列分组标题行(架构属性变量/质量准则变量/质量因素变量),各带表头行——清洗稿原拆为三张表(F15),已按印面合并复原。空白格留空照录。「组合」行右列「线程应用」10× 确认。d2 批绘制,渲染自检通过。"
+   "record": "verification/教材OCR纠错记录-第8章.md",
+   "note": "由上到下为架构属性、质量准则、质量因素三组，每组并列两对属性与可选值。"
   },
   {
    "id": "tb-fig-0128",
@@ -1806,22 +1806,22 @@
    "asset": "assets/figures/textbook/ch08-quality-attributes-and-evaluation/figure-08-03.svg",
    "physical_page": 295,
    "printed_page": 286,
-   "record": "verification/教材首轮核查-第08章-系统质量属性与架构评估.md",
-   "note": "数据曲线图:纵轴 0–0.008(0.001 间距)、横轴 0–12;图例 Distance from Architecture in Mar 04(实线+圆点)/Mar 05(虚线+三角)。25 个数据点按像素测量换算(d2 坐标测量表):Mar05 13 点(x=0–12),Mar04 12 点(印面自 x=1 起,x=0 无该系列点);x=2/12 两系列重合。中间无标记段按标记间直线连接;曲线轨迹为像素测量近似,记录于 draw-d2.md。引用句「，如图8-3所示。」已照印面补回。d2 批绘制,渲染自检通过。"
+   "record": "verification/教材OCR纠错记录-第8章.md",
+   "note": "两参考架构的距离；末端仅照录可辨系列。"
   },
   {
    "id": "tb-fig-0129",
    "corpus": "textbook",
    "file": "content/01-系统架构设计师教材-清洗版/第08章-系统质量属性与架构评估/第02节-系统架构评估.md",
    "figure": "图 8-4",
-   "title": "架构转移矩阵与 LOC 变化趋势",
+   "title": "架构转移度量与 LOC 变化趋势",
    "kind": "svg",
-   "anchor": "> 图 8-4 架构转移矩阵与 LOC 变化趋势",
+   "anchor": "> 图 8-4 架构转移度量与 LOC 变化趋势",
    "asset": "assets/figures/textbook/ch08-quality-attributes-and-evaluation/figure-08-04.svg",
    "physical_page": 295,
    "printed_page": 286,
-   "record": "verification/教材首轮核查-第08章-系统质量属性与架构评估.md",
-   "note": "双纵轴数据曲线图:左轴 −1–1(0.5 间距)、右轴 100000–300000、横轴 0–12;图例 Architecture transition(实线+圆点)/LOC transition(虚线+三角)。25 点像素测量换算(LOC 13 点、Architecture 12 点自 x=1 起);x=12 处两系列重合于 0.65/265000。整句引用「图8-4展示了…右侧纵轴是LOC。」已照印面补回(F38)。d2 批绘制,渲染自检通过。"
+   "record": "verification/教材OCR纠错记录-第8章.md",
+   "note": "左轴转移度量，右轴代码行数。"
   },
   {
    "id": "tb-fig-0130",
@@ -1834,22 +1834,22 @@
    "asset": "assets/figures/textbook/ch08-quality-attributes-and-evaluation/figure-t08-10.svg",
    "physical_page": 307,
    "printed_page": 298,
-   "record": "verification/教材首轮核查-第08章-系统质量属性与架构评估.md",
-   "note": "三列两行,三线式。「胡佛架构」行风险格为浅灰「—」占位(非「无」字,照录——清洗稿原写「无」,F307-02)。d4 批绘制,渲染自检通过。"
+   "record": "verification/教材OCR纠错记录-第8章.md",
+   "note": "三列、两种架构；按原表保留两种架构在案例场景下的初判，正文说明含义。 电子重建页直接目读，成品独立栅格化复验。"
   },
   {
    "id": "tb-fig-0131",
    "corpus": "textbook",
    "file": "content/01-系统架构设计师教材-清洗版/第08章-系统质量属性与架构评估/第03节-ATAM方法架构评估实践.md",
    "figure": "表 8-11",
-   "title": "编号方案的列表、类型以及所代表的质量属性",
+   "title": "编号场景的列表、类型以及所代表的质量属性",
    "kind": "svg",
-   "anchor": "> 表 8-11 编号方案的列表、类型以及所代表的质量属性",
+   "anchor": "> 表 8-11 编号场景的列表、类型以及所代表的质量属性",
    "asset": "assets/figures/textbook/ch08-quality-attributes-and-evaluation/figure-t08-11.svg",
    "physical_page": 308,
    "printed_page": 299,
-   "record": "verification/教材首轮核查-第08章-系统质量属性与架构评估.md",
-   "note": "跨页表(308–309,309 右上「(续表)」)合并为一幅;列序 场景分类（Scenario Type）｜场景（Scenario）｜质量属性（Quality Attribute）｜场景编号(末列)——清洗稿原把编号列提前且改「场景类型」,已照印面(F308-11)。组标签跨行格:用例场景=行1–4、增长场景=行5–14、探索性场景=行15–16;行13/14 印面属增长场景组(清洗稿误标探索性,F309-01)。行13 质量属性带原表「(此处有修改)」修订标记照录。原书自身排印不一:行5 拼写 308 页「Modifability」/309 页「Modifiability」(d4-t0811-p308-modif8x.png),SVG 取 309 页写法,308 页变体留档。行9英文按印面分两行。d4 批绘制,渲染自检通过。"
+   "record": "verification/教材OCR纠错记录-第8章.md",
+   "note": "跨物理308–309。场景5跨页复列只计一次，第一页属用例，次页增长组横线自6始。 电子重建页直接目读，成品独立栅格化复验。"
   },
   {
    "id": "tb-fig-0132",
@@ -1862,8 +1862,8 @@
    "asset": "assets/figures/textbook/ch08-quality-attributes-and-evaluation/figure-t08-12.svg",
    "physical_page": 310,
    "printed_page": 301,
-   "record": "verification/教材首轮核查-第08章-系统质量属性与架构评估.md",
-   "note": "七列八行(无「合计」行——清洗稿增写,已去,F310 系列)。表头中英双行照印面。行5/行1 用户投票格「—」占位照录(清洗稿填「1」,20× 与同列「2」字形对照确认为横线,F310-03/04)。行13 质量属性印「概念上的完整性」照录。印面算术不自洽处照录:行5 用户=—、架构师=1、开发=0 而总票=2(和为1);行1 用户=—、架构师=0、开发=1 而总票=2;行2/行6 浅印小号「1」(d4-t0812-r2-uv-av.png 等),「—」是否代表未印出的票数无法判定,均照录原样。d4 批绘制,渲染自检通过。"
+   "record": "verification/教材OCR纠错记录-第8章.md",
+   "note": "表8-12场景5及1各2票，已读另两列为1和0或0和1，故各缺用户1票；三列5/5/5，行和15。 电子重建页直接目读，成品独立栅格化复验。"
   },
   {
    "id": "tb-fig-0133",
@@ -1876,8 +1876,8 @@
    "asset": "assets/figures/textbook/ch08-quality-attributes-and-evaluation/figure-t08-13.svg",
    "physical_page": 310,
    "printed_page": 301,
-   "record": "verification/教材首轮核查-第08章-系统质量属性与架构评估.md",
-   "note": "跨页表(310–311,311「(续表)」)合并为一幅;行8/13/14 质量属性为跨行合并单元格,仅印「Functionality 功能性」一次——清洗稿行13 增写「（概念上的完整性）」,已去(F310-05)。d4 批绘制,渲染自检通过。"
+   "record": "verification/教材OCR纠错记录-第8章.md",
+   "note": "跨物理310–311，已拼成完整三列、八个编号的表，去除续表角注。 电子重建页直接目读，成品独立栅格化复验。"
   },
   {
    "id": "tb-fig-0134",
@@ -1890,8 +1890,8 @@
    "asset": "assets/figures/textbook/ch08-quality-attributes-and-evaluation/figure-t08-14.svg",
    "physical_page": 313,
    "printed_page": 304,
-   "record": "verification/教材首轮核查-第08章-系统质量属性与架构评估.md",
-   "note": "三列两行,列头中英双行照印面。胡佛行风险格与银行行非风险格两处浅灰「—」占位照录(清洗稿写「无」,F313-03)。引用行「(1)风险与非风险见表8-14。」已照印面补回。d4 批绘制,渲染自检通过。"
+   "record": "verification/教材OCR纠错记录-第8章.md",
+   "note": "表8-14是教材示例的初判，应与可证的技术判断分开。 电子重建页直接目读，成品独立栅格化复验。"
   },
   {
    "id": "tb-fig-0135",
