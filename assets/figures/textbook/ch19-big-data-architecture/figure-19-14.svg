@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc" viewBox="0 0 888 480"><title id="title">图 19-14 某网广告平台中的Lambda架构</title><desc id="desc">同一Kafka消息流分入批处理及速度层，两类视图汇入Java查询。</desc>
+<defs><marker id="a" markerUnits="userSpaceOnUse" refX="6" refY="3" markerWidth="7" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L6 3 L0 6Z" fill="#356071"/></marker></defs><g font-family="Noto Sans CJK SC, sans-serif" fill="#15323c" text-anchor="middle">
+<rect x="8" y="12" width="870" height="84" fill="#eff6f7" stroke="#63818c"/>
+<text x="17" y="31" text-anchor="start" font-size="16"></text>
+<text x="810" y="59.0" text-anchor="middle" font-size="16">Batch layer</text>
+<rect x="8" y="102" width="870" height="251" fill="#eff6f7" stroke="#63818c"/>
+<text x="17" y="121" text-anchor="start" font-size="16"></text>
+<text x="810" y="175" text-anchor="middle" font-size="16">Serving layer</text>
+<rect x="8" y="359" width="870" height="106" fill="#eff6f7" stroke="#63818c"/>
+<text x="17" y="378" text-anchor="start" font-size="16"></text>
+<text x="810" y="417.0" text-anchor="middle" font-size="16">Speed layer</text>
+<rect x="70" y="39" width="112" height="35" fill="#f7fbfc" stroke="#63818c"/>
+<text x="126.0" y="62.1" text-anchor="middle" font-size="16">HDFS</text>
+<rect x="281" y="39" width="112" height="35" fill="#f7fbfc" stroke="#63818c"/>
+<text x="337.0" y="62.1" text-anchor="middle" font-size="16">Hive</text>
+<rect x="485" y="39" width="112" height="35" fill="#f7fbfc" stroke="#63818c"/>
+<text x="541.0" y="62.1" text-anchor="middle" font-size="16">MySQL</text>
+<rect x="63" y="209" width="123" height="42" fill="#f7fbfc" stroke="#63818c"/>
+<text x="124.5" y="235.6" text-anchor="middle" font-size="16">Kafka</text>
+<rect x="34" y="413" width="177" height="36" fill="#f7fbfc" stroke="#63818c"/>
+<text x="122.5" y="436.6" text-anchor="middle" font-size="16">Spark Streaming</text>
+<rect x="482" y="413" width="115" height="36" fill="#f7fbfc" stroke="#63818c"/>
+<text x="539.5" y="436.6" text-anchor="middle" font-size="16">Redis</text>
+<rect x="670" y="208" width="118" height="44" fill="#f7fbfc" stroke="#63818c"/>
+<text x="729.0" y="235.6" text-anchor="middle" font-size="16">Java Query</text>
+<text x="233" y="45" text-anchor="middle" font-size="16">解析</text>
+<path d="M182 58 L281 58" stroke="#356071" fill="none" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M393 58 L485 58" stroke="#356071" fill="none" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="247" y="117" width="338" height="72" fill="#eff6f7" stroke="#63818c"/>
+<text x="256" y="136" text-anchor="start" font-size="16">Batch views</text>
+<rect x="265" y="148" width="95" height="28" fill="#f7fbfc" stroke="#63818c"/>
+<text x="312.5" y="167.6" text-anchor="middle" font-size="16">View 1</text>
+<rect x="368" y="148" width="95" height="28" fill="#f7fbfc" stroke="#63818c"/>
+<text x="415.5" y="167.6" text-anchor="middle" font-size="16">View 2</text>
+<rect x="471" y="148" width="95" height="28" fill="#f7fbfc" stroke="#63818c"/>
+<text x="518.5" y="167.6" text-anchor="middle" font-size="16">View N</text>
+<rect x="247" y="262" width="338" height="72" fill="#eff6f7" stroke="#63818c"/>
+<text x="256" y="281" text-anchor="start" font-size="16">Real-time views</text>
+<rect x="265" y="293" width="95" height="28" fill="#f7fbfc" stroke="#63818c"/>
+<text x="312.5" y="312.6" text-anchor="middle" font-size="16">View 1</text>
+<rect x="368" y="293" width="95" height="28" fill="#f7fbfc" stroke="#63818c"/>
+<text x="415.5" y="312.6" text-anchor="middle" font-size="16">View 2</text>
+<rect x="471" y="293" width="95" height="28" fill="#f7fbfc" stroke="#63818c"/>
+<text x="518.5" y="312.6" text-anchor="middle" font-size="16">View N</text>
+<path d="M125 209 L125 74" stroke="#356071" fill="none" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M125 251 L125 413" stroke="#356071" fill="none" stroke-width="1.6" marker-end="url(#a)"/>
+<text x="118" y="155" text-anchor="end" font-size="15">浏览</text>
+<text x="132" y="155" text-anchor="start" font-size="15">下单信息</text>
+<text x="118" y="343" text-anchor="end" font-size="15">下单</text>
+<text x="132" y="343" text-anchor="start" font-size="15">付款信息</text>
+<path d="M540 74 L459 117" stroke="#356071" fill="none" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M211 430 L482 430" stroke="#356071" fill="none" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M540 413 L487 334" stroke="#356071" fill="none" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M585 154 L670 217" stroke="#356071" fill="none" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M585 299 L670 249" stroke="#356071" fill="none" stroke-width="1.6" marker-end="url(#a)"/>
+<text x="642" y="236" text-anchor="middle" font-size="15">Merge</text>
+</g></svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="590" height="225" viewBox="0 0 590 225" role="img" aria-labelledby="title"><title id="title">批处理层结构</title>
+<defs><marker id="a" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 8 4 0 8Z" fill="#477786"/></marker></defs>
+<rect width="590" height="225" fill="white"/>
+<rect x="18" y="89" width="126" height="49" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="81.0" y="119.28" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">全体数据集</text>
+<ellipse cx="269" cy="115" rx="78" ry="35" fill="#eff8fa" stroke="#477786" stroke-width="1.6"/>
+<text x="269" y="111" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">批处理层</text>
+<text x="269" y="131" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">Batch Layer</text>
+<line x1="144" y1="115" x2="188" y2="115" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="427" y="17" width="143" height="51" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="498.5" y="38.28" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">结果视图</text>
+<text x="498.5" y="58.28" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">Batch View</text>
+<path d="M348 115 Q379 115 379 79 T425 43" fill="none" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="427" y="89" width="143" height="51" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="498.5" y="110.28" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">结果视图</text>
+<text x="498.5" y="130.28" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">Batch View</text>
+<path d="M348 115 Q379 115 379 115 T425 115" fill="none" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="427" y="161" width="143" height="51" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="498.5" y="182.28" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">结果视图</text>
+<text x="498.5" y="202.28" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">Batch View</text>
+<path d="M348 115 Q379 115 379 151 T425 187" fill="none" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M287 169 A24 24 0 1 1 260 157" fill="none" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+</svg>

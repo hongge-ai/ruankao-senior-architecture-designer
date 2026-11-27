@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 343" role="img" aria-labelledby="title desc"><title id="title">表 19-1 Lambda架构和Kappa架构对比</title><desc id="desc">三列四项，对照复杂度与维护成本、计算开销、实时性和历史数据处理能力。表中比较以本节介绍的典型部署为前提。</desc><defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#42617a"/></marker></defs><rect width="100%" height="100%" fill="white"/><g font-family="Noto Sans CJK SC, sans-serif" fill="#182c3c">
+<path d="M8 8 H992" fill="none" stroke="#42617a" stroke-width="2"/>
+<path d="M8 55 H992" fill="none" stroke="#42617a" stroke-width="2"/>
+<path d="M8 132 H992" fill="none" stroke="#42617a" stroke-width="2"/>
+<path d="M8 205 H992" fill="none" stroke="#42617a" stroke-width="2"/>
+<path d="M8 257 H992" fill="none" stroke="#42617a" stroke-width="2"/>
+<path d="M8 335 H992" fill="none" stroke="#42617a" stroke-width="2"/>
+<path d="M8 8 V335" fill="none" stroke="#42617a" stroke-width="2"/>
+<path d="M210 8 V335" fill="none" stroke="#42617a" stroke-width="2"/>
+<path d="M599 8 V335" fill="none" stroke="#42617a" stroke-width="2"/>
+<path d="M992 8 V335" fill="none" stroke="#42617a" stroke-width="2"/>
+<text x="109.0" y="38.5" text-anchor="middle" font-size="17" font-weight="600">对比内容</text>
+<text x="404.5" y="38.5" text-anchor="middle" font-size="17" font-weight="600">Lambda 架构</text>
+<text x="795.5" y="38.5" text-anchor="middle" font-size="17" font-weight="600">Kappa 架构</text>
+<text x="109.0" y="88.0" text-anchor="middle" font-size="17" font-weight="400">复杂度与开发、</text>
+<text x="109.0" y="113.0" text-anchor="middle" font-size="17" font-weight="400">维护成本</text>
+<text x="404.5" y="88.0" text-anchor="middle" font-size="17" font-weight="400">通常需分别维护批处理与流处理逻辑，</text>
+<text x="404.5" y="113.0" text-anchor="middle" font-size="17" font-weight="400">开发维护较复杂。</text>
+<text x="795.5" y="88.0" text-anchor="middle" font-size="17" font-weight="400">复用同一套流处理逻辑，通常可降低</text>
+<text x="795.5" y="113.0" text-anchor="middle" font-size="17" font-weight="400">开发维护复杂度。</text>
+<text x="109.0" y="175.5" text-anchor="middle" font-size="17" font-weight="400">计算开销</text>
+<text x="404.5" y="163.0" text-anchor="middle" font-size="17" font-weight="400">运行批处理和实时计算两条链路，</text>
+<text x="404.5" y="188.0" text-anchor="middle" font-size="17" font-weight="400">计算开销可能较大。</text>
+<text x="795.5" y="163.0" text-anchor="middle" font-size="17" font-weight="400">必要时进行全量计算，</text>
+<text x="795.5" y="188.0" text-anchor="middle" font-size="17" font-weight="400">计算开销可能相对较小。</text>
+<text x="109.0" y="238.0" text-anchor="middle" font-size="17" font-weight="400">实时性</text>
+<text x="404.5" y="238.0" text-anchor="middle" font-size="17" font-weight="400">可满足实时性要求。</text>
+<text x="795.5" y="238.0" text-anchor="middle" font-size="17" font-weight="400">可满足实时性要求。</text>
+<text x="109.0" y="303.0" text-anchor="middle" font-size="17" font-weight="400">历史数据处理能力</text>
+<text x="404.5" y="290.5" text-anchor="middle" font-size="17" font-weight="400">批式全量处理，适合大吞吐量的</text>
+<text x="404.5" y="315.5" text-anchor="middle" font-size="17" font-weight="400">历史数据处理。</text>
+<text x="795.5" y="290.5" text-anchor="middle" font-size="17" font-weight="400">流式全量处理，历史数据处理能力</text>
+<text x="795.5" y="315.5" text-anchor="middle" font-size="17" font-weight="400">受日志读取和重放吞吐量制约。</text></g></svg>

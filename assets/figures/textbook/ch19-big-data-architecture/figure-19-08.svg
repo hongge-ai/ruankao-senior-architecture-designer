@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="565" height="182" viewBox="0 0 565 182" role="img" aria-labelledby="title"><title id="title">服务层结构</title>
+<defs><marker id="a" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 8 4 0 8Z" fill="#477786"/></marker></defs>
+<rect width="565" height="182" fill="white"/>
+<rect x="20" y="19" width="132" height="46" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="86.0" y="47.78" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">流处理层</text>
+<line x1="152" y1="42" x2="371" y2="91" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<text x="232" y="29" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">视图查询</text>
+<rect x="20" y="119" width="132" height="46" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="86.0" y="147.78" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">批处理层</text>
+<line x1="152" y1="142" x2="371" y2="91" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<text x="232" y="162" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">视图查询</text>
+<ellipse cx="420" cy="91" rx="47" ry="30" fill="#eff8fa" stroke="#477786" stroke-width="1.6"/>
+<text x="420" y="97" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">合并</text>
+<line x1="468" y1="91" x2="540" y2="91" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+</svg>

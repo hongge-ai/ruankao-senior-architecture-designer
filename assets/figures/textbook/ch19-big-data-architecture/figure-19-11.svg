@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 902 296" role="img" aria-labelledby="title desc"><title id="title">图 19-11 Kappa+架构</title><desc id="desc">五类数据经Kafka进入Hadoop，数据从Hadoop分别流向Spark、Cassandra和Elasticsearch，用户查询连接Spark。</desc><defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#42617a"/></marker></defs><rect width="100%" height="100%" fill="white"/><g font-family="Noto Sans CJK SC, sans-serif" fill="#182c3c">
+<rect x="12" y="18" width="154" height="38" rx="4" fill="white" stroke="#446078" stroke-width="1.6"/>
+<text x="89.0" y="43.0" text-anchor="middle" font-size="17" font-weight="400">Kafka日志数据</text>
+<path d="M166 37 H182" fill="none" stroke="#42617a" stroke-width="2"/>
+<rect x="12" y="74" width="154" height="38" rx="4" fill="white" stroke="#446078" stroke-width="1.6"/>
+<text x="89.0" y="99.0" text-anchor="middle" font-size="17" font-weight="400">键值对数据</text>
+<path d="M166 93 H182" fill="none" stroke="#42617a" stroke-width="2"/>
+<rect x="12" y="130" width="154" height="38" rx="4" fill="white" stroke="#446078" stroke-width="1.6"/>
+<text x="89.0" y="155.0" text-anchor="middle" font-size="17" font-weight="400">MySQL</text>
+<path d="M166 149 H182" fill="none" stroke="#42617a" stroke-width="2"/>
+<rect x="12" y="186" width="154" height="38" rx="4" fill="white" stroke="#446078" stroke-width="1.6"/>
+<text x="89.0" y="211.0" text-anchor="middle" font-size="17" font-weight="400">Cassandra</text>
+<path d="M166 205 H182" fill="none" stroke="#42617a" stroke-width="2"/>
+<rect x="12" y="242" width="154" height="38" rx="4" fill="white" stroke="#446078" stroke-width="1.6"/>
+<text x="89.0" y="267.0" text-anchor="middle" font-size="17" font-weight="400">Elasticsearch</text>
+<path d="M166 261 H182" fill="none" stroke="#42617a" stroke-width="2"/>
+<path d="M182 37 V261" fill="none" stroke="#42617a" stroke-width="2"/>
+<path d="M182 149 H208" fill="none" stroke="#42617a" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="211" y="126" width="106" height="46" rx="4" fill="white" stroke="#446078" stroke-width="1.6"/>
+<text x="264.0" y="155.0" text-anchor="middle" font-size="17" font-weight="400">Kafka</text>
+<path d="M317 149 H380" fill="none" stroke="#42617a" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="381" y="83" width="158" height="133" rx="4" fill="white" stroke="#446078" stroke-width="1.6"/>
+<text x="460" y="109" text-anchor="middle" font-size="17" font-weight="400">Hadoop</text>
+<rect x="434" y="128" width="52" height="36" rx="4" fill="white" stroke="#446078" stroke-width="1.6"/>
+<path d="M443 152 H474 V144 H480" fill="none" stroke="#42617a" stroke-width="2"/>
+<text x="460" y="199" text-anchor="middle" font-size="17" font-weight="400">Hudi格式数据</text>
+<path d="M539 149 L600 66" fill="none" stroke="#42617a" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="602" y="46" width="141" height="40" rx="4" fill="white" stroke="#446078" stroke-width="1.6"/>
+<text x="672.5" y="72.0" text-anchor="middle" font-size="17" font-weight="400">Spark</text>
+<path d="M539 149 L600 168" fill="none" stroke="#42617a" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="602" y="148" width="141" height="40" rx="4" fill="white" stroke="#446078" stroke-width="1.6"/>
+<text x="672.5" y="174.0" text-anchor="middle" font-size="17" font-weight="400">Cassandra</text>
+<path d="M539 149 L600 257" fill="none" stroke="#42617a" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="602" y="237" width="141" height="40" rx="4" fill="white" stroke="#446078" stroke-width="1.6"/>
+<text x="672.5" y="263.0" text-anchor="middle" font-size="17" font-weight="400">Elasticsearch</text>
+<path d="M743 66 H786" fill="none" stroke="#42617a" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="787" y="46" width="103" height="40" rx="4" fill="white" stroke="#446078" stroke-width="1.6"/>
+<text x="838.5" y="72.0" text-anchor="middle" font-size="17" font-weight="400">用户查询</text></g></svg>

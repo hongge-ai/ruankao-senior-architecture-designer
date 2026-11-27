@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc" viewBox="0 0 1060 562"><title id="title">图 19-15 某证券大数据系统架构</title><desc id="desc">展现或应用、逻辑处理和存储计算三个层次。</desc>
+<defs><marker id="a" markerUnits="userSpaceOnUse" refX="6" refY="3" markerWidth="7" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L6 3 L0 6Z" fill="#356071"/></marker></defs><g font-family="Noto Sans CJK SC, sans-serif" fill="#15323c" text-anchor="middle">
+<rect x="9" y="8" width="826" height="86" fill="#eff6f7" stroke="#63818c"/>
+<text x="18" y="27" text-anchor="start" font-size="16">展现层</text>
+<rect x="9" y="104" width="826" height="303" fill="#eff6f7" stroke="#63818c"/>
+<text x="18" y="123" text-anchor="start" font-size="16">逻辑处理层</text>
+<rect x="9" y="417" width="826" height="135" fill="#eff6f7" stroke="#63818c"/>
+<text x="18" y="436" text-anchor="start" font-size="16">存储计算层</text>
+<rect x="845" y="8" width="201" height="544" fill="#eff6f7" stroke="#63818c"/>
+<text x="854" y="27" text-anchor="start" font-size="16">功能支持</text>
+<rect x="57" y="44" width="140" height="34" fill="#f7fbfc" stroke="#63818c"/>
+<text x="127.0" y="66.6" text-anchor="middle" font-size="16">日志智能搜索</text>
+<rect x="208" y="44" width="140" height="34" fill="#f7fbfc" stroke="#63818c"/>
+<text x="278.0" y="66.6" text-anchor="middle" font-size="16">可视化图表</text>
+<rect x="359" y="44" width="140" height="34" fill="#f7fbfc" stroke="#63818c"/>
+<text x="429.0" y="66.6" text-anchor="middle" font-size="16">在线开发</text>
+<rect x="510" y="44" width="140" height="34" fill="#f7fbfc" stroke="#63818c"/>
+<text x="580.0" y="66.6" text-anchor="middle" font-size="16">告警中心</text>
+<rect x="661" y="44" width="140" height="34" fill="#f7fbfc" stroke="#63818c"/>
+<text x="731.0" y="66.6" text-anchor="middle" font-size="16">配置管理</text>
+<rect x="868" y="135" width="149" height="34" fill="#f7fbfc" stroke="#63818c"/>
+<text x="942.5" y="157.6" text-anchor="middle" font-size="16">配置中心</text>
+<rect x="868" y="202" width="149" height="34" fill="#f7fbfc" stroke="#63818c"/>
+<text x="942.5" y="224.6" text-anchor="middle" font-size="16">服务注册</text>
+<rect x="868" y="269" width="149" height="34" fill="#f7fbfc" stroke="#63818c"/>
+<text x="942.5" y="291.6" text-anchor="middle" font-size="16">数据管理</text>
+<rect x="868" y="336" width="149" height="34" fill="#f7fbfc" stroke="#63818c"/>
+<text x="942.5" y="358.6" text-anchor="middle" font-size="16">任务管理</text>
+<rect x="868" y="403" width="149" height="34" fill="#f7fbfc" stroke="#63818c"/>
+<text x="942.5" y="425.6" text-anchor="middle" font-size="16">系统管理</text>
+<text x="107" y="154" text-anchor="middle" font-size="16">日志采集</text>
+<text x="437" y="154" text-anchor="middle" font-size="16">解析分析</text>
+<text x="683" y="154" text-anchor="middle" font-size="16">日志告警</text>
+<rect x="29" y="185" width="173" height="44" fill="#f7fbfc" stroke="#63818c"/>
+<text x="115.5" y="203.4" text-anchor="middle" font-size="14">Filebeat</text>
+<text x="115.5" y="220.4" text-anchor="middle" font-size="14">（在源系统1上）</text>
+<path d="M202 207 L227 207" stroke="#356071" fill="none" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="29" y="247" width="173" height="44" fill="#f7fbfc" stroke="#63818c"/>
+<text x="115.5" y="265.4" text-anchor="middle" font-size="14">Filebeat</text>
+<text x="115.5" y="282.4" text-anchor="middle" font-size="14">（在源系统2上）</text>
+<path d="M202 269 L227 269" stroke="#356071" fill="none" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="29" y="309" width="173" height="44" fill="#f7fbfc" stroke="#63818c"/>
+<text x="115.5" y="327.4" text-anchor="middle" font-size="14">Filebeat</text>
+<text x="115.5" y="344.4" text-anchor="middle" font-size="14">（在源系统3上）</text>
+<path d="M202 331 L227 331" stroke="#356071" fill="none" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="227" y="184" width="75" height="169" fill="#f7fbfc" stroke="#63818c"/>
+<text x="264.5" y="264.6" text-anchor="middle" font-size="16">Kafka</text>
+<text x="264.5" y="283.6" text-anchor="middle" font-size="16">缓存</text>
+<path d="M302 269 L334 269" stroke="#356071" fill="none" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="334" y="171" width="206" height="39" fill="#f7fbfc" stroke="#63818c"/>
+<text x="437.0" y="195.75" text-anchor="middle" font-size="15">〔字迹不清〕</text>
+<rect x="334" y="229" width="206" height="39" fill="#f7fbfc" stroke="#63818c"/>
+<text x="437.0" y="253.75" text-anchor="middle" font-size="15">〔字迹不清〕</text>
+<path d="M437.0 210 L437.0 229" stroke="#356071" fill="none" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="334" y="287" width="206" height="39" fill="#f7fbfc" stroke="#63818c"/>
+<text x="437.0" y="311.75" text-anchor="middle" font-size="15">作业编译</text>
+<path d="M437.0 268 L437.0 287" stroke="#356071" fill="none" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="334" y="345" width="206" height="39" fill="#f7fbfc" stroke="#63818c"/>
+<text x="437.0" y="369.75" text-anchor="middle" font-size="15">…／Flink</text>
+<path d="M437.0 326 L437.0 345" stroke="#356071" fill="none" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="596" y="171" width="185" height="39" fill="#f7fbfc" stroke="#63818c"/>
+<text x="688.5" y="195.75" text-anchor="middle" font-size="15">规则…</text>
+<rect x="596" y="229" width="185" height="39" fill="#f7fbfc" stroke="#63818c"/>
+<text x="688.5" y="253.75" text-anchor="middle" font-size="15">〔字迹不清〕</text>
+<path d="M688.5 210 L688.5 229" stroke="#356071" fill="none" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="596" y="287" width="185" height="39" fill="#f7fbfc" stroke="#63818c"/>
+<text x="688.5" y="311.75" text-anchor="middle" font-size="15">〔字迹不清〕</text>
+<path d="M688.5 268 L688.5 287" stroke="#356071" fill="none" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="596" y="345" width="185" height="39" fill="#f7fbfc" stroke="#63818c"/>
+<text x="688.5" y="369.75" text-anchor="middle" font-size="15">…服务</text>
+<path d="M688.5 326 L688.5 345" stroke="#356071" fill="none" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M437 94 L437 129" stroke="#356071" fill="none" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M688 94 L688 129" stroke="#356071" fill="none" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M437 384 L437 417" stroke="#356071" fill="none" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M688 417 L688 384" stroke="#356071" fill="none" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="194" y="463" width="175" height="60" fill="#f7fbfc" stroke="#63818c"/>
+<text x="281.5" y="489.1" text-anchor="middle" font-size="16">计算集群</text>
+<text x="281.5" y="508.1" text-anchor="middle" font-size="16">CDH</text>
+<rect x="398" y="463" width="175" height="60" fill="#f7fbfc" stroke="#63818c"/>
+<text x="485.5" y="489.1" text-anchor="middle" font-size="16">日志库</text>
+<text x="485.5" y="508.1" text-anchor="middle" font-size="16">Elasticsearch</text>
+<rect x="598" y="463" width="175" height="60" fill="#f7fbfc" stroke="#63818c"/>
+<text x="685.5" y="489.1" text-anchor="middle" font-size="16">指标库</text>
+<text x="685.5" y="508.1" text-anchor="middle" font-size="16">OpenTSDB</text>
+</g></svg>

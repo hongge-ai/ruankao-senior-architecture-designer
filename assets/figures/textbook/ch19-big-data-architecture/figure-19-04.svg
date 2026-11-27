@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="340" viewBox="0 0 920 340" role="img" aria-labelledby="title"><title id="title">Lambda 架构</title>
+<defs><marker id="a" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 8 4 0 8Z" fill="#477786"/></marker></defs>
+<rect width="920" height="340" fill="white"/>
+<rect x="23" y="145" width="161" height="48" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="103.5" y="164.78" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">数据源</text>
+<text x="103.5" y="184.78" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">Data Source</text>
+<rect x="269" y="78" width="158" height="58" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="348.0" y="102.78" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">批处理层</text>
+<text x="348.0" y="122.78" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">Batch Layer</text>
+<rect x="269" y="224" width="158" height="58" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="348.0" y="248.77999999999997" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">加速层</text>
+<text x="348.0" y="268.78" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">Speed Layer</text>
+<rect x="569" y="145" width="158" height="58" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="648.0" y="169.78" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">服务层</text>
+<text x="648.0" y="189.78" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">Serving Layer</text>
+<rect x="799" y="150" width="108" height="46" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="853.0" y="178.78" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">查询视图</text>
+<line x1="184" y1="168" x2="267" y2="106" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="427" y1="106" x2="567" y2="173" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="184" y1="168" x2="267" y2="253" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="427" y1="253" x2="567" y2="173" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="727" y1="172" x2="797" y2="172" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<text x="17" y="21" text-anchor="start" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">MapReduce 处理大量数据</text>
+<text x="17" y="44" text-anchor="start" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">产生批处理结果视图</text>
+<text x="17" y="67" text-anchor="start" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">结果精确且覆盖全量</text>
+<text x="17" y="90" text-anchor="start" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">数据处理时延较高</text>
+<text x="17" y="240" text-anchor="start" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">只处理近期实时数据</text>
+<text x="17" y="263" text-anchor="start" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">产生流处理结果视图</text>
+<text x="17" y="286" text-anchor="start" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">结果可能近似，且不覆盖全量</text>
+<text x="17" y="309" text-anchor="start" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">数据处理时延较低</text>
+<text x="623" y="69" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">汇总流处理视图与批处理视图</text>
+<text x="623" y="92" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">产生查询视图</text>
+<path d="M201 50 Q342 45 348 76" fill="none" stroke="#477786" stroke-width="1.6" marker-end="url(#a)" stroke-dasharray="5 4"/>
+<path d="M229 307 Q343 321 348 285" fill="none" stroke="#477786" stroke-width="1.6" marker-end="url(#a)" stroke-dasharray="5 4"/>
+<path d="M621 104 Q639 109 644 143" fill="none" stroke="#477786" stroke-width="1.6" marker-end="url(#a)" stroke-dasharray="5 4"/>
+</svg>

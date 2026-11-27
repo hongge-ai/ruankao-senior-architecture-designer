@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 652 188" role="img" aria-labelledby="title desc"><title id="title">图 19-12 混合分析系统架构</title><desc id="desc">源数据进入Kafka，随后分为Flink和Elasticsearch两条支路。</desc><defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#42617a"/></marker></defs><rect width="100%" height="100%" fill="white"/><g font-family="Noto Sans CJK SC, sans-serif" fill="#182c3c">
+<rect x="24" y="116" width="130" height="49" rx="4" fill="white" stroke="#446078" stroke-width="1.6"/>
+<text x="89.0" y="146.5" text-anchor="middle" font-size="17" font-weight="400">源数据</text>
+<rect x="254" y="116" width="120" height="49" rx="4" fill="white" stroke="#446078" stroke-width="1.6"/>
+<text x="314.0" y="146.5" text-anchor="middle" font-size="17" font-weight="400">Kafka</text>
+<rect x="248" y="17" width="132" height="45" rx="4" fill="white" stroke="#446078" stroke-width="1.6"/>
+<text x="314.0" y="45.5" text-anchor="middle" font-size="17" font-weight="400">Flink</text>
+<rect x="460" y="116" width="168" height="49" rx="4" fill="white" stroke="#446078" stroke-width="1.6"/>
+<text x="544.0" y="146.5" text-anchor="middle" font-size="17" font-weight="400">Elasticsearch</text>
+<path d="M154 140 H253" fill="none" stroke="#42617a" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M314 116 V64" fill="none" stroke="#42617a" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M374 140 H459" fill="none" stroke="#42617a" stroke-width="2" marker-end="url(#arrow)"/></g></svg>

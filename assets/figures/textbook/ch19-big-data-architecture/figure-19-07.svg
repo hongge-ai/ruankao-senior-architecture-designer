@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="665" height="239" viewBox="0 0 665 239" role="img" aria-labelledby="title"><title id="title">加速层结构</title>
+<defs><marker id="a" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 8 4 0 8Z" fill="#477786"/></marker></defs>
+<rect width="665" height="239" fill="white"/>
+<rect x="21" y="18" width="220" height="42" fill="#a5d4df" stroke="#477786" stroke-width="1.5"/>
+<text x="131.0" y="44.78" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">批处理层</text>
+<rect x="241" y="18" width="135" height="42" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="308.5" y="44.78" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">流处理层</text>
+<rect x="21" y="76" width="345" height="42" fill="#a5d4df" stroke="#477786" stroke-width="1.5"/>
+<text x="193.5" y="102.78" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">批处理层</text>
+<rect x="366" y="76" width="135" height="42" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="433.5" y="102.78" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">流处理层</text>
+<rect x="21" y="134" width="465" height="42" fill="#a5d4df" stroke="#477786" stroke-width="1.5"/>
+<text x="253.5" y="160.78" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">批处理层</text>
+<rect x="486" y="134" width="135" height="42" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="553.5" y="160.78" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">流处理层</text>
+<line x1="22" y1="202" x2="639" y2="202" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<text x="330" y="231" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">时间</text>
+</svg>

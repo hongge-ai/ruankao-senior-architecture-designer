@@ -1,0 +1,3858 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-27",
+  "chapter": "第19章-大数据架构设计理论与实践",
+  "scope": "章导语及各节全文",
+  "base_commit": "99203a3797f387f1b53824bfec102a3d79390c6d",
+  "entries": [
+    {
+      "id": "ch19a-01",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第01节-传统数据处理系统存在的问题.md",
+      "loc": "物理 683 / 印刷 676，19.1",
+      "ocr": "数据管理系统 (DBMS)",
+      "current": "数据管理系统 (DBMS)",
+      "final": "数据库管理系统（DBMS）",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "DBMS全称Database Management System，对应数据库管理系统。",
+      "sources": [
+        "入库教材 PDF 物理 683 / 印刷 676，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch19a-02",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第01节-传统数据处理系统存在的问题.md",
+      "loc": "物理 683 / 印刷 676，19.1",
+      "ocr": "Data Warehouse,DW",
+      "current": "Data Warehouse,DW",
+      "final": "Data Warehouse, DW",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "依页内边界及中文行文统一断段、编号或标点。",
+      "sources": [
+        "入库教材 PDF 物理 683 / 印刷 676，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch19a-03",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第01节-传统数据处理系统存在的问题.md",
+      "loc": "物理 683 / 印刷 676，19.1",
+      "ocr": "读写压力。当 Web 服务器",
+      "current": "读写压力。当 Web 服务器",
+      "final": "读写压力。\n\n当 Web 服务器",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "页内“当Web服务器”另起一段。",
+      "sources": [
+        "入库教材 PDF 物理 683 / 印刷 676，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch19a-04",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第01节-传统数据处理系统存在的问题.md",
+      "loc": "物理 683 / 印刷 676，19.1",
+      "ocr": "分区的方式通常以Hash值作为key。这样就需要应用程序端知道如何去寻找每个key所在的分区。",
+      "current": "分区的方式通常以Hash值作为key。这样就需要应用程序端知道如何去寻找每个key所在的分区。",
+      "final": "采用哈希分区时，根据分区键的哈希值确定分区。应用程序端需要知道如何定位各个键所在的分区。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "区分分区键及其哈希值，限定本文由应用路由的场景。",
+      "sources": [
+        "入库教材 PDF 物理 683 / 印刷 676，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch19a-05",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第01节-传统数据处理系统存在的问题.md",
+      "loc": "物理 683 / 印刷 676，19.1",
+      "ocr": "数据库对于分区是不了解的，无法帮助你应对分区、复制与分布式查询。",
+      "current": "数据库对于分区是不了解的，无法帮助你应对分区、复制与分布式查询。",
+      "final": "在这种由应用管理分区的方案中，单个数据库实例不了解全局分区，无法替应用协调跨分区的复制与查询。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "前段限定应用负责寻找分区，不宜概括全部数据库。",
+      "sources": [
+        "入库教材 PDF 物理 683 / 印刷 676，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch19a-06",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第02节-大数据处理系统架构分析.md",
+      "loc": "物理 685 / 印刷 678，19.2",
+      "ocr": "刻画方法",
+      "current": "刻画方法",
+      "final": "刻画方法",
+      "class": "K",
+      "confidence": "A",
+      "evidence": "印678小目可辨“刻画方法”，确认清洗稿将字形规范还原。",
+      "sources": [
+        "入库教材 PDF 物理 685 / 印刷 678，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch19a-07",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第01节-传统数据处理系统存在的问题.md",
+      "loc": "物理 684 / 印刷 677，19.1",
+      "ocr": "19-2所示",
+      "current": "19-2所示",
+      "final": "19-2 所示",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "依页内边界及中文行文统一断段、编号或标点。",
+      "sources": [
+        "入库教材 PDF 物理 684 / 印刷 677，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch19a-08",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第01节-传统数据处理系统存在的问题.md",
+      "loc": "物理 684 / 印刷 677，19.1",
+      "ocr": "使用Kafka,Avro和数据仓库等现代二进制格式，即Amazon Redshift，用于临时查询",
+      "current": "现代基于 Hadoop 的 Map/Reduce 管道如图 19-3 所示。",
+      "final": "一些企业据此建立了自己的数据处理管道。图 19-3 给出了基于 Hadoop 的 MapReduce 批处理示例。Kafka 可传送数据，Avro 是数据序列化格式，Amazon Redshift 是可用于临时查询的云数据仓库。",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "据页恢复被略去的示例，图中入口为Kafka，箭头标JSON。Kafka文档界定事件流平台，Avro文档界定序列化系统，AWS界定Redshift数仓。",
+      "sources": [
+        "入库教材 PDF 物理 684 / 印刷 677，模型目读电子页。",
+        "https://raw.githubusercontent.com/apache/kafka/trunk/docs/getting-started/introduction.md（2026-11-27核阅）",
+        "https://raw.githubusercontent.com/apache/avro/main/doc/content/en/docs/_index.md（2026-11-27核阅）",
+        "https://raw.githubusercontent.com/awsdocs/amazon-redshift-management-guide/master/doc_source/welcome.md（2026-11-27核阅）"
+      ]
+    },
+    {
+      "id": "ch19a-09",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第01节-传统数据处理系统存在的问题.md",
+      "loc": "物理 684 / 印刷 677，19.1",
+      "ocr": "主要原因是客户端的数据在批处理花费大量时间完成之前的数据处理时，新的数据已经进入而导致数据过时。",
+      "current": "主要原因是客户端的数据在批处理花费大量时间完成之前的数据处理时，新的数据已经进入而导致数据过时。",
+      "final": "主要问题是批处理需要时间。在结果生成之前，新数据可能已到达，客户端查询到的结果就会滞后。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "按前文批处理与新到达数据的先后关系，理顺缺谓语的长句。",
+      "sources": [
+        "入库教材 PDF 物理 684 / 印刷 677，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch19a-10",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第01节-传统数据处理系统存在的问题.md",
+      "loc": "物理 684 / 印刷 677，19.1",
+      "ocr": "被适时的提出",
+      "current": "被适时的提出",
+      "final": "被适时地提出",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "状语用“地”。",
+      "sources": [
+        "入库教材 PDF 物理 684 / 印刷 677，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch19a-11",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第01节-传统数据处理系统存在的问题.md",
+      "loc": "物理 684 / 印刷 677，19.1",
+      "ocr": "> 图 19-3 现代基于Hadoop的M/R管道",
+      "current": "> 图 19-3 现代基于Hadoop的M/R管道",
+      "final": null,
+      "class": "C3",
+      "confidence": "低",
+      "evidence": "预处理视图下三项字面为“X目、X目、X里”；名称不可唯一辨，图中保留可见字形。",
+      "sources": [
+        "入库教材 PDF 物理 684 / 印刷 677，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch19a-12",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第02节-大数据处理系统架构分析.md",
+      "loc": "物理 685 / 印刷 678，19.2",
+      "ocr": "大数据中，结构化数据只占15%左右，其余的85%都是非结构化的数据，它们大量存在于社交网络、互联网和电子商务等领域。另一方面，也许有90%的数据来自开源数据，其余的被存储在数据库中。",
+      "current": "大数据中，结构化数据只占15%左右，其余的85%都是非结构化的数据，它们大量存在于社交网络、互联网和电子商务等领域。另一方面，也许有90%的数据来自开源数据，其余的被存储在数据库中。",
+      "final": null,
+      "class": "C3",
+      "confidence": "低",
+      "evidence": "15%、85%与90%均未说明统计时点、样本及来源；开放性、结构类型、存储位置属于不同维度，不能由其中一项推算另一项。",
+      "sources": [
+        "入库教材 PDF 物理 685 / 印刷 678，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch19a-13",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第02节-大数据处理系统架构分析.md",
+      "loc": "物理 685 / 印刷 678，19.2",
+      "ocr": "大数据中，结构化数据只占15%左右，其余的85%都是非结构化的数据，它们大量存在于社交网络、互联网和电子商务等领域。另一方面，也许有90%的数据来自开源数据，其余的被存储在数据库中。",
+      "current": "大数据中，结构化数据只占15%左右，其余的85%都是非结构化的数据，它们大量存在于社交网络、互联网和电子商务等领域。另一方面，也许有90%的数据来自开源数据，其余的被存储在数据库中。",
+      "final": "大数据既包括结构化数据，也包括半结构化和非结构化数据。社交网络、互联网和电子商务等领域会产生大量半结构化和非结构化数据。开放数据也可以存储在数据库中。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "同页小目明确列出三类数据；删除无统计口径比例，避免将开放程度与存储位置列为互斥分类。",
+      "sources": [
+        "入库教材 PDF 物理 685 / 印刷 678，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch19a-14",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第02节-大数据处理系统架构分析.md",
+      "loc": "物理 685 / 印刷 678，19.2",
+      "ocr": "数据模型?值得",
+      "current": "数据模型?值得",
+      "final": "数据模型？值得",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "依页内边界及中文行文统一断段、编号或标点。",
+      "sources": [
+        "入库教材 PDF 物理 685 / 印刷 678，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch19a-15",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第02节-大数据处理系统架构分析.md",
+      "loc": "物理 685 / 印刷 678，19.2",
+      "ocr": "将粗糙知识与被量化后主观知识，包括具体的经验、常识、本能、情境知识和用户偏好，相结合而产生“智能知识”过程",
+      "current": "将粗糙知识与被量化后主观知识，包括具体的经验、常识、本能、情境知识和用户偏好，相结合而产生“智能知识”过程",
+      "final": "将粗糙知识与量化后的主观知识（包括具体的经验、常识、本能、情境知识和用户偏好）相结合而产生“智能知识”的过程",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "定语、插入语和中心词“过程”补全。",
+      "sources": [
+        "入库教材 PDF 物理 685 / 印刷 678，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch19a-16",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第02节-大数据处理系统架构分析.md",
+      "loc": "物理 685 / 印刷 678，19.2",
+      "ocr": "“二次挖掘”,就",
+      "current": "“二次挖掘”,就",
+      "final": "“二次挖掘”，就",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "依页内边界及中文行文统一断段、编号或标点。",
+      "sources": [
+        "入库教材 PDF 物理 685 / 印刷 678，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch19a-17",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第02节-大数据处理系统架构分析.md",
+      "loc": "物理 686 / 印刷 679，19.2",
+      "ocr": "除了机器错误，人更可能会犯错误。",
+      "current": "除了机器错误，人更可能会犯错误。",
+      "final": "除了机器故障，系统还需要应对人为错误。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "后文讨论人为容错，未给出频率对比依据。",
+      "sources": [
+        "入库教材 PDF 物理 686 / 印刷 679，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch19a-18",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第02节-大数据处理系统架构分析.md",
+      "loc": "物理 687 / 印刷 680，19.2",
+      "ocr": "最少维护能力 (Minimal Maintenance)",
+      "current": "最少维护能力 (Minimal Maintenance)",
+      "final": "低维护需求（Minimal Maintenance）",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "本小目说明减少维护次数和维护工作量。",
+      "sources": [
+        "入库教材 PDF 物理 687 / 印刷 680，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch19a-19",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第03节-Lambda架构.md",
+      "loc": "物理 687 / 印刷 680，19.3",
+      "ocr": "在机器学习领域，数据量无疑是多多益善的。",
+      "current": "在机器学习领域，数据量无疑是多多益善的。",
+      "final": "在机器学习领域，扩大相关训练数据的规模有助于模型识别模式。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "按本段后句“以一种有意义的方式去接收数据”限定数据与任务的关系。",
+      "sources": [
+        "入库教材 PDF 物理 687 / 印刷 680，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch19a-20",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第03节-Lambda架构.md",
+      "loc": "物理 687 / 印刷 680，19.3",
+      "ocr": "构建的数据系统、所处理的各类数据",
+      "current": "构建的数据系统、所处理的各类数据",
+      "final": "构建的数据系统所处理的各类数据",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "去掉主谓间误入的顿号。",
+      "sources": [
+        "入库教材 PDF 物理 687 / 印刷 680，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch19a-21",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第03节-Lambda架构.md",
+      "loc": "物理 688 / 印刷 681，19.3",
+      "ocr": "虽说，速度层仅关心自完成最后一组批处理视图以来导入的数据，但事实上它不会存储这些小部分的数据。这些数据在流入时就会被立即处理，且在完成后被立即丢弃。因此，我们可以认为这些数据是尚未被批处理视图所计入的数据。",
+      "current": "虽说，速度层仅关心自完成最后一组批处理视图以来导入的数据，但事实上它不会存储这些小部分的数据。这些数据在流入时就会被立即处理，且在完成后被立即丢弃。因此，我们可以认为这些数据是尚未被批处理视图所计入的数据。",
+      "final": "速度层处理尚未计入最新批处理视图的数据，维护相应的实时视图。当新一轮批处理视图覆盖这些数据时，对应的实时结果即可丢弃。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "19.3.3容错性明确批处理覆盖后才可丢弃相应实时结果。",
+      "sources": [
+        "入库教材 PDF 物理 688 / 印刷 681，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch19a-22",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第03节-Lambda架构.md",
+      "loc": "物理 688 / 印刷 681，19.3",
+      "ocr": "它是指：\n\n批处理层",
+      "current": "它是指：\n\n批处理层",
+      "final": "它是指：批处理层",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "依页内边界及中文行文统一断段、编号或标点。",
+      "sources": [
+        "入库教材 PDF 物理 688 / 印刷 681，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch19a-23",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第03节-Lambda架构.md",
+      "loc": "物理 688 / 印刷 681，19.3",
+      "ocr": "图 19-4所示",
+      "current": "图 19-4所示",
+      "final": "图 19-4 所示",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "依页内边界及中文行文统一断段、编号或标点。",
+      "sources": [
+        "入库教材 PDF 物理 688 / 印刷 681，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch19a-24",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第03节-Lambda架构.md",
+      "loc": "物理 689 / 印刷 682，19.3",
+      "ocr": "数据永远是真实的。",
+      "current": "数据永远是真实的。",
+      "final": "数据记录当时观察到的事实。后续发现错误时，可追加更正记录。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "主数据集不可变不等于采集结果永不出错，前文有人为错误，19.4.1明确更新和删除以新增信息记录。",
+      "sources": [
+        "入库教材 PDF 物理 689 / 印刷 682，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch19a-25",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第03节-Lambda架构.md",
+      "loc": "物理 689 / 印刷 682，19.3",
+      "ocr": "有一类称为Monoid特性的函数应用非常广泛。Monoid的概念来源于范畴学 (Category Theory), 其一个重要特性是满足结合律。如整数的加法就满足Monoid特性：",
+      "current": "有一类称为Monoid特性的函数应用非常广泛。Monoid的概念来源于范畴学 (Category Theory), 其一个重要特性是满足结合律。如整数的加法就满足Monoid特性：",
+      "final": "幺半群（Monoid）在分布式聚合中应用广泛。它由一个集合、集合上满足结合律的封闭二元运算和该运算的单位元构成。例如，整数在加法下构成幺半群，单位元为 0。",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "Cats及Algebird的独立实现均在半群上定义单位元，整数加法的单位元为0；术语在抽象代数和范畴论中使用。",
+      "sources": [
+        "入库教材 PDF 物理 689 / 印刷 682，模型目读电子页。",
+        "https://raw.githubusercontent.com/typelevel/cats/main/kernel/src/main/scala/cats/kernel/Monoid.scala（2026-11-27核阅）",
+        "https://raw.githubusercontent.com/twitter/algebird/develop/algebird-core/src/main/scala/com/twitter/algebird/Monoid.scala（2026-11-27核阅）"
+      ]
+    },
+    {
+      "id": "ch19a-26",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第03节-Lambda架构.md",
+      "loc": "物理 689 / 印刷 682，19.3",
+      "ocr": "如多个数的平均值Avg函数，多个平均值没法直接通过结合来得到最终的平均值，但是可以拆成分母除以分子，分母和分子都是整数的加法，从而满足Monoid特性。",
+      "current": "如多个数的平均值Avg函数，多个平均值没法直接通过结合来得到最终的平均值，但是可以拆成分母除以分子，分母和分子都是整数的加法，从而满足Monoid特性。",
+      "final": "例如，不能直接对各组平均值再取平均来计算一般情形下的总体平均值。可以分别保存每组的总和与个数，将各组的总和、个数分别相加。总个数非零时，用总和除以总个数即可得到总体平均值。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "单元素组2与双元素组5、8的总体均值为15÷3=5；校正颠倒的分子分母，并兼容非整数数据。",
+      "sources": [
+        "入库教材 PDF 物理 689 / 印刷 682，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch19a-27",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第03节-Lambda架构.md",
+      "loc": "物理 689 / 印刷 682，19.3",
+      "ocr": "图 19-6所示",
+      "current": "图 19-6所示",
+      "final": "图 19-6 所示",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "图号与后续汉字间距。",
+      "sources": [
+        "入库教材 PDF 物理 689 / 印刷 682，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch19a-28",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第03节-Lambda架构.md",
+      "loc": "物理 689 / 印刷 682，19.3",
+      "ocr": "称为View,View 是Lamba架构〔原书如此，当为Lambda〕",
+      "current": "称为View,View 是Lamba架构〔原书如此，当为Lambda〕",
+      "final": "称为视图（View）。视图是 Lambda 架构",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "同页标题和前文均为Lambda，去掉未经纸本验证的夹注。",
+      "sources": [
+        "入库教材 PDF 物理 689 / 印刷 682，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch19a-29",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第03节-Lambda架构.md",
+      "loc": "物理 689 / 印刷 682，19.3",
+      "ocr": "查询的View。\n\nView是一个",
+      "current": "查询的View。\n\nView是一个",
+      "final": "查询的View。View是一个",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "原页段落连续，且跨页接印683通用查询系统。",
+      "sources": [
+        "入库教材 PDF 物理 689 / 印刷 682，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch19a-30",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第03节-Lambda架构.md",
+      "loc": "物理 690 / 印刷 683，19.3",
+      "ocr": "对加速层批处理视图建立索引，便于能快速进行即席查询 (Ad Hoc Queries)。它存储实时视图并处理传入的数据流，以便更新这些视图。",
+      "current": "对加速层批处理视图建立索引，便于能快速进行即席查询 (Ad Hoc Queries)。它存储实时视图并处理传入的数据流，以便更新这些视图。",
+      "final": "加速层处理传入的数据流，并更新和存储实时视图。可为实时视图建立索引，以支持快速查询。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "19.3.3批处理层和加速层职责、同页两条列表及图19-8明确视图来源。",
+      "sources": [
+        "入库教材 PDF 物理 690 / 印刷 683，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch19a-31",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第03节-Lambda架构.md",
+      "loc": "物理 690 / 印刷 683，19.3",
+      "ocr": "图 19-7所示",
+      "current": "图 19-7所示",
+      "final": "图 19-7 所示",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "依页内边界及中文行文统一断段、编号或标点。",
+      "sources": [
+        "入库教材 PDF 物理 690 / 印刷 683，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch19a-32",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第03节-Lambda架构.md",
+      "loc": "物理 690 / 印刷 683，19.3",
+      "ocr": "Batch Layer处理的全体数据集",
+      "current": "Batch Layer处理的全体数据集",
+      "final": "Batch Layer处理的是全体数据集",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "上下两分句平行，补“是”。",
+      "sources": [
+        "入库教材 PDF 物理 690 / 印刷 683，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch19a-33",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第03节-Lambda架构.md",
+      "loc": "物理 690 / 印刷 683，19.3",
+      "ocr": "在Batch Layer重新计算时都可以得到修正。这一点也可以看成是CAP理论中的最终一致性 (Eventual Consistency) 的体现。",
+      "current": "在Batch Layer重新计算时都可以得到修正。这一点也可以看成是CAP理论中的最终一致性 (Eventual Consistency) 的体现。",
+      "final": "在批处理使用正确数据和算法重新计算后可以得到修正。随着相应的实时结果被批处理结果替代，查询结果可逐步收敛。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "本页定义的操作是重算并替换结果；14.2区分CAP与BASE最终一致性，CAP不能直接推出此种结果收敛。",
+      "sources": [
+        "入库教材 PDF 物理 690 / 印刷 683，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch19a-34",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第03节-Lambda架构.md",
+      "loc": "物理 691 / 印刷 684，19.3",
+      "ocr": "如果查询函数满足结合律〔原书作“结合率”〕，",
+      "current": "如果查询函数满足结合律〔原书作“结合率”〕，",
+      "final": "如果部分结果可以按同一幺半群运算合并，",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "本节前段给出结合律和单位元，复用该条件；去掉无纸本证据的排印归因。",
+      "sources": [
+        "入库教材 PDF 物理 691 / 印刷 684，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch19a-35",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第03节-Lambda架构.md",
+      "loc": "物理 691 / 印刷 684，19.3",
+      "ocr": "19-9所示",
+      "current": "19-9所示",
+      "final": "19-9 所示",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "依页内边界及中文行文统一断段、编号或标点。",
+      "sources": [
+        "入库教材 PDF 物理 691 / 印刷 684，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch19a-36",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第03节-Lambda架构.md",
+      "loc": "物理 691 / 印刷 684，19.3",
+      "ocr": "Hadoop(HDFS) 用于",
+      "current": "Hadoop(HDFS) 用于",
+      "final": "Hadoop 分布式文件系统（HDFS）用于",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "本页区分存储组件与整个Hadoop项目。",
+      "sources": [
+        "入库教材 PDF 物理 691 / 印刷 684，模型目读电子页。",
+        "https://raw.githubusercontent.com/apache/hadoop/trunk/hadoop-hdfs-project/hadoop-hdfs/src/site/markdown/HdfsDesign.md（2026-11-27核阅）"
+      ]
+    },
+    {
+      "id": "ch19a-37",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第03节-Lambda架构.md",
+      "loc": "物理 691 / 印刷 684，19.3",
+      "ocr": "Hadoop是被设计成适合运行在通用硬件上的分布式文件系统 (Distributed File System)。",
+      "current": "Hadoop是被设计成适合运行在通用硬件上的分布式文件系统 (Distributed File System)。",
+      "final": "HDFS 是一种设计用于在通用硬件上运行的分布式文件系统。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "下段定义高度容错系统的主语是HDFS。",
+      "sources": [
+        "入库教材 PDF 物理 691 / 印刷 684，模型目读电子页。",
+        "https://raw.githubusercontent.com/apache/hadoop/trunk/hadoop-hdfs-project/hadoop-hdfs/src/site/markdown/HdfsDesign.md（2026-11-27核阅）"
+      ]
+    },
+    {
+      "id": "ch19a-38",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第03节-Lambda架构.md",
+      "loc": "物理 691 / 印刷 684，19.3",
+      "ocr": "区别也很明显。\n\nHDFS是",
+      "current": "区别也很明显。\n\nHDFS是",
+      "final": "区别也很明显。HDFS是",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "印684的HDFS承接同段，不另起。",
+      "sources": [
+        "入库教材 PDF 物理 691 / 印刷 684，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch19a-39",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第03节-Lambda架构.md",
+      "loc": "物理 691 / 印刷 684，19.3",
+      "ocr": "Spark拥有Hadoop Map Reduce所具有的优点；但不同于Map Reduce的是——Job中间输出结果可以保存在内存中，从而不再需要读写HDFS, 因此Spark能更好地适用于数据挖掘与机器学习等需要迭代的Map Reduce算法。",
+      "current": "Spark拥有Hadoop Map Reduce所具有的优点；但不同于Map Reduce的是——Job中间输出结果可以保存在内存中，从而不再需要读写HDFS, 因此Spark能更好地适用于数据挖掘与机器学习等需要迭代的Map Reduce算法。",
+      "final": "Spark 可以把重复使用的中间数据缓存在内存中，减少重复计算和磁盘读写。因此，它适用于数据挖掘与机器学习等需要迭代的任务。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "原句的“可以”表明缓存是选择，非永远不读写HDFS；Spark文档区分内存、磁盘及混合持久化。",
+      "sources": [
+        "入库教材 PDF 物理 691 / 印刷 684，模型目读电子页。",
+        "https://raw.githubusercontent.com/apache/spark/master/docs/rdd-programming-guide.md（2026-11-27核阅）"
+      ]
+    },
+    {
+      "id": "ch19a-40",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第03节-Lambda架构.md",
+      "loc": "物理 691 / 印刷 684，19.3",
+      "ocr": "HBase-Hadoop Database,",
+      "current": "HBase-Hadoop Database,",
+      "final": "HBase（Hadoop Database）",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "将插注与后面的谓语相接。",
+      "sources": [
+        "入库教材 PDF 物理 691 / 印刷 684，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch19a-41",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第03节-Lambda架构.md",
+      "loc": "物理 692 / 印刷 685，19.3",
+      "ocr": "命令查询分离 (Command Query Responsibility Segregation,CQRS)",
+      "current": "命令查询分离 (Command Query Responsibility Segregation,CQRS)",
+      "final": "命令查询职责分离（Command Query Responsibility Segregation，CQRS）",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "还原英文名称中的Responsibility；下面分别说明命令与查询的职责。",
+      "sources": [
+        "入库教材 PDF 物理 692 / 印刷 685，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch19a-42",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第03节-Lambda架构.md",
+      "loc": "物理 692 / 印刷 685，19.3",
+      "ocr": "Event Sourcing架构模式由Thought Works的首席科学家Martin Flower提出。",
+      "current": "Event Sourcing架构模式由Thought Works的首席科学家Martin Flower提出。",
+      "final": null,
+      "class": "C3",
+      "confidence": "低",
+      "evidence": "页内署名为Martin Flower，清洗稿相同。可证Fowler阐述过该模式，但文献未证实首创归属。",
+      "sources": [
+        "入库教材 PDF 物理 692 / 印刷 685，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch19a-43",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第03节-Lambda架构.md",
+      "loc": "物理 692 / 印刷 685，19.3",
+      "ocr": "Event Sourcing架构模式由Thought Works的首席科学家Martin Flower提出。",
+      "current": "Event Sourcing架构模式由Thought Works的首席科学家Martin Flower提出。",
+      "final": "Martin Fowler 曾撰文阐述事件溯源（Event Sourcing）模式。",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "re-frame明确将这篇模式说明归于Martin Fowler，微软文档独立引同一题名和地址。两者都没有声称首创。",
+      "sources": [
+        "入库教材 PDF 物理 692 / 印刷 685，模型目读电子页。",
+        "https://raw.githubusercontent.com/day8/re-frame/1a1bf1df6570b17a148ebce70d500ec2da393cdc/docs/historical.md（2026-11-27核阅）",
+        "https://raw.githubusercontent.com/dotnet/docs/7460ede22123a70603267df744ddb66aaca69f5e/docs/architecture/microservices/microservice-ddd-cqrs-patterns/apply-simplified-microservice-cqrs-ddd-patterns.md（2026-11-27核阅）"
+      ]
+    },
+    {
+      "id": "ch19a-44",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第03节-Lambda架构.md",
+      "loc": "物理 692 / 印刷 685，19.3",
+      "ocr": "整个系统以事件为驱动，所有业务都由事件驱动来完成。",
+      "current": "整个系统以事件为驱动，所有业务都由事件驱动来完成。",
+      "final": "将所跟踪业务实体的状态变更记录为事件。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "下两条聚焦持久化业务状态及其视图，不要求所有业务都必须由异步事件驱动。",
+      "sources": [
+        "入库教材 PDF 物理 692 / 印刷 685，模型目读电子页。",
+        "https://raw.githubusercontent.com/lagom/lagom/15dc8d27327ea935fe8475d7ed59988b24f7fb1c/docs/manual/common/concepts/ES_CQRS.md（2026-11-27核阅）"
+      ]
+    },
+    {
+      "id": "ch19a-45",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第03节-Lambda架构.md",
+      "loc": "物理 692 / 印刷 685，19.3",
+      "ocr": "完全一致，二者都是在使用统一的数据模型对数据处理事件本身进行定义。",
+      "current": "完全一致，二者都是在使用统一的数据模型对数据处理事件本身进行定义。",
+      "final": "有相似之处：两者都可以保存历史记录，据此重新计算派生状态或视图。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "19.3.3以主数据为基础重算视图；此处类比限定到保留历史并重算。",
+      "sources": [
+        "入库教材 PDF 物理 692 / 印刷 685，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch19a-46",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第03节-Lambda架构.md",
+      "loc": "物理 692 / 印刷 685，19.3",
+      "ocr": "这是领域驱动设计 (Domain-Driven Design,DDD) 的一个架构模式，主要用来解决数据库报表的输出处理方式。",
+      "current": "这是领域驱动设计 (Domain-Driven Design,DDD) 的一个架构模式，主要用来解决数据库报表的输出处理方式。",
+      "final": "CQRS 可与领域驱动设计（Domain-Driven Design，DDD）配合使用，分别优化命令处理和查询。报表输出是查询的一种用途。",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "Watermill与Lagom分别说明分开处理命令及查询模型，示例包含多种读取用途。",
+      "sources": [
+        "入库教材 PDF 物理 692 / 印刷 685，模型目读电子页。",
+        "https://raw.githubusercontent.com/ThreeDotsLabs/watermill/462225d7ef4f23f6ee40c3be7b6bad5723f50856/docs/content/docs/cqrs.md（2026-11-27核阅）",
+        "https://raw.githubusercontent.com/lagom/lagom/15dc8d27327ea935fe8475d7ed59988b24f7fb1c/docs/manual/common/concepts/ES_CQRS.md（2026-11-27核阅）"
+      ]
+    },
+    {
+      "id": "ch19a-47",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第03节-Lambda架构.md",
+      "loc": "物理 693 / 印刷 686，19.3",
+      "ocr": "进行读写分离设计的原因是，读操作实际上比写操作要省时得多，如果将读和写操作放在一起，实际处理大量数据时会因为写操作的时长问题影响整体业务的处理效率。",
+      "current": "进行读写分离设计的原因是，读操作实际上比写操作要省时得多，如果将读和写操作放在一起，实际处理大量数据时会因为写操作的时长问题影响整体业务的处理效率。",
+      "final": "读写分离可使查询针对预计算视图进行，并减少写入负载对读取的影响。具体收益取决于读写负载和查询方式。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "上段说直接读预计算视图，不能由此推定所有读取都比写入快。",
+      "sources": [
+        "入库教材 PDF 物理 693 / 印刷 686，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch19a-48",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第03节-Lambda架构.md",
+      "loc": "物理 692 / 印刷 685，19.3",
+      "ocr": "保存到数据库中。\nLambda",
+      "current": "保存到数据库中。\nLambda",
+      "final": "保存到数据库中。\n\nLambda",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "依页内边界及中文行文统一断段、编号或标点。",
+      "sources": [
+        "入库教材 PDF 物理 692 / 印刷 685，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch19a-49",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第01节-传统数据处理系统存在的问题.md",
+      "loc": "物理 683 / 印刷 676，19.1",
+      "ocr": "> 图 19-1 在服务器和数据库中增加异步队列缓冲隔离",
+      "current": "> 图 19-1 在服务器和数据库中增加异步队列缓冲隔离",
+      "final": "![图 19-1 在服务器和数据库中增加异步队列缓冲隔离](../../../assets/figures/textbook/ch19-big-data-architecture/figure-19-01.svg)",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "Web服务器经异步队列和处理层写入数据库，批量为100条。",
+      "sources": [
+        "入库教材 PDF 物理 683 / 印刷 676，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch19a-50",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第01节-传统数据处理系统存在的问题.md",
+      "loc": "物理 684 / 印刷 677，19.1",
+      "ocr": "> 图 19-2 常见的读写分离技术架构",
+      "current": "> 图 19-2 常见的读写分离技术架构",
+      "final": "![图 19-2 常见的读写分离技术架构](../../../assets/figures/textbook/ch19-big-data-architecture/figure-19-02.svg)",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "两分支指向主、从机，主从之间双箭头。",
+      "sources": [
+        "入库教材 PDF 物理 684 / 印刷 677，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch19a-51",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第01节-传统数据处理系统存在的问题.md",
+      "loc": "物理 684 / 印刷 677，19.1",
+      "ocr": "> 图 19-3 现代基于Hadoop的M/R管道",
+      "current": "> 图 19-3 现代基于Hadoop的M/R管道",
+      "final": "![图 19-3 现代基于Hadoop的M/R管道](../../../assets/figures/textbook/ch19-big-data-architecture/figure-19-03.svg)",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "Kafka经JSON进入主数据序列，批量计算向三项输出，第三项导向仓库。三处受损标签照可见字形。",
+      "sources": [
+        "入库教材 PDF 物理 684 / 印刷 677，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch19a-52",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第03节-Lambda架构.md",
+      "loc": "物理 688 / 印刷 681，19.3",
+      "ocr": "> 图 19-4 Lambda架构",
+      "current": "> 图 19-4 Lambda架构",
+      "final": "![图 19-4 Lambda架构](../../../assets/figures/textbook/ch19-big-data-architecture/figure-19-04.svg)",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "数据源、两计算层、服务层和查询视图，保留三组说明。",
+      "sources": [
+        "入库教材 PDF 物理 688 / 印刷 681，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch19a-53",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第03节-Lambda架构.md",
+      "loc": "物理 689 / 印刷 682，19.3",
+      "ocr": "> 图 19-5 Monoid特性",
+      "current": "> 图 19-5 Monoid特性",
+      "final": "![图 19-5 Monoid特性](../../../assets/figures/textbook/ch19-big-data-architecture/figure-19-05.svg)",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "数据空间及子集、并行计算、合并与复用，格线示意。",
+      "sources": [
+        "入库教材 PDF 物理 689 / 印刷 682，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch19a-54",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第03节-Lambda架构.md",
+      "loc": "物理 689 / 印刷 682，19.3",
+      "ocr": "> 图 19-6 批处理层结构",
+      "current": "> 图 19-6 批处理层结构",
+      "final": "![图 19-6 批处理层结构](../../../assets/figures/textbook/ch19-big-data-architecture/figure-19-06.svg)",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "全体数据集至批处理层，三种结果视图及周期重算。",
+      "sources": [
+        "入库教材 PDF 物理 689 / 印刷 682，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch19a-55",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第03节-Lambda架构.md",
+      "loc": "物理 690 / 印刷 683，19.3",
+      "ocr": "> 图 19-7 加速层结构",
+      "current": "> 图 19-7 加速层结构",
+      "final": "![图 19-7 加速层结构](../../../assets/figures/textbook/ch19-big-data-architecture/figure-19-07.svg)",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "三行时间带逐轮延长，前段批处理、后段流处理及原图时间箭头。",
+      "sources": [
+        "入库教材 PDF 物理 690 / 印刷 683，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch19a-56",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第03节-Lambda架构.md",
+      "loc": "物理 691 / 印刷 684，19.3",
+      "ocr": "> 图 19-8 服务层结构",
+      "current": "> 图 19-8 服务层结构",
+      "final": "![图 19-8 服务层结构](../../../assets/figures/textbook/ch19-big-data-architecture/figure-19-08.svg)",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "两类视图查询汇至合并点。",
+      "sources": [
+        "入库教材 PDF 物理 691 / 印刷 684，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch19a-57",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第03节-Lambda架构.md",
+      "loc": "物理 691 / 印刷 684，19.3",
+      "ocr": "> 图 19-9 技术选型",
+      "current": "> 图 19-9 技术选型",
+      "final": "![图 19-9 技术选型](../../../assets/figures/textbook/ch19-big-data-architecture/figure-19-09.svg)",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "Kafka_Topic分别通向Spark与Hadoop作业，各向HBase中对应表写入。下路残字Jot依对应作业校为Job。",
+      "sources": [
+        "入库教材 PDF 物理 691 / 印刷 684，模型目读电子页。"
+      ]
+    },
+    {
+      "id": "ch19b-001",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第04节-Kappa架构.md",
+      "loc": "物理 693，印刷 686，19.4",
+      "ocr": "数据系统=数据+查询〔独行〕；进而",
+      "current": "数据系统=数据+查询进而",
+      "final": "数据系统 = 数据 + 查询\n\n进而",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "等式在页中独占一行。",
+      "sources": [
+        "教材 PDF 物理页 693（印刷页 686），直接目读"
+      ]
+    },
+    {
+      "id": "ch19b-002",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第04节-Kappa架构.md",
+      "loc": "物理 693，印刷 686，19.4",
+      "ocr": "数据是一个不可分割的单位，数据有两个关键的性质",
+      "current": "数据是一个不可分割的单位，数据有两个关键的性质",
+      "final": "在这里采用的事实模型中，一条数据记录描述一个事实，有两个关键的性质",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "后文将数据建模为不可变事实，限定论述对象。",
+      "sources": [
+        "教材 PDF 物理页 693（印刷页 686），直接目读"
+      ]
+    },
+    {
+      "id": "ch19b-003",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第04节-Kappa架构.md",
+      "loc": "物理 693，印刷 686，19.4",
+      "ocr": "比如Log日志就隐含着按照时间先后顺序产生的数据，Log前面的日志数据一定先于Log后面的日志数据产生；消息系统中消息的接收者一定是在消息的发送者发送消息后接收到的消息。相比于数据库，数据库中表的记录就丢失了时间先后顺序的信息，中间某条记录可能是在最后一条记录产生后发生更新的。",
+      "current": "比如Log日志就隐含着按照时间先后顺序产生的数据，Log前面的日志数据一定先于Log后面的日志数据产生；消息系统中消息的接收者一定是在消息的发送者发送消息后接收到的消息。相比于数据库，数据库中表的记录就丢失了时间先后顺序的信息，中间某条记录可能是在最后一条记录产生后发生更新的。",
+      "final": "例如，日志记录有追加顺序，事件产生的时间顺序可能与追加顺序不同。消息必须先发出，接收者才能收到。数据库表中的行也不一定按事件发生顺序排列，较早插入的记录可能在较晚插入的记录之后更新。",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "发送先于接收是因果关系；Kafka明确区分创建时间和追加时间，偏移量按分区记录。",
+      "sources": [
+        "教材 PDF 物理页 693（印刷页 686），直接目读",
+        "https://raw.githubusercontent.com/apache/kafka/3.9/clients/src/main/java/org/apache/kafka/clients/producer/ProducerRecord.java",
+        "https://raw.githubusercontent.com/apache/flink-connector-kafka/main/docs/content/docs/connectors/datastream/kafka.md"
+      ]
+    },
+    {
+      "id": "ch19b-004",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第04节-Kappa架构.md",
+      "loc": "物理 693，印刷 686，19.4",
+      "ocr": "分布式系统中数据可能产生于不同的系统中，时间决定了数据发生的全局先后顺序。比如对一个值做算术运算，先+2,后+3,与先+3,后+2,得到的结果完全不同。数据的时间性质决定了数据的全局发生先后，也就决定了数据的结果。",
+      "current": "分布式系统中数据可能产生于不同的系统中，时间决定了数据发生的全局先后顺序。比如对一个值做算术运算，先+2,后+3,与先+3,后+2,得到的结果完全不同。数据的时间性质决定了数据的全局发生先后，也就决定了数据的结果。",
+      "final": "来自不同节点的事件仅凭各自的时间戳，无法保证排出真实的全局先后顺序。对于与顺序有关的操作，处理次序会影响结果。例如，初值为1，先加2后乘3得到9，先乘3后加2得到5。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "原来的两次加法可交换，反例在任意初值下均不成立。保留说明顺序影响结果的意图，并明示更换算例。",
+      "sources": [
+        "教材 PDF 物理页 693（印刷页 686），直接目读"
+      ]
+    },
+    {
+      "id": "ch19b-005",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第04节-Kappa架构.md",
+      "loc": "物理 693，印刷 686，19.4",
+      "ocr": "由于数据跟某个时间点相关，所以数据的本身是不可变的 (Immutable), 过往的数据已经成为事实 (Fact),",
+      "current": "由于数据跟某个时间点相关，所以数据的本身是不可变的 (Immutable), 过往的数据已经成为事实 (Fact),",
+      "final": "在这种模型中，已经发生的事实（Fact）以不可变（Immutable）的记录保存，",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "属于所选记录模型；时间戳本身并不保证存储不可变。",
+      "sources": [
+        "教材 PDF 物理页 693（印刷页 686），直接目读"
+      ]
+    },
+    {
+      "id": "ch19b-006",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第04节-Kappa架构.md",
+      "loc": "物理 693，印刷 686，19.4",
+      "ocr": "新数据。\n采用数据库的记法，CRUD就变成了 CR,Update和Delete本质上其实是新产生的数据信息，用C 来记录。",
+      "current": "新数据。\n采用数据库的记法，CRUD就变成了 CR,Update和Delete本质上其实是新产生的数据信息，用C 来记录。",
+      "final": "新数据。采用数据库的记法，CRUD就变成了CR，Update和Delete通过追加新记录（Create）来表示。",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "页图同段，追加记录表示更新、删除事件。",
+      "sources": [
+        "教材 PDF 物理页 693（印刷页 686），直接目读"
+      ]
+    },
+    {
+      "id": "ch19b-007",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第04节-Kappa架构.md",
+      "loc": "物理 693，印刷 686，19.4",
+      "ocr": "Lamba架构",
+      "current": "Lamba架构",
+      "final": "Lambda架构",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "全章术语和同节19.4.2一致。",
+      "sources": [
+        "教材 PDF 物理页 693（印刷页 686），直接目读"
+      ]
+    },
+    {
+      "id": "ch19b-008",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第04节-Kappa架构.md",
+      "loc": "物理 693，印刷 686，19.4",
+      "ocr": "追加数据即可。\n相比于",
+      "current": "追加数据即可。\n相比于",
+      "final": "追加数据即可。相比于",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "印面同一列表项，消除误断。",
+      "sources": [
+        "教材 PDF 物理页 693（印刷页 686），直接目读"
+      ]
+    },
+    {
+      "id": "ch19b-009",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第04节-Kappa架构.md",
+      "loc": "物理 694，印刷 687，19.4",
+      "ocr": "相比于采用不可变的数据模型，因为所有的数据都在，引发错误的数据也在。\n修复的方法就可以简单的是遍历数据集上存储的所有的数据，丢弃错误的数据，重新计算得到Views。重新计算的关键点在于利用数据的时间特性决定的全局次序，依次顺序重新执行，必然能得到正确的结果。",
+      "current": "相比于采用不可变的数据模型，因为所有的数据都在，引发错误的数据也在。\n修复的方法就可以简单的是遍历数据集上存储的所有的数据，丢弃错误的数据，重新计算得到Views。重新计算的关键点在于利用数据的时间特性决定的全局次序，依次顺序重新执行，必然能得到正确的结果。",
+      "final": "采用不可变的数据模型时，原始记录仍在。修复时可以遍历保留的数据，过滤已识别的错误记录，再重新计算视图。要使重算结果可复现，需要保留所需输入，并按业务规则确定处理顺序，使用确定的计算逻辑。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "同段主旨是修复后重算。若逻辑仍错或所需输入缺失，仅顺序执行不能保证正确。",
+      "sources": [
+        "教材 PDF 物理页 694（印刷页 687），直接目读"
+      ]
+    },
+    {
+      "id": "ch19b-010",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第04节-Kappa架构.md",
+      "loc": "物理 694，印刷 687，19.4",
+      "ocr": "Datomic,基于",
+      "current": "Datomic,基于",
+      "final": "Datomic，基于",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "中文语境的分句标点。",
+      "sources": [
+        "教材 PDF 物理页 694（印刷页 687），直接目读"
+      ]
+    },
+    {
+      "id": "ch19b-011",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第04节-Kappa架构.md",
+      "loc": "物理 694，印刷 687，19.4",
+      "ocr": "Kafka, 基于Log日志，以追加append-only的方式",
+      "current": "Kafka, 基于Log日志，以追加append-only的方式",
+      "final": "Kafka基于日志，以追加（append-only）的方式",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "修正英中标点、重复。",
+      "sources": [
+        "教材 PDF 物理页 694（印刷页 687），直接目读"
+      ]
+    },
+    {
+      "id": "ch19b-012",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第04节-Kappa架构.md",
+      "loc": "物理 694，印刷 687，19.4",
+      "ocr": "不同于Lambda同时计算流计算和批计算并合并视图，Kappa只会通过流计算一条的数据链路计算并产生视图",
+      "current": "不同于Lambda同时计算流计算和批计算并合并视图，Kappa只会通过流计算一条的数据链路计算并产生视图",
+      "final": "Lambda分别进行流计算和批计算并合并视图，Kappa则通过一条流计算链路产生视图",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "与本段后半对历史重放的说明及两架构对照一致。",
+      "sources": [
+        "教材 PDF 物理页 694（印刷页 687），直接目读"
+      ]
+    },
+    {
+      "id": "ch19b-013",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第04节-Kappa架构.md",
+      "loc": "物理 694，印刷 687，19.4",
+      "ocr": "Speed Layer, 使",
+      "current": "Speed Layer, 使",
+      "final": "速度层（Speed Layer），使",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "中英标点。",
+      "sources": [
+        "教材 PDF 物理页 694（印刷页 687），直接目读"
+      ]
+    },
+    {
+      "id": "ch19b-014",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第04节-Kappa架构.md",
+      "loc": "物理 694，印刷 687，19.4",
+      "ocr": "在Lambda的基础上进行了优化，删除了Batch Layer的架构，将数据通道以消息队列进行替代。因此对于Kappa架构来说，依旧以流处理为主，但是数据却在数据湖层面进行了存储，当需要进行离线分析或者再次计算的时候，则将数据湖的数据再次经过消息队列重播一次则可。",
+      "current": "在Lambda的基础上进行了优化，删除了Batch Layer的架构，将数据通道以消息队列进行替代。因此对于Kappa架构来说，依旧以流处理为主，但是数据却在数据湖层面进行了存储，当需要进行离线分析或者再次计算的时候，则将数据湖的数据再次经过消息队列重播一次则可。",
+      "final": "省去独立的批处理层（Batch Layer），通过流处理链路处理新数据和重放的历史数据。历史数据可以保存在日志中，也可以存入数据湖，需要回溯时再送入流处理引擎。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "本节分别列举Kafka长期保留记录、Kappa+从HDFS读取两种实现，数据湖是可选的存储方案。",
+      "sources": [
+        "教材 PDF 物理页 694（印刷页 687），直接目读"
+      ]
+    },
+    {
+      "id": "ch19b-015",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第04节-Kappa架构.md",
+      "loc": "物理 694，印刷 687，19.4",
+      "ocr": "而中间结果的数据都是需要存储的，这些数据包括历史数据与结果数据，统一存储在存储介质中。",
+      "current": "而中间结果的数据都是需要存储的，这些数据包括历史数据与结果数据，统一存储在存储介质中。",
+      "final": "图中将存储的数据分为历史数据和结果数据。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "图19-10底层是两类存储，原始历史数据不等同于中间结果。",
+      "sources": [
+        "教材 PDF 物理页 694（印刷页 687），直接目读"
+      ]
+    },
+    {
+      "id": "ch19b-016",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第04节-Kappa架构.md",
+      "loc": "物理 694，印刷 687，19.4",
+      "ocr": "数据无法压缩……分层存储的历史日志数据仅能用于Kappa backfill作业",
+      "current": "使用类似Kafka的消息队列存储长期日志数据，数据无法压缩，存储成本很大，绕过方案是使用支持数据分层存储的消息系统(如Pulsar, 支持将历史消息存储到云上存储系统),但是分层存储的历史日志数据仅能用于Kappa backfill作业，数据的利用率依然很低。",
+      "final": "Kafka支持对消息批次进行压缩，但长期保留可重放的完整历史记录仍有存储成本。一种方案是采用支持分层存储的消息系统，如使用Pulsar将历史消息转存到云存储。历史日志可供Kappa回填（backfill）作业或其他历史数据消费者使用。",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "Kafka主题参数与独立客户端均列明压缩编解码器。压缩编码不等于按键清理旧记录；转存也不限定消费者的用途。",
+      "sources": [
+        "教材 PDF 物理页 694（印刷页 687），直接目读",
+        "https://raw.githubusercontent.com/apache/kafka/3.9/clients/src/main/java/org/apache/kafka/common/config/TopicConfig.java",
+        "https://raw.githubusercontent.com/confluentinc/librdkafka/master/CONFIGURATION.md"
+      ]
+    },
+    {
+      "id": "ch19b-017",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第04节-Kappa架构.md",
+      "loc": "物理 695，印刷 688，19.4",
+      "ocr": "Kappa放弃了对批处理的支持",
+      "current": "Kappa放弃了对批处理的支持",
+      "final": "Kappa省去了独立的批处理链路",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "本节明示重放历史数据且后文引入支持批流的引擎。",
+      "sources": [
+        "教材 PDF 物理页 695（印刷页 688），直接目读"
+      ]
+    },
+    {
+      "id": "ch19b-018",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第04节-Kappa架构.md",
+      "loc": "物理 695，印刷 688，19.4",
+      "ocr": "下面以Apache Kafka为例来讲述整个全新架构的过程。",
+      "current": "下面以Apache Kafka为例来讲述整个全新架构的过程。",
+      "final": "下面以Apache Kafka为例说明Kappa架构的实现过程。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "“整个全新架构的过程”缺少动词，与节题对齐。",
+      "sources": [
+        "教材 PDF 物理页 695（印刷页 688），直接目读"
+      ]
+    },
+    {
+      "id": "ch19b-019",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第04节-Kappa架构.md",
+      "loc": "物理 695，印刷 688，19.4",
+      "ocr": "部署Apache Kafka, 并设置数据日志的保留期 (Retention Period)。",
+      "current": "部署Apache Kafka, 并设置数据日志的保留期 (Retention Period)。",
+      "final": "部署Apache Kafka，并设置数据日志的保留期（Retention Period）。",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "中文标点。",
+      "sources": [
+        "教材 PDF 物理页 695（印刷页 688），直接目读"
+      ]
+    },
+    {
+      "id": "ch19b-020",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第04节-Kappa架构.md",
+      "loc": "物理 695，印刷 688，19.4",
+      "ocr": "如果你希望能够处理所有的历史数据，那就可以把Apache Kafka中的保留期设置为“永久 (Forever)”。",
+      "current": "如果你希望能够处理所有的历史数据，那就可以把Apache Kafka中的保留期设置为“永久 (Forever)”。",
+      "final": "如果需要重放全部历史记录，除取消基于时间的删除限制外，还须确保容量限制、日志清理策略和可用存储空间允许保留所需记录。",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "主题配置同时支持按时长、分区大小和键清理；读取始点只能到达仍然保留的记录。",
+      "sources": [
+        "教材 PDF 物理页 695（印刷页 688），直接目读",
+        "https://raw.githubusercontent.com/apache/kafka/3.9/clients/src/main/java/org/apache/kafka/common/config/TopicConfig.java",
+        "https://raw.githubusercontent.com/apache/kafka/3.9/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java"
+      ]
+    },
+    {
+      "id": "ch19b-021",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第04节-Kappa架构.md",
+      "loc": "物理 695，印刷 688，19.4",
+      "ocr": "我们需要做的就是重新启动一个Apache Kafka作业实例 (Instance)。这个作业实例将从头开始，重新计算保留好的历史数据，并将结果输出到一个新的数据视图中。我们知道Apache Kafka的底层是使用Log Offset来判断现在已经处理到哪个数据块了，所以只需要将Log Offset设置为0,新的作业实例就会从头开始处理历史数据。",
+      "current": "我们需要做的就是重新启动一个Apache Kafka作业实例 (Instance)。这个作业实例将从头开始，重新计算保留好的历史数据，并将结果输出到一个新的数据视图中。我们知道Apache Kafka的底层是使用Log Offset来判断现在已经处理到哪个数据块了，所以只需要将Log Offset设置为0,新的作业实例就会从头开始处理历史数据。",
+      "final": "保留原有作业，另起一个流处理作业实例，使用独立的消费进度读取Kafka日志，把重算结果写入新视图。Kafka的偏移量（offset）按分区记录位置。若要重放全部保留记录，新实例应从各分区最早可读的偏移量开始，该值可能大于0。",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "Kafka消费者接口明言仅起始值确为0时两者才等价。Flink独立任务使用earliest起读；同页后文切换后才停止旧任务。",
+      "sources": [
+        "教材 PDF 物理页 695（印刷页 688），直接目读",
+        "https://raw.githubusercontent.com/apache/kafka/3.9/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java",
+        "https://raw.githubusercontent.com/apache/flink-connector-kafka/main/docs/content/docs/connectors/datastream/kafka.md"
+      ]
+    },
+    {
+      "id": "ch19b-022",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第04节-Kappa架构.md",
+      "loc": "物理 695，印刷 688，19.4",
+      "ocr": "当这个新的数据视图处理过的数据进度赶上了旧的数据视图时",
+      "current": "当这个新的数据视图处理过的数据进度赶上了旧的数据视图时",
+      "final": "当新作业的输入处理进度赶上旧作业时",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "比较对象是处理同一输入的进度。",
+      "sources": [
+        "教材 PDF 物理页 695（印刷页 688），直接目读"
+      ]
+    },
+    {
+      "id": "ch19b-023",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第04节-Kappa架构.md",
+      "loc": "物理 695，印刷 688，19.4",
+      "ocr": "统一了数据口径的问题",
+      "current": "统一了数据口径的问题",
+      "final": "统一了数据口径",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "删去使述宾关系不通的尾词。",
+      "sources": [
+        "教材 PDF 物理页 695（印刷页 688），直接目读"
+      ]
+    },
+    {
+      "id": "ch19b-024",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第04节-Kappa架构.md",
+      "loc": "物理 695，印刷 688，19.4",
+      "ocr": "查询历史数据的时候只需要重放存储的历史数据即可",
+      "current": "查询历史数据的时候只需要重放存储的历史数据即可",
+      "final": "需要重算历史视图时可以重放保留的数据",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "重算与直接读取已有结果是本节两种不同动作。",
+      "sources": [
+        "教材 PDF 物理页 695（印刷页 688），直接目读"
+      ]
+    },
+    {
+      "id": "ch19b-025",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第04节-Kappa架构.md",
+      "loc": "物理 695，印刷 688，19.4",
+      "ocr": "通常算法需要过去180天的数据",
+      "current": "通常算法需要过去180天的数据",
+      "final": "例如，若算法需要过去180天的数据",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "例示时段随业务要求而变。",
+      "sources": [
+        "教材 PDF 物理页 695（印刷页 688），直接目读"
+      ]
+    },
+    {
+      "id": "ch19b-026",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第04节-Kappa架构.md",
+      "loc": "物理 695，印刷 688，19.4",
+      "ocr": "很可能因为数据流先后顺序问题，导致数据丢失。",
+      "current": "很可能因为数据流先后顺序问题，导致数据丢失。",
+      "final": "若事件乱序到达且超出窗口允许的迟到范围，关联结果可能漏掉本应匹配的记录。",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "流引擎的迟到处理影响算子输出；消息在持久日志中是否仍可读取是另一个问题。",
+      "sources": [
+        "教材 PDF 物理页 695（印刷页 688），直接目读",
+        "https://raw.githubusercontent.com/apache/beam/master/website/www/site/content/en/documentation/programming-guide.md",
+        "https://raw.githubusercontent.com/apache/flink/master/docs/content/docs/dev/datastream/operators/windows.md"
+      ]
+    },
+    {
+      "id": "ch19b-027",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第04节-Kappa架构.md",
+      "loc": "物理 695，印刷 688，19.4",
+      "ocr": "Kappa在抛弃了离线数据处理模块的时候，同时抛弃了离线计算更加稳定可靠的特点。\nLambda虽然保证了离线计算的稳定性，但双系统的维护成本高且两套代码带来后期运维困难。",
+      "current": "Kappa在抛弃了离线数据处理模块的时候，同时抛弃了离线计算更加稳定可靠的特点。\nLambda虽然保证了离线计算的稳定性，但双系统的维护成本高且两套代码带来后期运维困难。",
+      "final": "Kappa省去独立的离线数据处理模块后，历史重算也依赖流处理链路。Lambda可以单独重算批视图，但两条计算链路和两套代码会增加维护成本。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "隔离两条路径带来独立重算能力，不保证计算结果一律稳定可靠。",
+      "sources": [
+        "教材 PDF 物理页 695（印刷页 688），直接目读"
+      ]
+    },
+    {
+      "id": "ch19b-028",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第04节-Kappa架构.md",
+      "loc": "物理 696，印刷 689，19.4",
+      "ocr": "1. Kappa+架构〔独行〕／Kappa+是Uber提出流式数据处理架构",
+      "current": "1. Kappa+架构Kappa+是Uber提出流式数据处理架构",
+      "final": "### 1. Kappa+架构\n\nKappa+是Uber提出的流式数据处理架构",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "页图粗体标题独行，正文明显另起；与下一个三级题平行。",
+      "sources": [
+        "教材 PDF 物理页 696（印刷页 689），直接目读"
+      ]
+    },
+    {
+      "id": "ch19b-029",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第04节-Kappa架构.md",
+      "loc": "物理 696，印刷 689，19.4",
+      "ocr": "历史数据backfll计算，不需要为backfll作业",
+      "current": "历史数据backfll计算，不需要为backfll作业",
+      "final": "历史数据回填（backfill）计算，不需要为回填作业",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "前页同词作backfill；两处脱i。",
+      "sources": [
+        "教材 PDF 物理页 696（印刷页 689），直接目读"
+      ]
+    },
+    {
+      "id": "ch19b-030",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第04节-Kappa架构.md",
+      "loc": "物理 696，印刷 689，19.4",
+      "ocr": "所有分区文件全部读取完毕后，所有source才进入下一个partition消费并更新watermark",
+      "current": "所有分区文件全部读取完毕后，所有source才进入下一个partition消费并更新watermark",
+      "final": "当前分区的文件全部读取完毕后，各输入源才进入下一个分区消费并更新水位线（watermark）",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "前文一次一个分区，未读下一个分区前不可能读完所有分区。",
+      "sources": [
+        "教材 PDF 物理页 696（印刷页 689），直接目读"
+      ]
+    },
+    {
+      "id": "ch19b-031",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第04节-Kappa架构.md",
+      "loc": "物理 696，印刷 689，19.4",
+      "ocr": "Apache hudi框架来存储数据仓库数据，hudi支持更新、删除已有parquet数据，也支持增量消费数据更新部分，从而系统性解决了问题2存储的问题。",
+      "current": "Apache hudi框架来存储数据仓库数据，hudi支持更新、删除已有parquet数据，也支持增量消费数据更新部分，从而系统性解决了问题2存储的问题。",
+      "final": "Apache Hudi框架来存储数据仓库数据。Hudi支持更新和删除表中的记录，也支持增量读取更新的数据，可用于处理上述历史数据存储问题。图中的底层数据文件可采用Parquet格式。",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "Hudi区分记录级操作与物理文件格式，提供增量查询；去除无明确指代的“问题2”。",
+      "sources": [
+        "教材 PDF 物理页 696（印刷页 689），直接目读",
+        "https://raw.githubusercontent.com/apache/hudi/master/README.md",
+        "https://raw.githubusercontent.com/apache/parquet-format/master/README.md"
+      ]
+    },
+    {
+      "id": "ch19b-032",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第04节-Kappa架构.md",
+      "loc": "物理 696，印刷 689，19.4",
+      "ocr": "Hadoop→ Spark →用户查询",
+      "current": "Hadoop→ Spark →用户查询",
+      "final": "Hadoop → Spark → 用户查询",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "统一路径两侧间距。",
+      "sources": [
+        "教材 PDF 物理页 696（印刷页 689），直接目读"
+      ]
+    },
+    {
+      "id": "ch19b-033",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第04节-Kappa架构.md",
+      "loc": "物理 696，印刷 689，19.4",
+      "ocr": "> 图 19-11 kappa+架构",
+      "current": "> 图 19-11 kappa+架构",
+      "final": "> 图 19-11 Kappa+架构",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "图题大小写与小目统一。",
+      "sources": [
+        "教材 PDF 物理页 696（印刷页 689），直接目读"
+      ]
+    },
+    {
+      "id": "ch19b-034",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第04节-Kappa架构.md",
+      "loc": "物理 696，印刷 689，19.4",
+      "ocr": "再通过spark对数据",
+      "current": "再通过spark对数据",
+      "final": "再通过Spark对数据",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "图19-11节点拼写内证。",
+      "sources": [
+        "教材 PDF 物理页 696（印刷页 689），直接目读"
+      ]
+    },
+    {
+      "id": "ch19b-035",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第04节-Kappa架构.md",
+      "loc": "物理 696，印刷 689，19.4",
+      "ocr": "进入ElasticSearch实时分析引擎",
+      "current": "进入ElasticSearch实时分析引擎",
+      "final": "进入Elasticsearch实时分析引擎",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "统一项目名称；按本例说明搜索引擎所承担的任务。",
+      "sources": [
+        "教材 PDF 物理页 696（印刷页 689），直接目读",
+        "https://raw.githubusercontent.com/elastic/elasticsearch/main/README.asciidoc"
+      ]
+    },
+    {
+      "id": "ch19b-036",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第04节-Kappa架构.md",
+      "loc": "物理 697，印刷 690，19.4",
+      "ocr": "但是ElasticSearch只适合对合理数据量级的热点数据进行索引",
+      "current": "但是ElasticSearch只适合对合理数据量级的热点数据进行索引",
+      "final": "在这一方案中，Elasticsearch用于对热点数据建立索引",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "统一项目名称；按本例说明搜索引擎所承担的任务。",
+      "sources": [
+        "教材 PDF 物理页 697（印刷页 690），直接目读",
+        "https://raw.githubusercontent.com/elastic/elasticsearch/main/README.asciidoc"
+      ]
+    },
+    {
+      "id": "ch19b-037",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第05节-Lambda架构与Kappa架构的对比和设计选择.md",
+      "loc": "物理 697，印刷 690，19.5",
+      "ocr": "这样设计的根本原因在于，Lambda提出的初期是在公司中进行小范围的业务运用，当时并没有思考有没有一个计算引擎能够在可接受的延迟条件下既进行离线数据处理又进行实时数据处理。在这样的前提下，",
+      "current": "这样设计的根本原因在于，Lambda提出的初期是在公司中进行小范围的业务运用，当时并没有思考有没有一个计算引擎能够在可接受的延迟条件下既进行离线数据处理又进行实时数据处理。在这样的前提下，",
+      "final": "这里分别采用适合离线计算和低延迟计算的工具。在这种实现中，",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "可据本节确认设计动机在于兼顾批处理与低延迟；删除对提出者具体心理活动的无来源断言，但首创背景仍待独立核证。",
+      "sources": [
+        "教材 PDF 物理页 697（印刷页 690），直接目读"
+      ]
+    },
+    {
+      "id": "ch19b-038",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第05节-Lambda架构与Kappa架构的对比和设计选择.md",
+      "loc": "物理 697，印刷 690，19.5",
+      "ocr": "Lambda提出的初期是在公司中进行小范围的业务运用……并没有思考",
+      "current": "Lambda提出的初期是在公司中进行小范围的业务运用，当时并没有思考有没有一个计算引擎",
+      "final": null,
+      "class": "C3",
+      "confidence": "低～中",
+      "evidence": "现有页图未给出可验证的提出者自述，具体早期业务规模和心理动机仍待核。正文仅述两条链路的设计。",
+      "sources": [
+        "教材 PDF 物理页 697（印刷页 690），直接目读"
+      ]
+    },
+    {
+      "id": "ch19b-039",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第05节-Lambda架构与Kappa架构的对比和设计选择.md",
+      "loc": "物理 697，印刷 690，19.5",
+      "ocr": "在满足延迟要求的流式计算技术成熟的前提，比Lambda更优秀",
+      "current": "在满足延迟要求的流式计算技术成熟的前提，比Lambda更优秀",
+      "final": "当流式计算能够满足业务延迟和历史重算要求时，可以减少两条计算链路的维护工作",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "优劣依本节列明的指标而异，不能从单一指标推出总体高下。",
+      "sources": [
+        "教材 PDF 物理页 697（印刷页 690），直接目读"
+      ]
+    },
+    {
+      "id": "ch19b-040",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第05节-Lambda架构与Kappa架构的对比和设计选择.md",
+      "loc": "物理 697，印刷 690，19.5",
+      "ocr": "进行了对比分析。",
+      "current": "进行了对比分析。",
+      "final": "进行了对比分析。表中列出本节所举典型部署的取舍，实际成本和吞吐量取决于工作负载、引擎和资源配置。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "明确比较条件，避免将部署示例视为架构保证。",
+      "sources": [
+        "教材 PDF 物理页 697（印刷页 690），直接目读"
+      ]
+    },
+    {
+      "id": "ch19b-041",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第05节-Lambda架构与Kappa架构的对比和设计选择.md",
+      "loc": "物理 697，印刷 690，19.5",
+      "ocr": "需要维护两套系统（引擎），复杂度高，开发、维护成本高。",
+      "current": "需要维护两套系统（引擎），复杂度高，开发、维护成本高。",
+      "final": "通常需分别维护批处理与流处理逻辑，开发维护较复杂。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "对照表列举典型实现，逻辑路径数不等于物理引擎数，实时性、成本和吞吐量取决于实现条件。",
+      "sources": [
+        "教材 PDF 物理页 697（印刷页 690），直接目读"
+      ]
+    },
+    {
+      "id": "ch19b-042",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第05节-Lambda架构与Kappa架构的对比和设计选择.md",
+      "loc": "物理 697，印刷 690，19.5",
+      "ocr": "只需要维护一套系统（引擎），复杂度低，开发、维护成本低。",
+      "current": "只需要维护一套系统（引擎），复杂度低，开发、维护成本低。",
+      "final": "复用同一套流处理逻辑，通常可降低开发维护复杂度。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "对照表列举典型实现，逻辑路径数不等于物理引擎数，实时性、成本和吞吐量取决于实现条件。",
+      "sources": [
+        "教材 PDF 物理页 697（印刷页 690），直接目读"
+      ]
+    },
+    {
+      "id": "ch19b-043",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第05节-Lambda架构与Kappa架构的对比和设计选择.md",
+      "loc": "物理 697，印刷 690，19.5",
+      "ocr": "需要一直运行批处理和实时计算，计算开销大。",
+      "current": "需要一直运行批处理和实时计算，计算开销大。",
+      "final": "运行批处理和实时计算两条链路，计算开销可能较大。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "对照表列举典型实现，逻辑路径数不等于物理引擎数，实时性、成本和吞吐量取决于实现条件。",
+      "sources": [
+        "教材 PDF 物理页 697（印刷页 690），直接目读"
+      ]
+    },
+    {
+      "id": "ch19b-044",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第05节-Lambda架构与Kappa架构的对比和设计选择.md",
+      "loc": "物理 697，印刷 690，19.5",
+      "ocr": "必要时进行全量计算，计算开销相对较小。",
+      "current": "必要时进行全量计算，计算开销相对较小。",
+      "final": "必要时进行全量计算，计算开销可能相对较小。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "对照表列举典型实现，逻辑路径数不等于物理引擎数，实时性、成本和吞吐量取决于实现条件。",
+      "sources": [
+        "教材 PDF 物理页 697（印刷页 690），直接目读"
+      ]
+    },
+    {
+      "id": "ch19b-045",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第05节-Lambda架构与Kappa架构的对比和设计选择.md",
+      "loc": "物理 697，印刷 690，19.5",
+      "ocr": "满足实时性。 | 满足实时性。",
+      "current": "满足实时性。 | 满足实时性。",
+      "final": "可满足实时性要求。 | 可满足实时性要求。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "对照表列举典型实现，逻辑路径数不等于物理引擎数，实时性、成本和吞吐量取决于实现条件。",
+      "sources": [
+        "教材 PDF 物理页 697（印刷页 690），直接目读"
+      ]
+    },
+    {
+      "id": "ch19b-046",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第05节-Lambda架构与Kappa架构的对比和设计选择.md",
+      "loc": "物理 697，印刷 690，19.5",
+      "ocr": "批式全量处理，吞吐量大，历史数据处理能力强。",
+      "current": "批式全量处理，吞吐量大，历史数据处理能力强。",
+      "final": "批式全量处理，适合大吞吐量的历史数据处理。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "对照表列举典型实现，逻辑路径数不等于物理引擎数，实时性、成本和吞吐量取决于实现条件。",
+      "sources": [
+        "教材 PDF 物理页 697（印刷页 690），直接目读"
+      ]
+    },
+    {
+      "id": "ch19b-047",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第05节-Lambda架构与Kappa架构的对比和设计选择.md",
+      "loc": "物理 697，印刷 690，19.5",
+      "ocr": "流式全量处理，吞吐量相对较低，历史数据处理能力相对较弱。",
+      "current": "流式全量处理，吞吐量相对较低，历史数据处理能力相对较弱。",
+      "final": "流式全量处理，历史数据处理能力受日志读取和重放吞吐量制约。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "对照表列举典型实现，逻辑路径数不等于物理引擎数，实时性、成本和吞吐量取决于实现条件。",
+      "sources": [
+        "教材 PDF 物理页 697（印刷页 690），直接目读"
+      ]
+    },
+    {
+      "id": "ch19b-048",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第05节-Lambda架构与Kappa架构的对比和设计选择.md",
+      "loc": "物理 697，印刷 690，19.5",
+      "ocr": "因为需要开发并维护两套系统",
+      "current": "因为需要开发并维护两套系统",
+      "final": "因为通常需要分别开发并维护两条计算链路",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "与表中逻辑链路的比较一致。",
+      "sources": [
+        "教材 PDF 物理页 697（印刷页 690），直接目读"
+      ]
+    },
+    {
+      "id": "ch19b-049",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第05节-Lambda架构与Kappa架构的对比和设计选择.md",
+      "loc": "物理 697，印刷 690，19.5",
+      "ocr": "HBase中；\n\n另一套",
+      "current": "HBase中；\n\n另一套",
+      "final": "HBase中；另一套",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "印面为同一段内列举。",
+      "sources": [
+        "教材 PDF 物理页 697（印刷页 690），直接目读"
+      ]
+    },
+    {
+      "id": "ch19b-050",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第05节-Lambda架构与Kappa架构的对比和设计选择.md",
+      "loc": "物理 697，印刷 690，19.5",
+      "ocr": "批处理系统还需要长时间保持运行以保证离线运算结果的正确性",
+      "current": "批处理系统还需要长时间保持运行以保证离线运算结果的正确性",
+      "final": "批处理系统可能要长时间占用计算资源",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "持续时间影响资源开销，计算正确性不能据运行时长保证。",
+      "sources": [
+        "教材 PDF 物理页 697（印刷页 690），直接目读"
+      ]
+    },
+    {
+      "id": "ch19b-051",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第05节-Lambda架构与Kappa架构的对比和设计选择.md",
+      "loc": "物理 698，印刷 691，19.5",
+      "ocr": "只需要开发并维护一套系统",
+      "current": "只需要开发并维护一套系统",
+      "final": "实时处理和历史重算可以复用一套流处理逻辑",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "本节讲复用逻辑，还包括独立的存储、服务组件。",
+      "sources": [
+        "教材 PDF 物理页 698（印刷页 691），直接目读"
+      ]
+    },
+    {
+      "id": "ch19b-052",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第05节-Lambda架构与Kappa架构的对比和设计选择.md",
+      "loc": "物理 698，印刷 691，19.5",
+      "ocr": "由于数据量的持续增长，计算对I/O的需求增长速度已经远远超过网络带宽的扩容速度，故在计算时的开销也是大数据系统的考虑因素之一。",
+      "current": "由于数据量的持续增长，计算对I/O的需求增长速度已经远远超过网络带宽的扩容速度，故在计算时的开销也是大数据系统的考虑因素之一。",
+      "final": "当数据量增长带来的I/O需求超过网络带宽时，数据传输会成为瓶颈，因此计算开销也是选择架构时的考虑因素之一。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "增长速度依赖具体部署，限定为条件陈述。",
+      "sources": [
+        "教材 PDF 物理页 698（印刷页 691），直接目读"
+      ]
+    },
+    {
+      "id": "ch19b-053",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第05节-Lambda架构与Kappa架构的对比和设计选择.md",
+      "loc": "物理 698，印刷 691，19.5",
+      "ocr": "且在运行时批处理系统和流处理系统都不能停机，否则将会有View的合并错误、计算开销大等问题。",
+      "current": "且在运行时批处理系统和流处理系统都不能停机，否则将会有View的合并错误、计算开销大等问题。",
+      "final": "批处理可以按计划运行；一路任务中断可能导致相应视图滞后。合并时要区分批视图已覆盖的数据与速度层应补充的数据。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "前文章节分别说明定期刷新批视图，以及批视图未反映的新数据由实时视图补充。中断并非必然产生错误。",
+      "sources": [
+        "教材 PDF 物理页 698（印刷页 691），直接目读"
+      ]
+    },
+    {
+      "id": "ch19b-054",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第05节-Lambda架构与Kappa架构的对比和设计选择.md",
+      "loc": "物理 698，印刷 691，19.5",
+      "ocr": "且只需要在必要时进行全量计算，计算消耗小。",
+      "current": "且只需要在必要时进行全量计算，计算消耗小。",
+      "final": "只在需要重算时重放历史数据。其计算开销取决于重算范围和频率。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "与19.4.4较长历史重放的开销相呼应。",
+      "sources": [
+        "教材 PDF 物理页 698（印刷页 691），直接目读"
+      ]
+    },
+    {
+      "id": "ch19b-055",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第05节-Lambda架构与Kappa架构的对比和设计选择.md",
+      "loc": "物理 698，印刷 691，19.5",
+      "ocr": "Lambda架构的策略在于使用满足幺半群 (Monoid) 性质的数据View模型，对批处理层和速度层的输出进行统一管理，这样在新数据到达时，速度层可以实时处理数据得到最新View,然后和批处理层的View相结合，得到最新的实时结果。",
+      "current": "Lambda架构的策略在于使用满足幺半群 (Monoid) 性质的数据View模型，对批处理层和速度层的输出进行统一管理，这样在新数据到达时，速度层可以实时处理数据得到最新View,然后和批处理层的View相结合，得到最新的实时结果。",
+      "final": "Lambda架构需要在查询时结合批视图与实时视图。对于求和等可合并的聚合，可用满足结合律且有单位元的运算（幺半群，Monoid）合并两层的结果。例如，速度层对新增数据求和，再与覆盖较早数据的批视图之和相加。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "结合律和单位元是该代数结构的定义；求和是具体例子；表中架构定义并未限制全部查询必须使用该结构。",
+      "sources": [
+        "教材 PDF 物理页 698（印刷页 691），直接目读",
+        "https://raw.githubusercontent.com/typelevel/cats/main/kernel/src/main/scala/cats/kernel/Monoid.scala"
+      ]
+    },
+    {
+      "id": "ch19b-056",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第05节-Lambda架构与Kappa架构的对比和设计选择.md",
+      "loc": "物理 698，印刷 691，19.5",
+      "ocr": "如果需要全量计算，则重新启动一个新的流式计算实例，将所有数据重新读取、计算，直到计算结果完成并超越了原来的结果，再删除原结果，使新结果成为可读取数据。",
+      "current": "如果需要全量计算，则重新启动一个新的流式计算实例，将所有数据重新读取、计算，直到计算结果完成并超越了原来的结果，再删除原结果，使新结果成为可读取数据。",
+      "final": "如果需要全量重算，则另起流计算实例，重新读取所需的历史数据并写入新视图。等新作业的处理进度追上旧作业，先把读取方切换到新视图，再停用旧作业并删除旧视图。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "19.4.3有清楚的切换次序，比较的是输入进度。",
+      "sources": [
+        "教材 PDF 物理页 698（印刷页 691），直接目读"
+      ]
+    },
+    {
+      "id": "ch19b-057",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第05节-Lambda架构与Kappa架构的对比和设计选择.md",
+      "loc": "物理 698，印刷 691，19.5",
+      "ocr": "同时可能因为数据流的先后顺序、算法逻辑等问题导致数据丢失。",
+      "current": "同时可能因为数据流的先后顺序、算法逻辑等问题导致数据丢失。",
+      "final": "当数据乱序且超过窗口允许的迟到范围时，部分记录可能未计入关联结果。",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "同19.4.4，区别关联漏算与原始日志丢失。",
+      "sources": [
+        "教材 PDF 物理页 698（印刷页 691），直接目读",
+        "https://raw.githubusercontent.com/apache/flink/master/docs/content/docs/dev/datastream/operators/windows.md",
+        "https://raw.githubusercontent.com/apache/beam/master/website/www/site/content/en/documentation/programming-guide.md"
+      ]
+    },
+    {
+      "id": "ch19b-058",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第05节-Lambda架构与Kappa架构的对比和设计选择.md",
+      "loc": "物理 698，印刷 691，19.5",
+      "ocr": "在进行批量数据处理时速度层的实时计算仍然可以运行且不受影响。",
+      "current": "在进行批量数据处理时速度层的实时计算仍然可以运行且不受影响。",
+      "final": "若两层资源已隔离，批量处理历史数据时，速度层仍能独立处理新数据。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "如果共享存储或网络，重算仍可能影响实时链路。",
+      "sources": [
+        "教材 PDF 物理页 698（印刷页 691），直接目读"
+      ]
+    },
+    {
+      "id": "ch19b-059",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第05节-Lambda架构与Kappa架构的对比和设计选择.md",
+      "loc": "物理 698，印刷 691，19.5",
+      "ocr": "而Kappa架构对于大量历史数据的处理能力相对Lambda则相对较弱。",
+      "current": "而Kappa架构对于大量历史数据的处理能力相对Lambda则相对较弱。",
+      "final": "若需要从消息队列重放大量历史数据，Kappa的处理能力可能受日志读取和流处理吞吐量限制。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "原句将上述某种实现的瓶颈推广到了全部架构。",
+      "sources": [
+        "教材 PDF 物理页 698（印刷页 691），直接目读"
+      ]
+    },
+    {
+      "id": "ch19b-060",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第05节-Lambda架构与Kappa架构的对比和设计选择.md",
+      "loc": "物理 699，印刷 692，19.5",
+      "ocr": "而计算开销虽然存在一定差别，但是相差不是很大，所以不作为考虑因素。",
+      "current": "而计算开销虽然存在一定差别，但是相差不是很大，所以不作为考虑因素。",
+      "final": "只有在具体负载下测得两种实现的计算开销相近时，才可降低该因素在选型中的权重。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "与前页“计算开销也是……考虑因素”及表19-1一致。",
+      "sources": [
+        "教材 PDF 物理页 699（印刷页 692），直接目读"
+      ]
+    },
+    {
+      "id": "ch19b-061",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第05节-Lambda架构与Kappa架构的对比和设计选择.md",
+      "loc": "物理 699，印刷 692，19.5",
+      "ocr": "Spark、Strom",
+      "current": "Spark、Strom",
+      "final": "Spark、Storm",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "前面介绍的同一引擎为Storm。",
+      "sources": [
+        "教材 PDF 物理页 699（印刷页 692），直接目读"
+      ]
+    },
+    {
+      "id": "ch19b-062",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第05节-Lambda架构与Kappa架构的对比和设计选择.md",
+      "loc": "物理 699，印刷 692，19.5",
+      "ocr": "那么这种情况下，批处理层和流处理层不能进行合并，因此应该选择Lambda架构。",
+      "current": "那么这种情况下，批处理层和流处理层不能进行合并，因此应该选择Lambda架构。",
+      "final": "这种场景需要分别实现训练与验证。若同一查询还需要合并批处理与实时处理的结果，可以考虑Lambda架构。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "由先训练后验证只可推出两阶段依赖，不能推出需融合批视图与实时视图。",
+      "sources": [
+        "教材 PDF 物理页 699（印刷页 692），直接目读"
+      ]
+    },
+    {
+      "id": "ch19b-063",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第05节-Lambda架构与Kappa架构的对比和设计选择.md",
+      "loc": "物理 699，印刷 692，19.5",
+      "ocr": "而Kappa架构只需要维护一套系统",
+      "current": "而Kappa架构只需要维护一套系统",
+      "final": "而Kappa架构可以复用一套流处理逻辑",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "与表中对比维度一致。",
+      "sources": [
+        "教材 PDF 物理页 699（印刷页 692），直接目读"
+      ]
+    },
+    {
+      "id": "ch19b-064",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第05节-Lambda架构与Kappa架构的对比和设计选择.md",
+      "loc": "物理 699，印刷 692，19.5",
+      "ocr": "这种数据适合批处理系统进行分析，应该选择Lambda架构。如果始终使用小规模数据集，流处理系统完全可以使用，则应该选择Kappa架构。",
+      "current": "这种数据适合批处理系统进行分析，应该选择Lambda架构。如果始终使用小规模数据集，流处理系统完全可以使用，则应该选择Kappa架构。",
+      "final": "这种数据适合批处理；若还需结合实时视图，可以考虑Lambda架构。如果主要面对增量数据，且现有流处理系统能在要求的时间内完成历史重算，则可以考虑Kappa架构。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "本节已有业务需求、技术、复杂度等选型指标，不能只凭数据集大小决定。",
+      "sources": [
+        "教材 PDF 物理页 699（印刷页 692），直接目读"
+      ]
+    },
+    {
+      "id": "ch19b-065",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第04节-Kappa架构.md",
+      "loc": "物理 694，印刷 687，19.4",
+      "ocr": "图 19-10 Kappa架构",
+      "current": "仅有图题",
+      "final": "> 图 19-10 Kappa架构，已附SVG",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "输入数据经实时引擎到服务后端，外部查询面向服务层。下方列出历史数据和结果数据。",
+      "sources": [
+        "教材 PDF 物理页 694（印刷页 687），直接目读"
+      ]
+    },
+    {
+      "id": "ch19b-066",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第04节-Kappa架构.md",
+      "loc": "物理 696，印刷 689，19.4",
+      "ocr": "图 19-11 Kappa+架构",
+      "current": "仅有图题",
+      "final": "> 图 19-11 Kappa+架构，已附SVG",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "五类数据经Kafka进入Hadoop，数据从Hadoop分别流向Spark、Cassandra和Elasticsearch，用户查询连接Spark。",
+      "sources": [
+        "教材 PDF 物理页 696（印刷页 689），直接目读"
+      ]
+    },
+    {
+      "id": "ch19b-067",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第04节-Kappa架构.md",
+      "loc": "物理 696，印刷 689，19.4",
+      "ocr": "图 19-12 混合分析系统架构",
+      "current": "仅有图题",
+      "final": "> 图 19-12 混合分析系统架构，已附SVG",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "源数据进入Kafka，随后分为Flink和Elasticsearch两条支路。",
+      "sources": [
+        "教材 PDF 物理页 696（印刷页 689），直接目读"
+      ]
+    },
+    {
+      "id": "ch19b-068",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第05节-Lambda架构与Kappa架构的对比和设计选择.md",
+      "loc": "物理 697，印刷 690，19.5",
+      "ocr": "表 19-1 Lambda架构和Kappa架构对比",
+      "current": "有表题和Markdown表，缺少图表资产",
+      "final": "> 表 19-1 Lambda架构和Kappa架构对比，已附SVG",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "三列四项，对照复杂度与维护成本、计算开销、实时性和历史数据处理能力。表中比较以本节介绍的典型部署为前提。",
+      "sources": [
+        "教材 PDF 物理页 697（印刷页 690），直接目读"
+      ]
+    },
+    {
+      "id": "ch19c-001",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 700 / 印刷 693，19.6",
+      "ocr": "以保证历史数据的准确性。\n\nLambda架构",
+      "current": "以保证历史数据的准确性。\n\nLambda架构",
+      "final": "以保证历史数据的准确性。Lambda架构",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "Lambda架构起于行首，接续前句，原页无新段缩进。",
+      "sources": [
+        "入库教材PDF物理 700 / 印刷 693，衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch19c-002",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 701 / 印刷 694，19.6",
+      "ocr": "该平台基于Lambda架构，由数据集成层、数据存储层、数据计算层和数据展现层构成。\n\n数据集成层支持",
+      "current": "该平台基于Lambda架构，由数据集成层、数据存储层、数据计算层和数据展现层构成。\n\n数据集成层支持",
+      "final": "该平台基于Lambda架构，由数据集成层、数据存储层、数据计算层和数据展现层构成。图中还单列了下方的数据采集层。数据集成层支持",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "印面行首无缩进。图19-13和应用效果说明称“数据展现层”；图单列采集层，文字说明明确四层范围。",
+      "sources": [
+        "入库教材PDF物理 701 / 印刷 694，衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch19c-003",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 701 / 印刷 694，19.6",
+      "ocr": "开源组件sqoop",
+      "current": "开源组件sqoop",
+      "final": "开源组件Sqoop",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "统一产品名称大小写／中文标点。",
+      "sources": [
+        "入库教材PDF物理 701 / 印刷 694，衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch19c-004",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 701 / 印刷 694，19.6",
+      "ocr": "分布式列数据库Hbase",
+      "current": "分布式列数据库Hbase",
+      "final": "分布式列数据库HBase",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "统一产品名称大小写／中文标点。",
+      "sources": [
+        "入库教材PDF物理 701 / 印刷 694，衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch19c-005",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 701 / 印刷 694，19.6",
+      "ocr": "不仅集成了分布式列数据Hbase、内存关系型数据库MemSQL, 而且还增加了统一的监控管理功能和开放更多的访问接口",
+      "current": "不仅集成了分布式列数据Hbase、内存关系型数据库MemSQL, 而且还增加了统一的监控管理功能和开放更多的访问接口",
+      "final": "不仅集成了分布式列数据库HBase和内存关系型数据库MemSQL，而且增加了统一的监控管理功能，开放了更多的访问接口",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "同页上下两处称HBase为“分布式列数据库”，原句“列数据”漏“库”；理顺并列谓语。",
+      "sources": [
+        "入库教材PDF物理 701 / 印刷 694，衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch19c-006",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 701 / 印刷 694，19.6",
+      "ocr": "分布在文件系统，",
+      "current": "分布在文件系统，",
+      "final": "分布在文件系统中，",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "补方位词。",
+      "sources": [
+        "入库教材PDF物理 701 / 印刷 694，衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch19c-007",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 701 / 印刷 694，19.6",
+      "ocr": "来保证数据量大的任务能得到较公平的获取计算资源",
+      "current": "来保证数据量大的任务能得到较公平的获取计算资源",
+      "final": "使数据量大的任务能较公平地获得计算资源",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "“得到……获取”谓语重复。",
+      "sources": [
+        "入库教材PDF物理 701 / 印刷 694，衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch19c-008",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 701 / 印刷 694，19.6",
+      "ocr": "更新到real-time view, 它",
+      "current": "更新到real-time view, 它",
+      "final": "更新到实时视图（real-time view），它",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "统一产品名称大小写／中文标点。",
+      "sources": [
+        "入库教材PDF物理 701 / 印刷 694，衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch19c-009",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 701 / 印刷 694，19.6",
+      "ocr": "Real-time View 中",
+      "current": "Real-time View 中",
+      "final": "Real-time View中",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "统一产品名称大小写／中文标点。",
+      "sources": [
+        "入库教材PDF物理 701 / 印刷 694，衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch19c-010",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 701 / 印刷 694，19.6",
+      "ocr": "MemSQL 内",
+      "current": "MemSQL 内",
+      "final": "MemSQL内",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "统一产品名称大小写／中文标点。",
+      "sources": [
+        "入库教材PDF物理 701 / 印刷 694，衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch19c-011",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 701 / 印刷 694，19.6",
+      "ocr": "Spark Streaming,计算",
+      "current": "Spark Streaming,计算",
+      "final": "Spark Streaming计算",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "“通过……计算”中间不需逗号。",
+      "sources": [
+        "入库教材PDF物理 701 / 印刷 694，衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch19c-012",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 701 / 印刷 694，19.6",
+      "ocr": "接近100%的数据可用性",
+      "current": "接近100%的数据可用性",
+      "final": null,
+      "class": "C3",
+      "confidence": "低",
+      "evidence": "原页为案例描述，未给统计窗口、故障口径或可核测量数据；不作为普遍保证。",
+      "sources": [
+        "入库教材PDF物理 701 / 印刷 694，衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch19c-013",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 702 / 印刷 695，19.6",
+      "ocr": "不同的时间维度(天、小时),不同的实体维度(广告计划、广告、性别、年龄、地域)下的不同类型指标(曝光、点击、花费、转化下单、增粉数)",
+      "current": "不同的时间维度(天、小时),不同的实体维度(广告计划、广告、性别、年龄、地域)下的不同类型指标(曝光、点击、花费、转化下单、增粉数)",
+      "final": "不同时间维度（天、小时）、不同实体维度（广告计划、广告、性别、年龄、地域）下的不同类型指标（曝光、点击、花费、转化下单、增粉数）",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "统一产品名称大小写／中文标点。",
+      "sources": [
+        "入库教材PDF物理 702 / 印刷 695，衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch19c-014",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 702 / 印刷 695，19.6",
+      "ocr": "秒级到10min级别",
+      "current": "秒级到10min级别",
+      "final": "秒级到10分钟级别",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "统一产品名称大小写／中文标点。",
+      "sources": [
+        "入库教材PDF物理 702 / 印刷 695，衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch19c-015",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 702 / 印刷 695，19.6",
+      "ocr": "离线数据方便的结合",
+      "current": "离线数据方便的结合",
+      "final": "离线数据方便地结合",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "状语用“地”。",
+      "sources": [
+        "入库教材PDF物理 702 / 印刷 695，衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch19c-016",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 702 / 印刷 695，19.6",
+      "ocr": "架构的基础下",
+      "current": "架构的基础下",
+      "final": "架构的基础上",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "固定搭配。",
+      "sources": [
+        "入库教材PDF物理 702 / 印刷 695，衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch19c-017",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 702 / 印刷 695，19.6",
+      "ocr": "曝光类(包括曝光数、点击数、点击单价、花费),转化类(包括转化下单数、转化下单金额、转化付款数、转化付款金额)",
+      "current": "曝光类(包括曝光数、点击数、点击单价、花费),转化类(包括转化下单数、转化下单金额、转化付款数、转化付款金额)",
+      "final": "曝光类（包括曝光数、点击数、点击单价、花费）和转化类（包括转化下单数、转化下单金额、转化付款数、转化付款金额）",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "统一产品名称大小写／中文标点。",
+      "sources": [
+        "入库教材PDF物理 702 / 印刷 695，衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch19c-018",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 702 / 印刷 695，19.6",
+      "ocr": "提供(比如对接的腾讯广点通平台),",
+      "current": "提供(比如对接的腾讯广点通平台),",
+      "final": "提供（比如对接的腾讯广点通平台），",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "统一产品名称大小写／中文标点。",
+      "sources": [
+        "入库教材PDF物理 702 / 印刷 695，衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch19c-019",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 702 / 印刷 695，19.6",
+      "ocr": "### 1. 第一版架构",
+      "current": "### 1. 第一版架构",
+      "final": "1）第一版架构",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "印面为“3. 系统架构”下的普通编号行，字重同正文。",
+      "sources": [
+        "入库教材PDF物理 702 / 印刷 695，衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch19c-020",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 703 / 印刷 696，19.6",
+      "ocr": "### 2. 第二版架构",
+      "current": "### 2. 第二版架构",
+      "final": "2）第二版架构",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "印面为“3. 系统架构”下的普通编号行，字重同正文。",
+      "sources": [
+        "入库教材PDF物理 703 / 印刷 696，衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch19c-021",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 703 / 印刷 696，19.6",
+      "ocr": "### 3. 第三版架构",
+      "current": "### 3. 第三版架构",
+      "final": "3）第三版架构",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "印面为“3. 系统架构”下的普通编号行，字重同正文。",
+      "sources": [
+        "入库教材PDF物理 703 / 印刷 696，衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch19c-022",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 702 / 印刷 695，19.6",
+      "ocr": "架构图如19-14所示",
+      "current": "架构图如19-14所示",
+      "final": "架构如图19-14所示",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "修复“如图”顺序。",
+      "sources": [
+        "入库教材PDF物理 702 / 印刷 695，衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch19c-023",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 702 / 印刷 695，19.6",
+      "ocr": "HDFS 中",
+      "current": "HDFS 中",
+      "final": "HDFS中",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "统一产品名称大小写／中文标点。",
+      "sources": [
+        "入库教材PDF物理 702 / 印刷 695，衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch19c-024",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 702 / 印刷 695，19.6",
+      "ocr": "Hive Sql/Spark Sql",
+      "current": "Hive Sql/Spark Sql",
+      "final": "Hive SQL/Spark SQL",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "统一产品名称大小写／中文标点。",
+      "sources": [
+        "入库教材PDF物理 702 / 印刷 695，衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch19c-025",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 702 / 印刷 695，19.6",
+      "ocr": "第三方的API, 每天",
+      "current": "第三方的API, 每天",
+      "final": "第三方的API，每天",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "统一产品名称大小写／中文标点。",
+      "sources": [
+        "入库教材PDF物理 702 / 印刷 695，衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch19c-026",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 702 / 印刷 695，19.6",
+      "ocr": "用 Spark Streaming",
+      "current": "用 Spark Streaming",
+      "final": "用Spark Streaming",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "统一产品名称大小写／中文标点。",
+      "sources": [
+        "入库教材PDF物理 702 / 印刷 695，衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch19c-027",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 702 / 印刷 695，19.6",
+      "ocr": "存储在redis中",
+      "current": "存储在redis中",
+      "final": "存储在Redis中",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "统一产品名称大小写／中文标点。",
+      "sources": [
+        "入库教材PDF物理 702 / 印刷 695，衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch19c-028",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 702 / 印刷 695，19.6",
+      "ocr": "提供http接口",
+      "current": "提供http接口",
+      "final": "提供HTTP接口",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "统一产品名称大小写／中文标点。",
+      "sources": [
+        "入库教材PDF物理 702 / 印刷 695，衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch19c-029",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 702 / 印刷 695，19.6",
+      "ocr": "同时还需要查询业务MySQL, 找到一条广告对应的所有redis key, 再将redis中这些key的统计数据聚合",
+      "current": "同时还需要查询业务MySQL, 找到一条广告对应的所有redis key, 再将redis中这些key的统计数据聚合",
+      "final": "同时还需要查询业务MySQL，找到一条广告对应的所有Redis键，再将Redis中这些键的统计数据聚合",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "统一产品名称大小写／中文标点。",
+      "sources": [
+        "入库教材PDF物理 702 / 印刷 695，衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch19c-030",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 702 / 印刷 695，19.6",
+      "ocr": "没有实时的获取",
+      "current": "没有实时的获取",
+      "final": "没有实时地获取",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "状语用“地”。",
+      "sources": [
+        "入库教材PDF物理 702 / 印刷 695，衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch19c-031",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 703 / 印刷 696，19.6",
+      "ocr": "将每天的时间段分为两档：\n\n1:00",
+      "current": "将每天的时间段分为两档：\n\n1:00",
+      "final": "将每天的时间段分为两档：1:00",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "时间说明是冒号后的连续内容，原页未缩进。",
+      "sources": [
+        "入库教材PDF物理 703 / 印刷 696，衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch19c-032",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 703 / 印刷 696，19.6",
+      "ocr": "30min一次，活跃时间段为10min一次",
+      "current": "30min一次，活跃时间段为10min一次",
+      "final": "每30分钟一次，活跃时间段为每10分钟一次",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "统一产品名称大小写／中文标点。",
+      "sources": [
+        "入库教材PDF物理 703 / 印刷 696，衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch19c-033",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 703 / 印刷 696，19.6",
+      "ocr": "尽可能多的调用同步API。从而",
+      "current": "尽可能多的调用同步API。从而",
+      "final": "尽可能多地调用同步API，从而",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "修饰动词用“地”。从而引出的结果接续上句。",
+      "sources": [
+        "入库教材PDF物理 703 / 印刷 696，衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch19c-034",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 703 / 印刷 696，19.6",
+      "ocr": "用Hive Sql做好join, 将两张表聚合而成的结果表导出到MySQL, ",
+      "current": "用Hive Sql做好join, 将两张表聚合而成的结果表导出到MySQL, ",
+      "final": "用Hive SQL完成联接，将两张表聚合而成的结果表导出到MySQL，",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "统一产品名称大小写／中文标点。",
+      "sources": [
+        "入库教材PDF物理 703 / 印刷 696，衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch19c-035",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 703 / 印刷 696，19.6",
+      "ocr": "提供给服务层完成第二版改动之后",
+      "current": "提供给服务层完成第二版改动之后",
+      "final": "提供给服务层。\n\n完成第二版改动之后",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "“完成第二版改动之后”在印刷页另起一段。",
+      "sources": [
+        "入库教材PDF物理 703 / 印刷 696，衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch19c-036",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 703 / 印刷 696，19.6",
+      "ocr": "查询redis数据",
+      "current": "查询redis数据",
+      "final": "查询Redis数据",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "统一产品名称大小写／中文标点。",
+      "sources": [
+        "入库教材PDF物理 703 / 印刷 696，衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch19c-037",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 703 / 印刷 696，19.6",
+      "ocr": "由于redis里面",
+      "current": "由于redis里面",
+      "final": "由于Redis里面",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "统一产品名称大小写／中文标点。",
+      "sources": [
+        "入库教材PDF物理 703 / 印刷 696，衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch19c-038",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 703 / 印刷 696，19.6",
+      "ocr": "需要现在MySQL中查询",
+      "current": "需要现在MySQL中查询",
+      "final": "需要先在MySQL中查询",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "先查询关联关系，再查汇总值，“先在”与“再”呼应。",
+      "sources": [
+        "入库教材PDF物理 703 / 印刷 696，衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch19c-039",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 703 / 印刷 696，19.6",
+      "ocr": "两张hive表",
+      "current": "两张hive表",
+      "final": "两张Hive表",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "统一产品名称大小写／中文标点。",
+      "sources": [
+        "入库教材PDF物理 703 / 印刷 696，衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch19c-040",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 703 / 印刷 696，19.6",
+      "ocr": "stday=当天的保存实时数据，st_day<当天的保存离线数据",
+      "current": "stday=当天的保存实时数据，st_day<当天的保存离线数据",
+      "final": null,
+      "class": "C3",
+      "confidence": "低",
+      "evidence": "同一日期列前后使用stday与st_day两种拼写，缺少实际建表语句，不能确认字段字面。",
+      "sources": [
+        "入库教材PDF物理 703 / 印刷 696，衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch19c-041",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 704 / 印刷 697，19.6",
+      "ocr": "spark streaming程序在处理kafka中的实时下单消息时，不再统计数据到redis, ",
+      "current": "spark streaming程序在处理kafka中的实时下单消息时，不再统计数据到redis, ",
+      "final": "Spark Streaming程序在处理Kafka中的实时下单消息时，不再将统计数据写入Redis，",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "统一产品名称大小写／中文标点。",
+      "sources": [
+        "入库教材PDF物理 704 / 印刷 697，衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch19c-042",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 704 / 印刷 697，19.6",
+      "ocr": "将redis数据",
+      "current": "将redis数据",
+      "final": "将Redis数据",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "统一产品名称大小写／中文标点。",
+      "sources": [
+        "入库教材PDF物理 704 / 印刷 697，衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch19c-043",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 704 / 印刷 697，19.6",
+      "ocr": "即日志智能搜索，可视化分析，全息场景监控",
+      "current": "即日志智能搜索，可视化分析，全息场景监控",
+      "final": "即日志智能搜索、可视化分析和全息场景监控",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "并列项使用顿号和连词。",
+      "sources": [
+        "入库教材PDF物理 704 / 印刷 697，衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch19c-044",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 705 / 印刷 698，19.6",
+      "ocr": "采集组件Filebeat, 实时采集日志数据并输出到 Kafka缓存",
+      "current": "采集组件Filebeat, 实时采集日志数据并输出到 Kafka缓存",
+      "final": "采集组件Filebeat，实时采集日志数据并输出到Kafka缓存",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "统一产品名称大小写／中文标点。",
+      "sources": [
+        "入库教材PDF物理 705 / 印刷 698，衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch19c-045",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 705 / 印刷 698，19.6",
+      "ocr": "Elastic-Search与OpenTSDB",
+      "current": "Elastic-Search与OpenTSDB",
+      "final": "Elasticsearch与OpenTSDB",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "Elasticsearch项目与Kibana官方说明的产品拼写一致。",
+      "sources": [
+        "入库教材PDF物理 705 / 印刷 698，衍生页直接目读",
+        "https://raw.githubusercontent.com/elastic/elasticsearch/main/README.asciidoc（2026-11-27核阅）",
+        "https://raw.githubusercontent.com/elastic/kibana/main/README.md（2026-11-27核阅）"
+      ]
+    },
+    {
+      "id": "ch19c-046",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 705 / 印刷 698，19.6",
+      "ocr": "Elastic-Search 日志库",
+      "current": "Elastic-Search 日志库",
+      "final": "Elasticsearch日志库",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "Elasticsearch项目与Kibana官方说明的产品拼写一致。",
+      "sources": [
+        "入库教材PDF物理 705 / 印刷 698，衍生页直接目读",
+        "https://raw.githubusercontent.com/elastic/elasticsearch/main/README.asciidoc（2026-11-27核阅）",
+        "https://raw.githubusercontent.com/elastic/kibana/main/README.md（2026-11-27核阅）"
+      ]
+    },
+    {
+      "id": "ch19c-047",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 705 / 印刷 698，19.6",
+      "ocr": "以Elastic-Search为主",
+      "current": "以Elastic-Search为主",
+      "final": "以Elasticsearch为主",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "Elasticsearch项目与Kibana官方说明的产品拼写一致。",
+      "sources": [
+        "入库教材PDF物理 705 / 印刷 698，衍生页直接目读",
+        "https://raw.githubusercontent.com/elastic/elasticsearch/main/README.asciidoc（2026-11-27核阅）",
+        "https://raw.githubusercontent.com/elastic/kibana/main/README.md（2026-11-27核阅）"
+      ]
+    },
+    {
+      "id": "ch19c-048",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 705 / 印刷 698，19.6",
+      "ocr": "目标ElasticSearch索引",
+      "current": "目标ElasticSearch索引",
+      "final": "目标Elasticsearch索引",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "Elasticsearch项目与Kibana官方说明的产品拼写一致。",
+      "sources": [
+        "入库教材PDF物理 705 / 印刷 698，衍生页直接目读",
+        "https://raw.githubusercontent.com/elastic/elasticsearch/main/README.asciidoc（2026-11-27核阅）",
+        "https://raw.githubusercontent.com/elastic/kibana/main/README.md（2026-11-27核阅）"
+      ]
+    },
+    {
+      "id": "ch19c-049",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 705 / 印刷 698，19.6",
+      "ocr": "图 19-15所示。\n实时日志分析平台",
+      "current": "图 19-15所示。\n实时日志分析平台",
+      "final": "图 19-15所示。\n\n实时日志分析平台",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "图引介随清单第5点结束，之后原页新段向左缩进两字，恢复独立正文段。",
+      "sources": [
+        "入库教材PDF物理 705 / 印刷 698，衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch19c-050",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 705 / 印刷 698，19.6",
+      "ocr": "易于分析调试。\n\n此外，对于解析后的日志指标",
+      "current": "易于分析调试。\n\n此外，对于解析后的日志指标",
+      "final": "易于分析调试。此外，对于解析后的日志指标",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "“此外”顶格承接上段，未另起。",
+      "sources": [
+        "入库教材PDF物理 705 / 印刷 698，衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch19c-051",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 706 / 印刷 699，19.6",
+      "ocr": "统一处理并输出到ElasticSearch与OpenTSDB中存储。ElasticSearch主要负责",
+      "current": "统一处理并输出到ElasticSearch与OpenTSDB中存储。ElasticSearch主要负责",
+      "final": "统一处理并输出到Elasticsearch与OpenTSDB中存储。Elasticsearch主要负责",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "整页扫描两处均作ElasticSearch。两份项目官方文档同作Elasticsearch。",
+      "sources": [
+        "入库教材PDF物理 706 / 印刷 699，整页原书扫描，两人独立目读",
+        "https://raw.githubusercontent.com/elastic/elasticsearch/main/README.asciidoc（2026-11-27核阅）",
+        "https://raw.githubusercontent.com/elastic/kibana/main/README.md（2026-11-27核阅）"
+      ]
+    },
+    {
+      "id": "ch19c-052",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 706 / 印刷 699，19.6",
+      "ocr": "通过Yarn分配资源执行计算",
+      "current": "通过Yarn分配资源执行计算",
+      "final": "通过YARN分配资源执行计算",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "原书整页扫描印作Yarn，Hadoop及Spark官方文档相互印证资源管理器缩写为YARN。",
+      "sources": [
+        "入库教材PDF物理 706 / 印刷 699，整页原书扫描，两人独立目读",
+        "https://raw.githubusercontent.com/apache/hadoop/trunk/hadoop-yarn-project/hadoop-yarn/hadoop-yarn-site/src/site/markdown/YARN.md（2026-11-27核阅）",
+        "https://raw.githubusercontent.com/apache/spark/master/docs/running-on-yarn.md（2026-11-27核阅）"
+      ]
+    },
+    {
+      "id": "ch19c-053",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 706 / 印刷 699，19.6",
+      "ocr": "许多创新性的工作。\n\n某电商外卖平台",
+      "current": "许多创新性的工作。\n\n某电商外卖平台",
+      "final": "许多创新性的工作。某电商外卖平台",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "印面“某电商外卖平台”顶格，承接前句。",
+      "sources": [
+        "入库教材PDF物理 706 / 印刷 699，整页原书扫描，两人独立目读"
+      ]
+    },
+    {
+      "id": "ch19c-054",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 707 / 印刷 700，19.6",
+      "ocr": "实时计算，故障快速定位与预警于一体",
+      "current": "实时计算，故障快速定位与预警于一体",
+      "final": "实时计算、故障快速定位与预警于一体",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "修正并列标点。",
+      "sources": [
+        "入库教材PDF物理 707 / 印刷 700，衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch19c-055",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 707 / 印刷 700，19.6",
+      "ocr": "智能决策大数据系统。\n\n该系统集中于",
+      "current": "智能决策大数据系统。\n\n该系统集中于",
+      "final": "智能决策大数据系统。该系统集中于",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "“该系统集中于”在原页顶格，承上段。",
+      "sources": [
+        "入库教材PDF物理 707 / 印刷 700，衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch19c-056",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 707 / 印刷 700，19.6",
+      "ocr": "主要过程如下，首先",
+      "current": "主要过程如下，首先",
+      "final": "主要过程如下：首先",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "引介步骤用冒号。",
+      "sources": [
+        "入库教材PDF物理 707 / 印刷 700，衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch19c-057",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 707 / 印刷 700，19.6",
+      "ocr": "通过Zookeeper",
+      "current": "通过Zookeeper",
+      "final": "通过ZooKeeper",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "印700和701均写作Zookeeper；Apache ZooKeeper和Apache Curator官方项目名一致。",
+      "sources": [
+        "入库教材PDF物理 707 / 印刷 700，衍生页直接目读",
+        "https://raw.githubusercontent.com/apache/zookeeper/master/README.md（2026-11-27核阅）",
+        "https://raw.githubusercontent.com/apache/curator/master/README.md（2026-11-27核阅）"
+      ]
+    },
+    {
+      "id": "ch19c-058",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 707 / 印刷 700，19.6",
+      "ocr": "即B 端系统会实时收集用户的点击，下单",
+      "current": "即B 端系统会实时收集用户的点击，下单",
+      "final": "即B端系统会实时收集用户的点击、下单",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "统一产品名称大小写／中文标点。",
+      "sources": [
+        "入库教材PDF物理 707 / 印刷 700，衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch19c-059",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 707 / 印刷 700，19.6",
+      "ocr": "聚合指定时间端的数据",
+      "current": "聚合指定时间端的数据",
+      "final": "聚合指定时间段的数据",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "前段有“根据指定的时间段，聚合指定时间窗口的数据”相互印证。",
+      "sources": [
+        "入库教材PDF物理 707 / 印刷 700，衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch19c-060",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 707 / 印刷 700，19.6",
+      "ocr": "即将Flink计算得到数据存储到Hive日志库中，需要参与模型计算计算的字段",
+      "current": "即将Flink计算得到数据存储到Hive日志库中，需要参与模型计算计算的字段",
+      "final": "即将Flink计算得到的数据存储到Hive日志库中，需要参与模型计算的字段",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "“得到”后补结构助词，删除“计算”叠词。",
+      "sources": [
+        "入库教材PDF物理 707 / 印刷 700，衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch19c-061",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 708 / 印刷 701，19.6",
+      "ocr": "无法实时的参与计算",
+      "current": "无法实时的参与计算",
+      "final": "无法实时地参与计算",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "整页扫描实印“的”，状语修饰“参与”用“地”。",
+      "sources": [
+        "入库教材PDF物理 708 / 印刷 701，整页原书扫描，两人独立目读"
+      ]
+    },
+    {
+      "id": "ch19c-062",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 708 / 印刷 701，19.6",
+      "ocr": "将B 端产生",
+      "current": "将B 端产生",
+      "final": "将B端产生",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "统一产品名称大小写／中文标点。",
+      "sources": [
+        "入库教材PDF物理 708 / 印刷 701，整页原书扫描，两人独立目读"
+      ]
+    },
+    {
+      "id": "ch19c-063",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 708 / 印刷 701，19.6",
+      "ocr": "存储的到本地",
+      "current": "存储的到本地",
+      "final": "存储到本地",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "整页扫描印作“存储的到本地”，其中“的”冗余。",
+      "sources": [
+        "入库教材PDF物理 708 / 印刷 701，整页原书扫描，两人独立目读"
+      ]
+    },
+    {
+      "id": "ch19c-064",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 708 / 印刷 701，19.6",
+      "ocr": "不会产生任何网络延迟，响应速度快",
+      "current": "不会产生任何网络延迟，响应速度快",
+      "final": "此次本地读取无需网络往返，响应速度快",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "限定于本地读取。前句说明通知、拉取参数均依赖网络；不能推广至完整参数更新链路。",
+      "sources": [
+        "入库教材PDF物理 708 / 印刷 701，整页原书扫描，两人独立目读"
+      ]
+    },
+    {
+      "id": "ch19c-065",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 708 / 印刷 701，19.6",
+      "ocr": "离线词表的方式",
+      "current": "离线词表的方式",
+      "final": null,
+      "class": "C3",
+      "confidence": "低",
+      "evidence": "整页扫描清楚为“离线词表”，不能据此自行推断为“离线宽表”或其他词。",
+      "sources": [
+        "入库教材PDF物理 708 / 印刷 701，整页原书扫描，两人独立目读"
+      ]
+    },
+    {
+      "id": "ch19c-066",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 703 / 印刷 696，19.6",
+      "ocr": "stday (统计日期)字段",
+      "current": "stday (统计日期)字段",
+      "final": "stday（统计日期）字段",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "示例字段的中文括注用全角括号，保留底本拼写。",
+      "sources": [
+        "入库教材PDF物理 703 / 印刷 696，衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch19c-067",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 700 / 印刷 693，19.6",
+      "ocr": "> 图 19-13 某网奥运中的Lambda架构",
+      "current": "> 图 19-13 某网奥运中的Lambda架构",
+      "final": "![图 19-13 某网奥运中的Lambda架构](../../../assets/figures/textbook/ch19-big-data-architecture/figure-19-13.svg)\n\n> 图 19-13 某网奥运中的Lambda架构",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "复原五层、三个计算块、批实时及合并计算的数据通路。右侧Elume参照另外两台及邻页Flume作同组产品名。",
+      "sources": [
+        "入库教材PDF物理 700 / 印刷 693，衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch19c-068",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 703 / 印刷 696，19.6",
+      "ocr": "> 图 19-14 某网广告平台中的Lambda架构",
+      "current": "> 图 19-14 某网广告平台中的Lambda架构",
+      "final": "![图 19-14 某网广告平台中的Lambda架构](../../../assets/figures/textbook/ch19-big-data-architecture/figure-19-14.svg)\n\n> 图 19-14 某网广告平台中的Lambda架构",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "复原Kafka两个分支、六个视图、Redis及Java Query。",
+      "sources": [
+        "入库教材PDF物理 703 / 印刷 696，衍生页直接目读"
+      ]
+    },
+    {
+      "id": "ch19c-069",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 706 / 印刷 699，19.6",
+      "ocr": "> 图 19-15 某证券大数据系统架构",
+      "current": "> 图 19-15 某证券大数据系统架构",
+      "final": "![图 19-15 某证券大数据系统架构](../../../assets/figures/textbook/ch19-big-data-architecture/figure-19-15.svg)\n\n> 图 19-15 某证券大数据系统架构",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "依据整页扫描复原三层、另列功能支持及解析、告警流程。部分浅色框字不能逐字确认，图中保留缺字标识。",
+      "sources": [
+        "入库教材PDF物理 706 / 印刷 699，整页原书扫描，两人独立目读"
+      ]
+    },
+    {
+      "id": "ch19c-070",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 706 / 印刷 699，19.6",
+      "ocr": "> 图 19-15 某证券大数据系统架构",
+      "current": "> 图 19-15 某证券大数据系统架构",
+      "final": null,
+      "class": "C3",
+      "confidence": "低",
+      "evidence": "原书扫描两组浅色小字难辨。保留可确认的组名、作业编译、Flink及部分字，无法逐字辨认处不猜补。",
+      "sources": [
+        "入库教材PDF物理 706 / 印刷 699，整页原书扫描，两人独立目读"
+      ]
+    },
+    {
+      "id": "ch19c-071",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 708 / 印刷 701，19.6",
+      "ocr": "> 图 19-16 某电商智能决策大数据系统架构",
+      "current": "> 图 19-16 某电商智能决策大数据系统架构",
+      "final": "![图 19-16 某电商智能决策大数据系统架构](../../../assets/figures/textbook/ch19-big-data-architecture/figure-19-16.svg)\n\n> 图 19-16 某电商智能决策大数据系统架构",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "整页扫描双人复核，五项应用、过滤与模型计算各四步、三条B端数据输入及计算存储组件；跨层上箭位于两库间，未强配某一库。",
+      "sources": [
+        "入库教材PDF物理 708 / 印刷 701，整页原书扫描，两人独立目读"
+      ]
+    },
+    {
+      "id": "ch19r2a-01",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第01节-传统数据处理系统存在的问题.md",
+      "loc": "物理 683，印刷 676，19.1",
+      "ocr": "柏字节 (PB)",
+      "current": "柏字节 (PB)",
+      "final": "拍字节（PB）",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "缩写PB限定为petabyte；Unicode CLDR简体中文单位名为“拍字节”。",
+      "sources": [
+        "入库教材 PDF 物理 683 / 印刷 676，直接目读。",
+        "https://github.com/unicode-org/cldr/blob/main/common/main/zh.xml"
+      ]
+    },
+    {
+      "id": "ch19r2a-02",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第01节-传统数据处理系统存在的问题.md",
+      "loc": "物理 683，印刷 676，19.1",
+      "ocr": "兆字节 (MB)、吉字节 (GB)／太字节 (TB)／（DBMS） 和数据仓库 (Data Warehouse, DW) 系统／过载(Overload) 的／分区 (Horizontal Partitioning)／数据库的schema, 并",
+      "current": "兆字节 (MB)、吉字节 (GB)／太字节 (TB)／（DBMS） 和数据仓库 (Data Warehouse, DW) 系统／过载(Overload) 的／分区 (Horizontal Partitioning)／数据库的schema, 并",
+      "final": "兆字节（MB）、吉字节（GB）／太字节（TB）／（DBMS）和数据仓库（Data Warehouse，DW）系统／过载（Overload）的／水平分区（Horizontal Partitioning）／数据库的 schema，并",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "统一术语及中英文括号、标点和空格。",
+      "sources": [
+        "入库教材 PDF 物理 683 / 印刷 676，直接目读。"
+      ]
+    },
+    {
+      "id": "ch19r2a-03",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第01节-传统数据处理系统存在的问题.md",
+      "loc": "物理 684，印刷 677，19.1",
+      "ocr": "读写分离技术 (Master-Slave)和分库分表技术",
+      "current": "读写分离技术 (Master-Slave)和分库分表技术",
+      "final": "基于主从复制的读写分离技术和分库分表技术",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "图19-2是主从式读写分离的实例；Master-Slave指主从角色关系。",
+      "sources": [
+        "入库教材 PDF 物理 684 / 印刷 677，直接目读。"
+      ]
+    },
+    {
+      "id": "ch19r2a-04",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第02节-大数据处理系统架构分析.md",
+      "loc": "物理 686，印刷 679，19.2",
+      "ocr": "研究大数据对管理决策结构的影响会成为一个公开的科研问题",
+      "current": "研究大数据对管理决策结构的影响会成为一个公开的科研问题",
+      "final": "大数据对管理决策结构的影响仍是一个有待研究的问题",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "上文讨论尚待解决的科学问题，“公开”不足以表达原句在此处的意思。",
+      "sources": [
+        "入库教材 PDF 物理 686 / 印刷 679，直接目读。"
+      ]
+    },
+    {
+      "id": "ch19r2a-05",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第02节-大数据处理系统架构分析.md",
+      "loc": "物理 686，印刷 679，19.2",
+      "ocr": "如何将决策者的主观知识参与到决策的过程中",
+      "current": "如何将决策者的主观知识参与到决策的过程中",
+      "final": "如何让决策者的主观知识参与决策过程",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "“将……参与到”搭配不当。",
+      "sources": [
+        "入库教材 PDF 物理 686 / 印刷 679，直接目读。"
+      ]
+    },
+    {
+      "id": "ch19r2a-06",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第02节-大数据处理系统架构分析.md",
+      "loc": "物理 686，印刷 679，19.2",
+      "ocr": "但是系统需要是健壮、行为正确的，即使是遇到机器错误。",
+      "current": "但是系统需要是健壮、行为正确的，即使是遇到机器错误。",
+      "final": "即使机器发生故障，系统也应保持健壮并正确运行。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "理顺让步关系和“需要是”的语序。",
+      "sources": [
+        "入库教材 PDF 物理 686 / 印刷 679，直接目读。"
+      ]
+    },
+    {
+      "id": "ch19r2a-07",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第02节-大数据处理系统架构分析.md",
+      "loc": "物理 686，印刷 679，19.2",
+      "ocr": "一些Bug, 系统／有Bug的程序／鲁棒性和容错性(Robust and Fault-tolerant)",
+      "current": "一些Bug, 系统／有Bug的程序／鲁棒性和容错性(Robust and Fault-tolerant)",
+      "final": "一些 Bug，系统／有 Bug 的程序／鲁棒性和容错性（Robust and Fault-tolerant）",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "修正中文分句中半角逗号及小题括号。",
+      "sources": [
+        "入库教材 PDF 物理 686 / 印刷 679，直接目读。"
+      ]
+    },
+    {
+      "id": "ch19r2a-08",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第02节-大数据处理系统架构分析.md",
+      "loc": "物理 686，印刷 679，19.2",
+      "ocr": "可扩展性的系统通过增加更多的机器资源来维持性能。也就是常说的系统需要线性可扩展，通常采用scale out (通过增加机器的个数)而不是scale up (通过增强机器的性能)。",
+      "current": "可扩展性的系统通过增加更多的机器资源来维持性能。也就是常说的系统需要线性可扩展，通常采用scale out (通过增加机器的个数)而不是scale up (通过增强机器的性能)。",
+      "final": "系统可以通过增加机器数量来维持性能，这称为横向扩展（scale out）。增加单机处理能力称为纵向扩展（scale up）。能否获得近似线性的性能提升，还取决于任务并行程度和扩展带来的开销。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "增加节点是扩展方式，性能对资源的线性增长是另一个性质；串行部分和通信开销都会影响收益。",
+      "sources": [
+        "入库教材 PDF 物理 686 / 印刷 679，直接目读。"
+      ]
+    },
+    {
+      "id": "ch19r2a-09",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第02节-大数据处理系统架构分析.md",
+      "loc": "物理 687，印刷 680，19.2",
+      "ocr": "延展性(Extensible)／可调试性(Debuggable)",
+      "current": "延展性(Extensible)／可调试性(Debuggable)",
+      "final": "延展性（Extensible）／可调试性（Debuggable）",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "标题括号规格一致。",
+      "sources": [
+        "入库教材 PDF 物理 687 / 印刷 680，直接目读。"
+      ]
+    },
+    {
+      "id": "ch19r2a-10",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第03节-Lambda架构.md",
+      "loc": "物理 687，印刷 680，19.3",
+      "ocr": "对于机器学习应用算法、检测模式而言，它们需要以一种有意义的方式去接收数据。",
+      "current": "对于机器学习应用算法、检测模式而言，它们需要以一种有意义的方式去接收数据。",
+      "final": "机器学习算法要从数据中识别模式，需要接收适合其任务的数据表示。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "页句把“检测模式”误与“应用算法”并列，其后说明对输入数据进行模式识别。",
+      "sources": [
+        "入库教材 PDF 物理 687 / 印刷 680，直接目读。"
+      ]
+    },
+    {
+      "id": "ch19r2a-11",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第03节-Lambda架构.md",
+      "loc": "物理 688，印刷 681，19.3",
+      "ocr": "批处理层更关注精确计算，而速度层则关注近似计算。此类近似计算最终将由下一组视图所取代",
+      "current": "批处理层更关注精确计算，而速度层则关注近似计算。此类近似计算最终将由下一组视图所取代",
+      "final": "批处理层可计算精确结果，速度层为降低延迟可以采用近似计算。采用近似计算时，相应的实时结果最终由覆盖同一批数据的精确结果替代",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "同页图19-4用“可能”限定；实时计数等也可直接给出精确值。",
+      "sources": [
+        "入库教材 PDF 物理 688 / 印刷 681，直接目读。"
+      ]
+    },
+    {
+      "id": "ch19r2a-12",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第03节-Lambda架构.md",
+      "loc": "物理 688，印刷 681，19.3",
+      "ocr": "批处理层 (Batch Layer): 存储／加速层 (Speed Layer):Batch Layer／服务层 (Serving Layer):Serving Layer／更新Real-time View, 而",
+      "current": "批处理层 (Batch Layer): 存储／加速层 (Speed Layer):Batch Layer／服务层 (Serving Layer):Serving Layer／更新Real-time View, 而",
+      "final": "批处理层（Batch Layer）。存储／加速层（Speed Layer）。Batch Layer／服务层（Serving Layer）。Serving Layer／更新 Real-time View，而",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "修正中文列表说明和混用逗号。",
+      "sources": [
+        "入库教材 PDF 物理 688 / 印刷 681，直接目读。"
+      ]
+    },
+    {
+      "id": "ch19r2a-13",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第03节-Lambda架构.md",
+      "loc": "物理 689，印刷 682，19.3",
+      "ocr": "满足 Monoid 特性意味着我们可以将计算分解到多台机器并行运算，然后再结合各自的部分运算结果得到最终结果。",
+      "current": "满足 Monoid 特性意味着我们可以将计算分解到多台机器并行运算，然后再结合各自的部分运算结果得到最终结果。",
+      "final": "结合律允许分组计算，并按原顺序合并各组结果；如果还要任意调换各组的合并顺序，则运算还需满足交换律。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "结合律允许改变括号；如字符串拼接有结合律但没有交换律，不能任意置换分组。",
+      "sources": [
+        "入库教材 PDF 物理 689 / 印刷 682，直接目读。"
+      ]
+    },
+    {
+      "id": "ch19r2a-14",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第03节-Lambda架构.md",
+      "loc": "物理 689，印刷 682，19.3",
+      "ocr": "共享利用(如果该运算也包含相同的部分子运算),从而／通过View即可以",
+      "current": "共享利用(如果该运算也包含相同的部分子运算),从而／通过View即可以",
+      "final": "共享利用（如果该运算也包含相同的部分子运算），从而／通过 View 即可",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "规范标点并删除重复字。",
+      "sources": [
+        "入库教材 PDF 物理 689 / 印刷 682，直接目读。"
+      ]
+    },
+    {
+      "id": "ch19r2a-15",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第03节-Lambda架构.md",
+      "loc": "物理 690，印刷 683，19.3",
+      "ocr": "生成Realtime View, 其／更新Realtime View, 而／写入Batch Layer, 当／分开Batch Layer和Speed Layer,把复杂性隔离到Speed Layer, 可以",
+      "current": "生成Realtime View, 其／更新Realtime View, 而／写入Batch Layer, 当／分开Batch Layer和Speed Layer,把复杂性隔离到Speed Layer, 可以",
+      "final": "生成 Realtime View，其／更新 Realtime View，而／写入 Batch Layer，当／分开 Batch Layer 和 Speed Layer，把增量处理的复杂性隔离到 Speed Layer，可以",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "统一中英文逗号与定语。",
+      "sources": [
+        "入库教材 PDF 物理 690 / 印刷 683，直接目读。"
+      ]
+    },
+    {
+      "id": "ch19r2a-16",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第03节-Lambda架构.md",
+      "loc": "物理 690，印刷 683，19.3",
+      "ocr": "Scalable (横向扩容):当数据量/负载增大时，可扩展性的系统通过增加更多的机器资源来维持性能。也就是常说的系统需要线性可扩展，通常采用scale out (通过增加机器的个数)而不是scale up (通过增强机器的性能)。",
+      "current": "Scalable (横向扩容):当数据量/负载增大时，可扩展性的系统通过增加更多的机器资源来维持性能。也就是常说的系统需要线性可扩展，通常采用scale out (通过增加机器的个数)而不是scale up (通过增强机器的性能)。",
+      "final": "横向扩容（Scalable）。当数据量或负载增大时，可以增加机器数量以维持性能；实际收益取决于可并行的工作量及节点间协调开销。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "与19.2.2相同，横向扩展不自动保证线性加速。",
+      "sources": [
+        "入库教材 PDF 物理 690 / 印刷 683，直接目读。"
+      ]
+    },
+    {
+      "id": "ch19r2a-17",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第03节-Lambda架构.md",
+      "loc": "物理 690，印刷 683，19.3",
+      "ocr": "当前的Real-time View就可以丢弃",
+      "current": "当前的Real-time View就可以丢弃",
+      "final": "实时视图中已被该批视图覆盖的部分就可以丢弃",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "19.3.2说“对应的实时结果”。当前实时视图可能还含批视图生成期间的新记录。",
+      "sources": [
+        "入库教材 PDF 物理 690 / 印刷 683，直接目读。"
+      ]
+    },
+    {
+      "id": "ch19r2a-18",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第03节-Lambda架构.md",
+      "loc": "物理 690，印刷 683，19.3",
+      "ocr": "该层也必须满足以下要求，例如随机读取，批量写入，可伸缩性和容错能力。",
+      "current": "该层也必须满足以下要求，例如随机读取，批量写入，可伸缩性和容错能力。",
+      "final": "该层也需要支持随机读取、批量写入，并具备可伸缩性和容错能力。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "并列动宾和性质名词各成分组。",
+      "sources": [
+        "入库教材 PDF 物理 690 / 印刷 683，直接目读。"
+      ]
+    },
+    {
+      "id": "ch19r2a-19",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第03节-Lambda架构.md",
+      "loc": "物理 691，印刷 684，19.3",
+      "ocr": "否则，可以把查询函数转换成多个满足Monoid性质的查询函数的运算",
+      "current": "否则，可以把查询函数转换成多个满足Monoid性质的查询函数的运算",
+      "final": "对于可分解的查询，可以把查询函数转换成多个满足Monoid性质的子查询的组合",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "下文另有按业务规则合并的方案，上页只说“很多时候可以”；无法假定任意查询均可如此。",
+      "sources": [
+        "入库教材 PDF 物理 691 / 印刷 684，直接目读。"
+      ]
+    },
+    {
+      "id": "ch19r2a-20",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第03节-Lambda架构.md",
+      "loc": "物理 691，印刷 684，19.3",
+      "ocr": "Spark(或Storm) 可构成速度层 (Speed Layer),HBase (或Cassandra) 作为服务层／UC Berkeley AMP lab所开源的类Hadoop Map Reduce的通用并行处理框架／HBase（Hadoop Database） 是／廉价PCServer上",
+      "current": "Spark(或Storm) 可构成速度层 (Speed Layer),HBase (或Cassandra) 作为服务层／UC Berkeley AMP lab所开源的类Hadoop Map Reduce的通用并行处理框架／HBase（Hadoop Database） 是／廉价PCServer上",
+      "final": "Spark（或 Storm）可构成速度层（Speed Layer），HBase（或 Cassandra）作为服务层／加州大学伯克利分校 AMPLab 开源的通用并行处理框架／HBase（Hadoop Database）是／廉价的 PC 服务器上",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "规范项目和实验室名称排写及中文标点，省去重复的框架类比。",
+      "sources": [
+        "入库教材 PDF 物理 691 / 印刷 684，直接目读。"
+      ]
+    },
+    {
+      "id": "ch19r2a-21",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第03节-Lambda架构.md",
+      "loc": "物理 692，印刷 685，19.3",
+      "ocr": "一旦发生错误，我们可以修复算法或从头开始重新计算视图。",
+      "current": "一旦发生错误，我们可以修复算法或从头开始重新计算视图。",
+      "final": "一旦发现错误，可以更正输入或修复算法，再从保留的数据重新计算受影响的视图。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "同节容错条件要求正确数据和算法；原样重跑错误逻辑不能修复结果。",
+      "sources": [
+        "入库教材 PDF 物理 692 / 印刷 685，直接目读。"
+      ]
+    },
+    {
+      "id": "ch19r2a-22",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第03节-Lambda架构.md",
+      "loc": "物理 692，印刷 685，19.3",
+      "ocr": "所有的批处理层、加速层和服务层都很容易扩展。因为它们都是完全分布式的系统，我们可以通过增加新机器来轻松地扩大规模。",
+      "current": "所有的批处理层、加速层和服务层都很容易扩展。因为它们都是完全分布式的系统，我们可以通过增加新机器来轻松地扩大规模。",
+      "final": "批处理层、加速层和服务层可以分别扩容。采用可分布式部署的组件时，可以增加机器以应对负载增长。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "层是逻辑职责，其具体扩展能力取决于所用组件。",
+      "sources": [
+        "入库教材 PDF 物理 692 / 印刷 685，直接目读。"
+      ]
+    },
+    {
+      "id": "ch19r2a-23",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第03节-Lambda架构.md",
+      "loc": "物理 692，印刷 685，19.3",
+      "ocr": "针对具体场景重新离线训练一遍益处不大。",
+      "current": "针对具体场景重新离线训练一遍益处不大。",
+      "final": "对于部分具体场景，全量离线重算的额外收益可能有限。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "该小目是架构通用缺点；前文明确批层计算的是视图，离线训练只是机器学习场景。",
+      "sources": [
+        "入库教材 PDF 物理 692 / 印刷 685，直接目读。"
+      ]
+    },
+    {
+      "id": "ch19r2a-24",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第03节-Lambda架构.md",
+      "loc": "物理 692，印刷 685，19.3",
+      "ocr": "对这一事件进行重新计算以丢弃错误信息，恢复到系统应该的正确状态，以此实现了系统的容错性。",
+      "current": "对这一事件进行重新计算以丢弃错误信息，恢复到系统应该的正确状态，以此实现了系统的容错性。",
+      "final": "保留原有事件，必要时追加更正事件，再重放相关历史以重建派生状态或视图。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "同节说明事件是持久化的基础；重算派生状态与丢弃持久化事件有别。",
+      "sources": [
+        "入库教材 PDF 物理 692 / 印刷 685，直接目读。"
+      ]
+    },
+    {
+      "id": "ch19r2a-25",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第03节-Lambda架构.md",
+      "loc": "物理 692，印刷 685，19.3",
+      "ocr": "Event Sourcing)架构／事件溯源 (Event Sourcing／CQRS） 架构／事件溯源(Event Sourcing)与Lambda架构",
+      "current": "Event Sourcing)架构／事件溯源 (Event Sourcing／CQRS） 架构／事件溯源(Event Sourcing)与Lambda架构",
+      "final": "Event Sourcing）架构／事件溯源（Event Sourcing／CQRS）架构／事件溯源（Event Sourcing）与Lambda架构",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "修订中文括号和多余空格。",
+      "sources": [
+        "入库教材 PDF 物理 692 / 印刷 685，直接目读。"
+      ]
+    },
+    {
+      "id": "ch19r2a-26",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第01节-传统数据处理系统存在的问题.md",
+      "loc": "物理 684，印刷 677，19.1",
+      "ocr": "图19-3：Kafka → 不可变主数据序列",
+      "current": "图19-3 Kafka箭头止于上方外框",
+      "final": "箭头接入“不可变主数据序列”节点",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "原页箭头跨过外框指向主数据序列。",
+      "sources": [
+        "入库教材 PDF 物理 684 / 印刷 677，直接目读。"
+      ]
+    },
+    {
+      "id": "ch19r2a-27",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第03节-Lambda架构.md",
+      "loc": "物理 689，印刷 682，19.3",
+      "ocr": "图19-5，上方两条粗箭向下；下方两条箭均汇向结果",
+      "current": "图19-5右下箭头向上，上方只绘虚线",
+      "final": "分布式计算上方标注点向两条向下实箭，两条合并线均指向下方结果",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "源页实线与虚线职责不同；两份局部计算结果汇入同一结果，没有逆向数据流。",
+      "sources": [
+        "入库教材 PDF 物理 689 / 印刷 682，直接目读。"
+      ]
+    },
+    {
+      "id": "ch19r2a-28",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第03节-Lambda架构.md",
+      "loc": "物理 688，印刷 681，19.3",
+      "ocr": "服务层（Serving Layer）：Serving Layer用于合并Batch View和Real-time View中的结果数据集到最终数据集。",
+      "current": "服务层 (Serving Layer):Serving Layer用于合并Batch View和Real-time View中的结果数据集到最终数据集。",
+      "final": "服务层（Serving Layer）。在图 19-4 的实现中，服务层汇总批视图与实时视图的结果，向查询方提供合并结果。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "限定为页图展示的实现；图19-4标明服务层汇总，图19-8表明查询需结合两层结果。",
+      "sources": [
+        "教材 PDF 物理 688（印刷 681）及物理691图19-8，逐图目读。"
+      ]
+    },
+    {
+      "id": "ch19r2a-29",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第03节-Lambda架构.md",
+      "loc": "物理 690，印刷 683，19.3",
+      "ocr": "Lambda架构的Serving Layer用于响应用户的查询请求，合并Batch View和Real-time View中的结果数据集到最终的数据集。",
+      "current": "Lambda架构的Serving Layer用于响应用户的查询请求，合并Batch View和Real-time View中的结果数据集到最终的数据集。",
+      "final": "在本节的实现中，服务层响应用户的查询请求，将批视图和实时视图的相应结果合并后返回。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "限定为页图展示的实现；图19-4标明服务层汇总，图19-8表明查询需结合两层结果。",
+      "sources": [
+        "教材 PDF 物理 690（印刷 683）及物理691图19-8，逐图目读。"
+      ]
+    },
+    {
+      "id": "ch19r2a-30",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第03节-Lambda架构.md",
+      "loc": "物理 692，印刷 685，19.3",
+      "ocr": "批处理层允许针对任何数据进行临时查询。",
+      "current": "批处理层允许针对任何数据进行临时查询。",
+      "final": "在主数据集保留所需数据且查询引擎支持的情况下，可以进行即席查询。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "同节说明批处理在保留的主数据集上按查询需求计算；“任何数据”欠缺输入和执行条件。",
+      "sources": [
+        "教材 PDF 物理692（印刷685），兼核物理689–690的主数据集说明。"
+      ]
+    },
+    {
+      "id": "ch19r2b-01",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第04节-Kappa架构.md",
+      "loc": "物理 693 / 印刷 686，19.4",
+      "ocr": "本质性的理解。\n\n我们可将",
+      "current": "本质性的理解。\n\n我们可将",
+      "final": "本质性的理解。我们可将",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "“我们可将”起于下行左端，接续上句。公式仍独立成行。",
+      "sources": [
+        "入库教材PDF物理 693 / 印刷 686，二轮页图直接目读"
+      ]
+    },
+    {
+      "id": "ch19r2b-02",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第04节-Kappa架构.md",
+      "loc": "物理 693 / 印刷 686，19.4",
+      "ocr": "记录保存， 你不可能",
+      "current": "记录保存， 你不可能",
+      "final": "记录保存，你不可能",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "中文逗号后有多余半角空格。",
+      "sources": [
+        "入库教材PDF物理 693 / 印刷 686，二轮页图直接目读"
+      ]
+    },
+    {
+      "id": "ch19r2b-03",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第04节-Kappa架构.md",
+      "loc": "物理 693 / 印刷 686，19.4",
+      "ocr": "相比于采用可变的数据模型，为了Update操作，数据通常需要被索引，从而能快速找到要更新的数据去做更新操作。",
+      "current": "相比于采用可变的数据模型，为了Update操作，数据通常需要被索引，从而能快速找到要更新的数据去做更新操作。",
+      "final": "采用可变的数据模型时，为了快速找到要更新的记录，通常需要建立索引。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "原句“相比于”缺少比较项，定位记录的手段与更新操作的目的已由上下文给出。",
+      "sources": [
+        "入库教材PDF物理 693 / 印刷 686，二轮页图直接目读"
+      ]
+    },
+    {
+      "id": "ch19r2b-04",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第04节-Kappa架构.md",
+      "loc": "物理 694 / 印刷 687，19.4",
+      "ocr": "前述中提到人和机器",
+      "current": "前述中提到人和机器",
+      "final": "前面提到，人和机器",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "消除“前述中提到”的重复。",
+      "sources": [
+        "入库教材PDF物理 694 / 印刷 687，二轮页图直接目读"
+      ]
+    },
+    {
+      "id": "ch19r2b-05",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第04节-Kappa架构.md",
+      "loc": "物理 694 / 印刷 687，19.4",
+      "ocr": "Kappa架构由Jay Kreps提出，Lambda分别进行",
+      "current": "Kappa架构由Jay Kreps提出，Lambda分别进行",
+      "final": "Kappa架构由Jay Kreps提出。Lambda分别进行",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "提出者与架构两路运算为两个独立陈述。",
+      "sources": [
+        "入库教材PDF物理 694 / 印刷 687，二轮页图直接目读"
+      ]
+    },
+    {
+      "id": "ch19r2b-06",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第04节-Kappa架构.md",
+      "loc": "物理 695 / 印刷 688，19.4",
+      "ocr": "Kappa不是Lambda的替代架构，而是其简化版本，Kappa放弃了对批处理的支持",
+      "current": "Kappa不是Lambda的替代架构，而是其简化版本，Kappa省去了独立的批处理链路，更擅长业务本身为增量数据写入场景的分析需求",
+      "final": "与Lambda相比，Kappa省去了独立的批处理链路，适合持续写入增量数据的分析场景",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "本章后文明确讨论两种架构的选型，是否可替换取决于场景；修正“擅长……需求”的搭配。",
+      "sources": [
+        "入库教材PDF物理 695 / 印刷 688，二轮页图直接目读"
+      ]
+    },
+    {
+      "id": "ch19r2b-07",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第04节-Kappa架构.md",
+      "loc": "物理 695 / 印刷 688，19.4",
+      "ocr": "避免了Lambda架构中与离线数据合并的问题",
+      "current": "避免了Lambda架构中与离线数据合并的问题",
+      "final": "省去了查询时合并批视图与实时视图的步骤",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "19.5.1的实时性段写明Lambda查询合并的对象是两个视图。",
+      "sources": [
+        "入库教材PDF物理 695 / 印刷 688，二轮页图直接目读"
+      ]
+    },
+    {
+      "id": "ch19r2b-08",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第04节-Kappa架构.md",
+      "loc": "物理 696 / 印刷 689，19.4",
+      "ocr": "Kappa+框架提出使用HDFS来存储中间数据",
+      "current": "Kappa+框架提出使用HDFS来存储中间数据",
+      "final": "Kappa+框架使用HDFS保存可供回填的历史数据",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "紧接的Kappa+案例明确这些仓库数据用于回填，从而减轻长期保留队列数据的压力。",
+      "sources": [
+        "入库教材PDF物理 696 / 印刷 689，二轮页图直接目读"
+      ]
+    },
+    {
+      "id": "ch19r2b-09",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第04节-Kappa架构.md",
+      "loc": "物理 696 / 印刷 689，19.4",
+      "ocr": "窗口任务按时间先后顺序一次计算一个partition的数据，partition内乱序并发",
+      "current": "窗口任务按时间先后顺序一次计算一个partition的数据，partition内乱序并发",
+      "final": "窗口任务按时间先后顺序一次处理一个分区的数据，同一分区内的文件可不按顺序并行读取",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "前后文描述按时间分区和文件读取，后句解释分区切换时点；避免混淆事件的处理顺序与读取文件的顺序。",
+      "sources": [
+        "入库教材PDF物理 696 / 印刷 689，二轮页图直接目读"
+      ]
+    },
+    {
+      "id": "ch19r2b-10",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第04节-Kappa架构.md",
+      "loc": "物理 696 / 印刷 689，19.4",
+      "ocr": "图 19-11是完整的Uber大数据处理平台，其中Hadoop → Spark → 用户查询的流程涵盖了Kappa+数据处理架构。",
+      "current": "图 19-11是完整的Uber大数据处理平台，其中Hadoop → Spark → 用户查询的流程涵盖了Kappa+数据处理架构。",
+      "final": "图 19-11展示了Uber大数据处理平台中与Kappa+相关的数据流，包括从Hadoop经Spark到用户查询的路径。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "图中只画出选定的数据来源、流入仓库与查询路径，没有证据表明图中囊括整个平台。",
+      "sources": [
+        "入库教材PDF物理 696 / 印刷 689，二轮页图直接目读"
+      ]
+    },
+    {
+      "id": "ch19r2b-11",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第04节-Kappa架构.md",
+      "loc": "物理 696 / 印刷 689，19.4",
+      "ocr": "通过HDFS来存储中间数据",
+      "current": "通过HDFS来存储中间数据",
+      "final": "由HDFS保存仓库中的历史数据",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "与同页上文明示的HDFS仓库历史数据回填一致。",
+      "sources": [
+        "入库教材PDF物理 696 / 印刷 689，二轮页图直接目读"
+      ]
+    },
+    {
+      "id": "ch19r2b-12",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第04节-Kappa架构.md",
+      "loc": "物理 696 / 印刷 689，19.4",
+      "ocr": "Lambda和Kappa架构都还有展示层的困难点，结果视图如何支持热点数据查询分析，一个解决方案是在Kappa基础上衍生数据分析流程。",
+      "current": "Lambda和Kappa架构都还有展示层的困难点，结果视图如何支持热点数据查询分析，一个解决方案是在Kappa基础上衍生数据分析流程。",
+      "final": "Lambda和Kappa架构都需要考虑如何利用结果视图支持热点数据的查询分析。一种解决方案是在Kappa架构上增加分析流程。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "原句并列三个分句，结果视图与热点查询之间的关系缺失。由图19-12确认新增分析分支。",
+      "sources": [
+        "入库教材PDF物理 696 / 印刷 689，二轮页图直接目读"
+      ]
+    },
+    {
+      "id": "ch19r2b-13",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第05节-Lambda架构与Kappa架构的对比和设计选择.md",
+      "loc": "物理 697 / 印刷 690，19.5",
+      "ocr": "Kappa架构作者则对流处理系统有丰富的理论知识和使用经验，是Apache Kafka和Apache Samza等知名开源流处理系统的作者之一。",
+      "current": "Kappa架构作者则对流处理系统有丰富的理论知识和使用经验，是Apache Kafka和Apache Samza等知名开源流处理系统的作者之一。",
+      "final": "Kappa架构的提出者Jay Kreps参与过Apache Kafka的开发，也为Apache Samza的状态管理文档作过贡献。",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "Kafka仓库可见其对生产者的代码改动；Samza仓库可见状态管理文档的署名提交。可核实的贡献不等于两个项目的共同创立身份。",
+      "sources": [
+        "入库教材PDF物理 697 / 印刷 690，二轮页图直接目读",
+        "https://github.com/apache/kafka/commit/23f36c5903e9b65c2b322a9405149de671de7a23（2026-11-27 核阅）",
+        "https://github.com/apache/samza/commit/ecbebc6e55eab4841414add77a9a7816fd13a82a（2026-11-27 核阅）"
+      ]
+    },
+    {
+      "id": "ch19r2b-14",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第05节-Lambda架构与Kappa架构的对比和设计选择.md",
+      "loc": "物理 697 / 印刷 690，19.5",
+      "ocr": "这两套代码产出相同范式的结果",
+      "current": "这两套代码产出相同范式的结果",
+      "final": "这两套代码产生可按同一查询口径合并的结果",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "本节后文明示批视图与实时视图覆盖不同数据，结果需可合并，“相同范式”含义不明。",
+      "sources": [
+        "入库教材PDF物理 697 / 印刷 690，二轮页图直接目读"
+      ]
+    },
+    {
+      "id": "ch19r2b-15",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第05节-Lambda架构与Kappa架构的对比和设计选择.md",
+      "loc": "物理 698 / 印刷 691，19.5",
+      "ocr": "一般使用Flink实现，其作为新兴的流处理框架",
+      "current": "一般使用Flink实现，其作为新兴的流处理框架",
+      "final": "可使用Flink实现。Flink作为流处理框架",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "本节只是以Kafka与Flink为例，缺少采用比例或标定“新兴”的时间依据。",
+      "sources": [
+        "入库教材PDF物理 698 / 印刷 691，二轮页图直接目读"
+      ]
+    },
+    {
+      "id": "ch19r2b-16",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第05节-Lambda架构与Kappa架构的对比和设计选择.md",
+      "loc": "物理 698 / 印刷 691，19.5",
+      "ocr": "对于求和等可合并的聚合，可用满足结合律且有单位元的运算（幺半群，Monoid）合并两层的结果。",
+      "current": "对于求和等可合并的聚合，可用满足结合律且有单位元的运算（幺半群，Monoid）合并两层的结果。",
+      "final": "对于求和等可合并的聚合，可用满足结合律且有单位元的运算合并两层的结果。取值集合及其上的这种运算构成幺半群（monoid）。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "幺半群指集合及其满足条件的运算构成的代数结构，不能将运算本身称作幺半群。",
+      "sources": [
+        "入库教材PDF物理 698 / 印刷 691，二轮页图直接目读",
+        "https://raw.githubusercontent.com/typelevel/cats/main/kernel/src/main/scala/cats/kernel/Monoid.scala（2026-11-27 核阅）"
+      ]
+    },
+    {
+      "id": "ch19r2b-17",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第05节-Lambda架构与Kappa架构的对比和设计选择.md",
+      "loc": "物理 698 / 印刷 691，19.5",
+      "ocr": "用消息队列进行数据的保存，采用并发计算，如果不需要全量计算则直接读出数据。",
+      "current": "用消息队列进行数据的保存，采用并发计算，如果不需要全量计算则直接读出数据。",
+      "final": "保存输入事件。正常运行时，流处理作业持续处理新事件并更新视图，查询读取已有视图。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "图19-10将实时引擎和服务后端区分开；下一句重放历史是额外的重算流程。",
+      "sources": [
+        "入库教材PDF物理 698 / 印刷 691，二轮页图直接目读"
+      ]
+    },
+    {
+      "id": "ch19r2b-18",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第05节-Lambda架构与Kappa架构的对比和设计选择.md",
+      "loc": "物理 699 / 印刷 692，19.5",
+      "ocr": "如果业务对于Hadoop、Spark、Strom等关键技术有强制性依赖……又依赖Flink计算引擎",
+      "current": "用户需要根据自己的业务需求来选择架构，如果业务对于Hadoop、Spark、Storm等关键技术有强制性依赖，选择Lambda架构可能较为合适；如果处理数据偏好于流式计算，又依赖Flink计算引擎，那么选择Kappa架构可能更为合适。",
+      "final": "如果业务需要分别运行批处理和低延迟流处理，并在查询时结合两类结果，可考虑Lambda架构。如果可以用同一套流处理逻辑处理新数据和重放的历史数据，可考虑Kappa架构。Hadoop、Spark、Storm或Flink等技术依赖也应纳入评估，但仅凭工具名称无法确定应选哪种架构。",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "Spark项目列明批计算和Structured Streaming，Flink项目也明确支持批、流两种处理。因此选择依据应是数据处理路径和业务约束。",
+      "sources": [
+        "入库教材PDF物理 699 / 印刷 692，二轮页图直接目读",
+        "https://raw.githubusercontent.com/apache/spark/master/README.md（2026-11-27 核阅）",
+        "https://raw.githubusercontent.com/apache/flink/master/README.md（2026-11-27 核阅）"
+      ]
+    },
+    {
+      "id": "ch19r2c-01",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 699 / 印刷 692",
+      "ocr": "用户群，这些用户",
+      "current": "用户群，这些用户",
+      "final": "用户群。这些用户",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "划分案例背景与数据来源两句。",
+      "sources": [
+        "入库教材 PDF 物理 699 / 印刷 692，衍生电子页目读。"
+      ]
+    },
+    {
+      "id": "ch19r2c-02",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 700 / 印刷 693",
+      "ocr": "因此要求采用不可变方式存储所有的历史数据，以保证历史数据的准确性",
+      "current": "因此要求采用不可变方式存储所有的历史数据，以保证历史数据的准确性",
+      "final": "因此采用不可变方式保存历史数据，以免已有记录被覆盖，便于复查和重新计算",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "不可变存储可维持原始记录，无法保证录入值或统计一定正确。见19.3.3关于主数据集的说明。",
+      "sources": [
+        "入库教材 PDF 物理 700 / 印刷 693，衍生电子页目读。"
+      ]
+    },
+    {
+      "id": "ch19r2c-03",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 700 / 印刷 693",
+      "ocr": "采用以Lambda架构搭建的",
+      "current": "采用以Lambda架构搭建的",
+      "final": "采用基于 Lambda 架构搭建的",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "“采用以……搭建”中介词关系不完整。",
+      "sources": [
+        "入库教材 PDF 物理 700 / 印刷 693，衍生电子页目读。"
+      ]
+    },
+    {
+      "id": "ch19r2c-04",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 700 / 印刷 693",
+      "ocr": "图 19-13所示",
+      "current": "图 19-13所示",
+      "final": "图 19-13 所示",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "图号引用间距。",
+      "sources": [
+        "入库教材 PDF 物理 700 / 印刷 693，衍生电子页目读。"
+      ]
+    },
+    {
+      "id": "ch19r2c-05",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 701 / 印刷 694",
+      "ocr": "确保数据的安全性和接近100%的数据可用性",
+      "current": "确保数据的安全性和接近100%的数据可用性",
+      "final": "以提高数据的可靠性和可用性。案例称数据可用性接近100%，未给出测量周期或统计口径",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "三副本和故障转移保障容错，不能推出无条件的可用性数值。保留本案例已有报告值。",
+      "sources": [
+        "入库教材 PDF 物理 701 / 印刷 694，衍生电子页目读。"
+      ]
+    },
+    {
+      "id": "ch19r2c-06",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 701 / 印刷 694",
+      "ocr": "通过使用最新的Hadoop节点驱动调度算法",
+      "current": "通过使用最新的Hadoop节点驱动调度算法",
+      "final": "通过使用当时的 Hadoop 节点调度机制",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "这是2016年的系统，未给调度器名称或版本；不把历史实践称为最新。",
+      "sources": [
+        "入库教材 PDF 物理 701 / 印刷 694，衍生电子页目读。"
+      ]
+    },
+    {
+      "id": "ch19r2c-07",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 701 / 印刷 694",
+      "ocr": "使用Impala或者Hive建立数据仓库",
+      "current": "使用Impala或者Hive建立数据仓库",
+      "final": "使用 Impala 或 Hive 查询和处理数仓数据",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "图19-13引擎属于离线计算；HDFS另行存储，避免把查询引擎等同整个数据仓库。",
+      "sources": [
+        "入库教材 PDF 物理 701 / 印刷 694，衍生电子页目读。"
+      ]
+    },
+    {
+      "id": "ch19r2c-08",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 702 / 印刷 695",
+      "ocr": "首先要很好地处理分区与复制，不会导致错误分区引起查询失败。",
+      "current": "首先要很好地处理分区与复制，不会导致错误分区引起查询失败。",
+      "final": "首先要正确处理分区与复制，避免因分区定位错误导致查询失败。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "句意为设计目标，错误分区及查询失败是同一因果链。",
+      "sources": [
+        "入库教材 PDF 物理 702 / 印刷 695，衍生电子页目读。"
+      ]
+    },
+    {
+      "id": "ch19r2c-09",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 702 / 印刷 695",
+      "ocr": "图19-14所示",
+      "current": "图19-14所示",
+      "final": "图 19-14 所示",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "图号引用间距。",
+      "sources": [
+        "入库教材 PDF 物理 702 / 印刷 695，衍生电子页目读。"
+      ]
+    },
+    {
+      "id": "ch19r2c-10",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 702 / 印刷 695",
+      "ocr": "用Hive SQL/Spark SQL计算出分区的统计结果Hive表",
+      "current": "用Hive SQL/Spark SQL计算出分区的统计结果Hive表",
+      "final": "用 Hive SQL 或 Spark SQL 计算各分区的统计结果，并写入 Hive 结果表",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "补表与统计结果之间的关系，保持计算与导出步骤次序。",
+      "sources": [
+        "入库教材 PDF 物理 702 / 印刷 695，衍生电子页目读。"
+      ]
+    },
+    {
+      "id": "ch19r2c-11",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 702 / 印刷 695",
+      "ocr": "最后把离线数据和实时数据相加，返回给调用方。",
+      "current": "最后把离线数据和实时数据相加，返回给调用方。",
+      "final": "最后按指标合并历史离线结果和当日实时结果，返回给调用方。曝光数、点击数等可直接累加，点击单价则应按合计花费和合计点击数计算。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "本案例包括点击单价等比率指标，直接相加不成立；19.3关于聚合平均值说明使用总和与个数计算比率。",
+      "sources": [
+        "入库教材 PDF 物理 702 / 印刷 695，衍生电子页目读。"
+      ]
+    },
+    {
+      "id": "ch19r2c-12",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 703 / 印刷 696",
+      "ocr": "两张表聚合而成的结果表",
+      "current": "两张表聚合而成的结果表",
+      "final": "两张表联接后的结果表",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "前文明确Hive SQL完成联接；联接不能写作聚合计算。",
+      "sources": [
+        "入库教材 PDF 物理 703 / 印刷 696，衍生电子页目读。"
+      ]
+    },
+    {
+      "id": "ch19r2c-13",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 703 / 印刷 696",
+      "ocr": "MySQL表的stday（统计日期）字段作为索引，stday=当天的保存实时数据，st_day<当天的保存离线数据。",
+      "current": "MySQL表的stday（统计日期）字段作为索引，stday=当天的保存实时数据，st_day<当天的保存离线数据。",
+      "final": "MySQL 表在统计日期字段上建立索引。当日记录保存实时数据，早于当日的记录保存离线数据。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "同一字段在页图交替写作stday/st_day。两种字面均未证实，保留日期语义而避免两列错觉。",
+      "sources": [
+        "入库教材 PDF 物理 703 / 印刷 696，衍生电子页目读。"
+      ]
+    },
+    {
+      "id": "ch19r2c-14",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 703 / 印刷 696",
+      "ocr": "这两张Hive表分别更新MySQL表的st_day。",
+      "current": "这两张Hive表分别更新MySQL表的st_day。",
+      "final": "这两张 Hive 结果表分别用于更新 MySQL 表中对应统计日期的转化指标和曝光指标。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "前句给出两类离线结果；所更新的是日期对应行中的指标，并非改写统计日期。",
+      "sources": [
+        "入库教材 PDF 物理 703 / 印刷 696，衍生电子页目读。"
+      ]
+    },
+    {
+      "id": "ch19r2c-15",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 704 / 印刷 697",
+      "ocr": "更新stday=当天的数据的曝光类字段",
+      "current": "更新stday=当天的数据的曝光类字段",
+      "final": "更新当日记录的曝光类字段",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "同一统计日期字段的字面拼写待核，语义确定。",
+      "sources": [
+        "入库教材 PDF 物理 704 / 印刷 697，衍生电子页目读。"
+      ]
+    },
+    {
+      "id": "ch19r2c-16",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 704 / 印刷 697",
+      "ocr": "更新MySQL中stday=当天的数据的转化类字段",
+      "current": "更新MySQL中stday=当天的数据的转化类字段",
+      "final": "更新 MySQL 表中当日记录的转化类字段",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "同页明确此处按当日筛选更新转化指标。",
+      "sources": [
+        "入库教材 PDF 物理 704 / 印刷 697，衍生电子页目读。"
+      ]
+    },
+    {
+      "id": "ch19r2c-17",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 704 / 印刷 697",
+      "ocr": "第三版则将Redis数据与业务数据关联的工作从统计阶段提前到了数据收集阶段",
+      "current": "第三版则将Redis数据与业务数据关联的工作从统计阶段提前到了数据收集阶段",
+      "final": "第三版则将实时转化数据与业务数据的关联从查询阶段提前到了订单处理阶段",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "同页明确第三版不再把统计数据写入Redis，而是每笔下单调用更新接口。",
+      "sources": [
+        "入库教材 PDF 物理 704 / 印刷 697，衍生电子页目读。"
+      ]
+    },
+    {
+      "id": "ch19r2c-18",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 705 / 印刷 698",
+      "ocr": "图 19-15所示",
+      "current": "图 19-15所示",
+      "final": "图 19-15 所示",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "图号引用间距。",
+      "sources": [
+        "入库教材 PDF 物理 705 / 印刷 698，衍生电子页目读。"
+      ]
+    },
+    {
+      "id": "ch19r2c-19",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 705 / 印刷 698",
+      "ocr": "针对Flink官方原生API不支持配置化开发的情况，",
+      "current": "针对Flink官方原生API不支持配置化开发的情况，",
+      "final": "为支持本平台通过前端配置日志处理任务，",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "本段具体讨论定制日志任务，不能泛称Flink原生API完全不支持配置。",
+      "sources": [
+        "入库教材 PDF 物理 705 / 印刷 698，衍生电子页目读。"
+      ]
+    },
+    {
+      "id": "ch19r2c-20",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 706 / 印刷 699",
+      "ocr": "可通过多层转换将前端的脚本逻辑转换为执行Flink实时计算任务。",
+      "current": "可通过多层转换将前端的脚本逻辑转换为执行Flink实时计算任务。",
+      "final": "可通过多层转换，将前端脚本逻辑转换为可执行的 Flink 实时计算任务。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "原扫“转换为执行…任务”缺修饰成分，下句明确转换为可执行算子。",
+      "sources": [
+        "入库教材 PDF 物理 706 / 印刷 699，整页原书扫描目读。"
+      ]
+    },
+    {
+      "id": "ch19r2c-21",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 706 / 印刷 699",
+      "ocr": "对于时序化的日志指标数据通常是以时序的方式存储在时序数据库OpenTSDB中，",
+      "current": "对于时序化的日志指标数据通常是以时序的方式存储在时序数据库OpenTSDB中，",
+      "final": "时序化的日志指标通常存储在时序数据库 OpenTSDB 中，",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "移去悬空介词和同义重复，保留按时间读写层次。",
+      "sources": [
+        "入库教材 PDF 物理 706 / 印刷 699，整页原书扫描目读。"
+      ]
+    },
+    {
+      "id": "ch19r2c-22",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 706 / 印刷 699",
+      "ocr": "如何根据用户实时的点击、出价以及广告的曝光，商家实时的出价数据",
+      "current": "如何根据用户实时的点击、出价以及广告的曝光，商家实时的出价数据",
+      "final": "如何根据用户实时点击、广告曝光和商家实时出价等数据",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "19.6.4数据需求明列广告商出价，并非点击广告的用户出价。",
+      "sources": [
+        "入库教材 PDF 物理 706 / 印刷 699，整页原书扫描目读。"
+      ]
+    },
+    {
+      "id": "ch19r2c-23",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 707 / 印刷 700",
+      "ocr": "过滤需要用于计算的字段",
+      "current": "过滤需要用于计算的字段",
+      "final": "筛选并保留参与计算的字段",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "同页数据清洗步骤是“过滤出需要参与计算的字段”，避免将所需字段当成要删除的字段。",
+      "sources": [
+        "入库教材 PDF 物理 707 / 印刷 700，衍生电子页目读。"
+      ]
+    },
+    {
+      "id": "ch19r2c-24",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 708 / 印刷 701",
+      "ocr": "应用基于Kappa架构实时处理框架，能够将B端产生的实时流数据用于决策服务中，极大地提升了参数和模型计算的准确性。",
+      "current": "应用基于Kappa架构实时处理框架，能够将B端产生的实时流数据用于决策服务中，极大地提升了参数和模型计算的准确性。",
+      "final": "采用基于 Kappa 架构的实时处理框架后，B 端当天产生的数据也能用于决策服务。案例据此报告参数和模型计算的准确性有所提高。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "缩短数据滞后可据流程核实；准确性属于案例陈述，未提供误差指标和对照实验，避免推断普适因果或改善幅度。",
+      "sources": [
+        "入库教材 PDF 物理 708 / 印刷 701，整页原书扫描目读。"
+      ]
+    },
+    {
+      "id": "ch19r2c-25",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 701 / 印刷 694",
+      "ocr": "两个集群之间通过Kafka的Mirror功能实现同步。",
+      "current": "两个集群之间通过Kafka的Mirror功能实现同步。",
+      "final": "该案例提到使用 Kafka 的镜像复制功能在 Kafka 集群之间同步消息。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "Kafka镜像复制的对象是集群中的消息流；图19-13未列出第二个Kafka集群，不能把离线集成层、实时集成层整体当成复制对象。",
+      "sources": [
+        "入库教材 PDF 物理 701 / 印刷 694，衍生电子页目读。"
+      ]
+    },
+    {
+      "id": "ch19r2c-26",
+      "file": "content/01-系统架构设计师教材-清洗版/第19章-大数据架构设计理论与实践/第06节-大数据架构设计案例分析.md",
+      "loc": "物理 700 / 印刷 693",
+      "ocr": "而传统的分布式架构采用重新计算的方式分析实时数据，在不扩充以往集群规模的情况下，无法在几秒内分析出需要的信息。Lambda架构实时处理层采用增量计算实时数据的方式，可以在集群规模不变的前提下，秒级分析出当日概览所需要的信息。",
+      "current": "而传统的分布式架构采用重新计算的方式分析实时数据，在不扩充以往集群规模的情况下，无法在几秒内分析出需要的信息。Lambda架构实时处理层采用增量计算实时数据的方式，可以在集群规模不变的前提下，秒级分析出当日概览所需要的信息。",
+      "final": "本案例原有集群采用重新计算的方式，难以在几秒内完成分析。改用 Lambda 架构的实时处理层进行增量计算后，案例称，在原集群规模下即可满足当日概览的秒级分析需求。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "比较局限于本案例既有集群，不推导所有传统分布式架构或所有Lambda实现的延迟。",
+      "sources": [
+        "入库教材 PDF 物理 700 / 印刷 693，衍生电子页目读。"
+      ]
+    }
+  ],
+  "counts": {
+    "C1": 132,
+    "N": 81,
+    "R": 29,
+    "K": 1,
+    "C3": 8,
+    "C2": 19
+  },
+  "round_2": {
+    "baseline": "d69f337fcc201f188c400d5448e1da0e08eaed8e",
+    "record": "verification/教材第二轮独立盲核记录-第19章.md",
+    "counts": {
+      "C1": 54,
+      "N": 17,
+      "R": 1,
+      "C2": 2
+    },
+    "resolved": []
+  }
+}
