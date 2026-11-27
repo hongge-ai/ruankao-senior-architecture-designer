@@ -10,7 +10,7 @@
   <g fill="none" stroke="#858585" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
     <path d="M 485 660 C 580 600 715 600 750 648 C 790 709 649 760 509 729 C 381 701 422 594 538 545 C 716 465 896 474 961 581 C 1048 731 871 805 634 820 C 378 837 273 760 315 610 C 371 412 650 314 875 348 C 1175 393 1230 567 1131 751 C 1004 963 595 988 357 908 C 112 824 122 609 256 426 C 428 197 766 142 1041 208 C 1320 274 1413 499 1337 706 C 1218 948 835 998 600 1030"/>
     <path d="M 487 217 Q 552 165 654 160" marker-end="url(#arrow)"/>
-    <path d="M 517 718 L 1302 238 M 525 718 L 1414 662 M 1035 804 H 1285 M 1051 805 V 907 M 883 873 V 961 M 763 923 V 990" stroke-dasharray="6 7"/>
+    <path d="M 517 718 L 1302 238 M 525 718 L 1414 662 M 1090 804 H 1273 M 1120 804 V 897 M 883 918 V 982 M 763 942 V 1006" stroke-dasharray="6 7"/>
     <path d="M 600 1035 V 133" marker-end="url(#arrow)"/>
   </g>
   <g fill="#222" font-family="WenQuanYi Zen Hei, sans-serif" font-size="24" style="paint-order:stroke;stroke:#fff;stroke-width:6;stroke-linejoin:round">
@@ -39,10 +39,10 @@
     <text x="890" y="742">建模</text>
     <text x="1085" y="730">模拟</text>
     <text x="1320" y="688">评价</text>
-    <text x="1265" y="792">详细设计，</text>
+    <text x="1210" y="786">详细设计</text>
 
     <text x="320" y="865">生命周期计划</text>
-    <text x="450" y="935">开发计划</text>
+    <text x="436" y="895">开发计划</text>
     <text x="294" y="1015">集成和测试计划</text>
     <text x="445" y="795">需求计划</text>
     <text x="645" y="790">操作概念</text>
@@ -52,10 +52,10 @@
     <text x="892" y="814">设计</text>
 
     <text x="622" y="1005">实现</text>
-    <text x="800" y="1038">接受测试</text>
-    <text x="980" y="980">集成测试</text>
-    <text x="1060" y="842" writing-mode="tb" glyph-orientation-vertical="0">单元测试</text>
-    <text x="1160" y="858">编码</text>
+    <text x="768" y="975">验收测试</text>
+    <text x="905" y="929">集成测试</text>
+    <text x="1081" y="825" font-size="19" writing-mode="tb" glyph-orientation-vertical="0">单元测试</text>
+    <text x="1141" y="846">编码</text>
     <text x="1275" y="900" text-anchor="middle">
       <tspan x="1280" dy="0">开发，验证</tspan>
       <tspan x="1280" dy="34">阶段性软件产品</tspan>

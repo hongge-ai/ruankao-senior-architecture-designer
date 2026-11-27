@@ -48,7 +48,7 @@
     <circle cx="651" cy="160" r="2.3" />
     <text x="661" y="165" font-size="15.5">定义需求状态</text>
     <circle cx="651" cy="184" r="2.3" />
-    <text x="661" y="189" font-size="15.5">跟踪需求每一个</text>
-    <text x="661" y="210" font-size="15.5">状态</text>
+    <text x="661" y="189" font-size="15.5">跟踪每项需求的</text>
+    <text x="661" y="210" font-size="15.5">当前状态</text>
   </g>
 </svg>
