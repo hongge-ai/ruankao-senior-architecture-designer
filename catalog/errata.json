@@ -1741,6 +1741,18 @@
    "printed_page": 462,
    "record": "verification/教材OCR纠错记录-第13章.md",
    "note": "整页扫描覆盖页。图中右上说明另作 Produce DataTable。图文不一致可从印面确认，两表正确标法仍待作者资料确认；图和正文分别照录。"
+  },
+  {
+   "id": "tb-0154",
+   "kind": "noted",
+   "corpus": "textbook",
+   "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第03节-中间层架构设计.md",
+   "anchor": "> 图 13-8 用于Product业务逻辑层实体的通用DataSet",
+   "original": "图 13-8 的约束标签作 UniqueConStraint，同页正文作 UniqueConstraint。",
+   "physical_page": 468,
+   "printed_page": 461,
+   "record": "verification/教材第二轮独立盲核记录-第13章.md",
+   "note": "经整页扫描确认大小写不一致。图题所引 SVG 依图内印面转录，正文按同页正文保留。"
   }
  ]
 }

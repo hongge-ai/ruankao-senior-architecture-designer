@@ -5,12 +5,12 @@
   "scope": "章导语、13.1–13.7",
   "base_commit": "502f5d55356eadbd975c8c24ac8808a45a578b55",
   "counts": {
-    "N": 88,
+    "N": 100,
     "K": 7,
-    "C1": 9,
-    "C2": 1,
-    "R": 20,
-    "C3": 10
+    "C1": 14,
+    "C2": 8,
+    "R": 26,
+    "C3": 13
   },
   "entries": [
     {
@@ -1905,6 +1905,503 @@
       "sources": [
         "入库教材 PDF 物理 482（印刷 475），渲染页目读"
       ]
+    },
+    {
+      "id": "r2a-01",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第01节-层次式体系结构概述.md",
+      "loc": "物理 459 / 印刷 452，层次说明末句",
+      "ocr": "其结构见图13-1所示",
+      "current": "其结构见图 13-1所示",
+      "final": "其结构如图 13-1 所示",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "将“见图”和“如图……所示”混用的句式归一为后一种；同章 13.2 的“协作关系如图 13-2 所示”提供同类句式。",
+      "sources": [
+        "入库教材 PDF 物理 459 / 印刷 452，第二轮渲染目读"
+      ]
+    },
+    {
+      "id": "r2a-02",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第01节-层次式体系结构概述.md",
+      "loc": "物理 459 / 印刷 452，污水池反模式",
+      "ocr": "只是简单的调用了持久层的接口",
+      "current": "只是简单的调用了持久层的接口",
+      "final": "只是简单地调用了持久层的接口",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "“简单”作“调用”的状语，和本段“简单地穿过几个层”的用法相同。",
+      "sources": [
+        "入库教材 PDF 物理 459 / 印刷 452，第二轮渲染目读"
+      ]
+    },
+    {
+      "id": "r2a-03",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第02节-表现层框架设计.md",
+      "loc": "物理 462 / 印刷 455，MVVM双向绑定的来源",
+      "ocr": "有可能由数据问题导致、也有可能由业务逻辑中对视图属性的修改导致",
+      "current": "有可能由数据问题导致、也有可能由业务逻辑中对视图属性的修改导致",
+      "final": "有可能由数据问题导致，也有可能由业务逻辑中对视图属性的修改导致",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "“有可能……”“也有可能……”为并列分句，以逗号分隔。",
+      "sources": [
+        "入库教材 PDF 物理 462 / 印刷 455，第二轮渲染目读"
+      ]
+    },
+    {
+      "id": "r2a-04",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第02节-表现层框架设计.md",
+      "loc": "物理 464 / 印刷 457，UIP的复用与扩展",
+      "ocr": "复用在不同的场景、并可以随着应用的增加而进行扩展",
+      "current": "复用在不同的场景、并可以随着应用的增加而进行扩展",
+      "final": "复用在不同的场景，并可以随着应用的增加而进行扩展",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "“它能够复用……”和“并可以……进行扩展”为并列谓语分句，恢复句间逗号。",
+      "sources": [
+        "入库教材 PDF 物理 464 / 印刷 457，第二轮渲染目读"
+      ]
+    },
+    {
+      "id": "r2b-01",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第03节-中间层架构设计.md",
+      "loc": "13.3.2 工作流管理联盟英文名",
+      "ocr": "WorkFlow Management Coalition",
+      "current": "WorkFlow Management Coalition",
+      "final": "Workflow Management Coalition",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "同页首段的同一组织英文全名以Workflow作一词。",
+      "sources": [
+        "教材 PDF 物理页 466（印刷页 459），OCR 衍生页"
+      ]
+    },
+    {
+      "id": "r2b-02",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第03节-中间层架构设计.md",
+      "loc": "13.3.2 接口标识与中文释文",
+      "ocr": "interface 1: ",
+      "current": "interface 1: ",
+      "final": "interface 1：",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "冒号分隔英文接口标签与中文解释，采用中文宽度。",
+      "sources": [
+        "教材 PDF 物理页 467（印刷页 460），OCR 衍生页"
+      ]
+    },
+    {
+      "id": "r2b-03",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第03节-中间层架构设计.md",
+      "loc": "13.3.2 接口标识与中文释文",
+      "ocr": "interface 2: ",
+      "current": "interface 2: ",
+      "final": "interface 2：",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "冒号分隔英文接口标签与中文解释，采用中文宽度。",
+      "sources": [
+        "教材 PDF 物理页 467（印刷页 460），OCR 衍生页"
+      ]
+    },
+    {
+      "id": "r2b-04",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第03节-中间层架构设计.md",
+      "loc": "13.3.2 接口标识与中文释文",
+      "ocr": "interface 3: ",
+      "current": "interface 3: ",
+      "final": "interface 3：",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "冒号分隔英文接口标签与中文解释，采用中文宽度。",
+      "sources": [
+        "教材 PDF 物理页 467（印刷页 460），OCR 衍生页"
+      ]
+    },
+    {
+      "id": "r2b-05",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第03节-中间层架构设计.md",
+      "loc": "13.3.2 接口标识与中文释文",
+      "ocr": "interface 4: ",
+      "current": "interface 4: ",
+      "final": "interface 4：",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "冒号分隔英文接口标签与中文解释，采用中文宽度。",
+      "sources": [
+        "教材 PDF 物理页 467（印刷页 460），OCR 衍生页"
+      ]
+    },
+    {
+      "id": "r2b-06",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第03节-中间层架构设计.md",
+      "loc": "13.3.2 接口标识与中文释文",
+      "ocr": "interface 5: ",
+      "current": "interface 5: ",
+      "final": "interface 5：",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "冒号分隔英文接口标签与中文解释，采用中文宽度。",
+      "sources": [
+        "教材 PDF 物理页 467（印刷页 460），OCR 衍生页"
+      ]
+    },
+    {
+      "id": "r2b-07",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第03节-中间层架构设计.md",
+      "loc": "13.3.3 订单与明细关系",
+      "ocr": "一个Relation对象",
+      "current": "一个Relation对象",
+      "final": "一个DataRelation对象",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "本页扫描正文后半同一集合明确称DataRelation；ADO.NET的DataSet.Relations枚举DataRelation，而Relation不是此类型名。",
+      "sources": [
+        "教材 PDF 物理页 469（印刷页 462），整页扫描覆盖",
+        "https://raw.githubusercontent.com/dotnet/runtime/main/src/libraries/System.Data.Common/src/System/Data/DataSet.cs（访问 2026-11-27）",
+        "https://raw.githubusercontent.com/dotnet/docs/main/docs/framework/data/adonet/dataset-datatable-dataview/adding-datarelations.md（访问 2026-11-27）"
+      ]
+    },
+    {
+      "id": "r2b-08",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第03节-中间层架构设计.md",
+      "loc": "13.3.4 三层体系结构简图",
+      "ocr": "一个三层体系结构的简图",
+      "current": "一个三层体系结构简图",
+      "final": "一个三层体系结构的简图",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "页图在“结构”与“简图”之间有“的”，保留原句。",
+      "sources": [
+        "教材 PDF 物理页 470（印刷页 463），OCR 衍生页"
+      ]
+    },
+    {
+      "id": "r2b-09",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第03节-中间层架构设计.md",
+      "loc": "13.3.4 MVC 全称",
+      "ocr": "Model—View—Control",
+      "current": "Model—View—Control",
+      "final": "Model—View—Controller",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "此处指MVC，第13.2.1节明确“控制器 (Controller)”；Domain Model—Service—Control是本节另一种组合，不改该名称。",
+      "sources": [
+        "教材 PDF 物理页 471（印刷页 464），OCR 衍生页"
+      ]
+    },
+    {
+      "id": "r2b-10",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第04节-数据访问层设计.md",
+      "loc": "13.4.1 DTO 自定义类",
+      "ocr": "显示的get或是set方法",
+      "current": "显式的get或set方法",
+      "final": "显式的get或是set方法",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "“或是”页图可辨，恢复虚词；“显式”保留正确的技术用语。",
+      "sources": [
+        "教材 PDF 物理页 473（印刷页 466），OCR 衍生页"
+      ]
+    },
+    {
+      "id": "r2b-11",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第04节-数据访问层设计.md",
+      "loc": "13.4 对象关系映射英文名",
+      "ocr": "Object/Relation Mapping",
+      "current": "Object/Relation Mapping",
+      "final": "Object/Relational Mapping",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "Hibernate称其为object/relational mapping，SQLAlchemy称Object Relational Mapper；两处均须用形容词Relational。",
+      "sources": [
+        "教材 PDF 物理页 473（印刷页 466），OCR 衍生页",
+        "https://raw.githubusercontent.com/hibernate/hibernate-orm/main/README.adoc（访问 2026-11-27）",
+        "https://raw.githubusercontent.com/sqlalchemy/sqlalchemy/main/README.rst（访问 2026-11-27）"
+      ]
+    },
+    {
+      "id": "r2b-12",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第04节-数据访问层设计.md",
+      "loc": "13.4 对象关系映射英文名",
+      "ocr": "Object-Relation Mapping",
+      "current": "Object-Relation Mapping",
+      "final": "Object-Relational Mapping",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "Hibernate称其为object/relational mapping，SQLAlchemy称Object Relational Mapper；两处均须用形容词Relational。",
+      "sources": [
+        "教材 PDF 物理页 476（印刷页 469），OCR 衍生页",
+        "https://raw.githubusercontent.com/hibernate/hibernate-orm/main/README.adoc（访问 2026-11-27）",
+        "https://raw.githubusercontent.com/sqlalchemy/sqlalchemy/main/README.rst（访问 2026-11-27）"
+      ]
+    },
+    {
+      "id": "r2b-13",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第04节-数据访问层设计.md",
+      "loc": "13.4.2 三个具体实现类",
+      "ocr": "…//具体实现代码",
+      "current": "// 具体实现代码",
+      "final": "// …具体实现代码",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "三类的主体均以省略号表示被省略的代码，放进行注释以保存省略语义且维持C#词法有效。",
+      "sources": [
+        "教材 PDF 物理页 474（印刷页 467），OCR 衍生页"
+      ]
+    },
+    {
+      "id": "r2b-14",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第04节-数据访问层设计.md",
+      "loc": "13.4.2 工厂 switch 分支",
+      "ocr": "case(DatabaseType.MSSQLServer):",
+      "current": "case DatabaseType.MSSQLServer:",
+      "final": "case (DatabaseType.MSSQLServer):",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "原示例对枚举常量使用合法括号，无须省去。",
+      "sources": [
+        "教材 PDF 物理页 475（印刷页 468），OCR 衍生页"
+      ]
+    },
+    {
+      "id": "r2b-15",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第04节-数据访问层设计.md",
+      "loc": "13.4.2 工厂 switch 分支",
+      "ocr": "case(DatabaseType.Oracle):",
+      "current": "case DatabaseType.Oracle:",
+      "final": "case (DatabaseType.Oracle):",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "原示例对枚举常量使用合法括号，无须省去。",
+      "sources": [
+        "教材 PDF 物理页 475（印刷页 468），OCR 衍生页"
+      ]
+    },
+    {
+      "id": "r2b-16",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第04节-数据访问层设计.md",
+      "loc": "13.4.2 工厂 switch 分支",
+      "ocr": "case(DatabaseType.OleDBSupported):",
+      "current": "case DatabaseType.OleDBSupported:",
+      "final": "case (DatabaseType.OleDBSupported):",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "原示例对枚举常量使用合法括号，无须省去。",
+      "sources": [
+        "教材 PDF 物理页 475（印刷页 468），OCR 衍生页"
+      ]
+    },
+    {
+      "id": "r2b-17",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第04节-数据访问层设计.md",
+      "loc": "13.4.2 客户端省略的数据库操作",
+      "ocr": "…// db.需要的操作",
+      "current": "// db需要的操作",
+      "final": "// …db. 需要的操作",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "保留原注释中db后的点和行首省略标记，省略号置入C#行注释中。",
+      "sources": [
+        "教材 PDF 物理页 475（印刷页 468），OCR 衍生页"
+      ]
+    },
+    {
+      "id": "r2b-18",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第04节-数据访问层设计.md",
+      "loc": "13.4.4 XML Schema 内建类型",
+      "ocr": "integer、Boolean、time",
+      "current": "integer、Boolean、time",
+      "final": "integer、boolean、time",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "XML Schema类型名大小写敏感；Apache Xerces 和 GNOME libxml2 的内建类型表均注册小写boolean。",
+      "sources": [
+        "教材 PDF 物理页 477（印刷页 470），OCR 衍生页",
+        "https://raw.githubusercontent.com/apache/xerces2-j/trunk/src/org/apache/xerces/impl/dv/xs/BaseSchemaDVFactory.java（访问 2026-11-27）",
+        "https://raw.githubusercontent.com/GNOME/libxml2/master/xmlschemastypes.c（访问 2026-11-27）"
+      ]
+    },
+    {
+      "id": "r2b-19",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第04节-数据访问层设计.md",
+      "loc": "13.4.5 JTA Transaction 资源登记方法",
+      "ocr": "resume()和enlist()",
+      "current": "resume()和enlist()",
+      "final": "resume()和enlistResource()",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "Jakarta Transactions API的Transaction接口及Narayana实现使用enlistResource(XAResource)，API名称中保留Resource。",
+      "sources": [
+        "教材 PDF 物理页 479（印刷页 472），OCR 衍生页",
+        "https://raw.githubusercontent.com/jakartaee/transactions/master/api/src/main/java/jakarta/transaction/Transaction.java（访问 2026-11-27）",
+        "https://raw.githubusercontent.com/jbosstm/narayana/main/ArjunaJTA/jta/classes/com/arjuna/ats/internal/jta/transaction/arjunacore/TransactionImple.java（访问 2026-11-27）"
+      ]
+    },
+    {
+      "id": "r2b-20",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第04节-数据访问层设计.md",
+      "loc": "13.4.5 JDBC 异常路径",
+      "ocr": "con.rollback();           // 回滚JDBC事务",
+      "current": "con.rollback();           // 回滚JDBC事务",
+      "final": null,
+      "class": "C3",
+      "confidence": "低～中",
+      "evidence": "原示例在catch中调用java.sql.Connection.rollback()，其签名声明SQLException，此处未捕获或向上传播。方法签名、外围处理契约均未提供，不能唯一决定用throws还是在本地处理。保留作教材示例限制。",
+      "sources": [
+        "教材 PDF 物理页 478（印刷页 471），OCR 衍生页",
+        "https://raw.githubusercontent.com/openjdk/jdk/master/src/java.sql/share/classes/java/sql/Connection.java（访问 2026-11-27）",
+        "https://raw.githubusercontent.com/pgjdbc/pgjdbc/master/pgjdbc/src/main/java/org/postgresql/jdbc/PgConnection.java（访问 2026-11-27）"
+      ]
+    },
+    {
+      "id": "r2b-21",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第04节-数据访问层设计.md",
+      "loc": "13.4.6 池内连接已全部借出时的处理",
+      "ocr": "若连接池中没有空闲连接，就在已经分配出去的连接中，寻找一个合适的连接给客户，此时该连接在多个客户间复用。",
+      "current": "若连接池中没有空闲连接，就在已经分配出去的连接中，寻找一个合适的连接给客户，此时该连接在多个客户间复用。",
+      "final": null,
+      "class": "C3",
+      "confidence": "低～中",
+      "evidence": "本段明示一种自定义分配策略，下一段按连接是否仍有使用者决定归还。HikariCP与Apache Commons DBCP在池耗尽时允许等待归还和超时失败，不能借此替换作者自定义语义。并发共用同一物理连接可能相互影响事务及会话状态；书中未给复用与隔离机制，保留原例，勿视作通用实现。",
+      "sources": [
+        "教材 PDF 物理页 480（印刷页 473），OCR 衍生页",
+        "https://raw.githubusercontent.com/brettwooldridge/HikariCP/dev/README.md（访问 2026-11-27）",
+        "https://raw.githubusercontent.com/apache/commons-dbcp/master/src/site/xdoc/configuration.xml（访问 2026-11-27）"
+      ]
+    },
+    {
+      "id": "r2b-22",
+      "file": "assets/figures/textbook/ch13-layered-architecture/figure-13-08.svg",
+      "loc": "图13-8 印刷标签与API名称",
+      "ocr": "UniqueConStraint",
+      "current": "扫描图约束标签按相同语义的 API 名 UniqueConstraint 排字。",
+      "final": "扫描图约束标签作 UniqueConStraint，正文中的 API 名为 UniqueConstraint。",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "在无障碍描述中说明扫描写法与正文API大小写的差别。",
+      "sources": [
+        "教材 PDF 物理页 468（印刷页 461），整页扫描覆盖"
+      ]
+    },
+    {
+      "id": "r2b-23",
+      "file": "assets/figures/textbook/ch13-layered-architecture/figure-13-08.svg",
+      "loc": "图13-8 约束标签",
+      "ocr": "UniqueConStraint",
+      "current": ">UniqueConstraint</text>",
+      "final": ">UniqueConStraint</text>",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "扫描图中的标签大写S，图中照录，正文的规范API名保持不变。",
+      "sources": [
+        "教材 PDF 物理页 468（印刷页 461），整页扫描覆盖"
+      ]
+    },
+    {
+      "id": "r2b-24",
+      "file": "assets/figures/textbook/ch13-layered-architecture/figure-13-08.svg",
+      "loc": "图13-8 说明文字",
+      "ocr": "Product Data Table",
+      "current": "y=\"82.0\">Product DataTable",
+      "final": "y=\"82.0\">Product Data Table",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "右侧说明扫描可辨三个单词，左侧表头DataTable仍为一词。",
+      "sources": [
+        "教材 PDF 物理页 468（印刷页 461），整页扫描覆盖"
+      ]
+    },
+    {
+      "id": "r2b-25",
+      "file": "assets/figures/textbook/ch13-layered-architecture/figure-13-13.svg",
+      "loc": "图13-13 DTO 生命线与调用标签",
+      "ocr": "DTO生命线自对象框底部向下",
+      "current": "<line x1=\"353\" y1=\"131\" x2=\"353\" y2=\"607\"/>",
+      "final": "<line x1=\"353\" y1=\"88\" x2=\"353\" y2=\"607\"/>",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "生命线从对象框底部开始，恢复框与原线之间短段；调用标签加白底以保持可读。",
+      "sources": [
+        "教材 PDF 物理页 472（印刷页 465），OCR 衍生页"
+      ]
+    },
+    {
+      "id": "r2-tech-01",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第04节-数据访问层设计.md",
+      "loc": "13.4.5 事务处理设计",
+      "ocr": "一致性表示当事务执行失败时，所有被该事务影响的数据都应该恢复到事务执行前的状态。",
+      "current": "一致性表示当事务执行失败时，所有被该事务影响的数据都应该恢复到事务执行前的状态。",
+      "final": "一致性表示事务使数据库从一个一致状态转变为另一个一致状态，事务完成后数据仍满足完整性约束。",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "上轮 s04-27。两个数据库项目的事务文档分别说明完整性规则、一致状态；底本把一致性写成失败回滚。",
+      "sources": [
+        "教材 PDF 物理页 478（印刷页 471），电子底本",
+        "https://github.com/MicrosoftDocs/sql-docs/blob/b8808bff499079a96b893cdcf1c209883318b7a9/docs/relational-databases/sql-server-transaction-locking-and-row-versioning-guide.md（访问 2026-11-27）",
+        "https://github.com/pingcap/docs/blob/65723b96190715b2611e3f5878b59a5f1a13361e/glossary.md（访问 2026-11-27）"
+      ]
+    },
+    {
+      "id": "r2-tech-02",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第04节-数据访问层设计.md",
+      "loc": "13.4.5 事务处理设计",
+      "ocr": "持久性表示已提交的数据在事务执行失败时，数据的状态都应该正确。",
+      "current": "持久性表示已提交的数据在事务执行失败时，数据的状态都应该正确。",
+      "final": "持久性表示事务一旦提交，其修改即使在系统故障后也会保留。",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "两份文档均以提交结果能在系统故障后保留定义持久性。",
+      "sources": [
+        "教材 PDF 物理页 478（印刷页 471），电子底本",
+        "https://github.com/MicrosoftDocs/sql-docs/blob/b8808bff499079a96b893cdcf1c209883318b7a9/docs/relational-databases/sql-server-transaction-locking-and-row-versioning-guide.md（访问 2026-11-27）",
+        "https://github.com/pingcap/docs/blob/65723b96190715b2611e3f5878b59a5f1a13361e/glossary.md（访问 2026-11-27）"
+      ]
+    },
+    {
+      "id": "r2-tech-03",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第07节-层次式架构案例分析.md",
+      "loc": "物理 486，印刷 479，消息队列名称",
+      "ocr": "Microsoft Messaging Queue",
+      "current": "Microsoft Messaging Queue",
+      "final": "Microsoft Message Queuing",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "上轮 s07-D24。微软 Win32 词汇表和 Particular 的传输组件表使用同一全称与缩写。",
+      "sources": [
+        "入库教材 PDF 物理 486（印刷 479），渲染页目读",
+        "https://github.com/MicrosoftDocs/win32/blob/bc82a65f74ef2c4f2f44a3d7db5f7cfebfdc3583/desktop-src/Rpc/m-glos.md（访问 2026-11-27）",
+        "https://github.com/Particular/docs.particular.net/blob/39832e02cf67c3a7c49895405a328cb4132c8634/servicecontrol/transports.md（访问 2026-11-27）"
+      ]
+    },
+    {
+      "id": "r2-mvc-01",
+      "file": "content/01-系统架构设计师教材-清洗版/第13章-层次式架构设计理论与实践/第02节-表现层框架设计.md",
+      "loc": "物理 460／印刷 453，MVC 优点第 1 项",
+      "ocr": "视图与模型没有必然的联系，都是通过控制器发生关系",
+      "current": "视图与模型没有必然的联系，都是通过控制器发生关系",
+      "final": null,
+      "class": "C3",
+      "confidence": "低",
+      "evidence": "同页图 13-2 画出视图查询模型和模型通知视图，下一页正文亦明确允许直接交流。此处概括的适用范围不清，保留该处措辞及原图。",
+      "sources": [
+        "入库教材 PDF 物理 460–461（印刷 453–454），图 13-2、MVC 与 MVP 比较段"
+      ]
     }
-  ]
+  ],
+  "round_2": {
+    "baseline": "4f43cb5f649fe31e331358be4bf805b4c1dd3be0",
+    "record": "verification/教材第二轮独立盲核记录-第13章.md",
+    "resolved": {
+      "s04-27": "r2-tech-01",
+      "s07-D24": "r2-tech-03"
+    },
+    "counts": {
+      "C1": 5,
+      "N": 12,
+      "R": 6,
+      "C2": 7,
+      "C3": 3
+    }
+  }
 }

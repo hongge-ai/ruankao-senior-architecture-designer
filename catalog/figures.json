@@ -2841,9 +2841,9 @@
    "asset": "assets/figures/textbook/ch13-layered-architecture/figure-13-08.svg",
    "physical_page": 468,
    "printed_page": 461,
-   "note": "Product DataTable 及主键约束。扫描图约束标签按相同语义的 API 名 UniqueConstraint 排字。",
+   "note": "物理 468 整页扫描。图内约束按印面作 UniqueConStraint，右注作 Product Data Table；正文作 UniqueConstraint。约束箭头指向左侧表。",
    "id": "tb-fig-0202",
-   "record": "verification/教材OCR纠错记录-第13章.md"
+   "record": "verification/教材第二轮独立盲核记录-第13章.md"
   },
   {
    "corpus": "textbook",
@@ -2913,7 +2913,7 @@
    "printed_page": 465,
    "note": "客户端、DTO、服务器；跨进程取得 DTO，服务器创建 DTO，随后在客户端一侧访问四个属性。图内消息名疑似多印一个 e，以相邻命名形式排为 GetCustomerDto()。",
    "id": "tb-fig-0207",
-   "record": "verification/教材OCR纠错记录-第13章.md"
+   "record": "verification/教材第二轮独立盲核记录-第13章.md"
   },
   {
    "corpus": "textbook",

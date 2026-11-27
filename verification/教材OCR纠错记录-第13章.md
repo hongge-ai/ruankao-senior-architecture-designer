@@ -69,3 +69,5 @@
 ## 扫描页上的图文不一致
 
 `tb-0153`：印刷页 462 的图 13-9 中，两张表的表头都印作 Product DataTable；关系说明却指向 Order 与 OrderDetails，图前正文也写明订单及订单明细。右上注释另作 Produce DataTable。保留各处原貌，在[勘误登记簿](../catalog/errata.json)记为 noted。
+
+本章后续改动与未决项处置见[第二轮独立核查](./教材第二轮独立盲核记录-第13章.md)。
