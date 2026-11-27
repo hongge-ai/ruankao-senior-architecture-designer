@@ -728,8 +728,8 @@
    "asset": "assets/figures/textbook/ch04-information-security-fundamentals/figure-04-01.svg",
    "physical_page": 159,
    "printed_page": 150,
-   "record": "verification/教材第二轮SVG事实核查记录-第03-04章.md",
-   "note": "左明文P→发送端加密算法E→密文C=E(K,P)→接收端解密算法D，右端明文P。两处密钥K自下向上进入对应框。中段向上箭头指向偷听者（20×字形裁定为「偷」，非「窃」）。右框至右端明文P原图为无箭头直线，照录不画箭头。"
+   "record": "verification/教材OCR纠错记录-第4章.md",
+   "note": "左明文P→发送端加密算法E→密文C=E(K,P)→接收端解密算法D，右端明文P。两处密钥K自下向上进入对应框。中段向上箭头指向偷听者（20×字形裁定为「偷」，非「窃」）。右框至右端明文P电子重建页图为无箭头直线，照录不画箭头。"
   },
   {
    "id": "tb-fig-0052",
@@ -742,8 +742,8 @@
    "asset": "assets/figures/textbook/ch04-information-security-fundamentals/figure-04-02.svg",
    "physical_page": 160,
    "printed_page": 151,
-   "record": "verification/教材第二轮SVG事实核查记录-第03-04章.md",
-   "note": "单链向右：明文→初始交换→16次替换和换位→反向交换→密文。连线上无文字，四段均有右向箭头。"
+   "record": "verification/教材OCR纠错记录-第4章.md",
+   "note": "单链向右：明文→初始置换→16次替换和换位→逆初始置换→密文。连线上无文字，四段均有右向箭头。 电子页图的“初始交换／反向交换”按算法改为初始置换／逆初始置换。"
   },
   {
    "id": "tb-fig-0053",
@@ -756,8 +756,8 @@
    "asset": "assets/figures/textbook/ch04-information-security-fundamentals/figure-04-05.svg",
    "physical_page": 165,
    "printed_page": 156,
-   "record": "verification/教材第二轮SVG事实核查记录-第03-04章.md",
-   "note": "左椭圆 A、右椭圆 B。①上弧 A→B：E 下标 PKB，[N₁||IDA]。②中上线 B→A：E 下标 PKA，[N₁||N₂]。③中下线 B→A：E 下标 PKB，[N₂]。④下弧 A→B：E 下标 PKB，内层 E 下标 SKA，两层方括号 [E[Ks]]。盲比四项通过。"
+   "record": "verification/教材OCR纠错记录-第4章.md",
+   "note": "局部扫描1886含四条消息。第三步箭头由A指向B，校正纸书方向。"
   },
   {
    "id": "tb-fig-0054",
@@ -770,8 +770,8 @@
    "asset": "assets/figures/textbook/ch04-information-security-fundamentals/figure-04-03.svg",
    "physical_page": 163,
    "printed_page": 154,
-   "record": "verification/教材第二轮SVG事实核查记录-第03-04章.md",
-   "note": "左椭圆 A、右椭圆 B。①上弧 A→B：request||N₁。②中线 B→A：E 的下标字形无法唯一辨认，字符不绘制并留空；其后为 [Ks||request||IDB||f (N₁)||N₂]。③下弧 A→B（标号悬于弧上方）：E 下标 Ks，[f (N₂)]。三条线均仅箭头端有箭头。"
+   "record": "verification/教材OCR纠错记录-第4章.md",
+   "note": "无KDC三步，第二步双方既有密钥以K_AB清楚定义，字形未定。"
   },
   {
    "id": "tb-fig-0055",
@@ -784,8 +784,8 @@
    "asset": "assets/figures/textbook/ch04-information-security-fundamentals/figure-04-04.svg",
    "physical_page": 163,
    "printed_page": 154,
-   "record": "verification/教材第二轮SVG事实核查记录-第03-04章.md",
-   "note": "经两轮像素级盲态裁定：KDC 左上、A 左下、B 右。KDC–A 两条线：①A→KDC 仅 KDC 端箭头（request||N₁）；②KDC→A 仅 A 端箭头，标号②首个 E 的下标可辨 K，K 后一字位因像素不足无法判定；SVG 绘出 K 并留空后续字位，其后为 [Ks||request||N₁|| E_Kb(Ks, IDA)]。A–B 三条线：③浅凸弧 A→B 仅 B 端箭头，标号③悬于弧上方（E_Kb[Ks||IDA]）；④浅凹弧 B→A 仅 A 端箭头，标号④悬于弧③与线④之间（E_Ks[N₂]）；⑤深凹弧 A→B 仅 B 端箭头，标号⑤悬于弧谷上方（E_Ks[f (N₂)]）。盲比四项通过。"
+   "record": "verification/教材OCR纠错记录-第4章.md",
+   "note": "KDC与两用户，五条消息，第二步 K_a 由局部图互证。"
   },
   {
    "id": "tb-fig-0056",
@@ -798,8 +798,8 @@
    "asset": "assets/figures/textbook/ch04-information-security-fundamentals/figure-04-07.svg",
    "physical_page": 168,
    "printed_page": 159,
-   "record": "verification/教材第二轮SVG事实核查记录-第03-04章.md",
-   "note": "左右两个大外框，上标发送方、接收方。左框内 A的私钥（D_A）→B的公钥（E_B），右框内 B的私钥（D_B）→A的公钥（E_A）。主链五段右向实线箭头：P 入、四内框、P 出，穿越外框处无箭头。三条竖直向上箭头落在第 2、3、4 段主线上，底部标注 D_A (P)、E_B (D_A (P))、D_A (P)（圆括号，括号两侧有空隙）。盲比四项通过。"
+   "record": "verification/教材OCR纠错记录-第4章.md",
+   "note": "先签名再加密的简化示意，发送方两块和接收方两块的操作顺序对应。"
   },
   {
    "id": "tb-fig-0057",
@@ -812,8 +812,8 @@
    "asset": "assets/figures/textbook/ch04-information-security-fundamentals/figure-04-06.svg",
    "physical_page": 168,
    "printed_page": 159,
-   "record": "verification/教材第二轮SVG事实核查记录-第03-04章.md",
-   "note": "五框自左向右：A、消息框一、BB、消息框二、B；消息框一与 A/BB 顶对齐、消息框二底对齐，构成上下两条水平通道。四条水平连线：A→消息框一与 BB→消息框二无箭头，另两段右向箭头。消息框一 A, K_A（B, R_A, t, P）；消息框二 K_B（A, R_A, t, P, K_BB（A, L, P））（全角圆括号、逗号后空格）。BB 框左下方另标 K_S（R_A）。源图该字形经像素盲比确认可辨为斜体大写 L。"
+   "record": "verification/教材OCR纠错记录-第4章.md",
+   "note": "三方仲裁图；时间戳t与同页正文一致，旁注K_S(R_B)识别达成一致但其作用未解释。"
   },
   {
    "id": "tb-fig-0058",
@@ -854,8 +854,8 @@
    "asset": "assets/figures/textbook/ch04-information-security-fundamentals/figure-04-08.svg",
    "physical_page": 171,
    "printed_page": 162,
-   "record": "verification/教材第二轮SVG事实核查记录-第03-04章.md",
-   "note": "三层总线型剪贴画：上层 2 个客户端图标（标签照录印面「C ient」——C 后一字母位印面无字形、无法判定），各接一条水平细总线；中层 4 个机柜图标（Handler，每总线 2 个）向下接到横贯全图的粗总线；粗总线向下接 8 个机柜图标（Agent×8）。全部细实线、无箭头。图标以简化图形表示；总线两端渐淡不接图标的装饰短竖线与 Agent 行浅灰竖痕（无法判定）未转录。盲比四项通过。"
+   "record": "verification/教材OCR纠错记录-第4章.md",
+   "note": "三层示意图；补足客户端标签，接合横线与支线。"
   },
   {
    "id": "tb-fig-0061",
@@ -868,8 +868,8 @@
    "asset": "assets/figures/textbook/ch04-information-security-fundamentals/figure-04-09.svg",
    "physical_page": 172,
    "printed_page": 163,
-   "record": "verification/教材第二轮SVG事实核查记录-第03-04章.md",
-   "note": "三台电脑三角分布：C 左上（上方 MAC: CC:CC:CC:CC、下方 C）、A 中右（下方 A）、B 左下（上方 MAC: BB:BB:BB:BB、下方 B）。C→A 短划虚线、A 端实心箭头，沿线灰斜体「信任关系」；B→A 实线、A 端箭头，沿线「ARP报文」。C 标签下至 B 的 MAC 标签上有竖细实线，上端深色小方点（性质原图无法判定，照录为小方块），下端无箭头；竖线旁「使C瘫痪」。A 右上云泡两行（C的MAC地址为 / BB:BB:BB:BB），云不连线。盲比四项通过。"
+   "record": "verification/教材OCR纠错记录-第4章.md",
+   "note": "三个主机、实线与虚线区分清楚；MAC标签为图中简写，不是完整地址。"
   },
   {
    "id": "tb-fig-0062",
@@ -882,8 +882,8 @@
    "asset": "assets/figures/textbook/ch04-information-security-fundamentals/figure-04-10.svg",
    "physical_page": 173,
    "printed_page": 164,
-   "record": "verification/教材第二轮SVG事实核查记录-第03-04章.md",
-   "note": "立式服务器图标顶中（下标 DNS服务器）；左电脑 www.xxx.com / IP：  202.109.2.2；右电脑右侧 www.angle.com（印面为 angle，非 angel）；底电脑 www.heike.com / IP：  200.1.1.1；右上云泡 www.xxx.com / IP：  200.1.1.1，云不连线。左→服务器、右→服务器（线上「DNS查询」）箭头均在服务器端；底→右箭头在右电脑端（线上「IP： 200.1.1.1」）。盲比四项通过。"
+   "record": "verification/教材OCR纠错记录-第4章.md",
+   "note": "物理173仅图面为局部扫描。图中客户端域名拼写与重建正文不同，无法归因原书正文。"
   },
   {
    "id": "tb-fig-0063",
@@ -896,50 +896,50 @@
    "asset": "assets/figures/textbook/ch04-information-security-fundamentals/figure-04-11.svg",
    "physical_page": 181,
    "printed_page": 172,
-   "record": "verification/教材第二轮SVG事实核查记录-第03-04章.md",
-   "note": "5 圆角矩形（脆弱性、资产、威胁、风险、安全措施）+ 5 椭圆（业务数据、资产价值、安全需求、安全事件、残余风险），17 条细实线边、小实心三角箭头：业务数据→资产（依赖）；脆弱性→资产（暴露）；资产→资产价值（拥有）；威胁→脆弱性（利用）；威胁→风险（增加，标签嵌线）；风险→安全需求（导出，嵌线）；威胁→安全事件（演变）；风险→残余风险（残留）；安全措施→残余风险（未控制，嵌线）；残余风险→安全事件（可能诱发，嵌线）；安全需求→资产价值（成本）；安全需求→安全措施（被满足）；脆弱性→风险斜线无标签（印面如此）；脆弱性→安全需求缓斜线两端无箭头（未被满足）；资产价值→风险斜线（增加）与该缓斜线 X 交叉；安全措施→威胁（抗击）；安全措施→风险（降低）。脆弱性右下角两斜线交汇处有一约 5px 深色记号，最高可用分辨率下无法确证是否为箭头，本图未画。盲比四项通过。"
+   "record": "verification/教材OCR纠错记录-第4章.md",
+   "note": "十个节点；恢复安全需求指向脆弱性的缓斜线箭头和两处关系标签，保留顶端“业务数据”。"
   },
   {
    "id": "tb-fig-0064",
    "corpus": "textbook",
    "file": "content/01-系统架构设计师教材-清洗版/第04章-信息安全技术基础知识/第07节-信息安全的抗攻击技术.md",
    "figure": "表 4-1",
-   "title": "防御SYN Flooding攻击所需修改键值",
+   "title": "旧版 Windows 配置示例（教材用于说明 SYN 洪水防护）",
    "kind": "svg",
-   "anchor": "> 表 4-1 防御SYN Flooding攻击所需修改键值",
+   "anchor": "> 表 4-1 旧版 Windows 配置示例（教材用于说明 SYN 洪水防护）",
    "asset": "assets/figures/textbook/ch04-information-security-fundamentals/figure-t04-01.svg",
    "physical_page": 176,
    "printed_page": 167,
-   "record": "verification/教材第二轮SVG事实核查记录-第03-04章.md",
-   "note": "两列十行（表头 值名称 / 值(REG_DWORD)，半角括号+下划线）。第 5 行键名 Tcp 与 Max 之间一个空格；第 3、4 行值印面为「5 0 0」「4 0 0」（数字间空格照录，同表 300000 紧排可证非字距）；300000(5分钟) 半角括号；零为斜线零字形（不承载信息，未复刻）。框线：上下粗线、行间细线、列间一竖线、无左右框。此前正文 Markdown 表由本 SVG 取代；盲比经一轮修订收敛。"
+   "record": "verification/教材OCR纠错记录-第4章.md",
+   "note": "核两列九条数据，合并数字和键名内的空格，明确历史配置。"
   },
   {
    "id": "tb-fig-0065",
    "corpus": "textbook",
    "file": "content/01-系统架构设计师教材-清洗版/第04章-信息安全技术基础知识/第07节-信息安全的抗攻击技术.md",
    "figure": "表 4-2",
-   "title": "防御ICMP攻击所需修改键值",
+   "title": "旧版 Windows 的 ICMP 重定向设置示例",
    "kind": "svg",
-   "anchor": "> 表 4-2 防御ICMP攻击所需修改键值",
+   "anchor": "> 表 4-2 旧版 Windows 的 ICMP 重定向设置示例",
    "asset": "assets/figures/textbook/ch04-information-security-fundamentals/figure-t04-02.svg",
    "physical_page": 177,
    "printed_page": 168,
-   "record": "verification/教材第二轮SVG事实核查记录-第03-04章.md",
-   "note": "两列两行：EnableICMPRedirect / 0。框线同表 4-1。此前正文 Markdown 表由本 SVG 取代；盲比通过。"
+   "record": "verification/教材OCR纠错记录-第4章.md",
+   "note": "核两列一条数据，配置指向重定向，而非通用ICMP防御。"
   },
   {
    "id": "tb-fig-0066",
    "corpus": "textbook",
    "file": "content/01-系统架构设计师教材-清洗版/第04章-信息安全技术基础知识/第07节-信息安全的抗攻击技术.md",
    "figure": "表 4-3",
-   "title": "防御SNMP攻击所需修改键值",
+   "title": "旧版 Windows 的失效网关检测设置示例",
    "kind": "svg",
-   "anchor": "> 表 4-3 防御SNMP攻击所需修改键值",
+   "anchor": "> 表 4-3 旧版 Windows 的失效网关检测设置示例",
    "asset": "assets/figures/textbook/ch04-information-security-fundamentals/figure-t04-03.svg",
    "physical_page": 177,
    "printed_page": 168,
-   "record": "verification/教材第二轮SVG事实核查记录-第03-04章.md",
-   "note": "两列两行：EnableDcadGWDetect / 0。原书印作 Dcad（非 Windows 注册表实名 Dead），按印面照录。框线同表 4-1。此前正文 Markdown 表由本 SVG 取代；盲比通过。"
+   "record": "verification/教材OCR纠错记录-第4章.md",
+   "note": "核两列一条数据，按微软文档校正失效网关检测键名及用途。"
   },
   {
    "id": "tb-fig-0067",
