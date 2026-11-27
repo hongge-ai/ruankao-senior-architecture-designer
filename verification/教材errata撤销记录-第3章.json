@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-27",
+  "base_commit": "2af35300776c9aa809ed21a766baab54e7932130",
+  "entries": [
+    {
+      "id": "tb-0031",
+      "corpus": "textbook",
+      "kind": "typo",
+      "file": "content/01-系统架构设计师教材-清洗版/第03章-信息系统基础知识/第02节-业务处理系统(TPS).md",
+      "anchor": "OLTP方式主要依赖于网络来实现事务终端",
+      "original": "OLIP方式主要依赖于网络",
+      "corrected": "OLTP方式主要依赖于网络",
+      "physical_page": 126,
+      "printed_page": 117,
+      "record": "verification/教材第二轮独立盲核记录-第03-04章.md",
+      "note": "原书同页标记行括注与展开词 OnLine Transaction Processing 均作 OLTP，正文两处印 OLIP（40× 逐字母：T 仅顶横、I 顶底双横），原书同页自相矛盾，据以勘正。"
+    },
+    {
+      "id": "tb-0032",
+      "corpus": "textbook",
+      "kind": "typo",
+      "file": "content/01-系统架构设计师教材-清洗版/第03章-信息系统基础知识/第02节-业务处理系统(TPS).md",
+      "anchor": "OLTP方式的优点是当事务数据产生时",
+      "original": "OLIP方式的优点是",
+      "corrected": "OLTP方式的优点是",
+      "physical_page": 126,
+      "printed_page": 117,
+      "record": "verification/教材第二轮独立盲核记录-第03-04章.md",
+      "note": "同 tb-0031。"
+    },
+    {
+      "id": "tb-0033",
+      "corpus": "textbook",
+      "kind": "typo",
+      "file": "content/01-系统架构设计师教材-清洗版/第03章-信息系统基础知识/第07节-企业资源规划(ERP).md",
+      "anchor": "(Manufacturing Resource Planning II,MRP II)",
+      "original": "Manufacturing Resource Planning Ⅱ I",
+      "corrected": "Manufacturing Resource Planning II",
+      "physical_page": 145,
+      "printed_page": 136,
+      "record": "verification/教材第二轮独立盲核记录-第03-04章.md",
+      "note": "原书 Planning 后印罗马数字Ⅱ字形加独立竖笔 I（「ⅡI」排印奇点，同 tb-0023 先例）；同括注逗号后与 p148 项(1) 均印干净「MRPⅡ」，为原书内部正确写法，据以归一。"
+    },
+    {
+      "id": "tb-0034",
+      "corpus": "textbook",
+      "kind": "typo",
+      "file": "content/01-系统架构设计师教材-清洗版/第03章-信息系统基础知识/第07节-企业资源规划(ERP).md",
+      "anchor": "ERP理论与系统是从MRP II 发展而来的。MRP II 的核心是物流",
+      "original": "MRP-ⅡI（两处）",
+      "corrected": "MRP II",
+      "physical_page": 145,
+      "printed_page": 136,
+      "record": "verification/教材第二轮独立盲核记录-第03-04章.md",
+      "note": "原书本行两处印「MRP-ⅡI」（连字符+Ⅱ+独立 I）；原书 p145 括注逗号后与 p148 项(1) 均印「MRPⅡ」，据以归一。"
+    },
+    {
+      "id": "tb-0035",
+      "corpus": "textbook",
+      "kind": "typo",
+      "file": "content/01-系统架构设计师教材-清洗版/第03章-信息系统基础知识/第07节-企业资源规划(ERP).md",
+      "anchor": "ERP打破了MRP II 只局限在传统制造业的格局",
+      "original": "MRP-ⅡI只局限在",
+      "corrected": "MRP II 只局限在",
+      "physical_page": 148,
+      "printed_page": 139,
+      "record": "verification/教材第二轮独立盲核记录-第03-04章.md",
+      "note": "同 tb-0034。"
+    }
+  ]
+}

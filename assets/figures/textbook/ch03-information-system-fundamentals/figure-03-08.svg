@@ -21,14 +21,14 @@
   </g>
   <g stroke="#4a5568" stroke-width="1.3">
     <line x1="80" y1="60" x2="382" y2="60"/>
-    <line x1="80" y1="60" x2="96" y2="60" marker-end="url(#arr)"/>
-    <line x1="382" y1="60" x2="366" y2="60" marker-end="url(#arr)"/>
+    <line x1="96" y1="60" x2="80" y2="60" marker-end="url(#arr)"/>
+    <line x1="366" y1="60" x2="382" y2="60" marker-end="url(#arr)"/>
     <line x1="423" y1="60" x2="725" y2="60"/>
-    <line x1="423" y1="60" x2="439" y2="60" marker-end="url(#arr)"/>
-    <line x1="725" y1="60" x2="709" y2="60" marker-end="url(#arr)"/>
+    <line x1="439" y1="60" x2="423" y2="60" marker-end="url(#arr)"/>
+    <line x1="709" y1="60" x2="725" y2="60" marker-end="url(#arr)"/>
     <line x1="766" y1="60" x2="1068" y2="60"/>
-    <line x1="766" y1="60" x2="782" y2="60" marker-end="url(#arr)"/>
-    <line x1="1068" y1="60" x2="1052" y2="60" marker-end="url(#arr)"/>
+    <line x1="782" y1="60" x2="766" y2="60" marker-end="url(#arr)"/>
+    <line x1="1052" y1="60" x2="1068" y2="60" marker-end="url(#arr)"/>
   </g>
 
   <g fill="#eef3fb" stroke="#7d8da5" stroke-width="1.4">

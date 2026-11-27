@@ -3,7 +3,7 @@
   <desc>复原自《系统架构设计师教程（第2版）》印刷页 119（物理页 128）插图。四个实线框：上为信息管理者，左为信息源，中为信息处理器，右为信息用户。信息管理者分别以斜线单向箭头指向信息源与信息用户框顶；与信息处理器之间为两端都有箭头的竖线。信息源→信息处理器→信息用户为水平单向箭头。无虚线框、无外框、无下划线。</desc>
   <rect width="860" height="280" fill="#ffffff"/>
   <defs>
-    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
       <path d="M 0 0 L 10 5 L 0 10 Z" fill="#4a5568"/>
     </marker>
   </defs>

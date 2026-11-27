@@ -44,10 +44,10 @@
     <line x1="662" y1="246" x2="716" y2="246" marker-end="url(#arr)"/>
   </g>
 
-  <use href="#varrow" x="140" y="216"/>
-  <use href="#varrow" x="780" y="216"/>
-  <use href="#varrow" x="140" y="444"/>
-  <use href="#varrow" x="780" y="444"/>
+  <use href="#varrow" transform="translate(140,220) scale(1,0.7551)"/>
+  <use href="#varrow" transform="translate(780,220) scale(1,0.7551)"/>
+  <use href="#varrow" transform="translate(140,448) scale(1,0.8980)"/>
+  <use href="#varrow" transform="translate(780,448) scale(1,0.8980)"/>
   <use href="#harrow-r" x="270" y="140"/>
   <text x="470" y="146" text-anchor="middle" font-size="14" fill="#1f2937">物流过程</text>
   <use href="#harrow-r" transform="translate(744,360) scale(-1,1)"/>
