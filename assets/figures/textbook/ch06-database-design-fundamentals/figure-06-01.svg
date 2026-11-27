@@ -113,8 +113,8 @@
   <!-- DBMS 圆 -->
   <circle cx="698" cy="432" r="65" fill="none" stroke="#a6a6a6" stroke-width="1.6"/>
   <g text-anchor="middle" font-size="18">
-    <text class="txt" x="698" y="416">数据库管</text>
-    <text class="txt" x="698" y="440">理系统</text>
+    <text class="txt" x="698" y="416">数据库</text>
+    <text class="txt" x="698" y="440">管理系统</text>
     <text class="txt" x="698" y="468">DBMS</text>
   </g>
 
@@ -144,8 +144,8 @@
   <path d="M142,180 C133,180 131,190 131,205 L131,380 C131,398 130,404 125,407 C130,410 131,416 131,434 L131,609 C131,624 133,634 142,634" fill="none" stroke="#8c8c8c" stroke-width="1.6"/>
   <g text-anchor="end" font-size="17">
     <text class="txt" x="108" y="386">由数据库</text>
-    <text class="txt" x="108" y="414">管理员建</text>
-    <text class="txt" x="108" y="442">立和维护</text>
+    <text class="txt" x="108" y="414">管理员</text>
+    <text class="txt" x="108" y="442">建立和维护</text>
   </g>
 
   <!-- 左侧三旁注 -->
