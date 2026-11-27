@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="506" viewBox="0 0 980 506" role="img" aria-labelledby="title"><title id="title">信息系统安全规划框架</title>
+<defs><marker id="a" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 8 4 0 8Z" fill="#477786"/></marker></defs>
+<rect width="980" height="506" fill="white"/>
+<rect x="313" y="15" width="350" height="45" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="488.0" y="44.3" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#173c48">信息化战略规划</text>
+<rect x="313" y="60" width="350" height="45" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="488.0" y="88.28" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">远景、目标、使命、战略</text>
+<rect x="15" y="146" width="390" height="42" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="210.0" y="173.46" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#173c48">信息系统</text>
+<rect x="15" y="188" width="390" height="70" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="210.0" y="218.78" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">硬件网络、应用系统、</text>
+<text x="210.0" y="238.78" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">管理系统、业务系统</text>
+<rect x="15" y="258" width="390" height="43" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="210.0" y="284.94" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">蓝图 → 现状 → 需求 → 措施</text>
+<rect x="574" y="146" width="390" height="42" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="769.0" y="173.46" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#173c48">信息资源</text>
+<rect x="574" y="188" width="390" height="70" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="769.0" y="218.78" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">管理信息、业务信息、</text>
+<text x="769.0" y="238.78" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">市场信息、决策信息</text>
+<rect x="574" y="258" width="390" height="43" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="769.0" y="284.94" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">蓝图 → 现状 → 需求 → 措施</text>
+<path d="M211 145 L211 57 L311 57" fill="none" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M771 145 L771 57 L665 57" fill="none" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="406" y1="218" x2="573" y2="218" stroke="#477786" stroke-width="1.6" marker-start="url(#a)" marker-end="url(#a)"/>
+<line x1="489" y1="106" x2="489" y2="340" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="263" y="343" width="452" height="43" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="489.0" y="370.96" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#173c48">信息系统安全规划</text>
+<rect x="263" y="386" width="452" height="43" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="489.0" y="413.28" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">技术安全　管理规范　安全组织</text>
+<rect x="263" y="429" width="452" height="62" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="489.0" y="455.78" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">物理安全　网络安全　信息安全</text>
+<text x="489.0" y="475.78" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">运营安全　人员安全</text>
+<path d="M263 426 L130 426 L130 302" fill="none" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M715 426 L840 426 L840 302" fill="none" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+</svg>

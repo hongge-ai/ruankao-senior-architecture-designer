@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="962" height="500" viewBox="0 0 962 500" role="img" aria-labelledby="title"><title id="title">RADIUS软件架构核心逻辑性</title>
+<defs><marker id="a" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 8 4 0 8Z" fill="#477786"/></marker></defs>
+<rect width="962" height="500" fill="white"/>
+<line x1="163" y1="52" x2="162" y2="137" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="163" y1="52" x2="340" y2="137" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="163" y1="52" x2="518" y2="137" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="162" y1="186" x2="161" y2="264" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="162" y1="186" x2="345" y2="264" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="162" y1="186" x2="530" y2="264" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="162" y1="186" x2="716" y2="264" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="340" y1="186" x2="161" y2="264" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="340" y1="186" x2="345" y2="264" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="340" y1="186" x2="530" y2="264" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="340" y1="186" x2="716" y2="264" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="518" y1="186" x2="161" y2="264" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="518" y1="186" x2="345" y2="264" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="518" y1="186" x2="530" y2="264" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="518" y1="186" x2="716" y2="264" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="161" y1="312" x2="161" y2="365" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="345" y1="312" x2="345" y2="365" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="530" y1="312" x2="530" y2="365" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="716" y1="312" x2="716" y2="365" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="220" y1="40" x2="861" y2="40" stroke="#477786" stroke-width="1.6" marker-end="url(#a)" stroke-dasharray="5 4"/>
+<line x1="568" y1="155" x2="861" y2="65" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="750" y1="279" x2="861" y2="88" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="250" y1="400" x2="250" y2="436" stroke="#477786" stroke-width="1.6" marker-start="url(#a)" marker-end="url(#a)"/>
+<line x1="730" y1="400" x2="730" y2="436" stroke="#477786" stroke-width="1.6" marker-start="url(#a)" marker-end="url(#a)"/>
+<ellipse cx="163" cy="41" rx="69" ry="25" fill="#eff8fa" stroke="#477786" stroke-width="1.6"/>
+<text x="163" y="46" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">转发进程1</text>
+<ellipse cx="162" cy="163" rx="70" ry="25" fill="#eff8fa" stroke="#477786" stroke-width="1.6"/>
+<text x="162" y="168" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">协议进程1</text>
+<ellipse cx="340" cy="163" rx="70" ry="25" fill="#eff8fa" stroke="#477786" stroke-width="1.6"/>
+<text x="340" y="168" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">协议进程2</text>
+<ellipse cx="518" cy="163" rx="70" ry="25" fill="#eff8fa" stroke="#477786" stroke-width="1.6"/>
+<text x="518" y="168" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">协议进程3</text>
+<ellipse cx="161" cy="290" rx="72" ry="25" fill="#eff8fa" stroke="#477786" stroke-width="1.6"/>
+<text x="161" y="295" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">认证逻辑1</text>
+<ellipse cx="345" cy="290" rx="72" ry="25" fill="#eff8fa" stroke="#477786" stroke-width="1.6"/>
+<text x="345" y="295" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">认证逻辑2</text>
+<ellipse cx="530" cy="290" rx="72" ry="25" fill="#eff8fa" stroke="#477786" stroke-width="1.6"/>
+<text x="530" y="295" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">认证逻辑3</text>
+<ellipse cx="716" cy="290" rx="72" ry="25" fill="#eff8fa" stroke="#477786" stroke-width="1.6"/>
+<text x="716" y="295" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">认证逻辑4</text>
+<rect x="862" y="14" width="52" height="343" fill="#cbe8ef" stroke="#477786" stroke-width="1.5"/>
+<text x="888.0" y="163.6" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">网</text>
+<text x="888.0" y="181.6" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">管</text>
+<text x="888.0" y="199.6" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">信</text>
+<text x="888.0" y="217.6" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">息</text>
+<rect x="806" y="184" width="55" height="173" fill="#cbe8ef" stroke="#477786" stroke-width="1.5"/>
+<text x="833.5" y="248.60000000000002" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">计</text>
+<text x="833.5" y="266.6" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">费</text>
+<text x="833.5" y="284.6" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">引</text>
+<text x="833.5" y="302.6" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">擎</text>
+<rect x="87" y="365" width="826" height="34" fill="#cbe8ef" stroke="#477786" stroke-width="1.5"/>
+<text x="500.0" y="387.78" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">数据库代理</text>
+<ellipse cx="250" cy="462" rx="72" ry="25" fill="#eff8fa" stroke="#477786" stroke-width="1.6"/>
+<text x="250" y="467" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">DB Server1</text>
+<ellipse cx="730" cy="462" rx="72" ry="25" fill="#eff8fa" stroke="#477786" stroke-width="1.6"/>
+<text x="730" y="467" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" fill="#173c48">DB Server2</text>
+<text x="57" y="100" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="14" fill="#173c48">协议逻辑层</text>
+<text x="57" y="240" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="14" fill="#173c48">业务逻辑层</text>
+<text x="57" y="420" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="14" fill="#173c48">数据逻辑层</text>
+</svg>

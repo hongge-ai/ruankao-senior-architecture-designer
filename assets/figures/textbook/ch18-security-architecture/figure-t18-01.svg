@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 302" role="img" aria-labelledby="title desc">
+<title id="title">表 18-1 安全防范功能对照表</title><desc id="desc">五种模型按预警、保护、检测、响应、恢复、反击、管理七项列出有无。</desc>
+<defs><marker id="arr" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto-start-reverse"><path d="M0 0L7 3.5L0 7Z" fill="#3f7586"/></marker></defs>
+<style>text{font-family:"Noto Sans CJK SC",sans-serif;fill:#153744;text-anchor:middle;dominant-baseline:central}.line{stroke:#3f7586;stroke-width:1.5;fill:none}</style>
+<rect x="8.0" y="7.0" width="98.0" height="48.0" fill="#e4f3f6" stroke="#7598a1" stroke-width="1.4"/>
+<text x="57.0" y="31.0" font-size="16">模型</text>
+<rect x="106.0" y="7.0" width="98.0" height="48.0" fill="#e4f3f6" stroke="#7598a1" stroke-width="1.4"/>
+<text x="155.0" y="31.0" font-size="16">预警</text>
+<rect x="204.0" y="7.0" width="98.0" height="48.0" fill="#e4f3f6" stroke="#7598a1" stroke-width="1.4"/>
+<text x="253.0" y="31.0" font-size="16">保护</text>
+<rect x="302.0" y="7.0" width="98.0" height="48.0" fill="#e4f3f6" stroke="#7598a1" stroke-width="1.4"/>
+<text x="351.0" y="31.0" font-size="16">检测</text>
+<rect x="400.0" y="7.0" width="98.0" height="48.0" fill="#e4f3f6" stroke="#7598a1" stroke-width="1.4"/>
+<text x="449.0" y="31.0" font-size="16">响应</text>
+<rect x="498.0" y="7.0" width="98.0" height="48.0" fill="#e4f3f6" stroke="#7598a1" stroke-width="1.4"/>
+<text x="547.0" y="31.0" font-size="16">恢复</text>
+<rect x="596.0" y="7.0" width="98.0" height="48.0" fill="#e4f3f6" stroke="#7598a1" stroke-width="1.4"/>
+<text x="645.0" y="31.0" font-size="16">反击</text>
+<rect x="694.0" y="7.0" width="98.0" height="48.0" fill="#e4f3f6" stroke="#7598a1" stroke-width="1.4"/>
+<text x="743.0" y="31.0" font-size="16">管理</text>
+<rect x="8.0" y="55.0" width="98.0" height="48.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="57.0" y="79.0" font-size="16">PDR</text>
+<rect x="106.0" y="55.0" width="98.0" height="48.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="155.0" y="79.0" font-size="16">无</text>
+<rect x="204.0" y="55.0" width="98.0" height="48.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="253.0" y="79.0" font-size="16">有</text>
+<rect x="302.0" y="55.0" width="98.0" height="48.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="351.0" y="79.0" font-size="16">有</text>
+<rect x="400.0" y="55.0" width="98.0" height="48.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="449.0" y="79.0" font-size="16">有</text>
+<rect x="498.0" y="55.0" width="98.0" height="48.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="547.0" y="79.0" font-size="16">无</text>
+<rect x="596.0" y="55.0" width="98.0" height="48.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="645.0" y="79.0" font-size="16">无</text>
+<rect x="694.0" y="55.0" width="98.0" height="48.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="743.0" y="79.0" font-size="16">无</text>
+<rect x="8.0" y="103.0" width="98.0" height="48.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="57.0" y="127.0" font-size="16">PPDR</text>
+<rect x="106.0" y="103.0" width="98.0" height="48.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="155.0" y="127.0" font-size="16">无</text>
+<rect x="204.0" y="103.0" width="98.0" height="48.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="253.0" y="127.0" font-size="16">有</text>
+<rect x="302.0" y="103.0" width="98.0" height="48.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="351.0" y="127.0" font-size="16">有</text>
+<rect x="400.0" y="103.0" width="98.0" height="48.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="449.0" y="127.0" font-size="16">有</text>
+<rect x="498.0" y="103.0" width="98.0" height="48.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="547.0" y="127.0" font-size="16">无</text>
+<rect x="596.0" y="103.0" width="98.0" height="48.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="645.0" y="127.0" font-size="16">无</text>
+<rect x="694.0" y="103.0" width="98.0" height="48.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="743.0" y="127.0" font-size="16">无</text>
+<rect x="8.0" y="151.0" width="98.0" height="48.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="57.0" y="175.0" font-size="16">PDRR</text>
+<rect x="106.0" y="151.0" width="98.0" height="48.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="155.0" y="175.0" font-size="16">无</text>
+<rect x="204.0" y="151.0" width="98.0" height="48.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="253.0" y="175.0" font-size="16">有</text>
+<rect x="302.0" y="151.0" width="98.0" height="48.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="351.0" y="175.0" font-size="16">有</text>
+<rect x="400.0" y="151.0" width="98.0" height="48.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="449.0" y="175.0" font-size="16">有</text>
+<rect x="498.0" y="151.0" width="98.0" height="48.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="547.0" y="175.0" font-size="16">有</text>
+<rect x="596.0" y="151.0" width="98.0" height="48.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="645.0" y="175.0" font-size="16">无</text>
+<rect x="694.0" y="151.0" width="98.0" height="48.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="743.0" y="175.0" font-size="16">无</text>
+<rect x="8.0" y="199.0" width="98.0" height="48.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="57.0" y="223.0" font-size="16">MPDRR</text>
+<rect x="106.0" y="199.0" width="98.0" height="48.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="155.0" y="223.0" font-size="16">无</text>
+<rect x="204.0" y="199.0" width="98.0" height="48.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="253.0" y="223.0" font-size="16">有</text>
+<rect x="302.0" y="199.0" width="98.0" height="48.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="351.0" y="223.0" font-size="16">有</text>
+<rect x="400.0" y="199.0" width="98.0" height="48.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="449.0" y="223.0" font-size="16">有</text>
+<rect x="498.0" y="199.0" width="98.0" height="48.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="547.0" y="223.0" font-size="16">有</text>
+<rect x="596.0" y="199.0" width="98.0" height="48.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="645.0" y="223.0" font-size="16">无</text>
+<rect x="694.0" y="199.0" width="98.0" height="48.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="743.0" y="223.0" font-size="16">有</text>
+<rect x="8.0" y="247.0" width="98.0" height="48.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="57.0" y="271.0" font-size="16">WPDRRC</text>
+<rect x="106.0" y="247.0" width="98.0" height="48.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="155.0" y="271.0" font-size="16">有</text>
+<rect x="204.0" y="247.0" width="98.0" height="48.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="253.0" y="271.0" font-size="16">有</text>
+<rect x="302.0" y="247.0" width="98.0" height="48.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="351.0" y="271.0" font-size="16">有</text>
+<rect x="400.0" y="247.0" width="98.0" height="48.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="449.0" y="271.0" font-size="16">有</text>
+<rect x="498.0" y="247.0" width="98.0" height="48.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="547.0" y="271.0" font-size="16">有</text>
+<rect x="596.0" y="247.0" width="98.0" height="48.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="645.0" y="271.0" font-size="16">有</text>
+<rect x="694.0" y="247.0" width="98.0" height="48.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="743.0" y="271.0" font-size="16">有</text>
+</svg>

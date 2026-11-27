@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 690 620" role="img" aria-labelledby="title desc">
+<title id="title">图 18-12 WPDRRC模型示意</title><desc id="desc">外环六个阶段顺时针循环，内圈依入库页图标出可辨项目和残存文字；三要素见正文。</desc>
+<defs><marker id="arr" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto-start-reverse"><path d="M0 0L7 3.5L0 7Z" fill="#3f7586"/></marker></defs>
+<style>text{font-family:"Noto Sans CJK SC",sans-serif;fill:#153744;text-anchor:middle;dominant-baseline:central}.line{stroke:#3f7586;stroke-width:1.5;fill:none}</style>
+<circle cx="345" cy="294" r="275" fill="#e1f0f3" stroke="#9fc2cb"/>
+<circle cx="345" cy="294" r="234" fill="#f0f8f9" stroke="#9fc2cb"/>
+<circle cx="345" cy="294" r="177" fill="#d9eef2" stroke="#9fc2cb"/>
+<circle cx="345" cy="294" r="96" fill="#f8fcfc" stroke="#9fc2cb"/>
+<rect x="313.0" y="51.0" width="64.0" height="34.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="345.0" y="68.0" font-size="16">预警</text>
+<path class="line" d="M391.78013043399585 73.91678983489373 A225 225 0 0 1 509.5545828643134 140.55036898593784" marker-end="url(#arr)"/>
+<rect x="508.7" y="164.0" width="64.0" height="34.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="540.7" y="181.0" font-size="16">保护</text>
+<path class="line" d="M558.9877161664095 224.47117626563684 A225 225 0 0 1 560.168570091683 359.78363356261576" marker-end="url(#arr)"/>
+<rect x="508.7" y="390.0" width="64.0" height="34.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="540.7" y="407.0" font-size="16">检测</text>
+<path class="line" d="M512.2075857324137 444.5543864307431 A225 225 0 0 1 395.6139872273696 513.2332645766779" marker-end="url(#arr)"/>
+<rect x="313.0" y="503.0" width="64.0" height="34.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="345.0" y="520.0" font-size="16">响应</text>
+<path class="line" d="M298.21986956600415 514.0832101651063 A225 225 0 0 1 180.44541713568665 447.4496310140622" marker-end="url(#arr)"/>
+<rect x="117.3" y="390.0" width="64.0" height="34.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="149.3" y="407.0" font-size="16">恢复</text>
+<path class="line" d="M131.01228383359046 363.5288237343632 A225 225 0 0 1 129.83142990831703 228.21636643738424" marker-end="url(#arr)"/>
+<rect x="117.3" y="164.0" width="64.0" height="34.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="149.3" y="181.0" font-size="16">反击</text>
+<path class="line" d="M177.79241426758628 143.4456135692569 A225 225 0 0 1 294.3860127726303 74.7667354233221" marker-end="url(#arr)"/>
+<text x="345.0" y="115.0" font-size="16">真实</text>
+<text x="245.0" y="172.0" font-size="16">生</text>
+<text x="330.0" y="174.0" font-size="16">信息内容</text>
+<text x="413.0" y="173.0" font-size="16">命</text>
+<text x="461.0" y="174.0" font-size="16">物</text>
+<text x="154.0" y="290.0" font-size="16">彻底</text>
+<text x="244.0" y="280.5" font-size="16">网络基础</text>
+<text x="244.0" y="299.5" font-size="16">设施</text>
+<text x="345.0" y="285.0" font-size="16">应用服务</text>
+<text x="437.0" y="290.0" font-size="16">计算环境</text>
+<text x="535.0" y="290.0" font-size="16">完整</text>
+<text x="346.0" y="370.0" font-size="16">边界与连接</text>
+<text x="243.0" y="375.0" font-size="16">周</text>
+<text x="446.0" y="375.0" font-size="16">期</text>
+<text x="345.0" y="458.0" font-size="16">可控</text>
+<text x="345.0" y="555.0" font-size="16">技术／管理／人</text>
+<text x="345.0" y="601.0" font-size="14">内圈文字按可辨字形排布；个别残字未补。</text>
+</svg>

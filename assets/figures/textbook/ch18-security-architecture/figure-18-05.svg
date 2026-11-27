@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="690" height="297" viewBox="0 0 690 297" role="img" aria-labelledby="title"><title id="title">Bell-LaPadula 模型基本原理图</title>
+<defs><marker id="a" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 8 4 0 8Z" fill="#477786"/></marker></defs>
+<rect width="690" height="297" fill="white"/>
+<text x="162" y="34" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#173c48">Subject（主体）</text>
+<text x="530" y="34" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#173c48">Object（客体）</text>
+<line x1="270" y1="157" x2="414" y2="81" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="49" y="58" width="219" height="49" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="158.5" y="88.28" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">Top Secret（绝密）</text>
+<rect x="418" y="58" width="219" height="49" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="527.5" y="88.28" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">Top Secret（绝密）</text>
+<line x1="270" y1="157" x2="414" y2="158" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="49" y="135" width="219" height="49" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="158.5" y="165.28" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">Secret（机密）</text>
+<rect x="418" y="135" width="219" height="49" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="527.5" y="165.28" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">Secret（机密）</text>
+<line x1="270" y1="157" x2="414" y2="235" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="49" y="212" width="219" height="49" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="158.5" y="242.28" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">Sensitive（秘密）</text>
+<rect x="418" y="212" width="219" height="49" fill="#eff8fa" stroke="#477786" stroke-width="1.5"/>
+<text x="527.5" y="242.28" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">Sensitive（秘密）</text>
+</svg>

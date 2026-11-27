@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 249" role="img" aria-labelledby="title desc">
+<title id="title">图 18-19 基本访问控制功能示意图</title><desc id="desc">发起者向AEF递交访问请求，AEF向ADF请求判决并依据返回判决向目标呈递请求。</desc>
+<defs><marker id="arr" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto-start-reverse"><path d="M0 0L7 3.5L0 7Z" fill="#3f7586"/></marker></defs>
+<style>text{font-family:"Noto Sans CJK SC",sans-serif;fill:#153744;text-anchor:middle;dominant-baseline:central}.line{stroke:#3f7586;stroke-width:1.5;fill:none}</style>
+<rect x="15.0" y="80.0" width="115.0" height="45.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="72.5" y="102.5" font-size="16">发起者</text>
+<rect x="250.0" y="80.0" width="111.0" height="45.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="305.5" y="102.5" font-size="16">AEF</text>
+<rect x="514.0" y="80.0" width="112.0" height="45.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="570.0" y="102.5" font-size="16">目标</text>
+<path class="line" d="M131 103 L249 103" marker-end="url(#arr)"/>
+<path class="line" d="M362 103 L513 103" marker-end="url(#arr)"/>
+<text x="189.0" y="69.0" font-size="16">递交访问请求</text>
+<text x="438.0" y="69.0" font-size="16">呈递访问请求</text>
+<rect x="250.0" y="191.0" width="111.0" height="42.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="305.5" y="212.0" font-size="16">ADF</text>
+<path class="line" d="M270 126 L270 190" marker-end="url(#arr)"/>
+<path class="line" d="M339 190 L339 126" marker-end="url(#arr)"/>
+<text x="218.0" y="158.0" font-size="16">判决请求</text>
+<text x="378.0" y="158.0" font-size="16">判决</text>
+</svg>

@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 514" role="img" aria-labelledby="title desc">
+<title id="title">图 18-13 安全体系结构技术模型示意图</title><desc id="desc">三条轴分别为协议层次、安全服务和系统单元，三个面均含安全管理；按图保留五层协议。</desc>
+<defs><marker id="arr" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto-start-reverse"><path d="M0 0L7 3.5L0 7Z" fill="#3f7586"/></marker></defs>
+<style>text{font-family:"Noto Sans CJK SC",sans-serif;fill:#153744;text-anchor:middle;dominant-baseline:central}.line{stroke:#3f7586;stroke-width:1.5;fill:none}</style>
+<style>text{paint-order:stroke fill;stroke:white;stroke-width:5px;stroke-linejoin:round}</style>
+<path class="line" d="M283 322 H618 L656 290 H321 Z"/>
+<path class="line" d="M245 354 H580 L618 322 H283 Z"/>
+<path class="line" d="M207 386 H542 L580 354 H245 Z"/>
+<path class="line" d="M169 418 H504 L542 386 H207 Z"/>
+<path class="line" d="M131 450 H466 L504 418 H169 Z"/>
+<path class="line" d="M321 290 L131 450"/>
+<path class="line" d="M321 248 L131 408"/>
+<path class="line" d="M321 206 L131 366"/>
+<path class="line" d="M321 164 L131 324"/>
+<path class="line" d="M321 122 L131 282"/>
+<path class="line" d="M321 80 L131 240"/>
+<path class="line" d="M131 450 L131 240"/>
+<path class="line" d="M321 80 L131 240 L95 270 V480 L131 450"/>
+<path class="line" d="M656 290 H711 L521 450 H466"/>
+<rect x="321.0" y="79.0" width="48.0" height="211.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<rect x="369.0" y="79.0" width="48.0" height="211.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<rect x="417.0" y="79.0" width="48.0" height="211.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<rect x="465.0" y="79.0" width="48.0" height="211.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<rect x="513.0" y="79.0" width="48.0" height="211.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<rect x="561.0" y="79.0" width="48.0" height="211.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<rect x="609.0" y="79.0" width="48.0" height="211.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<rect x="321.0" y="47.0" width="336.0" height="32.0" fill="#e4f3f6" stroke="#7598a1" stroke-width="1.4"/>
+<path class="line" d="M321 291 V18" marker-end="url(#arr)"/>
+<path class="line" d="M321 290 H728" marker-end="url(#arr)"/>
+<path class="line" d="M321 290 L78 494" marker-end="url(#arr)"/>
+<text x="459.0" y="306.0" font-size="16">通信平台</text>
+<text x="421.0" y="338.0" font-size="16">网络平台</text>
+<text x="383.0" y="370.0" font-size="16">系统平台</text>
+<text x="345.0" y="402.0" font-size="16">应用平台</text>
+<text x="307.0" y="434.0" font-size="16">物理环境</text>
+<text x="218.0" y="347.0" font-size="16">物理层</text>
+<text x="218.0" y="305.0" font-size="16">链路层</text>
+<text x="218.0" y="263.0" font-size="16">网络层</text>
+<text x="218.0" y="221.0" font-size="16">传输层</text>
+<text x="218.0" y="179.0" font-size="16">应用层</text>
+<text x="110.0" y="326.5" font-size="14">安</text>
+<text x="110.0" y="343.5" font-size="14">全</text>
+<text x="110.0" y="360.5" font-size="14">管</text>
+<text x="110.0" y="377.5" font-size="14">理</text>
+<text x="589.0" y="371.0" font-size="14">安全管理</text>
+<text x="345.0" y="175.0" font-size="16">认</text>
+<text x="345.0" y="194.0" font-size="16">证</text>
+<text x="393.0" y="156.0" font-size="16">访</text>
+<text x="393.0" y="175.0" font-size="16">问</text>
+<text x="393.0" y="194.0" font-size="16">控</text>
+<text x="393.0" y="213.0" font-size="16">制</text>
+<text x="441.0" y="146.5" font-size="16">数</text>
+<text x="441.0" y="165.5" font-size="16">据</text>
+<text x="441.0" y="184.5" font-size="16">完</text>
+<text x="441.0" y="203.5" font-size="16">整</text>
+<text x="441.0" y="222.5" font-size="16">性</text>
+<text x="489.0" y="156.0" font-size="16">数</text>
+<text x="489.0" y="175.0" font-size="16">据</text>
+<text x="489.0" y="194.0" font-size="16">保</text>
+<text x="489.0" y="213.0" font-size="16">密</text>
+<text x="537.0" y="165.5" font-size="16">抗</text>
+<text x="537.0" y="184.5" font-size="16">抵</text>
+<text x="537.0" y="203.5" font-size="16">赖</text>
+<text x="585.0" y="175.0" font-size="16">审</text>
+<text x="585.0" y="194.0" font-size="16">计</text>
+<text x="633.0" y="165.5" font-size="16">可</text>
+<text x="633.0" y="184.5" font-size="16">用</text>
+<text x="633.0" y="203.5" font-size="16">性</text>
+<text x="489.0" y="63.0" font-size="16">安全管理</text>
+<text x="255.0" y="20.0" font-size="16">协议层次</text>
+<text x="777.0" y="292.0" font-size="16">安全服务</text>
+<text x="142.0" y="495.0" font-size="16">系统单元</text>
+</svg>

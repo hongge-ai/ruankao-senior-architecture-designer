@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 712 330" role="img" aria-labelledby="title desc">
+<title id="title">图 18-20 ADF示意图</title><desc id="desc">判决请求、三类ADI、上下文和策略输入ADF；ADF输出判决，保持的ADI回送。</desc>
+<defs><marker id="arr" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto-start-reverse"><path d="M0 0L7 3.5L0 7Z" fill="#3f7586"/></marker></defs>
+<style>text{font-family:"Noto Sans CJK SC",sans-serif;fill:#153744;text-anchor:middle;dominant-baseline:central}.line{stroke:#3f7586;stroke-width:1.5;fill:none}</style>
+<rect x="222.0" y="91.0" width="273.0" height="146.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="359.0" y="152.0" font-size="23">ADF</text>
+<rect x="353.0" y="192.0" width="142.0" height="45.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="424.0" y="214.5" font-size="16">保持的ADI</text>
+<path class="line" d="M273 35 L273 90" marker-end="url(#arr)"/>
+<path class="line" d="M424 90 L424 35" marker-end="url(#arr)"/>
+<text x="225.0" y="48.0" font-size="16">判决请求</text>
+<text x="469.0" y="47.0" font-size="16">判决</text>
+<path class="line" d="M107 119 L220 119" marker-end="url(#arr)"/>
+<text x="105.0" y="101.0" font-size="16">发起者ADI</text>
+<path class="line" d="M107 176 L220 176" marker-end="url(#arr)"/>
+<text x="105.0" y="158.0" font-size="16">访问请求ADI</text>
+<path class="line" d="M643 110 L496 110" marker-end="url(#arr)"/>
+<text x="591.0" y="95.0" font-size="16">目标ADI</text>
+<path class="line" d="M643 145 L496 145" marker-end="url(#arr)"/>
+<text x="591.0" y="130.0" font-size="16">上下文背景信息</text>
+<path class="line" d="M429 238 V275 H545 V173 H496" marker-end="url(#arr)"/>
+<path class="line" d="M264 302 L264 238" marker-end="url(#arr)"/>
+<text x="343.0" y="286.0" font-size="16">访问控制策略规则</text>
+</svg>

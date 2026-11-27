@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 643 258" role="img" aria-labelledby="title desc">
+<title id="title">图 18-22 抗抵赖过程的纠纷解决阶段</title><desc id="desc">抗抵赖策略、公认仲裁者及向其提出纠纷的原告与被告。</desc>
+<defs><marker id="arr" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto-start-reverse"><path d="M0 0L7 3.5L0 7Z" fill="#3f7586"/></marker></defs>
+<style>text{font-family:"Noto Sans CJK SC",sans-serif;fill:#153744;text-anchor:middle;dominant-baseline:central}.line{stroke:#3f7586;stroke-width:1.5;fill:none}</style>
+<rect x="11.0" y="11.0" width="620.0" height="201.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<rect x="172.0" y="26.0" width="300.0" height="35.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="322.0" y="43.5" font-size="16">抗抵赖策略</text>
+<rect x="191.0" y="72.0" width="231.0" height="36.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<rect x="203.0" y="79.0" width="231.0" height="36.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<rect x="215.0" y="86.0" width="231.0" height="36.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="330.5" y="104.0" font-size="16">公认仲裁者</text>
+<rect x="45.0" y="163.0" width="93.0" height="33.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="91.5" y="179.5" font-size="16">被告</text>
+<rect x="503.0" y="163.0" width="93.0" height="33.0" fill="white" stroke="#7598a1" stroke-width="1.4"/>
+<text x="549.5" y="179.5" font-size="16">原告</text>
+<path class="line" d="M102 162 L226 123" marker-end="url(#arr)"/>
+<path class="line" d="M548 162 L439 123" marker-end="url(#arr)"/>
+<text x="322.0" y="237.0" font-size="14">注：本图是示意图，并非定义。</text>
+</svg>
