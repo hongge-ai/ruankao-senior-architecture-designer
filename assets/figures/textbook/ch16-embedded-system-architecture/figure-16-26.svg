@@ -6,8 +6,8 @@
 <text x="164" y="40" text-anchor="start" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">任务</text>
 <text x="164" y="93" text-anchor="start" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">信息隐藏模块</text>
 <text x="164" y="146" text-anchor="start" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">松散耦合消息通信：消息队列</text>
-<text x="164" y="199" text-anchor="start" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">无回复紧凑耦合消息通信</text>
-<text x="164" y="252" text-anchor="start" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">紧凑耦合消息通信：消息/回复</text>
+<text x="164" y="199" text-anchor="start" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">无回复紧密耦合消息通信</text>
+<text x="164" y="252" text-anchor="start" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">紧密耦合消息通信：消息/回复</text>
 <text x="164" y="305" text-anchor="start" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#173c48">事件</text>
 <line x1="21" y1="142" x2="134" y2="142" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>
 <line x1="21" y1="195" x2="134" y2="195" stroke="#477786" stroke-width="1.6" marker-end="url(#a)"/>

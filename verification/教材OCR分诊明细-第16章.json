@@ -3405,14 +3405,1367 @@
       "sources": [
         "入库教材 PDF 物理 605 / 印刷 598，页图直接目读"
       ]
+    },
+    {
+      "id": "ch16r2a-01",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第01节-嵌入式系统概述.md",
+      "loc": "印刷 543（物理 550）",
+      "ocr": "存储器 (memory) 主要用于存储",
+      "current": "存储器 (memory) 主要用于存储",
+      "final": "存储器 (memory) 是主要用于存储",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "后半句“的记忆部件”需要与“是”组成定义句。",
+      "sources": [
+        "教材 PDF 物理页 550（印刷页 543），OCR衍生版面"
+      ]
+    },
+    {
+      "id": "ch16r2a-02",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第01节-嵌入式系统概述.md",
+      "loc": "印刷 543（物理 550）",
+      "ocr": "存储器根据结构的不同分类多种",
+      "current": "存储器根据结构的不同分类多种",
+      "final": "存储器根据结构的不同可分为多种",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "下文“其分类如下”列举多种存储器，使用“可分为多种”。",
+      "sources": [
+        "教材 PDF 物理页 550（印刷页 543），OCR衍生版面"
+      ]
+    },
+    {
+      "id": "ch16r2a-03",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第01节-嵌入式系统概述.md",
+      "loc": "印刷 544（物理 551）",
+      "ocr": "一般的动态随机处理内存处理速度",
+      "current": "一般的动态随机处理内存处理速度",
+      "final": "一般的动态随机存取存储器处理速度",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "该项上方紧邻DRAM全称，与SRAM进行速度比较时沿用同一术语。",
+      "sources": [
+        "教材 PDF 物理页 551（印刷页 544），OCR衍生版面"
+      ]
+    },
+    {
+      "id": "ch16r2a-04",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第01节-嵌入式系统概述.md",
+      "loc": "印刷 544（物理 551）",
+      "ocr": "多插槽动态随机存取存储器",
+      "current": "多插槽动态随机存取存储器",
+      "final": "多存储体动态随机存取存储器",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "英文Multi-Bank及本段“内部…储存库(BANK)”说明是芯片内部多个存储体，与硬件插槽不同。",
+      "sources": [
+        "教材 PDF 物理页 551（印刷页 544），OCR衍生版面"
+      ]
+    },
+    {
+      "id": "ch16r2a-05",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第01节-嵌入式系统概述.md",
+      "loc": "印刷 545（物理 552）",
+      "ocr": "之后的未来新标准。DDR II的详细规格目前尚未确定。",
+      "current": "之后的未来新标准。DDR II的详细规格目前尚未确定。",
+      "final": "之后形成的标准。DDR II（DDR2 SDRAM）的规格已由JEDEC JESD79-2系列标准规定。",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "两项独立工程实现分别引JESD79-2F与JESD79-2C，足以确认已有规格。",
+      "sources": [
+        "教材 PDF 物理页 552（印刷页 545），OCR衍生版面",
+        "https://github.com/torvalds/linux/blob/9437ee8b6cf607e883b36e44bd755968daaebd48/include/linux/edac.h",
+        "https://github.com/teslamotors/coreboot/blob/ea193411417dda86f90d89e51dc93367ebee9ab2/src/northbridge/via/cn700/raminit.c"
+      ]
+    },
+    {
+      "id": "ch16r2a-06",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第01节-嵌入式系统概述.md",
+      "loc": "印刷 546（物理 553）",
+      "ocr": "线路最简单半导体电路",
+      "current": "线路最简单半导体电路",
+      "final": "线路最简单的半导体电路",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "形容词短语需“的”连接其修饰的“半导体电路”。",
+      "sources": [
+        "教材 PDF 物理页 553（印刷页 546），OCR衍生版面"
+      ]
+    },
+    {
+      "id": "ch16r2a-07",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第01节-嵌入式系统概述.md",
+      "loc": "印刷 547（物理 554）",
+      "ocr": "按连接部件分类，还可分片内总线",
+      "current": "按连接部件分类，还可分片内总线",
+      "final": "按连接部件分类，还可分为片内总线",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "后列四种并列类别，与前文“分为”句法一致。",
+      "sources": [
+        "教材 PDF 物理页 554（印刷页 547），OCR衍生版面"
+      ]
+    },
+    {
+      "id": "ch16r2a-08",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第01节-嵌入式系统概述.md",
+      "loc": "印刷 547（物理 554）",
+      "ocr": "它是连接计算机系统的主要组件。",
+      "current": "它是连接计算机系统的主要组件。",
+      "final": "它连接计算机系统的主要组件。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "下句举CPU、主存与I/O接口为连接对象，连接是谓语。",
+      "sources": [
+        "教材 PDF 物理页 554（印刷页 547），OCR衍生版面"
+      ]
+    },
+    {
+      "id": "ch16r2a-09",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第02节-嵌入式系统软件架构原理与特征.md",
+      "loc": "印刷 555（物理 562）",
+      "ocr": "三种基本状态转换：",
+      "current": "三种基本状态转换：",
+      "final": "三种基本状态之间的转换：",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "图及下文列四种转换，三种指状态数。",
+      "sources": [
+        "教材 PDF 物理页 562（印刷页 555），OCR衍生版面"
+      ]
+    },
+    {
+      "id": "ch16r2a-10",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第02节-嵌入式系统软件架构原理与特征.md",
+      "loc": "印刷 556（物理 563）",
+      "ocr": "调度原理见图 16-12 (a)。",
+      "current": "调度原理见图 16-12 (a)。",
+      "final": "图 16-12（b）给出了该算例的调度轨迹。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "图(a)给出截止时间标记而非实际任务切换，执行轨迹在图(b)。",
+      "sources": [
+        "教材 PDF 物理页 563（印刷页 556），OCR衍生版面"
+      ]
+    },
+    {
+      "id": "ch16r2a-11",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第02节-嵌入式系统软件架构原理与特征.md",
+      "loc": "印刷 557（物理 564）",
+      "ocr": "> 图 16-12 LLF调度原理示例",
+      "current": "> 图 16-12 LLF调度原理示例",
+      "final": "> 图 16-12 LLF调度原理示例\n\n按图中已执行的时段计算，在20 ms时，A₂的松弛度为40−10−20＝10 ms，B₁为50−15−20＝15 ms。按最低松弛度优先规则，此时应选择A₂。图中B₁继续运行至30 ms，与该规则不符。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "沿扫描图前20 ms的执行轨迹按本节定义复算，两值不等，无须选择同值调度约定。保留原图，指出首次可证的不一致。",
+      "sources": [
+        "教材 PDF 物理页 564（印刷页 557），整页扫描"
+      ]
+    },
+    {
+      "id": "ch16r2a-12",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第02节-嵌入式系统软件架构原理与特征.md",
+      "loc": "图16-9",
+      "ocr": "内核空间横向虚线及两端上行箭头",
+      "current": "未绘",
+      "final": "复原内核空间虚线及两端上行箭头",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "原图放大可见内核空间中横向虚线在两端向上折返，补足图中连接。",
+      "sources": [
+        "教材 PDF 物理页561（印刷页554），图16-9"
+      ]
+    },
+    {
+      "id": "ch16r2a-13",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第02节-嵌入式系统软件架构原理与特征.md",
+      "loc": "印刷 556（物理 563）",
+      "ocr": "任务A和B每次必须完成的时间A?，A2，A3，…和B1，B2，B3，…。如图16-12（b）所示。",
+      "current": "任务A和B每次必须完成的时间为A₁、A₂、A₃、…和B₁、B₂、B₃、…。如图 16-12 (b) 所示。",
+      "final": "任务A和B各周期的截止时间分别由A₁、A₂、A₃、…和B₁、B₂、B₃、…标示，如图 16-12（a）所示。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "图(a)上方A和下方B标示各周期截止时间；图(b)是执行轨迹，两处应分别对应。",
+      "sources": [
+        "教材 PDF 物理页 563（印刷页 556），OCR衍生版面"
+      ]
+    },
+    {
+      "id": "ch16r2a-14",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第02节-嵌入式系统软件架构原理与特征.md",
+      "loc": "图16-6",
+      "ocr": "从菱形回到从属端的虚线，上方有箭头",
+      "current": "从属端未标箭头",
+      "final": "从属端补上向上箭头",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "页图直接放大辨认，虚线折向圆点，箭头在圆点下方。",
+      "sources": [
+        "教材 PDF 物理页557（印刷页550），图16-6"
+      ]
+    },
+    {
+      "id": "ch16r2a-15",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第02节-嵌入式系统软件架构原理与特征.md",
+      "loc": "印刷557（物理564）RMS固定优先级最优性",
+      "ocr": "如果存在一种基于静态优先级的调度顺序，使得每个任务都能在其期限时间内完成，那么RMS算法总能找到这样的一种可行调度方案。",
+      "current": "如果存在一种基于静态优先级的调度顺序，使得每个任务都能在其期限时间内完成，那么RMS算法总能找到这样的一种可行调度方案。",
+      "final": "对于单处理器上的独立、可抢占周期任务，若每个任务的相对截止时间等于其周期，且存在可行的固定优先级调度方案，则按RMS分配优先级也能使所有任务按期完成。",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "RTEMS手册说明单处理器、独立、可抢占、周期任务及按期执行的假设，Hailperin教材在截止期等于周期的情形说明RMS在固定优先级方法中的最优性。",
+      "sources": [
+        "教材 PDF 物理页564（印刷页557），整页扫描",
+        "https://github.com/RTEMS/rtems-docs/blob/bc907a72e7d106fa58c467eca0cebf3e2e8aabfd/c-user/rate-monotonic/background.md",
+        "https://github.com/Max-Hailperin/Operating-Systems-and-Middleware--Supporting-Controlled-Interaction/blob/3567f8f83eafec7c2238271bbd18bea5e0c4f22f/scheduling.tex"
+      ]
+    },
+    {
+      "id": "ch16r2a-16",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第02节-嵌入式系统软件架构原理与特征.md",
+      "loc": "印刷557（物理564）RMS固定优先级最优性",
+      "ocr": "单调速率调度可认为是最优的，因为如果一组进程不能由此算法调度，它不能由任何其他分配静态优先级的算法来调度。",
+      "current": "单调速率调度可认为是最优的，因为如果一组进程不能由此算法调度，它不能由任何其他分配静态优先级的算法来调度。",
+      "final": "在上述任务模型下，单调速率调度在固定优先级调度方法中是最优的：若RMS不能使所有任务按期完成，其他固定优先级分配也不能。",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "RTEMS手册说明单处理器、独立、可抢占、周期任务及按期执行的假设，Hailperin教材在截止期等于周期的情形说明RMS在固定优先级方法中的最优性。",
+      "sources": [
+        "教材 PDF 物理页564（印刷页557），整页扫描",
+        "https://github.com/RTEMS/rtems-docs/blob/bc907a72e7d106fa58c467eca0cebf3e2e8aabfd/c-user/rate-monotonic/background.md",
+        "https://github.com/Max-Hailperin/Operating-Systems-and-Middleware--Supporting-Controlled-Interaction/blob/3567f8f83eafec7c2238271bbd18bea5e0c4f22f/scheduling.tex"
+      ]
+    },
+    {
+      "id": "ch16r2b-001",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第02节-嵌入式系统软件架构原理与特征.md",
+      "loc": "物理 565 / 印刷 558，16.2第二轮",
+      "ocr": "(即逻辑地址),将",
+      "current": "(即逻辑地址),将",
+      "final": "(即逻辑地址)，将",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "规范中文句中标点或字间距。",
+      "sources": [
+        "入库教材 PDF 物理 565 / 印刷 558，第二轮页图目读"
+      ]
+    },
+    {
+      "id": "ch16r2b-002",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第02节-嵌入式系统软件架构原理与特征.md",
+      "loc": "物理 566 / 印刷 559，16.2第二轮",
+      "ocr": "(如：MMU), 即",
+      "current": "(如：MMU), 即",
+      "final": "(如MMU)，即",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "规范中文句中标点或字间距。",
+      "sources": [
+        "入库教材 PDF 物理 566 / 印刷 559，第二轮页图目读"
+      ]
+    },
+    {
+      "id": "ch16r2b-003",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第02节-嵌入式系统软件架构原理与特征.md",
+      "loc": "物理 566 / 印刷 559，16.2第二轮",
+      "ocr": "(frame), 也",
+      "current": "(frame), 也",
+      "final": "(frame)，也",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "规范中文句中标点或字间距。",
+      "sources": [
+        "入库教材 PDF 物理 566 / 印刷 559，第二轮页图目读"
+      ]
+    },
+    {
+      "id": "ch16r2b-004",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第02节-嵌入式系统软件架构原理与特征.md",
+      "loc": "物理 566 / 印刷 559，16.2第二轮",
+      "ocr": "数据段D 及",
+      "current": "数据段D 及",
+      "final": "数据段D及",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "规范中文句中标点或字间距。",
+      "sources": [
+        "入库教材 PDF 物理 566 / 印刷 559，第二轮页图目读"
+      ]
+    },
+    {
+      "id": "ch16r2b-005",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第02节-嵌入式系统软件架构原理与特征.md",
+      "loc": "物理 566 / 印刷 559，16.2第二轮",
+      "ocr": "(称为时间局部性),在空间上",
+      "current": "(称为时间局部性),在空间上",
+      "final": "(称为时间局部性)，在空间上",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "规范中文句中标点或字间距。",
+      "sources": [
+        "入库教材 PDF 物理 566 / 印刷 559，第二轮页图目读"
+      ]
+    },
+    {
+      "id": "ch16r2b-006",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第02节-嵌入式系统软件架构原理与特征.md",
+      "loc": "物理 566 / 印刷 559，16.2第二轮",
+      "ocr": "(称为空间局部性),有些",
+      "current": "(称为空间局部性),有些",
+      "final": "(称为空间局部性)，有些",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "规范中文句中标点或字间距。",
+      "sources": [
+        "入库教材 PDF 物理 566 / 印刷 559，第二轮页图目读"
+      ]
+    },
+    {
+      "id": "ch16r2b-007",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第02节-嵌入式系统软件架构原理与特征.md",
+      "loc": "物理 568 / 印刷 561，16.2第二轮",
+      "ocr": "Signals (信号):用于",
+      "current": "Signals (信号):用于",
+      "final": "Signals (信号)：用于",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "规范中文句中标点或字间距。",
+      "sources": [
+        "入库教材 PDF 物理 568 / 印刷 561，第二轮页图目读"
+      ]
+    },
+    {
+      "id": "ch16r2b-008",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第02节-嵌入式系统软件架构原理与特征.md",
+      "loc": "物理 569 / 印刷 562，16.2第二轮",
+      "ocr": "一个“文件”,在",
+      "current": "一个“文件”,在",
+      "final": "一个“文件”，在",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "规范中文句中标点或字间距。",
+      "sources": [
+        "入库教材 PDF 物理 569 / 印刷 562，第二轮页图目读"
+      ]
+    },
+    {
+      "id": "ch16r2b-009",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第02节-嵌入式系统软件架构原理与特征.md",
+      "loc": "物理 572 / 印刷 565，16.2第二轮",
+      "ocr": "数据库通过 SQL来",
+      "current": "数据库通过 SQL来",
+      "final": "数据库通过SQL来",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "规范中文句中标点或字间距。",
+      "sources": [
+        "入库教材 PDF 物理 572 / 印刷 565，第二轮页图目读"
+      ]
+    },
+    {
+      "id": "ch16r2b-010",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第02节-嵌入式系统软件架构原理与特征.md",
+      "loc": "物理 574 / 印刷 567，16.2第二轮",
+      "ocr": "嵌入式版本),而像",
+      "current": "嵌入式版本),而像",
+      "final": "嵌入式版本)，而像",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "规范中文句中标点或字间距。",
+      "sources": [
+        "入库教材 PDF 物理 574 / 印刷 567，第二轮页图目读"
+      ]
+    },
+    {
+      "id": "ch16r2b-011",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第02节-嵌入式系统软件架构原理与特征.md",
+      "loc": "物理 574 / 印刷 567，16.2第二轮",
+      "ocr": "(daemon), 而",
+      "current": "(daemon), 而",
+      "final": "(daemon)，而",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "规范中文句中标点或字间距。",
+      "sources": [
+        "入库教材 PDF 物理 574 / 印刷 567，第二轮页图目读"
+      ]
+    },
+    {
+      "id": "ch16r2b-012",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第02节-嵌入式系统软件架构原理与特征.md",
+      "loc": "物理 575 / 印刷 568，16.2第二轮",
+      "ocr": "(主要是数据操作接口), 用户",
+      "current": "(主要是数据操作接口), 用户",
+      "final": "(主要是数据操作接口)，用户",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "规范中文句中标点或字间距。",
+      "sources": [
+        "入库教材 PDF 物理 575 / 印刷 568，第二轮页图目读"
+      ]
+    },
+    {
+      "id": "ch16r2b-013",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第02节-嵌入式系统软件架构原理与特征.md",
+      "loc": "物理 575 / 印刷 568，16.2第二轮",
+      "ocr": "几百 “KB” 的内存",
+      "current": "几百 “KB” 的内存",
+      "final": "几百KB的内存",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "规范中文句中标点或字间距。",
+      "sources": [
+        "入库教材 PDF 物理 575 / 印刷 568，第二轮页图目读"
+      ]
+    },
+    {
+      "id": "ch16r2b-014",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第02节-嵌入式系统软件架构原理与特征.md",
+      "loc": "物理 576 / 印刷 569，16.2第二轮",
+      "ocr": "B-树 (B-tree), 页缓存",
+      "current": "B-树 (B-tree), 页缓存",
+      "final": "B-树 (B-tree)、页缓存",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "规范中文句中标点或字间距。",
+      "sources": [
+        "入库教材 PDF 物理 576 / 印刷 569，第二轮页图目读"
+      ]
+    },
+    {
+      "id": "ch16r2b-015",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第02节-嵌入式系统软件架构原理与特征.md",
+      "loc": "物理 581 / 印刷 574，16.2第二轮",
+      "ocr": "(Enterprise Service Bus,ESB):ESB",
+      "current": "(Enterprise Service Bus,ESB):ESB",
+      "final": "(Enterprise Service Bus, ESB)：ESB",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "规范中文句中标点或字间距。",
+      "sources": [
+        "入库教材 PDF 物理 581 / 印刷 574，第二轮页图目读"
+      ]
+    },
+    {
+      "id": "ch16r2b-016",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第02节-嵌入式系统软件架构原理与特征.md",
+      "loc": "物理 581 / 印刷 574，16.2第二轮",
+      "ocr": "(Distributed Computing Environment): 指",
+      "current": "(Distributed Computing Environment): 指",
+      "final": "(Distributed Computing Environment)：指",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "规范中文句中标点或字间距。",
+      "sources": [
+        "入库教材 PDF 物理 581 / 印刷 574，第二轮页图目读"
+      ]
+    },
+    {
+      "id": "ch16r2b-017",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第02节-嵌入式系统软件架构原理与特征.md",
+      "loc": "物理 581 / 印刷 574，16.2第二轮",
+      "ocr": "(Remote Procedure Call): 指",
+      "current": "(Remote Procedure Call): 指",
+      "final": "(Remote Procedure Call)：指",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "规范中文句中标点或字间距。",
+      "sources": [
+        "入库教材 PDF 物理 581 / 印刷 574，第二轮页图目读"
+      ]
+    },
+    {
+      "id": "ch16r2b-018",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第02节-嵌入式系统软件架构原理与特征.md",
+      "loc": "物理 581 / 印刷 574，16.2第二轮",
+      "ocr": "(Object Request Broker,ORB):为",
+      "current": "(Object Request Broker,ORB):为",
+      "final": "(Object Request Broker, ORB)：为",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "规范中文句中标点或字间距。",
+      "sources": [
+        "入库教材 PDF 物理 581 / 印刷 574，第二轮页图目读"
+      ]
+    },
+    {
+      "id": "ch16r2b-019",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第02节-嵌入式系统软件架构原理与特征.md",
+      "loc": "物理 581 / 印刷 574，16.2第二轮",
+      "ocr": "(Database Access Middleware): 支持",
+      "current": "(Database Access Middleware): 支持",
+      "final": "(Database Access Middleware)：支持",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "规范中文句中标点或字间距。",
+      "sources": [
+        "入库教材 PDF 物理 581 / 印刷 574，第二轮页图目读"
+      ]
+    },
+    {
+      "id": "ch16r2b-020",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第02节-嵌入式系统软件架构原理与特征.md",
+      "loc": "物理 581 / 印刷 574，16.2第二轮",
+      "ocr": "(Message passing): 电子",
+      "current": "(Message passing): 电子",
+      "final": "(Message passing)：电子",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "规范中文句中标点或字间距。",
+      "sources": [
+        "入库教材 PDF 物理 581 / 印刷 574，第二轮页图目读"
+      ]
+    },
+    {
+      "id": "ch16r2b-021",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第02节-嵌入式系统软件架构原理与特征.md",
+      "loc": "物理 581 / 印刷 574，16.2第二轮",
+      "ocr": "(XML-Based Middleware):XML",
+      "current": "(XML-Based Middleware):XML",
+      "final": "(XML-Based Middleware)：XML",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "规范中文句中标点或字间距。",
+      "sources": [
+        "入库教材 PDF 物理 581 / 印刷 574，第二轮页图目读"
+      ]
+    },
+    {
+      "id": "ch16r2b-022",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第02节-嵌入式系统软件架构原理与特征.md",
+      "loc": "物理 582 / 印刷 575，16.2第二轮",
+      "ocr": "不必了解对方、只需要",
+      "current": "不必了解对方、只需要",
+      "final": "不必了解对方，只需要",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "规范中文句中标点或字间距。",
+      "sources": [
+        "入库教材 PDF 物理 582 / 印刷 575，第二轮页图目读"
+      ]
+    },
+    {
+      "id": "ch16r2b-023",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第02节-嵌入式系统软件架构原理与特征.md",
+      "loc": "物理 582 / 印刷 575，16.2第二轮",
+      "ocr": "队列 (Queue), 在",
+      "current": "队列 (Queue), 在",
+      "final": "队列 (Queue)，在",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "规范中文句中标点或字间距。",
+      "sources": [
+        "入库教材 PDF 物理 582 / 印刷 575，第二轮页图目读"
+      ]
+    },
+    {
+      "id": "ch16r2b-024",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第02节-嵌入式系统软件架构原理与特征.md",
+      "loc": "物理 583 / 印刷 576，16.2第二轮",
+      "ocr": "(ORB): 规定",
+      "current": "(ORB): 规定",
+      "final": "(ORB)：规定",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "规范中文句中标点或字间距。",
+      "sources": [
+        "入库教材 PDF 物理 583 / 印刷 576，第二轮页图目读"
+      ]
+    },
+    {
+      "id": "ch16r2b-025",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第02节-嵌入式系统软件架构原理与特征.md",
+      "loc": "物理 584 / 印刷 577，16.2第二轮",
+      "ocr": "(或文件系统),应用程序",
+      "current": "(或文件系统),应用程序",
+      "final": "(或文件系统)，应用程序",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "规范中文句中标点或字间距。",
+      "sources": [
+        "入库教材 PDF 物理 584 / 印刷 577，第二轮页图目读"
+      ]
+    },
+    {
+      "id": "ch16r2b-026",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第02节-嵌入式系统软件架构原理与特征.md",
+      "loc": "物理 565 / 印刷 558，16.2第二轮",
+      "ocr": "可变分区调度算法如下",
+      "current": "可变分区调度算法如下",
+      "final": "可变分区分配算法如下",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "紧接的首次适应、最佳适应和最坏适应三项均为给作业分配空闲分区的算法，非任务调度。",
+      "sources": [
+        "入库教材 PDF 物理 565 / 印刷 558，第二轮页图目读"
+      ]
+    },
+    {
+      "id": "ch16r2b-027",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第02节-嵌入式系统软件架构原理与特征.md",
+      "loc": "物理 566 / 印刷 559，16.2第二轮",
+      "ocr": "外部储存器存储空间",
+      "current": "外部储存器存储空间",
+      "final": "外部存储器的存储空间",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "与本段内存、外存及表16-1的“存储管理”术语统一。",
+      "sources": [
+        "入库教材 PDF 物理 566 / 印刷 559，第二轮页图目读"
+      ]
+    },
+    {
+      "id": "ch16r2b-028",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第02节-嵌入式系统软件架构原理与特征.md",
+      "loc": "物理 566 / 印刷 559，16.2第二轮",
+      "ocr": "虚拟存储技术不仅可让我们可以使用",
+      "current": "虚拟存储技术不仅可让我们可以使用",
+      "final": "虚拟存储技术不仅可以让我们使用",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "删去同一谓语的重复情态词。",
+      "sources": [
+        "入库教材 PDF 物理 566 / 印刷 559，第二轮页图目读"
+      ]
+    },
+    {
+      "id": "ch16r2b-029",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第02节-嵌入式系统软件架构原理与特征.md",
+      "loc": "物理 567 / 印刷 560，16.2第二轮",
+      "ocr": "Linux支持SYSTEMV的共享内存IPC机制",
+      "current": "Linux支持SYSTEMV的共享内存IPC机制",
+      "final": "Linux支持System V的共享内存IPC机制",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "System V是Unix系统名称；共享内存属于System V IPC。",
+      "sources": [
+        "入库教材 PDF 物理 567 / 印刷 560，第二轮页图目读"
+      ]
+    },
+    {
+      "id": "ch16r2b-030",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第02节-嵌入式系统软件架构原理与特征.md",
+      "loc": "物理 568 / 印刷 561，16.2第二轮",
+      "ocr": "最快速通信。也是提供",
+      "current": "最快速通信。也是提供",
+      "final": "最快速通信，也是提供",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "两项并列谓语共用同一主语。",
+      "sources": [
+        "入库教材 PDF 物理 568 / 印刷 561，第二轮页图目读"
+      ]
+    },
+    {
+      "id": "ch16r2b-031",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第02节-嵌入式系统软件架构原理与特征.md",
+      "loc": "物理 568 / 印刷 561，16.2第二轮",
+      "ocr": "对共享资源的访问。并且比",
+      "current": "对共享资源的访问。并且比",
+      "final": "对共享资源的访问，并且比",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "同一主语的并列分句。",
+      "sources": [
+        "入库教材 PDF 物理 568 / 印刷 561，第二轮页图目读"
+      ]
+    },
+    {
+      "id": "ch16r2b-032",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第02节-嵌入式系统软件架构原理与特征.md",
+      "loc": "物理 569 / 印刷 562，16.2第二轮",
+      "ocr": "即它必须同时释放发送和接收消息的任务",
+      "current": "即它必须同时释放发送和接收消息的任务",
+      "final": "即发送任务和接收任务不必同时运行",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "解决ch16b-018。该句解释队列缓冲为何能分隔两端。Zephyr及FreeRTOS的队列文档独立说明缓冲、异步读写及满/空时可等待。",
+      "sources": [
+        "入库教材 PDF 物理 569 / 印刷 562，第二轮页图目读",
+        "https://raw.githubusercontent.com/zephyrproject-rtos/zephyr/main/doc/kernel/services/data_passing/message_queues.rst（2026-11-27 核阅）",
+        "https://raw.githubusercontent.com/FreeRTOS/FreeRTOS-Kernel/main/include/queue.h（2026-11-27 核阅）"
+      ]
+    },
+    {
+      "id": "ch16r2b-033",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第02节-嵌入式系统软件架构原理与特征.md",
+      "loc": "物理 569 / 印刷 562，16.2第二轮",
+      "ocr": "管道 (pipeline) 是消息队列中的一种，是UNIX操作系统中传统的进程通信技术",
+      "current": "管道 (pipeline) 是消息队列中的一种，是UNIX操作系统中传统的进程通信技术",
+      "final": "管道 (pipe) 是UNIX操作系统中传统的进程通信技术",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "Linux和FreeBSD分别说明pipe提供进程间的字节流通道，Linux消息队列按消息边界读取。pipeline为shell管线，二者在此误置。",
+      "sources": [
+        "入库教材 PDF 物理 569 / 印刷 562，第二轮页图目读",
+        "https://raw.githubusercontent.com/mkerrisk/man-pages/master/man7/pipe.7（2026-11-27 核阅）",
+        "https://raw.githubusercontent.com/freebsd/freebsd-src/main/lib/libsys/pipe.2（2026-11-27 核阅）",
+        "https://raw.githubusercontent.com/mkerrisk/man-pages/master/man7/mq_overview.7（2026-11-27 核阅）"
+      ]
+    },
+    {
+      "id": "ch16r2b-034",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第02节-嵌入式系统软件架构原理与特征.md",
+      "loc": "物理 569 / 印刷 562，16.2第二轮",
+      "ocr": "在传统的实现中，管道是单向数据交换。如图 16-15 所示。",
+      "current": "在传统的实现中，管道是单向数据交换。如图 16-15 所示。",
+      "final": "在传统的实现中，管道是单向数据交换，如图 16-15 所示。",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "规范中文句中标点或字间距。",
+      "sources": [
+        "入库教材 PDF 物理 569 / 印刷 562，第二轮页图目读"
+      ]
+    },
+    {
+      "id": "ch16r2b-035",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第02节-嵌入式系统软件架构原理与特征.md",
+      "loc": "物理 569 / 印刷 562，16.2第二轮",
+      "ocr": "多个读任务的管道和有多个写任务",
+      "current": "多个读任务的管道和有多个写任务",
+      "final": "多个读任务和多个写任务访问同一管道",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "修复并列成分残缺，保留管道可被多个读者和写者使用之意。",
+      "sources": [
+        "入库教材 PDF 物理 569 / 印刷 562，第二轮页图目读"
+      ]
+    },
+    {
+      "id": "ch16r2b-036",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第02节-嵌入式系统软件架构原理与特征.md",
+      "loc": "物理 569 / 印刷 562，16.2第二轮",
+      "ocr": "在UNIX一切皆文件的思想下，进程间通信就被冠名为文件描述符 (File Descriptor)",
+      "current": "在UNIX一切皆文件的思想下，进程间通信就被冠名为文件描述符 (File Descriptor)",
+      "final": "在UNIX一切皆文件的思想下，进程通过文件描述符 (File Descriptor) 访问套接字",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "同段明确每端操作各自的“文件”；文件描述符指套接字的访问句柄，不是进程间通信的别名。",
+      "sources": [
+        "入库教材 PDF 物理 569 / 印刷 562，第二轮页图目读"
+      ]
+    },
+    {
+      "id": "ch16r2b-037",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第02节-嵌入式系统软件架构原理与特征.md",
+      "loc": "物理 571 / 印刷 564，16.2第二轮",
+      "ocr": "属于在嵌入式实时操作系统范畴",
+      "current": "属于在嵌入式实时操作系统范畴",
+      "final": "属于嵌入式实时操作系统范畴",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "删除多余介词。",
+      "sources": [
+        "入库教材 PDF 物理 571 / 印刷 564，第二轮页图目读"
+      ]
+    },
+    {
+      "id": "ch16r2b-038",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第02节-嵌入式系统软件架构原理与特征.md",
+      "loc": "物理 571 / 印刷 564，16.2第二轮",
+      "ocr": "而Android和iOS属于嵌入式操作系统，也是一款移动操作系统",
+      "current": "而Android和iOS属于嵌入式操作系统，也是一款移动操作系统",
+      "final": "而Android和iOS属于嵌入式操作系统，也都是移动操作系统",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "与两个并列主语和“两款产品”统一数量。",
+      "sources": [
+        "入库教材 PDF 物理 571 / 印刷 564，第二轮页图目读"
+      ]
+    },
+    {
+      "id": "ch16r2b-039",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第02节-嵌入式系统软件架构原理与特征.md",
+      "loc": "物理 571 / 印刷 564，16.2第二轮",
+      "ocr": "并被服务于各个应用领域",
+      "current": "并被服务于各个应用领域",
+      "final": "并服务于各个应用领域",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "“服务于”采用主动语态。",
+      "sources": [
+        "入库教材 PDF 物理 571 / 印刷 564，第二轮页图目读"
+      ]
+    },
+    {
+      "id": "ch16r2b-040",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第02节-嵌入式系统软件架构原理与特征.md",
+      "loc": "物理 573 / 印刷 566，16.2第二轮",
+      "ocr": "可分类嵌入数据库、移动数据库",
+      "current": "可分类嵌入数据库、移动数据库",
+      "final": "可分为嵌入数据库、移动数据库",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "分类结果前需有“为”。",
+      "sources": [
+        "入库教材 PDF 物理 573 / 印刷 566，第二轮页图目读"
+      ]
+    },
+    {
+      "id": "ch16r2b-041",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第02节-嵌入式系统软件架构原理与特征.md",
+      "loc": "物理 574 / 印刷 567，16.2第二轮",
+      "ocr": "客户端和服务器是完全两个独立的进程",
+      "current": "客户端和服务器是完全两个独立的进程",
+      "final": "客户端和服务器是两个完全独立的进程",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "修正“完全”修饰“独立”的词序。",
+      "sources": [
+        "入库教材 PDF 物理 574 / 印刷 567，第二轮页图目读"
+      ]
+    },
+    {
+      "id": "ch16r2b-042",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第02节-嵌入式系统软件架构原理与特征.md",
+      "loc": "物理 575 / 印刷 568，16.2第二轮",
+      "ocr": "由D.Richard Hipp建立",
+      "current": "由D.Richard Hipp建立",
+      "final": "由D. Richard Hipp建立",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "英文名字首字母与后续名之间留空格。",
+      "sources": [
+        "入库教材 PDF 物理 575 / 印刷 568，第二轮页图目读"
+      ]
+    },
+    {
+      "id": "ch16r2b-043",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第02节-嵌入式系统软件架构原理与特征.md",
+      "loc": "物理 575 / 印刷 568，16.2第二轮",
+      "ocr": "如：TCL、C#、JAVA等",
+      "current": "如：TCL、C#、JAVA等",
+      "final": "如Tcl、C#、Java等",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "Tcl和Java按专名拼写，首字母大写。",
+      "sources": [
+        "入库教材 PDF 物理 575 / 印刷 568，第二轮页图目读"
+      ]
+    },
+    {
+      "id": "ch16r2b-044",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第02节-嵌入式系统软件架构原理与特征.md",
+      "loc": "物理 576 / 印刷 569，16.2第二轮",
+      "ocr": "VDBE的字节代码由128个操作码 (OPCodes) 构成，它们主要集中在数据库操作。它的每一条指令都用来完成特定的数据库操作(比如打开一个表的游标)或者为这些操作准备栈空间(比如压入参数)。",
+      "current": "VDBE的字节代码由128个操作码 (OPCodes) 构成，它们主要集中在数据库操作。它的每一条指令都用来完成特定的数据库操作(比如打开一个表的游标)或者为这些操作准备栈空间(比如压入参数)。",
+      "final": "VDBE的字节代码由操作码构成，具体指令集随SQLite版本变化，主要用于数据库操作。指令可完成特定的数据库操作(比如打开一个表的游标)，也可为这些操作准备参数。",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "解决ch16b-064。直接核阅SQLite 3.3.8与3.45.0解释器，前者以栈传递操作数，后者以寄存器为主，操作码分支亦有不同。128不可视为跨版本常数；不据此推测数字来源。",
+      "sources": [
+        "入库教材 PDF 物理 576 / 印刷 569，第二轮页图目读",
+        "https://raw.githubusercontent.com/sqlite/sqlite/version-3.3.8/src/vdbe.c（2026-11-27 核阅）",
+        "https://raw.githubusercontent.com/sqlite/sqlite/version-3.45.0/src/vdbe.c（2026-11-27 核阅）"
+      ]
+    },
+    {
+      "id": "ch16r2b-045",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第02节-嵌入式系统软件架构原理与特征.md",
+      "loc": "物理 581 / 印刷 574，16.2第二轮",
+      "ocr": "和它的衍生结构：数据分发服务",
+      "current": "和它的衍生结构：数据分发服务",
+      "final": "和数据分发服务",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "解决ch16b-043。OMG的DDS/RTPS规范仓库，以及独立实现Fast DDS和OpenDDS，均将DDS列作OMG的独立发布订阅标准。本页末本已并列两种中间件。",
+      "sources": [
+        "入库教材 PDF 物理 581 / 印刷 574，第二轮页图目读",
+        "https://raw.githubusercontent.com/omg-dds/dds-rtps/master/README.md（2026-11-27 核阅）",
+        "https://raw.githubusercontent.com/eProsima/Fast-DDS/master/README.md（2026-11-27 核阅）",
+        "https://raw.githubusercontent.com/OpenDDS/OpenDDS/master/README.md（2026-11-27 核阅）"
+      ]
+    },
+    {
+      "id": "ch16r2b-046",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第02节-嵌入式系统软件架构原理与特征.md",
+      "loc": "物理 586 / 印刷 579，16.2第二轮",
+      "ocr": "实现软件调试。目标机板上运行的监控程序",
+      "current": "实现软件调试。\n\n目标机板上运行的监控程序",
+      "final": "实现软件调试。目标机板上运行的监控程序",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "页图后句顶格承上，恢复同段。",
+      "sources": [
+        "入库教材 PDF 物理 586 / 印刷 579，第二轮页图目读"
+      ]
+    },
+    {
+      "id": "ch16r2b-047",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第02节-嵌入式系统软件架构原理与特征.md",
+      "loc": "物理 587 / 印刷 580，16.2第二轮",
+      "ocr": "Java开发工具 (Java Development Kit,JDK)",
+      "current": "Java开发工具 (Java Development Kit,JDK)",
+      "final": "Java开发工具 (Java Development Tools, JDT)",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "解决ch16b-065。Eclipse JDT特性清单和JDT Core项目说明均将其定义为Java开发工具插件；宿主层使用的Java开发工具包仍为JDK。",
+      "sources": [
+        "入库教材 PDF 物理 587 / 印刷 580，第二轮页图目读",
+        "https://raw.githubusercontent.com/eclipse-jdt/eclipse.jdt/master/org.eclipse.jdt-feature/feature.properties（2026-11-27 核阅）",
+        "https://raw.githubusercontent.com/eclipse-jdt/eclipse.jdt.core/master/README.md（2026-11-27 核阅）",
+        "https://raw.githubusercontent.com/openjdk/jdk/master/README.md（2026-11-27 核阅）"
+      ]
+    },
+    {
+      "id": "ch16r2b-048",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第02节-嵌入式系统软件架构原理与特征.md",
+      "loc": "物理 588 / 印刷 581，16.2第二轮",
+      "ocr": "Debugger Services Frameworks,DSF",
+      "current": "Debugger Services Frameworks,DSF",
+      "final": "Debugger Services Framework, DSF",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "解决ch16b-066。CDT的DSF编程指南和DSF-GDB启动委托均用Debugger Services Framework；核心插件另称Debug Services Framework Core，两种官方用法均为单数。依据正文改动最小，保留Debugger。",
+      "sources": [
+        "入库教材 PDF 物理 588 / 印刷 581，第二轮页图目读",
+        "https://github.com/eclipse-cdt/cdt/blob/main/doc/org.eclipse.cdt.doc.isv/guide/dsf/intro/dsf_programming_intro.html（2026-11-27 核阅）",
+        "https://raw.githubusercontent.com/eclipse-cdt/cdt/main/dsf-gdb/org.eclipse.cdt.dsf.gdb/plugin.properties（2026-11-27 核阅）",
+        "https://raw.githubusercontent.com/eclipse-cdt/cdt/main/dsf/org.eclipse.cdt.dsf/plugin.properties（2026-11-27 核阅）"
+      ]
+    },
+    {
+      "id": "ch16r2b-049",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第02节-嵌入式系统软件架构原理与特征.md",
+      "loc": "物理 588 / 印刷 581，16.2第二轮",
+      "ocr": "GNU GCC的基本功能包括：",
+      "current": "GNU GCC的基本功能包括：",
+      "final": "采用GCC的GNU工具链可完成下列工作：",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "下接项目含生成静态库、转换格式，分别可由GNU Binutils的ar与objcopy完成；编译器只是工具链的一部分。",
+      "sources": [
+        "入库教材 PDF 物理 588 / 印刷 581，第二轮页图目读",
+        "https://raw.githubusercontent.com/gcc-mirror/gcc/master/gcc/doc/invoke.texi（2026-11-27 核阅）",
+        "https://raw.githubusercontent.com/RTEMS/sourceware-mirror-binutils-gdb/master/binutils/doc/binutils.texi（2026-11-27 核阅）"
+      ]
+    },
+    {
+      "id": "ch16r2b-050",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第02节-嵌入式系统软件架构原理与特征.md",
+      "loc": "物理 589 / 印刷 582，16.2第二轮",
+      "ocr": "GNU编译器套件主要包括编译器 (GCC)、汇编器 (AS)、连接器 (LD)、库管理器(AR)、Make以及其他实用程序。可支持C、C++、Objective-C、Fortran、Java、Ada和Go等语言前端，也包括了这些语言的库(如libstdc++、libgcj等)。",
+      "current": "GNU编译器套件主要包括编译器 (GCC)、汇编器 (AS)、连接器 (LD)、库管理器(AR)、Make以及其他实用程序。可支持C、C++、Objective-C、Fortran、Java、Ada和Go等语言前端，也包括了这些语言的库(如libstdc++、libgcj等)。",
+      "final": "GNU开发工具链常用的工具包括编译器集合 (GCC)、汇编器 (as)、链接器 (ld)、归档工具 (ar)、GNU Make等。GCC支持C、C++、Objective-C、Fortran、Ada和Go等语言，并提供相应的运行库(如libstdc++)。早期版本还包括Java前端及其运行库libgcj。",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "解决ch16b-067。Binutils将ar、as、ld列为工具，GNU Make是独立构建工具；GCC 6安装手册和GCC删除libjava的提交将Java/GCJ支持定位于历史版本。",
+      "sources": [
+        "入库教材 PDF 物理 589 / 印刷 582，第二轮页图目读",
+        "https://raw.githubusercontent.com/RTEMS/sourceware-mirror-binutils-gdb/master/binutils/doc/binutils.texi（2026-11-27 核阅）",
+        "https://raw.githubusercontent.com/gcc-mirror/gcc/releases/gcc-6/gcc/doc/install.texi（2026-11-27 核阅）",
+        "https://github.com/gcc-mirror/gcc/commit/07b78716af6a9d7c9fd1e94d9baf94a52c873947（2026-11-27 核阅）"
+      ]
+    },
+    {
+      "id": "ch16r2b-051",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第02节-嵌入式系统软件架构原理与特征.md",
+      "loc": "物理 583 / 印刷 576，16.2第二轮",
+      "ocr": "图16-21 分布式对象中间件原理架构示意图",
+      "current": "> 图 16-21 分布式对象中间件原理架构示意图",
+      "final": "> 图 16-21 分布式对象中间件原理架构示意图",
+      "class": "R",
+      "confidence": "—",
+      "evidence": "图16-21的高清局部与盲核一致：由ORB连到上方公共设施的两条线在公共设施边缘有箭头；左三线箭头难辨，保留无向，上下其余端点不变。",
+      "sources": [
+        "入库教材 PDF 物理 583 / 印刷 576，第二轮页图目读"
+      ]
+    },
+    {
+      "id": "ch16r2c-01",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第03节-嵌入式系统软件架构设计方法.md",
+      "loc": "ADD步骤五",
+      "ocr": "举个例子：比如在局域网络",
+      "current": "举个例子：比如在局域网络",
+      "final": "比如在局域网络",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "“举个例子”和“比如”重复，以后者直接引出三层示例。",
+      "sources": [
+        "教材 PDF 物理页 593（印刷页 586），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch16r2c-02",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第03节-嵌入式系统软件架构设计方法.md",
+      "loc": "ADD步骤七",
+      "ocr": "避免否定，导致返工",
+      "current": "避免否定，导致返工",
+      "final": "避免因设计被否定而返工",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "段内意图是先取得认可来减少返工，现有断句反转因果。",
+      "sources": [
+        "教材 PDF 物理页 594（印刷页 587），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch16r2c-03",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第03节-嵌入式系统软件架构设计方法.md",
+      "loc": "任务架构图的方法归属",
+      "ocr": "RTSAD设计方法使用任务架构图",
+      "current": "RTSAD设计方法使用任务架构图",
+      "final": "DARTS设计方法使用任务架构图",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "前页说明RTSAD未处理并发任务，后页DARTS的步骤二、三明确使用TAD，恢复方法归属。",
+      "sources": [
+        "教材 PDF 物理页 595（印刷页 588），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch16r2c-04",
+      "file": "assets/figures/textbook/ch16-embedded-system-architecture/figure-16-26.svg",
+      "loc": "图16-26第四行",
+      "ocr": "无回复紧凑耦合消息通信",
+      "current": "无回复紧凑耦合消息通信",
+      "final": "无回复紧密耦合消息通信",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "正文两处将这对形式称为松散耦合和紧密耦合。",
+      "sources": [
+        "教材 PDF 物理页 595（印刷页 588），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch16r2c-05",
+      "file": "assets/figures/textbook/ch16-embedded-system-architecture/figure-16-26.svg",
+      "loc": "图16-26第五行",
+      "ocr": "紧凑耦合消息通信：消息/回复",
+      "current": "紧凑耦合消息通信：消息/回复",
+      "final": "紧密耦合消息通信：消息/回复",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "按同页两种通信形式的术语对齐第五行。",
+      "sources": [
+        "教材 PDF 物理页 595（印刷页 588），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch16r2c-06",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第03节-嵌入式系统软件架构设计方法.md",
+      "loc": "DARTS不足",
+      "ocr": "没有像NRL和OOD完全做到了这一点",
+      "current": "没有像NRL和OOD完全做到了这一点",
+      "final": "没有像NRL和OOD那样完全做到这一点",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "“像……那样”与否定形式“没有做到”配套。",
+      "sources": [
+        "教材 PDF 物理页 596（印刷页 589），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch16r2c-07",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第04节-嵌入式系统软件架构案例分析.md",
+      "loc": "鸿蒙分布式理念",
+      "ocr": "能够支持多种终端设备的能力",
+      "current": "能够支持多种终端设备的能力",
+      "final": "能够支持多种终端设备",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "谓语“能够支持”与宾语“多种终端设备”完整，末尾再接“的能力”属于句式杂糅。",
+      "sources": [
+        "教材 PDF 物理页 597（印刷页 590），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch16r2c-08",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第04节-嵌入式系统软件架构案例分析.md",
+      "loc": "内核抽象层",
+      "ocr": "Kernel Abstract Layer, KAL",
+      "current": "Kernel Abstract Layer, KAL",
+      "final": "Kernel Abstraction Layer, KAL",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "中文“内核抽象层”在相应OpenHarmony系统架构官方说明中作kernel abstraction layer (KAL)。保留本文针对当时架构的描述。",
+      "sources": [
+        "教材 PDF 物理页 597（印刷页 590），OCR 衍生页面",
+        "https://raw.githubusercontent.com/openharmony/docs/master/en/OpenHarmony-Overview.md（访问 2026-11-27）"
+      ]
+    },
+    {
+      "id": "ch16r2c-09",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第04节-嵌入式系统软件架构案例分析.md",
+      "loc": "形式化验证的范围",
+      "ocr": "形式化方法是利用数学方法，从源头验证系统正确，无漏洞的有效手段。传统验证方法如功能验证，模拟攻击等只能在选择的有限场景进行验证，而形式化方法可通过数据模型验证所有软件运行路径。",
+      "current": "形式化方法是利用数学方法，从源头验证系统正确，无漏洞的有效手段。传统验证方法如功能验证，模拟攻击等只能在选择的有限场景进行验证，而形式化方法可通过数据模型验证所有软件运行路径。",
+      "final": "形式化方法利用数学方法，在给定模型和假设下验证系统是否满足指定性质。功能测试、模拟攻击等方法检查所选场景，而形式化验证可覆盖模型中与待证性质相关的执行路径。",
+      "class": "C2",
+      "confidence": "中高",
+      "evidence": "seL4的验证工作区分别列出抽象规范、设计规范、C代码及其精化关系；另一套验证器CBMC明确校验用户断言并受循环展开界限约束。二者共同说明证明须限定性质与模型，不能推出没有任何漏洞。",
+      "sources": [
+        "教材 PDF 物理页 599（印刷页 592），OCR 衍生页面",
+        "https://raw.githubusercontent.com/seL4/l4v/master/README.md（访问 2026-11-27）",
+        "https://raw.githubusercontent.com/diffblue/cbmc/develop/README.md（访问 2026-11-27）"
+      ]
+    },
+    {
+      "id": "ch16r2c-10",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第04节-嵌入式系统软件架构案例分析.md",
+      "loc": "时延和IPC数据的归属",
+      "ocr": "应用响应时延降低25.7%。鸿蒙微内核结构小巧的特性使IPC (进程间通信)性能大大提高，进程通信效率较现有系统提升5倍。",
+      "current": "应用响应时延降低25.7%。鸿蒙微内核结构小巧的特性使IPC (进程间通信)性能大大提高，进程通信效率较现有系统提升5倍。",
+      "final": "据本案例所述，应用响应时延降低25.7%。本案例还报告，鸿蒙微内核的IPC（进程间通信）效率较对比系统提升5倍。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "保留案例原有数字，将其限定为案例报告；未提供硬件、版本、工作负载或对照测量，首轮未决ch16c-86继续有效。",
+      "sources": [
+        "教材 PDF 物理页 599（印刷页 592），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch16r2c-11",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第04节-嵌入式系统软件架构案例分析.md",
+      "loc": "示例架构构成",
+      "ocr": "包括两类构成系统：即构件和基础平台",
+      "current": "包括两类构成系统：即构件和基础平台",
+      "final": "由两部分构成，即构件和基础平台",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "由冒号后的并列项目可知，句子介绍架构的两个组成部分。",
+      "sources": [
+        "教材 PDF 物理页 601（印刷页 594），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch16r2c-12",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第04节-嵌入式系统软件架构案例分析.md",
+      "loc": "构件的实例化",
+      "ocr": "每一个构件表示可以被实例化多次",
+      "current": "每一个构件表示可以被实例化多次",
+      "final": "每一个构件可以被实例化多次",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "本句用“可以被实例化”作谓语，衍入“表示”使主谓不通。",
+      "sources": [
+        "教材 PDF 物理页 602（印刷页 595），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch16r2c-13",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第04节-嵌入式系统软件架构案例分析.md",
+      "loc": "构件分类的判据",
+      "ocr": "GENESYS架构将构件归为四类：硬件构件和软件构件、系统构件和应用构件。",
+      "current": "GENESYS架构将构件归为四类：硬件构件和软件构件、系统构件和应用构件。",
+      "final": "GENESYS架构按实现方式将构件分为硬件构件和软件构件，按用途分为系统构件和应用构件。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "同页两段分别区分由硬件或软件决定功能、提供架构服务或应用功能，两对分类可交叉。",
+      "sources": [
+        "教材 PDF 物理页 602（印刷页 595），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch16r2c-14",
+      "file": "assets/figures/textbook/ch16-embedded-system-architecture/figure-16-30.svg",
+      "loc": "图16-30右侧接口",
+      "ocr": "连接口（LIF）",
+      "current": "连接口（LIF）",
+      "final": "连接接口（LIF）",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "下页明确称为LIF连接接口，本页正文亦给出链接接口。",
+      "sources": [
+        "教材 PDF 物理页 602（印刷页 595），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch16r2c-15",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第04节-嵌入式系统软件架构案例分析.md",
+      "loc": "设备级寻址",
+      "ocr": "一个设备可以是在互联网上的一个可寻址实体，也可以是一个IP地址",
+      "current": "一个设备可以是在互联网上的一个可寻址实体，也可以是一个IP地址",
+      "final": "设备可以是互联网上的可寻址实体，通过IP地址寻址",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "设备与用于寻址的地址不是同一类型；保留本段关于可寻址设备的说明。",
+      "sources": [
+        "教材 PDF 物理页 603（印刷页 596），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch16r2c-16",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第04节-嵌入式系统软件架构案例分析.md",
+      "loc": "物联网三层",
+      "ocr": "在物联网应用中有三项关键，分别是",
+      "current": "在物联网应用中有三项关键，分别是",
+      "final": "物联网应用的三个关键层次分别是",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "随后列出的三个项目均以“层”结尾，补明比较对象。",
+      "sources": [
+        "教材 PDF 物理页 604（印刷页 597），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch16r2c-17",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第04节-嵌入式系统软件架构案例分析.md",
+      "loc": "操作系统与安卓比较",
+      "ocr": "就单一层次的物联网操作系统与安卓",
+      "current": "就单一层次的物联网操作系统与安卓",
+      "final": "就单一层次而言，物联网操作系统与安卓",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "“就……而言”领起层次条件，后句主语为物联网操作系统。",
+      "sources": [
+        "教材 PDF 物理页 604（印刷页 597），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch16r2c-18",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第04节-嵌入式系统软件架构案例分析.md",
+      "loc": "物联网实时性需求",
+      "ocr": "物联网操作系统是对末端设备和设施的管理，也应属于强实时系统的实时性要求。",
+      "current": "物联网操作系统是对末端设备和设施的管理，也应属于强实时系统的实时性要求。",
+      "final": "物联网操作系统管理末端设备和设施，其实时性要求取决于具体应用。对于有强实时要求的任务，系统必须在规定的截止时间内完成调度和执行。",
+      "class": "C1",
+      "confidence": "高",
+      "evidence": "本章16.2.2将强实时系统限定到“使所有时间关键任务满足其指定的截止时限”，分类说明区分不同应用的需求，不能将所有物联网应用一概归入强实时。",
+      "sources": [
+        "教材 PDF 物理页 605（印刷页 598），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch16r2c-19",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第03节-嵌入式系统软件架构设计方法.md",
+      "loc": "中文与图表编号之间的排版",
+      "ocr": "表 16-4给出",
+      "current": "表 16-4给出",
+      "final": "表 16-4 给出",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "使用与同节其他引句一致的图表编号间距。",
+      "sources": [
+        "教材 PDF 物理页 591（印刷页 584），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch16r2c-20",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第03节-嵌入式系统软件架构设计方法.md",
+      "loc": "中文与图表编号之间的排版",
+      "ocr": "图 16-23所示",
+      "current": "图 16-23所示",
+      "final": "图 16-23 所示",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "使用与同节其他引句一致的图表编号间距。",
+      "sources": [
+        "教材 PDF 物理页 591（印刷页 584），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch16r2c-21",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第03节-嵌入式系统软件架构设计方法.md",
+      "loc": "中文与图表编号之间的排版",
+      "ocr": "图 16-24所示",
+      "current": "图 16-24所示",
+      "final": "图 16-24 所示",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "使用与同节其他引句一致的图表编号间距。",
+      "sources": [
+        "教材 PDF 物理页 592（印刷页 585），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch16r2c-22",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第03节-嵌入式系统软件架构设计方法.md",
+      "loc": "中文与图表编号之间的排版",
+      "ocr": "图 16-25给出",
+      "current": "图 16-25给出",
+      "final": "图 16-25 给出",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "使用与同节其他引句一致的图表编号间距。",
+      "sources": [
+        "教材 PDF 物理页 594（印刷页 587），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch16r2c-23",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第03节-嵌入式系统软件架构设计方法.md",
+      "loc": "中文与图表编号之间的排版",
+      "ocr": "图 16-26所示",
+      "current": "图 16-26所示",
+      "final": "图 16-26 所示",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "使用与同节其他引句一致的图表编号间距。",
+      "sources": [
+        "教材 PDF 物理页 595（印刷页 588），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch16r2c-24",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第04节-嵌入式系统软件架构案例分析.md",
+      "loc": "中文与图表编号之间的排版",
+      "ocr": "图 16-27所示",
+      "current": "图 16-27所示",
+      "final": "图 16-27 所示",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "使用与同节其他引句一致的图表编号间距。",
+      "sources": [
+        "教材 PDF 物理页 597（印刷页 590），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch16r2c-25",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第04节-嵌入式系统软件架构案例分析.md",
+      "loc": "中文与图表编号之间的排版",
+      "ocr": "图 16-29给出",
+      "current": "图 16-29给出",
+      "final": "图 16-29 给出",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "使用与同节其他引句一致的图表编号间距。",
+      "sources": [
+        "教材 PDF 物理页 601（印刷页 594），OCR 衍生页面"
+      ]
+    },
+    {
+      "id": "ch16r2c-26",
+      "file": "content/01-系统架构设计师教材-清洗版/第16章-嵌入式系统架构设计理论与实践/第04节-嵌入式系统软件架构案例分析.md",
+      "loc": "中文与图表编号之间的排版",
+      "ocr": "图 16-29所示",
+      "current": "图 16-29所示",
+      "final": "图 16-29 所示",
+      "class": "N",
+      "confidence": "—",
+      "evidence": "使用与同节其他引句一致的图表编号间距。",
+      "sources": [
+        "教材 PDF 物理页 601（印刷页 594），OCR 衍生页面"
+      ]
     }
   ],
   "counts": {
-    "N": 81,
-    "C1": 63,
+    "N": 118,
+    "C1": 105,
     "K": 10,
     "C3": 21,
-    "C2": 6,
-    "R": 61
+    "C2": 18,
+    "R": 63
+  },
+  "round_2": {
+    "baseline": "0309b4813827863916f2b6a9a6ce092b5cb5f72b",
+    "record": "verification/教材第二轮独立盲核记录-第16章.md",
+    "counts": {
+      "C1": 42,
+      "C2": 12,
+      "N": 37,
+      "R": 2
+    },
+    "resolved": [
+      "ch16a-18",
+      "ch16a-48",
+      "ch16b-018",
+      "ch16b-043",
+      "ch16b-064",
+      "ch16b-065",
+      "ch16b-066",
+      "ch16b-067",
+      "ch16c-87"
+    ]
   }
 }

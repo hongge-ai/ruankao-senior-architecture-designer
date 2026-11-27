@@ -3403,7 +3403,7 @@
    "printed_page": 550,
    "note": "元素与从属接口的递归包含关系。",
    "id": "tb-fig-0242",
-   "record": "verification/教材OCR纠错记录-第16章.md"
+   "record": "verification/教材第二轮独立盲核记录-第16章.md"
   },
   {
    "corpus": "textbook",
@@ -3445,7 +3445,7 @@
    "printed_page": 554,
    "note": "微内核用户空间的服务与应用进程，内核的四类代码和硬件平台。",
    "id": "tb-fig-0245",
-   "record": "verification/教材OCR纠错记录-第16章.md"
+   "record": "verification/教材第二轮独立盲核记录-第16章.md"
   },
   {
    "corpus": "textbook",
@@ -3611,9 +3611,9 @@
    "asset": "assets/figures/textbook/ch16-embedded-system-architecture/figure-16-21.svg",
    "physical_page": 583,
    "printed_page": 576,
-   "note": "两组上层对象连接到对象请求代理，代理通向公共服务。",
+   "note": "两组上层对象与对象请求代理相连，右侧含由代理指向上层对象的两支箭头；代理另与公共服务相连。",
    "id": "tb-fig-0257",
-   "record": "verification/教材OCR纠错记录-第16章.md"
+   "record": "verification/教材第二轮独立盲核记录-第16章.md"
   },
   {
    "corpus": "textbook",
@@ -3737,7 +3737,7 @@
    "asset": "assets/figures/textbook/ch16-embedded-system-architecture/figure-16-26.svg",
    "physical_page": 595,
    "printed_page": 588,
-   "record": "verification/教材OCR纠错记录-第16章.md",
+   "record": "verification/教材第二轮独立盲核记录-第16章.md",
    "note": "六行任务、信息隐藏、三种消息通信、事件，保留形状和方向。",
    "id": "tb-fig-0266"
   },
@@ -3793,7 +3793,7 @@
    "asset": "assets/figures/textbook/ch16-embedded-system-architecture/figure-16-30.svg",
    "physical_page": 602,
    "printed_page": 595,
-   "record": "verification/教材OCR纠错记录-第16章.md",
+   "record": "verification/教材第二轮独立盲核记录-第16章.md",
    "note": "中央构件，左侧七条双向线；上TDI、下TII、右LIF均双向。",
    "id": "tb-fig-0270"
   },

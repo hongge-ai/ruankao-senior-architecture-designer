@@ -17,7 +17,7 @@
 <text x="345" y="49" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">（如：内部仿真）</text>
 <text x="105" y="129" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">局部接口（LI）</text>
 <text x="105" y="151" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">如处理输入输出</text>
-<text x="594" y="129" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">连接口（LIF）</text>
+<text x="594" y="129" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">连接接口（LIF）</text>
 <text x="594" y="151" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">（组件接口）</text>
 <text x="348" y="230" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">技术无关接口（TII）</text>
 <text x="348" y="252" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#173c48">（构件配置和资源管理）</text>

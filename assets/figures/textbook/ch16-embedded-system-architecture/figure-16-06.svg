@@ -8,6 +8,6 @@
 <path d="M74 105H216" fill="none" stroke="#416c79" stroke-width="1.8"/>
 <circle cx="73" cy="105" r="7" fill="#377a91"/>
 <text x="72" y="83" text-anchor="middle" font-size="17">从属</text>
-<path d="M72 112v100h196v-29" fill="none" stroke="#416c79" stroke-width="1.8" stroke-dasharray="5 4"/>
+<path d="M73 116V212H268V183" fill="none" stroke="#416c79" stroke-width="1.8" stroke-dasharray="5 4" marker-start="url(#ar)"/>
 <path d="M268 173l8 8-8 8-8-8z" fill="#377a91"/>
 </g></svg>
