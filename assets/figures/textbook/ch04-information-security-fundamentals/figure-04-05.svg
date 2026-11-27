@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1080" height="400" viewBox="0 0 1080 400" font-family="sans-serif">
   <title>图 4-5 密钥分配</title>
-  <desc>复原自《系统架构设计师教程（第2版）》印刷页 156（物理页 165）插图。左椭圆 A、右椭圆 B。①上弧 A→B：E 下标 PKB，[N₁||IDA]。②中上线 B→A：E 下标 PKA，[N₁||N₂]。③中下线 B→A：E 下标 PKB，[N₂]。④下弧 A→B：E 下标 PKB，内层 E 下标 SKA，两层方括号 [E[Ks]]。无第三参与方。</desc>
+  <desc>复原自《系统架构设计师教程（第2版）》印刷页 156（物理页 165）插图。左椭圆 A、右椭圆 B。①上弧 A→B：E 下标 PKB，[N₁||IDA]。②中上线 B→A：E 下标 PKA，[N₁||N₂]。③中下线 A→B（局部扫描图的箭头反向，按本节挑战应答过程校正）：E 下标 PKB，[N₂]。④下弧 A→B：E 下标 PKB，内层 E 下标 SKA，两层方括号 [E[Ks]]。无第三参与方。</desc>
   <rect width="1080" height="400" fill="#ffffff"/>
   <defs>
     <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
@@ -15,7 +15,7 @@
 
   <path d="M156 158 Q540 24 924 158" fill="none" stroke="#4a5568" stroke-width="1.6" marker-end="url(#arr)"/>
   <path d="M924 176 L156 176" fill="none" stroke="#4a5568" stroke-width="1.6" marker-end="url(#arr)"/>
-  <path d="M924 214 L156 214" fill="none" stroke="#4a5568" stroke-width="1.6" marker-end="url(#arr)"/>
+  <path d="M156 214 L924 214" fill="none" stroke="#4a5568" stroke-width="1.6" marker-end="url(#arr)"/>
   <path d="M156 230 Q540 372 924 230" fill="none" stroke="#4a5568" stroke-width="1.6" marker-end="url(#arr)"/>
 
   <text x="540" y="72" text-anchor="middle" font-size="15" fill="#1f2937">
