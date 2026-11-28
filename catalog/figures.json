@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "updated_at": "2026-11-27",
+ "updated_at": "2026-11-28",
  "note": "图表登记簿。依据现有 PDF 页面或 OCR 文本与上下文整理图表，保存为独立 SVG（kind=svg）。anchor 为正文中的唯一图题或表题，asset 指向 SVG，record 指向核查记录。无法判定的细节按 AGENTS.md 处理。",
  "entries": [
   {
@@ -2771,9 +2771,9 @@
    "asset": "assets/figures/textbook/ch13-layered-architecture/figure-13-03.svg",
    "physical_page": 461,
    "printed_page": 454,
-   "note": "保留用户、View、Presenter、Model及编号1至7的方向和线型。",
+   "note": "依据 PDF 核对用户、View、Presenter、Model 及编号 1 至 7 的箭头方向。修正 SVG 箭头渲染，第 7 步线身难辨，沿用既有虚线。",
    "id": "tb-fig-0197",
-   "record": "verification/教材OCR纠错记录-第13章.md"
+   "record": "verification/教材校对样板-第13章第02节.md"
   },
   {
    "corpus": "textbook",
