@@ -3199,15 +3199,15 @@
    "corpus": "textbook",
    "file": "content/01-系统架构设计师教材-清洗版/第15章-面向服务架构设计理论与实践/第02节-SOA的发展历史.md",
    "figure": "表 15-1",
-   "title": "可修改性质量属性场景描述",
+   "title": "国内 SOA 实施现状",
    "kind": "svg",
-   "anchor": "> 表 15-1 可修改性质量属性场景描述",
+   "anchor": "> 表 15-1 国内 SOA 实施现状",
    "asset": "assets/figures/textbook/ch15-service-oriented-architecture/figure-t15-01.svg",
    "physical_page": 522,
    "printed_page": 515,
-   "note": "两列，左列电信金融含3项，右列政府电力国防含5项。保留衍生页所显示的表题。",
+   "note": "两列，左列电信金融含3项，右列政府电力国防含5项。表题按同页引导句和表内主题校正。",
    "id": "tb-fig-0228",
-   "record": "verification/教材OCR纠错记录-第15章.md"
+   "record": "verification/教材OCR未决全量复核.md"
   },
   {
    "corpus": "textbook",

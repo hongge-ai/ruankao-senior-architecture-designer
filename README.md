@@ -41,7 +41,7 @@ uv run python scripts/validate_knowledge_base.py   # 应输出 PASSED: 0 errors
 
 两个真题来源目录共收录 53 份文件。17 组同名冲突保留独立版本。首选稿、独立备选与来源文件合计对应 90 条版本记录，映射见[真题清单](catalog/exams.json)。
 
-教材正文引用的 343 幅复原 SVG 均已收录在[图表登记簿](catalog/figures.json)。[勘误登记簿](catalog/errata.json)现有 53 条。两轮核查后仍有 164 个待核编号，具体字词、公式和图表细节见[教材 OCR 未决清单](verification/教材OCR未决清单.md)。
+教材正文引用的 343 幅复原 SVG 均已收录在[图表登记簿](catalog/figures.json)。[勘误登记簿](catalog/errata.json)现有 53 条。目前仍有 143 个待核编号，具体字词、公式和图表细节见[教材 OCR 未决清单](verification/教材OCR未决清单.md)。
 
 ## 教材范围
 
