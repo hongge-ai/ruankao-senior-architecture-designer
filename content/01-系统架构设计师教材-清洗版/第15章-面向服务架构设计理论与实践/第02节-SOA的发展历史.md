@@ -60,9 +60,9 @@ XML是SOA的基石。XML规定了服务之间以及服务内部数据交换的�
 
 关于国内实施SOA的现状，报告用表 15-1 进行了阐述。
 
-![表 15-1 可修改性质量属性场景描述](../../../assets/figures/textbook/ch15-service-oriented-architecture/figure-t15-01.svg)
+![表 15-1 国内 SOA 实施现状](../../../assets/figures/textbook/ch15-service-oriented-architecture/figure-t15-01.svg)
 
-> 表 15-1 可修改性质量属性场景描述
+> 表 15-1 国内 SOA 实施现状
 
 ## 15.2.3 SOA的微服务化发展
 
